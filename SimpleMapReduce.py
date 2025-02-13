@@ -50,16 +50,23 @@ def count_words(item):
 if __name__ == '__main__':
     import operator
     import glob
-
+    import time
     input_files = glob.glob('data/*.txt')
+    #Cache all input files to memory
+    for file in input_files:
+        with open(file, 'rt', encoding='utf8') as f:
+            f.read()
+    
+    startTime = time.perf_counter()
     
     mapper = SimpleMapReduce(words_in_file, count_words)
     word_counts = mapper(input_files)
-    word_counts.sort(key=operator.itemgetter(1))
-    word_counts.reverse()
-    
+    word_counts.sort(key=operator.itemgetter(1), reverse=True)
     print('\nTOP 20 WORDS BY FREQUENCY\n')
     top20 = word_counts[:20]
     longest = max(len(word) for word, count in top20)
     for word, count in top20:
         print('%-*s: %5s' % (longest+1, word, count))
+
+    endTime = time.perf_counter()
+    print('\nTime taken: {:.2f} seconds'.format(endTime - startTime))
