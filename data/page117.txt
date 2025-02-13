@@ -1,0 +1,32 @@
+ framework and requirements for cloud computing 1 
+ 
+   109 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cloud computing – overview and 
+functional requirements  
+for data storage federation 
+recommendation itu-t y.3505 
+(05/2018) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

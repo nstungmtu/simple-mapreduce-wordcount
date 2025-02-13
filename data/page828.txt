@@ -1,0 +1,44 @@
+5 intercloud and interoperability  
+ 
+820  
+3.1.7 peer cloud service [itu-t y.3502]: a cloud service of one cloud service provider which is used as part 
+of a cloud service of one or more other cloud service providers. 
+3.1.8 peer cloud service provider [itu-t y.3502]: a cloud service provider who provides one or more cloud 
+services for use by one or more other cloud service providers as part of their cloud services. 
+3.1.9 primary cloud service provider [itu-t y.3511]: in inter-cloud computing, a cloud service provider 
+which is making use of cloud services of peer cloud service providers (i.e., secondary cloud service providers) 
+as part of its own cloud services. 
+3.1.10 role [itu-t y.3502]: a set of activities that serves a common purpose. 
+3.1.11 secondary cloud service provider [itu-t y.3511]: in inter-cloud computing, a cloud service provider 
+which provides cloud services to a primary cloud service provider.  
+note – the primary cloud service provider can use the services of secondary cloud service providers as part of its 
+services offered to cloud service customers. 
+3.1.12 sub-role [itu-t y.3502]: a subset of the activities of a given role. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bss business support system 
+csc cloud service customer 
+csp cloud service provider 
+csu cloud service user 
+kpi key performance indicator 
+oss operations support system 
+qos quality of service 
+sla service level agreement 
+5 conventions 
+none. 
+6 overview 
+6.1 inter-cloud functional architecture with different patterns  
+inter-cloud computing describes the interworking of cloud service providers (csps) in order to deliver cloud 
+services to cloud service customers  (cscs) and cloud service users  (csus) [itu-t y.3511]. one important 
+target of inter -cloud computing for csps is to take benefit of the inter -cloud relationships established 
+between peer csps (through inter-cloud patterns) in order to satisfy cloud service requirements of cscs. the 
+csp who provides services for cscs plays the role of primary csp. the primary csp is responsible for the cloud 
+service level agreement (sla) and interacts with peer csp(s) within an inter-cloud relationship. 
+an inter-cloud relationship is bidirectional. as illustrated on figure 6 -1, csp a plays a role of primary  csp 
+when using the services of csp b for providing services to its own customers, csc a1 and csc a2 (highlighted 
+by black coloured arrows). csp a plays the role of secondary csp when providing services to csp b, who plays 
+the role of primary csp and provides services to its own customers, csc b1 and csc b2 (highlighted by gre y 
+coloured arrows). 

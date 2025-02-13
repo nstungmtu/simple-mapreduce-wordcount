@@ -1,0 +1,45 @@
+7 security  
+ 
+1020 
+1 scope 
+this recommendation clarifies the security responsibilities between cloud service providers (csps) and cloud 
+service customers (cscs), and analyses the requirements and categories of security metrics of operational 
+security for cloud computing. it defines sets of detailed security measures and security activities for the daily 
+operation and maintenance for cloud computing services and infrastructure from the perspective of csps, to 
+fulfil the requirements of operational security for cloud computing. 
+this recommendation will be helpful for csps to reduce operational risks. the target audiences of t his 
+recommendation are csps, such as traditional telecommunication operators and internet service providers 
+(isps). 
+2 references 
+none. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+3.1.2 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.3 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose 
+of using cloud services. 
+3.1.4 cloud service partner [b-itu-t y.3500]: party which is engaged in support of, or auxiliary to, activities 
+of either the cloud service provider or the cloud service customer, or both. 
+3.1.5 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.6 infrastructure a s a service (iaas) [b-itu-t y.3500]: cloud service category in which the cloud 
+capabilities type provided to the cloud service customer is an infrastructure capabilities type. 
+3.1.7 multi-tenancy [b-itu-t y.3500]: allocation of physical or virtual resources such that multiple tenants 
+and their computations and data are isolated from and inaccessible to one another. 
+3.1.8 network as a service (naas) [b-itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer is transport connectivity and related network capabilities. 
+3.1.9 party [b-iso 27729]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.10 platform as a service (paas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the service customer is a platform capabilities type. 
+3.1.11 security challenge [b-itu-t x.1601]: a security "difficulty" other than a direct security threat arising 
+from the nature and operating environment of cloud services, including "indirect" threats. 
+3.1.12 security domain [b-itu-t x.810]: a set of elements, a security policy, a security authority and a set 
+of security-relevant activities in which the set of elements are subject to the security policy for the specified 
+activities, and the security policy is administered by the security authority for the security domain. 
+3.1.13 security incident [b-itu-t e.409]: a security incident is any adverse event whereby some aspect of 
+security could be threatened. 
+3.1.14 service level agreement  (sla) [b-iso/iec 20000-1]: documented agreement between the service 
+provider and customer that identifies services and service targets. 

@@ -1,0 +1,51 @@
+1 framework and requirements for cloud computing  
+ 
+404  
+table 13-2 provides an analysis of itu-t sg16 deliverables.  
+table 13-2 – analysis of itu-t sg16 deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+ itu-t f.743.2 itu-t h.626.2    
+security       
+management    itu-t 
+h.248.cloud 
+  
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+14 itu-t sg2 
+table 14-1 below provides a list of itu-t sg2 deliverables associated with cloud computing. 
+table 14-1 – itu-t sg2 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t m.3071, cloud-based network management 
+functional architecture 
+recommendation 04/2016 12/2017 
+itu-t m.3372, requirements for resource management 
+in cloud-aware telecommunication management 
+systems 
+recommendation 04/2017 12/2018 
+• itu-t m.3071: this recommendation introduces a new network management functional 
+architecture with cloud-computing technology. in this recommendation, the background and basic 
+concept of cloud -based network management are provided. this recommendation also provides 
+details of a cloud -based network management funct ional architecture, including its basic 
+components, functionalities and the relationship between its components.  
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13479 
+• itu-t m.3372: this document provides the functional framework and functional requirements for 
+resource management in cloud -aware telecommunication management systems, describes the 
+composition of a functional framework and explains the functions of eac h component in the 
+framework.  
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14193 

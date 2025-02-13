@@ -1,0 +1,12 @@
+6 monitoring  
+ 
+944  
+summary 
+in accordance with the functional reference architecture of cloud computing that was defined in 
+recommendation i tu-t y.3502, recommendation itu -t q.3914 specifies the functional reference 
+architecture of cloud computing according to recommendation itu-t y.3500. this recommendation  
+provides a set of parameters that indicate the status and event of a cloud computing system, includ ing 
+resource layer, service layer and access layer. 
+keywords 
+cloud computing, monitoring, parameter. 
+  

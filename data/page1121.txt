@@ -1,0 +1,14 @@
+ assisting developing countries 8 
+ 
+   1113 
+2.3 what costs are associated with adoption of cloud computing services? 
+ 
+figure i.7 – cost for deployment of cloud computing services 
+3 standardization requirements 
+3.1 have you signed any service level agreements (slas) to enhance customer protection? 
+ 
+figure i.8 – service level agreements 
+3.2 what are the service level agreement benchmarks for cloud computing? 
+ 
+figure i.9 – popular sla benchmarks 
+

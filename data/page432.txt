@@ -1,0 +1,10 @@
+2 cloud computing management  
+ 
+424  
+summary 
+recommendation itu-t y.3521/m.3070 presents a conceptual view and the common model of end to -end 
+(e2e) cloud computing management based on the service management interface (smi) and cloud computing 
+reference architecture, from the perspective of the telecommunications industry. 
+keywords 
+cloud computing management, end-to-end, model, multi-cloud, service management interface. 
+  

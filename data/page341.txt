@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   333 
+– analysis algorithm adaptation, which offers the capabilities to apply algorithms of classifica tion, 
+regression, clustering, association rules, ranking, etc. to process the datasets according to the csc 
+demands; 
+– distributed processing, which offers the capabilities to distribute the processing tasks to a cluster of 
+computing nodes; 
+– data application, which offers the capabilities to support applications or application plug-ins to use 
+the analysis results of datasets. 
+9.5 data visualization capabilities 
+data visualization capabilities include: 
+– data visualization, which offers the capabilities to create, configure, deliver and customize the visual 
+representation of data analysis results. 
+– data reporting, which offers the capabilities to make reports of summary, key elements and analysis 
+results of datasets. 
+9.6 data management capabilities 
+data management capabilities include: 
+– data provenance, which offers the capabilities to manage information pertaining to any source of 
+data including the party or parties involved in generation and introduction processes for data; 
+– data preservation, which off ers the capabilities to manage the series of activities necessary to 
+ensure continued access to data according to relevant policy; 
+– data ownership, which offers the capabilities to manage property rights of data possession and 
+disposition according to the change of data status (e.g., after data integration); 
+– processes monitoring, which offers the information related to data processing; 
+ note – this capability can include information such as the success of the job and task, running time, resource 
+utilization, etc. 
+– metadata management, which offers the capabilities of creating, defining, attributing, controlling 
+and updating metadata information. 
+9.7 data security and protection capabilities 
+data security and protection capabilities include: 
+– access control, which offers the capabilities to manage the rights of parties to control or influence 
+the information related to them; 
+– policy control, which offers the capabilities to control policies of data protection and security; 
+– data security, which offers the capabilities to apply the storage, network and service related security 
+mechanisms, including administrative, operational and maintenance issues. 
+10 security considerations 
+security aspects for consideration within cloud computing environments, including cloud infrastructure, iaas, 
+naas, daas  are addressed by security challenges for csps, as described in [itu -t x.1601].  in particular, 
+[itu-t x.1601] analyses security threats and challenges, and  describes security capabilities that could 
+mitigate these threats and meet security challenges. 
+relevant security requirements of [b-itu-t y.2201], [b-itu-t y.2701] and applicable x, y and m series of itu-t 
+recommendations need to be taken into considerat ion, including access control, authentication, data 
+confidentiality, data retention policy, network security, data integrity, availability and privacy. 

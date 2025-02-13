@@ -1,0 +1,10 @@
+intercloud and interoperability 5 
+ 
+  851 
+it is required that a csp avoids unauthorised use or modif ications of a csc’s vm state, service data or csc 
+data by other cscs. 
+8 security considerations 
+security aspects for consideration within the cloud computing environment, including inter-cloud computing, 
+are described in [itu -t x.1601] which analyses security threats and challenges, and describes security 
+capabilities that could mitigate these threats and meet these security challenges. 
+  

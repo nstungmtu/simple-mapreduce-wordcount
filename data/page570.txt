@@ -1,0 +1,60 @@
+3 xaas  
+ 
+562  
+appendix iii 
+ 
+daas use cases  
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes seven daas-related use cases in tables iii.1 to iii.7. 
+table iii.1 – office automation of development-oriented enterprise 
+legend use case 
+use case title office automation of development-oriented enterprise 
+use case 
+description 
+ 
+in this scenario, the daas users access the enterprise applications and data hosted in virtual 
+desktops which are created within a daas platform. common applications of this type include 
+online word processing, email, communication, co-operating development, etc. the sales staff 
+also can view customer information and marketing records on the enterprise website. the 
+daas platform interacts with traditional enterprise information and communication 
+technology facilities to achieve many control tasks, for instance, using dynamic host 
+configuration protocol (dhcp) to assign an ip address for thin client, leveraging internal 
+domain name system (dns) server to resolve local host names, and consulting authentication 
+of user desktop sessions. 
+high-level figure 
+describing the use 
+case  
+y .3503(14)_fiii.1
+desktop vm
+profiles
+apps
+os
+desktop vm
+profiles
+apps
+os
+desktop vm
+profiles
+apps
+os
+enterprise it
+application
+enterprise it applications
+office crm vss/tfs
+vdi infrastructure
+enterprise it infrastructure
+- ad (active directory)
+- dhcp
+- dns
+- firewall
+- ...
+ 
+derived 
+requirements  
+– single sign-on access control 
+– qoe 
+– standard video codec support 
+– support of daas client peripherals 
+– standard security protocol support  
+ 
+  

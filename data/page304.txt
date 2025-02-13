@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+296  
+9.6 cloud services switchover and switchback  
+the cloud services switchover and switchback capability deals with the switchover of the csc's end-user 
+access to cloud services from the primary csp to a peer csp to which the services may be provided in order 
+to cope with degradation in service performance  or a serious problem. it also deals with the switchback to 
+the primary csp when it is able to provide the services again. it should be noted that the reasons for switch-
+over ranges from a load distribution between csps, in which the primary csp role is maintained as it is, to a 
+serious problem, in which the primary csp role is delegated to the peer csp. t he capability differences to 
+reflect those reasons need further study. 
+the cloud service switchover and switchback capability is recommended to:  
+– allow switching over csc's end -user access to a peer csp (acting as primary csp) without manual 
+operation from the csc, in order to allow the csc's end user to use services in a similar manner to 
+the way they did before the access was switchover; 
+– allow switching back the csc's end-user access to the primary csp when this csp has recovered from 
+the reasons that led to the switchover (e.g., a disaster or load distribution between peer csps is no 
+longer needed). 
+9.7 resource release 
+the resource release capability deals with the release by a csp of the peer csps' (reserved and/or used) 
+resources after determining that these resources are no longer needed, e.g., based on monitoring the results 
+such as disaster recovery has been completed or load has been reduced. 
+the resource release capability is recommended to: 
+– allow releasing by the csp of resources reserved, activated and/or set up in the peer csps;  
+– allow updating the peer csp's resource configuration information; 
+– allow erasing and/or transferring back cloud application data received during the resource 
+reservation. 
+9.8 csc information exchange 
+the csc information exchange capability deals with exchanging csc profiles and associated information 
+between a primary csp and the secondary csps. the information associated with a csc is initially maintained 
+by the primary csp. when the primary csp reque sts that the secondary csps should provide additional 
+resources and run applications over the secondary csp resources, the secondary csps may need to perform 
+customer management by inheriting the csc profiles and associated information given by the primary  csp. 
+activation of csc information exchange needs prior agreement of the csc.  
+the csc information exchange capability is required to: 
+– be activated only with the prior agreement of the csc;  
+– be able to manage csc profiles and associated information. 
+the csc information exchange capability is recommended to:  
+– be able to exchange csc profiles and associated information among multiple csps according to a 
+pre-determined protocol and format, with the condition that the csc is informed of and agrees to 
+the exchange.  
+9.9 primary csp role delegation 
+the primary csp role delegation capability deals with transferring the primary csp role to one of the 
+secondary csps, e.g.,  in the event of a serious problem caused by natural disasters or permanent service 
+termination occurring at the current primary csp. in preparation for the serious problem or permanent 
+service termination at the primary csp, all management information associated with the primary csp is 
+shared with the secondary csps, while the absolute contro llability of the information, i.e.,  permission to 
+update the information, is still held by the primary csp. when the serious problem or service termination 

@@ -1,0 +1,105 @@
+3 xaas  
+ 
+726  
+table i.1 – mapping between requirements, activities and functional components 
+requirements in [itu-t y.3600] activities in 
+[itu-t y.3600] 
+functional 
+components in this 
+recommendation 
+related layers 
+with 
+[itu-t y.3502] 
+<clause 8.6 requirement (3)> 
+it is required for the csp:bdap to support 
+distributed cluster monitoring tools to 
+monitor the health and status of computing 
+clusters. 
+– 
+distributed processing 
+functional component 
+(7.2.1) 
+resource layer 
+<clause 8.6 requirement (5)> 
+it is recommended for the csp:bdip to 
+support network resource monitoring. 
+– 
+distributed processing 
+functional component 
+(7.2.1) 
+resource layer 
+<clause 8.3 requirement (3)> 
+it is required that the csp:bdip provides 
+flexible licensing policy for the database. 
+use big data 
+service (7.1.4.1) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.3 requirement (7)> 
+it is recommended that the csp:bdip 
+supports data retention policy covering data 
+retention period before its destruction after 
+termination of a contract, to protect the big 
+data service customer from losing private 
+data through an accidental lapse of the 
+contract. 
+manage data 
+protection 
+(7.1.3.5) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.7 requirement (4)> 
+it is recommended that the csp supports 
+implementing the csc’s data protection and 
+security policies over data and analytical 
+results. 
+manage data 
+protection 
+(7.1.3.5) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.7 requirement (3)> 
+it is required that the csp deletes csc related 
+data and analytical results according to the 
+lifetime defined by the csc or on the csc's 
+demand. 
+manage data 
+protection 
+(7.1.3.5) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.6 requirement (6)> 
+it is recommended for the csp:bdip to 
+support management of data life-cycle 
+operations. 
+– 
+data life-cycle 
+monitoring functional 
+component (7.3.3.1) 
+oss 
+<clause 8.6 requirement (4)> 
+it is required for the csp:bdip to support data 
+preservation policy management rules. 
+– 
+data life-cycle 
+monitoring functional 
+component (7.3.3.1) 
+oss 
+<clause 8.1 requirement (4)> 
+it is recommended for the csn: dp to provide 
+a brokerage service to the csp:bdip for 
+searching accessible data. 
+brokerage data 
+(7.1.1.3) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 

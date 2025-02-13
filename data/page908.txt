@@ -1,0 +1,46 @@
+5 intercloud and interoperability  
+ 
+900  
+table ii.20 – test case: storage life cycle management 
+storage life cycle management test description 
+test purpose to verify that the csc manages storage with various operations including create, attach, 
+detach, query and delete storage. 
+reference [itu-t y.3513] clause 7.2 
+test sequence step type description result 
+1 stimulus the csc creates storage space called storage a with different 
+types, such as block level, file-system level and object-based 
+storage according to a service level agreement (sla).  
+ 
+2 check the created storage a is accessible to the csc.  
+3 stimulus the csc attaches storage a to vm a.  
+4 check the vm can use storage a.  
+5 stimulus the csc detaches storage a from vm a.  
+6 check vm a cannot use storage a anymore but storage a could be 
+used for other vms. 
+ 
+7 stimulus deletes storage a.  
+8 check storage a cannot be used.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2.7 test case: storage utilization status inquiring 
+table ii.21 shows the test case for storage utilization status inquiring. 
+table ii.21 – test case: storage utilization status inquiring 
+storage utilization status inquiring test description 
+test purpose to verify that the csc inquires storage utilization status information including used space 
+and unused space of storage. 
+reference [itu-t y.3513] clause 7.2 
+test sequence step type description result 
+1 stimulus the csc queries utilization status of storage, including used 
+space and unused space of storage. 
+ 
+2 check the csc receives the information of a particular storage's 
+used space and unused space that is consistent with the 
+actual utilization status of the storage. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.3 test cases for network service interoperability testing between the csc and csp 
+ii.3.1 test case: network policy migration 
+table ii.22 shows the test case for network policy migration. 

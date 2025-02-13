@@ -1,0 +1,11 @@
+ framework and requirements for cloud computing 1 
+ 
+   95 
+ 
+figure 10-1 – common view of roles, cloud computing activities and functional components 
+10.2.2 common roles, activities and functional components 
+in figure 10 -1, the cloud service provider  has a sub-role, csp:cloud service manager, which performs the 
+provide services activity, which provides the service for the csc:cloud service user of the cloud service 
+customer to actually use. but before the service can be used, the cloud service needs to be developed and 
+deployed to be operational. 
+

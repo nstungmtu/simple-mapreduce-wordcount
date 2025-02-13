@@ -1,0 +1,18 @@
+1 framework and requirements for cloud computing  
+ 
+174  
+summary 
+the physical machine is a type of computing machine to provide physical resources. since all cloud services  
+have to reside and operate on physical machines, it is important for the cloud service providers as well as for 
+the manufacturers to identify specific functional requirements of the physical machine. 
+recommendation itu -t y.3507 provides an introduction to  the physical machine including the physical 
+machine components, physical machine types, virtualizations in the physical machine as well as the scalability 
+of components in the physical machine. 
+in addition, this recommendation provides functional requirem ents for the physical machine derived from 
+various use cases described in appendix ii. the relationship with other related specifications developed in 
+other standards development organizations (sdos) has is introduced in appendix i. 
+keywords 
+cloud computing, functional requirements, physical machine. 
+ 
+ 
+  

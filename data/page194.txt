@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+186  
+7.1.5 interconnect network requirements 
+this functional requirement is applied for multi-processing unit types. 
+– interconnect network supports : it is recommended that a physical machine support s a 
+non-ethernet based interconnect network as well as an ethernet based interconnect network 
+among the multiple processing units.  
+note 1 – for this non-ethernet based interconnect network, a csp:cloud operations manager employs a cpu i/o (e.g., 
+pci express) of processing units to construct the interconnect network. 
+– sharing process unit component : it is recommended that a physical machine provides a sharing 
+component in the processing unit in other processing units by an interconnect network. 
+note 2 – examples of sharing components are memory, storage and i/o. 
+– network topology: it is recommended that a physical machine supports various types of network 
+topology (e.g., ring, tree, mesh, cube, etc.) for multiple processing units. 
+– configuration of multiple processing units : it is required that a physical machin e provides 
+configuration of multiple processing units. 
+7.1.6 management component requirements 
+– providing running information : it is recommended that a physical machine provides running 
+information in all components of the physical machine. 
+note 1 – examples of running information are cpu temperature, cpu utilization, memory utilization, storage read/write 
+load, fan speed and the traffic load of interconnect network. 
+– automatically power operation: it is recommended that a physical machine supports automatically 
+managing for power on, power off and restart operations for automatic scheduling according to the 
+load of the physical machine. 
+– monitoring of environment conditions : it is recommended that a physical machine  provides 
+monitoring of environment conditions, such as air temperature, air humidity, etc. 
+– self-checking mechanism: it is recommended that a physical machine supports self -checking to 
+ensure the stability of the physical machine after power on. 
+note 2 – self-checking is a process to verify cpu and memory, to initialize bios and to identity booting devices after a 
+physical machine is powered on. 
+7.2 i/o interface requirements 
+– provide i/o interface to administrator: a physical machine can optionally provide an i/o interface 
+to administrators for i/o devices such as a monitor, a mouse and a keyboard. 
+note 1 – examples of i/o interface to administrators are a video graphics array (vga) and a universal serial bus (usb).  
+– provide i/o interface to external storage device: a physical machine can optionally provide an i/o 
+interface for an external storage device to install the hypervisor, operating system and/or other 
+software applications. 
+note 2 – examples of external storage device are cd rom and usb flas h disk. 
+– network interface virtualization : it is recommended that a physical machine supports network 
+interface virtualization to improve interface utilization.  
+note 3 – network interface virtualization is sharing a network interface into multiple virtual network interfaces. 
+– device driver and api supports : it is required that a physical machine supports device drivers and 
+apis for i/o interface. 
+  

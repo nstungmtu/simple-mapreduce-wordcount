@@ -1,0 +1,81 @@
+1 framework and requirements for cloud computing  
+ 
+312  
+more networks can be involved as shown in the example provided in figure iii.4.  
+iaas csp
+(primary)
+saas csp
+iaas csp a
+(secondary)
+iaas csp b
+(secondary)
+iaas csp c
+(secondary)
+vm
+vm
+network y
+network x
+network z
+vm
+vm
+network q
+network p
+saas
+csc 1
+saas
+csc 2
+saas
+csc 3
+saas
+csc 4
+y .3511(14)_fiii.4
+saas application
+ 
+figure iii.4 – inter-cloud view including saas cscs 
+in figure iii.4, the iaas csp (right side of the figure) provides vms for the saas csp in order to provide its saas 
+application for saas cscs (left side of the figure). in this case, the saas cscs use the saas application provided 
+by the saas csp. the saas csp uses vms, which are provided by iaas csps, on which the sa as application is 
+executed. some of the actual vms are provided by the primary csp, and some are provided by the secondary 
+csps.  
+figure iii.5 shows the same service offering in a different representation.  
+saas csp
+iaas csp
+(primary)
+iaas csp a
+(secondary)
+app
+vm
+iaas csp b
+app
+vm
+network y
+network x
+network z
+iaas csp c
+app
+vm
+vm
+vm
+vm
+vm
+app
+network q
+app
+4 vms
+network p
+saas
+csc 1
+saas
+csc 2
+saas
+csc 3
+saas
+csc 4
+end-to-end connectivity
+app: application
+vm:  virtual machine
+inter-cloud federation
+y .3511(14)_fiii.5
+ 
+figure iii.5 – view highlighting actual running vms  
+and application locations (same figure 8-5) 

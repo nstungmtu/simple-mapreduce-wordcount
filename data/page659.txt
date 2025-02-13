@@ -1,0 +1,43 @@
+xaas 3 
+ 
+    651 
+i.2  iaas use case on infrastructure level 
+use case 
+name  iaas use case on infrastructure level 
+abstract  csc uses a composition of processing, storage and networking resources with service 
+logic, specific slas and charging model, provided by the csp 
+roles  csc, csp 
+figure  
+y .3513(14)_fi.2
+cloud infrastructure
+computing resource pool
+network resource pool
+storage resource pool
+csp
+csc
+portal
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism and 
+retrieves computing, storage and network functions. 
+post-conditions 
+(optional)   
+description – csc accesses and queries the csp portal to retrieve the list of supported functions 
+(e.g., infrastructure templates) related to the infrastructure. 
+– csc selects the appropriate infrastructure template from the query results and 
+requests the csp to create an infrastructure based on the selection. 
+– csc manages and monitors the created infrastructure during its lifecycle. it includes, 
+but not limited to: 
+• assign: start iaas by allocating to the service the available resources as identified by 
+configuration (e.g., create, initiate, start, enable, power-on) 
+• modify: change the amount of resource being in-use according to the demand (e.g., 
+update, add, enable, disable) 
+• release: close the iaas service by making available the resource being in-use by the 
+service (e.g., delete, shutdown, disable, power-off) 
+• query 
+requirements  – iaas operations (refer to clause 7) 
+– infrastructure resources status (refer to clause 7) 
+– infrastructure template (refer to clause 7) 
+ 
+  

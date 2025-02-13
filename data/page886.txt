@@ -1,0 +1,12 @@
+5 intercloud and interoperability  
+ 
+878  
+summary 
+recommendation itu -t q.4041.1 specifies the cloud computing infrastructure capabilities type 
+interoperability testing between the csc and csp, including interoperability testing of  computing services, 
+storage services, network services and related management functions, based on the functional requirements 
+specified in recommendation itu-t y.3513. the test cases of cloud computing infrastructure capabilities type 
+interoperability testing between the csc and csp have also been introduced. 
+keywords 
+cloud computing, infrastructure capabilities, interoperability testing. 
+  

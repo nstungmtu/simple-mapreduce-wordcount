@@ -1,0 +1,66 @@
+framework and requirements for cloud computing 1 
+ 
+   203 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+– [b-ocp mb] provides storage hibernation as 'the bios should be tuned to 
+minimize system power consumption and maximize performance. this 
+includes: disable any unused devices, such as unused pci, pcie ports, usb 
+ports, sata/sas ports, clock generator and buffer ports. tuning 
+cpu/chipset settings to reach minimized power consumption and best 
+performance in a data centre environment' in clause 6.3.1. 
+13 hardware-assisted i/o 
+virtualization 
+– [b-ocp obios] describes how intel virtualization technology (intel  vt) must 
+be supported via platform bios policy variable, in clause 4.8. 
+14 i/o devices direct 
+accessing 
+– [b-ocp 25gdual] describes how ql41202 shall support single root i/o 
+virtualization (sr-iov), in clause 12. 
+15 workload offload – [b-ocp 25gdual] describes how ql41202 shall support offload traffic types 
+rdma over converged ethernet (roce) on each of the ports and also 
+support internet wide area rdma protocol (iwarp), in clause 12. 
+16 hardware acceleration – [b-ocp obios] describes key features for wcs intel xeon scalable platform, 
+support 2 gp-gpu+1 pcie card in 2u, in clause 2.2. 
+– [b-ocp bs] describes qct grantley platform will be 16 dimms and support 8 
+gpgpu cards and max. 8x 2.5"hdds' in clause 1. 
+17 power supply 
+replacement 
+– [b-ocp ocsssd] describes how ocs v2.0 servers shall support drives with 
+volatile write caches by leveraging the server backup power supply in clause 
+11.3 power-loss protection. 
+– [b-ocp octam] indicates that when psu alert# signal occurs, the olympus 
+psu has transitioned its power source from ac to battery backup, in 
+clause 7.4. 
+18 supporting power 
+redundancy 
+– [b-etsi eve007] provide power redundancy as 'power supply redundancy 
+may be achieved by installing more than one power supply unit' in 
+clause 5.3.3.2. 
+– [b-ocp 1s] require platform designers to provide adequate power and 
+cooling to properly handle the soc's power and thermal requirements, in 
+clause 3 overview. 
+– [b-ocp 1s] require twin lakes 1s server to provide a standby 3.3v_aux 
+power rail on the card to power the bridge ic at all power states, in 
+clause 8.1.2. 
+– [b-ocp hsas] describe that the hyve solutions ambient series-e servers 
+support single or redundant power supply, in clause 11. 
+19 minimum energy 
+consumption 
+– [b-etsi eve007] provides minimum energy consumption as 'different forms 
+of processors would be utilized for different types of services to improve 
+power efficiency' in clause 5.2. 
+– [b-ocp 1s] describes that the twin lakes 1s server recommend a power -
+capping implementation to reduce the server's power consumption (cut off 
+power in certain time) in clause 8.4. 
+– [b-ocp oapm] describe that the motherboard supports emergency power 
+reduction mechanism (pwrbrk#) for the x16 pcie slots in clause 7.5.  
+– [b-ocp octam] describes how the motherboard supports emergency 
+power reduction mechanism (pwrbrk#) for the x16 and x32 pcie slots in 
+clause 7.5. 
+– [b-ocp omb] describes how the motherboard supports emergency power 
+reduction mechanism (pwrbrk#) for the x16 pcie slots in clause 6.5, the 
+main purpose is to provide a power reduction mechanism for gpgpu cards 
+as part of the throttle and power capping strategy. 

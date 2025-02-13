@@ -1,0 +1,15 @@
+4 video processing and storage  
+ 
+748  
+summary 
+recommendation itu-t f.743.2 defines the cloud storage service requirements in visual surveillance. cloud 
+storage enables service users to have ubiquitous, convenient, on -demand network access to a shared pool 
+of configurable storage resources, which can be rapidly provisioned and released with minimal management 
+effort or service-provider interaction. cloud storage can realize flexible and reliable data storage for large -
+scale visual surveillance, and its components are modularized and allocated dynamically based on real usage. 
+this recommendation provides the application scenarios and requirements for cloud storage in visual 
+surveillance. 
+keywords 
+cloud storage, picture storage, video fi le uploading, video metadata management, video stream storage, 
+visual surveillance. 
+  

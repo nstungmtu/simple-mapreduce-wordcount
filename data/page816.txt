@@ -1,0 +1,35 @@
+5 intercloud and interoperability  
+ 
+808  
+title geographical policy in trusted inter-cloud  
+figure (optional) 
+ 
+pre-conditions (optional) – the primary csp(intermediary) and secondary csps are in trusted inter -cloud 
+relationship. 
+– the csp1(saas) and csp3(saas) effects geographical polices. 
+– the csp2 performs saas service out of the requested area. 
+post-conditions (optional) – the csp(intermediary) guarantees governance policies of saas.  
+– the csp (intermediary) establishes service between csc and csp1(saas).  
+– the csp (intermediary) establishes service between csc and csp3(saas) in case 
+of failed csp1(saas). 
+derived requirements – geographical policies 
+– integrate and validate services from multiple csps 
+– resiliency service from multiple csps 
+i.2.3 use case of video gaming in trusted inter-cloud 
+this use case illustrates the resiliency aspect of trusted inter-cloud between the primary csp and secondary 
+csps. the intermediary pattern of inter-cloud used to illustrate the use case is an example only. 
+table i.2.3 – video gaming in trusted inter-cloud 
+title video gaming service in trusted inter-cloud  
+description – the csc requests video gaming service with quality of service (qos) (premium 
+service under sla). 
+– the primary csp in an inter-cloud intermediary pattern (acts as 
+csp(intermediary)) is the contact point for csc. 
+– the csp(intermediary) integrates and validates video gaming services from 
+multiple csps (secondary csps). 
+– the csp(intermediary) monitors quality of service from secondary csp1 and 
+csp2. in case service quality drops below premium service level, due to 
+internal or external problems of csp1 (e.g., overloaded resources, human 
+error, distributed denial of service(ddos)), the service is automatically 
+established between csp(intermediary) and csp2 without interruption.  
+roles csc, csp 
+

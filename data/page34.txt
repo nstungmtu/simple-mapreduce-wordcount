@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+26  
+– interoperability: it is recommended that cloud service provided by the csp  complies with 
+appropriate specifications and/or standards for allowing these systems to work together; 
+– portability: it is recommended that cloud service provided by the csp supports the portability of 
+software assets and the data of cloud service customers (cscs) with minimum disruption; 
+– service access: the csp is recommended to provide cscs with access to cloud services from a variety 
+of user device s. it is recommended that cs cs be provided with a consistent experience when 
+accessing cloud services from different devices; 
+– service availability, service reliability and quality assurance : it is recommended that the csp 
+provides end-to-end quality of service assurance, high levels of reliability and continued availability 
+of cloud services according to the service level agreement (sla) with the csc. 
+7 general requirements for iaas 
+the general requirements for infrastructure as a service (iaas) derived from the use cases in clause i.2 are as 
+follows: 
+– configuration, deployment and maintenance  of resources : the ia as csp  is recommended to 
+configure, deploy and maintain processing, storage and/or networking resources with specific slas 
+and charging models to cscs; 
+– use and monitoring of resources: the iaas csp is recommended to provide the capability for cscs 
+to use and monitor processing, storage and/or networking resources so that they are able to deploy 
+and run arbitrary software. 
+note – functional requirements for iaas are provided in [itu-t y.3513]. 
+8 general requirements for naas 
+the general requirements  for network as a service (naas)  derived from the use cases in clause i.3 are as 
+follows: 
+– on-demand network configuration : it is required that the naas csp provides the network 
+capability, which can be configured on demand by the csc; 
+– secure connectivity: it is required that the naas csp provides secure connectivity; 
+– qos-guaranteed connectivity : the naas csp is recommended to provide qos -guaranteed 
+connectivity according to the negotiated sla; 
+– heterogeneous networks compatibility: it is recommended that the  naas csp supports network 
+connectivity through heterogeneous networks. 
+note – functional requirements for naas are provided in [itu-t y.3512]. 
+9 general requirements for daas 
+the general requirements  for desktop as a service (daas)  derived from the use cases in clause i.4 are as 
+follows: 
+– configurability of the virtual environment: it is recommended that a user is capable of configuring 
+the virtual desktops' virtual environment, such as the central processing unit (cpu), memory, 
+storage, network, etc.; 
+– fast boot-up time: daas csp is recommended to provide cscs with appropriate bo ot-up time of 
+their virtual desktops; 
+– qoe: daas csp is recommended to provide an acceptable user experience, including the running 
+speed of application programs and the capability to select and run various applications, when 
+application programs run in their csc devices; 
+– single sign-on access control: it is recommended that a csc is capable to get all daas functionality 
+with appropriate security requirements through a single sign-on mechanism. 

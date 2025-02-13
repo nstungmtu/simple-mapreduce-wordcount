@@ -1,0 +1,42 @@
+3 xaas  
+ 
+680  
+8.2.2 administration capabilities (naas) 
+the administration capabilities (naas) functional component provides a set of capabilities for accessing the 
+oss-naas functionalities (see clause 7.8.1) related to the management of instantiated naas service s. this 
+includes functionalities contained within the oss -naas functional components. for example, the 
+administration capabilities (naas) functional component allows the naas csc to view performance and fault 
+information related to instantiated naas servic es. the naas csp will collect information requested by the 
+naas csc and make it available through reporting to the naas csc via the administration capabilities (naas) 
+functional component. 
+8.2.3 service capabilities (naas) 
+the service capabilities (naas) f unctional component consists of the necessary software required to 
+implement the naas service offered to the naas csc and implements the functionality defined by the naas 
+service interface, i.e., the interface offered to the naas csc, independent of the service implementation. 
+as shown in figure 8 -2, the service capabilities (naas) functional component provides capabilities exposed 
+to the naas csc according to the naas service model and naas service operational policy model selected by 
+the naas csc through business level interactions with the naas csp. refer to clause 8.3.1 for the description 
+of these two naas-related service models. 
+using the naas service exposed api provided by the service capabilities (naas) functional component, the 
+naas csc can trigger naas service specific on-demand behaviours (made possible by the naas csp according 
+to the selected naas service model). these on-demand requests are validated by the naas csp according to 
+the naas service specific policies that govern such on-demand behaviour. the on-demand behaviours (and 
+associated constraints) are defined in the naas service operational policy model selected by the naas csc at 
+naas instantiation t ime. for example, a naas service operational policy model may describe the range of 
+bandwidth in which the naas csc is permitted to send traffic to the naas csp  or the range of computing 
+resources that a specific nf instance is allowed to be allocated in the naas csp infrastructure. 
+8.3 oss functional components 
+the osss functional components encompass the set of operational-related management capabilities of the 
+naas functional architecture in order to manage and control aspects from naas services down to the naas 
+csp infrastructure resources including cloud compute and storage, network connect ivity and physical 
+resources. 
+the oss components described in this clause are intended to support the functionalities for an evolved real-
+time oss described in clause  7.8. the description of oss components follows the structure of the oss as 
+shown in figure 7-1. 
+annex a describes reference points related to oss functional components. 
+8.3.1 oss-naas functional components 
+the oss-naas functional components encompass the set of operational-related management functionalities 
+that are required in order to manage and control naas services offered to customers (refer to clause 7.8.1). 
+note – these functional components are not meant to be specific to naas and are applicable to other cloud service 
+categories provided by naas csps. 
+figure 8-3 shows the oss-naas functional components. 

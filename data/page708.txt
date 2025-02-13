@@ -1,0 +1,39 @@
+3 xaas  
+ 
+700  
+appendix ii 
+ 
+modelling usage example of naas service, naas service operational policy and 
+naas resource model 
+(this appendix does not form an integral part of this recommendation.) 
+ii.1 introduction 
+in practice, a naas csp can virtualize cloud resources into multiple isolated virtual private clouds (vpcs) and 
+provide them to naas cscs. a naas csc can establish and manage the network easily in a typical vpc, for 
+example: deploying or removing virtualized network devices (e.g., vrouter and vswitch), adjusting the 
+topology of vpc networks, specifying packet forwar ding policies, and deploying or removing virtualized 
+network services (e.g., load balancer, firewalls, databases, dns). the naas functionalities that the naas csc 
+can obtain are virtualized and actually performed by vms located on compute servers, which may be located 
+in different geographically distributed data centres, connected through physical or overlay networks. 
+the manipulation of the virtualized vpc network may also affect the configuration of physical networks. for 
+example, when two new vms associated to a given vpc are deployed in two different data centres, the vpc 
+control mechanism needs to generate a vpn between these two data centres for the internal vpc 
+communications. therefore, the control mechanism for a vpc should be able to adjust the und erlying 
+network at runtime when the naas csc requests changes to the vpc network or service deployment. 
+when the naas csc moves from one location to another, which is near to another naas csp's data centre, 
+and in the case the network load between these tw o data centres is low, naas csc's vm(s) should be 
+migrated to the new data centre in order to allow for a better user experience. 
+as illustrated by figure ii.1, a vpc corresponds to a combinat ion of cloud computing resources with a vpn 
+infrastructure to give naas cscs the abstraction of a private set of cloud resources that are transparently and 
+securely connected to their own infrastructure. vpcs are created by taking dynamically configurable pools of 
+cloud resources and connecting them to enterprise sites with vpns. 
+ 
+figure ii.1 – example of vpc and vpn relationship 
+ii.2 modelling usage 
+based on the description given in clause ii.1, the vpc service can be modelled as a vpc naas service model  
+based on its concrete service attributes, including service id, tenant id, access bandwidth, access virtualized 
+network device, attached virtual service, etc. 
+the initial provisioning configuration can be generated based on the vpc naas service model, together with 
+the corresponding naas service operational policy model, which includes the following aspects: 
+– the required services on data centres according to naas csc's profile are allocated; 
+– services located in multiple distributed data centres are interconnected via e.g., vpns; 
+

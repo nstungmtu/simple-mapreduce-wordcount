@@ -1,0 +1,38 @@
+1 framework and requirements for cloud computing  
+ 
+378  
+ngn next generation network 
+nni network-network interconnect 
+ob open broadband 
+obl open broadband laboratories 
+os operating system 
+ovf open virtualization format 
+paas platform as a service 
+pii personally identifiable information 
+pki public key infrastructure 
+pnf physical network function 
+rest representational state transfer 
+rfid radio frequency identification 
+rg residential gateway 
+saas software as a service 
+sdf service delivery framework 
+sdn software-defined networking 
+sdo standards development organization 
+sla service level agreement 
+slo service level objective 
+smash system management architecture for server hardware 
+smi service management interface 
+snmp simple network management protocol 
+spmf scalable platform management forum 
+sqo service qualitative objective 
+ups uninterruptible power supply 
+vilte video over long-term evolution 
+vm virtual machine 
+vnf virtualized network function 
+volte voice over long-term evolution 
+xml extensible markup language 
+5 conventions 
+none. 
+6 landscape of cloud computing from itu-t perspective 
+cloud computing is a paradigm for enabling network access to a scalable and elastic pool of shareable physical 
+or virtual resources with self-service provisioning and administration on demand.  

@@ -1,0 +1,34 @@
+1 framework and requirements for cloud computing  
+ 
+180  
+figure 6-2 depicts an overview of the physical machine. the scope of this recommendation focuses on the 
+physical machine. 
+ 
+figure 6-2 – overview of the physical machine 
+the physical machine is composed of multiple components, which are described as follows: 
+– processing units : a processing unit has cpus, memories, storages and i/o devices. these sub -
+components in a processing unit are physically implemented on a motherboard. the processing unit 
+is the basic element as a hardware processing resource and normally multiple processing units are 
+involved to provide capacity of resources.  processing units is a mandatory component for the 
+physical machine. a single processing unit type physical machine has only one processing unit, while 
+a multi-processing unit type physical machine has two or more processing units. 
+– interconnect network: an interconnect network has a role of connecting multiple processing units 
+aiming to be used to shar e resources in individual processing units through virtualization. in 
+addition, the interconnect network provides a communication interface to other external physical 
+machines. an interconnect network is an optional component only for multi -processing unit type 
+physical machines. 
+– enclosure: an enclosure includes multiple processing units and other components such as power 
+supply, cooling and interconnect network (in some cases) by providing the form factor with metal 
+apparatus that specifies the physical dimensions of a physical machine.  the enclosure also shields 
+the electromagnetic components and helps to dissipate heat of other components. an enclosure is 
+a mandatory component for a physical machine. 
+– power supply: a power supply provides electrical po wer to all components in an enclosure. the 
+power supply converts ac power into dc power which all components use to operate and provides 
+redundancy to ensure that the stability and operability of a physical machine is maintained even in 
+the case that a physical machine's power goes out. power supply is a mandatory component for the 
+physical machine. 
+– cooling: a cooling system is for maintaining a certain range of temperature in an enclosure by 
+cooling heat generated due to operation of the physical machine. the implementation type can vary 
+depending on cooling materials (e.g., air -cooled or a water-cooled type) and form factors (e.g., air 
+flow or water pipes) of an enclosure. cooling is a mandatory component for the physical machine. 
+

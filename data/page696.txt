@@ -1,0 +1,49 @@
+3 xaas  
+ 
+688  
+8.3.4.3 ccs policy management 
+the ccs policy management functional component provides capabilities for defining, storing and retrieving 
+policies (e.g., quotas) that apply to virtual resources for cloud compute and storage. policies can include 
+technical and security policies that apply to these virtual resources and their usage by their users. 
+8.3.4.4 ccs service level management 
+the ccs servic e level management functional component provides capabilities for managing the service 
+levels of virtual resources for cloud compute and storage, aiming to ensure that each virtual resource meets 
+the negotiated service level requirements. 
+the ccs service level management functional component manages the capacity and performance relating to 
+virtual resources for cloud compute and storage. this can involve the application of policies (e.g., a placement 
+deployment rule which aims to avoid single points of failure). 
+the ccs service level management functional component obtains monitoring information from the ccs 
+monitoring and reporting functional component in order to measure and record kpis for the virtual resources. 
+capacity of virtual resources is allocated or de-allocated based on the basis of these kpis. 
+the ccs service level management functional component also keeps track of the overall state of allocated 
+and available resources for cloud compute and storage. the comparison of al located capacity against 
+performance kpis can assist in the identification of current or potential bottlenecks, in support of capacity 
+planning. this includes the management of the virtual resources capacity (e.g. , density of virtual resources 
+to physical resources), and the forwarding of information related to infrastructure resources capacity and 
+usage reporting. 
+8.3.4.5 ccs incident and problem management 
+the ccs incident and problem management functional component provides capabilities for captur ing 
+incident or problem reports related to virtual resources for ccs and managing those reports through to 
+resolution. 
+8.3.4.6 virtualization management 
+the virtuali zation management functional component provides the capabilities for managing the 
+virtualization of the resources for ccs (e.g., realized by means of hypervisors). 
+8.3.4.7 ccs virtual resource inventory 
+the ccs virtual resource inventory functional component keeps track of the allocation of virtual resources 
+for ccs to physical resources (e.g., server pool). 
+8.3.4.8 software image management 
+the software image management functional component manages software images (e.g., network functions) 
+as requested by other oss functional components (e.g., oss for network functions). these requests include 
+operations on images such as add, delete, update, query and perform rollback. once validated by the 
+software image management functional component, software images are stored in a software image 
+repository. 
+8.3.5 oss-nc functional components 
+note – the following d escription is based on an adaptation of the oss functional components as described in cl ause 
+9.2.5.3 of [itu-t y.3502]. 
+the oss-nc functional components encompass the set of operational related management capabilities that 
+are required in order to manage and control the network connectivity in naas csp domains, also called naas 
+csp connectivity domains. see clause 7.8.4 for a description of the oss-nc functionalities. 
+the oss-nc functional components may be able to manage network connectivity across one or multiple naas 
+csp's domains (e.g., access, backhaul or core naas csp domains) and can also manage network connectivity 
+at one or multiple technology layers (e.g., overlay, ip, multiprotocol label switching (mpls), optical transport 
+network (otn)). 

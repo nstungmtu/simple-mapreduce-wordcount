@@ -1,0 +1,16 @@
+7 security  
+ 
+990 
+summary 
+recommendation itu -t x.1603 analyses data security requirements for the monitoring service of cloud 
+computing which includes monitoring data scope requirements, monitoring data lifecycle, security 
+requirements of monitoring data acquisition and security requirements of monitoring data storage. 
+monitoring data scope requirements include the necessary monitoring scope that cloud service providers 
+(csps) should provide to maintain cloud security and the biggest monitoring scope of csps. monitoring data 
+lifecycle includes data creation, data store, dat a use, data migrate, data present, data destroy and data 
+backup. monitoring acquisition determines security requirements of the acquisition techniques of 
+monitoring service. monitoring data storage determines security requirements for csps to store the 
+monitoring data. 
+keywords 
+cloud, data security, monitoring. 
+  

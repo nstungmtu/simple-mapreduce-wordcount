@@ -1,0 +1,22 @@
+1 framework and requirements for cloud computing  
+ 
+250  
+table ii.5 – hierarchical caching of cloud service images 
+use case 
+therefore, hierarchical caching is needed. cloud service images are cached on the regional cloud 
+according to the initial request or frequency. it is helpful to reduce the load on the core cloud 
+because multiple regional clouds handle the requests respectively. it also mitigates the capacity 
+issue on the edge cloud, and it provides fast service deployment to support real -time 
+performance by reducing latency than from the core cloud. 
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+requirements – high speed network connectivity (see clause 7.2) 
+– caching of cloud service image (see clause 7.3) 
+– real-time service management (see clause 7.4) 
+

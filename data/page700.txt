@@ -1,0 +1,15 @@
+3 xaas  
+ 
+692  
+annex a 
+ 
+oss reference points 
+(this annex forms an integral part of this recommendation.) 
+this annex describes reference points related to oss whose functional com ponents are described in 
+clause 8.3 of the naas functional architecture. 
+figure a.1 identifies the referen ce points internal to the os s (reference points labelled as ''oss'') as well as 
+reference points between the oss and external entities. 
+for a naas service that involves either a ''legacy'' (i.e., non-virtualized) network functions (i.e. , pnfs), the 
+''oss for naas services '' will interact with the oss (called ''legacy oss'' in figure a.1) responsible for the 
+management of these ''legacy'' network functions. the ''oss legacy'' system typically includes management 
+systems such as network management systems (nmss) or element management systems (emss). 

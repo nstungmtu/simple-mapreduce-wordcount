@@ -1,0 +1,32 @@
+cloud computing management 2 
+ 
+  541 
+table i.7 – csc data policy implementation in inter-cloud 
+figure (optional) 
+ 
+pre-conditions (optional) the csp (naas) has an inter-cloud relationship with two csps (paas), i.e., csp1 (paas) 
+and csp2 (paas). 
+the csp (naas) respects data policy. 
+post-conditions 
+(optional) 
+the csp (naas) supports inter-cloud data policy management. 
+the idpap acts as access control for the csc data policy and delivers policies to the 
+idpip. 
+the idpip stores data policies provided by the csc. 
+the idpdp selects the policy on the basis of collected information about data processing 
+and usage among peer csps. 
+the idpdp decides which csp processes and uses vhgw data. 
+the idpep implements decisions of the idpdp in the inter-cloud environment. 
+derived requirements inter-cloud data policy administration point (see clause 7.2) 
+inter-cloud data policy information point (see clause 7.3) 
+inter-cloud data policy decision point (see clause 7.4) 
+inter-cloud data policy enforcement point (see clause 7.5) 
+inter-cloud data policy monitoring (see clause 7.6) 
+inter-cloud dynamic data policy management (see clause 7.7) 
+inter-cloud autonomic data policy management (see clause 7.8) 
+inter-cloud cognitive data policy management (see clause 7.9) 
+i.8 use case of data placement policies for data-intensive applications in the inter-cloud 
+environment 
+this use case illustrates data placement policies for data-intensive applications in inter-cloud. the inter-cloud 
+federation pattern used to illustrate the use case is an example only. 
+

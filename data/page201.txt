@@ -1,0 +1,78 @@
+framework and requirements for cloud computing 1 
+ 
+   193 
+table i.1 – ocp related specifications  
+family specification summary published  
+barreleye barreleye g2 specification 
+[b-ocp g2] 
+this document describes the specifications for: 
+zaius power9 motherboard, barreleye g2 server – 
+2ou, zaius server – 1.5ou 
+2017 
+barreleye g1 specification 
+[b-ocp g1] 
+this document describes the specification of 
+barreleye, an openpower-based open compute 
+server, with a mechanical and electrical package 
+designed for open rack. 
+2016 
+facebook, microsoft, m.2 
+carrier card design 
+specification v1.0 
+[b-ocp m2] 
+this specification provides the requirements for a 
+pcie full height half length (fhhl) form factor 
+card that supports up to four m.2 form factor 
+solid-state drives (ssds). the card shall support 
+110mm (type 22110) or 80mm (type 22080) dual 
+sided m.2 modules. 
+2018 
+facebook pcie retimer 
+card v1.1 [b-ocp pcirc] 
+this specification describes the design and design 
+requirements for a pcie add-in card that converts 
+an internal pcie connection to an external pcie 
+connection. 
+2017 
+add-on-card thermal 
+interface spec for intel 
+motherboard v3.0 
+[b-ocp acti] 
+the goal of this document is to define a standard 
+interface for facebook intel motherboard v3.0 to 
+poll thermal data from an add-on-card including 
+mezzanine card. 
+2017 
+debug card ocp debug card with lcd 
+spec v1.0 [b-ocp debug] 
+the specification defines the ocp debug card with 
+lcd for a server system debug. 
+2018 
+mezz card 25g dual port ocp 2.0 nic 
+mezzanine card v1.0  
+[b-ocp 25gdual] 
+this document specifies a technical design 
+implementation to define 25g ethernet card which 
+meets the requirements of ocp mezzanine card 
+2.0 type-a design and the heat sink design could let 
+this card to be able to deployment in ocp server or 
+standard server. 
+2018 
+ocp nic 3.0 design 
+specification v0.8 
+[b-ocp nic] 
+the ocp nic 3.0 specification is a follow-on to the 
+ocp mezz 2.0 rev 1.00 design specification. the 
+ocp nic 3.0 specification supports two basic card 
+sizes: small card and large card. the small card 
+allows for up to 16 pcie lanes on the card edge 
+while the large card supports up to 32 pcie lanes. 
+2018 
+i.1.2 dmtf 
+the distributed management task force (dmtf) is an industry standards organization working to simplify 
+the manageability of network-accessible technologies through open and collaborative efforts by leading 
+technology companies. dmtf creates and drives the international adoption of interoperable management 
+standards, supporting implementations that enable the management of diver se traditional and emerging 
+technologies including cloud, virtualization, network and infrastructure. 
+dmtf has developed specifications related to management interface, which are related to the management 
+of physical machines.  

@@ -1,0 +1,22 @@
+ framework and requirements for cloud computing 1 
+ 
+   335 
+table i.1 – personalization customized service using big data 
+figure 
+ 
+pre-conditions 
+(optional) 
+– the csp:bdip can recognize the source and destination of the packet from the user under 
+permission using personal user information 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– data collection (refer to clause 8.1, requirements 1, 2) 
+– data preprocessing (refer to clause 8.2, requirements 1, 4) 
+– data storage (refer to clause 8.3, requirement 1, clause 8.7, requirement 3)  
+– data analysis (refer to clause 8.4, requirement 1, 12) 
+– data application (refer to clause 8.5, requirement 6, clause 8.1, requirement 4) 
+– data management (refer to clause 8.6, requirements 2, 4) 
+

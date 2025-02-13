@@ -1,0 +1,43 @@
+security 7 
+ 
+  1043 
+table of contents 
+1 scope 
+2 normative references 
+2.1 identical recommendations | international standards 
+2.2 additional references 
+3 definitions and abbreviations 
+3.1 terms defined elsewhere 
+3.2 abbreviations 
+4 cloud sector-specific concepts 
+4.1 overview 
+4.2 supplier relationships in cloud services 
+4.3 relationships between cloud service customers and cloud service providers 
+4.4 managing information security risks in cloud services 
+4.5 structure of this standard 
+5 information security policies 
+5.1 management direction for information security 
+6 organization of information security 
+6.1 internal organization 
+6.2 mobile devices and teleworking 
+7 human resource security 
+7.1 prior to employment 
+7.2 during employment 
+7.3 termination and change of employment 
+8 asset management 
+8.1 responsibility for assets 
+8.2 information classification 
+8.3 media handling 
+9 access control 
+9.1 business requirements of access control 
+9.2 user access management 
+9.3 user responsibilities 
+9.4 system and application access control 
+10 cryptography 
+10.1 cryptographic controls 
+11 physical and environmental security 
+11.1 secure areas 
+11.2 equipment 
+12 operations security 
+12.1 operational procedures and responsibilities 
+12.2 protection from malware 

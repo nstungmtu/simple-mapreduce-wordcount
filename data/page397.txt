@@ -1,0 +1,54 @@
+ framework and requirements for cloud computing 1 
+ 
+   389 
+• itu-t y.3513 : this recommendation provides the functional requirements and use cases  of 
+infrastructure as a service ( iaas), one of the representative cloud service categories. this 
+recommendation covers the following: 
+– general description of iaas;  
+– functional requirements of iaas; 
+– typical iaas use cases. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12286 
+• itu-t y.3515 : this recommendation specifies naas functional architecture, including 
+functionalities, functional components as well as reference points and procedures, based on the 
+functional requirements specified in [itu-t y.3512]. the scope of this recommendation consists of: 
+– overview of naas functional architecture; 
+– functionalities of naas; 
+– functional components of naas; 
+– reference points between functional components of naas; 
+– procedures for typical naas use cases. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13255 
+• itu-t y. 3516: this recommendation specifies inter -cloud computing functional architecture, 
+including functions and fun ctional components, based on the inter -cloud computing framework 
+specified in [itu -t y.3511]. the recommendation builds upon the functional view of the cloud 
+computing reference architecture [itu -t y.3502] and makes extensions to functional components 
+with inter-cloud functions. this recommendation also describes the mapping between functions 
+and functional requirements of inter -cloud computing and examples of inter -cloud related 
+reference points. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13352 
+• itu-t y.3519 : this recommendation provides an overview of the big data as a service (bdaas) 
+functional architecture and defines the bdaas functional architecture and its cross-cutting aspects 
+by specifying the functional components for the support of bdaas. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13627 
+• itu-t y.dsf -arch: this recommendation describes the functional architecture for data storage 
+federation (dsf). the dsf functions based on dsf logical components identified in y.35xx (ex y.dsf-
+reqts) are introduced. the dsf functional architecture, including dsf functions and dsf  functional 
+components, is specified. this recommendation also provides the relationship between the dsf 
+functional architecture and the cloud computing reference architecture. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14623 
+8.3 q19 
+table 8-3 provides a list of itu-t q19/ sg13 deliverables associated with cloud computing. 
+table 8-3 – itu-t q19/13 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3520, cloud computing framework for end to 
+end resource management 
+recommendation  
+2nd edition 
+recommendation  
+06/2012 
+05/2015 
+06/2013 
+09/2015 
+itu-t y. 3514, cloud computing – trusted inter-cloud 
+computing framework and requirements 
+recommendation 05/2015 05/2017 

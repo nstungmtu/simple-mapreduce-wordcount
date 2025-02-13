@@ -1,0 +1,37 @@
+5 intercloud and interoperability  
+ 
+804  
+it is recommended that the csp integrates and validates cloud services from peer csps with respect to 
+geographical policies. 
+it is recommended that the csp validates and supports resiliency cloud services from peer csps with respect 
+to geographical policies. 
+note – a geographical policy can be conditional, for example "data shall not leave country x unless this movement is 
+necessary to continue service during a major outage". 
+8.2 governance policies  
+it is required that the csp respects governance policies to reach objectives of trusted inter-cloud. 
+8.3 governance roles 
+it is required that the csp respects governance roles to reach objectives of trusted inter-cloud. 
+8.4 regulatory policies 
+it is required that the csp complies with applicable data regulation policies (e.g., medical, financial, defence, 
+etc.) and business regulatory policies related to inter-cloud. 
+note – regulation policies concern regulations applied to particular types of business es. 
+8.5 laws and regulations 
+it is required that the csp complies with applicable laws and regulations as well as local policies. 
+9 requirements for management of trusted inter-cloud  
+this clause provides requirements for management of trusted inter -cloud derived from the use cases 
+described in appendix i. 
+9.1 management policies 
+it is required that the csp respects management policies applied to trusted inter-cloud. 
+9.2 management roles 
+it is required that the csp respects management roles applied to trusted inter-cloud. 
+9.3 distributed data 
+it is recommended that the csp supports management of distributed data in trusted inter-cloud. 
+9.4 identity management 
+it is recomme nded that the csp provides identity management to enable compliance with csc policy in 
+trusted inter-cloud. 
+9.5 access management 
+it is recommended that the csp provides access management to enable compliance with csc policy in trusted 
+inter-cloud. 
+9.6 policy language  
+it is recommended that the csp supports policy language (related to data annotation) to increase 
+confidentiality of trusted inter-cloud.  

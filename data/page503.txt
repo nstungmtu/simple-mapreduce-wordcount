@@ -1,0 +1,42 @@
+cloud computing management 2 
+ 
+  495 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of e2e cloud service lifecycle management 
+6.1 cloud service lifecycle metadata 
+6.2 cloud service lifecycle management framework 
+6.3 cloud service lifecycle management stages 
+6.4 relationship with cloud computing reference architecture 
+7 e2e cloud service lifecycle management functional requirements 
+7.1 service management interface 
+7.2 self-service 
+7.3 service maintenance 
+7.4 reporting 
+7.5 composite applications or mash-ups 
+7.6 traditional business processes 
+7.7 decommissioning 
+7.8 policy 
+7.9 lifecycle stage management 
+7.10 service automation and continuous delivery 
+7.11 metadata management 
+8 security considerations 
+appendix i – e2e cloud service lifecycle management use cases 
+i.1 service management interface 
+i.2 self-service use case 
+i.3 service maintenance use case 
+i.4 composite applications or mash-ups use case 
+i.5 traditional business processes use case 
+i.6 decommissioning use case 
+i.7 policy use case 
+i.8 lifecycle stage management use case 
+i.9 service automation and continuous delivery use case 
+i.10 metadata management use case 
+bibliography 
+ 

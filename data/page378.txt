@@ -1,0 +1,39 @@
+1 framework and requirements for cloud computing  
+ 
+370  
+i.4 oasis references and associated summaries 
+[oasis amqp 1.0]  advanced message queuing protocol version 1.0 
+ the amqp is an open internet protocol for business messaging. it defines a 
+binary wire-level protocol that allows for the reliable exchange of business 
+messages between two parties. amqp has a layered architecture and the 
+specification is organized as a set of parts that reflects that architecture. 
+ url: http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-
+v1.0-os.html 
+[oasis mqtt 3.1.1]  message queuing telemetry transport version 3.1.1 
+ mqtt is a client server publish/subscribe messaging transport protocol. it is 
+light weight, open, simple, and designed so as to be easy to implement. these 
+characteristics make it ideal for use in many situations, including constrained 
+environments such as for communication in m2m and iot contexts where a 
+small code footprint is required and/or network bandwidth is at a premium. 
+ url: http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html 
+i.5 data mining group references and associated summaries 
+[dmg pmml 4.2.1]  predictive model markup language 4.2.1 
+  pmml is xml-based file format to provide a way for applications to describe 
+and exchange models produced by data mining and machine learning 
+algorithms. it supports common models such as logistic regression and feed 
+forward neural networks. 
+  url: http://www.dmg.org/v4-2-1/generalstructure.html 
+i.6 tm forum references and associated summaries 
+[tmf bdag]   the big data analytics guidebook  
+  the guidebook provides guidance to a communication service provider on 
+the major components that are needed for the implementation of real -life 
+big data analytics use cases. it defines a reference model, use cases, business 
+value roadmap, building blocks and the analytics big data repository for big 
+data analytics. it also includes addendums, which are; 
+– big data analytics use cases – best practice; 
+– big data analytics building blocks – best practice; 
+– big data analytics privacy risk score details – best practice; 
+– big data analytics big data repository – best practice. 
+  url: https://www.tmforum.org/resources/collection/gb979-big-data-
+analytics-solution-suite-r15-5-1/ 
+  

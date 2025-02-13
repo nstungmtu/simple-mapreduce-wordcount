@@ -1,0 +1,23 @@
+5 intercloud and interoperability  
+ 
+858  
+the modular hypervisors partly controlled by the csc functionalities are built upon elements as follows: 
+– user domain manager: responsible for building and managing the per -user administrative domain 
+and user domains for each user; 
+– system domain manager : responsible for building and managing the system -wide administrative 
+domain. 
+the secure enclave based on hardware security mechanisms functionalities are built upon elements as 
+follows: 
+– secure enclave library : responsible for implementing encrypted net working using transport layer 
+security (tls) (e.g., using a standard tls library), encrypted and sealed storage, attestation, and 
+inter-process communication. these are features that are exposed to the application code. cloud 
+service developers use these secure primitives to write their secure cloud service. 
+– discrete security chips coupled with processor features : responsible for providing the necessary 
+underlying capabilities to implement secure enclave. 
+the sso authentication functionalities are built upon elements as follows: 
+– user request handler : responsible for accepting the identity information provided by the cloud 
+service user and forwarding this information to the identity management system; 
+– identity management system: responsible for authenticating csc requests and sharing the result of 
+this authentication to inter -cloud members. it is also responsible for managing the identity 
+information of its associated inter-cloud members. 
+  

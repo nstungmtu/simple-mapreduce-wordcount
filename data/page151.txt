@@ -1,0 +1,30 @@
+ framework and requirements for cloud computing 1 
+ 
+   143 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of cloud service brokerage 
+6.1 introduction to cloud service broker 
+6.2 introduction to cloud service brokerage 
+6.3 service model of cloud service brokerage 
+6.4 configuration of cloud service brokerage 
+7 functional requirements of cloud service brokerage 
+7.1 functional requirements for workspace 
+7.2 functional requirements for product catalogue management 
+7.3 functional requirements for contract management 
+7.4 functional requirements for cloud service access management 
+7.5 functional requirements for cloud service management 
+8 security considerations 
+appendix i – use cases of cloud service brokerage 
+appendix ii – relationship between the logical components and  the activities of cloud service 
+broker for csb 
+bibliography 
+ 
+ 

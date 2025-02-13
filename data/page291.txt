@@ -1,0 +1,47 @@
+ framework and requirements for cloud computing 1 
+ 
+   283 
+in the body of this recommendation and its appendices, the words should, and may sometimes appear, in 
+which case they are to be interpreted, respectively, as is recommended, and can optionally. the appearance 
+of such phrases or keywords in an appendix or i n material explicitly marked as informative are to be 
+interpreted as having no normative intent. 
+6 introduction 
+inter-cloud computing describes the interworking of cloud service providers (csps) in order to deliver services 
+for the users. inter-cloud relationship between csps can be realized by using a service from the peer csp or 
+by providing a service to the peer csp. 
+the case where two peer csps interact with each other through an inter -cloud relationship is illustrated in 
+figure 6-1. as shown by a pair of two arrows pointing in opposite directions in figure 6-1, csp a is making 
+use of the services provided by csp b. in this relationship, csp a is considered as being the primary csp while 
+csp b is the secondary csp. note that the reverse situation where csp b is using the services offered by csp 
+a may also exist and in such case csp a and csp b are involved in two inter -cloud relationships, one for 
+providing services to the peer csp and the other for using the services of the peer csp. 
+y .3511(14)_f6-1
+p
+s
+p s
+primary csp in the inter-cloud relationship
+secondary csp in the inter-cloud relationship
+provide service to
+csp a csp buse service from
+inter-cloud relationship
+ 
+figure 6-1 – inter-cloud relationship between peer csps 
+figure 6-2 illustrates in a different way the inter-cloud relationship between csp a and csp b, i.e., csp a uses 
+the service of csp b through the application programming interface (api) provided by csp b, shown as api 
+(b). although the arrow in figure 6-2 is only one and is shown as unidirectional from csp a to csp b, it should 
+be understood as being equivalent to the inter-cloud relationship shown in figure 6-1, i.e., covering the "use 
+service from" and "provide service to" arrows in figure 6-1. 
+y .3511(14)_f6-2
+p
+s
+api (x):
+p s
+primary csp
+secondary csp
+api provided by csp x
+csp a csp b
+api (b)
+inter-cloud relationship
+ 
+ 
+figure 6-2 – inter-cloud relationship using api 

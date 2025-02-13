@@ -1,0 +1,51 @@
+1 framework and requirements for cloud computing  
+ 
+8  
+3.2.13 cloud service derived data: class of data objects under cloud service provider (3.2.15) control that 
+are derived as a result of interaction with the cloud service (3.2.8) by the cloud service customer (3.2.11). 
+note – cloud service derived data includes log data containing records of who used the service, at what times, which functions, 
+types of data involved and so on. it can also include information about the numbers of authorized users and their identities.  it 
+can also include any configuration o r customization data, where the cloud service  (3.2.8) has such configuration and 
+customization capabilities. 
+3.2.14 cloud service partner: party (3.1.6) which is engaged in support of, or auxiliary to, activities of either 
+the cloud service provider (3.2.15) or the cloud service customer (3.2.11), or both. 
+3.2.15 cloud service provider: party (3.1.6) which makes cloud services (3.2.8) available. 
+3.2.16 cloud service provider data : class of data objects, specific to the operation of the cloud service 
+(3.2.8), under the control of the cloud service provider (3.2.15). 
+note – cloud service provider data includes but is not limited to resource configuration and utilization information, cloud service 
+(3.2.8) specific virtual machine, storage and network resource allocations, overall data centre configuration and utilization, 
+physical and virtual resource failure rates, operational costs and so on. 
+3.2.17 cloud service user: natural person, or entity acting on their behalf, associated with a cloud service 
+customer (3.2.11) that uses cloud services (3.2.8). 
+note – examples of such entities include devices and applications. 
+3.2.18 communications as a service (caas) : cloud service category  (3.2.10) in which the capability 
+provided to the cloud service customer (3.2.11) is real time interaction and collaboration. 
+note – caas can provide both application capabilities type (3.2.1) and platform capabilities type (3.2.31). 
+3.2.19 community cloud: cloud deployment model (3.2.7) where cloud services (3.2.8) exclusively support 
+and are shared by a specific collection of  cloud service customers (3.2.11) who have shared requirements 
+and a relationship with one another,  and where resources are controlled by at least one member of this 
+collection. 
+3.2.20 compute as a service (compaas): cloud service category (3.2.10) in which the capabilities provided 
+to the cloud service customer (3.2.11) are the provision and use of processing resources needed to deploy 
+and run software. 
+note – to run some software, capabilities other than processing resources may be needed. 
+3.2.21 data portability: ability to easily transfer data from one system to another without being required 
+to re-enter data. 
+note – it is the ease of moving the data that is the essence here. this might be achieved by the source system supplying the data 
+in exactly the format that is accepted by the target system. but even if the formats do not match, the transformation between 
+them may be simple and straightforward to achieve with commonly available tools. on the other hand, a process of printing out 
+the data and rekeying it for the target system could not be described as "easy". 
+3.2.22 data storage as a service (dsaas): cloud service category (3.2.10) in which the capability provided 
+to the cloud service customer (3.2.11) is the provision and use of data storage and related capabilities. 
+note – dsaas can provide any of the three cloud capabilities types (3.2.4). 
+3.2.23 hybrid cloud : cloud deployment model  (3.2.7) using at least two different cloud deployment 
+models (3.2.7). 
+3.2.24 infrastructure as a service  (iaas): cloud service category  (3.2.10) in which the cloud capabilities 
+type (3.2.4) provided to the cloud service customer (3.2.11) is an infrastructure capabilities type (3.2.25). 
+note – the cloud service customer (3.2.11) does not manage or control the underlying physical and virtual resources, but does 
+have control over operating systems, storage, and deployed applications that use the physical and virtual resources. the cloud 
+service customer (3.2.11) may also have limited ability to control certain networking components (e.g., host firewalls). 
+3.2.25 infrastructure capabilities type: cloud capabilities type (3.2.4) in which the cloud service customer 
+(3.2.11) can provision and use processing, storage or networking resources. 
+3.2.26 measured service: metered delivery of cloud services (3.2.8) such that usage can be monitored, 
+controlled, reported and billed. 

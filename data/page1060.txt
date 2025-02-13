@@ -1,0 +1,55 @@
+7 security  
+ 
+1052 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should agree with the cloud 
+service provider on an appropriate allocation of 
+information security roles and responsibilities, and 
+confirm that it can fulfil its allocated roles and 
+responsibilities. the information security roles and 
+responsibilities of both parties should be stated in an 
+agreement. 
+the cloud service customer should identify and manage 
+its relationship with the customer support and care 
+function of the cloud service provider. 
+the cloud service provider should agree and document 
+an appropriate allocation of information security roles 
+and responsibilities with its cloud service customers, its 
+cloud service providers, and its suppliers. 
+other information for cloud services 
+even when responsibilities are determined within and between the parties, the cloud service customer is 
+accountable for the decision to use the service. that decision should be made accord ing to the roles and 
+responsibilities determined within the cloud service customer's organization. the cloud service provider is 
+accountable for the information security stated as part of the cloud service agreement. the information 
+security implementation and provisioning should be made according to the roles and responsibilities 
+determined within the cloud service provider's organization. 
+ambiguity in roles and in the definition and allocation of responsibilities related to issues such as da ta 
+ownership, access control, and infrastructure maintenance, can give rise to business or legal disputes, 
+especially when dealing with third parties. 
+data and files on the cloud service provider's systems that are created or modified during the use of the cloud 
+service can be critical to the secure operation, recovery and continuity of the service. the ownership of all 
+assets, and the parties who have responsibilities for operations associated with these assets, such as backup 
+and recovery operations, should be defined and documented. otherwise, there is a risk that the cloud service 
+provider assumes that the cloud service customer performs these vital tasks (or vice versa), and a loss of data 
+can occur. 
+6.1.2 segregation of duties 
+control 6.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+6.1.3 contact with authorities 
+control 6.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should identify the 
+authorities relevant to the combined operation of the 
+cloud service customer and the cloud service provider. 
+the cloud service provider should inform the cloud 
+service customer of the geographical locations of the 
+cloud service provider's organization and the countries 
+where the cloud service provider can store the cloud 
+service customer data. 
+other information for cloud services 
+information about geographical locations where the cloud service customer data can be stored, processed 
+or transmitted can help the cloud service customer in determining the supervisory authorities and 
+jurisdictions. 

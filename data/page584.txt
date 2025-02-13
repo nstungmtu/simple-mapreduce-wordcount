@@ -1,0 +1,10 @@
+3 xaas  
+ 
+576  
+summary 
+recommendation itu-t y.3504 describes desktop as a service  (daas) functions and functional architecture 
+for daas. this recommendation also describes the relationship between the daas fu nctional architecture 
+and the cloud computing reference architecture. 
+keywords 
+daas functional architecture, daas functions, desktop as a service, virtual desktop. 
+  

@@ -1,0 +1,56 @@
+security 7 
+ 
+  1059 
+9.4.5 access control to program source code 
+control 9.4.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+10 cryptography 
+10.1 cryptographic controls 
+the objective specified in clause 10.1 of iso/iec 27002 applies. 
+10.1.1 policy on the use of cryptographic controls 
+control 10.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should implement 
+cryptographic controls for its use of cloud services if 
+justified by the risk analysis. the controls should be of 
+sufficient strength to mitigate the identified risks, 
+whether those controls are supplied by the cloud service 
+customer or by the cloud service provider. 
+when the cloud service provider offers cryptography, 
+the cloud service customer should review any 
+information supplied by the cloud service provider to 
+confirm whether the cryptographic capabilities: 
+– meet the cloud service customer's policy 
+requirements; 
+– are compatible with any other cryptographic 
+protection used by the cloud service customer; 
+– apply to data at rest and in transit to, from and 
+within the cloud service. 
+the cloud service provider should provide information 
+to the cloud service customer regarding the 
+circumstances in which it uses cryptography to protect 
+the information it processes. the cloud service provider 
+should also provide information to the cloud service 
+customer about any capabilities it provides that can 
+assist the cloud service customer in applying its own 
+cryptographic protection. 
+other information for cloud services 
+in some jurisdictions, it might be required to apply cryptography to protect particular kinds of information, 
+such as health data, resident registration numbers, passport numbers and driver's licence numbers. 
+10.1.2 key management 
+control 10.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should identify the 
+cryptographic keys for each cloud service, and 
+implement procedures for key management. 
+where the cloud service provides key management 
+functionality for use by the cloud service customer, the 
+cloud service customer should request the following 
+information on the procedures used to manage keys 
+related to the cloud service: 
+– type of keys; 
+(no additional implementation guidance) 

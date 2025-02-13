@@ -1,0 +1,34 @@
+2 cloud computing management  
+ 
+454  
+cloud computing technology, and it can also be used to manage both traditional telecommunication networks 
+and/or cloud computing infrastructures. a cloud -based management system  can be a cloud-aware 
+management system, but it is not necessary to manage cloud infrastr uctures using a cloud -based 
+management system. 
+7 cloud-based network management functional architecture 
+7.1 basic concept 
+cloud computing is a technology from it domain, with the aim for a supplier to share computing and storage 
+capabilities in the cloud to multiple customers. a system can be built using the traditional means, or using 
+cloud computing technology to provide services to customer and using cloud as its infrastructure, as far as 
+the services can be provided. a network management system is a sof tware system which provides network 
+management services to operators or telecommunication service providers. thus using cloud technology in 
+network management systems will also bring the benefits of cloud into the network management field.  
+cloud-based net work management system may include two main parts, one is the cloud -based network 
+management platform, and the other is management applications for various network technologies which 
+are built over the management platform. 
+figure 1 shows the basic concept of the cloud-based network management platform and the management 
+applications. 
+cloud-based network management platform
+management 
+application    
+management 
+application
+management 
+application
+ 
+figure 1 – cloud-based network management platform and applications 
+the cloud -based network management platform is described in details in clause 7.2. management 
+application functions can be the applications that provide functions dedicate d for the management of a 
+specific network technology (e.g. mobile core network, tran sport network), and they provide their own 
+functionality for its dedicated network, and share the lower layer functions of the cloud -based network 
+management platform, e.g., cloud infrastructure management, or common management services. 

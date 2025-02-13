@@ -1,0 +1,43 @@
+5 intercloud and interoperability  
+ 
+812  
+i.2.6 use case of virtual home gateway in trusted inter-cloud 
+this use case illustrates management aspect of trusted inter -cloud between csc and csp or between csps. 
+the federation pattern of inter-cloud used to illustrate the use case is an example only. 
+table i.2.6 – virtual home gateway in trusted inter-cloud 
+title virtual home gateway in trusted inter-cloud  
+description – a large group of cscs requests from csp(naas) secured access to internet 
+with parental control service. a csp(naas) serves such service over virtual 
+home gateway (vhgw) facilities using network functions virtualization (nfv) 
+and sdn technologies.  
+– the csp(naas) forms an inter-cloud federation pattern within a group of peer 
+csps due to lack of own resources for request realization. according to the 
+management of sensitive csc's data, the csp(naas) establish a trusted 
+relationship between csps(paas) and csps(saas) involved in federation.  
+– the csp(naas) forms service chaining on parental control service from a set of 
+network virtual functions (e.g., virtual firewall (vfw), virtual network address 
+translation (vnat), virtual load balancer (vlb)) hosted by csp(paas) and 
+csp(saas). 
+– the csp(naas) monitors quality of service chaining and in case of quality 
+drops below threshold or in case of the realization of particular key 
+performance indicators (kpis) (e.g., low power consumption, service 
+balancing), the service is automatically reallocated within the  federation, 
+respecting policy and governance roles applied. 
+roles csc, csp(naas), csp(paas), csp(saas), csp(xaas) 
+figure (optional) 
+ 
+pre-conditions (optional) – the csp(naas) and csp(paas) and csp(saas) are in a trusted inter-cloud 
+relationship. 
+post-conditions (optional) – the csp(naas) guarantees governance policy of saas.  
+– the csp(naas) establishes service chaining between csp(paas) and csp(saas). 
+– the csp(naas) reallocate service between csps among federation in case 
+service quality drops below threshold or in case of the realization of particular 
+kpis (e.g., low power consumption, service balancing). 
+derived requirements – policies and governance roles 
+– confidentiality of csc's data  
+– service statistics 
+– annotation (tagging) of cloud workloads 
+i.2.7 use case of distributed document exchange system in trusted inter-cloud 
+this use case illustrates governance aspect of trusted inter-cloud between csc and csp or between csps. the 
+federation pattern of inter-cloud used to illustrate the use case is an example only. 
+

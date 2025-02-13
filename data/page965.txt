@@ -1,0 +1,36 @@
+monitoring 6 
+ 
+   957 
+7.2.2 service availability 
+service availability is the property of being accessible and usable upon demand by an authorized entity. 
+continuity is the key feature used to measure service availability, which ensures the service is available for a 
+certain amount of time without any interruption. furthermore, if there is an incident, continuity enables the 
+service to be restarted and access to data and functionality of the service regained within a particular period. 
+all elements, including computing, storage, network and power supplemen t, can affect service continuity. 
+for example, for a public-cloud end user, availability of the cloud not only refers to the services provided by 
+the cloud service provider, but also to the possibility of accessing those services remotely. 
+see table 7-10. 
+table 7-10 – parameters collected for monitoring service availability 
+metric name description unit 
+mean time between failures (mtbf) time between inherent failures of element or 
+service during operation h 
+maximum tbf maximum time between failures h 
+minimum tbf minimum time between failures  h 
+mean time to repair (mttr) the average time repair a failed element or 
+service h 
+maximum ttr maximum time to repair h 
+minimum ttr minimum time to repair h 
+mean down time (mdt) 
+the average time that an element or service is 
+non-operational. this includes all downtime 
+associated with repair 
+h 
+maximum down time maximum time of down h 
+minimum down time minimum time of down h 
+7.2.3 service performance 
+7.2.3.1 transaction process 
+transaction process metrics can give a clear picture of the performance of an application in a cloud, such as 
+response time to complete service requests and transaction rate at which service requests are executed. 
+latency for service requests, which calculates the time taken for the application to respond to user requests, 
+is the key metric. 
+  

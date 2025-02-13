@@ -1,0 +1,39 @@
+intercloud and interoperability 5 
+ 
+  805 
+10 requirements for resiliency of trusted inter-cloud 
+this clause provides requirements for resiliency of trusted inter-cloud derived from the use cases described 
+in appendix i. 
+10.1 service monitoring 
+it is recommended that the csp monitors quality of trusted inter-cloud service in real time. 
+10.2 service continuity 
+it is recommended that the csp supports t he resiliency of trusted inter -cloud services in order to respect 
+service continuity in accordance with the sla established between csc and csp or between csps. 
+10.3 resiliency policies  
+it is recommended that the csp integrates and validates cloud service s from peer csps with respect to 
+resiliency policies. 
+10.4 resiliency validation 
+it is recommended that the csp validates resiliency of cloud service from peer csps. 
+11 requirements for security and confidentiality of trusted inter-cloud  
+this clause provides requirements for security and confidentiality of trusted inter-cloud derived from the use 
+cases described in appendix i. 
+11.1 security and confidentiality policies 
+it is recommended that the csp supports unified (commonly adopted) security and con fidentiality policies 
+and metadata. 
+11.2 level of robustness 
+it is recommended that the csp supports appropriate levels of robustness.  
+11.3 security policy negotiation 
+it is recommended that the csp supports security policy negotiation. 
+11.4 security and confidentiality policy  
+it is required that the csp respects the security and confidentiality policies established between csc and csp 
+or between csps. 
+11.5 data security  
+it is recommended that the csp supports on-demand data security services. 
+11.6 security policy monitoring 
+it is recommended that the csp supports deployment and monitoring of security policies related to inter -
+cloud. 
+12 security considerations 
+security aspects for consideration within the cloud computing environment, including inter-cloud computing, 
+are described in [itu -t x.1601] , which analyses security threats and challenges, and describes security 
+capabilities that could mitigate these threats and meet the security challenges. 
+  

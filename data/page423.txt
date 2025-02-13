@@ -1,0 +1,53 @@
+ framework and requirements for cloud computing 1 
+ 
+   415 
+19 broadband forum 
+table 19-1 provides a list of broadband forum deliverables associated with cloud computing. 
+table 19-1 – broadband forum deliverables 
+title of deliverable current status starting 
+date 
+target date 
+tr-317, network enhanced residential gateway (nerg) published  06/2016 
+tr-328, virtual business gateway published 09/2013 06/2017 
+tr-345, broadband network gateway and network 
+function virtualization 
+published  10/2016 
+wt-359, a framework for virtualization published  10/2016 
+tr-384, cloud based central office architectural 
+framework (cloudco) 
+published 09/2016 01/2018 
+wt-411, functional module interface definitions draft 09/2017 03/2019 
+wt-412, test cases and application notes for cloud co 
+system (collaborating with open broadband) 
+draft 05/2017 05/2018 
+wt-413, sdn management and control interfaces for 
+cloudco network functions 
+draft 09/2017 05/2018 
+tr-416, cloudco: use cases and scenarios published 09/2016 05/2018 
+• tr-317: network enhanced residential gateway. this document specifies the network enhanced 
+residential gateway (nerg) architecture. nerg consists in shifting some of the functionality of a 
+residential gateway (rg), as defined in tr-124 to the operator's network. 
+ uri: https://www.broadband-forum.org/technical/download/tr-317.pdf 
+• tr-328: virtual business gateway. this technical report specifies architecture and requirements for 
+the virtual business gateway. the virtual business gateway architecture supports the migration of 
+functionalities running on a business gateway to the network service provider's infrastructure to 
+enable network-based features and services. such migration is expected to simplify the deployment 
+and management of the network and business services. 
+ uri: https://www.broadband-forum.org/technical/download/tr-328.pdf 
+• tr-345: this technical report describes how virtualized network functions (vnfs) and their 
+supporting network function virtualization infrastructure (nfvi) can be integrated with these 
+broadband forum architectures. this includes scenarios where nfvi is connected directly to a tr -
+101 access network and also where vnfs are deployed behind an ms-bng as part of a service graph. 
+ uri: https://www.broadband-forum.org/technical/download/tr-345.pdf 
+• tr-359: a framework for virtualization. this document significantly enhances the architectural 
+modelling of the management and control of the multi -service broadband network (msb n). this 
+document combined with tr-384 provides foundational underpinning of bbf work. 
+ uri: https://www.broadband-forum.org/technical/download/tr-359.pdf 
+• tr-384: cloud-based central office (cloudco) reference architectural framework. this document 
+specifies the recasting of a central office hosting infrastructure utilizing sdn, nfv and cloud 
+technologies and aligned with the forum’s open broadband (ob) vision. cloudco enables 
+significantly faster and more efficient provisioning of new cloud -based services to provide rapid 
+availability of new revenue generating services. collectively the transformational nature of the 
+cloudco structure and defined functions facilitate choice, ada ptability, migration/coexistence and 
+implementation with 'open source' to enable agility and a differentiation at the functional level. 
+ uri: https://www.broadband-forum.org/technical/download/tr-384.pdf 

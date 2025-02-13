@@ -1,0 +1,15 @@
+2 cloud computing management  
+ 
+490  
+• update of an ses: modification of the setting or life cycle management status of an ses instance 
+• de-activation of an ses: making the ses unavailable in a particular context 
+iii.3 smi interface 
+the smi support a set of simple operations to allow ses components to interact with management systems 
+in a consistent way: 
+• getexecutionstate  
+• getmanagementreport  
+• getserviceconfiguration  
+• setexecutionstate  
+• setserviceconfiguration 
+for further information about smi concepts, refer to [b-tmf tr198]. 
+  

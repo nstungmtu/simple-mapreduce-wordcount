@@ -1,0 +1,12 @@
+1 framework and requirements for cloud computing  
+ 
+48  
+summary 
+rec. itu-t y.3502 | iso/iec 17789 provides the reference architecture for cloud computing, which includes 
+the cloud computing roles, cloud computing activities, and the cloud computing functional components and 
+their relationships. 
+ 
+ 
+ 
+ 
+  

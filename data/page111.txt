@@ -1,0 +1,25 @@
+ framework and requirements for cloud computing 1 
+ 
+   103 
+as is the case with the cloud service customer-cloud service provider relationship there are two functional 
+components to the relationship between two cloud service providers: 
+• the use of secondary provider cloud services by a primary provider; 
+• the use of secondary provider's business and administration capabilities by the primary provider's 
+csp:cloud service operations manager and csp:cloud service manager to establish and control the 
+use of the secondary provider's cloud services. 
+for the secondary provider, the primary provider assumes the role of a cloud service customer. services of 
+the secondary cloud service provider  are offered to and used by customers of the primary cloud service 
+provider. the resulting linkage between the secondary cloud service provider  and the cloud service 
+customer of the primary provider requires specific consideration of issues such as security, protection of pii, 
+and data ownership. 
+it is essential that the primary provider ensures that the sla offered by the secondary provider's services is 
+suitable for the requirements of the primary provider's services  – and that any breaches of the sla are 
+managed appropriately. 
+there are three interfaces involved in the provider–peer provider relationship – the administration interface, 
+the business interface and the service interface(s), which broadly provide the same capabilities as the 
+equivalent interfaces in the cloud service customer–cloud service provider relationship. the way in which 
+the administration interface is used is shown in figure a.4 and the way in which the service interface is used 
+is shown in figure a.5 and the way in which the business interface is used is shown in figure a.6. 
+ 
+figure a.4 – provider–peer provider relationship for administrator activity 
+

@@ -1,0 +1,47 @@
+intercloud and interoperability 5 
+ 
+  865 
+3.2.2 cloud interoperability testing : verifying functions and interaction that realize the cloud 
+interoperability.  
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+bss business support systems 
+ccra cloud computing reference architecture 
+csc cloud service customer 
+csp cloud service provider 
+iaas infrastructure as a service 
+ict information and communication technology 
+it information technology 
+oss operational support systems 
+paas platform as a service 
+qos quality of service 
+saas software as a service 
+sla service-level-agreement 
+vm virtual machine 
+5 overview of cloud computing interoperability testing 
+interoperability in the context of cloud computing includes the ability of a cloud service customer to interact 
+with a cloud service and exchange information according to a prescribed method and obtain predictable 
+results. typically, interoperability implies that the cloud serv ice operates according to an agreed 
+specification, one that is possibly standardized. the cloud service customer should be able to use widely 
+available ict facilities in-house when interacting with the cloud services, avoiding the need to use proprietary 
+or highly specialized software. the interoperability of cloud services can be categorized by the management 
+and functional interfaces of the cloud services. many existing it standards contribute to the interoperability 
+between cloud consumer applications and cloud services, and between cloud services themselves. there are 
+standardization efforts that are specifically initiated to address the interoperability issues in the cloud system. 
+interoperability also includes the ability for one cloud service to work with other cloud services, either 
+through an inter-cloud provider relationship, or where a cloud service customer uses different multiple cloud 
+services in some form of composition to achieve its business goals.  
+interoperability stretches beyond the cloud services themselves and also includes the interaction of the cloud 
+service customer with the cloud service management facilities of the cloud service provider. ideally, the cloud 
+service customer should have a consistent and interoperable interface to the  cloud service management 
+functionality and be able to interact with two or more cloud service providers without needing to deal with 
+each provider in a specialized way.  
+the main purpose of interoperability testing is to evaluate the interaction between c loud service customer 
+and cloud service provider to obtain predictable results, collaboration among different cloud services, and 
+consistency and interoperability of management interface across different services.  
+a cloud capabilities type is a classification of the functionality provided by a cloud service to the cloud service 
+customer, based on the resources used. there are three different cloud capabilities types [itu -t y.3500]: 
+infrastructure capabilities type, platform capabilities type, and applicati on capabilities type, which are 
+different because they follow the principle of separation of concerns, i.e. , they have minimal functionality 
+overlap between each other. the interoperability testing in different cloud capabilities type is different; there 
+are three major interoperability testing scenarios as follows: 

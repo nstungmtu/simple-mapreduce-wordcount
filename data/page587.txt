@@ -1,0 +1,40 @@
+xaas 3 
+ 
+  579 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+ccm-f client connection management function 
+cn-f connection negotiation function 
+cpc-f client peripheral connection function 
+cpu central processing unit 
+csc cloud service customer 
+cs-fs client support functions 
+csp cloud service provider 
+csu cloud service user 
+daas desktop as a service 
+db database 
+dpp-f delivery protocol processing function 
+fc functional component 
+gpu graphic processing unit 
+ha-f high availability for daas function 
+h/w hardware 
+iam-f infrastructure access management function 
+id identification 
+i/o input/output 
+ip internet protocol 
+mac media access control 
+mc-f monitoring and controlling virtual desktop resource function 
+os operating system 
+opm-f operational policy management for daas function 
+pa-f provisioning and allocation of virtual desktop function 
+pe-f performance enhancement for virtualization platform function 
+pm-f power management of virtual desktop resource function 
+pv-f platform virtualization function 
+qos quality of service 
+ra-f resource assignment function 
+rad-f virtual desktop resource allocation and distribution function 
+scue-f service continuity for user environment function 
+sc-f service connection function 
+uam-f user access management function 
+uapm-f user account and profile management function 
+vdcd-fs irtual desktop connection and delivery functions 

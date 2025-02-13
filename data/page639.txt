@@ -1,0 +1,32 @@
+xaas 3 
+ 
+  631 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– optimized and fine-grained traffic engineering (refer to clause 9.8) 
+– coexistence with legacy network services and functions (refer to clause 9.9) 
+– centralized control view and abstraction view of resources (refer to clause 9.10) 
+ii.4.2.5 naas connectivity use case for performance on demand 
+ 
+title naas connectivity use case for performance on demand 
+description csc requests csp to provide on-demand network performance (such as bandwidth 
+quantities, maximum latencies and other qos parameters), which includes dynamic 
+establishment, change and resized capacity of links. however, traditional solution based on 
+human intervention lacks automation capabilities which make it difficult to deliver self -
+provisioned services and respond to time-sensitive changes in network performance 
+requirements. additionally, frequent changes sometimes result in congestion and 
+instability because traffic, which comes from multiple sources, shares the same network 
+link.  
+csp provides csc the appropriate control in order to request services through a portal and 
+to shield the underlying physical network to the csc.  
+roles csc, csp 
+

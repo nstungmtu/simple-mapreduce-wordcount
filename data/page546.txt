@@ -1,0 +1,27 @@
+2 cloud computing management  
+ 
+538  
+table i.4 – secure data management of the saas partition model in inter -cloud 
+figure (optional) 
+ 
+pre-conditions (optional) the csps (saas) form an inter-cloud federation pattern.  
+post-conditions 
+(optional) 
+ 
+derived requirements unique data identity management (see clause 9.3) 
+data encryption in cloud storage (se clause 9.3) 
+i.5 use case of secure data management of the saas data partition model in inter-cloud 
+this use case illustrates secure data management of the saas data replication model in inter-cloud. the inter-
+cloud federation pattern used to illustrate the use case is an example only. 
+table i.5 – secure data management of the saas data partition model in inter-cloud 
+title secure data management of the saas data partition model in inter -cloud 
+description this case partitions data and distributes fine-grained fragments of data to distinct 
+clouds. none of the csps involved gains access to all the data, which safeguards data 
+confidentiality. 
+data is partitioned by two methods according to data type. in  unstructured data (e.g., 
+picture, document), data can be partitioned using cryptographic data splitting. in 
+database or structured data [e.g., extensible markup language (xml) data, log], 
+data can be partitioned by distributing different parts of the data to different cloud 
+service providers (csp-a, csp-b and csp-c). 
+roles csc, csp (saas)  
+

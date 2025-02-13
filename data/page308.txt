@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+300  
+table i.2 – inter-cloud use case: performance guarantee against an abrupt increase in load 
+use case 
+derived requirements for the 
+cloud capability 
+the capability is required to support:  
+– policy negotiation including sla management among the multiple csps 
+within a pre-established group (i.e., federation); 
+note – policy refers to a way for a csp to provide services in terms of 
+presumed reliability of a machine, including its backup scheme and target 
+service levels. the policy may be different with each csp. to maintain the same 
+quality of service to the csc even when the csp changes, the difference should 
+be negotiated beforehand and settled. this process is referred to as policy 
+negotiation. the same note applies to the other use cases. 
+– self-performance monitoring at a csp. if the performance degrades, the csp 
+should initiate the next configured actions; 
+– discovery, reservation, use and release of cloud resources in a dynamic 
+manner (i.e., not relying on the pre-configuration) on other csps within a 
+federation; 
+– application invocation over the reserved resources on other csps within a 
+federation;  
+– alteration and reversion (i.e., switchover and switchback) of csc access 
+from one csp to another csp in a dynamic manner (i.e., not relying on the 
+pre-configuration) within a federation; 
+– exchange of monitoring and auditing information among the multiple csps 
+within a federation; 
+– exchange of authentication information about csc (user/enterprise) 
+authentication status among the multiple csps within a federation.  
+i.3 performance guarantee regarding delay (optimization for user location) 
+table i.3 shows inter-cloud use case for performance guarantee regarding delay. 
+table i.3 – inter-cloud use case: performance guarantee regarding delay 
+use case  
+use case title inter-cloud use case: performance guarantee regarding delay 
+relevant roles csp and csc 
+use case description – csps guarantee their service performance (in particular, network delay 
+and response time), even when a csc moves to a remote location (e.g., 
+on a business trip), by using cloud resources provided by another csp 
+located close to the csc on a temporary basis. 
+– when degradation in the response time is detected for a csc at a csp, 
+available resources are autonomously discovered and reserved in 
+another csp that is near the csc based on the user's location 
+information. 

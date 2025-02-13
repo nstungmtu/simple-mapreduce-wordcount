@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+214  
+table ii.1 – providing iaas service with processing resource – use case 
+derived 
+requirements 
+– virtualization instruction set (see clause 7.1.1.1)  
+– hardware-assisted i/o virtualization (see clause 7.1.1.4)  
+– hardware-assisted memory virtualization (see clause 7.1.1.2) 
+– supporting various types of memory (see clause 7.1.1.2) 
+– network interface virtualization (see clause 7.2) 
+– provide i/o interface to administrator (see clause 7.2) 
+– provide i/o interface to external storage device (see clause 7.2) 
+– i/o devices direct accessing (see clause 7.1.1.4) 
+– monitoring status of physical machine (see clause 7.1.4) 
+– automatically power operation (see clause 7.1.6) 
+– processing unit operation (see clause 7.3) 
+– remote management (see clause 7.3) 
+– support fault location (see clause 7.6) 
+– hot-plug support (see clause 7.6)  
+– workload offload (see clause 7.1.1.4) 
+– hardware acceleration (see clause 7.1.1.4)  
+– interface for monitoring power (see clause 7.1.2) 
+ 
+table ii.2 – preparing a physical machine – use case 
+title preparing a physical machine 
+description a cloud service operations manager installs multiple processing units on the backplane of an 
+enclosure to increase the computing resources of a physical machine. he or she also installs 
+more than one storage device per cpu in a processing unit through standard storage 
+interfaces. 
+to connect all multiple processing units together, a cloud service operations manager 
+mounts a switch device which is responsible for system interconnects and network topology 
+to the backplane of the enclosure. 
+in addition, the enclosure is equipped with a power supply to provide power to an entire 
+physical machine and a cooling device to reduce heating. a cloud service operations manager 
+should be able to check whether each device is installed in a physical machine correctly 
+through a console panel on the enclosure. 
+system software and operating systems are installed on corresponding devices or rebooted 
+and consequently a physical machine completes to set up its operations.  
+based on the above steps to construct a physical machine, several physical machines are 
+connected with each other by their external interfaces and can be installed in a standard 
+rack. 
+roles/sub-roles csp: cloud service operations manager. 

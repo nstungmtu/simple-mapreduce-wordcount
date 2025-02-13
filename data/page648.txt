@@ -1,0 +1,11 @@
+3 xaas  
+ 
+640  
+summary 
+recommendation itu-t y.3513 introduces the concept of infrastructure as a service (iaas) and describes its 
+functional requirements. as one of the cloud computing service categories, infrastructure as a service 
+provides cloud service customers with computing, storage and network services by cloud service providers. 
+to derive those requirements, relevant use cases are also presented. 
+keywords 
+cloud computing, infrastructure as a service, iaas, virtual machine. 
+  

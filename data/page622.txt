@@ -1,0 +1,44 @@
+3 xaas  
+ 
+614  
+vfw virtual firewall 
+vrouter virtual router 
+vdi virtual desktop infrastructure 
+vm virtual machine 
+voip voice over ip 
+vpls  virtual private lan service 
+vpn virtual private network 
+vrf virtual routing and forwarding 
+wan wide area network 
+5 conventions 
+the keywords " is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this recommendation is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the vend or's implementation must 
+provide the option and the feature can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the feature and still claim conformance with the 
+specification. 
+in the body of this recommendation and its annexes, the words shall, shall not, should, and may sometimes 
+appear, in which case they are to be interpreted, respectively,  as is required to, is prohibited from, is 
+recommended, and can optionally. the appearance of such phrases or keywords in an appendix or in material 
+explicitly marked as informative is to be interpreted as having no normative intent. 
+6 general description 
+6.1 networking challenges in cloud computing 
+there are several challenges to build an efficient and reliable network application and infrastructure  to 
+provide cloud services . having both compute, storage and network capabilities may face the following 
+challenges: 
+• coordination of compute and storage virtualization with network capabilities 
+ compute and storage performance challenges in cloud computing systems are successfully solved 
+using virtualization as a core technique. server virtualization introduced  virtual machines' (vms) 
+dynamic and static migration, which imposes demands on the networking envir onments. network 
+is expected to provide suitable and flexible support for highly variable cloud applications, when they 
+run inside complex and diverse syste m architecture. in such system it is possible to provide the 
+compute and storage resources, but it i s also expected to dynamically provide the necessary 
+networking support required to assure overall system performance, reliability and quality of service 
+(qos) demands. 
+• harmonized control of heterogeneous network technologies 
+ due to the increasing geogr aphical distribution of cloud computing systems several network 
+technologies can be utilised to assure end -to-end connectivity. it is expected that support of 
+efficient control mechanisms for heterogeneous network technologies be provided. 

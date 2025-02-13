@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+290  
+y .3511(14)_f8-6
+csc csp a csp b csp c
+secondary cspsprimary csp
+matching between qos requirements and sla, and policy negotiation
+1) service utilization
+collaboration starts
+2) resource information request
+3) resource information response
+4) resource reservation
+5) resource set-up and service activation
+6) resource release
+resource in use
+collaboration finished
+ 
+figure 8-6 – interaction among csps in inter-cloud federation 
+when the federation is esta blished, the primary and the secondary csps perform matching between qos 
+requirements and sla, and policy negotiation. the next steps as shown in figure 8-6 are as follows: 
+1) the csc starts to use the service of csp a. csp a is the primary csp for this csc; 
+2) the primary csp (i.e., csp a) decides to initiate an interaction due to a shortage of resources that 
+results in service quality degradation. csp a requests information about the resources (e.g., vms 
+and storage) from csp b and csp c. csp b and csp c are the secondary csps for this interaction; 
+3) csp b and csp c provide responses to csp a regarding available resources; 
+4) on the basis of the received responses, csp a reserves the resources of csp b. in this step, csp a 
+estimates the performance of the  resources available in csp b and confirms that the estimated 
+performance is acceptable; 
+5) csp a sets up the resources of csp b and activates the service (this action can be considered as vm 
+migration or application rebuilding). as a result, service quality is maintained. 
+6) csp a decides to end the collaboration with csp b (e.g.,  csp a has sufficient resources to provide 
+services by itself or demand for services has decreased). csp a releases the resources provided by 
+csp b. 
+these steps can be applied to every csp involved in the inter-cloud federation. each csp in the federation is 
+the primary csp for its own cscs and the csps providing resources to a primary csp can be considered as the 
+secondary csps. 
+the way a primary csp requests resources from the secondary csps may vary from:  
+– "more-specific" resources request which includes detailed descriptions and may limit the number 
+of candidate resources and resulting responses from the secondary csps but may obtain optimal 
+resources if responded. however, co mplicated resource calculation and performance estimation 
+may be necessary. a "more-specific" resources request is adequate when the cost associated with 
+the offered resources is high and sensitive;  
+– "less-specific" resources request soliciting more offe rings and resulting in a simple and quick 
+decision, although the offered resources may not be optimal.  
+a primary csp may only receive and use a certain number of responses to reduce the processing burden 
+caused by a large number of responses. 
+details related to "more-specific" and "less-specific" resource requests are for further study. 

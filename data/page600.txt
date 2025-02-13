@@ -1,0 +1,28 @@
+3 xaas  
+ 
+592  
+8 relationships between daas functions and functional components of cloud computing reference 
+architecture 
+figure 8-1 shows the m apping between the daas functions in clause 7 and the f unctional components in 
+[itu-t y.3502]. 
+ 
+figure 8-1 – mapping between daas functions and functional components of  
+cloud computing reference architecture 
+among the 18 daas functions identified in clause 7, 14 of these can be mapped to functional components in 
+[itu-t y.3502]. these mappings, in terms of the layering framework, are as follows: 
+– user layer: 
+• user function: service connection function (see clause 7.4.1) 
+– access layer: 
+• access control functional component: delivery protocol processing function (see clause 7.2.1), 
+user access management function (see clause 7.2.3) 
+• connection management functional component: client connection management function (see 
+clause 7.2.2) 
+– resource layer: 
+• resource abstraction and  control functional component: resource assignment function (see 
+clause 7.1.2), platform virtualization function (see clause 7.1.1) 
+• physical resources functional component: performance enhancement for virtualization 
+platform function (see clause 7.1.3) 
+– multi-layer functions: 
+• security systems functional component -authentication and identity management: 
+infrastructure access management function (see clause 7.1.4) 
+

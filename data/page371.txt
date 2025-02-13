@@ -1,0 +1,84 @@
+ framework and requirements for cloud computing 1 
+ 
+   363 
+− architecture: the standard which provides reference architecture; 
+− api, interface, profile: the standard which provides common interface, api and/or its profile; 
+− data model, format, schema: the standard which provides data model or protocol including scheme 
+and/or its encoding format; 
+− others (e.g., guidelines, technical reports). 
+the vertical axis describes the related technologies for supporting big data as follows. 
+− fundamental: concept of big data and its applications; 
+− data exchange: for supporting big data publishing, sharing, transaction, etc.; 
+− data integration: with heterogeneous data sources; 
+− analysis/visualization: for mining model description, etc.; 
+− data provenance/metadata: for data quality, history tracking, data management, etc.; 
+− security/privacy: for big data, especially personal identification information; 
+− other: big data related technologies which are not described above. 
+note 1 – the items on the horizontal axis are not subordinated to the different technologies.  
+note 2 – the items on the vertical axis can be modified with technology change. 
+note 3 – a standard has more than one location on the matrix. in the case that one standard is included in 
+multiple document categories (horizontal axis) or related technologies (vertical axis), it can be mapped 
+several times. 
+table 10-1 shows the standardization matrix related to big data. 
+table 10-1 – standardization matrix of big data 
+ general/ 
+definition 
+common 
+requirement/ 
+use case 
+architecture 
+api, interface 
+and its 
+profile 
+data model, 
+format, 
+schema 
+others 
+(e.g., guideline) 
+fundamental 
+itu-t y.3600 
+iso/iec 20546 
+iso/iec 20547-1 
+itu-t y.3600 
+itu-t y.bdaas-
+arch 
+iso/iec 20547-3 
+   
+data 
+exchange 
+itu-t y.bigdataex-
+reqts 
+itu-t 
+y.bigdataex-
+reqts 
+  
+oasis amqp 1.0 
+oasis mqtt 
+3.1.1 
+ 
+data 
+integration     
+w3c dcat 
+w3c json-ld 1.0 
+w3c ldp 1.0 
+w3c rdf 1.1 
+w3c oo 
+ 
+analysis 
+/visualization     dmg pmml 
+4.2.1 tmf bdag 
+data 
+provenance 
+/metadata 
+itu-t y.bdp-reats itu-t y.bdp-reats   w3c mvtd 
+w3c mtdmw  
+security 
+/privacy 
+itu-t x.1601 
+iso/iec 27000 
+ieo/iec 29100 
+iso/iec 20547-4   iso/iec 27002 
+iso/iec 27018 
+itu-t 
+x.cscdatasec 
+iso/iec 27001 

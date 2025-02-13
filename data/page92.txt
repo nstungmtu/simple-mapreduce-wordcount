@@ -1,0 +1,28 @@
+1 framework and requirements for cloud computing  
+ 
+84  
+9.1.1.4 resource layer 
+the resource layer is where the resources reside. this includes equipment typically used in a data centre such 
+as servers, networking switches and routers, storage devices, and also the corresponding non-cloud-specific 
+software that runs on the servers and other equipment such as host operating  systems, hypervisors, device 
+drivers and generic systems management software. 
+the resource layer also represents and houses the cloud transport network functionality which is required to 
+provide underlying network connectivity between the cloud service provider and the users, as well as within 
+the cloud service provider and between peer cloud service providers. 
+note that for a cloud service provider to provide services consistent with the sla, it can require dedicated 
+and/or secure connections between users and the cloud service provider. 
+9.1.1.5 multi-layer functions 
+the multi-layer functions include a series of functional components  that interact with functional 
+components of the above four other layers to provide supporting capabilities including and not limited to: 
+• operational support systems capabilities (runtime administration, monitoring, provisioning and 
+maintenance); 
+• business support systems capabilities (product catalogue, billing and financial management); 
+• security systems capabilities (authentication, authorization, auditing, validation, encryption); 
+• integration capabilities (linkage of different components to achieve the required functionality); 
+• development support capabilities (involving the creation, testing and life -cycle management of 
+services and service components). 
+9.2 functional components 
+this clause describes the cloud architecture in terms of the common set of cloud computing functional 
+components. a functional component is a functional element of the ccra whi ch is used to perform an 
+activity or some part of an activity and which has an implementation artefact in a concrete realization of the 
+architecture, e.g., a software component, a subsystem or an application. 

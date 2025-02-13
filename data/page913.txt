@@ -1,0 +1,48 @@
+intercloud and interoperability 5 
+ 
+  905 
+ii.3.9 test case: multipath routing 
+table ii.30 shows the test case for multipath routing. 
+table ii.30 – test case: multipath routing 
+multipath routing test description 
+test purpose to verify that the csc accesses a cloud service through multiple network paths. 
+reference [itu-t y.3513] clause 7.3.6 
+test sequence step type description result 
+1 stimulus the csc enables a multipath routing function for a particular 
+cloud service.  
+ 
+3 stimulus one network path is unavailable.  
+4 check the particular service is still accessed with the sla 
+guaranteed by another network path.  
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.3.10 test case: network information inquiring 
+table ii.31 shows the test case for network information inquiring. 
+table ii.31 – test case: network information inquiring 
+network information inquiring test description 
+test purpose to verify that the csc inquires network information from the csp with network device(s) 
+specification, network traffic performance (in terms of throughput, jitter, loss, delay) and 
+network topology. 
+reference [itu-t y.3513] clause 7.3 
+test sequence step type description result 
+1 stimulus the csc queries the network device's information.  
+2 check the csc receives the information of a particular network's 
+device specification that is consistent with the actual status 
+of the network. 
+ 
+3 stimulus csc queries network traffic performance.  
+4 check the csc receives the information of a particular network's 
+traffic performance status that is consistent with the actual 
+status of the network. 
+ 
+5 stimulus the csc queries network topology.  
+6 check the csc receives the information of a particular network's 
+topology that is consistent with the actual status of the 
+network. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+  

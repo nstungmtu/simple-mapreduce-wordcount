@@ -1,0 +1,113 @@
+3 xaas  
+ 
+722  
+appendix i 
+ 
+mapping between requirements, activities and functional components 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix (see table i.1) describes the mapping between bdaas functional requirements, activities 
+(described in [itu-t y.3600]) and functional component s in this recommendation. the related layers with 
+[itu-t y.3502] are also shown in table i.1. 
+table i.1 – mapping between requirements, activities and functional components 
+requirements in [itu-t y.3600] activities in 
+[itu-t y.3600] 
+functional 
+components in this 
+recommendation 
+related layers 
+with 
+[itu-t y.3502] 
+<clause 8.1 requirement (4)> 
+it is recommended for csn: data provider 
+(dp) to provide a brokerage service to 
+csp:bdip for searching accessible data. 
+brokerage data 
+(7.1.1.3) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 
+<clause 8.1 requirement (1)> 
+it is required for the csp:bdip to support 
+collecting data from multiple csn: dps in 
+parallel. 
+perform data 
+collection 
+(7.1.3.1) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 
+<clause 8.1 requirement (3)> 
+it is recommended that the csp:bdip 
+supports collecting data from different csn: 
+dps with different modes. 
+perform data 
+collection 
+(7.1.3.1) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 
+<clause 8.1 requirement (6)> 
+data collection can optionally be performed 
+by the csp:bdip in realtime. 
+perform data 
+collection 
+(7.1.3.1) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 
+<clause 8.6 requirement (1)> 
+it is required for the csp:bdip to manage 
+metadata information such as creating, 
+controlling, attributing, defining and 
+updating. 
+publish data 
+(7.1.1.2) 
+data catalogue 
+functional component 
+(7.3.3.3) 
+operations 
+support systems 
+(oss) 
+<clause 8.1 requirement (2)> 
+it is recommended for the csn: dp to expose 
+data to the csp:bdap by publishing 
+metadata. 
+publish data 
+(7.1.1.2) 
+data catalogue 
+functional component 
+(7.3.3.3) 
+oss 
+<clause 8.3 requirement (5)> 
+it is recommended for the csn: dp to expose 
+apis for data delivery. 
+perform data 
+storage (7.1.3.2) 
+data catalogue 
+functional component 
+(7.3.3.3) 
+oss 
+<clause 8.1 requirement (4)> 
+it is recommended for the csn: dp to provide 
+a brokerage service to the csp:bdip for 
+searching accessible data. 
+brokerage data 
+(7.1.1.3) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 
+<clause 8.1 requirement (5)> 
+it is recommended that the csp:bdip 
+integrates data delivered by the csc and data 
+publicly available. 
+brokerage data 
+(7.1.1.3) 
+data collection 
+functional component 
+(7.1.1) 
+service layer 

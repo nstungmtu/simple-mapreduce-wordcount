@@ -1,0 +1,59 @@
+2 cloud computing management  
+ 
+486  
+appendix i 
+ 
+comprehensive view of management layers 
+(this appendix does not form an integral part of this recommendation.) 
+figure i.1 is an attempt at desc ribing the management layers and how the service management interface 
+(smis) for each layer correlate with each other to offer a complete picture. the cloud computing data centre 
+implementation layers are depicted by la rge circles parallel to each other. t he smis are depicted by small 
+blue circles containing the information required by the management system in order to achieve a holistic 
+view of the entire operation. the straight lines between each plane show the flow of  information and 
+relationship between what is happening at each layer, depicting how each layer is related to and affected by, 
+the neighbouring one. looking at the diagram in its entirety helps the viewer to realize why it makes sense 
+to expose consistent smis from each layer and to expose ma nagement information and telemetry in a 
+consistent matter that can then be rolled up into a comprehensive diagnostics and management solution 
+that can be used by a telecom operator offering and consuming cloud services and products. 
+y.3520(13)_fi.1
+customer view
+- individual customer correlations
+- corporate customer correlations
+- qos and revenue impact management
+assess
+customer
+impact
+product management view
+- enterprise product management
+- application layer protocols
+- sla management
+assess
+application
+impact
+assess
+service
+impact
+service management view
+- services control layer
+- domains of resources
+- individual and combined services
+- service management capabilities
+infrastructure resource view
+- virtualization
+- application servers
+- network layer resources
+assess data center
+infrastructure
+impact
+complex virtualized
+resource data
+map to domain(s)
+map to product
+and service(s)
+map to customer(s)
+present impacts
+feedback to network view
+ 
+note – domains are related to csp. 
+figure i.1 – comprehensive view of management layers 
+  

@@ -1,0 +1,33 @@
+security 7 
+ 
+  965 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security framework for cloud computing 
+recommendation itu-t x.1601 
+(10/2015) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

@@ -1,0 +1,43 @@
+5 intercloud and interoperability  
+ 
+916  
+1 scope 
+this supplement describes the summary information of cloud computing interoperability activities of existing 
+standards development organizations (sdos) and the groups , forums and open sources  developing the 
+specifications that have potential to utilize cloud computing interoperability testing tools. this supplement 
+also provides summary list of  activities by the sdos including those of cloud computing  interoperability 
+testing areas.  
+2 references 
+itu-t references 
+[itu-t y.3500]  recommendation itu-t y.3500 (2014), information technology –cloud 
+computing – overview and vocabulary. 
+[itu-t y.3501]  recommendation itu-t y.3501 (2013), cloud computing framework and high-
+level requirements. 
+[itu-t y.3502]  recommendation itu-t y.3502 (2014), information technology — cloud 
+computing -reference architecture.  
+[itu-t y.3510]  recommendation itu-t y.3510 (2013), cloud computing infrastructure 
+requirements. 
+[itu-t y.3512]  recommendation itu-t y.3512 (2014), cloud computing - functional 
+requirements of network as a service. 
+[itu-t y.3513] recommendation itu-t y.3513 (2014), cloud computing - functional 
+requirements of infrastructure as a service.  
+[itu-t y.3520]  recommendation itu-t y.3520 (2013), cloud computing framework for end to 
+end resource management. 
+etsi references 
+[etsi tr 102 997]  etsi tr 102 997 v1.1.1 (2010), cloud; initial analysis of standardization 
+requirements for cloud services. 
+[etsi tr 103 125]  etsi tr 103 125 v1.1.1 (2012), cloud; slas for cloud services. 
+[etsi tr 103 126]  etsi tr 103 126 v1.1.1 (2012), cloud; cloud private-sector user 
+recommendations. 
+[etsi ts 103 142]  etsi ts 103 142 v1.1.1 (2013), cloud; test descriptions for cloud 
+interoperability. 
+ieee references 
+[ieee p2301]  ieee p2301, guide for cloud portability and interoperability profiles (cpip). 
+[ieee p2302]  ieee p2302, standard for intercloud interoperability and federation (siif). 
+ietf references 
+[ietf rfc 2330] ietf rfc 2330 (1998), framework for ip performance metrics  
+[ietf rfc 4110] ietf rfc 4110 (2005), a framework for layer 3 provider-provisioned virtual 
+private networks. 
+[ietf rfc 6749] ietf rfc 6749 (2012), the oauth 2.0 authorization framework. 
+nist references 
+[nist sp 500-292] nist sp 500-292 (2011), nist cloud computing reference architecture. 

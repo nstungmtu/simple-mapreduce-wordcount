@@ -1,0 +1,34 @@
+ framework and requirements for cloud computing 1 
+ 
+   41 
+use case 
+pre-conditions in this service syndication example involving multiple clouds, voice application is being 
+provided as saas to a csp that is bundling it with other services and reselling a package to a 
+csc. although a voice application service provider may run a global data network, it does not 
+own the carrier's network and enterprise infrastructures that actually connect the cloud and 
+network services to end-user devices. a local service provider might provide an ip network 
+service to provide an optimized voice application experience for an enterprise customer's 
+employees using the voice application service. 
+in this use case, there are the two types of connection paths, namely a service delivery path 
+and a service management path. when the csc is experiencing a problem with the voice 
+application service, the responsibility for the diagnostics, management and resolution of the 
+problem involves more than one service provider. 
+end-to-end resource management cannot require a major system integration effort with each 
+new service deployment. in order for the composite cloud computing services to work 
+effectively, all the prerequisite services of both the csp1 and csp2 must function properly. 
+post-conditions voice application service is restored rapidly and easily. 
+end-to-end resource management of components that deliver the voice application customer 
+service support and the administrative, provisioning, service assurance and billing that make 
+up a complete voice application service is necessary. 
+requirements – manageability for a single cloud service 
+– manageability for multiple cloud services 
+i.10 cloud infrastructure use case 
+use case 
+name cloud infrastructure use case 
+abstract the csp uses cloud infrastructure which consists of compute, storage and network resources 
+to deploy and deliver any kinds of cloud services. 
+the csc accesses and uses cloud services deployed in and delivered by cloud infrastructure.  
+roles csc, csp 
+figure 
+ 
+

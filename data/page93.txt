@@ -1,0 +1,29 @@
+ framework and requirements for cloud computing 1 
+ 
+   85 
+figure 9-2 presents a high level overview of th e ccra functional components organized by means of the 
+layering framework. 
+ 
+figure 9-2 – functional components of the ccra  
+9.2.1 user layer functional components 
+the user layer functional components include: 
+• user function; 
+• business function; 
+• administrator function. 
+the cloud services  that are presented to csc:cloud service users can be broken down into two major 
+categories, functional services and self-service management services. the latter can be further divided into 
+business and administration services. 
+the interface that is presented to the user of the cloud service encompasses the primary function of the 
+cloud service. this is distinct from the interface that is used to manage the use of the cloud service. but all 
+cases are cloud services, tailored for different types of capabilities. 
+9.2.1.1 user function 
+the user function functional component supports the csc:cloud service user to access and use cloud services 
+(the use service activity). in some cases, the user function functional component could be as simple as a 
+browser running on a user device. however, in other cases, it might involve a sophisticated enterprise system 
+running business processes, applications, middleware and associated infrastructure. 
+9.2.1.2 business function 
+the business function functional component supports the cloud computing activities  of the csc:business 
+manager including the selection and purchase of cloud services; the accounting and financial management 
+relating to the use of cloud services. it should be noted that business capabilities are themselves offered via 
+cloud services. 
+

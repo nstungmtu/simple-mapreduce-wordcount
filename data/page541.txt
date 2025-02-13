@@ -1,0 +1,39 @@
+cloud computing management 2 
+ 
+  533 
+7.6 inter-cloud data policy monitoring 
+it is recommended that the csp support real-time data policy monitoring in inter-cloud to fulfil the data policy 
+provided by the csc. 
+7.7 inter-cloud dynamic data policy management 
+it is recommended that the csp support dynamic data policy management in inter -cloud to fulfil the data 
+policy provided by the csc. 
+7.8 inter-cloud autonomic data policy management 
+it is recommended that the csp support autonomic data policy management in inter-cloud to fulfil the data 
+policy provided by the csc. 
+7.9 inter-cloud cognitive data policy management 
+it is recommended that the csp support cognitive data policy management in inter -cloud to fulfil the data 
+policy provided by the csc. 
+8 functional requirements for inter-cloud data isolation and protection 
+this clause provides the functional requirements for inter-cloud data isolation and protection derived from 
+the use cases described in appendix i. 
+8.1 datasets placement policies among different csps 
+it is recommended that csps support dataset placement policies for data -intensive app lications in 
+geographically distributed data centres. 
+note 1 – the conditions of placement policy include, but are not limited to, the time cost of data transmission, storage 
+space, network performance and dataset dependencies. 
+note 2 – dataset placement policies themselves lie outside the scope of this recommendation. for example, in some 
+specific scenario, because the same set of raw data needs to be acces sed by many cscs, duplication/splitting can be 
+selected as part of the dataset placement policies. 
+8.2 data movement regulation across geographical borders 
+it is recommended that the csp identify the different data movement regulations once the data needs to 
+flow across geographical borders and provides the solution, if necessary and possible. 
+it is recom mended that the csp support the mechanisms to monitor the validity of the data movement 
+regulations at geographical borders and provides the negotiation, if necessary and possible. 
+9 functional requirements for inter-cloud data management 
+this clause provi des the functional requirements for inter -cloud data management derived from the use 
+cases described in appendix i. 
+9.1 inter-cloud data use policies 
+it is required that the csp support data use policy in order to realize a csc request. 
+it is recommended that the csp integrate and validate services from multiple csps as an aspect of inter-cloud 
+data use policy. 
+it is recommended that the csp support inter-cloud data classification in order to realize a csc request. 

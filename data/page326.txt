@@ -1,0 +1,13 @@
+1 framework and requirements for cloud computing  
+ 
+318  
+summary 
+recommendation itu-t y.3600 provides requirements, capabilities and use cases of cloud computing based 
+big data as well as its system context. cloud computing based big data provides the capabilities to collect, 
+store, analyse, visualize and manage varieties of large volume datasets, which cannot be rapidly transferred 
+and analysed using traditional technologies. 
+keywords 
+big data, big data ecosystem, cloud computing, data analytics, data storage, real-time analysis. 
+ 
+ 
+  

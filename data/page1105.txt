@@ -1,0 +1,29 @@
+ assisting developing countries 8 
+ 
+   1097 
+• resource conservation owing to workforce redundancy; 
+• absence of wasted capacity, routine server maintenance or daily backup issues; 
+• data security and protection from denial of service attacks and spam; 
+• statutory compliance when housing and processing medical or government data; 
+• guaranteed uptime and sla; and 
+• access to the latest licensed software and infrastructure without having to pay for it entirely. 
+most csps have engaged in cloud service provision in order to provide their customers with an affordable 
+solution that minimizes their infrastructure investment costs and has faster time to market. at the same time, 
+the csps have been motivated to provide customer on-demand services in order to meet the needs of their 
+customers who want to access these services at their convenience. 
+ 
+figure 7-2 – types of customers subscribing to cloud computing  
+the target market for most providers is skewed towards providing solutions to small -to-medium sized 
+enterprises that want to minimize their infrastructure cost or completely outsource the data management 
+services. some relatively bigger corporate companies and organizations that include private and government 
+institutions also use the cloud services motivated by the need to have some cost effective and efficient way 
+of deployment of it services. 
+the services mainly being offered by the csps include: 
+• online customer support; 
+• data storage through virtual private servers; 
+• mail hosting; 
+• communication and collaboration services; 
+• software as a service relating to business application such as accounting and human resource 
+management; and 
+• infrastructure as a service. 
+

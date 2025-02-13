@@ -1,0 +1,53 @@
+intercloud and interoperability 5 
+ 
+  923 
+interoperability stretches beyond the cloud services themselves and also includes the interaction of the csc 
+with the cloud service management facilities of the cloud service provider (csp). ideally, the csc should have 
+a consistent and interoperable interface to the cloud service management functionality and be able to 
+interact with two or more csps without needing to deal with each provider in a specialized way. 
+table 5-6 – iso/iec documents and work items related to cci 
+reference name/title status 
+iso/iec wd 17788 cloud computing vocabulary published 
+iso/iec dis 17789 information technology -- cloud computing -- reference architecture published 
+5.1.7 itu-t 
+the itu telecommunication standardization sector (itu-t) is one of the three sectors (divisions or units) of 
+the international telecommunication union (itu); it coordinates standards for telecommunications. 
+cloud computing is an important part of itu-t study group (sg) 13 work and the group develops standards 
+that detail requirements and functional architectures of the cloud computing ecosystem, covering inter- and 
+intra-cloud computing and technologies supporting x as a service (xaas). 
+itu-t works on definition, cloud computing management interface related aspects of cci. 
+this work of sg  13 includes infrastructure and networking aspects of cloud computing models, as well as 
+deployment considerations and requirements for interoperability and data portability. 
+sg 13 also develops standards enabling consistent end-to-end, multi-cloud management and monitoring of 
+services exposed by and across different service providers' domains and technologies. 
+table 5-7 – itu-t documents and work items related to cci 
+reference name/title status 
+itu-t y.3500 recommendation itu-t y.3500 (2014), information technology -cloud 
+computing – overview and vocabulary 
+published 
+itu-t y.3501 recommendation itu-t y.3501 (2013), cloud computing framework and high-
+level requirements 
+published 
+itu-t y.3502 recommendation itu-t y.3502 (2014), information technology -cloud 
+computing - reference architecture 
+published 
+itu-t y.3510 recommendation y.3510 (2013), cloud computing infrastructure requirements published 
+itu-t y.3512 recommendation y.3512 (2014), cloud computing – functional requirements of 
+network as a service. 
+published 
+itu-t y.3513 recommendation y.3513 (2014), cloud computing – functional requirements of 
+infrastructure as a service. 
+published 
+itu-t y.3520 recommendation y.3520 (2013), cloud computing framework for end to end 
+resource management 
+published 
+itu-t y.e2ecslm-
+req 
+end-to-end cloud service lifecycle management draft 
+itu-t y.e2ecmrgb common model for end-to-end cloud computing resource management draft 
+5.1.8 nist 
+the national institute of standards and technology (nist) is a measurement standards laboratory, also 
+known as a national metrological institute (nmi), which is a non -regulatory agency of the united states 
+department of commerce. 
+nist standards acceleration to jumpstart the adoption of cloud computing (sajacc) working group: focused 
+on use case definition and refinement to produce testable cloud computing scenarios. 

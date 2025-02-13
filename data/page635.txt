@@ -1,0 +1,29 @@
+xaas 3 
+ 
+  627 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+csc-a needs to build enhanced network services using dedicated hardware equipment  for 
+each functionality and manage the whole network. 
+post-conditions 
+(optional) 
+csc-a used naas platform to combine csp network services with self-developed 
+functionalities and integrate them into enhanced network services. 
+derived requirement – flexible scaling of naas platform (refer to clause 8.4) 
+– integration of software applications (refer to clause 8.5) 
+ii.4 naas connectivity related use cases 
+this clause provides description of use cases where naas csc can provision and use network connectivity. 
+ii.4.1 general use cases 
+ii.4.1.1 general naas connectivity use case 
+note – the following use case is based on a use case provided in [itu-t y.3501]. 
+ 
+name general naas connectivity use case  
+description a naas csp sets up, maintains and releases the network connectivity between cscs and 
+between the csp and the csc as a cloud service. this can include on -demand and semi-
+permanent connectivity. 
+roles csc, csp 
+figure 
+ 
+

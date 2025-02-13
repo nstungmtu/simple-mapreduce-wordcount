@@ -1,0 +1,52 @@
+ framework and requirements for cloud computing 1 
+ 
+   239 
+– agile service: it is recommended that a distributed cloud provide rapid development and delivery of 
+cloud services to distributed cloud resources to support various csc's requests; 
+– automatic service displacement: it is recommended that a distributed cloud provide cloud service 
+displacement to deploy, maintain and upgrade automatically based on slas; 
+– autonomous cloud service provisioning : it is required a distributed cloud provide autonomous 
+cloud service provisioning to initially launch the cloud s ervice by using context information for fast 
+provisioning of distributed cloud resources; 
+ note 5 – autonomous cloud service provisioning  refers to deploying and providing cloud services on edge 
+clouds without intervention of global management in the core cloud by using context information in edge or 
+regional clouds. 
+– massive data handling on edge cloud: it is recommended that a distributed cloud provide massive 
+data handling on edge clouds to reduce the interaction between core/regional clouds and edge 
+clouds. 
+ note 6 – data handling on edge clouds includes filtering and delivery process to prevent noise from multiple 
+end devices, and batched data delivery to core or regional clouds, respectively.  
+7.4 management requirements for distributed cloud 
+– global management: it is required that a distributed cloud provide global management of 
+distributed cloud resources collected from core, regional and edge clouds; 
+ note 1 – core cloud aggregates information of distributed cloud resources, has global knowledge and  
+provides cloud services appropriately to meet csc's requirements. 
+– real-time service management: it is required that a distributed cloud provide management for real-
+time cloud services by finding feasible distributed cloud resources, predicting cloud service latency 
+and scheduling cloud services; 
+– heterogeneous resource management: it is required that a distributed cloud provide management 
+of heterogeneous distributed cloud resources to accommodate and utilize distributed cloud 
+resources easily and efficiently; 
+ note 2 – examples of heterogeneous distributed cloud resources includes different capacity servers, different 
+types (block, object, file) of storages and different speeds of network devices.  
+– end-device connectivity management: it is required that a distributed cloud provide management 
+of network connectivity to end devices supporting various access protocols to control network 
+latency and bandwidth; 
+– context information management: it is required that a distributed cloud provide management of 
+context information to support service routing and context awareness of the distributed cloud; 
+– synchronization management : it is required that a distributed cloud provide synchronization 
+management for the status of cloud services and distr ibuted cloud resources to perform global 
+management accurately. 
+7.5 security requirements for distributed cloud 
+– resource isolation and protection: it is recommended that a distributed cloud provide isolation and 
+protection of distributed cloud resources and cloud services for tenants to guarantee security; 
+– adaptive security function control : it is recommended that a distributed cloud provide adaptive 
+security functions to meet a csc's requirements with different resource capacity among core, 
+regional and edge clouds; 
+ note 1 – examples of security function include encryption, decryption, key management, authentication and 
+policy management. 
+– adaptive security suites control : it is recommended that a distributed cloud provide adaptive 
+security suites to apply the suites on different resource capacities among core, regional and edge 
+clouds. 
+ note 2 – examples of security suites in case of encryption include data encryption standard (des), advanced 
+encryption standard (aes), international data encryption algorithm (idea) and rivest, shamir, adleman (rsa). 

@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+162  
+table i.7 – a use case for cloud service cancellation 
+derived 
+requirements 
+– cloud service deregistration (see clause 7.2) 
+– automation of service deregistration (see clause 7.2) 
+– notification of service deregistration (see clause 7.2) 
+– request for maintaining cloud service (see clause 7.2) 
+ 
+table i.8 – a use case for sla establishment in cloud service brokerage 
+title a use case for sla establishment in cloud service brokerage. 
+description this use case describes sla establishment among a csn: cloud service broker, csps and cscs. 
+sla is a part of the cloud service agreement that includes cloud service level objectives ( slo) 
+and cloud service qualitative objectives for the covered cloud service(s) [ b-iso/iec 19086-1]. 
+since a csc communicates with a cs n: cloud service broker to consume a cloud service, the 
+csn: cloud service broker is responsible for establishing a sla with the csc. also, csps need to 
+provide service level information to the csn: cloud service broker  so that the csn: cloud 
+service broker understands feasible service levels. 
+a csp determines to sell cloud services though a csn: cloud service broker and the csp 
+registers cloud service information including service level in csb workspace. for instance, the 
+csp can provide "service availabil ity" service level which can be expressed as a percentage of 
+uptime to total usage time of a cloud service. the csp registers a lower limit for the availability 
+service level (ex: 99.99%) and remedies (e.g., discounting service price) for failure to meet the 
+sla to the csn: cloud service broker.  
+the csn: cloud service broker verifies that all services with service level descriptions are 
+correctly registered by the csp. 
+the csn: cloud service broker repackages services, registered by the csp, into brokerage  
+services according to business needs such as service customization or service integration. the 
+csn: cloud service broker needs to provide service levels of a service which the csc requests 
+to the csn: cloud service broker. for instance, the csn: cloud ser vice broker repackages a 
+service and offers 99.98% of service availability where the service level of the original service 
+registered by the csp is 99.99%. 
+the csc, who needs an iaas service satisfying at least 99.90% availability, connects to csb 
+workspace and selects a cloud service according to the business requirements. after the csc 
+selects a cloud service, the csn: cloud service broker generates a sla document and shares 
+the sla document to csc. once the csc accepts terms and conditions in the sla doc ument, a 
+sla between the csn: cloud service broker and the csc is established.  
+after the sla between the csn: cloud service broker and the csc is established, the csn: cloud 
+service broker makes a request to the csp to initiate the service. when the csn: cloud service 
+broker makes the request, it is assumed that a sla between the csp and the csn: cloud service 
+broker is established according to the service level descriptions registered by the csp.  
+roles/sub-roles csp, csn: cloud service broker, csc 

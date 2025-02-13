@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   327 
+7.1.2 csp: big data application provider (csp:bdap) 
+the csp: big data application provider (csp:bdap) is a sub -role of the csp executing a set of data lifecycle 
+operations to meet the requirements of data analysis and visualization, as well as the security and privacy 
+requirements. the csp:bdap utilizes the services from the csp:bdip for big data services and provides 
+analysis result to the csc: big data service user (csc:bdsu).  
+types of csp:bdap activities include: 
+– visualizing data; 
+– analysing data. 
+7.1.2.1 visualize data activity 
+the visualize data activity is responsible for presenting data with multiple styles, such as statistical graphics, 
+forms, diagrams, charts, reports, etc., through visualization and reporting tools and services. the big data 
+service user (bdsu) can easily and quickly understand the meaning of data through data visualization. direct 
+interaction between reporting tools and csc operational systems is also supported. 
+types of big data visualize activities include: 
+– business intelligence; 
+– data reporting; 
+– data exploration. 
+7.1.2.2 analyse data activity 
+the analyse data activity is a process to extract and discover useful information or valuable insights from big 
+data.  
+types of big data analyse activities include: 
+– statistical analysis;  
+– predictive analysis; 
+– content analysis. 
+7.1.3 csp:big data infrastructure provider (csp:bdip) 
+csp:big data infrastructure provider (csp:bdip) is the sub -role of the csp providing cloud computing 
+resources (such as system hardware, a network, storage and computing platforms) in order to execute big 
+data processing, while protecting the privacy, retention policy and integrity of data.  
+types of csp:bdip activities include: 
+– performing data collection; 
+– performing data storage; 
+– providing data pre-processing; 
+– providing data integration; 
+– managing data protection; 
+– managing data provenance. 
+7.1.3.1 perform data collection activity 
+the perform  data collection activity is responsible for gathering and sear ching of data. data in a cloud 
+computing environment that could be transported through internet, such as web, video, audio, r adio 
+frequency identification (rfid), sensor and social network data and data obtained in other ways can be 
+categorized into three types as follows: 
+– structured data, such as record data persistent in databases; 
+– semi-structured data, such as data stored in xml, html and other format documents; 
+– unstructured mass data, such as log files, video and audio data. 

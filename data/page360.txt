@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+352  
+1 scope 
+this supplement provides the standardization roadmap for big data area in the telecommunication sector. it 
+addresses the following subjects: 
+− landscape of big data from an itu-t perspective; 
+− related technical areas of big data; 
+− conceptual model of big data ecosystems; 
+− big data activities in standards development organizations (sdos); 
+− standardization gap analysis. 
+2 references 
+[itu-t y.2060]  recommendation itu-t y.2060 (2013), overview of the internet of things. 
+[itu-t y.3300]  recommendation itu-t y.3300 (2014), framework of software-defined networking. 
+[itu-t y.3500] recommendation itu -t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[itu-t y.3600] recommendation itu-t y.3600 (2015), big data – cloud computing based requirements 
+and capabilities. 
+3 definitions 
+3.1 terms defined elsewhere 
+this supplement uses the following term defined elsewhere: 
+3.1.1 big data [itu-t y.3600]: a paradigm for enabling the collection, storage, management, analysis and 
+visualization, potentially under real -time constraints, of extensive datasets with heterogeneous 
+characteristics. 
+note – examples of datasets characteristics include high-volume, high-velocity, high-variety, etc. 
+3.2 terms defined in this supplement 
+none. 
+4 abbreviations and acronyms 
+this supplement uses the following abbreviations and acronyms: 
+amqp advanced message queuing protocol 
+api application program interface 
+bdaas big data as a service 
+bdc big data service customer 
+bddn big data-driven networking 
+bdsp big data service provider 
+csv comma-separated values 
+dcat data catalogue vocabulary 
+dmg data ming group 
+dpi deep packet inspection 
+http hypertext transfer protocol 
+ict information and communications technology 

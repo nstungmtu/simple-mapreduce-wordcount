@@ -1,0 +1,30 @@
+5 intercloud and interoperability  
+ 
+818  
+ii.21 reference point: i-mr-sp 
+ii.22 reference point: i-psm-sa 
+ii.23 reference point: i-sa-spm 
+ii.24 reference point: i-sa-psi 
+ii.25 reference point: i-psm-spm 
+ii.26 reference point: i-spm-psi 
+ii.27 reference point: i-spm-aspm 
+ii.28 reference point: i-slm-ipm 
+ii.29 reference point: i-psm-slm 
+ii.30 reference point: i-mr-slm 
+ii.31 reference point: i-slm-psi 
+ii.32 reference point: i-mr-ipm 
+ii.33 reference point: i-psm-mr 
+ii.34 reference point: i-mr-psi 
+ii.35 reference point: i-psm-ipm 
+ii.36 reference point: i-ipm-psi 
+ii.37 reference point: i-psm-aim 
+ii.38 reference point: i-psm-em 
+ii.39 reference point: i-psm-ba 
+ii.40 reference point: i-psm-aa 
+ii.41 reference point: i-psi-aim 
+ii.42 reference point: i-psi-aspm 
+ii.43 reference point: i-psi-em 
+ii.44 reference point: i-psi-sa 
+bibliography 
+ 
+ 

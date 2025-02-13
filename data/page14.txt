@@ -1,0 +1,39 @@
+1 framework and requirements for cloud computing  
+ 
+6  
+1 scope 
+this recommendation | international standard provides an overview of cloud computing along with a set of 
+terms and definitions. it is a terminology foundation for cloud computing standards. 
+this recommendation | international standard is applicable to all types of organizations (e.g., commercial 
+enterprises, government agencies, not-for-profit organizations). 
+2 normative references 
+the following recommendations and international standards contain provisions which, through reference in 
+this text, constitute provisions of this recommendation | international standard. at the time of publication, 
+the editions indicated were valid. all recommendations and standards are subject to revision, and parties to 
+agreements based on this recommendation | international standard are encouraged to investigate the 
+possibility of applying the most recent edition of the recommendations and standards listed below. 
+members of iec and iso maintain registers of currently va lid international standards. the 
+telecommunication standardization bureau of the itu maintains a list of currently valid itu -t 
+recommendations. 
+2.1 identical recommendations | international standards 
+none. 
+2.2 paired recommendations | international standards 
+none. 
+2.3 additional references 
+none. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation | international standard uses the following terms defined elsewhere. 
+the following terms are defined in iso/iec 27000: 
+3.1.1 availability: property of being accessible and usable upon demand by an authorized entity. 
+3.1.2 confidentiality: property that information is not made available or disclosed to unauthorized 
+individuals, entities, or processes 
+3.1.3 information security: preservation of confidentiality (3.1.2), integrity (3.1.4) and availability (3.1.1) 
+of information. 
+note – in addition, other properties, such as authenticity, accountability, non-repudiation, and reliability can also be involved. 
+3.1.4 integrity: property of accuracy and completeness. 
+the following term is defined in rec. itu-t y .101: 
+3.1.5 interoperability: the ability of two or more systems or applications to exchange information and to 
+mutually use the information that has been exchanged. 
+the following term is defined in iso/iec 27729: 
+3.1.6 party: natural person or legal person, whether or not incorporated, or a group of either. 

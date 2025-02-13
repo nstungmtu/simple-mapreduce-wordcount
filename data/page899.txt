@@ -1,0 +1,49 @@
+intercloud and interoperability 5 
+ 
+  891 
+table ii.4 – test case: vm clone 
+vm clone test description 
+test purpose to verify that the csc clones a particular vm and the cloned vm has identical 
+configuration and csp/csc data as the original one. 
+reference [itu-t y.3513] clause 7.1.6 
+test sequence step type description result 
+1 stimulus the csc clones vm a, called vm a-1.   
+2 stimulus the csc starts vm a.  
+3 stimulus the csc starts vm a-1.  
+4 check vm a and vm a-1 can run independently without affecting 
+each other. 
+ 
+5 check configuration and csp/csc data of vm a-1 is consistent with 
+vm a. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.5 test case: vm time synchronization 
+table ii.5 shows the test case for vm time synchronization. 
+table ii.5 – test case: vm time synchronization 
+vm time synchronization test description 
+test purpose to verify that the csc sets vm time synchronization manually or automatically.  
+reference [itu-t y.3513] clause 7.1.8 
+test sequence step type description result 
+1 stimulus the csc synchronizes the vm a system time to a specified 
+time manually. 
+ 
+2 check the system time of vm a is consistent with the specified time 
+in step 1. 
+ 
+3 stimulus the csc configures the synchronization of vm a's time along 
+with that of the host automatically. 
+ 
+4 stimulus the csc logs in vm a and adjusts the system time to a 
+different time. 
+ 
+5 check the system time of vm a is synchronized with the host that 
+the vm is running on. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.6 test case: vm reservation 
+table ii.6 shows the test case for vm reservation. 
+  

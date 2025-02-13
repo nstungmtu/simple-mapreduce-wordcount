@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+154  
+table i.1 – a general use case for cloud service brokerage 
+derived 
+requirements 
+– authentication and authorization for workspace (see clause 7.1)  
+– account management (see clause 7.1) 
+– user interface for cscs (see clause 7.1) 
+– user interface for csps (see clause 7.1) 
+– access information forwarding (see clause 7.4) 
+– prohibiting access information storing (see clause 7.4) 
+ 
+table i.2 – a general use case of cloud service aggregation 
+title a general use case of cloud service aggregation. 
+description the csn: cloud service broker  aggregates the various cloud services of the multiple csps and 
+publishes these services to the cscs without any change. the difference between the general 
+use case for cloud service brokerage in table i.1 and this use case is that cloud service 
+aggregation brokerage provides the csc a product catalogue which consists of multiple 
+services hosted by csps and an aggregated management view, i.e., workspace, for ordered 
+multiple services. 
+the csps register cloud services to the csn: cloud service broker  in product catalogue, which 
+is the unique one provided to a csc by the csn: cloud service broker  with all csps' cloud 
+services. the synchronization of the product catalogue can be triggered by the registered csps 
+or the csn: cloud service broker itself in case of modification in the cloud services. 
+the csc accesses the csb workspace , selects and purc hases different cloud services from 
+multiple csps. the csn: cloud service broker completes ordering processing of multiple csps, 
+instead of the csc. 
+after the csc individually selects and orders multiple services from the product catalogue, the 
+csn: cloud service broker shows the list of ordered multiple services to the csc so that the csc 
+can request controls for the cloud services to the csn: cloud service broker . the csc can use 
+workspace to manage the ordered multiple services together or individually. for instance, the 
+csc can pause all the aggregated services at once and checks the overall usage  cost of the 
+aggregated services. 
+the csn: cloud service broker can help the csc to provision all the selected cloud services 
+together to simplify the process. for instance, to launch multiple virtual machines in multiple 
+csps' cloud environment. 
+the csn: cloud service broker can manage controls and status of  multiple cloud services in 
+aggregated manner and/or each cloud services individually.  
+all monitor information can be collected by the csn: cloud service broker to provide the csc 
+with an overall view of cloud services together. the unified charges can be proved to the csc 
+by the csn: cloud service broker. 
+roles/sub-roles csp, csn: cloud service broker, csc 

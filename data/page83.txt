@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   75 
+8.4.2.4 perform audit 
+the perform audit activity involves: 
+• requesting or obtaining audit evidence; 
+• conducting any required tests on the system being audited; 
+• obtaining evidence programmatically, through a set of interfaces provided by the system being 
+audited; 
+• redacting the evidence, if necessary, in order to protect sensitive information or information subject 
+to regulatory control (e.g., pii); 
+• comparing the obtained audit evidence against the audit criteria as described by the audit scheme 
+or standard that is being used. 
+the type of audit evidence required and the criteria used to evaluate it are determined by the audit scheme 
+or standard being used. examples include data relating to security controls and performance data for 
+particular services. in addition to obtaining data, the perform audit activity can be asked to evaluate the 
+services provided by a cloud service provider which includes security controls, privacy impact, performance, 
+and other cloud service related cloud computing activities identified by the audit requester. the request can 
+come from the cloud service provider itself, where the cloud service provider wants proof of the quality of 
+its cloud services which can then be presented to potential cloud service customers. 
+8.4.2.5 report audit results 
+the report audit results activity involves providing a documented report of the results of performing an audit, 
+for example on a given cloud service or on a cloud service provider or on a cloud service customer's use of 
+a cloud service. the form of the documented report can be prescribed by the audit scheme that is being 
+used. the results of the audit might be given to the cloud service provider, or possibly on request to a cloud 
+service customer, depending on the business situation or the legal context. 
+8.4.2.6 acquire and assess customers 
+the acquire and assess customers activity includes the tasks required to market and sell cloud services up to 
+the point where a cloud service customer  agrees a contract to use one or more services. this cloud 
+computing activity includes: 
+• providing information to potential customers about availa ble services and associated slas and 
+contract terms; 
+• negotiating terms and prices with customers; 
+• assessing the customer's needs and requirements for cloud services. 
+note – the cloud service customer  needs assessment activity includes the actions taken  to determine and address the cloud 
+service customer's requirements as identified by a gap analysis performed by looking at the customer's current capabilities and 
+their desired future capabilities. 
+8.4.2.7 assess marketplace  
+the assess marketplace activity focuses on assessing the current cloud services marketplace to find cloud 
+service (s) that meet the customers' requirements. this cloud computing activity includes: 
+• surveying the product offerings of cloud service providers, obtaining both technical a nd business 
+information; 
+• subscribing to and receiving notifications of changes to the content of cloud service providers'  
+product catalogues. 
+• matching the product offerings to the customer's needs and requirements, including technical, 
+business and regulatory aspects. 

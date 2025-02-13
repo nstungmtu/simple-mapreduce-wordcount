@@ -1,0 +1,36 @@
+intercloud and interoperability 5 
+ 
+  927 
+snia works on cloud computing interface related aspects of the cci. 
+cdmi standard defines an interoperable format for moving data and associated metadata between cloud 
+providers interoperability. cdmi is an http/restful protocol with tls support for securing the data, 
+metadata and communications. 
+ 
+figure 5-5 – sajacc use case: copy data objects into a cloud (reference: snia, nist) 
+table 5-12 – snia documents and work items related to cci 
+reference name/title status 
+iso 17826:2012 cloud data management interface v1.0.2 published 
+5.1.13 tm forum 
+tm forum  (formerly telemanagement forum)  is the world' s leading industry association focused on 
+improving business effectiveness for service providers and their suppliers, including the production of best 
+practices and standards. 
+tm forum works on sla management related aspects of cci. 
+tm forum published sla related documents such as sla management handbook [tmf gb917], cloud sla 
+application note [tmf gb963] and enterprise-grade external compute iaas requirements [tmf tr174]. 
+sla management handbook [tmf gb917] provides a full set of definitions, rules and methodology for the 
+specification, deployment and management of slas, as well as useful tools and best practices, for use by 
+both customers and service providers. 
+cloud sla application note [tmf gb963] is intended for enterprise csps desiring to offer a commercially 
+credible sla based on eclc "enterprise-grade external compute iaas v1.0", and for an enterprise customer 
+seeking enterprise-grade slas. 
+enterprise-grade external compute iaas requirements  [tmf tr174 ] describes the requirements for 
+enterprise-grade external compute iaas from the perspective of the enterprise consumer. sla clarity and 
+cross-service provider commonality of service level definitions are specified in this document as one of the 
+key requirements of enterprise-grade iaas. 
+enabling end-to-end cloud sla management [tmf tr178] recommends a set of business considerations and 
+architecture design principles that are required to support end-to-end cloud sla management with the aim 
+to facilitate discussion regarding sla consistency across cloud deployment models and services models. 
+quick start pack for cloud: trouble to resolve [tmf gb960] focuses on the detailed specification and delivery 
+of a set of process flows, defined in business process management notation (bpmn), that utilize all currently 
+defined business process framework level 3 process elements within project scope. 
+

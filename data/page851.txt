@@ -1,0 +1,36 @@
+intercloud and interoperability 5 
+ 
+  843 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of inter-cloud trust management 
+6.1 isolation and security management mechanism 
+6.2 inter-cloud trust management model 
+6.3 reputation-based trust management in inter-cloud environment 
+6.4 cloud service evaluation framework 
+6.5 relationship with cloud computing reference architecture 
+7 requirements for inter-cloud trust management 
+7.1 inter-cloud trust policies and credentials 
+7.2 inter-cloud reputation scoring 
+7.3 inter-cloud reputation-based trust evaluation 
+7.4 sso authentication 
+7.5 periodical verification 
+7.6 control privilege for vm and data 
+8 security considerations 
+appendix i – use case of inter-cloud trust management 
+i.1 use case template 
+i.2 use case of trusted network function virtualization 
+i.3 use case of selecting csp by reputation-based trust evaluation 
+i.4 use case of sso authentication within inter-cloud environment 
+i.5 use case of control privilege of inter-cloud 
+appendix ii – functionalities for managing isolation and security mechanism 
+ii.1 functionalities for managing isolation and security mechanism 
+bibliography 
+ 
+ 

@@ -1,0 +1,34 @@
+xaas 3 
+ 
+  571 
+v.3 service provisioning in daas 
+y .3503(14)_fv .1
+csc type user account
+provisioning
+service provisioning
+server resource
+provisioning
+virtual desktop
+provisioning
+software
+provisioning
+storage
+provisioning
+ 
+figure v.1 – service provisioning in daas system 
+as shown in figure v.1, service provisioning is the design or modification of daas configuration to mee t the 
+various types of csc. all types of csc try to connect their virtual desktop environment with the client and the 
+csp provides the service in accordance with these types. service provisioning consists of the following:  
+• account provisioning: it makes and manages the csc account with regard to csc type.  
+• server and resource prov isioning: it supplies or manages hardware resources that are requested 
+from the csc. 
+• virtual desktop provisioning: it generates, supplies and m anages the virtual desktop environment 
+to be allocated to the csc. 
+• software provisioning: it installs, manages or updates the software in the daas platform and virtual 
+desktop environment. 
+• storage provisioning: it manages and backs up offline files of virtual machine, user data and other 
+storage-related files related to virtual desktop environment.  
+ 
+ 
+ 
+  

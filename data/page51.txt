@@ -1,0 +1,20 @@
+ framework and requirements for cloud computing 1 
+ 
+   43 
+use case 
+post-conditions 
+(optional) 
+– the csp 1 provides a trusted cloud service which meets the needs of the csc.  
+– the csp 1 ensures pii protection of the csc. 
+– the csp 1 ensures that the csc can control and manage their application and data.  
+– the csp 1 provides a secure access to the csc. 
+– the csc uses the trusted cloud service from csp 1.  
+– the csc no longer uses the cloud service from csp 2. 
+requirements – governance for trusted cloud service 
+– management for trusted cloud service 
+– resiliency for trusted cloud service 
+– availability for trusted cloud service 
+– auditability for trusted cloud service 
+– security 
+– service agreement for trusted cloud service. 
+ 

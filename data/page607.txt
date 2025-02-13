@@ -1,0 +1,46 @@
+xaas 3 
+ 
+  599 
+9.5 reference points 
+9.5.1 reference points between cs-fs and vdcd-fs 
+the reference points between ce-fs and vdcd-fs are summarized as follows: 
+i_cn_dpp reference point between cn-f and dpp-f. the cn-f interacts with the dpp -f to handle 
+connection negotiation through this reference point. 
+i_cpc_dpp reference point between cpc -f and dpp -f. the cpc -f interfaces with the dpp -f to 
+exchange the peripheral events through this reference point. 
+i_sc_dpp reference point between sc -f and dpp -f. the sc -f requests or cancels additional 
+resources through this reference point. 
+i_sc_uam reference point between sc -f and uam -f. the sc -f input s the user authentication 
+information to the uam-f through this reference point. 
+i_sc_ccm reference point between sc -f and ccm -f. the sc -f and the ccm -f interact with each 
+other to exchange virtual desktop access information through this reference point. 
+i_scue_ccm reference point between scue-f and ccm-f. the scue-f requests a reconnection to the 
+ccm-f in case of network failure, through this reference point. 
+i_scue_pa reference point between scue -f and pa -f. the scue -f and pa -f perform the 
+synchronization of a daas user's state through this reference point. 
+9.5.2 reference points between vdcd-fs and vdrm-fs 
+i_uam_uapm reference point between uam-f and uapm-f. csu's access information, csu's account 
+information, and csc types are transferred through this reference point. 
+i_ccm_uapm reference point between ccm-f and uapm-f. csc types and profiles are delivered from 
+the uapm-f to the ccm-f through this reference point. 
+i_pa_uapm reference point between pa-f and uapm-f. csu's account information is delivered from 
+the uapm-f to the pa-f through this reference point. 
+i_pa_opm reference point between pa-f and opm -f. operational policy information is delivered 
+from the opm-f to the pa-f through this reference point. 
+i_pa_pm reference point between pa-f and pm-f. power information is delivered from the pm-f 
+to the pa-f through this reference point. 
+9.5.3 reference points between vdcd-fs and vi-fs 
+i_dpp_iam reference point between dpp -f and iam -f. resource request/cancellation and virtual 
+desktop access information are forwarded to iam-f through this reference point. 
+i_pa_iam reference point b etween pa-f and iam -f. the pa -f delivers virtual desktop allocation 
+information to iam-f through this reference point. 
+9.5.4 reference points between vdrm-fs and vi-fs 
+i_iam_rad reference point between iam-f and rad-f. the rad-f accesses iam-f to communicate 
+with the ra-f. 
+i_iam_mc reference point between iam -f and mc -f. the mc -f accesses iam -f to communicate 
+with pv-f. 
+9.5.5 reference points within vdcd-fs 
+i_dpp_ccm reference point between dpp -f and ccm -f. virtual desktop access information from 
+ccm-f is delivered to dpp-f through this reference point. 
+i_ccm_pa reference point between ccm -f and pa -f. the ccm -f bypasses resource 
+request/cancellation to the pa-f through this reference point. 

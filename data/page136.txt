@@ -1,0 +1,36 @@
+1 framework and requirements for cloud computing  
+ 
+128  
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp, csp:dmp) 
+dsf local storage provider (csp:csm) 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.4 requirement (1)  
+– clause 8.4 requirement (4) 
+i.5 policy-driven provisioning and management of data 
+title policy-driven provisioning and management of data 
+description dsf service provider provides a unified interface to use dsf local storage and options to set 
+data manipulation policies. dsf service provider configures the data manipulation policies 
+because the data manipulation policies are independent from multiple data storages in dsf 
+local storage. dsf service customer uses a single virtual volume (e.g., upload, download, copy, 
+modify, delete and so on) and sets data manipulation policies (e.g., non -sharing, read-only, 
+overwrite, replicate and so on) to saved files. dsf service provider applies data manipulation 
+policies onto data operation metadata. dsf service provider manipulates data by 
+corresponding functions and apis with data manipulate policies. 
+dsf service customer #1 sets data manipulation policy. dsf service provider modifies data 
+operation metadata of target data. another dsf service customer (e.g., dsf service customer 
+#2) searches and gets data by using catalogue. in this procedure, the data operation metadata 
+is used in order to lookup data from dsf local storage. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp) 
+dsf locals storage provider (csp:csm) 
+

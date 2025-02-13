@@ -1,0 +1,9 @@
+xaas 3 
+ 
+     703 
+ 
+figure iii.2 – naas connectivity and relationships sdn functional entities 
+in the use cases of [itu -t y.3512], sdn is not mentioned, although it can be regarded as one of the 
+implementation technologies especially in naas connectivity use cases. 
+  
+

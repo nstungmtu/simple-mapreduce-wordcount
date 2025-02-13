@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+224  
+bibliography 
+ 
+[b-dmtf rfapi]  redfish scalable platforms management api specification. 
+[b-dmtf rfhi] redfish host interface specification. 
+[b-dmtf rfp] redfish interoperability profiles. 
+[b-etsi eve007] hardware interoperability requirements specification. 
+[b-ocp 1s] twin lakes 1s server design specification v1.00. 
+[b-ocp 25gdual] 25g dual port ocp 2.0 nic mezzanine card v1.0. 
+[b-ocp 2s] facebook 2s server tioga pass specification v1.0. 
+[b-ocp acti] add-on-card thermal interface spec for intel motherboard v3.0. 
+[b-ocp ambh] open rack- amd motherboard hardware v2.0. 
+[b-ocp bs] qct big sur product architecture following big sur specification v1.0. 
+[b-ocp debug] ocp debug card with lcd spec v1.0. 
+[b-ocp dsbs] decathlete server board standard v2.1. 
+[b-ocp fsci] facebook server fan speed control interface draft v0.1. 
+[b-ocp g1] barreleye g1 specification. 
+[b-ocp g2] barreleye g2 specification. 
+[b-ocp hsas] hyve solutions ambient series-e v1.2. 
+[b-ocp hsch] micro-server card hardware v1.0. 
+[b-ocp imbh] open rack- intel motherboard hardware v2.0. 
+[b-ocp jbog] big basin-jbog specification v1.0. 
+[b-ocp m2] facebook, microsoft, m.2 carrier card design specification v1.0. 
+[b-ocp mb] facebook server intel motherboard v3.1. 
+[b-ocp mezz] mezzanine card 2.0 design specification v1.0. 
+[b-ocp mezzmb] mezzanine card for intel v2.0 motherboard. 
+[b-ocp nic] ocp nic 3.0 design specification v0.8. 
+[b-ocp o1usm] project olympus 1u server mechanical specification. 
+[b-ocp o2usm] project olympus 2u server mechanical specification. 
+[b-ocp oapm] project olympus amd epyc processor motherboard specification. 
+[b-ocp obios] project olympus intel xeon scalable processor bios specification. 
+[b-ocp ocsb] open cloudserver ocs blade specification v2.1. 
+[b-ocp ocsc] open cloudserver chassis specification v2.0. 
+[b-ocp ocscm] open cloudserver ocs chassis manager specification v2.1. 
+[b-ocp ocsjbod] open cloudserver jbod specification v1.0. 
+[b-ocp ocsnic] open cloudserver ocs nic mezzanine specification v2.0. 
+[b-ocp ocsps] open cloudserver ocs power supply v2.0. 
+[b-ocp ocspsam] open cloudserver ocs programmable server adapter mezzanine programmables 
+v1.0. 

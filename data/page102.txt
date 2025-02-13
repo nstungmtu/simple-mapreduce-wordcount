@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+94  
+10.2 overview 
+figure 10-1 provides an overview of the major elements of the ccra – roles, cloud computing activities and 
+functional components, in a common configuration. 
+figure 10-1 uses the graphical conventions introduced in clause 5. the boxes with continuous rounded edges 
+represent roles, the hexagons represent sub-roles, the rounded edged dotted boxes represent cloud 
+computing activities, and the square ones with bric ks are functional components. the "l" shaped boxes 
+inside the service capabilities functional component represents the cloud service interfaces based on the 
+fundamental cloud capabilities types . in figure 10 -1, it is apparent that roles are collections of cloud 
+computing activities, and cloud computing activities themselves are implemented or realized by means of 
+functional components. 
+the proximity of the graphical elements representing roles to each other is meaningful, and represents close 
+interaction between roles assuming neighbouring roles. for example, the cloud service provider role is at 
+the centre of the diagram to emphasize that it interacts with all other roles. the same is true about the 
+positioning of the cloud computing activities  inside a giv en role, as well as the relative positioning of 
+functional components inside a given activity. for example, the service capabilities functional component is 
+positioned above the resource abstraction and control functional component, to signal the dependency of 
+the former on the latter. 
+the cross -cutting aspects of auditability, availability, governance, interoperability, maintenance and 
+versioning, perform ance, portability, protection of personally identifiable information , regulatory, 
+resiliency, reversibility, security, and service levels and service level agreement  are indicated by the 
+outermost box in figure 10-1, which is intended to show that the cross-cutting aspects apply to all the other 
+elements in figure 10-1 – roles, activities and functional components. as an example, the csc:cloud service 
+user must have an identity, along with a set of credentials, which must be given to the user function 
+functional component when performing the use cloud service activity. the identity and the credentials are 
+presented to the access control functional component and authentication and authorization performed as 
+part of the provide services activity, invoking the appropriate security functional component capabilities 
+before the cloud service is provided to the csc:cloud service user. 
+the service capabilities functional component of figure 10 -1 represents the implementation of the cloud 
+service itself. 
+10.2.1 service capabilities functional component 
+the cloud service is offered via a service interface and can offer one or more of the cloud capabilities types, 
+represented by the "inverted l" shapes within the service capabilities functional component. the topmost l 
+shape represents the application capabilities type , while the next lower l shape represents the platform 
+capabilities type and the bottom l shape represents the infrastructure capabilities type. 
+the implication of the l shapes is that an application capabilities type can be implemented using the platform 
+capabilities type or not (at the choosing of the cloud service provider) and that the platform capabilities type 
+can be implemented using the infrastructure capabilities type or not. 
+for saas or caas cloud s ervice categories , the service capabilities functional component  contains the 
+application-specific software or the communication applications which are deployed onto the resource layer 
+in such a way that the service levels identified in the sla are achieved. 
+for other cloud service categories , see cloud computing overview and vocabulary in rec. itu -t y.3500 | 
+iso/iec 17788. 

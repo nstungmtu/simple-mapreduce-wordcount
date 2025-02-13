@@ -1,0 +1,72 @@
+xaas 3 
+ 
+  565 
+table iii.4 – local resource usage 
+legend use case 
+use case title local resource usage 
+use case 
+description 
+in this scenario, an application hosted in a daas platform requires input from the local 
+resources where a daas client is located, i.e., user terminal, to function properly. for instance, 
+an image-based search application will require input from a camera on the terminal; the 
+location based application may require gps information from the gps module running on the 
+terminal; the schedule planner would require calendar data (meetings, task) from the 
+terminal. for instance, alice is using an application called "my locality" which provides a list of 
+near-by attractions. this application makes use of gps information, from the gps module 
+running in its host, to find the exact current user location. since the application is being used 
+remotely and hosted on the network, it needs the user terminal to provide its gps information 
+for the application to provide correct results (attractions near the user not near the server 
+where the application is hosted). when alice uses the application, local gps data are sent to 
+the server where they are used to provide correct results. 
+high-level figure 
+describing the use 
+case  
+y .3503(14)_fiii.4
+cloud service customers
+- 02/04/2013, e-meeting,
+2:00 - 4:00 p.m- 02/02/2013, presentation,
+1:00 - 2:00 p.m
+- 02/07/2013 ~ 02/31/2013
+winter vacation
+37°00' 26.31" s,
+95°28' 39.12" w
+vd infrastructure cloud service provider
+applications
+image based
+search application
+(application a)
+schedule planner
+(application b)
+39°00' 59.11" s,
+94°21' 29.12" w
+cloud service customers
+cloud service customers
+15°02' 26.43" s,
+3°12' 34.22" w
+17°00' 16.22" s,
+5°20' 11.12" w
+- 02/10/2013 my birthday
+gps information image from camera calendar data
+ 
+derived 
+requirements  
+– support of daas client peripherals 
+ 
+table iii.5 – service continuation for daas 
+legend use case 
+use case title service continuation for daas 
+use case 
+description 
+ 
+in this scenario, a consumer is using a particular daas. due to network unavailability, the 
+consumer gets disconnected from the daas platform. later on and after network re-
+establishment, the consumer starts consuming the service from the same point where it got 
+disconnected, enabling preservation of all user data and settings.  
+flow: 
+• when a disconnected session is noticed, the daas platform identifies the related csc and 
+the virtual desktop. 
+• the daas platform checks if user has opted for service continuity, i.e., no loss reconnection.  
+• the daas platform saves the required data such as virtual machine data before releasing 
+the resources. 
+• on reconnection, the daas platform shall look for any saved data and reloads them before 
+resuming the service. 

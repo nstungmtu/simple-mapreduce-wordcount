@@ -1,0 +1,24 @@
+1 framework and requirements for cloud computing  
+ 
+30  
+– auditability for trusted cloud service : it is recommended for trusted cloud services to include 
+appropriate mechanisms for collecting and making available necessary evidential information 
+related to the operation and use of a cloud service, for the purpose of conducting an audit; 
+ note 4 – part of this requirement refers to [itu-t y.3502]. 
+– service agreement for trusted cloud service: it is recommended for trusted cloud services to have 
+appropriate service agreements or contracts f or commitments to csc on terms of their 
+requirements and considerations.  
+17 security considerations 
+the security framework from cloud computing [itu-t x.1601], analyses security threats and challenges in the 
+cloud computing environment, describes security capabilities that could mitigate these threats and addresses 
+security challenges. 
+[itu-t x.1631] provides guidelines supporting the implementation of information security controls for cscs 
+and csps. many of the guidelines guide the csps to assist the cscs  in implementing the controls and guide 
+the cscs to implement such controls. selection of appropriate information security controls and the 
+application of the implementation guidance provided, will depend on a risk assessment as well as any legal, 
+contractual, regulatory or other cloud-sector specific information security requirements. 
+regarding the protection of pii, iso/iec 27018 is designed for organizations to use as a reference for selecting 
+pii protection controls within the process of implementing a cloud computing information security 
+management system based on iso/iec 27001, or as a guidance document for organizations for implementing 
+commonly accepted pii protection controls. 
+  

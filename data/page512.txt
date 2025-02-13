@@ -1,0 +1,12 @@
+2 cloud computing management  
+ 
+504  
+7.11 metadata management 
+it is required that the csp provides metadata schema to support the dynamicity of the services by capturing 
+the service dependencies and service properties at a per-instance level. 
+8 security considerations 
+security aspects for consideration withi n the cloud  computing environment are addressed by security 
+challenges for the csps as described in [itu-t x.1601]. in particular, [itu-t x.1601] analyses security threats 
+and challenges and describes security capabilities that could mitigate these threats  and meet t he security 
+challenges. 
+  

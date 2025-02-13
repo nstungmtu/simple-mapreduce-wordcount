@@ -1,0 +1,16 @@
+xaas 3 
+ 
+     691 
+ 
+figure 8-8 – functional components for dev-naas products and services 
+9 security considerations 
+security aspects for consideration within the cloud computing environment, including naas, are addressed 
+by security challenges for naas csps, as described in [itu -t x.1601]. in particular, [itu -t x.1601] analyses 
+security threats and challenges, and describes security capabilities that could mitigate these threats and meet 
+the security challenges. 
+the functional components for security systems defined in clause 9.2.5.2 of [itu-t y.3502] are applicable in 
+the context of the naas functional architecture. these components are responsible for applying security 
+related controls to mitigate the security threats in cloud computing environments and encompass all the 
+security facilities required to support cloud services of the naas cloud service category. 
+  
+

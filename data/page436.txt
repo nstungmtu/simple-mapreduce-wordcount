@@ -1,0 +1,49 @@
+2 cloud computing management  
+ 
+428  
+5 conventions 
+none. 
+6 introduction 
+in both telecommunication and cloud computing environments, management refers to the ability of 
+maintaining visibility and control of all the managed resources in delivering a service to the customer and 
+satisfying the negotiated service level agreement (sla). however, until now, these approaches have been 
+different. 
+for the management of telecommunication services and networks, telecommunication operators (as well as 
+other stakeholders in the telecommunication industry) have applied the mature telecommunications 
+management network (tmn) principles and enhanced telecom operations map (etom) as a standard 
+framework and technologies. this has led to the construction of a set of management systems (e.g., element 
+management system (ems),  network management system (nms), business support system (bss) or 
+operational support system (oss)) to realize the required telecommunication management functions. 
+with the convergence of information technology (it) and communications technology (ct) industries, cloud 
+computing is being adopted in telecommunication infrastructures. telecommunication operat ors are now 
+delivering various cloud services to their users in addition to applying cloud computing technologies for the 
+optimization of their telecommunication service platforms and telecommunication support systems. 
+cloud computing has a different manag ement approach in that it does not expose individual elements of 
+itself to the telecommunications management system. rather, a cloud computing system incorporates its 
+own sophist icated management functionality, which is able to manage the cloud computing s ystem in a 
+coherent manner. therefore, cloud computing does not distinguish between management operations carried 
+out on behalf of the customer, and identical management operatio ns carried out on behalf of the network 
+operator. rather, cloud computing defi nes the role of cloud service customer (csc) and sub -role of cloud 
+service user (csu), both of which can be performed by end -customers and telecommunication operators 
+alike. 
+this recommendation addresses the need to bring these two very different approaches together. 
+it is important to note that the creation and use of many cloud -based virtual resources and services are no 
+longer treated as traditional "management" activities, but by the nature of cloud computing are regularly 
+performed in an on-demand self-service manner by cscs who do not require "management" credentials for 
+this task. as an analogy, many of these tasks are therefore closer to placing telephone calls than to managing 
+telephony equipment. 
+many cloud computing use cases extend across multiple cloud service providers (csps) and multiple services. 
+csps engaged in such a multiple cloud ecosystem therefore , are required to implement appropriate 
+management capabilities on the inter -cloud interfaces [itu -t y.3511] to other csps. in such a scenario,  a 
+single co mpany may be simultaneously acting as a csp for its own customers, as a csc for the services 
+provided by another csp, and as a csc of its own csp services. 
+in a virtualized environment, a csp focuses on monitoring e2e network and application pe rformance and 
+needs the ability to dynamically add or remove resources when performance requirements change. 
+considering the addition of multiple technology domains involved, e2e management must cover both 
+virtualized and physical infrastructures across potentially multiple csps. 
+in a multiple cloud environment, the e2e management means composition of: 
+a) service and resource management chains across: 
+i) layers; 
+ii) multiple csps. 
+b) service and resource management chains which may include: 
+i) the csc; 

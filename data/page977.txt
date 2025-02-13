@@ -1,0 +1,48 @@
+security 7 
+ 
+  969 
+3.1.13 hypervisor [b-nist-sp-800-125]: the virtualization component that manages the guest oss on a host 
+and controls the flow of instructions between the guest oss and the physical hardware. 
+3.1.14 infrastructure as a service  (iaas) [b-itu-t y.3500]: cloud service category in which the cloud 
+capabilities type provided to the cloud service customer (3.1.5) is an infrastructure capabilities type. 
+note – the cloud service customer (3.1.5) does not manage or control the underlying physical and virtual resources, 
+but does have control over operating systems, storage, and deployed applications that use the physical and virtual 
+resources. the cloud service customer (3.1.5) may also have limited ability to control certain networking components 
+(e.g., host firewalls). 
+3.1.15 multi-tenancy [b-itu-t y.3500]: allocation of physical or virtual resources such that multiple tenants 
+(3.1.26) and their computations and data are isolated from and inaccessible to one another. 
+3.1.16 network as a service (naas) [b-itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer (3.1.5) is transport connectivity and related network capabilities. 
+note – naas can provide any of the three cloud capabilities types. 
+3.1.17 party [b- iso/iec 27729]: natural person or legal person, whether or not incorporated, or a group 
+of either. 
+3.1.18 personally identifiable information  [b-iso/iec 29100]: any information that (a) can be used to 
+identify the pii principal to whom such information relates, or (b) is or might be directly or indirectly linked 
+to a pii principal. 
+3.1.19 platform as a service (paas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer (3.1.5) is a platform capabilities type. 
+3.1.20 private cloud [b-itu-t y.3500]: cloud deployment model where cloud services (3.1.4) are used 
+exclusively by a single cloud service customer (3.1.5) and resources are controlled by that cloud service 
+customer (3.1.5). 
+3.1.21 public cloud [b-itu-t y.3500]: cloud deployment model where cloud services (3.1.4) are potentially 
+available to any clou d service customer (3.1.5) and resources are controlled by the cloud service 
+provider (3.1.7). 
+3.1.22 security domain [b-itu-t x.810]: a set of elements, a security policy, a security authority and a set 
+of security-relevant activities in which the set of elements are subject to the security policy for the specified 
+activities, and the security policy is administered by the security authority for the security domain. 
+3.1.23 security incident [b-itu-t e.409]: a security incident is any adverse event whereby some aspect of 
+security could be threatened. 
+3.1.24 service level agreement (sla) [b-iso/iec 20000-1]: a documented agreement between the service 
+provider and customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement.  
+3.1.25 software as a service (saas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer (3.1.5) is an application capabilities type. 
+3.1.26 tenant [b-itu-t y.3500]: one or more cloud service users (3.1.8) sharing access to a set of physical 
+and virtual resources. 
+3.1.27 threat [b-iso/iec 27000]: a potential cause of an unwanted incident, which may result in harm to a 
+system or organization. 
+3.1.28 virtual machine (vm) [b-nist-sp-800-145]: an efficient, isolated, logical duplicate of a real machine. 
+3.1.29 vulnerability [b-nist-sp-800-30]: a weakness in an information system, system security procedures, 
+internal controls, or implementation that could be exploited by a threat source. 

@@ -1,0 +1,30 @@
+6 monitoring  
+ 
+960  
+see table 7-14. 
+table 7-14 – parameters collected for monitoring web service performance 
+metric name description unit 
+throughput number of service request that a web service can 
+complete in a given period of time request/s 
+users number of new connection users servicing per 
+second user/s 
+transactions per second average number of transactions processed per 
+second  transaction/s 
+connection rate number of new transmission control protocol (tcp) 
+connections setting up per second link/s 
+response time 
+the time duration from receiving the request to the 
+web service to sending the response from the web 
+service 
+ms 
+round trip time time from sending syn to receiving syn ack ms 
+tcp setting up time average time of tcp link setting up  
+simultaneous connections number of tcp connections setting up between 
+client and server link/s 
+cumulative transactions total number of transactions processing processed transaction 
+7.3 access layer parameters 
+principally, access control involves the authentication of a user through the presentation and validation of 
+credentials, followed by the authorization of this authenticated user to use specific services. associated with 
+this is identity management. access behaviour and management events should be monitored for the access 
+layer. 
+  

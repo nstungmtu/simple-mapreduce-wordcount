@@ -1,0 +1,41 @@
+monitoring 6 
+ 
+   951 
+see table 7-2. 
+table 7-2 – parameters collected to monitor virtual computing resources 
+metric name description unit 
+vcpus number of virtual cpus allocated to the virtual 
+machine (vm) cpu 
+vcpu idle time time of virtual cpus is in idle status ns 
+vcpu idle percent percent of vcpu is in idle status % 
+vcpu user percent percent of vcpu is in using status % 
+vcpu load  virtual cpus have been loaded  process 
+vcpu i/o wait time time of virtual cpus i/o is in waiting status ns 
+vcpu i/o wait percent percent of virtual cpu is in using status % 
+vmemory volume of virtual ram allocated to the vm mb 
+vmemory utilization average virtual ram utilization % 
+vmemory used used virtual memory size mb 
+vdisk size total size of virtual disk allocated to the vm gb 
+vdisk size used total size of virtual disk used mb 
+vdisk random/sequential read requests number of read requests of virtual disk request 
+vdisk random/sequential read request 
+rate average rate of read requests of virtual disk  request/s 
+vdisk random/sequential write requests number of write requests of virtual disk  request 
+vdisk random/sequential write request 
+rate average rate of write requests of virtual disk  request/s 
+vdisk random/sequential read bytes volume of reads of virtual disk  kb 
+vdisk random/sequential read byte rate average rate of reads of virtual disk kb/s 
+vdisk random/sequential read delay average delay of read request ms 
+vdisk random/sequential read error  volume of read error  kb 
+vdisk random/sequential write bytes volume of writes of virtual disk  kb 
+vdisk random/sequential write byte rate average rate of writes of virtual disk  kb/s 
+vdisk random/sequential write delay average delay of write request  ms 
+vdisk random/sequential write error  volume of write error  kb 
+vgpu util average vgpu utilization  % 
+vgpu idle time time of vgpu is in idle status ns 
+vgpu load  vgpus have been loaded  process 
+vgpu i/o wait time vgpu i/o wait time ns 
+vgpu idle percent percent of vgpu is in idle status % 
+vgpu user percent percent of vgpu is in using status % 
+vgpu i/o wait percent percent of vgpu i/o is in waiting status  % 
+note – all metrics should be measured over different duration, e.g., 1 min, 5 min, 15 min or 30 min. 

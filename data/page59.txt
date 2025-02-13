@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   51 
+3.2.5 peer cloud service provider: a cloud service provider who provides one or more cloud services for 
+use by one or more other cloud service providers as part of their cloud services. 
+3.2.6 product catalogue: a listing of all the cloud service products  (clause 3.2.2) which cloud service 
+providers make available to cloud service customers. 
+3.2.7 role: a set of activities (clause 3.2.1) that serves a common purpose. 
+3.2.8 service catalogue: a listing of all the cloud services of a particular cloud service provider. 
+3.2.9 sub-role: a subset of the activities (clause 3.2.1) of a given role (clause 3.2.7). 
+4 abbreviations 
+for the purposes of this recommendation | international standard, the following abbreviations apply: 
+api  application programming interface 
+caas communications as a service 
+ccra cloud computing reference architecture 
+cpu central processing unit 
+cs cloud service 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+iaas infrastructure as a service 
+ict information and communication technology 
+kpi  key performance indicator 
+msa master service agreement 
+naas network as a service 
+paas platform as a service 
+pii personally identifiable information 
+qos quality of service 
+ram random access memory 
+saas software as a service 
+sla service level agreement 
+tos terms of service 
+t&c terms and conditions 
+vlan virtual local area network 
+vpn virtual private network 
+vm virtual machine 
+5 conventions 
+the following conventions apply: 
+1) diagrams are used throughout this recommendation | international standard to help illustrate the 
+ccra. figure 5-1 provides the conventions used regarding the content of the diagrams. 
+note – in figure 5-1, "aspect" is to be understood as referring to "cross-cutting aspect". 

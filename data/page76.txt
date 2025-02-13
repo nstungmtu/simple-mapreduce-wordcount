@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+68  
+• configuring and maintaining operating systems and hypervisors; 
+• administering a virtualization environment;  
+• monitoring the behaviour of the ict environment of the cloud service provider to ensure that it is 
+running correctly and that provided cloud services are meeting the terms of the sla;  
+• recording problems, reporting problems appropriately (which can involve a message being sent to 
+one or more customers), and following problem resolution processes until the problem is fixed. 
+8.3.2.3 manage assets and inventory 
+the manage assets and inventory activity involves: 
+• keeping track of all compute, storage, network and software assets and the relationship between 
+them. this includes tracking aspects such as versions and patch levels, plus configuration 
+information, where relevant; 
+• 'on-boarding' of new assets and disposal of old assets. this can include ensuring that new assets are 
+fit for purpose and have been properly checked from a securit y and manageability standpoint and 
+can include the disposal of assets that are no longer required. this can include appropriate secure 
+disposal of any assets that might hold data. 
+8.3.2.4 provide audit data 
+the provide audit data activity is the collection and provision of data relevant to an audit request, such as 
+that relating to security controls or to service performance. the data requested will depend on the auditing 
+scheme or standard that is being used. this activity involves: 
+• creating and sending appropriate audit information from logs, etc.; 
+• redacting information from any log records or other data that might contain sensitive information 
+or pii. 
+8.3.2.5 define environment and processes 
+the define environment and process activity focuses on defining the required technical environment and 
+operational processes used when a service is running. this activity involves: 
+• defining the required technical environment in terms of compute, storage and network resources, 
+the software dependencies including configuration; 
+• defining policies and processes for scaling up and scaling down the use of resources in response to 
+changing usage demand; 
+• assuring that the cloud service adheres to appropriate standards relating to security and business 
+compliance; 
+• defining the processes to follow when the service is running, including plans for fixes, upgrades and 
+migration. 
+8.3.2.6 define and gather metrics 
+the define and gather metrics activity focuses on d efining service level metrics and management. this 
+activity involves: 
+• defining the metrics that are used in relation to the operation of cloud services, which are typically 
+reflected in the sla relating to those services; 
+• designing how the metrics are captured for each cloud service; 
+• defining how the metrics are reported and managed, in particular to ensure that sla targets are 
+met. 

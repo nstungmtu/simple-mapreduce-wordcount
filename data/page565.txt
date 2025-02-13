@@ -1,0 +1,49 @@
+xaas 3 
+ 
+  557 
+• virtual des ktop lifecycle management : it is required that the csp support the full life cycle 
+management of the virtual desktop, including set-up, test, delivery, use, maintenance, optimization, 
+shutdown and deletion. 
+• support of virtual desktop template: in order to achieve better delivery of daas, a desktop template 
+can be optionally used for daas maintenance purposes.  
+ note 2 – the virtual desktop template includes defining, publishing, verifying, revoking, deleting and other 
+related operations. 
+• user profile management: it is required that the csp manage the user profile information. 
+• server-side platform hardware resource maintenance : it is required that the csp maintain and 
+allocate servers, storage, network and related hardware. 
+• service-related resource maintenance: it is required that the csp maintain daas service supporting 
+applications and data, such as security auditing server, performance monitoring server, active 
+directory, database, user configuration, file server, etc. 
+• status monitoring: it is rec ommended that the current running status of virtualized resource be 
+monitored to perform the change the status requested by a csc. 
+• system load monitoring: in order to achieve an appropriate qoe, it is recommended that a csp be 
+capable of monitoring the system load to assign virtualized resources to a csc. 
+• automated scriptable management interface : it is recommended that the daas management 
+solution be accessible through a consistent scripting interface. 
+• power management : it can optionally be that the csp is able to suppor t the mechanism that 
+monitors server's power and relevant usage in order to perform load balancing or save the power 
+consumption in the server. 
+• accounting and charging: it is recommended that the csp collect accounting information based on 
+computing powe r, network use, storage, memory and/or application licen ce fee. accounting 
+information is collected per service and per user. it is also recommended that the csp provide a 
+charging scheme based on the accounting information and charging information transparently.  
+ note 3 – depending on the implementation of daas, the charging scheme may not be needed. 
+• managing and operating pre-configured environments: 
+– it is recommended that the csp manage and operate the pre -configured environments which 
+are prepared after configuring the service information (such as server processing capacity, the 
+prediction of concurrent users and the resources capacity, etc.).  
+– it is recommended that the csp provide the preconfigured environment without the loss of user 
+functionality and the degradation of performance when service is requested.  
+ note 4 – the pre-configured environments are the environmental files such as images of os and applications, 
+which reflect the csc's requirements including operating en vironment, installed applications, user data and 
+level of service. the pre -configured environments are prepared in advance with the related operations (e.g., 
+generating, creating, reproducing and cloning, etc.) and supplied in their use during service exec ution. 
+• monitoring and controlling daas: it is recommended to monitor and control the activities of a daas 
+platform without impacting the performance of the daas platform.  
+ note 5 – a software agent can be used to communicate with a kernel or a hyperviso r in order to create and 
+control vms. 
+• daas client capability: it is recommended that virtualization infrastructure supports making use of 
+any available daas client capability on the csc's device as and when required by application 
+programs running in virtual desktop.  
+• user log management: it is recommended that the csp keep the connection log information for all 
+cscs and their event logs for further security and/or incident analysis. 

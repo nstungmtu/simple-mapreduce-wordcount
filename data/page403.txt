@@ -1,0 +1,54 @@
+ framework and requirements for cloud computing 1 
+ 
+   395 
+recommendation is independent of any service or scenarios -specific model (e.g., web services, 
+parlay x or rest), assumptions or solutions. this recommendation describes a structured approach 
+for defining, designing and implementing secure and manageable service -oriented capabilities in 
+telecommunication cloud computing environments. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12615  
+• itu-t x.1641: this recommendation provides generic security guidelines for cloud service customer 
+(csc) data in cloud computing. it analyses th e csc data security life cycle and proposes security 
+requirements at each stage of the data life cycle. furthermore, the recommendation provides 
+guidelines on when each control should be used for best security practice. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=12853 
+• itu-t x. 1603: recommendation itu -t x.1603 analyses data security requirements for the 
+monitoring service of cloud computing which includes monitor ing data scope requirements, 
+monitoring data life cycles, security requirements of monitoring data acquisition and security 
+requirements of monitoring data storage. monitoring data scope requirements include the 
+necessary monitoring scope that csps should provide to maintain cloud security and the biggest 
+monitoring scope of csps. monitoring data life cycles includes data creation, data store, data use, 
+data migrate, data present, data destroy and data backup. monitoring acquisition determines the 
+security requirements of the acquisition techniques of a monitoring service. monitoring data 
+storage determines the security requirements for csps to store the monitoring data. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13562  
+• itu-t x.sriaas: infrastructure as a service (iaas) is one of the representative categories of cloud 
+services, in which the cloud capabilities service provided to the csc is an infrastructure capabilities 
+type. iaas environments and virtualized services are facing more challenges and threats than 
+traditional information technology infrastructure and applications. platforms that share computing, 
+storage and network services need protections specific to the threats in the iaas environment. if 
+these threats are not carefully addressed, it will have very negative impacts on the development of 
+iaas services. this recommendation aims to document the security requirements of public iaas. this 
+will be helpful for iaas csps to improve the overall security level throughout the planning, 
+constructing and operating stages of iaas platform and services. this work also complements the 
+security standardization activity related to software-defined networks, especially x.sdnsec. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13578 
+• itu-t x.srnaas: network as a service (naas) is one of the representative cloud service categories, 
+in which the capability provided to the cloud service customer (csc) is transport connectivity and 
+related network capabilities. naas services can provide any of three cloud capabilities: naas 
+application service, naas platform service and naas connectivity service. all three kinds of naas 
+service face particular security challenges such as application security vulnerabilities, security risks 
+of network virtualization, eavesdropping, etc. r ecommendation itu -t x.srnaas analyses the 
+security challenges and security requirements of naas application, naas platform and naas 
+connectivity. this recommendation could help naas service providers to address security issues. 
+the capabilities provided by  this recommendation will take into account the national legal and 
+regulatory obligations in individual member states in which the naas services operate. the 
+methodology of this proposal would follow the recommendations of clause 10 in recommendation 
+itu-t x.1601. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13590 
+• itu-t x.srcaas : recommendation itu -t x.srcaas recommends the security requirements of 
+communication as a service (caas) application environments with the identification of the risks. the 
+recommendation describes the scenarios and the features of caas, into which multi-communication 
+capabilities are plugged. moreover, some special /unique risks are identified, w hich are caused by 
+the unique features of caas. the corresponding security requirements are recommended for the 
+following aspects: identity fraud, orchestration security, multi -device security, countering spam, 
+privacy protection, infrastructure attack, attack from infrastructure, intranet attack and so on. the 

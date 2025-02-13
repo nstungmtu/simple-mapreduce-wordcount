@@ -1,0 +1,13 @@
+framework and requirements for cloud computing 1 
+ 
+   139 
+bibliography 
+ 
+[b-itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[b-itu-t x.1631] recommendation itu-t x.1631 (2015), information technology – security 
+techniques – code of practice for information security controls based on iso/iec 
+27002 for cloud services. 
+[b-itu-t x.1641] recommendation itu-t x.1641 (2016), guidelines for cloud service customer data 
+security. 
+[b-iso/iec 2382] iso/iec 2382 (2015), information technology – vocabulary. 
+ 

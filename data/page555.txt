@@ -1,0 +1,34 @@
+xaas 3 
+ 
+  547 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+requirements for desktop as a service 
+recommendation itu-t y.3503 
+(05/2014) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

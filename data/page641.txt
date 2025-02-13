@@ -1,0 +1,43 @@
+xaas 3 
+ 
+  633 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+– csp's ip carrier network support overlay network mechnism.  
+post-conditions 
+(optional) 
+– csc's vms that run in different csp's data centres can communicate with each other. 
+derived 
+requirements 
+– logically isolated network partition (refer to clause 9.12) 
+– overlay network mechanism (refer to clause 9.13) 
+ii.4.2.7 naas connectivity use case for private ip addresses and vpns 
+ 
+title naas connectivity use case for private ip addresses and vpns 
+description case i: public cloud site multi-tenant vpn gateway (gw) with overlapping private ip 
+addresses 
+multi-tenant vpn gw in a public cloud site is shared by csc-i-a and csc-i-b. both of them 
+are interested to use the same private ip address pool for their end points.  
+both of cscs are connected to the public cloud vpn gw through a given public ip address 
+of it. the cloud vpn gw should be able to switch the traffic from each csc to a proper 
+subnet. 
+case ii: interworking support for different types of vpns 
+csc-ii has site-to-site proprietary mpls-vpn connection between its headquarter (hq) and 
+private data centre. according to the company progress, csc-ii is interested to establish 
+new site-to-site and site-to-client secure vpn connections (e.g., ip security (ipsec) vpn and 
+secure socket layer (ssl) vpn). new vpn connections are planned between their globally 
+distributed branch offices and mobile users, while keeping the csc-ii existing vpn 
+investments. naas csp should be able to provide interworking between the csc owned 
+existing vpn and different types of new vpns. 
+case iii: on-demand network support for the distributed end points  
+csc-iii requires a solution of delivering reliable, predictable and on-demand network 
+connections for all their locations. this service should be able to be changed dynamically 
+according to the csc-iii's needs. the csc-iii is interested in elastic request parameters for 
+connectivity to their location over the existing links. the connectivity should be established 
+to one or more of the naas csp's points of presence (pops) with minimum efforts for 
+deploying additional equipment. 
+roles csp, csc 
+

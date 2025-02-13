@@ -1,0 +1,69 @@
+1 framework and requirements for cloud computing  
+ 
+44  
+appendix ii 
+ 
+methodology and edition plan of this recommendation 
+(this appendix does not form an integral part of this recommendation.) 
+this recommendation adopts a use-case-driven approach. use cases are selected and elaborated first. based 
+on these use cases, relevant requirements are derived. as an example shown in figure ii.1, one use case may 
+derive multiple requirements.  
+ 
+figure ii.1 – methodology including mapping of use cases and requirements 
+the use-case-driven approach may also ease the preparation of future editions of this recommendation. as 
+explained in figure ii.2, a new edition will include new use cases with derived new requirements.  
+ 
+figure ii.2 – editions of this recommendation 
+note – for the sake of readability, this recommendation describes the requirements with short titles. exact description 
+of short titles is provided in relevant clauses of this recommendation.  
+table ii.1 presents the edition plan of this recommendation based on the progress of the corresponding 
+content. 
+y.3501(13)_fii.1
+1. general
+requirements for a
+1.1 1.2 1.3
+2. general
+requirements for b
+2.1 2.2 2.3
+2. general
+requirements for c
+3.1 3.2 3.3
+main body
+appendix
+use case a use case b use case c
+example
+use case title
+figure + description
+derived requirement items:
+1.3, 2.1, 3.1, 3.2
+(refer to clause 1, 2, 3)
+y.3501(13)_fii.2
+uc1
+hl
+req
+1
+hl
+req
+2
+hl
+req
+3
+uc2 uc3
+itu-t y .3501 edition 1
+uc4
+hl
+req
+4
+hl
+req
+5
+hl
+req
+6
+uc5 uc6
+itu-t y .3501 edition 2
+desired time time
+uc:
+hl req:
+use case
+high-level requirement

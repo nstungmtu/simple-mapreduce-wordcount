@@ -1,0 +1,61 @@
+ framework and requirements for cloud computing 1 
+ 
+   305 
+i.6 market transactions in inter-cloud intermediary pattern 
+table i.6 shows inter-cloud use case for market transactions in inter-cloud intermediary pattern. 
+table i.6 – inter-cloud use case: market transactions in inter-cloud intermediary pattern 
+use case  
+use case title inter-cloud use case: market transactions in inter-cloud intermediary pattern 
+relevant roles csp and csc 
+use case description – the primary csp in an inter-cloud intermediary pattern (csp-intermediary) 
+mediates between csps meeting the csc's quality requirements and provides 
+the list of selected csps to the csc. 
+– the csp-intermediary coordinates multiple services offered by other csps.  
+information flow  – the slas of the csps are submitted to the csp-intermediary in advance. 
+– a csc requests the csp-intermediary to select csps that provide a service 
+which satisfies the csc's quality requirements. 
+– the csp-intermediary compares the csc quality requirements with th e slas 
+of other csps. then the csp-intermediary discovers and reserves the csp 
+resources that meet the csc's quality requirements. 
+– the csp-intermediary returns the csp candidate list to the csc. 
+– the csc selects a csp or csps on the list. 
+– the csp-intermediary sends a cloud service adaptation request to the 
+selected csp to invoke the service and adapt it to concrete cloud services and 
+resources. 
+– the csp returns an adaptation response to the csp-intermediary. 
+high-level figure describing the 
+use case 
+y .3511(14)_fi.tab6
+csc
+csp
+csp
+csp
+csp
+(intermediary)
+3. c-csp intermediary
+informs the csc of
+the candidate csps.
+1. the csc requests the service
+from csp-intermediary. the request
+includes csc's quality requirements.
+4. the csc chooses 
+some of the csps 
+and accesses them.
+2. csp-intermediary compares the quality requirements 
+(including priorities) of csc with the slas of
+multiple csps. the csps reserve the resources.
+ 
+derived requirements for 
+cloud capability 
+the system is required to support: 
+– policy negotiation including sla management among the multiple csps 
+including csp-intermediary in a pre-established group; 
+– discovery, reservation, use and release of cloud resources in a dynamic 
+manner (i.e., not relying on the pre-configuration) on other csps within the 
+federation; 
+– creation of the network connections in a dynamic manner (i.e., not relying on 
+the pre-configuration) from the csc to the selected csp that provides the 
+resources; 
+– flexible reallocation of applications, to meet requirements at different stages 
+in its lifecycle, across multiple csps. 
+  

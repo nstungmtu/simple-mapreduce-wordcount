@@ -1,0 +1,11 @@
+2 cloud computing management  
+ 
+474  
+summary 
+recommendation itu -t y.3520 presents general concepts of end to end resource management in cloud 
+computing; a vision for adoption of cloud resource management in a telecommunication-rich environment; 
+and multi-cloud, end to end resource management for cloud services, i.e., management of any hardware and 
+software used in support of the delivery of cloud services. 
+keywords 
+cloud computing, cloud service, framework, requirement, resource management. 
+  

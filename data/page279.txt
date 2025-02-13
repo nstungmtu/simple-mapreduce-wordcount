@@ -1,0 +1,47 @@
+ framework and requirements for cloud computing 1 
+ 
+   271 
+appendix ii 
+ 
+considerations on resource monitoring 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides considerations on resource monitoring. 
+ii.1 health monitoring 
+health monitoring of the cloud infrastructure includes monitoring the status of resources such as the physical 
+server hardware, hypervisor, virtual machine, physical and virtual network switches and routers and storage 
+systems. 
+a resource map displays all of the technology components, including transactions, applications, web servers, 
+network switches, virtualized components and third -party cloud services. having such a map can play an 
+important role in effective business service management because when there is an application or transaction 
+problem, it can help pinpoint the infrastructure components that may be playing a role in service disruptions. 
+in addition, the resource map is important to provide run-time monitoring, because cloud infrastructure is 
+constantly changing. it is necessary to ensure the management of this resource map  on a continuous basis. 
+non-intrusive probes can be used to automatically detect infrastructure, application and transaction changes 
+in near real-time. 
+ii.2 performance monitoring 
+basic performance monitoring looks at the cpu, memory, storage and network p erformance metrics from 
+the vm guest os, as well as from the hypervisor. these metrics typically get monitored even in non-virtualized 
+environments. the virtualization-specific metrics could be for specific entities that are introduced by various 
+virtualization technologies. the behaviour of other virtualization features can also be measured as metrics, 
+such as how frequently vm migrations are occurring or when other availability features are engaged. then 
+there are specialized applications built by virtualization, for example, desktop virtualization. monitoring for 
+such solutions needs more parameters to be collected from the vm, as well as the hypervisor, for example, 
+how quickly vms are provisioned to a requesting end user. 
+ii.3 capacity monitoring 
+resource utilization is continuously evolving. therefore, the continuous planning of various resources such 
+as servers, desktops, networks, storage and also many kinds of software is needed. this demands periodic 
+audits of physical and virtual resources. capacit y monitoring needs end-to-end continuous capacity 
+monitoring of the following key metrics: 
+• server utilization : peak and average server resource utilization, memory, cpu, resource, server 
+bottlenecks and correlation with a number of vms. 
+• memory usage: memory utilization on each server, capacity bottlenecks and relationship with a 
+number of vms and with different cloud services. 
+• network usage : peak and average network utilization, capacity/bandwidth bottlenecks and 
+relationship with a number of vms and with different cloud services. 
+• storage utilization : overall storage capacity metrics, vm and virtual disk utilization, i/o 
+performance metrics, snapshot monitoring and correlation with a number of vms and with different 
+cloud services. 
+ii.4 security and compliance monitoring 
+virtualization introduces a new set of security risks due to vm sprawl and the introduction of new threat 
+targets such as the hypervisor layer, virtual infrastructure ( vi) configurations and potential conflicts in the 
+way access control is managed and policies are applied. security and compliance monitoring becomes critical 

@@ -1,0 +1,33 @@
+2 cloud computing management  
+ 
+482  
+• it is recommended that service design be as efficient as possible, requiring only the needed 
+information for both input and output parameters,  without being verbose. there sho uld not be 
+many arguments on the different management system operations. 
+• it is recommended that service design be simple, allowing for easy implementation in legacy as well 
+as in new services. there should be no complex d ependencies between the arguments  of the 
+different management information system operations. 
+• it is recommended that service implementation rely on industry standards in order to guarantee 
+that it will be interoperable between different platforms. 
+• it is recommended that the smi be extensible and generic to accommodate all ses scenarios. 
+• it is recommended that the smi be easy to extend and that this interface be adapted to support 
+additional management aspects of a specific domain or of a specific vendor. 
+• it is recommended that the smi be agnostic to implementation, architecture, or business processes, 
+to ensure adoption by many industry sectors. 
+• it is recommended that a non -"well designed service" be wrapped by a façade service in order to 
+make it a "well designed service". 
+the smi in the software enabled services reference architecture can be used to describe the management 
+capabilities of ses. examples of these capabilities are in the areas of invocation, provisioning, status, history, 
+usage and he alth monitoring and associated al erts, management lifecycle state configuration as well as 
+decommissioning of a given software enabled service [b-tmf tr198]. 
+the ses management approach was designed to address the management of a single cloud service provider. 
+in the next clause, it will be explained how the same concept can be applied to address a multiple cloud 
+service provider scenario. 
+6.5 resource management for multiple cloud service providers 
+clause 6.4 describes the managing of resources for a singl e cloud service provider. however , cloud service 
+delivery scenarios typically involve coordination across multiple cloud service providers residing in different 
+domains. 
+figure 3 illustrates the end to end management framework in a multi-cloud service provider domain scenario. 
+given the w ay in which customized management interfaces are exposed in a single cloud service provider 
+implementation, the framework enables end to end management of composed services and their underlying 
+dynamically changing resources. 

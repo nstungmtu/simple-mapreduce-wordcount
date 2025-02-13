@@ -1,0 +1,106 @@
+5 intercloud and interoperability  
+ 
+910  
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+36 7.3.1 network 
+policy 
+migration 
+– it is recommended that the iaas csp 
+provides network policy migration along 
+with virtual machine migration. in this case, 
+the network policy of the migrated virtual 
+machine is the same as before the migration. 
+– 9.1 interoperability testing of 
+network policy migration between 
+the csc and csp 
+37 7.3.2 network 
+qos 
+– it is recommended that the iaas csp 
+provides operation handling mechanisms 
+related to the network quality of service 
+(qos), such as bandwidth limit, bandwidth 
+reservation, traffic shaping, traffic 
+classification, congestion avoidance, at port 
+level, device level and network level. 
+– 9.2 interoperability testing of 
+network qos between the csc and 
+csp 
+38 7.3.3 ip 
+address 
+– it is recommended that the iaas csp 
+provides ip address reservation. 
+– 9.6 interoperability testing of ip 
+address reservation between the 
+csc and csp 
+39 
+ 
+– it is required that the iaas csp allows the 
+csc to apply, bind, unbind, query, release an 
+ip address to processing resources or storage 
+resources. 
+– 9.5 interoperability testing of ip 
+address allocation between the csc 
+and csp 
+40 
+ 
+– it is recommended that the iaas csp allows 
+the csc to allocate ip addresses to 
+provisioned processing resources or storage 
+resources with a dynamic or static method. 
+– 9.5 interoperability testing of ip 
+address allocation between the csc 
+and csp 
+41 
+ 
+– the iaas csp can optionally provide network 
+address translation (nat). 
+– 9.3 interoperability testing of 
+network address translation 
+between the csc and csp 
+42 7.3.4 network 
+isolation 
+– it is required that the iaas csp provides the 
+csc with isolated tenants' networks. 
+– 9.4 interoperability testing of 
+network isolation between the csc 
+and csp 
+43 
+ 
+– it is recommended that the iaas csp 
+provides the csc with operations handling 
+mechanisms related to isolated tenants' 
+networks, such as create, query and release. 
+– 9.4 interoperability testing of 
+network isolation between the csc 
+and csp 
+44 7.3.5 virtual 
+networking 
+– it is recommended that the iaas csp 
+manages virtual networking to provide 
+network connectivity amongst various 
+processing and storage resources. 
+– 9.4 interoperability testing of 
+network isolation between the csc 
+and csp 
+45 7.3.6 load 
+balance 
+– it is recommended that the iaas csp 
+optimizes infrastructure resources utilization 
+by providing load balance related functions, 
+such as throughput, response time, to avoid 
+overload of any one of the infrastructure 
+resources. 
+– 9.7 interoperability testing of load 
+balance between the csc and csp  
+46 
+ 
+– the iaas csp can optionally provide 
+multipath routing to achieve an optimized 
+traffic management (e.g., to improve 
+network utilization, to guarantee qos at 
+network congestion or fault). 
+– 9.9 interoperability testing of 
+multipath routing between the csc 
+and csp 

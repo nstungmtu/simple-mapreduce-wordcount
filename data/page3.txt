@@ -1,0 +1,59 @@
+ 
+   i 
+foreword 
+cloud services provide on -demand access to 
+advanced ict resources, enabling innovators to 
+gain new capabilities without investing in new 
+hardware or software. cloud concepts are also 
+fundamental to the evolution of ict networking, 
+helping networks to meet the requirements of an 
+increasingly diverse range of ict applications. 
+as innovation accelerates in fields such as imt -
+2020/5g and the internet of th ings and digital 
+transformation takes hold in every industry sector, 
+the cloud ecosystem will continue to grow in 
+importance to companies large and small, in 
+developing as well as developed countries.  
+itu standards provide the requirements and 
+functional architectures of the cloud ecosystem, 
+covering inter - and intra -cloud computing and 
+technologies supporting ‘xaas’ (x as a service).   
+these standards enable consistent end -to-end, 
+multi-cloud management and the monitoring of 
+services across different serv ice providers’ 
+domains and technologies – they were developed 
+in view of the convergence of telecoms and 
+computing technologies that characterizes the 
+cloud ecosystem. 
+recent years have seen software coming to play a 
+key role in network management and 
+orchestration. concepts rooted in datacentre 
+networking are transforming telecoms operations, 
+with notable examples found in software -defined 
+networking and network function virtualization.   
+this convergence of telecoms and computing 
+technology is in full fli ght, with our networks 
+coming to depend heavily on cloud and very 
+modern computing, transport and datacentre 
+technologies.  
+our networks are transforming to become agile 
+all-round players able to perform a wide array of 
+specialized functions. cloud is cent ral to this 
+agility, enabling the automated provisioning of 
+virtualized resources to meet the needs of any ict 
+application.  
+ 
+itu standards are supporting industry in 
+navigating this transformation. this compendium 
+of itu cloud standards will provide ict industry 
+players with a valuable point of reference as they 
+transform networking operations to take full 
+advantage of cloud capabilities. 
+ 
+ 
+ 
+chaesub lee 
+director  
+itu telecommunication standardization bureau 
+ 
+

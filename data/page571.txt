@@ -1,0 +1,45 @@
+xaas 3 
+ 
+  563 
+table iii.2 – customer service call centre 
+legend use case 
+use case title customer service call centre  
+use case 
+description 
+virtual desktop pool supports distributed deployment model and can be deployed in the cloud 
+computing infrastructure as a service (iaas) resource pool with the dynamic stretching of 
+resources. 
+by adopting cloud computing technology (virtualization, distributed computing and storage, 
+cluster, etc.) to consolidate queuing resource and desktop resources, unified phone call 
+dispatching and delivery and maintenance of the desktop can be achieved in an intensive way.  
+high-level figure 
+describing the use 
+case  
+ 
+derived 
+requirements  
+ 
+– unified management interface 
+– automated scriptable management interface 
+– diversity of daas client 
+ 
+table iii.3 – scenario of daas user 
+legend use case 
+use case title scenario of daas user 
+use case 
+description 
+scenario of daas user is driven by a specific class of user. common user types that benefit 
+from daas are mobile workers, task workers (such as factory floor and call centre workers), 
+contractor/offshore workers, and remote workers in branch offices.  
+• mobile workers: if an organization needs to support employees who are mobile, work from 
+home or work from the road, a daas solution can enable employee p roductivity anywhere 
+and increase effective user collaboration without compromising security. daas can offer 
+secure access to desktops and applications over low-bandwidth connections without 
+requiring new applications to be distributed to daas users. emplo yees will see a consistent 
+set of applications and can access their own data regardless of location. if employees need 
+access to a comprehensive desktop experience, they can be assigned a personal virtual 
+desktop within the confines of the corporate data centre. this improves the daas offering 
+available to users while keeping the environment securely managed. with the wide 
+adoption of third-generation (3g) wireless networks, users are even more capable of 
+experiencing a full-fidelity desktop remotely.  
+

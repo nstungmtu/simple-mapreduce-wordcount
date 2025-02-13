@@ -1,0 +1,46 @@
+security 7 
+ 
+  1077 
+cld.9.5.2 virtual machine hardening 
+control 
+virtual machines in a cloud computing environment should be hardened to meet business needs. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+when configuring virtual machines, cloud service customers and cloud service providers should ensure that 
+appropriate aspects are hardened (e.g., only those ports, protocols and services that are needed), and that the 
+appropriate technical measures are in place (e.g., anti-malware, logging) for each virtual machine used. 
+cld.12.1 operational procedures and responsibilities 
+the objective specified in clause 12.1 of iso/iec 27002 applies. 
+cld.12.1.5 administrator's operational security 
+control 
+procedures for administrative operations of a cloud computing environment should be defined, documented 
+and monitored. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should document 
+procedures for critical operations where a failure can 
+cause unrecoverable damage to assets in the cloud 
+computing environment. 
+examples of the critical operations are: 
+– installation, changes, and deletion of virtualized 
+devices such as servers, networks and storage; 
+– termination procedures for cloud service usage; 
+– backup and restoration. 
+the document should specify that a supervisor should 
+monitor these operations. 
+the cloud service provider should provide 
+documentation about the critical operations and 
+procedures to cloud service customers who require it. 
+other information for cloud services 
+cloud computing has the benefit of rapid provisioning and administration, and on-demand self-service. these 
+operations are often carried out by administrators from the cloud service customer and the cloud service 
+provider. because human intervention in these critical operations can cause serious information security 
+incidents, mechanisms to safeguard the operations should be considered and , if needed, be defined and 
+implemented. examples of serious incidents include erasing or shutting down a large number of  virtual 
+servers or destroying virtual assets. 
+cld.12.4 logging and monitoring 
+the objective specified in clause 12.4 of iso/iec 27002 applies. 
+cld.12.4.5 monitoring of cloud services 
+control 
+the cloud service customer should have the capability to monitor specified aspects of the operation of the 
+cloud services that the cloud service customer uses. 

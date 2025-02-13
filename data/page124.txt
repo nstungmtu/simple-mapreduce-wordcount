@@ -1,0 +1,29 @@
+1 framework and requirements for cloud computing  
+ 
+116  
+6.2 benefits of data storage federation 
+dsf provides not only a single virtual volume federated from dsf local storage, but also from a customer 
+perspective beneficial features such as cost, technical function, service enhancement and resource 
+utilization. beneficial features include:  
+– easy storage management: simplified management by using a single user interface and centralized 
+monitoring. 
+– cost-effectiveness: reduction of storage usage costs by moving rarely used customer data to a 
+cheaper dsf local storage. 
+– performance enhancement : improvement of data access performance by storing data to high -
+speed storages such as solid state disk (ssd), main memory, etc. 
+– data reliability: increased reliability by replicating the data storing to another dsf local storage. 
+– storage scalability: support of on-demand storage capacity by scaling storage resources. 
+– storage utilization efficiency : increased of storage capacity by combining two or more dsf local 
+storages to store a large sized file. 
+– data security: stores secure data by splitting importan t files into multiple fragments and storing 
+them on different dsf local storages. 
+– data management transparency : convenient data management for data discovery, use of data 
+without knowledge of data location, storage type and data format. 
+6.3 configuration of logical components for data storage federation 
+figure 6 -3 shows the general configuration environment for logical components of dsf. the logical 
+components consist of customer, storage connection, data manipulation, data distribution and storage, dsf 
+local storage management, provision and policy management and dsf local storage including cloud and on-
+premises storage.  
+ 
+figure 6-3 – general configuration for dsf 
+

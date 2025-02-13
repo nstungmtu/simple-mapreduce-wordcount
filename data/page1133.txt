@@ -1,0 +1,24 @@
+ assisting developing countries 8 
+ 
+   1125 
+3.8 should service management (like patch, incident and change) be standardized? 
+ 
+figure ii.22 – service management standardization 
+3.9 should cloud service contract management be standardized? 
+ 
+figure ii.23 – contract management standardization 
+3.10 can you identify some of the issues associated with cloud adoption that can be addressed with 
+standards? 
+received responses are the following:  
+• security 
+• data lost 
+• storage 
+• quality of service 
+• internet access connectivity standardization (bandwidth speed) 
+• bandwidth price models regulation and infrastructure sharing 
+• interoperability 
+• availability 
+• data privacy and localization of data (inside or outside the country) 
+• sla 
+• quality and confidentiality 
+

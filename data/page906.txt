@@ -1,0 +1,51 @@
+5 intercloud and interoperability  
+ 
+898  
+ii.2.2 test case: storage snapshot 
+table ii.16 shows the test case for storage snapshot. 
+table ii.16 – test case: storage snapshot 
+storage snapshot test description 
+test purpose to verify that the csc preserves and recovers the state and data of storage. 
+reference [itu-t y.3513] clause 7.2.2 
+test sequence step type description result 
+1 stimulus the csc takes a storage snapshot of storage a, called 
+snapshot a.  
+ 
+2 stimulus the csc changes the data of storage a.   
+3 stimulus the csc takes another storage snapshot of storage a, called 
+snapshot b. 
+ 
+4 stimulus the csc restores snapshot a.   
+5 check storage a's state and data are consistent with the states 
+when snapshot a was taken. 
+ 
+6 stimulus the csc deletes snapshot a.  
+7 check snapshot a can be deleted without affecting snapshot b.   
+8 stimulus the csc restores snapshot b.  
+9 check storage a's state and data are consistent with the states 
+when snapshot b was taken. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2.3 test case: storage backup 
+table ii.17 shows the test case for storage backup. 
+table ii.17 – test case: storage backup 
+storage backup test description 
+test purpose to verify that the csc backs up and restores data when faulty or data loss 
+occurs. 
+reference [itu-t y.3513] clause 7.2.3 
+test sequence step type description result 
+1 stimulus the csc takes a storage backup of storage a, called backup 
+storage a. 
+ 
+2 stimulus the csc changes the data in the storage a.   
+3 stimulus the csc restores storage a with storage backup a.  
+4 check configuration and data of backup storage a is consistent with 
+storage a. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2.4 test case: storage resource reservation 
+table ii.18 shows the test case for storage resource reservation. 

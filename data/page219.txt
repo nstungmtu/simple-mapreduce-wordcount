@@ -1,0 +1,60 @@
+framework and requirements for cloud computing 1 
+ 
+   211 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+45 processing unit 
+replacement 
+– [b-ocp yose] provides processing unit replacement as 'the usb connections 
+from all 1s servers are connected to the bmc's virtual hub port through a 
+usb multiplexer so that a user could upgrade the bmc firmware via a usb 
+interface from a 1s server. this method is much faster than going through 
+the oob' in clause 5.2. 
+– [b-ocp nic] provides processing unit replacement as 'a multi-host capable 
+ocp nic 3.0 card shall gracefully handle concurrent in-band queries from 
+multiple hosts and out-of-band access from the bmc for firmware 
+component versions, device model and device id information' in 
+clause 4.7.3. 
+– [b-ocp ocsb] provide processing unit replacement as 'tray backplane 
+interface' in clause 9.1. 
+– [b-ocp ocstray] provide processing unit replacement as 'the connector 
+interfaces between the tray mezzanine card and the tray backplane use the 
+samtec searay solution' in clause 2. 
+46 adding processing 
+units 
+– [b-ocp ocsc] provide adding processing units as 'support tray s that house 
+up to 24 individual ocs blades' as clause 2. 
+– [b-ocp yose] provide adding processing units as 'support multi-host 
+functions' in clause 5.7.6. 
+47 adding 
+sub-components of 
+processing units 
+– [b-ocp 2s] provide adding memory of processing units as '2x ddr4 slots per 
+channel 'in clause 5.3.2. 
+– [b-ocp imbh] provide adding sub-components of processing units as 'two 
+pcie* x4 external connectors on the motherboard' in clause 10.2. 
+– [b-ocp ambh] provide adding sub-components of processing units as 
+'motherboard's i/o features' in clause 10. 
+48 adding power supply – [b-ocp ocsc] provide adding power supply as 'pdu placement' in 
+clause 3.1.3. 
+– [b-ocp ambh] provide adding sub-components of processing units as 'the 
+motherboard includes a full server management solution and supports 
+interfaces to an integrated or a set of rear-access 12v power supply units 
+(psus)' in clause 3. 
+49 adding cooling 
+component 
+– [b-ocp ocsc] provide adding cooling component as 'fan tray (includes six 
+140 x 140 mm fans in parallel)' in clause 4.2. 
+– [b-ocp o2usm] provide adding cooling component as 'a maximum of six 
+40mm fans may be used to cool the components in a single u, with a 
+maximum of twelve 40mm fans* in a 2u server configuration.' in clause 4.4. 
+50 no additional ports  
+51 authorized access  – [b-dmtf redfishapi] provide authorized access as support both 'basic 
+authentication' and 'redfish session login authentication' in clause 9.2.  
+– [b-dmtf redfishhi] provide authorized access as 'opening a redfish s ession 
+on the host interface may be accomplished by use of any authorized 
+redfish credentials' in clause 9. 
+– [b-snia swordfish] provide authorized access as 'implement tls version 1.2 
+or greater' in clause 8.1. 

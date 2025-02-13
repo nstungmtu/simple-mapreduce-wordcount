@@ -1,0 +1,53 @@
+1 framework and requirements for cloud computing  
+ 
+32  
+i.1 generic use case 
+use case 
+name general csc-csp-csn use case 
+abstract this general use case, which describes the general activities of the csc, csp and csn, consists 
+of a set of use cases. it introduces a basic scenario where a csp publishes a cloud service. a 
+csc or csn consults this cloud service and uses this cloud service. these use cases clarify the 
+relationships between these three main cloud roles. 
+roles csc, csp, csn 
+figure  
+included use 
+cases 
+– uc-us (use case use service) 
+– uc-cs (use case consult service) 
+– uc-ps (use case publish service) 
+ 
+use case 
+name use case publish service 
+abstract a csp publishes cloud service information to the public so that any users including a csp, csc 
+or csn can use the published cloud service. in terms of service publishing, the csp adds the 
+service to a service catalogue which will be accessible to others. the csp also maintains the 
+catalogue. 
+roles csp 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+– the csp should maintain the public service.  
+requirements – service life-cycle management 
+– security 
+– efficient service deployment 
+– portability 
+– regulatory aspects 
+– service availability, service reliability and quality assurance 
+– service access 
+– accounting and charging 
+ 
+use case 
+name use case consult service 
+abstract a csc, csp or csn consults a published service. for all the published services in the cloud 
+service catalogue, any users including the csc, csp and csn can access them. the consult 
+scenario refers to consulting published-service details and associated slas.  
+roles csc, csp, csn 
+pre-conditions 
+(optional) 
+– the service to be used has already been published by a csp (uc -ps). 
+– the csc, csp or csn has been authenticated. 
+post-conditions 
+(optional) 
+– a given service should be accessible. 

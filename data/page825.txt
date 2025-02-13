@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  817 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview 
+6.1 inter-cloud functional architecture with different patterns 
+6.2 relationship with cloud computing reference architecture 
+7 functions of inter-cloud computing 
+7.1 business support systems 
+7.2 operational support systems 
+7.3 peer service integration 
+7.4 security systems 
+8 functional components of inter-cloud 
+9 security considerations 
+appendix i – mapping of inter-cloud computing functional requirements and functions 
+appendix ii – reference points of inter-cloud computing 
+ii.1 reference point: i-ssm-blg 
+ii.2 reference point: i-ssm-ipm 
+ii.3 reference point: i-ssm-mr 
+ii.4 reference point: i-ssm-sc 
+ii.5 reference point: i-ssm-psm 
+ii.6 reference point: i-blg-ipm 
+ii.7 reference point: i-blg-mr 
+ii.8 reference point: i-blg-sc 
+ii.9 reference point: i-blg-sp 
+ii.10 reference point: i-blg-sa 
+ii.11 reference point: i-blg-spm 
+ii.12 reference point: i-blg-slm 
+ii.13 reference point: i-blg-psm 
+ii.14 reference point: i-sp-sc 
+ii.15 reference point: i-slm-sc 
+ii.16 reference point: i-psm-sc 
+ii.17 reference point: i-sc-psi 
+ii.18 reference point: i-spm-sp 
+ii.19 reference point: i-sp-sa 
+ii.20 reference point: i-psm-sp 

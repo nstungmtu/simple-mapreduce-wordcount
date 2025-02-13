@@ -1,0 +1,15 @@
+intercloud and interoperability 5 
+ 
+  873 
+• security test 
+test objective is to verify that security related controls can be applied to mitigate the threats in 
+cloud computing environment, including authentication, authorization, auditing, validation, and 
+encryption. 
+• integration test 
+test objective is to verify that functional components can be connected to achieve the required 
+functionality. 
+• development support test 
+test ob jective is to verify that csp can provide development support capabilities involving the  
+creation, testing and life -cycle management of services and service components and support the 
+cloud computing activities of the cloud service developer.  
+  

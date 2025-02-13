@@ -1,0 +1,56 @@
+security 7 
+ 
+  1057 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+(no additional implementation guidance) the cloud service provider should provide functions for 
+managing the access rights of the cloud service 
+customer's cloud service users, and specifications for 
+the use of these functions. 
+other information for cloud services 
+the cloud service provider should support third-party identity and access management technologies for its 
+cloud services and the associated administration interfaces. these technologies can enable easier integration 
+and easier user identity administration between the cloud service customer's systems and the cloud service, 
+and can ease the use of multiple cloud services, supporting such capabilities as single sign-on. 
+9.2.3 management of privileged access rights 
+control 9.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should use sufficient 
+authentication techniques (e.g., multi-factor 
+authentication) for authenticating the cloud service 
+administrators of the cloud service customer to the 
+administrative capabilities of a cloud service according 
+to the identified risks. 
+the cloud service provider should provide sufficient 
+authentication techniques for authenticating the cloud 
+service administrators of the cloud service customer to 
+the administrative capabilities of a cloud service, 
+according to the identified risks. for example, the cloud 
+service provider can provide multi-factor authentication 
+capabilities or enable the use of third-party multi-factor 
+authentication mechanisms. 
+9.2.4 management of secret authentication information of users 
+control 9.2.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should verify that the cloud 
+service provider's management procedure for allocating 
+secret authentication information, such as passwords, 
+meets the cloud service customer's requirements. 
+the cloud service provider should provide information 
+on procedures for the management of the secret 
+authentication information of the cloud service 
+customer, including the procedures for allocating such 
+information and for user authentication. 
+other information for cloud services 
+the cloud service customer should control the management of secret authentication information by using its 
+own or third party identity and access management technologies. 
+9.2.5 review of user access rights 
+control 9.2.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9.2.6 removal or adjustment of access rights 
+control 9.2.6 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 

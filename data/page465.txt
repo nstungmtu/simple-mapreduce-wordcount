@@ -1,0 +1,76 @@
+cloud computing management 2 
+ 
+  457 
+3) management controller function set: it contains multiple controlling func tions that supports the 
+running of the cloud-based network management platform, and each function can be implemented 
+by a small function block. some basic function blocks in the controllers are listed below. 
+– vm monitoring function: it provides the ability to monitor the performance of vms. it monitors 
+the dynamic information of the running status of vms. when performance degradation is 
+detected, the monitor informs the controller to handle the resource reassignment or service 
+transportation. 
+– management service analysis function: it provides the ability of analyzing each management 
+services in network management. each management service is registered in this analyzer, and 
+all the related information about this service is analyzed and storage for future use. 
+– management service deployment function: it provides the ability of deploying required services 
+for a management task. each management task may need the support of multiple management 
+services, and for those services which are not ready for use will appropriately be deployed into 
+some virtualized resources on the cloud infrastructure. 
+– management service composing function: it provides the ability of composing several small 
+management functions into a new complex management service, so that they can easily provide 
+a new type of management functionality without having to change the implementation of the 
+component management functions. 
+– more function blocks can be extended to support the running of the cloud -based network 
+management architecture. 
+4) management service function set: it provides management functions to network operators, and 
+they are composed of all kinds of small management functions. each network management function 
+is performed by a service application, and those management functions can form composed services 
+that provide more complex network management functions. most management service applications 
+are applications specific to a network technology, but there are still some applications which are 
+more general to be used across different network technologies. in such cases, the common service 
+application will be reused.  
+7.4 the relationship between the components in the architecture 
+this clause will introduce the relationship between the components in the architecture. 
+ 
+figure 4 – reference point between the components in the cloud-based network management  
+functional architecture 
+cloud hypervisor function
+vm monitor 
+function
+management controller fs
+management 
+service analysis 
+function
+management 
+service deployment 
+function
+management 
+service composing 
+function
+management 
+service function
+cloud 
+infrastructure
+function sets
+network 
+management 
+application 
+function set
+management service fs
+element 
+function
+cloud physical equipment functions
+element 
+function
+element 
+function
+r1
+r2
+r3
+r4 r4 nefs of the 
+network to be 
+managed
+r5
+management 
+service function
+management 
+service function

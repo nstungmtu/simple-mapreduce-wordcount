@@ -1,0 +1,44 @@
+5 intercloud and interoperability  
+ 
+844  
+1 scope 
+this recommendation describes inter-cloud trust management aspects including: 
+– isolation and security management mechanism; 
+– trust management model; 
+– reputation-based trust management; 
+– cloud service evaluation framework; 
+– relationship with cloud computing reference architecture; 
+– requirements for inter-cloud trust management and relative use cases. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged t o investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation d oes not give it, as a stand -
+alone document, the status of a recommendation.  
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.3501] recommendation itu-t y.3501 (2016), cloud computing – framework and high-level 
+requirements. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014) | iso/iec 17789:2014, cloud computing – 
+reference architecture. 
+[itu-t y.3511] recommendation itu-t y.3511 (2014), framework of inter-cloud computing. 
+[itu-t y.3514] recommendation itu-t y.3514 (2017), cloud computing – trusted inter-cloud 
+computing framework and requirements. 
+[itu-t y.3516] recommendation itu-t y.3516 (2017), cloud computing – functional architecture of 
+inter-cloud computing. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications, and storage 
+equipment. 
+3.1.2 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.3 cloud service agreement [b-iso/iec 19086-1]: documented agreement between the cloud service 
+provider and cloud service customer that governs the covered service(s). 
+note – a cloud service agreement can consist of one or more parts recorded in one or more documents. 
+3.1.4 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements. 

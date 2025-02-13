@@ -1,0 +1,27 @@
+1 framework and requirements for cloud computing  
+ 
+158  
+table i.4 – a general use case of cloud service customization 
+figure 
+ 
+pre-conditions 
+(optional) 
+the csp has an account for accessing csb workspace. 
+there are existing services registered in the product catalogue. 
+the csc has an account for accessing csb workspace. 
+the csc could not find a satisfied service from the product catalogue.  
+post-conditions 
+(optional) 
+the csc selects a customized service to utilize. 
+the csn: cloud service broker and csc establish an sla for using the c ustomized service. 
+the csc accesses to the customized service and performs necessary operations. 
+derived 
+requirements 
+– providing cloud service requirement template (see clause 7.2) 
+– cloud service requirement validation (see clause 7.2) 
+– cloud service search (see clause 7.2) 
+– registration of cloud service (see clause 7.2) 
+– cloud service alteration (see clause 7.2) 
+ 
+ 
+

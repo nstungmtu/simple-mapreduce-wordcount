@@ -1,0 +1,28 @@
+1 framework and requirements for cloud computing  
+ 
+66  
+8.3.1.7 csp:cloud service security and risk manager 
+the csp:cloud service security and risk manager is a sub-role of cloud service provider  which has the 
+responsibility of ensuring that the cloud service provider  appropriately manages the risks associated with 
+the development, delivery, use and sup port of cloud services. this includes ensuring that the information 
+security policies of the cloud service customer  and the cloud service provider  are aligned and meet the 
+security requirements stated in the sla. 
+the csp:cloud service security and risk manager's cloud computing activities include: 
+• manage security and risks (clause 8.3.2.17); 
+• design and implement service continuity (clause 8.3.2.18); 
+• ensure compliance (clause 8.3.2.19). 
+8.3.1.8 csp:network provider 
+the csp:network provider is a sub-role of cloud service provider which is to provide network connectivity 
+and network services for the cloud service customer, cloud service partner and cloud service provider. the 
+csp:network provider may provide network connectiv ity between systems within the cloud service 
+provider's data centre, or provide network connectivity between the cloud service provider's systems and 
+systems outside the provider's data centre, for example, cloud service customer  systems or systems 
+belonging to other cloud service providers. 
+the csp:network provider's cloud computing activities include: 
+• provide network connectivity (clause 8.3.2.20); 
+• deliver network services (clause 8.3.2.21); 
+• provide network management services (clause 8.3.2.22). 
+the csp:network provider can also choose to offer dynamic control of network connectivity as an naas. 
+8.3.2 cloud computing activities 
+the cloud computing activities  which relate to the sub-roles of cloud service provider  are shown in 
+figure 8-4. 

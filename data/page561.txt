@@ -1,0 +1,48 @@
+xaas 3 
+ 
+  553 
+based on application streaming and virtualization technologies, cscs can access the virtual desktop 
+environment through cloud infrastructure.  
+a few technologies can be used for providing services of the daas like virtual desktop infrastructure (vdi) 
+and web-based solutions with various delivery protocols such as  the virtual desktop delivery protoco l and 
+the web-based delivery protocol shown in figure 6-2. 
+...
+y .3503(14)_f6-2
+access layer
+services layer
+resource layer
+virtual desktop
+delivery protocol
+user layer
+web-based
+delivery protocol
+daas client daas client
+ 
+figure 6-2 – daas delivery solutions 
+vdi supports the users' virtual desktop and recreates it in an environme nt hosted on a remote system. 
+a virtual desktop is exe cuted for each user from the server side. users access this environment remotely 
+through daas clients, with all virtual desktop associated processing. a v irtual desktop delivery protocol is 
+used to deliver the virtual desktop.  
+in the web-based daas solution, a web-based server invokes application services from different servers and 
+aggregates them to build a virtual desktop service. the web -based daas solu tion relies on cloud services 
+provided through the use of web oriented technologies, i.e., based on the hypertext transfer protocol (http), 
+hypertext markup language (html) and the new features supported by html5 [b-w3c-html5].  
+6.1 main advantages of daas  
+the main advantages of daas [b-itu-t fgcc1] are: 
+• enhanced management and security : since all deskt op applications actually run in a csp server, 
+they are more secure than if they were installed on each user's daas client since the csp can focus 
+more on security aspects. 
+• lower total cost of ownership : by placing emphasis on the data centre rather than on individual 
+user devices, daas promotes longer hardware life. organizations or enterprises seeking to avoid 
+additional costs can switch part of their information and communication technology infrastructure 
+from capital expenditure to operating expenditur e, as they now pay for virtual desktops. also, 
+decoupling the desktop operating system from the hardware permits the use of cost-effective user's 
+devices. 
+• preservation of user experience : daas allows for a rich user experience by enabling the possible 
+choice among multiple operating systems and their customization. conversely, shared service 
+environments offer a user experience that may compromise between application compatibility and 
+user customization. 
+• separation of csp and csc responsibilities: daas allows separation between the responsibilities of 
+the csp and the csc. the csp is responsible for the infrastructure of virtual desktops delivery 
+(i.e., servers, storage, virtualization software, etc.), while the virtual desktops (e.g., operating 
+system (os), application packaging, user profiles, etc.) is under the csc responsibility. 

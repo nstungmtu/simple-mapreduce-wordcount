@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   23 
+3 definitions 
+3.1 terms defined elsewhere  
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 big data [itu-t y.3600]: a paradigm for enabling the collection, storage, management, analysis and 
+visualization, potentially under real -time constraints, of extensive datasets with heterogeneous 
+characteristics. 
+note – examples of datasets characteristics include high-volume, high-velocity, high-variety, etc. 
+3.1.2 big data as a service (bdaas)  [itu-t y.3600]: a cloud service category in which the capabilities 
+provided to the cloud service customer are the ability t o collect, store, analyse, visualize and manage data 
+using big data. 
+3.1.3 cloud computing [itu-t y.3500]: paradigm for enabling network access to a scalable and elastic pool 
+of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications, and storage 
+equipment.  
+3.1.4 cloud service [itu-t y.3500]: one or more capabilities offered via cloud computing invoked using a 
+defined interface. 
+3.1.5 cloud service category [itu-t y.3500]: group of cloud services that possess some common set of 
+qualities. 
+3.1.6 cloud service customer [itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements.  
+3.1.7 cloud service partner [itu-t y.3500]: party which is engaged in support of, or auxiliary to, activities 
+of either the cloud service provider or the cloud service customer, or both. 
+3.1.8 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.9 cloud service user [itu-t y.3500]: natural person, or entity acting on their behalf, associated with a 
+cloud service customer that uses cloud services. 
+note – examples of such entities include devices and applications. 
+3.1.10 communications as a service (caas) [itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer is real time interaction and collaboration. 
+note – caas can provide both application capabilities type and platform capabilities type. 
+3.1.11 desktop as a service (daas)  [itu-t y.3503] : a cloud service category in which the capabilities 
+provided to the cloud service customer are the ability to build, configure, manage, store, execute and deliver 
+users' desktop functions remotely. 
+3.1.12 hypervisor [itu-t y.3510]: a type of system software  that allows multiple operating systems to 
+share a single hardware host. 
+note – each operating system appears to have the host's processor, memory and other resources, all to itself.   
+3.1.13 infrastructure as a ser vice (iaas)  [itu-t y.3500]: cloud service category in which the cloud 
+capabilities type provided to the cloud service customer is an infrastructure capabilities type. 
+note – the cloud service customer does not manage or control the underlying physical and virtual resources, but does 
+have control over operating systems, storage, and deployed applications that use the physical and virtual resources. 
+the cloud service customer may also have limited ability to control certain networking components (e.g., host firewalls). 
+3.1.14 infrastructure capabilities type  [itu-t y.3500]: cloud capabilities type in which the cloud service 
+customer can provision and use processing, storage or networking resources. 

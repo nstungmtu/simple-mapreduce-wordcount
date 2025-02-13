@@ -1,0 +1,45 @@
+xaas 3 
+ 
+  637 
+service offerings) or distributed (e.g., achieved through consecutive sla establishments)  approaches. sla 
+specifications in cross-service scenarios should either include the common terms (limiting however end -to-
+end quality provision to these terms) or be implemented through links between slas (e.g., one sla for each 
+service with enriched specific ation to include links to the slas of other services), as a protocol to enable 
+interaction between different layers and entities. 
+slas identify, in a clear and precise way, the responsibilities and obligations of all involved entities, as well as 
+their boundaries and limits. 
+naas can be used to support other cloud service csp's network related activities (e.g., provide network 
+connectivity, deliver network services and provide network management services), where a logically isolated 
+csc cloud in the csp's d ata centre allows a csc to provision a private, isolated partition of the cloud where 
+the csc can use cloud capabilities in a virtual network, often using csc-defined ip address ranges. a csc cloud 
+can have multiple subnets in a data centre. network connec tivity between the remote csc and csc cloud, 
+for example, may include the following: 
+• ipsec vpn connection over public internet (csp edge vpn gateway – csc premises vpn gateway); 
+• dedicated network connection over private lines (csp edge vpn gateway – customer premises 
+equipment (cpe)); 
+• ipsec vpn connection over private lines (csp edge vpn gateway – csc premises vpn gateway); 
+• vpn connection with a software appliance over public internet (software vpn appliance – csp edge 
+internet gateway - csc premises vpn gateway, where internet gateway only routes vpn connection 
+over public internet); 
+• multi-protocol label switching (mpls) vpn connections. 
+cloud services needs interconnecting multiple csc clouds into a contiguous virtual network as well as to meet 
+this requirement naas may provide followings: 
+• software vpn appliance based connections between csc clouds for intra-cloud and inter-cloud 
+(software vpn appliance at csc cloud-1 – internet gateway – internet gateway – software vpn 
+appliance at csc cloud-2, where internet gateway only routes vpn connection, over public 
+internet for inter-cloud case); 
+• software vpn appliance to physical vpn connection between csc clouds (vpn gateway at csc cloud-
+1 – internet gateway – software vpn appliance at csc cloud-2, where internet gateway only routes 
+vpn connection); 
+• csc managed csc cloud -to-csc cloud routing over physical ipsec vpn connections using csc 
+equipment and public internet or private lines (vpn gateway at csc cloud-1 – csc equipment – vpn 
+gateway at csc cloud-2). 
+ 
+bibliography 
+ 
+[b-ietf rfc 4364] ietf rfc 4364 (2006), bgp/mpls ip virtual private networks (vpns). 
+[b-ec sla]  european commission directorate general communications networks, content 
+and technology unit e2 – software and services, cloud, (brussels, june 2013), 
+cloud computing service level agreements – exploitation of research results. 
+ 
+ 

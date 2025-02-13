@@ -1,0 +1,43 @@
+xaas 3 
+ 
+    647 
+7.1.9 vm reservation 
+– it is recommended that iaas csp provides processing resources reservation (such as cpu, memory) 
+functions. resource s reservation is used to reserve available resources from iaas infrastructure 
+before vm is initiated. 
+7.1.10 vm image 
+– it is recommended that iaas csp offers the ability for the csc to provide and use virtual machine 
+images. vm image consists of infrastructure configuration and csp data, csc data or both.  
+ note – vm image allows to start a new instance of vm. 
+– it is recommended that iaas csp supports different machine image format. 
+– it is required that iaas csp provides operati on handling mechanisms related to  image，including, 
+but not limited to, add, import, store, register, deregister, query, update, delete and export. 
+7.1.11 vm template 
+– it is recommended that iaas csp support s open virtualization format (ovf) template, whic h is a 
+packaging standard designed to address the portability and deployment of virtual appliances. 
+– it is recommended that iaas csp provides operations handling mechanisms related to machine 
+templates, such as upload, update, disable, enable, query and delete to the csc. 
+7.2  storage service functional requirements 
+– it is recommended that iaas csp provides storage functions, such as block  level storage, file level 
+storage and object-based storage, with specific slas and charg ing model to the csc. the sto rage 
+functions can be provided to the csc directly or used by the virtual machine as attached storage. 
+– it is recommended that iaas csp provides the csc with operations handling mechanisms related to 
+storage, such as create, attach, detach, query and dele te a volume of storage at either block level 
+or file-system level, write, read and delete data for a given storage. 
+– it is recommended that iaas csp provides storage utilisation information in response to queries from 
+the csc. 
+7.2.1 storage migration 
+– it is recommended that iaas csp provides storage migration functions. based on migration policies, 
+data can be migrated between different logical unit numbers (luns), different storage devices, local 
+storage to shared storage and vice versa. 
+7.2.2 storage snapshot 
+– it is recommended that iaas csp provides storage with snapshot functions. snapshot can be realized 
+at either block or file-system levels. the data can be restored using the snapshot.  
+7.2.3 storage backup 
+– it is recommended that iaas csp provides storage with backup functions. backup can be realized at 
+block level, file level or object-based storage.  
+7.2.4 i/o performance 
+– it is recommended that iaas csp provides input/output (i/o) limitation for each vm.  
+7.2.5  storage resource reservation 
+– it is recommended that iaas csp provides storage resource (e.g., storage space and lun) reservation 
+functions.  

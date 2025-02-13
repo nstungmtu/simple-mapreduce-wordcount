@@ -1,0 +1,26 @@
+ framework and requirements for cloud computing 1 
+ 
+   267 
+the resources abstraction and control requirements include: 
+• it is recommended that abstracted resources can be accessed and provisioned in a unified manner. 
+• it is recommended that abstracted resources are discovered, used and released through unified 
+interfaces. 
+• it is recommended that abstracted resources are deployed and provisioned based on pre -defined 
+policies. 
+• it is required to provide life -cycle management of resource templates (e.g., resource template 
+creation, publication, activation, revocation and deletion). 
+• a resource template can optionally be applied to a group of resources at the same time. 
+• it is required to support monitoring of all physical and virtual resources. 
+• it is recommended that resource monitoring is capable of detecting the failures of resources. 
+11 support of emergency telecommunications 
+under emergency telecommunications (et) [b -itu-t y.2205], any emergency -related service is understood 
+as requiring special handling relative to other services. 
+if any component in the cloud infrastructure is used to support an emergency telecommunications service 
+(ets), the requirements in [b-itu-t y.1271] are relevant. 
+12 security considerations 
+it is recommended that the security requirements of [b-itu-t y.2201], [b-itu-t y.2701] and the applicable x, 
+y and m series of itu-t security recommendations be taken into consideration; this includes access control, 
+authentication, data confidentiality, communications security, data integrity, availability and privacy. 
+security aspects for consideration within cloud computing environment are addressed by security challenges 
+for csps, as described in [itu-t x.1601]. in particular, [itu-t x.1601] analyses security threats and challenges 
+and describes security capabilities that could mitigate these threats and meet security challenges. 

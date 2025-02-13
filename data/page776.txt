@@ -1,0 +1,24 @@
+4 video processing and storage  
+ 
+768  
+7.4.5 operation management requirements 
+– man-08: a vscc platform is required to monitor, record and display the running status of the 
+system. 
+– man-09: a vscc platform is requi red to monitor, record and display usage of cloud computing 
+cluster resources. 
+7.5 scalability requirements 
+– sca-01: a vscc platform is required to provide computing resource scalability. when computing 
+equipment is increased or decreased in the system, the computing capacity of the vscc platform is 
+increased or decreased accordingly, and the system service is uninterrupted. 
+– sca-02: a vscc platform is required to provide computing resources scalability for users. the 
+computing resources of individual use rs can be increased or decreased according to each user's 
+demand. 
+– sca-03: a vscc platform is required to provide user scalability. the number of supported users can 
+be increased or decreased dynamically. 
+7.6 reliability requirements 
+– rel-01: a vscc platform is required to ensure service reliability. when computing equipment fails 
+or the system network operation is abnormal, the system service can be used normally. 
+7.7 performance requirements 
+– per-01: a vscc platform is required to support concurrent user operations. the system can serve a 
+large number of users simultaneously, while ensuring service quality. 
+  

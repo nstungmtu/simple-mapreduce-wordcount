@@ -1,0 +1,49 @@
+5 intercloud and interoperability  
+ 
+830  
+the inter -cloud functions identified in clause 7 are mapped to functional component s in [itu -t y.3502]. 
+no new functional components are defined. however, functions of some functional c omponents are 
+extended for inter-cloud as follows. 
+– business support systems 
+• service subscription management functional component is extended with service subscription 
+management function for inter-cloud as described in clause 7.1.1. 
+• billing functional component is extended with billing function for inter -cloud as described in 
+clause 7.1.2. 
+– operational support systems 
+• service catalogue functional component is extended with service catalogue function for inter -
+cloud as described in clause 7.2.1. 
+• provisioning functional component is extended with service provisioning function for inter -
+cloud as described in clause 7.2.2. 
+• monitoring and reporting functional component is extended with monitoring and reporting 
+function for inter-cloud as described in clause 7.2.3. 
+• service policy management functional component is extended with service policy management 
+function for inter-cloud as described in clause 7.2.4. 
+• service automation functional component is extended with service automation function for 
+inter-cloud as described in clause 7.2.5. 
+• service level management functional component is extended with service level management 
+function for inter-cloud as described in clause 7.2.6. 
+• incident and problem management functional component is extended with incident and 
+problem management function for inter-cloud as described in clause 7.2.7. 
+• peer service management functional components is extended with peer service management 
+function for inter-cloud as described in clause 7.2.8. 
+– peer service integration 
+• peer service integration functional component is extended with peer csp management function 
+as described in clause 7.3.1. 
+• peer service integration functional component is extended with inter-cloud service negotiation 
+as described in clause 7.3.2. 
+• peer service integration functional component is extended with inter -cloud service discovery 
+function as described in clause 7.3.3. 
+• peer service integration functional component is extended with inter -cloud service selection 
+function as described in clause 7.3.4. 
+• peer service integration functional component is extended with inter-cloud service reservation 
+function as described in clause 7.3.5. 
+• peer service integration functional component is extended with inter -cloud service  release 
+function as described in clause 7.3.6. 
+• peer service integration functional component is extended with inter -cloud capabilities 
+adaptation function as described in clause 7.3.7. 
+– security systems 
+• authentication and identity management function al component is extended with 
+authentication and identity management function for inter-cloud as described in clause7.4.1. 
+• authorization and security policy management functional component is extended with 
+authorization and security policy management function for int er-cloud as described in 
+clause 7.4.2. 

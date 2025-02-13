@@ -1,0 +1,31 @@
+7 security  
+ 
+996 
+ 
+figure 7-1 – use cases of two types of monitoring data 
+necessary monitoring data is mainly used by csps, but could also be used by cscs. for example, monitoring 
+data of cloud physical resources is mainly used by csps to maintain the stability of the cloud platform, but 
+could also be used by cscs if the cloud -related physical resources were provide d to the customers as a 
+service. 
+optional monitoring data is provided as the request of cscs and also mainly used by cscs. csps could also 
+use optional monitoring data to maintain slas. for example, cscs could require the cscs' data associated 
+with the monitoring of their own applications in the cloud. this data is provided by csp, and used to better 
+manage their applications in the cloud. for example, a csp could use database as a service (dbaas) 
+monitoring data to maintain the security and stability of database resources and service in cloud. 
+the relationship of these two types of monitoring data is illustrated in figure 7-1. 
+8 monitoring data lifecycle in cloud computing 
+this clause describes the lifecycle of monitoring data in cloud computing and clarifies the main differences 
+between it and lifecycle of other data in cloud computing. 
+8.1 monitoring data collection 
+monitoring data collection results from the acquisition of monitoring data and the transmission of that data 
+to a storage server. most monitoring data is created by the use of the cloud service by the csc. necessary 
+monitoring data can also be created by other cloud service monitoring activities. 
+8.2 monitoring data storage 
+after creating a monitoring data collection, cloud monitoring data can be stored in the csc cloud resources 
+locally, or in monitoring data storage servers of the csp. 
+8.3 monitoring data use 
+monitoring data can be used to maintain the performance and security of the cloud platform and the cloud 
+service by the csp; it can also be used to maintain cloud resources performance and security by cscs. 
+8.4 monitoring data migration 
+when cloud resources are migrated, monitoring data can migrate along with the cloud resources. 
+

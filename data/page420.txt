@@ -1,0 +1,57 @@
+1 framework and requirements for cloud computing  
+ 
+412  
+• dsp0270: the "redfish host interface specification" document specifies the functional 
+requirements for redfish host interfaces. the term "host interface" refers to interfaces that can be 
+used by software running on a computer system to access the redfish service that is used to manage 
+that computer system. 
+ uri: http://www.dmtf.org/sites/default/files/standards/documents/dsp0270_1.0.0.pdf 
+• dsp8009: the "cimi xml schema" contains the xml schema for representing cimi interface. 
+(dsp0263). 
+ uri: http://schemas.dmtf.org/ovf/envelope/2/dsp8009_1.0.2.xsd 
+• dsp8010: the "redfish schema' document contain the schema definitions for managing compute 
+platforms. the schema are provided in two formats: json-schema format and odata csdl (common 
+schema description language) format. 
+ uri: http://www.dmtf.org/sites/default/files/standards/documents/dsp8010_2016.3.zip 
+• dsp8023: the "open virtualization format xsd" co ntains the xml schema for representing dmtf 
+ovf files (dsp0243). 
+ uri: http://schemas.dmtf.org/ovf/envelope/2/dsp8023_2.0.0.xsd 
+table 16-2 provides an analysis of dmtf deliverables. 
+table 16-2 – analysis of dmtf deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security     dsp0262  
+management    dsp0217, 
+dsp0263, 
+dsp0264, 
+dsp0266, 
+dsp0270 
+dsp8009, 
+dsp8010, 
+dsp8023 
+ 
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+17 tm forum 
+table 17-1 lists a tm forum deliverable associated with cloud computing. 
+table 17-1 – tm forum deliverables 
+title of deliverable current status starting date target 
+date 
+tmf061 release 1.0, service delivery framework (sdf) 
+reference architecture, release 1.0 
+published  07/2009 

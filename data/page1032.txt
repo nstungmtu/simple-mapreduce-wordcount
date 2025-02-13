@@ -1,0 +1,47 @@
+7 security  
+ 
+1024 
+the specific requirements of the security clause of sla  could be negotiated by csps and cscs based on the 
+customized requirements of cscs and their control ability over the resources. for csps, disclaimer items 
+should be stated clearly in a business contract or a product description to avoid unnecessary disput e or 
+security risk, so that csps will not be held responsible in case of force majeure. 
+7.2.2 elements of the security clause of sla 
+the security clauses of sla include but are not limited to the following elements. 
+7.2.2.1 business continuity 
+csps should deploy adequate protection in case of a man -made or natural disaster to ensure service 
+availability and business continuity. the detailed items or requirements are shown below: 
+1) service availability 
+ the percentage of time at which the service is usable in a given period of time. for a given cloud 
+service, the terms of its service ability should not be lower than the traditional information and 
+communication technology (ict) service generally. 
+2) average recovery time 
+ the time to recover the lost data or resume the service from a fault occurrence or other disasters. 
+7.2.2.2 data security protection 
+csps should have a comprehensive protection program to protect the csc's data and other privacy 
+information, and csps and cscs should reach an agreement on the detailed mechanisms and requirements. 
+1) storage physical security 
+ csps should implement measures to ensure storage physical security, such as entrance guard, fire 
+protection system, backup power supply system, etc. 
+2) data storage medium protection 
+ csps should deploy protection measures such as device reinforcing, patch upgrading and so on, to 
+enhance the security of data storage medium. 
+3) data encryption 
+ it should be stated which data is being encrypted in the process of storage or transmission, and the 
+details of the encryption algorithms. 
+4) data access control 
+ the access control measure of data should be specified to prevent illegal access. 
+5) data isolation 
+ it should be noted that the data of different cscs are isolated logically or physically. 
+6) data deletion 
+ it includes the assurance of data deletion. it should be assured that the data be deleted permanently 
+before the resources could be allocated to other cscs. 
+7) data backup 
+ it includes the terms of recovery point objective (rpo) and recovery time objective (rto), retention 
+policy, combination of on-site backup and off-site backup, etc. 
+8) data operation audit 
+ csps should audit the operation of cscs' data and be able to detect abnormal operations; the 
+auditor should be certified to be qualified for auditing. 
+9) data compliance 
+ data collection, transfer, handling, storage and destruction should comply with the applicable 
+regulations and laws in the csc's governing jurisdiction. similarly, the requirement of data retention 
+should also comply with the allowed retention time of different jurisdictional restrictions. 

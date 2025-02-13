@@ -1,0 +1,12 @@
+1 framework and requirements for cloud computing  
+ 
+256  
+summary 
+recommendation itu-t y.3510 provides requirements for cloud computing infrastructure; these include the 
+essential capabilities for processing, storage and networking resources, as well as the capabilities of resource 
+abstraction and control. 
+keywords 
+capability, cloud computing, control, infrastructure, networking, processing, resource abstraction, storage. 
+ 
+ 
+  

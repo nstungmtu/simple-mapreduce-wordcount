@@ -1,0 +1,46 @@
+cloud computing management 2 
+ 
+  507 
+i.4 composite applications or mash-ups use case 
+ 
+title composite applications or mash-ups use case 
+description csp1 builds cloud service c1 as composite apps, or mash-ups from service1 delivered by csp1 
+and sevice2 delivered by csp2. 
+roles csp 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+– service1 delivered by csp1. 
+– service2 delivered by csp2. 
+post-conditions 
+(optional) 
+– a composite service c1 is built from service1 and service2. 
+derived 
+requirements 
+– composite applications or mash-ups (refer to clause 7.5) 
+i.5 traditional business processes use case 
+ 
+title traditional business processes use case 
+description csp1 builds a composite service c1 from service1 delivered by csp1 and sevice2 delivered by 
+csp2. csp1 can provide functions to support the application of traditional business proces ses 
+associated with administration, provisioning/configuration, service assurance and charging 
+/billing/settlement for service c1. 
+roles csp 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+– csp1 builds a composite service c1 from service1 delivered by csp1 and sevice2 delivered 
+by csp2. 
+post-conditions 
+(optional) 
+– csp1 can provide functions to support the application of traditional business processes 
+associated with administration, provisioning/configuration, service assurance and charging 
+/billing/settlement for service c1. 
+derived 
+requirements 
+– traditional business processes (refer to clause 7.6) 
+ 
+  
+

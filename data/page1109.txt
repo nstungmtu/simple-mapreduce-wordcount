@@ -1,0 +1,47 @@
+ assisting developing countries 8 
+ 
+   1101 
+8.1.2 interoperability and portability 
+cloud computing offers a diverse range of products and services such as iaas, daas and saas as well as varied 
+range of platforms on which these products and services are delivered and accessed. in order for these 
+applications and services to work in tandem, there will be need for a prescribed set of rules that will ensure 
+the synergistic application of these services and to also prevent vendor lock -in. interoperability and 
+portability standards will ensure that customers make the best use of the various cloud computing services 
+and platforms that are available and that these products and services are able to cooperate and inter-work. 
+8.1.3 service level agreements (sla) 
+most cscs have signed service level agreements with their cloud service providers. the following are some 
+of the benchmarks of the cloud computing applied in slas. 
+• security and privacy of data 
+• data ownership 
+• accountability 
+• flexibility 
+• cost 
+• performance 
+• confidentiality 
+• usability 
+• support 
+• service availability 
+• quality of service 
+• contract management  
+• provisioning time 
+• dispute process  
+• applicable law 
+the multiple aspects of slas exemplify the need to have them standardized and this has also been generally 
+expressed by most cscs and csps. the relevant aspects that need to be standardised in slas include quality 
+of service (qos), data security and privacy, confidentiality and service availability. 
+8.1.4 green standards 
+there is a global paradigm shift towards enabling environmental sustainability in all sectors of the economy. 
+this is being achieved throug h a number of initiatives and technological innovations and advancements. 
+cloud computing is one such innovation that is envisaged to contribute significantly towards achieving 
+environmental sustainability through resource pooling. however, the increasing demand for cloud services 
+has drastically increased the energy consumption of data centres, subsequently challenging the energy 
+efficiency of these data centres. 
+many strides are being made to ensure that the deployment of cloud computing infrastructure such as data 
+centres does not negate the benefits of the cloud computing technology and exacerbate the negative impact 
+of cloud services on the environment. itu has developed a number of recommendations that will support 
+energy optimization in data centres. these include: 
+• [itu-t l.1300] which describes best practices aimed at reducing the negative impact of data centres 
+on the climate. the application of the best practices defined in this recommendation can help 
+owners and managers to build future data cent res, or improve existing ones, and to operate in an 
+environmentally responsible manner. such considerations will strongly contribute to a reduction of 
+the impact of the information and communication technology (ict) sector on climate change. 

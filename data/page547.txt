@@ -1,0 +1,30 @@
+cloud computing management 2 
+ 
+  539 
+table i.5 – secure data management of the saas data partition model in inter-cloud 
+figure (optional) 
+ 
+pre-conditions (optional) the csps (saas) form an inter-cloud federation pattern. 
+post-conditions 
+(optional) 
+ 
+derived requirements merging technologies for encrypted data (see clause 9.4) 
+integrated key management (see clause 9.4) 
+i.6 use case of data policy language 
+this use case illustrates inter-cloud data annotation, processing and usage aspects between csc and csp or 
+between csps. the inter-cloud federation pattern used to illustrate the use case is an example only. 
+table i.6 – data policy language 
+title data policy language 
+description a csp (naas) offers access to internet (service) over virtual home gateway (vhgw) 
+facilities using network functions virtualization (nfv) and software-defined networking 
+(sdn) technologies. the csp (naas) forms an inter-cloud federation pattern with a 
+group of peer csps [here csps (paas) and csp (saas)] to optimize its own resources and 
+leverage area of service availability. the csp (naas) uses a data policy language to 
+annotate, process and use vhgw data in the inter-cloud environment. 
+the csp (naas) monitors service (here access to internet) to ensure that particular key 
+performance indicators (kpis) are respected (e.g., energy efficiency, resource 
+optimization, performance). in the case of a given kpi cross threshold, the service (here 
+access to internet) is automatically reallocated among members of the federation that 
+respect data policy determined by the csp (naas). 
+roles csc, csp (naas), csp (paas), csp (saas) 
+

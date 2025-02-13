@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+72  
+8.3.2.18 design and implement service continuity 
+the design and implement service continuity activity involves: 
+• considering potential modes of failure of a cloud service  and the supporting infrastructure and 
+putting in place recovery processes that will enable the cloud service to be available within the 
+terms of the sla, through techniques such as failover and redundancy. 
+8.3.2.19 ensure compliance 
+the ensure compliance activity focuses on implementing regulatory and standards compliance. this activity 
+involves: 
+• ensuring that the implementation of the cloud service and its supporting infrastructure meets the 
+requirements of any standards that need to be supported, for example, the standards can be 
+required by the target customer set, or can be required by the certification scheme that the provider 
+has chosen to assure the service; 
+• ensuring that the implementation of the cloud service and its supporting infrastructure (including 
+data handling) meets any regulatory requirements that can exist for the service or for the data that 
+is stored or processed by the service. 
+8.3.2.20 provide network connectivity 
+the provide network connectivity activity involves the setting up of requested network connections and 
+related capabilities, including (amongst others) connections between the cloud service customer  and the 
+cloud service provider's system and between one cloud service provider's system and another cloud service 
+provider's system. this can include the establishment of facilities such as a vpn or of dedicated bandwidth 
+connections. 
+network capabilities include the ability to provide appropriate bou nded delay, jitter, bandwidth, quality of 
+service and reliability for all cloud service categories and for both cloud and non-cloud purposes in the case 
+of naas. 
+8.3.2.21 deliver network services 
+the deliver network services activity involves the provision of network related services such as firewalls or 
+load balancing. 
+8.3.2.22 provide network management services 
+the provide network management services activity focuses on managing the network infrastructure used to 
+carry cloud servic es. this activity provides methods, tools and procedures allowing the operation, 
+administration, maintenance and provisioning of the cloud network infrastructure. it includes tasks for: 
+• keeping the network up and running smoothly; 
+• keeping track of resources in the network and how they are allocated; 
+• performing repairs and upgrades, for example, when equipment must be replaced or upgraded with 
+new functions; 
+• configuring resources in the network to support a cloud service. 
+8.4 cloud service partner 
+8.4.1 role 
+a cloud service partner (csn) is a party which is engaged in support of, or auxiliary to, activities of either the 
+cloud service provider or the cloud service customer, or both. 
+a cloud service partner's cloud computing activities  vary depending on the type of partner and their 
+relationship with the cloud service provider and the cloud service customer. 

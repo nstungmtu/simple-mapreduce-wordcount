@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   409 
+• iso/iec tr 23186: this document describes a framework of trust for the processing of multi-sourced 
+data that includes data use obligations and controls, data provenance, chain of custody, security 
+and immutable proof of compliance as elements of the framework. 
+ uri: https://www.iso.org/standard/74844.html  
+• iso/iec tr 23187 : this document provides an overview and discussion of interactions between 
+cloud service partners (csns), specifically cloud service brokers, cloud service developers and cloud 
+service auditors, and other cloud service entities. in addition, the document describes how cloud 
+service agreements (csas) and cloud service level agreements (slas) should be used to address 
+those interactions including the following: 
+– define terms and concepts and provide an overview for interactions between cloud service 
+partners (csns) and cloud service customers (cscs) and cloud service providers (csps);  
+– description of types of csn interactions; 
+– description of interactions between csns and cscs; 
+– description of interactions between csns and csps; 
+– elements of csas and cloud slas for csn interactions, both with csps and with cscs. 
+ uri: https://www.iso.org/standard/74845.html  
+• iso/iec tr 23188: the scope of this technical report is to investigate and report on the concept of 
+edge computing, its relationship to cloud computing and iot, and the technologies that are key to 
+the implementation of edge computing. this report will explore the following topics with respect to 
+edge computing:  
+– concept of edge computing systems; 
+– architectural foundation of edge computing; 
+– edge computing terminology; 
+– software classifications in edge computing – for example: firmware, services, applications;  
+– supporting technologies such as containers, serverless, microservices; 
+– networking for edge systems, including virtual networks; 
+– data – data flow, data storage, data processing in edge computing; 
+– management – of software, of data and of networks, resources, quality of service; 
+– virtual placement of software and data, and metadata; 
+– security and privacy; 
+– real time; 
+– mobile edge computing, mobile devices. 
+ uri: https://www.iso.org/standard/74846.html  
+• iso/iec tr 23167: this document describes a series of technologies and techniques commonly used 
+to build applications and systems using cloud computing. these include: 
+– virtual machines (vms) and hypervisors; 
+– containers and container management systems; 
+– "serverless" computing; 
+– microservices architecture and automation; 
+– platform as a service systems and their architecture; 
+– storage services; 
+– security, scalability and networking as applied to the above cloud computing technologies. 
+ uri: https://www.iso.org/standard/74845.html  

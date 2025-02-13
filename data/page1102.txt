@@ -1,0 +1,47 @@
+8 assisting developing countries  
+ 
+1094  
+6.2 deployment models 
+according to [itu -t y.3500], the cloud economy consists of various cloud service deployment models and 
+service categorises. the cloud computing deployment models are described in the table 6-1. 
+table 6-1 – cloud computing deployment models 
+model description 
+private cloud proprietary resources provided for a single organization (for example, a government or 
+large enterprise), managed and hosted internally or by a third-party. 
+public cloud open resources that offer services over a network that is open for public use. many mass 
+market services widely used by individuals, such as webmail, online storage and social 
+media are public cloud services. 
+hybrid cloud a mix of the deployment models for example, public and private cloud provis ion. 
+community cloud resources/services provided for and shared by defined cscs who have similar 
+requirements and a relationship with one another. this is managed and hosted internally 
+or by a third-party or a combination of both. 
+6.3 service categories 
+the representative services offered on the cloud platform are described below [itu-t y.3500]. as the sector 
+evolves, other services will soon be offered on this platform. 
+table 6-2 – cloud platform service categories 
+service category description 
+communicate as a service audio/video communication services, collaborative services, unified 
+communications, e-mail, instant messaging, data. 
+compute as a service (compaas)  cloud service category in which the capabilities provided to the cloud service 
+customer are the provision and use of processing resources needed to deploy 
+and run software. 
+data storage as a service (dsaas) cloud service category in which the capability provided to the cloud service 
+customer is the provision and use of data storage and related capabilities. 
+infrastructure as a service (naas)  virtualized on-demand server, virtualized data centre, flexible on-demand 
+storage space, flexible local area networks (lans), firewalls, security services, 
+etc. 
+network as a service (naas) platform for cloud computing service provision, virtualized network (customer 
+service management, billing, on-demand bandwidth etc.) 
+platform as a service (paas) applications built on top of cloud service provider's infrastructure. develope rs 
+can derive benefit from paas. 
+software as service (saas) business applications, customer relations and support (crm), hr, finance 
+(erp), online payments, electronic marketplace. 
+6.4 benefits of cloud computing 
+according to the report by [b -itu-d q3/1], "access to cloud computing: challenges and opportunities for 
+developing countries",  cloud computing adoption offers tangible benefits in terms of cost reduction, 
+flexibility, agility, scale, and innovation. 
+cloud technologies enable businesses and g overnments to consolidate their investments, their servers and 
+data centres to reduce their costs. for small and medium businesses (smbs), cloud computing is an 
+opportunity to get access, at a fraction of cost, to the latest technologies which were previou sly only 
+accessible to large enterprises, and without having to worry about technical infrastructure that is not core to 
+their business. this enables them to better compete with any other business on the globe. cloud computing 

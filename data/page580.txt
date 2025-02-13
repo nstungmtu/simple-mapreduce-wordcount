@@ -1,0 +1,29 @@
+3 xaas  
+ 
+572  
+bibliography 
+ 
+[b-itu-t h.264] recommendation itu-t h.264 (2014), advanced video coding for generic 
+audiovisual services. 
+[b-itu-t h.265] recommendation itu-t h.265 (2013), high efficiency video coding. 
+[b-itu-t y.2201] recommendation itu-t y.2201 (2009), requirements and capabilities for itu-t 
+ngn. 
+[b-itu-t y.2701] recommendation itu-t y.2701 (2007), security requirements for ngn release 1. 
+[b-itu-t fgcc1]  itu-t focus group on cloud computing technical report (2012), part 1: 
+introduction to the cloud ecosystem: definitions, taxonomies, use cases and high-
+level requirements. 
+[b-itu-t fgcc2]  itu-t focus group on cloud computing technical report (2012), part 2: 
+functional requirements and reference architecture. 
+[b-ietf rfc 768] ietf rfc 768 (1980), user datagram protocol. 
+[b-ietf rfc 793] ietf rfc 793 (1981), transmission control protocol. 
+[b-ietf rfc 6101] ietf rfc 6101 (1996), the secure sockets layer (ssl) protocol version 3.0. 
+[b-ietf rfc 6347] ietf rfc 6347 (2012), datagram transport layer security version 1.2. 
+[b-dmtf ovf] dmtf standard dsp0243 (2009), open virtualization format specification. 
+[b-w3c-html5] w3c, a vocabulary and associated apis for html and xhtml,  
+available at http://www.w3.org/tr/html5/. 
+[b-shneiderman] ben shneiderman (1984), "response time and display rate in human 
+performance with computers", acm computing survey, vol. 16, pp. 265-285. 
+[b-tolia]  niraj tolia, david g. andersen, and m. satyanarayanan (2006), "quantifying 
+interactive user experience on thin clients", computer, vol. 39, issue. 3, 
+pp. 46-52. 
+  

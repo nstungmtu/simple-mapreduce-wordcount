@@ -1,0 +1,43 @@
+framework and requirements for cloud computing 1 
+ 
+   113 
+3.2.2 dsf local storage: a physical storage to be integrated. 
+note – dsf local storage includes on -premises storage such as main memory, non -volatile memory express (nvme), 
+solid state disk, hard disk drive, serial attached small computer system interface (scsi), internet scsi storage and 
+network-attached storage, object-based storage device, intelligent storage device, etc. and cloud storage with different 
+management units such as block, object and file. 
+3.2.3 single virtual volume : a virt ual storage unit provided in forms of a block device, disk, or object 
+device. 
+note – customer of single virtual volume includes an end-user, server, operating system and application. 
+3.2.4 storage virtualization: an abstraction of storage resource to provide logical storage. 
+note – the abstraction includes consolidating the different type of storages into a virtual storage pool as well as dividing 
+a virtual storage pool into a single virtual volume.  
+3.2.5 virtual storage pool: a logical storage by integration of dsf local storage. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+ccra cloud computing reference architecture 
+crud create read update delete 
+csc cloud service customer 
+csp cloud service provider 
+csu cloud service user 
+dmp data manipulation provider 
+dsf data storage federation 
+ftp file transfer protocol 
+gui graphical user interface 
+iscsi internet small computer system interface 
+nfs network file system 
+nvme non-volatile memory express 
+pcie peripheral component interconnect express 
+scsi small computer system interface 
+sfp storage federation provider 
+sftp ssh file transfer protocol 
+smb server message block 
+ssd solid state disk 
+ssh secure shell 
+5 conventions 
+in this recommendation: 
+the keywords " is required to" indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this recommendation is to be claimed.  
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus, this requirement need not be present to claim conformance. 

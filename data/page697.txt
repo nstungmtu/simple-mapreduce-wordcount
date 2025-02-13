@@ -1,0 +1,36 @@
+xaas 3 
+ 
+     689 
+figure 8-7 shows the oss-nc functional components. 
+ 
+figure 8-7 – oss-nc functional components 
+8.3.5.1 nc application catalogue 
+the nc catalogue functional component provides a listing of all nc applicat ions supported by the oss -nc. 
+a nc catalogue can contain and/or reference all relevant technical information required to deploy, provision 
+and run a nc application. 
+8.3.5.2 nc application provisioning 
+the nc provisioning functional component provides the capabilities for provisioning nc applications, both in 
+terms of the provisioning of nc application implementations and of access endpoints and the workflow 
+required to ensure that elements are provisioned in the correct sequence. 
+8.3.5.3 nc automation 
+the nc automation functional component provides capabi lities for the delivery of network connectivity 
+applications and the orchestration of network connectivity across one or multiple naas csp connectivity 
+domains. this includes orchestrating the allocation, release, upgrade of network connectivity through th e 
+relevant naas csp connectivity domains. 
+8.3.5.4 nc monitoring and reporting 
+the nc monitoring and reporting functional component provides capabilities for: 
+– providing reports on the behaviour of the naas csp's nc applications, which can take the form of  
+alerts for behaviour which has a time -sensitive aspect (e.g., the occurrence of a fault on a given 
+established nc, the completion of a task), or it can take the form of aggregated forms of historical 
+data (e.g., nc usage data). 
+– storage and retrieval of nc related monitoring and event data as logging records. 
+there is a need to guarantee the availability, confidentiality and integrity of the logging records held by the 
+nc monitoring and reporting functional component. 
+8.3.5.5 nc policy management 
+the nc management f unctional component provides capabilities to define, store and retrieve policies that 
+apply to nc applications. policies can include technical and security policies that apply to nc applications and 
+their usage by users of these nc applications. 
+8.3.5.6 nc service level management 
+the nc service level management functional component provides capabilities for managing the service levels 
+of nc, aiming to ensure that the negotiated nc service level requirements are met. 
+

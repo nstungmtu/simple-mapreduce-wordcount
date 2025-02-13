@@ -1,0 +1,26 @@
+intercloud and interoperability 5 
+ 
+  829 
+7.4.2 authorization and security policy management 
+the authorization and security policy management function controls and applies authorization for peer csps 
+to access a specific inter-cloud service.  
+this function includes the following. 
+– authorization management. this allows for implementing of permissions and authorization for 
+particular peer csps and related inter-cloud services. 
+– federated authorization and security policy  management. this allows for providing of federated 
+authorization and security policy management between peer csps.  
+– trust management. this allows for encapsulating and verifying of the policies for trusted inter-cloud. 
+note – for more information about trusted inter-cloud please refer to [itu-t y.3514]. 
+7.4.3 encryption management 
+the encryption management function provides data encryption, api encryption, as well as network 
+connectivity encryption. 
+this function includes the following. 
+– data encryption. this allows for encrypting of data exchanged through inter-cloud services. 
+– api encryption. this allows for encrypting of inter-cloud service and management apis for peer csps. 
+– network connectivity encryption. this allows for utilizing of security keys to secure the network 
+connectivity between csps.  
+8 functional components of inter-cloud 
+figure 8-1 illustrates the mapping of inter-cloud functions and functional components. 
+ 
+figure 8-1 – mapping of inter-cloud functions and functional components 
+

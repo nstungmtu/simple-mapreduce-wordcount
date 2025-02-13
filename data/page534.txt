@@ -1,0 +1,11 @@
+2 cloud computing management  
+ 
+526  
+summary 
+recommendation itu-t y.3518 provides the overview of inter-cloud data management and its functional 
+requirements. it describes typical use cases and specifies functional requirements for three aspects, namely 
+inter-cloud data policy, inter-cloud data isolation and protection, as well as inter-cloud data management, 
+which are derived from the corresponding use cases. 
+keywords 
+inter-cloud; data management; inter-cloud data policy; inter-cloud data isolation and protection. 
+  

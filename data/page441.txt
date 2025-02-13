@@ -1,0 +1,14 @@
+cloud computing management 2 
+ 
+  433 
+ 
+figure 8-3 – split of oss/bss components according to management layers 
+9 common model for e2e cloud computing management 
+this clause describes a common management model, based on smis, for all layers of the cloud computing 
+reference architecture. this allows management of e2e cloud computing applications and solutions in a 
+multi-cloud computing environment, independently from the choice of technology, run-time, programming 
+language or tools made to develop the solutions. this common management model also shows the concept 
+of e2e cloud integrated telecommunications management. 
+ 
+figure 9-1 – common model for e2e cloud computing management 
+

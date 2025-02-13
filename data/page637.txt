@@ -1,0 +1,44 @@
+xaas 3 
+ 
+  629 
+existing vpn, there is a need to provision a new subnet in the csp's data centre and to set 
+up a new virtual routing and forwarding (vrf) in its edge router. the migration of the 
+corresponding subnet from the csc's data centre to the csp's data centre and the subnet 
+removal from the csc's data centre needs to be announced to the remaining edge routers. 
+the concrete procedure is shown in the following figure. 
+1. processing resources and the corresponding subnet migrate from the csc's data centre 
+to the csp's data centre. 
+2. new vrf is configured in the edge router of the csp's data centre. 
+3. the removal of the csc's subnet is announced through mp-bgp update to all vpn sites. 
+4. csp's new subnet is announced through mp-bgp update to all vpn sites. 
+service continuity needs to be ensured during the whole migration and reconfiguration 
+procedure. however, the existing vpn is a black box from the csc's perspective, and as 
+such it can't be provisioned and reconfigured by the csc. in addition, the current vpn 
+technology cannot support the dynamic addition and reduction of the vpn sites and 
+bandwidth capacity. 
+roles csc, csp 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– elastic network reconfiguration (refer to clause 9.5) 
+ii.4.2.3 naas connectivity use case for bod service 
+ 
+title naas connectivity use case for bod service 
+description in this scenario csu access to cloud computing service offered by xaas csp is considered 
+(e.g., virtual desktop infrastructure (vdi), video streaming). csu accesses the service from a 
+fixed location e.g., using a company local area network (lan) or from mobile location e.g., 
+mobile terminal. the xaas csp serves the services on the basis of own data centres and has 
+no impact on the performance of particular connectivity between end users and the data 
+centre where the service is hosted. from the perspective of csu, quality of experience 
+(qoe) of the service is dependent on a combination of data centre and network 
+performance. the xaas csp is able to guarantee certain service quality limited to its own 
+data centre. this quality could be downgraded on network performance on the connection 
+

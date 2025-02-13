@@ -1,0 +1,27 @@
+ framework and requirements for cloud computing 1 
+ 
+   61 
+8.2.1.3 csc:cloud service business manager 
+the csc:cloud service business manager is a sub-role of cloud service customer  which aims to meet the 
+business goals of the cloud service customer through the acquisition and use of cloud services in a cost 
+efficient way. the main responsibilities of the csc:cloud service business manager concern financial and legal 
+aspects of the use of cloud services, including approval, on-going ownership and accountability. 
+the csc:cloud service business manager's cloud computing activities include: 
+• perform business administration (clause 8.2.2.8);  
+• select and purchase service (clause 8.2.2.9); 
+• request audit report (clause 8.2.2.10). 
+8.2.1.4 csc:cloud service integrator 
+the csc:cloud service integrator is a sub-role of cloud service customer  which is responsible for the 
+integration of cloud services  with a cloud service customer 's existing ict systems, including application 
+function and data. 
+the csc:cloud service integrator's cloud computing activities include: 
+• connect ict systems to cloud services (clause 8.2.2.11). 
+8.2.2 cloud computing activities 
+the cloud computing activities  which relate to the sub-roles of cloud service customer  are shown in 
+figure 8-3. 
+ 
+figure 8-3 – cloud computing activities relating to cloud service customer sub-roles 
+8.2.2.1 use cloud service 
+the use cloud service activity involves using the services of a cloud service provider in order to accomplish 
+some tasks. 
+

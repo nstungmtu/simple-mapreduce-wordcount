@@ -1,0 +1,33 @@
+cloud computing management 2 
+ 
+  493 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+end-to-end cloud service lifecycle 
+management requirements 
+recommendation itu-t y.3522 
+(09/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects, next-generation networks, internet of things  
+and smart cities 
+  

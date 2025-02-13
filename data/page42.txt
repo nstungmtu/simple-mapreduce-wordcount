@@ -1,0 +1,50 @@
+1 framework and requirements for cloud computing  
+ 
+34  
+use case 
+pre-conditions 
+(optional) 
+– ① the csc has accessed the iaas service through the csp portal with an appropriate 
+security mechanism. 
+– ② the csc has selected the template or configured a specific vm and/or physical host.  
+– ② the csc has selected the storage resources, such as block, file and object storage, 
+then attached them via their computing capabilities or used them directly.  
+– ② the csc has selected the network connectivity services, such as the ip address, vlan, 
+firewall and load balance and then applied them to the related computing and/or 
+storage capabilities. 
+– ② the csc confirmed the slas and charge model with selected computing, sto rage and 
+network connectivity services provided by the csp. 
+post-conditions 
+(optional) 
+– ③ the csc manages and monitors computing, storage and network capabilities with 
+arbitrary applications. 
+– ③ the csp configures, deploys and maintains hypervisors and storage resources. 
+– ③ the csp establishes, configures, delivers and maintains network connectivity to the 
+csc. 
+– ③ the csp provides security infrastructure to the csc. 
+requirements – configuration, deployment and maintenance of resources 
+– use and monitoring of resources 
+i.3 naas general use case 
+use case 
+name naas general use case 
+abstract a naas csp sets up, maintains and releases the network connectivity between cscs and 
+between the csp and csc as a cloud service. this can include on -demand and semi-
+permanent connectivity. 
+roles csc, csp 
+figure 
+ 
+pre-conditions 
+(optional) 
+– there is no connectivity between xaas csc a and xaas csp y. 
+– there is no connectivity between xaas csp x and xaas csp y.  
+– either xaas csc a or xaas csp y requests the connectivity between them with their end -
+point identifiers and associated characteristics (referring to qos and security aspects) 
+for the connectivity. 
+– either xaas csp x or xaas csp y requests the connectivity between them with their end -
+point identifiers and associated characteristics (referring to qos and security aspects) 
+for the connectivity. 
+post-conditions 
+(optional) 
+– xaas csc a and xaas csp y can communicate with each other. 
+– xaas csc x and xaas csp y can communicate with each other. 
+

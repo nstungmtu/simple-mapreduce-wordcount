@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+346  
+appendix iii 
+ 
+mapping of big data ecosystem roles into user view of itu-t y.3502 
+(this appendix does not form an integral part of this recommendation.) 
+table iii.1 shows the results of mapping between the sub-role of the cloud computing reference architecture 
+(ccra) user view and the performance of similar roles in the big data ecosystem. a similar sub -role with a 
+data supplier does not exist in ccra. a b ig data service customer and a csc may be considered to perform 
+similar activities. similarly, a data broker and csn: cloud service broker may be considered in the same 
+manner. if the ccra is assumed to contain the big data service area, the activities for the csn: cloud service 
+broker should be extended in the data perspective. the big data service provider is related to all sub-roles of 
+the csp. this means that the big data service provider could be treated with an implanted feature or an 
+independent sub-role of the csp. 
+table iii.1 – mapping of big data ecosystem roles and sub-roles of the ccra user view 
+big data ecosystem 
+user view 
+of itu-t 
+y.3502 
+note 
+data provider  
+data supplier csn for the cloud computing based big data environment, the new 
+sub-role of the csn for the data provider is required. 
+data broker csn 
+for the cloud computing based big data environment:  
+(option 1) the extension of the activities of the csn: cloud 
+service broker is required. 
+(option 2) the new sub-role of the csn for data brokerage is 
+required.  
+(option 3) adding the "brokerage" activity on the sub-role which 
+corresponds with the data supplier is required. 
+big data service customer csc 
+for the cloud-based big data service environment:  
+(option 1) using the csc is required. 
+(option 2) the new role or sub-role of the csc for the big data 
+service customer is required. 
+big data service provider  csp 
+the big data service provider could be treated with an 
+implemented feature.  
+nevertheless, to clarify the cloud-based big data service, an 
+independent sub-role of the csp for the big data service 
+provider is required.  
+ 
+  

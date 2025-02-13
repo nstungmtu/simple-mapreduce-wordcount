@@ -1,0 +1,96 @@
+5 intercloud and interoperability  
+ 
+832  
+appendix i 
+ 
+mapping of inter-cloud computing functional requirements and functions 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix aims to describe the mapping of inter -cloud computing functional requirements specified in 
+[itu-t y.3511] and inter-cloud functions in clause 7 of this recommendation.  
+table i.1 – mapping of inter-cloud computing functional requirements  
+and inter-cloud functions 
+functional requirements specified in [itu-t y.3511] inter-cloud functions in this 
+recommendation 
+9.1 sla and 
+policy 
+negotiation 
+the sla and policy negotiation capability is required to 
+be aware of the sla information related to the qos and 
+performance aspects of the csps involved in the inter-
+cloud using standard formats. 
+– 7.3.1 peer csp management 
+– 7.2.4 service policy management 
+– 7.2.6 service level management 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.2 resource 
+monitoring 
+allow describing and expressing of the resource 
+information (e.g., resource type, configuration and 
+status) in a standard manner in order to be able to 
+monitor these resources across multiple csps. 
+– 7.2.8 peer service management 
+– 7.3.2 inter-cloud service negotiation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.2 resource 
+monitoring 
+allow updating of the resource information across 
+multiple csps in synchronization with the events (e.g., 
+reserve or release of resources) involving the csps. 
+– 7.2.8 peer service management 
+– 7.2.3 monitoring and reporting 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.2 resource 
+monitoring 
+allow periodically, or on a request basis, collecting of 
+information about the usage and performance status of 
+the resources of multiple csps. 
+– 7.2.3 monitoring and reporting 
+– 7.2.8 peer service management 
+– 7.3.2 inter-cloud service negotiation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.2 resource 
+monitoring 
+allow periodically, or on a request basis, collecting of 
+information about the resource availability (e.g., dead or 
+alive status of machines) of multiple csps. 
+– 7.2.3 monitoring and reporting 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.2 resource 
+monitoring 
+allow exchange of  monitoring information in commonly 
+defined ways across multiple csps.  
+– 7.2.3 monitoring and reporting 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.3 resource 
+performance 
+estimation 
+and selection 
+the resource performance estimation and selection 
+capability deals with the selection of resources from the 
+candidate resources that have already been reserved in 
+peer csps. this capability estimates the achievable 
+performance of available reserved resources and assists 
+the csp in the selection of resources to be effectively 
+used.  
+– 7.2.8 peer service management 
+– 7.3.4 inter-cloud service selection 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.4 resource 
+discovery 
+and 
+reservation 
+allow finding of available resources in the peer csps 
+based on different priorities. 
+allow reservation of available resources in the peer csps 
+on the basis of different priorities 
+– 7.3.2 inter-cloud service negotiation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.4 resource 
+discovery 
+and 
+reservation 
+enable discovery of resources available in the peer csps. – 7.3.3 inter-cloud service discovery 
+– 7.3.7 inter-cloud capabilities adaptation 

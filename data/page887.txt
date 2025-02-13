@@ -1,0 +1,44 @@
+intercloud and interoperability 5 
+ 
+  879 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of cloud computing infrastructure capabilities type interoperability testing 
+between the csc and csp 
+7 computing service interoperability testing between the csc and csp 
+7.1 interoperability testing of vm configuration between the csc and csp 
+7.2 interoperability testing of vm migration between the csc and csp 
+7.3 interoperability testing of vm snapshot between the csc and csp 
+7.4 interoperability testing of vm clone between the csc and csp 
+7.5 interoperability testing of vm time synchronization between the csc and csp 
+7.6 interoperability testing of vm reservation between the csc and csp 
+7.7 interoperability testing of vm image between the csc and csp 
+7.8 interoperability testing of vm template between the csc and csp 
+7.9 interoperability testing of vm scaling between the csc and csp 
+7.10 interoperability testing of vm backup between the csc and csp 
+7.11 interoperability testing of vm life cycle management between the csc and csp 
+7.12 interoperability testing of physical machine life cycle management between the csc 
+and csp 
+7.13 interoperability testing of vm configuration inquiring between the csc and csp 
+7.14 interoperability testing of physical machine configuration inquiring between the csc 
+and csp 
+8 storage service interoperability testing between the csc and csp 
+8.1 interoperability testing of storage migration between the csc and csp 
+8.2 interoperability testing of storage snapshot between the csc and csp 
+8.3 interoperability testing of storage backup between the csc and csp 
+8.4 interoperability testing of storage resource reservation between the csc and csp 
+8.5 interoperability testing of i/o performance between the csc and csp 
+8.6 interoperability testing of storage life cycle management between the csc and csp 
+8.7 interoperability testing of storage utilization status inquiring between the csc and csp 
+9 network service interoperability testing between the csc and csp 
+9.1 interoperability testing of network policy migration between the csc and csp 
+9.2 interoperability testing of network qos between the csc and csp 
+9.3 interoperability testing of network address translation between the csc and csp 
+9.4 interoperability testing of network isolation between the csc and csp 
+9.5 interoperability testing of ip address allocation between the csc and csp 

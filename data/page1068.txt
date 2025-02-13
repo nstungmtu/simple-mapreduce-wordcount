@@ -1,0 +1,44 @@
+7 security  
+ 
+1060 
+cloud service customer cloud service provider  
+– specifications of the key management system, 
+including procedures for each stage of the key life-
+cycle, i.e., generating, changing or updating, storing, 
+retiring, retrieving, retaining and destroying; 
+– recommended key management procedures for use 
+by the cloud service customer. 
+the cloud service customer should not permit the cloud 
+service provider to store and manage the encryption 
+keys for cryptographic operations when the cloud 
+service customer employs its own key management or a 
+separate and distinct key management service. 
+11 physical and environmental security 
+11.1 secure areas 
+the objective specified in clause 11.1 of iso/iec 27002 applies. 
+11.1.1 physical security perimeter 
+control 11.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.1.2 physical entry controls 
+control 11.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.1.3 securing offices, rooms and facilities 
+control 11.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.1.4 protecting against external and environmental threats 
+control 11.1.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.1.5 working in secure areas 
+control 11.1.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.1.6 delivery and loading areas 
+control 11.1.6 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2 equipment 
+the objective specified in clause 11.2 of iso/iec 27002 applies. 
+11.2.1 equipment siting and protection 
+control 11.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.2 supporting utilities 
+control 11.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 

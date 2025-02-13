@@ -1,0 +1,18 @@
+intercloud and interoperability 5 
+ 
+  887 
+9.7 interoperability testing of load balance between the csc and csp 
+the test object of load balance is to verify that the csc deploys a load balance mechanism for multiple vms 
+in order to achieve scalability and fault tolerance of an application. the test case of load balance can be found 
+in appendix ii.3.7. 
+9.8 interoperability testing of firewall between the csc and csp 
+the test object of firewall is to verify that the csc monitors and controls incoming and outgoing vm traffic 
+based on predetermined security rules. the test case of firewall can be found in appendix ii.3.8. 
+9.9 interoperability testing of multipath routing between the csc and csp 
+the test object of multipath routing is to verify that the csc accesses cloud services through multiple network 
+paths. the test case of multipath routing can be found in appendix ii.3.9. 
+9.10 interoperability testing of network information inquiring between the csc and csp 
+the test object of network information inquiring is to verify that the csc inquires network information from 
+the csp with network device(s) specification, network traffic performance (in terms of throughput, jitter, loss, 
+delay) and network topology. the test case of network address inquiring can be found in appendix ii.3.10.  
+  

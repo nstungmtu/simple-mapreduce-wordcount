@@ -1,0 +1,48 @@
+ framework and requirements for cloud computing 1 
+ 
+   293 
+y .3511(14)_f8-9
+cloud service customers
+csc 1 csc 2 csc 3
+catalogue of
+service offerings
+catalogue of
+service offerings
+primary
+cloud
+service
+provider
+secondary
+cloud service
+provider
+connectivity between
+secondary csps and
+primary csp
+connectivity between
+primary csp and csps
+ 
+figure 8-9 – primary and secondary csps and relevant network connectivity  
+as illustrated in figure 8 -9, the cscs use services provided by the primary csp. the catalogue of service 
+offerings in the primary csp includes services from the secondary csp. since the cscs use services through 
+the primary csp, the primary csp is responsible for ensuring that the service levels provided to the csc meet 
+the sla. 
+8.3.4 interactions in the case of inter-cloud intermediary 
+figure 8 -10 shows the interactions involving a csc and multiple csps in the case of the inter -cloud 
+intermediary pattern. 
+y .3511(14)_f8-10
+csc csp a csp b csp c
+secondary cspsprimary csp
+1) service information collection/registration
+2) service catalogue creation
+3) service selection
+4a) service offering (by primary csp a directly)
+4b) service offering (by secondary csp b via primary csp a)
+4c) service offering (by secondary csp c via primary csp a)
+ 
+figure 8-10 – interactions in inter-cloud intermediary pattern 
+along with the service offering, the description hereafter shows the interactions involving multiple csps. the 
+steps as shown in figure 8-10 are as follows: 
+1) the primary csp collects service information from the secondary csps, or the secondary csps 
+register their services to the primary csp. difference in terms of slas is negotiated as well; 
+2) the primary csp creates the catalogue of service offerings by combining the list of hosted services 
+and the services provided by the secondary csps; 

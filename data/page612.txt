@@ -1,0 +1,97 @@
+3 xaas  
+ 
+604  
+table ii.1 – relationship between clause 7 daas functions and 
+itu-t y.3502 reference architecture 
+daas 
+functions 
+keywords or simple 
+descriptions 
+related functional 
+components (fcs) 
+in [itu-t y.3502] 
+notes 
+high 
+availability for 
+daas  
+detecting failure 
+redundancy set up 
+backup and restore 
+virtual desktop 
+environment 
+load balance 
+vm auto migration  
+operational support 
+systems- 
+incident and 
+problem 
+management 
+this fc is for capturing incident or problem 
+reports and managing those reports through to 
+resolution; the main role of the ha-f is to detect 
+failure and manage it. 
+power 
+management 
+of virtual 
+desktop 
+resource 
+calculating power 
+consumption 
+operational support 
+systems- 
+incident and 
+problem 
+management 
+power management in daas is partly related 
+with platform and virtualization management fc 
+and incident and problem management in that 
+the function can deal with workload matters and 
+prepare the incident by exceptional power 
+consumption. 
+service 
+connection 
+supporting various 
+type of daas clients 
+daas client connection 
+status info 
+additional resource 
+request 
+security connection 
+user layer- 
+user function 
+user function fc supports the service user to 
+access and use cloud services. service 
+connection is responsible for the connection 
+between a virtual desktop and a daas user on 
+the client side, so this fc is related with the sc-
+f. however, this is not enough to cover specific 
+operations of the function. 
+connection 
+negotiation  
+gathering and 
+delivering network 
+performance info and 
+client status info 
+receiving the 
+negotiation result info 
+none there is no specific fc to treat the connection 
+negotiation on the client side. 
+client 
+peripheral 
+connection 
+peripheral connection 
+controlling event of 
+peripheral 
+none there is no specific fc to treat daas client's 
+peripherals. 
+service 
+continuity for 
+user 
+environment 
+reconnection request 
+on fault 
+off-line 
+synchronization 
+none there is no specific fc to treat daas client's 
+connection on the client side. 
+  

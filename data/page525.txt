@@ -1,0 +1,36 @@
+cloud computing management 2 
+ 
+  517 
+ 
+figure 7-1 – illustration of naas-related metadata positions 
+operation support system (oss) -naas s ervice catalogue functional component s (see clause 8 .3.1 of 
+[itu-t y.3515]) includes a listing of all cloud services of naas cloud service providers (csps)  including the 
+relevant naas services . naas service data model, naas service operational policy data model and naas 
+resource data model are needed in this functional component for naas service instantiation. 
+the service capabilities (naas) functional component (see clause 8.2.3 of [itu-t y.3515]) in the service layer 
+provides capabilities exposed to the naas cloud service customer (csc) according to the naas service data 
+model and naas s ervice operational policy data model selected by the naas csc through busin ess level 
+interactions with the naas csp. 
+7.1 naas service data model 
+the naas service data model (see clause 8.3.1 of [itu-t y.3515]) describes the specific network service based 
+on the characteristic of the service that can be used for service delivery, e.g., l3vpn and l2vpn data models 
+under development of the working groups l3sm [b-l3sm] and l2sm [b-l2sm] of ietf. 
+7.2 naas service operational policy data model 
+the naas service op erational policy data model (see clause 8.3.1 of [itu -t y.3515]) describe high -level 
+network-wide polices for a given naas service, which can be input into the network management function 
+(within a software -defined networking (sdn) controller, an orchestra tor, or a network element), and 
+combined with the naas service data model and mapped into a target configuration of network elements, 
+e.g., generic policy data model described in [b-supa] of ietf. the network management function can control 
+the configuration and monitor the network elements and services according to such policies. 
+7.3 naas resource data model 
+the naas resource data model (see clause 8.3.1 of [itu-t y.3515]) describes topology of naas csp's resources 
+across different layers and re flects the attributes and operational parameters of given naas resources 
+(e.g., network services (nss), nfs, virtualised resources, physical resources). 
+7.4 relationship among metadata in naas service 
+the naas service operational policy data model can manage and adjust service behaviours as necessary. the 
+naas service operational policy data model and the naas service data model have a one-to-many 
+relationship. 
+the naas service operational policy data model can manage and adjust resource s behaviour as necessary. 
+the n aas service operational policy data model and the naas resource data model have a one-to-many 
+relationship. 
+

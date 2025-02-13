@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   319 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of big data 
+6.1 introduction to big data 
+6.2 big data ecosystem 
+6.3 relationship between cloud computing and big data 
+7 cloud computing based big data 
+7.1 cloud computing based big data system context 
+7.2 benefits of cloud computing based big data 
+8 requirements of cloud computing based big data 
+8.1 data collection requirements 
+8.2 data pre-processing requirements 
+8.3 data storage requirements 
+8.4 data analysis requirements 
+8.5 data visualization requirements 
+8.6 data management requirements 
+8.7 data security and protection requirements 
+9 cloud computing based big data capabilities 
+9.1 data collection capabilities 
+9.2 data pre-processing capabilities 
+9.3 data storage capabilities 
+9.4 data analytics capabilities 
+9.5 data visualization capabilities 
+9.6 data management capabilities 
+9.7 data security and protection capabilities 
+10 security considerations 
+appendix i – use cases of cloud computing in support of big data 
+appendix ii – use cases of cloud computing based big data as analysis services 
+appendix iii – mapping of big data ecosystem roles into user view of itu-t y.3502 
+bibliography 
+ 
+ 

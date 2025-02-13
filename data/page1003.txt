@@ -1,0 +1,43 @@
+security 7 
+ 
+  995 
+saas software as a service 
+sim subscriber identity module 
+sla service level agreement 
+vm virtual machine 
+5 conventions 
+in this recommendation: 
+the keywords " is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted, if conformance to this recommendation is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus, this requirement need not be present to claim conformance. 
+the keywords "is prohibited from" indicate a requirement which must be strictly followed and from which 
+no deviation is permitted, if conformance to this recommendation is to be claimed. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the vendor's implementation m ust 
+provide the option, and the feature can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the feature and still claim conformance with the 
+specification. 
+6 overview 
+this recommendation analyses data security requirements for the monitoring service of cloud computing 
+including monitoring data scope, monitoring data lifecycle, security threats and challenges, and monitoring 
+data security requirements of cloud computing. 
+monitoring data scope describes two types of cloud monitoring data: necessary and optional, and also 
+explains the use cases. 
+monitoring data lifecycle, and the security threats and challenges, describe the content and security threats 
+and challenges of clo ud monitoring data collection, storage, use, migration, analysis, presentation, 
+destruction and backup. 
+monitoring data security requirements describes the detailed requirements for each lifecycle stage of cloud 
+monitoring data. 
+7 scope of monitoring data for cloud computing 
+in a cloud computing environment, there are two types of monitoring data: necessary monitoring data and 
+optional monitoring data. 
+necessary monitoring data is that which is used to maintain service level agreements (slas). necessary 
+monitoring data can help the csp run the cloud computing platform securely and stably. necessary 
+monitoring data may include, but is not limited to, management system monitoring data, physical resources 
+monitoring data and network monitoring data. necessary monitoring data is mainly used by csps but could 
+also be shared with cscs. 
+optional monitoring data is that which is provided at the request of the csc to provide the monitoring service 
+by the csp. optional monitoring data may include, but is not be limited to, virtual machine monitoring data, 
+data storage service monitoring data and the cscs' data associated with the monitoring of their own 
+application on cloud. 

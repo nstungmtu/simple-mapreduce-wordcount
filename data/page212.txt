@@ -1,0 +1,64 @@
+1 framework and requirements for cloud computing  
+ 
+204  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+– [b-ocp hsch] describes how the bios is tuned to minimize card power 
+consumption. it has the following features: • unused devices are dis abled 
+including pcie* lanes, usb ports, sata/sas ports, etc.; • bios setup menu; 
+• soc settings are provided to allow tuning to achieve the optimal 
+combination of performance and power consumption' in clause 8.5.2.  
+– [b-ocp hsch] describes how each card must provide temperature sensors 
+for the soc, the so-dimm(s) (if they are used) and one ambient 
+temperature sensor. all temperature readings for each sensor must be 
+readable via the management sideband interface to the baseboard. 
+additionally, over-temperature thresholds are configurable and an alert 
+mechanism is provided to enable thermal shutdown and/or an increase in 
+airflow. the sensors are accurate to +/−3c' in clause 5.4. 
+20 interface for 
+monitoring power 
+– [b-etsi eve007] provides interface for monitoring power as 'each power 
+supply unit should be capable of measuring and remotely reporting the 
+following operational parameters' in clause 5.3.4.2. 
+– [b-ocp 1s] describes how the twin lakes 1s server shall uses power sensor 
+to measure card and soc power consumption. the power data can be used 
+by the platform for power management purposes. the twin lakes 1s server 
+supports an advanced configuration power interface (acpi)-compliant 
+power button and reset signals from the platform, in clause 3 overview and 
+clause 6.5. 
+– [b-ocp ambh] describes how to use bmc to monitor power in clause 7.2 
+and use pmbus interface to enable the bmc to report server input power in 
+clause 8.6. 
+– [b-ocp dsbs] describes how decathlete server board shall support power 
+supply redundancy monitoring and support in clause 8.1.2. 
+– [b-ocp tp] requires vendors to implement bmc firmware to support remote 
+system power on/off/cycle and warm reboot through in-band or out-of-
+band ipmi commands in clause 8.4 and support platform power monito ring 
+in clause 8.8. 
+21 cooling component 
+replacement 
+– [b-ocp 2s] describes that if and only if one rotor in server fan fails, the 
+negative or positive dc pressurization can be considered in the thermal 
+solution in the hot aisle or in cold aisle respectively in clause 10.2.4. 
+22 cooling component 
+redundancy 
+– [b-ocp 2s] provides a description of fan redundancy which is one 
+implementation of cooling redundancy – as 'the server fans at n+1 
+redundancy should be sufficient for cooling server components to 
+temperatures below their maximum spec to prevent server shut down or to 
+prevent either cpu or memory throttling' in clause 10.2.5. 
+– [b-ocp o1usm] requires fans to be n+2 redundant to optimize fan 
+efficiency and server availability while eliminating the need for hot swap 
+capability in clause 4.4. 
+– [b-ocp o2usm] requires fans to be n+2 redundant to optimize fan 
+efficiency and server availability while eliminating the need for hot swap 
+capability in clause 4.4. 
+– [b-ocp tp] describe how server fans should be n+1 redundancy to be 
+sufficient for cooling server components to temperatures below their 
+maximum spec to prevent server shut down or to prevent either cpu or 
+memory throttling in clause 9.2.5. [b-etsi eve007] provides cooling 
+component redundancy as 'redundancy within the rack cooling system shall 
+provide appropriate levels of cooling to all the rack equipment while the rack 
+cooling system is serviced' in clause 5.5.3. 

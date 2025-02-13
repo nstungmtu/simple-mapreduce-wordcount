@@ -1,0 +1,43 @@
+2 cloud computing management  
+ 
+426  
+1 scope 
+this recommendation provides an overview of end-to-end (e2e) cloud computing management. 
+this recommendation covers the following: 
+− cloud computing management objectives from telecommunication industry's perspective; 
+− conceptual view and management layering; 
+− common model for multi-cloud environment management; 
+− cloud computing management functionalities. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014), information technology – cloud computing – 
+reference architecture. 
+[itu-t y.3510] recommendation itu-t y.3510 (2016), cloud computing infrastructure requirements. 
+[itu-t y.3511] recommendation itu-t y.3511 (2014), framework of inter-cloud computing. 
+[itu-t y.3512] recommendation itu-t y.3512 (2014), cloud computing – functional requirements 
+of network as a service. 
+[itu-t y.3520] recommendation itu-t y.3520 (2015), cloud computing framework for end  to end 
+resource management. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications, and storage 
+equipment. 
+3.1.2 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.3 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements. 
+3.1.4 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.5 cloud service user [b-itu-t y.3500]: natural person, or entity acting on their behalf, associated with 
+a cloud service customer that uses cloud services. 
+note – examples of such entities include devices and applications. 

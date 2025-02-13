@@ -1,0 +1,15 @@
+security 7 
+ 
+  1015 
+bibliography 
+ 
+[b-itu-t y.3500]  recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-iso/iec 27000] iso/iec 27000:2014, information technology – security techniques – information 
+security management systems – overview and vocabulary. 
+[b-iso/iec 29100] iso/iec 29100:2011, information technology – security techniques – privacy 
+framework. 
+[b-nist-sp-800-53]  nist special publication 800-53 revision 4 (2015), security and privacy controls for 
+federal information systems and organizations, available [viewed 2016-12-10] at: 
+<http://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-53r4.pdf> 
+ 

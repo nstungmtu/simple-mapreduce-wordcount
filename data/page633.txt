@@ -1,0 +1,52 @@
+xaas 3 
+ 
+  625 
+ii.2.2 detailed use cases 
+ii.2.2.1 naas platform use case for cloud cdn 
+ 
+title naas platform use case for cloud content delivery network (cdn) 
+description content provider acting as csc stores the content in the data centre and monitors the 
+usage of the content. when the usage of the content reaches certain level of popularity or 
+if according to some predictions content provider expects a growth of popularit y in a 
+defined period of time, e.g., video transmission of a sport event, content provider creates a 
+virtual cdn to temporarily move the content from the data centre to the network (vcdn). 
+xaas csp receives the content from the content provider (which can itself create a 
+distribution service). content is delivered to the cloud service users (csus) from xaas csp 
+data centre using the network of naas csp. the xaas csp offers the possibilities to store 
+the content and to monitor usage parameters. xaas csp in c ooperation with the naas csp 
+can duplicate the content in the network nodes, building a virtual cdn service. basically 
+xaas csp supports cdn functions, thus cdn is in some way "emulated" by the xaas csp, 
+which cooperates with the naas csp.  
+roles csu, csc, csp 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+– content provider acting as csc stores the content in xaas csp data centres. 
+– content provider acting as csc monitors the use of content.  
+post-conditions 
+(optional) 
+– xaas csp offers the virtual cdn service using network resources of the naas csp.  
+– content provider acting as csc decides to move content from the data centre to the 
+virtual cdn for a defined period of time. 
+derived 
+requirements 
+– performance (refer to clause 7.1) 
+– operation and management (refer to clause 7.2) 
+– service chain (refer to clause 7.3) 
+ii.3 naas platform related use cases 
+ii.3.1 general use cases 
+none. 
+ii.3.2 detailed use cases 
+ii.3.2.1 naas platform use case for service chain 
+ 
+title naas platform use case for service chain 
+description with csc's tenants increasing requirements on the service diversity and complexity, csp 
+needs to deliver integrated network application services, such as deep packet inspection 
+(dpi), intrusion detection, intrusion prevention, load balance, firewall, etc. traditionally, 
+the set of services are provided using dedicated physical network elements, which have 
+limited network capacity and functionalities, complex configuration and update, and 
+lengthy provision period. the situation, when the output of one service is used as input for 
+the other service is called service chain. in traditional network the set-up of services chain, 
+

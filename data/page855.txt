@@ -1,0 +1,53 @@
+intercloud and interoperability 5 
+ 
+  847 
+6.1 isolation and security management mechanism 
+the isolation and security of trusted inter -cloud is based on distributed cloud management.  it enables the 
+csp who provides cloud services to a csc to have end-to-end (e2e) and unified control for trust of cloud 
+services across multiple csps. 
+for implementation of managing isolation and security, mechanisms could be used as follows: 
+– annotation of workloads and data : to increase security of trusted inter -cloud computing, it is 
+necessary to define a terminology (language) to annotate (or tag) workloads and data with security 
+requirements (such as permissible storage locations). these annotations will be processed by the 
+system during scheduling and migration to ensure that workload constraints are maintained. 
+additionally, annotation of workloads allows the use of appropriate network data plane mechanisms 
+(e.g., software defined network (sdn)) for strong security protection and traffic isolation to ensure 
+that the above constraints are reached when workloads are practically placed, executed (data 
+accessed and stored) and migrated. such annotation of workloads and data might be based on 
+standards for data categorization (see clause 6.4 of [itu-t y.3514]). 
+– modular hypervisors partly controlled by the csc : hypervisors usually have a large and complex 
+administrative domain with privileges to inspect a client’s vm state. attacks against or misuse of the 
+administrative domain can compromise client security and privacy. moreover, these hypervisors 
+provide clients inflexible control over their own vms. modular hypervisors simultaneously address 
+problems with security/privacy and inflexible control. it introduces a novel privilege model that 
+reduces the power of the administrative domain and gives the csc more flexible control over their 
+own vms. it splits administrative privileges between a system -wide domain and per -client 
+administrative domains. each csc can manage and perform privileged system tasks on its own vms, 
+thereby providing flexibility. the system-wide administrative domain cannot inspect the code, data 
+or computation of client vms, thereby ensuring security and privacy. 
+– secure enclave based on hardware security mechanisms : secure enclave is an isolated process, 
+executed on a platform that provides confidentiality and integrity of code and data as well as sealing 
+and attestation. isolated execution of a process restricts access to a subset of memory to that 
+particular process or enclave. no other process on the same processor, operating system, 
+hypervisor, or system management module, can access th is memory. sealing is the authenticated 
+encryption of data with an encryption key based on the identity of the enclave and the platform it 
+is running on. attestation is the ability to prove to third parties that a secure enclave is running with 
+a particular identity securely on the hardware. 
+– single sign-on (sso) : in an inter -cloud environment, the csc should be able to access various 
+resources and services offered by different csp s once they are successfully au thenticated in the 
+inter-cloud. since each csp has its own authentication mechanism, a standard method that provides 
+sso authentication within inter -cloud environments should be deployed. in an inter -cloud 
+environment, sso can be achieved through the deleg ation of trust that allows an entity to act on 
+another entity 's behalf. this mechanism allows entities of inter -cloud to securely interact by 
+establishing a chain of trust of proxy certificates. sso can also be achieved through the use of a 
+trusted third party who will certify credentials on behalf of all parties of inter-cloud. 
+ note – the functionalities for managing isolation and security mechanisms are provided in appendix ii.  
+6.2 inter-cloud trust management model 
+the inter-cloud trust management is realized based on a two-dimensional (vertical and horizontal) model as 
+follows: 
+– the vertical axis (cross-layer) is based on the layers of the cloud computing reference architecture 
+[itu-t y.3502]. t he inter -cloud trust management in this dimension is reali zed over functional 
+components for managing isolation and security mechanisms. the components managing isolation 
+ensure that different tenants and their workloads and data are isolated and inaccessible to one 
+another in each layer. the components managing security, establish a chain of trust in the cross -
+layer dimension. i n higher layers , it focusses on user -centric trust, such as user identity 

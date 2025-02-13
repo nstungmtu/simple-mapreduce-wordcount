@@ -1,0 +1,58 @@
+ framework and requirements for cloud computing 1 
+ 
+   393 
+• itu-t y.3522 : this recommendation specifies the functional requirements of end -to-end (e2e) 
+cloud service life cycle management. this recommendation consists of the following: 
+– cloud service life cycle metadata; 
+– cloud service life cycle management framework; 
+– cloud service life cycle management stages; 
+– relationship with cloud computing reference architecture; 
+– functional requirements and typical use cases of cloud service life cycle management. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13020 
+• itu-t m.3371: this recommendation defines the general and functional management requirements 
+that support the service management in cloud-aware telecommunication management systems, see 
+[itu-t m.3070], and provides a functional framework for services management in cloud -aware 
+telecommunication management systems. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13064 
+table 9-2 provides an analysis of itu-t jrg-ccm deliverables. 
+table 9-2 – analysis of itu-t jrg-ccm deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security       
+management itu-t 
+m.3070/ 
+y.3521 
+itu-t m.3371, 
+itu-t y.3522 
+    
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+10 itu-t sg17 
+table 10-1 provides a list of itu-t sg17 deliverables associated with cloud computing. 
+table 10-1– itu-t sg17 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t x.1601, security framework for cloud computing recommendation 04/2010 10/2015 
+itu-t x.1631 | iso/iec 27017, information technology – 
+security techniques – code of practice for information 
+security controls based on  
+iso/iec 27002 for cloud services 
+recommendation 05/2013 07/2015 
+itu-t x.1642, guidelines of operational security for 
+cloud computing 
+recommendation 03/2012 03/2016  

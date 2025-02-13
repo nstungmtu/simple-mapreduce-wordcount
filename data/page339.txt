@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   331 
+8.5 data visualization requirements 
+the data visualization requirements include: 
+1) it is required that the csp:bdap provides a flexible licensing policy for the reporting tool; 
+2) it is recommended that the csp:bdap support s different tools or plug -ins with multiple styles of 
+data visualization; 
+ note – visualization styles include statistical graphics, forms, diagrams, charts, etc. 
+3) it is recommended that the csp:bdap supports customization of the reporting tools; 
+4) it is recommended that the csp:bdap  supports integration of reporting tools with csc reporting 
+systems; 
+5) it is recommended that the csp:bdap supports integration of reporting tools with csc operational 
+systems; 
+6) it is recommended  that the csp:bdap supports composed services which could combine two or 
+more big data services to the csc:bdsu. 
+8.6 data management requirements 
+the data management requirements include: 
+1) it is required for the csp:bdip to manage metadata information such as creating, controlling, 
+attributing, defining and updating; 
+ note – metadata contains critical information such as persistent identification of the data, the fixity and the 
+access rights of the stored data. 
+2) it is required for the csp:bdip to track a data history which contains the source of data and the data 
+processing method; 
+3) it is required for the csp:bdap to support distributed cluster monitoring tools to monitor the health 
+and status of computing clusters; 
+4) it is required for the csp:bdip to support data preservation policy management rules; 
+ note – provided rules include data retirement and refreshment methods . 
+5) it is recommended for the csp:bdip to support network resource monitoring; 
+6) it is recommended for the csp:bdip to support management of data lifecycle operations; 
+ note – data lifecycle operations include data generation, transmission, storage, use and deletion. 
+8.7 data security and protection requirements 
+the data security and protection requirements include: 
+1) it is required for the csp:bdip to protect data collection, data storage,  data transmission and data 
+processing with security mechanisms; 
+2) it is required for the csp:bdip to support data protection; 
+3) it is required that the csp deletes csc related data and analytical results according to the lifetime 
+defined by the csc or on the csc's demand; 
+4) it is recommended that the csp supports implementing the csc's data protection and security 
+policies over data and analytical results; 
+5) it is recommended that the csp:bdip supports redundancy mechanisms and transaction logging. 
+  

@@ -1,0 +1,50 @@
+cloud computing management 2 
+ 
+  499 
+these complicated re-design, re-configuration and re-deployment problems can be addressed through the 
+cloud service lifecycle metadata, which represents all of the lifecycle aspects of the virtualized elements, as 
+expressed in the form of logical objects within a defined model space. 
+the alignment between elements in the defined model and the real world can be achieved by tools which 
+can address service dependency and drive the required actions based on the metadata associated with the 
+modelled elements. this approach allows a new service to be created  with changes only in metadata and 
+minimal modifications. therefore, the lifecycle metadata can be regarded as the linkage between design time 
+and execution time.  from the point of vi ew of cloud service developers (see [itu -t y.3502]), fis and smis 
+may only be described in common service language s such as web services description language (wsdl) or 
+web service implementation environment. the aim of this is to define the smi operations that all services 
+can understand. therefore, cloud service lifecycle metadata can be designed to capture the cloud s ervice 
+dependencies and service properties to support multi-cloud management. 
+in order to support consistent management, business process automation and csc experience, cloud services 
+should understand a set of operations requirements. the word "understand" means that, for example if there 
+is a request for a smi to configure a service, then the smi may: 
+1) intelligently perform the steps required to configure the service per its operation environment, or  
+2) transfer the request to other applications/services to perform the request, or  
+3) simply return to the management application that there is no operation or capability to support this 
+function. 
+therefore the cloud service compatibility can be provided in any of the following forms: 
+1) new service component that is implemented by supporting the smi specification and metadata to 
+be defined; 
+2) cloud service wrapper on existing service components; 
+3) cloud service proxy where it transfers the actual operation tasks to other application/service 
+components. 
+6.2 cloud service lifecycle management framework 
+e2e cloud computing management is the capability to manage services and resources (addressing fulfilment, 
+assurance and repositories) of single or multiple cloud services spanning across one or more clo ud service 
+providers (csps), see [itu-t y.3521]. the common model for e2e cloud computing management is based on 
+smis. the smi based approach provi des a means to allow consistent e2e management of cloud computing 
+services exposed by and across, different domains of csps. figure 6-1 depicts a conceptual framework of e2e 
+cloud service lifecycle management. 
+as the figure 6 -1 shows, the e2e cloud service lifecycle management system interacts with csc and other 
+e2e cloud service lifecycle management systems as follows:  
+1) csc can take an action (function) to search for a product (see "product1" in figure 6-1) in a self -
+service fashion ( see clause 7.2). in fact, "product1" is pr ovided by csp1 and it consists of three 
+services: "service1", "service2" and "service3". the "service1" and "service2" are provided by csp1 
+while "service3" is provided by csp2. after the provisioning process, the csc can access the e2e 
+service management functions provided by csp1 and the function of the services can be accessed 
+through the fi provided by csp1 and csp2 respectively.  
+2) the e2e cloud service lifecycle management system performs cloud service lifecycle management  
+through smis in domains as follows:  
+a) defining services: all services need to be defined according to their role and what they offer. 
+b) building cloud service catalogue : the cloud service catalogue contains a list of services of a 
+particular csp. besides the definition of the service, many attributes such as who can use this 
+service, resource configurations, service levels, processes, networking options, constraints, etc. 
+can be defined and provided through a service catalogue. 

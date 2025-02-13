@@ -1,0 +1,48 @@
+3 xaas  
+ 
+558  
+8.2 daas platform-side functional requirements 
+the daas platform-side functional requirements include: 
+• maintaining daas user status : it is required that the csc be capable of reconnecting to virtual 
+desktop in the same virtual desktop state as left. 
+• optimized adaptation for content type : it is recommended that the daas client be optimized for 
+the content type involved (e.g., each type of content is encoded with a codec that is tuned to best 
+support the content and the codec configuration can be automatically changed based on the 
+content type such as multimedia, images and text). 
+• isolation between virtual desktop functions: it is required that the operation of the virtual desktop 
+functions of one csc should not be negatively impacted by the use of virtual desktop functions by 
+other cscs.  
+• graphic processing acceleration support: in order to provide ability to daas clients to work with 
+graphic-intensive software packages (such as 3d computer -aided design or compression) running 
+on the server, it is recommended that the csp provide the acceleration of graphic processing  to 
+daas clients. 
+• server-side rendering: in order to provide a consistent user experience to a wide range of daas 
+clients as well as to improve user experience, it is recommended that the local desktop be composed 
+and rendered on the host before the resulting image is encoded and sent to the daas client. 
+• standard video codec support: for applicable video content, it is recommended to support standard 
+codecs, such as specified in [b-itu-t h.264] or [b-itu-t h.265]. 
+• progressive encoding support : for networ ks with limited bandwidth, in order to improve user 
+experience in case of a network bottleneck, it is recommended to use progressive encoding. 
+ note – progressive encoding and rendering means that the im age can be encoded and sent over several 
+stages, and the image quality becomes progressively clearer at each stage. 
+• csc environment backup:  
+– it is recommended that the csp backup and restore the allocated virtual machines with user 
+environment in order not to lose user data.  
+– it is recommended that the csp should not degrade the service performance from the process 
+of backing up and restoring. 
+• standard audio encoder support: it is recommended to support standard audio encoders. 
+8.3 daas client-side functional requirements 
+the daas client-side functional requirements include: 
+• resource request: it is recommended that the csc be capable of configuring the system resources 
+in its use (e.g., cpu, memory, storage and other devices) during service execution. 
+• support of daas client peripherals: it is recommended that daas applications be able to use daas 
+client peripherals.  
+ note 1 – examples of daas client peripherals include usb port, flash memory, global positioning system (gps), 
+camera, etc. 
+• video decoder support : for rendering video content on clien t, it is recommended to support 
+standard codecs, such as specified in [b-itu-t h.264] or [b-itu-t h.265] to decode encoded images. 
+• standard audio decoder support: it is recommended to support standard audio decoders. 
+• synchronization between daas client  and daas platform : it is recommended th at daas support 
+synchronization of daas user state when the connection is established and terminated.  
+ note 2 – daas user state include desktop background and layout, user interface preferences, current daas 
+user timezone, etc. 

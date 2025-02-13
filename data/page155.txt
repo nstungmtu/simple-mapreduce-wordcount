@@ -1,0 +1,28 @@
+ framework and requirements for cloud computing 1 
+ 
+   147 
+– check and control service status : it supports cscs to control cloud services, such as stopping, 
+resuming and terminating the cloud services. also, this  activity involves checking the status of 
+running cloud services by monitoring so that the cloud service broker enforces service qualities 
+agreed in a sla instead of cscs.  
+6.3 service model of cloud service brokerage 
+the cloud services registered in the p roduct catalogue of cloud service brokerage are categorized in the 
+following three service models: 
+– cloud service aggregation: as shown in figure 6-2, cloud service aggregation brings together cloud 
+services from multiple csps to cscs without any changes in a product catalogue. the detailed 
+description of cloud service aggregation is introduced in table i.2 of appendix i; 
+– cloud service integration: as shown in figure 6-3, cloud service integration collects registered cloud 
+service in a product catalogue,  making them work together to provide new cloud services in a 
+product catalogue. the detailed description of cloud service integration is introduced in table i.3 of 
+appendix i; 
+– cloud service customization : as shown in figure 6 -4, cloud service customization performs 
+customized development by a cloud service broker on existing multiple cloud services in a product 
+catalogue according to cscs' demands. the detailed description of cloud service customization is 
+introduced in table i.4 of appendix i. 
+ 
+figure 6-2 – cloud service aggregation model  
+ 
+figure 6-3 – cloud service integration model 
+ 
+figure 6-4 – cloud service customization model  
+

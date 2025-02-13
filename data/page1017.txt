@@ -1,0 +1,43 @@
+security 7 
+ 
+  1009 
+3.1.6 cloud service derived data [b-itu-t y.3500]: class of data objects under cloud service provider 
+control that are derived as a result of interaction with the cloud service by the cloud service customer. 
+3.1.7 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.8 cloud service user [b-itu-t y.3500]: natural person, or entity acting on their behalf, associated with 
+a cloud service customer that uses cloud services. 
+note – examples of such entities include devices and applications. 
+3.1.9 infrastructure as a service  (iaas) [b-itu-t y.3500 ]: cloud service category in which the cloud 
+capabilities type provided to the cloud service customer is an infrastructure capabilities type. 
+3.1.10 multi-tenancy [b-itu-t y.3500]: allocation of physical or virtual resources such that multiple tenants 
+and their computations and data are isolated from and inaccessible to one another. 
+3.1.11 platform as a service (paas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is a platform capabilities type. 
+3.1.12 party [b-itu-t y.3500]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.13 personally identifiable information  [b-iso/iec 29100]: any information that (a) can be used to 
+identify the pii principal to whom such information relates, or (b) is or might be directly or indirectly linked 
+to a pii principal. 
+3.1.14 pii principal [b-iso/iec 29100]: natural person to whom the personally identifiable information (pii) 
+relates. 
+note – depending on the jurisdiction and the particular data protection and privacy legislation, the synonym "data 
+subject" can also be used instead of the term "pii principal". 
+3.1.15 software as a service (saas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is an application capabilities type. 
+3.1.16 tenant [b-itu-t y.3500]: one or more cloud service users sharing access to a set of physical and 
+virtual resources. 
+3.1.17 threat [b-iso/iec 27000]: potential cause of an unwanted incident, which may result in harm to a 
+system or organization. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+csc cloud service customer 
+csp cloud service provider 
+csu cloud service user 
+iaas infrastructure as a service 
+paas platform as a service 
+pii personally identifiable information 
+saas software as a service 
+5 conventions 
+none. 

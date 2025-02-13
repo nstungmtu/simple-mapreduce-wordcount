@@ -1,0 +1,30 @@
+intercloud and interoperability 5 
+ 
+  835 
+appendix ii 
+ 
+reference points of inter-cloud computing  
+(this appendix does not form an integral part of this recommendation.) 
+as described in this recommendation, inter-cloud functional architecture reuse the functional components 
+of [itu-t y.3502] and extends bss, oss, integration and security system functional components with inter -
+cloud functions. given no det ailed interactions and reference points have been defined in [itu -t y.3502] 
+between functional components, this appendix provides examples of inter-cloud related reference points for 
+informative purposes. 
+the reference points of inter-cloud computing architecture are shown in figure ii.1.  
+ 
+figure ii.1 – reference points of inter-cloud computing architecture 
+ii.1 reference point: i-ssm-blg 
+the subscription management functional component interacts with billing  functional component through 
+i-ssm-blg to provide inter-cloud service subscription information for billing. 
+ii.2 reference point: i-ssm-ipm 
+the subscription management functional component interacts with incident and problem management 
+functional component through i -ssm-ipm to synchronize inter -cloud incident- and problem-detecting and 
+reporting information. 
+ii.3 reference point: i-ssm-mr 
+the subscription management functional component interacts with monitoring and reporting functional 
+component through i-ssm-mr to get the monitoring information of inter -cloud services of different inter -
+cloud service subscriptions. 
+ii.4 reference point: i-ssm-sc 
+the subscription management functional component interacts with service catalogue functional component 
+through i-ssm-sc to synchronize inter-cloud service catalogue information. 
+

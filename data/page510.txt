@@ -1,0 +1,32 @@
+2 cloud computing management  
+ 
+502  
+4) stage 4: retirement 
+triggered by the end of the contractual agreement between csc and csp, this stops the monitoring and usage 
+activities and releases the resources and components associated with the cloud service resulting in its 
+disappearing. note that the retirement process does not necessarily mean that the associate service instance 
+is removed from t he service inventory. the csp may want to keep the service operation metadata in 
+"unconfigured" state in its management infrastructure. 
+a conceptual cloud service will therefore evolve throughout stages such as those described above. this may 
+affect the service lifecycle metadata as structure (e.g. , adding a new element), or as value (e.g. , modifying 
+the current value of an element or attribute in the metadata associated with the service). hence cloud service 
+lifecycle metadata representation evolves with c loud service lifecycle stages while the stages essentially 
+represent the different steps a service would be subject to, from design stage to retirement stage. 
+6.4 relationship with cloud computing reference architecture 
+the cloud computing reference architecture, see [itu-t y.3502] provides an architectural framework that is 
+effective for describing the cloud computing roles, sub -roles, cloud computing activities, cross -cutting 
+aspects, as well as the functional architecture and functional components of cloud computing. although the 
+cloud computing reference architecture does  not mention the cloud service lifecycle management in the 
+activities and functional architecture, some o f its functional  components can be used in different cloud 
+service lifecycle management stages. for example, the subscription management functional component in 
+cloud computing reference architecture handles subscriptions from csc to particular cloud services, aiming 
+to record new or changed subscription information from csc and ensure  the delivery of the subscribed 
+service(s) to csc. in addition the operation stage in the cloud service lifecycle covers all the activities related 
+to the actual creation and monitoring of each service, which includes service subscription.  therefore the 
+subscription management functional component can be used in operation stage.  
+figure 6-2 illustrates the relationship between e2e cloud service lifecycle stages and functional components 
+of cloud computing reference architecture. 
+ 
+figure 6-2 – relationship e2e cloud service lifecycle stages and functional 
+components of cloud computing reference architecture 
+

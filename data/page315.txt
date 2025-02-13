@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   307 
+ii.1 use case 1 – cloud service rebranding 
+csp-a wishes to offer browser-based office productivity suite services to their users but does not want to run 
+a data centre or build the applications. csp -a resells the office suite services built and operated by csp -d, 
+using csp-a branding, ip network connectivity (ic2), and customer management, while csp -d develops and 
+maintains the applications and runs the service. 
+ii.2 use case 2 – discovery 
+csp-a offers a directory service for cloud services to their users. csp-d and csp-c both advertise their cloud 
+service offerings into csp -a's directory (ic2). enterprise csc wishes to find a disaster recovery backup 
+provider, uses csp-a's directory (ic3) to determine that csp-d offers this service at a good price, and connects 
+with csp-d via csp-a's network (ic4) to use the service. 
+ii.3 use case 3 – intermediary 
+csp-a offers an intermediary service. enterprise csc requests the csp -a to provide hosting of a virtual 
+machine (ic3), csp-a determines that csp-d offers the best match of requirements, reserves the resources 
+at csp-d and creates the necessary connectivity (ic2). enterprise csc might or might not know the identity 
+of csp-d, depending on the requirements of the sla. 
+ii.4 use case 4 – platforming 
+csp-d develops a cloud computing application to host consumer music collections under their own brand. 
+csp-d subscribes to csp -c's paas offering (ic5) and deploys their saas application ont o csp -c's paas. 
+consumers connect their devices to csp-a's application, which is actually running at csp-c's datacentre (ic2) 
+via virtual private network (vpn). 
+ii.5 use case 5 – offloading 
+enterprise csc runs an engineering simulation package which requir es significant amounts of computing 
+power at infrequent intervals. csc's private cloud does not have sufficient peak capacity to handle this 
+effectively, so they have contracted with csp -a to provide additional compute power (ic3). due to the 
+success of csc's business, they now need more peak computing power than csp-a can provide from csp-a's 
+own cloud data centre, so csp-a reserves additional computing resources from csp-d, handles the load and 
+bills csc accordingly. 
+ii.6 use case 6 – virtual data centre expansion 
+csp-a has encountered resistance to expansion of their cloud data centres due to environmental 
+considerations. csp-a therefore orders 1000 new virtual machine (vm) instances from csp-d and establishes 
+a vpn bridge such that the new vms appear to be on the same virtual local area network (lan) as used in 
+their own data centre. 
+ii.7 use case 7 – distributed media 
+a broadcaster (csc) will be hosting a major television sporting event series with a global audience and wishes 
+to offer both live and on -demand streaming of the event to many types of devices. csc requests csp -a to 
+provide global distribution. csp -a establishes connection of the live source feeds to csp -d, which provides 
+secure media reformatting as part of their paas offering (ic2), returning digital rights management (drm)-
+protected streams/files suitable for playing on many types of devices. csp -a also d evelops a global 
+authentication tool and deploys this on paas offerings from other csps worldwide (ic1, ic2). csp-a also books 
+capacity in content distribution network (cdn) services worldwide. when the event begins, millions of 
+consumer devices are able t o authenticate themselves on their local network provider and stream the 
+content from an efficient local source. 

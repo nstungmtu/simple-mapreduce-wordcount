@@ -1,0 +1,49 @@
+security 7 
+ 
+  1031 
+5) security configuration migration management 
+ when cloud computing resource or service changes (such as service capacity expansion, vm 
+migration, etc.), csps should provide dynamic security configuratio n adjustment means. for 
+example, during vm migration, automatic security configuration policy migration  can be 
+implemented through migration status sensing, automatic matching and redeployment of the 
+original security configuration policy, which could ensure security configuration policy consistency 
+and fast deployment in cloud environment, and improve the efficiency of the security operation. 
+6) security configuration isolation management 
+ in a multi -tenancy environment of cloud computing, csps should exec ute strict classification 
+management of cscs' security configuration, and take measures such as authentication, access 
+control, etc. this is to ensure security configuration isolation between different cscs. 
+8.6 security event processing 
+csps should take certain activities to handle security events in cloud computing environment, such as threat 
+alarms, vulnerability, emergency , etc. csps should also  deploy technical measures to assist in detecting, 
+alarming and handling of security events. 
+in general, the p rocedure of security events processing in the cloud computing environment involves the 
+following steps: detecting, analysing, disposing, checking, reporting and recording. csps should explicitly 
+specify the responsible persons in each step. 
+8.6.1 detecting 
+csps should take measures to monitor the security status of the cloud platform mentioned in clause 8.3, and 
+have the abilities to send timely alarms whenever the security events happen. they should ensure that alarms 
+can be sent to the designated person, such as the security manager of the cloud computing platform. the 
+alarms could be sent through e-mails, phone calls, short message service (sms), etc. csps should be sure to 
+monitor all kinds of security events stated in the security clause of sla. 
+8.6.2 analysing 
+csps should confirm the security events after receiving alarms, then analyse and diagnose them to determine 
+the types of events, their causes and handling measures. csps can contact cscs for assistance, if needed. 
+8.6.3 disposing 
+csps should take handling measures according to the security events' types and levels, to minimize the 
+impact of those event s. csps should refer to the security activities mentioned in clauses 8.7, 8.8 and 8.9 , 
+which include but are not limited to the following: 
+1) for a security emergency, csps should take actions according to the emergency response plans. 
+2) for a security vulnerability, csps should take actions according to patch upgrade. 
+3) for a configuration weakness, csps should take actions according to securing configuration management. 
+csps should monitor and assess the security events dynamically, and inform cscs of related information and 
+handling progress. 
+8.6.4 checking 
+after disposing of the security events, csps should further analyse the reasons and situations that may cause 
+the security events, and check if other cscs' system has similar vulnerabilities that may  cause the same 
+security events. if the vulnerability exists , csps should notify the related cscs immediately and take 
+corresponding actions. the notification should not involve any privacy of other cscs. 
+8.6.5 report and recording 
+csps should generate sec urity events processing report which includes t he security events' behaviour, 
+causes, handling measures, etc., and send it to the related  cscs within the time limit stated in the security 
+clause of sla. csps should record the information of security events for later inspection and auditing.  the 
+appropriate reports can be given to the affected cscs and applicable third-party auditors (acting as csn). 

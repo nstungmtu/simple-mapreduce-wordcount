@@ -1,0 +1,41 @@
+cloud computing management 2 
+ 
+  497 
+3.1.4 cloud service partner [itu-t y.3500]: party which is engaged in support of, or auxiliary to, activities 
+of either the cloud service provider or the cloud service customer, or both. 
+3.1.5 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.6 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+note – inter-cloud computing is also referred as inter-cloud. 
+3.1.7 metadata [itu-t m.3030]: data that describes other data. 
+3.1.8 role [itu-t y.3502]: a set of activities that serves a common purpose. 
+3.1.9 product catalogue [itu-t y.3502]: a listing of all the cloud service products which cloud service 
+providers make available to cloud service customers. 
+3.1.10 service catalogue [itu-t y.3502] : a listing of all the cloud services of a particular cloud service 
+provider. 
+3.1.11 service management interface (smi) [itu t y.3521]: interface that provides a set of management 
+capabilities exposed by a cloud service through which the cloud service can be managed. 
+note – for additional details of smi concepts, see [itu t y.3520] and [b -tmf tr198]. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 functional interface : interface that provides a set of functiona l capabilities exposed by a cloud 
+service through which the cloud service can be consumed. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+csc  cloud service customer 
+csn  cloud service partner 
+csp  cloud service provider  
+csu  cloud service user 
+ct  communications technology 
+e2e  end-to-end 
+fi  functional interface 
+it  information technology 
+oss  operational support systems 
+qos  quality of service 
+smi  service management interface 
+wsdl  web services description language 
+5 conventions 
+the keywords "is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 

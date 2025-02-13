@@ -1,0 +1,36 @@
+video processing and storage 4 
+ 
+  757 
+8.4.4 data management requirements 
+– man-006: a vscs system is required to support data management in the cloud, including adding, 
+deleting, browsing, indexing, searching. 
+8.4.5 system management requirements 
+– man-007: a vscs system is required to provide a unified system management interface which can 
+be called conveniently. 
+– man-008: a vscs system is required to provide a visual interface for users. 
+8.4.6 operation management requirements 
+– man-009: a vscs system is required to monitor, record and display the running status of the system. 
+8.5 scalability requirements 
+– sca-001: a vscs system is required to provide storage resource scalability. when the storage 
+equipment is increased or decreased in the system, the storage capacity is increased or decreased 
+accordingly, and the system service is uninterrupted. 
+– sca-002: a vscs system is required to provide storage space scalability for users. the storage space 
+of individual users can be increased or decreased according to each user's demands. 
+– sca-003: a vscs system is required to provide user scalability. the number of supported users can 
+be increased or decreased dynamically. 
+8.6 reliability requirements 
+– rel-001: a vscs system is required to ensure service reliability. when storage equipment fails or 
+the storage system network operation is abnormal, the system service can be used normally. 
+– rel-002: a vscs system is required to ensure data reliability. when data is destroyed, the system 
+can recover it based on the data protection mechanism, e.g., data backup, data coding. 
+8.7 performance requirements 
+– per-001: a vscs system is required to support concurrent user operations. the system can serve a 
+large number of users simultaneously, while ensuring the service quality. 
+bibliography 
+ 
+[b-itu-t m.60]  recommendation itu-t m.60 (1993), maintenance terminology and definitions. 
+[b-itu-t y.101]  recommendation itu-t y.101 (2000), global information infrastructure 
+terminology: terms and definitions. 
+[itu-t fg tr]    itu-t fg technical report: part 1 (2012), introduction to the cloud ecosystem: 
+definitions, taxonomies, use cases and high-level requirements. 
+ 

@@ -1,0 +1,53 @@
+xaas 3 
+ 
+  559 
+8.4 daas platform-daas client interaction functional requirements 
+the functional requirements related to the interaction between daas platform and daas client include: 
+• dynamic configuration adaptation: to improve network throughput, it is recommended that a daas 
+client be able to  dynamically determine its access network types and adapt its configuration 
+(including the network protocols and display resolution) accordingly to ensure network connectivity 
+and improve the user experience. 
+• standard transport protocol support : it is req uired to use stan dard transport protocols 
+(e.g., transmission control protocol  (tcp) [b -ietf rfc  793] and user datagram protocol  (udp) 
+[b-ietf rfc 768]) to deliver daas. 
+• high latency environment:  
+– for applications and elements that are less sensitive to packet loss and only dependent on low 
+latency and jitter (such as for desktop rendering, audio, video streaming, or communications), 
+a loss-tolerant transport (e.g., udp) can optionally be used for allowing immediate delivery with 
+some packet loss, without any need to wait for retransmission of lost packets.  
+– for those applications and elements where data reliability is important (e.g. , for typing), it is 
+recommended to use the standard transports available for this purpose that allows recovering 
+from losses without retransmissions, such as forward error correction (fec). 
+ note 1 – daas is very sensitive to latency and jitter (variation in latency). for example, when daas users type 
+text or move a mouse they need t o see this appear almost immediately on their screen s. for this reason, 
+retransmission is often unacceptable as a mean of error recovery. this constraint on latency and jitter imposes 
+the following daas-specific requirements when suffering from latency.  
+• fall-back to alternative transport : when the standard transport protocol is not available, it is 
+recommended that an automatic fall -back to the alternative protocol is impleme nted by the daas 
+application. an example would be a fall-back from udp to tcp. 
+• daas client reconnection: when there is no response from the daas platform to a service request 
+from a daas client, it is required that the daas client send a reconnection req uest to the daas 
+platform. if the reconnection fails, it is also required that a daas user be notified of loss of service. 
+• display redirection : it is required that the csp redirect display to a csc immediately after the 
+completion of the connection between a daas platform and a daas client. 
+• hybrid resource configuration : it is rec ommended that resources in both a daas platform and a 
+daas client be used simultaneously to achieve the best performance and the csp support the ability 
+to modify their configuration to improve the performance. 
+ note 2 – hybrid means that there can be vari ous combinations of resource configuration between a daas 
+client and a daas platform. 
+8.5 daas security requirements 
+• standard security protocols support : it is recommended to  use standard security protocols for 
+content delivery protection for daas (e.g., secure socket layer (ssl) [b-ietf rfc 6101] and datagram 
+transport layer security (dtls) [b-ietf rfc 6347]). 
+• network separation: it is recommended that daas provide policy -based separation between the 
+daas client's local network, daas provided network and the public internet network. this separation 
+can be logical (e.g., virtual private network (vpn)) or physical as appropriate. 
+ note – in addition to cloud-based resources, daas users may require access to local network resources (such 
+as printers), or the public internet. 
+9 security considerations 
+it is recommended that the security requirements of [b -itu-t y.2201], [b-itu-t y.2701] and applicable x, y 
+and m series of itu -t security recommendations be taken into consideration, including access control, 
+authentication, data confidentiality, communications security, data integrity, availability and privacy. it is also 
+recommended that the security framework for cloud computing described in [itu -t x.1601] be considered. 
+[itu-t x.1601] analyses security threats and challenges in the cloud computing environment, and describes 
+security capabilities that could mitigate these threats and meet security challenges.  

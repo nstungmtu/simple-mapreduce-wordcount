@@ -1,0 +1,24 @@
+4 video processing and storage  
+ 
+786  
+(11) the scu forwards the request to the mdu. 
+(12) the mdu returns the metadata address to the scu. 
+(13) the scu transfers the metadata address to the csau. 
+(14) after receiving the metadata address, the csau requests the mdu to start transmitting the 
+metadata. 
+(15) the mdu sends a request to the ipu for the video metadata or image metadata. 
+(16) the ipu creates a media channel with the mdu and sends the metadata to the mdu. 
+(17) the mdu transfers the metadata to the csau. 
+(18) the csau transfers the metadata to the csdu to store it in the cloud data nodes. 
+(19) when the storage plan is completed, the cu sends a stop request to the csau. 
+(20) the csau transfers this stop request to the mdu. 
+(21) the mdu returns a response to the csau. 
+(22) the csau requests the scu to disconnect. 
+(23) the scu returns a response to end this metadata storage. 
+7.4.5 media acquisition from the cloud storage system 
+when a user wants to view the media stored in a cloud storage system, the cu initiates a request to the scu 
+in order to acquire the media. 
+ 
+figure 7-7 – high-level procedural flows for media acquisition 
+  
+

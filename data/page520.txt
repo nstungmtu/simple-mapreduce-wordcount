@@ -1,0 +1,13 @@
+2 cloud computing management  
+ 
+512  
+summary 
+recommendation itu-t y.3523 specifies the metadata framework for network as a service (naas) service 
+lifecycle management in a closed -loop automation environment. this re commendation is an extension to 
+recommendations itu -t y.3512 and itu -t y.3515 as the naas series recommendations. it provides the 
+metadata framework for naas service lifecycle management with a hi ghlight on a naas operational policy 
+framework. 
+keywords 
+closed-loop automation, lifecycle management, metadata framework, naas service, naas service 
+operational policy framework. 
+  

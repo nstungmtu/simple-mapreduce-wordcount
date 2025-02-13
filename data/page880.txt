@@ -1,0 +1,46 @@
+5 intercloud and interoperability  
+ 
+872  
+– the controllability of the information associated with the primary csp role can be transferred 
+to the secondary csps with minimum interruptions; 
+– a csp is able to cancel the permission transfer arrangements. 
+• inter-cloud service handling should be confirmed as follows: 
+– service intermediation is supported; 
+– service aggregation is supported; 
+– service arbitrage is supported. 
+a csp can make use of one or more cloud services which are provided by other csp. in every patterns of 
+inter-cloud, there ar e two roles of csp – primary csp and secondary csp. the provider making use of the 
+services is termed a primary csp while a provider whose services are being used is termed a secondary csp.  
+there are two types of relationship between a primary csp and a secondary csp: 
+• the use of secondary csp's cloud services by a primary csp; 
+• the use of secondary csp 's business and administration capabilities by the primary csp 's cloud 
+service operations manager and csp's cloud service manager to establish and control the use of the 
+secondary csp's cloud services. 
+based on the reference architecture, the interworking involved in csp -csp relationship and corresponding 
+test objectives can be identified as follows: 
+• interworking between primary csp and csc 
+test objective is to verify that csc can use cloud service, administer use of cloud service and perform 
+business administration to the cloud services, in peering, federation or intermediary pattern; 
+• interworking between primary csp's peer service integration component and secondary csp 
+test objective is to verify that primary csp can connect to services of secondary csp with appropriate 
+security and with appropriate accounting for the usage;   
+• interworking between primary csp's peer service management component and secondary csp 
+test objective is to verify that the primary csp's operational support systems and business support 
+systems can be connected to the administration capabilities and business capabilities of secondary 
+csp; 
+• interworking between csps to form and maintain inter-cloud pattern 
+test objective is to verify that multiple csp can interact to form and maintain the peering, federation 
+or intermediary pattern. 
+8 cloud computing interoperability testing between csp and its management system 
+the interface of management system is used to interact with cloud ser vices to provide supporting 
+capabilities, such as monitoring and provisioning of cloud service. as described in [itu-t y.3502 ], 
+management functional components are implemented in multi -layer functions in reference architecture. 
+interoperability testing is done to verify the following test objective: 
+• operational support test 
+test objective is to verify that csp can perform oss related operation that required managi ng and 
+controlling the cloud services offered to csc, including runtime administration, monitoring, 
+provisioning and maintenance. 
+• business support test 
+test objective is to verify that csp can provide a set of business -related management capabilities 
+dealing with customers and supporting processes, including product catalogue, billing and financial 
+management. 

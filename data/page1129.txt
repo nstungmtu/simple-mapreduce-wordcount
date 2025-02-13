@@ -1,0 +1,13 @@
+ assisting developing countries 8 
+ 
+   1121 
+2.5 do you consider important the rapid provisioning of cloud computing services? 
+ 
+figure ii.11 – importance of rapid cloud service provisioning 
+2.6 do you consider important the dynamic provisioning of cloud computing services? 
+ 
+figure ii.12 – importance of dynamic cloud service provisioning 
+2.7 do you consider important data sharing through centralized consolidation at data centre level? 
+ 
+figure ii.13 – importance of data centre sharing 
+

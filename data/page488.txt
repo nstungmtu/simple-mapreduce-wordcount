@@ -1,0 +1,45 @@
+2 cloud computing management  
+ 
+480  
+6.4 resource management for a single cloud service provider 
+the overall resource management should be viewed from the point of view of the lifecycle management of 
+a cloud application. the app lication, as it passes through its lifecycle, must be acted upon by traditional 
+business process es associated with management system functions such as administration, provisioning, 
+configuration, service assurance and charging. 
+as shown in figure 1, in the simpler case of an application that resides on a single cloud computing system, 
+it becomes dependent on two distinct categories of virtualized resources. the dotted arrows depict the active 
+coordinated relationship that must be maintained between resources at each level. 
+y.3520(13)_f01
+application
+cloud
+virtualized
+resources
+network
+virtualized
+resources
+ 
+figure 1 – applications residing on a single cloud computing system 
+note – although figure 1 divides virtualized resources into "cloud" and "network", cloud computing considers all 
+resources at the same level [itu-t y.3502]. 
+a resource management issue requiring further work is how to use existing cloud management systems to 
+maintain awareness of which logical and physical reso urces are actually relevant to a specific instance of a 
+specific application at any given point in time. 
+due to the rapid elasticity and scalability characteristic of cloud computing [ itu-t y.3500 ], the cloud 
+computing system can configure additional resources to handle changing application demands; there are 
+additional requirements, needing further analysis, for dynamically reconfiguring the underlying network 
+configurations in response to the changing resources at various components of the cloud computing system. 
+this issue arises both within the internal network fabric of large cloud computing data centres, between the 
+interconnecting networks in hybrid scenarios, and across transport networks and content delivery networks. 
+another issue that arises is the division of responsibility between an internal cloud computing virtualization 
+management system and an external management system. although the cloud computing virtualizatio n 
+function can typically manage its own physical and logical resource allocations for supported applications, an 
+external management system may be desired to dynamically reallocate resources in a coordinated fashion 
+across the three levels shown in figure 1 or to track and have knowledge of those changing relationships. 
+as shown in figure 2, the capability of a management system to both manage resource allocations and track 
+their instantaneous state could enable that management system to provide the informa tion necessary to 
+display the status of a given service and all of the underlying relevant resources, at any given point in time. 
+from the point of view of the quality of service of resource management, the issue is how to ensure that the 
+service assurance systems are receiving relevant telemetry from the cloud computing or network resources 
+actually involved in delivering a particular instance of a service. the issue is less concerned with what 
+telemetry data needs to be managed, as each dataset is often u nique to a given management system 
+implementation, but is more concerned with how to use the cloud computing system to do so effectively. 

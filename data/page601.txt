@@ -1,0 +1,34 @@
+xaas 3 
+ 
+  593 
+• operational support systems functional component-monitoring and reporting: monitoring and 
+controlling virtual desktop resource function (see clause 7.3.1) 
+• operational support systems functional component -service policy management: operational 
+policy management for daas function (see clause 7.3.4) 
+• operational support systems functional comp onent-platform and virtualisation management: 
+virtual desktop resource allocation and distribution function (see clause 7.3.3) 
+• operational support systems functional component -incident and problem management: high 
+availability for daas function (see clause 7.3.5), power management of virtual desktop resource 
+function (see clause 7.3.6) 
+• business support systems functional component -account management: user account and 
+profile management function (see clause 7.3.2) 
+there are four daas functions that are not mapped to any functional components in [itu-t y.3502]; they can 
+be located in the layering framework as follows: 
+– user layer:  
+• connection negotiation function (see clause 7.4.2), c lient peripheral connection function (see 
+clause 7.4.3), service continuity for user environment function (see clause 7.4.4) 
+– multi-layer functions: 
+• operational support systems functional component: p rovisioning and allocation of virtual 
+desktop function (see clause 7.2.4) 
+the detailed mapping is in appendix ii. 
+since there are no reference points among functional components in [itu-t y.3502], it is necessary to adopt 
+the grouping of daas functions in order to specify their reference points for convenience. clause 9 explains 
+the reference points based on four grou ps of daas functions as in figure 7 -1, i.e., client support functions, 
+virtual desktop connection and delivery functions, virtual desktop resource management functions, and 
+virtualization infrastructure functions. 
+9 daas functional architecture 
+9.1 client support functions 
+the client support functions (cs -fs) have four functions in cluding: connection negotiation function (cn -f), 
+client peripheral connection function (cpc-f), service connection function (sc -f), and service continuity for 
+user environment function (scue-f) as shown in figure 9-1. the cs-fs interfaces with only the virtual desktop 
+connection and delivery functions (vdcd-fs). 

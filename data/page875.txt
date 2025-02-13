@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  867 
+this recommendation covers the typical functional components, not all components, and interworking 
+among them in clauses 7, 8 and 9. 
+5.1 common aspects to be considered in cloud computing interoperability testing 
+the aspects which should be considered for the testing of cloud computing interope rability need to be 
+prescribed according to the requirements described in [itu -t y.3501]. the following items, picked up from 
+the general requirements for cloud computing [itu-t y.3501], indicate common aspects to be considered in 
+cloud computing interoperability testing: 
+• service life-cycle management 
+it is required that cloud computing supports automated  service provisioning, modification and termination 
+during the service life-cycle. 
+• regulatory aspects 
+it is required that all applicable laws and regul ations be respected,  including those related to privacy 
+protection. 
+• security 
+it is required that the cloud computing environment be appropriately secured to  protect the interests of all 
+persons and organizations involved in the cloud computing ecosystem. 
+• accounting and charging 
+it is recommended that cloud computing supports various accounting and charging models and policies. 
+• efficient service deployment 
+it is recommended that cloud computing enables efficient use of resources for service deployment. 
+• interoperability 
+it is recommended that cloud computing systems comply with  appropriate specifications and/or standards 
+for allowing these systems to work together. 
+• portability 
+it is recommended that cloud computing supports the portability of software assets and data of cloud service 
+customers (cscs) with minimum disruption. 
+• service access 
+cloud computing is recommended to provide cscs with access to cloud  services from a variety of user 
+devices. it is recommended that cscs be provided with a consistent experience when accessing cloud services 
+from different devices. 
+• service availability, service reliability and quality assurance 
+it is recommended that the  cloud service provider (csp) provides end -to-end quality of service ass urance, 
+high levels of reliability and continued availability. 
+5.2 infrastructure capabilities type interoperability testing 
+cloud infrastructure includes compute, storage, network and other hardware resources, as well as software 
+assets. abstraction and control of physical resources are essential means to achieve on -demand and elastic 
+characteristics of cloud infrastructure. this way, physical resources can be abstracted into virtual machines 
+(vms), virtual storage and virtual networks. the abstracted reso urces are controlled to meet cloud service 
+customers' (csc) needs. [itu-t y.3510] 
+the goal for cloud infrastructure capabilities type interoperability is to devise and implement testing methods 
+and conduct a basic set of functional tests for infrastructure capabilities type (iaas) interoperability in a hybrid 
+cloud environment using both private and public clouds. 

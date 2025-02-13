@@ -1,0 +1,42 @@
+5 intercloud and interoperability  
+ 
+850  
+the inter-cloud computing functional architecture [itu-t y.3516] identifies inter-cloud specific extensions to 
+functional components that are part of integration, security systems, operations support systems (osss) and 
+business support systems (bsss). for trusted inter-cloud, it defines a function called trust management. the 
+trust management functionalities (see clause 6.2 of [itu-t y.3514]) are supported by the "authorization and 
+security policy management" functional component within the multi-layer functions of the cloud computing 
+reference architecture [itu-t y.3502]. inter-cloud trust management can be realized using above functional 
+components and functionalities. inter-cloud trust management is also supported by functional components 
+for managing isolation and security mechanisms, these functional components located in the 
+"security systems" of the cloud computing reference architecture, as well. 
+this recommendation is based on the functions defined in [itu-t y.3502], [itu-t y.3516] and [itu-t y.3514]. 
+this recommendation focuses on the trust management model and requirement s in an inter-cloud 
+environment based on the establishment of relationship s (patterns) among multiple peer csps, including 
+peering, federation and intermediary which are defined in [itu-t y.3511]. 
+7 requirements for inter-cloud trust management 
+this clause identifies requirements applicable to inter-cloud trust management. 
+7.1 inter-cloud trust policies and credentials 
+it is recommended that a csp provides specification of policies and credentials used for trust management. 
+it is recommended that a csp implements a trust management system to evaluate whether the provided 
+credentials satisfy the specified policy. 
+7.2 inter-cloud reputation scoring 
+it is recommended that a csp uses a trust scheme to evaluate whether other csps among inter -cloud 
+relationships fulfil trust management requirements. 
+it is recommended that a csp evaluate other csps among inter -cloud relationships to create and update 
+reputation scoring of csps. 
+7.3 inter-cloud reputation-based trust evaluation 
+it is recommended that a csp has a trust evaluation system to manage other csps' reputations. 
+it is recommended that a csp supports query and compares reputation of other csps from a third- party trust 
+evaluation system. 
+7.4 sso authentication 
+it is recommended that a csp supports an sso mechanism to enable a csc’s access to various services offered 
+by different csps once it is successfully authenticated by inter-cloud. 
+7.5 periodical verification 
+it is recommended that a csp supports a periodical verification mechanism to check if a csc still ha s the 
+privilege of accessing the csp's service. 
+7.6 control privilege for vm and data 
+it is recommended that a csp avoids inspection or analysis of a csc's data and vm instances without explicit 
+csc consent. 
+it is recommended that a csp supports fine -grained csc control over protection of its cloud resources 
+according to a given security sla. 

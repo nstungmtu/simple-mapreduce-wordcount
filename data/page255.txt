@@ -1,0 +1,40 @@
+ framework and requirements for cloud computing 1 
+ 
+   247 
+table ii.2 – customer-oriented cloud service provisioning on distributed cloud 
+use case 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+requirements – adaptive resource composition (see clause 7.1) 
+– service routing (see clause 7.2) 
+– network services delivery (see clause 7.2) 
+– context awareness (see clause 7.2) 
+– context information management (see clause 7.4) 
+ii.3 distributed cloud infrastructure and service management 
+table ii.3 – distributed cloud infrastructure and service management 
+use case 
+name distributed cloud infrastructure and service management 
+description this use case describes the distributed cloud infrastructure and service management. 
+distributed cloud infrastructure includes processing, storage, networking and other hardware 
+resources as well as software assets. distributed cloud infrastructure management is the 
+management of hardware resources and software assets of distributed cloud.  
+distributed cloud includes core, regional and edge clouds, which are different in size, hardware 
+types and software. for example, a distributed cloud resource may use a graphics processing unit 
+(gpu) or field-programmable gate array  (fpga) hardware for ar/ vr scenarios and 
+microprocessor-based server instead of x86 server for some specified application. these 
+resources are distributed across various environments. thus, resources need to be isolated and 
+protected in secure manner. 
+distributed cloud provides f lexible and agility network connectivity for core, regional and edge 
+clouds. the network connection can be changed on demand or based on policy, such as active -
+standby policy. 
+the ultimate objective of distributed cloud is to provide distributed cloud serv ices for the 
+customers. the distributed cloud encapsulates the capabilities of distributed cloud infrastructure 
+into various cloud services for the end customers. 
+distributed cloud is a hierarchical system, in which each core cloud, regional cloud and edge cloud 
+could manage its local infrastructure and service, and the infrastructure and service of the whole 
+distributed cloud could be unified managed and coordinated by the distributed cloud 
+management. 

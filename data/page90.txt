@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+82  
+8.5.13 service levels and service level agreements 
+service level agreements  are important components of cloud computing  governance and repr esent 
+measurable elements needed to assure an agreed upon quality of service between a cloud service customer 
+and a cloud service provider. 
+the cloud computing service level agreement  (cloud sla) is a service level agreement  between a cloud 
+service provider and a cloud service customer based on a taxonomy of cloud computing specific terms to 
+set the quality of the cloud services delivered. it characterizes the quality of the cloud services delivered in 
+terms of: 
+• a set of measurable properties specific to cloud computing (business and technical); 
+• a given set of cloud computing roles (cloud service customer and cloud service provider and related 
+sub-roles). 
+for instance, cloud service customers need a cloud sla to specify the technical performance requirements 
+of one or more cloud services . a cloud sla can cover terms regarding  the quality of service, security, 
+performance and remedies for failures to meet the terms of  the sla. a cloud service provider can also list 
+within the cloud sla a set of promises ex plicitly not made to cloud service customers, i.e., limitations and 
+obligations that cloud service customers need to accept. a cloud sla should define the classification of data 
+objects (i.e., cloud service customer data, cloud service provider data, and cloud service derived data), who 
+has access and control of data objects in these data classifications and how they will be used.  
+the service level agreement  should specify information relating to the availability of the services, the 
+confidentiality and integrity of the services and the access controls which apply to the services. the service 
+level agreement should specify how any personally identifiable information will be handled in relation to 
+the cloud services. 
+the service agreement – alternatively known as the master service agreement (msa), terms of service (tos), 
+terms and conditions (t&c), or simply "the contract" – is the higher order document in agreements between 
+parties and the service level agreement (sla) is subservient. this is an important distinction because the sla 
+acronym is frequently, and incorrectly, used to reference the contractual relationship as a whole – a role that 
+an sla alone is incapable of performing. the service agreement addresses the whole of the contr actual 
+relationship and therefore contains contractual elements not directly related to cloud computing. 
+9 functional view 
+9.1 functional architecture 
+the functional architecture for cloud computing describes cloud computing in terms of a high level set of  
+functional components. the functional components represent sets of functions that are required to perform 
+the cloud computing activities  described in clause 8 for the various roles and sub-roles involved in cloud 
+computing. 
+the functional architecture describes functional components in terms of a layering framework where specific 
+types of functions are grouped into each layer and where there are interfaces between the functional 
+components in successive layers. 
+9.1.1 layering framework 
+the layering framework used in the ccra has four layers, plus a set of functions which spans across the layers. 
+the four layers are: 
+• user layer; 
+• access layer; 
+• service layer; 
+• resource layer. 
+the functions which span the layers are called the multi-layer functions. 

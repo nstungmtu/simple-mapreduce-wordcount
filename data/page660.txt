@@ -1,0 +1,58 @@
+3 xaas  
+ 
+652  
+i.3  iaas computing service use case 
+use case 
+name  iaas use case on computing 
+abstract  csc uses physical machine or virtual machine provided by the csp. 
+roles  csc, csp 
+figure  
+y .3513(14)_fi.3
+vm vm
+vm vm
+vm vm
+vm vm
+vm vm
+vm vm
+cloud infrastructure
+computing resource pool
+csp
+csc
+portal
+physical servers
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism and 
+retrieves the functions exposed that are related to computing. 
+post-conditions 
+(optional)   
+description – csc accesses and queries the csp portal to retrieve the list of supported functions 
+necessary for computing functions. 
+– csc selects the appropriate template and image from the query results and requests 
+csp to create a virtual machine or physical machine based on the selection. 
+– csp creates a virtual machine or physical machine from the computing resource pool 
+based on the information provided by the csc. 
+– csc requests csp to start up the virtual machine or physical machine.  
+– csc manages and monitors the created virtual machine or physical machine during its 
+lifecycle. it includes, but not limited to: 
+• start, shutdown, suspend, restore, hibernate, wakeup and delete the virtual 
+machine; 
+• start, shutdown, hibernate and wakeup physical machine; 
+• query the virtual machine or physical machine information and its status; 
+• set migration or scaling policies for the virtual machine; 
+• scaling the virtual machine; 
+• execute performance metrics; 
+• snapshot, backup, clone the virtual machine; 
+• configure vm time synchronization; 
+• reservation computing resource; 
+• make image based on the virtual machine; 
+• generate template based on the virtual machine. 
+requirements  – physical machine (refer to clause 7.1.1) 
+– virtual machine (refer to clause 7.1.2) 
+– vm migration (refer to clause 7.1.3) 
+– vm scaling (refer to clause 7.1.4) 
+– vm snapshot (refer to clause 7.1.5) 
+– vm clone (refer to clause 7.1.6) 
+– vm backup (refer to clause 7.1.7) 
+– vm time synchronization (refer to clause 7.1.8) 

@@ -1,0 +1,39 @@
+5 intercloud and interoperability  
+ 
+836  
+ii.5 reference point: i-ssm-psm 
+the subscription management functional component interacts with peer service management functional 
+component through i-ssm-psm to access the bsss of a peer csp for subscription. 
+ii.6 reference point: i-blg-ipm 
+the billing functional component interacts with incident and problem management functional component 
+through i-blg-ipm to get inter-cloud incident and problem information for billing. 
+ii.7 reference point: i-blg-mr 
+the billing functional component interacts with monitoring and reporting  functional component through 
+i-blg-mr to get inter-cloud service monitoring information for billing. 
+ii.8 reference point: i-blg-sc 
+the billing functional component interacts with service catalogue functional component through i-blg-sc to 
+get inter-cloud service catalogue information for billing. 
+ii.9 reference point: i-blg-sp 
+the billing functional component interacts with service provisioning functional component through i -blg-sp 
+to get inter-cloud service provisioning information for billing. 
+ii.10 reference point: i-blg-sa 
+the billing functional component interacts with service automation functional component through i -blg-sa 
+to get inter-cloud service automation information for billing. 
+ii.11 reference point: i-blg-spm 
+the billing functional component interacts with service policy management  functional component through 
+i-blg-spm to get inter-cloud service policy information for billing. 
+ii.12 reference point: i-blg-slm 
+the billing functional component interacts with service level management  functional component through 
+i-blg-slm to get inter-cloud service level information for billing. 
+ii.13 reference point: i-blg-psm 
+the billing functional  component interacts with service level management  functional component through 
+i-blg-psm to exchange with peer csp's billing. 
+ii.14 reference point: i-sp-sc 
+the service catalogue functional component interacts with service p rovisioning functional componen t 
+through i-sp-sc to provision inter-cloud service by using inter-cloud service templates. 
+ii.15 reference point: i-slm-sc 
+the service catalogue functional component interacts with service level management functional component 
+through i-slm-sc to exchange service level information. 
+ii.16 reference point: i-psm-sc 
+the service catalogue functional component interacts with peer service management functional component 
+through i-psm-sc to access the inter-cloud service catalogue of a peer csp. 

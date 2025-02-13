@@ -1,0 +1,58 @@
+ framework and requirements for cloud computing 1 
+ 
+   413 
+• tmf061 release 1.0 : the sdf ra release 1 defines the scope and characteristics of the essential 
+elements which constitute the patterns that the sdf architecture must support. 
+ uri: http://www.tmforum.org/technicalspecifications/tmf061servicedelivery/39341/ 
+article.html  
+table 17-2 provides an analysis of itu-t sg11 deliverables. 
+table 17-2 – analysis of tm forum deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security       
+management       
+inter-cloud, csb       
+sla, metering       
+testing       
+others   tmf061 
+release 1.0 
+   
+18 atis 
+table 18-1 provides a list of atis deliverables associated with cloud computing. 
+table 18-1 – atis deliverables 
+title of deliverable current status starting 
+date target date 
+atis-0200005, cloud framework for telepresence 
+service 
+published  02/2012 
+atis-0200008, trusted information exchange (tie) published  10/2012 
+atis-0200009, cloud service lifecycle checklist published  11/2012 
+atis-0200006, virtual desktop requirements published  05/2012 
+atis-0200010, cdn interconnection use cases and 
+requirements in a multi-party federation environment 
+published  12/2012 
+atis-0200011, multicast delivery of content to mobile 
+end user devices 
+approved  02/2014 
+• atis-0200005: this specification establishes a foundation for continuing atis work efforts on unified 
+visual communications. the specification explores a provider -agnostic and product -agnostic 
+implementation. it will consider two primary aspects of the telepresence service. the first is use 
+cases such as immersive telepresence that are deployed today. the second are future cases resulting 
+from the application of the cloud and service evolution in the future. 
+ uri: http://www.atis.org/docstore/product.aspx?id=26079  
+• atis-0200008: this document describes the trusted information exchange as an aggregated service 
+and lists the high level requirements. 
+ uri: http://www.atis.org/docstore/product.aspx?id=26798  

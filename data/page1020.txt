@@ -1,0 +1,47 @@
+7 security  
+ 
+1012 
+7 guidelines for security controls related to data security 
+this clause provides guidelines for security controls related to the stages of the data security lifecycle 
+described in clause 6.4. 
+7.1 security controls in create stage 
+guidelines for security controls in the create stage include the following: 
+a) csps should define categories of data sensitivity.  user tagging of data may be leveraged to help 
+classify the data. 
+b) data should be classified according to its sensitivity when it is created. 
+c) csps should consider enterprise digital rights mechanisms or encryption to protect sensitive data 
+from unauthorized access. 
+7.2 security controls in transmit stage 
+guidelines for security controls in the transmit stage include the following: 
+a) csps should apply technological methods to ensure the security of the authentication data. 
+b) csps should support users in the maintenance of secure transmission of critical operation data and 
+management data. 
+c) damage to data integrity should be detected promptly during transmission and necessary measures 
+taken to restore data integrity after errors are detected. 
+7.3 security controls in storage stage 
+guidelines for security controls in the storage stage include the following: 
+a) csps should identify access co ntrols available to the csc to use with users' data from storage 
+repositories, such as those defined in [itu-t x.1631]. 
+b) csps should apply encryption technology or other safeguards to ensure the storage confidentiality 
+of authentication data. 
+c) csps should support users in the maintenance of confidential storage of critical operation data and 
+management data. 
+d) csps should provide effective hard disk protection methods or adopt fragmentally storage 
+mechanisms to prevent unauthorized users obtaining valid user data from the hard disk, even if it is 
+stolen. 
+e) damage to storage data integrity should be detected promptly and necessary measures taken to 
+restore data integrity after errors are detected. 
+f) a user's optional configuration of encryption parameters, such as algorithms, strength and schemas, 
+should be supported. 
+g) csps should support users in the selection of a third-party encryption mechanism to encrypt the key 
+data. 
+h) csps should support data encryption using secure keys and support storage and maintenance of the 
+secure keys locally. 
+i) csps should provide effective virtual machine image file loading protection methods to prevent 
+unauthorized users running their own computing resources from the hard disk, even if it is stolen. 
+7.4 security controls in use stage 
+guidelines for security controls in the use stage include the following: 
+a) csps should authorize and verify the utilization of data. 
+b) utilization of sensitive data should be audited, with audit logs generated. 
+c) csps should apply mali cious activity monitoring and enforcement mechanisms according to their 
+responsibility and rights to discover threats and control data usage. 

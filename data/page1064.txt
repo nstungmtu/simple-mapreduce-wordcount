@@ -1,0 +1,43 @@
+7 security  
+ 
+1056 
+8.3.1 management of removable media 
+control 8.3.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+8.3.2 disposal of media 
+control 8.3.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+8.3.3 physical media transfer 
+control 8.3.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9 access control 
+9.1 business requirements of access control 
+the objective specified in clause 9.1 of iso/iec 27002 applies. 
+9.1.1 access control policy 
+control 9.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9.1.2 access to networks and network services 
+control 9.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer's access control policy for 
+the use of network services should specify requirements 
+for user access to each separate cloud service that is 
+used. 
+(no additional implementation guidance) 
+9.2 user access management 
+the objective specified in clause 9.2 of iso/iec 27002 applies. 
+9.2.1 user registration and deregistration 
+control 9.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+(no additional implementation guidance) to manage access to cloud services by a cloud service 
+customer's cloud service users, the cloud service 
+provider should provide user registration and 
+deregistration functions, and specifications for the use 
+of these functions to the cloud service customer. 
+9.2.2 user access provisioning 
+control 9.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 

@@ -1,0 +1,24 @@
+xaas 3 
+ 
+  713 
+ 
+figure 6-2 – relationship between user view and functional view 
+in terms of user view, 4 sub-roles and 12 activities are defined in [itu-t y.3600]. these activities in the user 
+view are supported by  functional components in the functional view. clause 7 identifies the functional 
+components needed for support of the activities and of the requirements defined in [itu-t y.3600]. 
+note – appendix i provides the mapping between requirements, activities and functional components.  
+7 functional architecture for bdaas 
+this clause defines the functional architecture for support of the bdaas cloud service category. the functional 
+architecture is identified on the basis of the analysis of requirements and capabilities of cloud computing 
+based big data described in [itu-t y.3600]. 
+according to the cloud computing layering fr amework [itu-t y.3502], the functions in the cloud computing 
+functional architecture are d ivided into four layers and a division called multi -layer functions, which spans 
+across the four layers. 
+following the methodology of [ itu-t y.3502], the bdaas functional architecture is described from a set of 
+functional components. the functional components consist of sets of functions that are required to perform 
+bdaas activities for the roles and sub-roles described in [itu-t y.3600]. 
+figure 7-1 shows the functional architecture for bdaas. the bdaas architecture is defined by leveraging cloud 
+computing reference architecture (ccra) ([itu-t y.3502]) with: 
+– extensions to the existing functional components; 
+– adding new functional component. 
+

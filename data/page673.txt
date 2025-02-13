@@ -1,0 +1,43 @@
+xaas 3 
+ 
+     665 
+1 scope 
+this recommendation provides the network as a service (naas) functional architecture by specifying 
+functionalities and functional components as well as reference points for the operation support system (oss). 
+the scope of this recommendation consists of: 
+– overview of the naas functional architecture; 
+– naas functionalities; 
+– naas functional components; 
+– oss reference points in the naas functional architecture. 
+this recommendation also provides appendixes describing: 
+– the mapping between naas functionalities described in this recommendation and naas functional 
+requirements specified in [itu-t y.3512]; 
+– the relationship between the naas functional architecture and software-defined networking (sdn); 
+– an illustrated usage of sdn and network functions virtualization (nfv) in support of the naas 
+functional architecture. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate th e possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it,  as a stand-
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.2320] recommendation itu-t y.2320 (2015), requirements for virtualization of control 
+network entities in next generation network evolution. 
+[itu-t y.3300] recommendation itu-t y.3300 (2014), framework of software-defined networking. 
+[itu-t y.3302] recommendation itu-t y.3302 (2017), functional architecture of software-defined 
+networking (sdn). 
+[itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[itu-t y.3501] recommendation itu-t y.3501 (2016) | iso/iec 17789:2014, cloud computing – 
+framework and high-level requirements. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014), information technology – cloud computing – 
+reference architecture. 
+[itu-t y.3512] recommendation itu-t y.3512 (2014), cloud computing – functional requirements of 
+network as a service. 
+[itu-t y.3521] recommendation itu-t y.3521/m.3070 (2016), overview of end-to-end cloud 
+computing management. 
+[itu-t y.3522] recommendation itu-t y.3522 (2016), end-to-end cloud service lifecycle 
+management requirements. 

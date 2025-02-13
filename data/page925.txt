@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  917 
+[nist sp 500-293vol1] nist sp 500-293, us government cloud computing technology roadmap 
+volume i release 1.0: high-priority requirements to further usg agency cloud 
+computing adoption. 
+[nist sp 500-293vol2] nist sp 500-293, us government cloud computng technology roadmap 
+volume ii release 1.0: useful information for cloud adopters. 
+[nist sp 800-145] nist sp 800-145 (2011), the nist definition of cloud computing. 
+oasis references 
+[oasis tosca-v1.0] oasis tosca-v1.0, topology and orchestration specification for cloud 
+applications version 1.0. 
+tm forum references 
+[tmf gb917]   tmf gb917, sla management handbook. 
+[tmf gb963]   tmf gb963, cloud sla application note. 
+[tmf tr174]   tmf tr174, enterprise-grade external compute iaas requirements. 
+[tmf tr178]   tmf tr178, enabling end-to-end cloud sla management. 
+[tmf tr194]   tmf tr194, multi-cloud service management accelerator pack-introduction. 
+3 abbreviations and acronyms 
+this supplement uses the following abbreviations and acronyms: 
+3cpp china cloud computing promotion and policy forum 
+bpaas business process as a service 
+cci cloud computing interoperability  
+cdmi cloud data management interface 
+cimi cloud infrastructure management interface 
+cmi cloud management initiative  
+cpip cloud portability and interoperability profile  
+csc cloud service customer 
+csmic cloud services measurement initiative consortium 
+csp cloud service provider 
+ct-ccvocab collaborative teams on cloud computing overview and vocabulary 
+daps distributed application platforms and services 
+dmtf distributed management task force 
+enisa european network information security agency 
+etsi  european telecommunications standards institute 
+gictf global inter-cloud technology forum 
+iaas  infrastructure as a service 
+ict information and communication technology   
+ieee institute of electrical and electronics engineers 
+iec international electrotechnical commission 
+iso international organization for standardization 
+it information technology 

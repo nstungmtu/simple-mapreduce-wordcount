@@ -1,0 +1,51 @@
+xaas 3 
+ 
+    655 
+use case 
+description – csc configures the backup policy for the vm, and the policy could be weekly backup. 
+– csp performs the backup operation according to the policy the csc configured.  
+– csp detects that the vm becomes faulty or its data is lost, csp recovers the vm using 
+backup automatically without csc's awareness. 
+requirements  – vm backup (refer to clause 7.1.7) 
+ 
+i.4  iaas storage service use case 
+use case 
+name  iaas use case on storage 
+abstract  csc uses block, file or object storage directly or attach to the virtual machine provided by 
+the csp 
+roles  csc, csp 
+figure  
+y .3513(14)_fi.4
+cloud infrastructure
+storage
+resource pool
+csp
+csc
+portal
+computing
+resource pool
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through the portal with appropriate security mechanism and 
+retrieves the functions exposed that are related to storage and attached computing, if 
+needed. 
+post-conditions 
+(optional)   
+description – csc accesses and queries the csp portal to retrieve the list of supported functions 
+related to storage functions. 
+– csc selects the appropriate storage from the query results and requests the csp to 
+create block, file or object storage based on the selection. 
+– csp creates block, file or object storage from the storage resource pool based on the 
+information provided by the csc. 
+– csc attaches the created storage to specified virtual machine if needed.  
+– csc manages and monitors the created storage during its lifecycle. it includes, but not 
+limited to: 
+• create, attach, detach, query and delete a volume of storage at either block level or 
+file-system level; 
+• write, read and delete data; 
+• query the storage information and its status; 
+• set migration or i/o limitation policies; 
+• execute performance metrics; 
+• snapshot or backup the storage; 
+• reservation storage resource. 

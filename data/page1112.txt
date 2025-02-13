@@ -1,0 +1,43 @@
+8 assisting developing countries  
+ 
+1104  
+the data centres are built to tier iii standard with multiple dark fibre and mpls links, multiple dwdm and 
+dual full stack ipv4 and ipv6 support. 
+the zambia national data ce ntre is cognisant of the challenges affecting cloud computing uptake in the 
+country. among the challenges is connectivity. the data centres have been declared as carrier neutral data 
+centres allowing all isps and carriers in the country to form a local traffic fabric loop at the data centres. with 
+this, data centre clients have a choice of internet service providers to choose from as and when service level 
+agreements (slas) are not met. 
+in cognizance of security challenges, measures have been taken to mitig ate these challenges by adopting 
+best practices from regional data centres in kenya and south africa. the data centres have adopted iso 27001 
+and is in the process of undergoing the payment card industry data security standard ( pci dss) to optimise 
+security as the centre will handle financial data. 
+in order to increase client confidence and trust, the zndc facilities are undergoing tier iii certification with 
+the uptime institute (ui) to guarantee availability and operational and sustainability of the facility. 
+ 
+case study 2: tunisie télécom 
+tunisie télécom, the incumbent telecom operator in tunisia, considers data centres as an extension of its 
+infrastructure to support the convergence of communication and information technologies. in this regard, 
+tunisie télécom has built, to date, three data centres, as follows: 
+a) primary data center: carthage data centre 
+located in the northern suburb of the capital tunis, and inaugurated in october 2013, this data centre, is 
+the largest data centre of tunisie t élécom (space of the data centre: 2 700 m2, hosting space: 660 m2) and 
+it has the largest capacities among tunisie télécom's data centres in terms of hosting (200 racks), energy 
+and connectivity.  
+this data centre is iso 27001-certified (information security management system) since may 2016 and it is 
+compliant with the specifications of iso 14001 ( environmental management system ) and tier iii 
+certifications (the process of request of these two certifications is ongoing). carthage data centre is 
+currently hosting the cloud computing platform of tunisie télécom as well as data for many clients from 
+tunisia. 
+b) secondary data centre: kasba data centre 
+this data centre is located in the capital tunis, around 20 km from the primary data centre. it was the first 
+data centre established by tunisie télécom over an area of 280 m². this data centre is hosting the saas 
+platform of tunisie télécom. 
+c) disaster recovery data centre: kairouan data centre 
+this data centre was recently established and it is locat ed in the western reg ion of the country, around 
+160 km from the primary data centre. it is used for disaster recovery and it guarantees a physical and 
+geographical redundancy. 
+each data centre is compliant with [tia -942 standards], and each of them is conn ected with at least two 
+different fibre links to tunisie télécom's mpls backbone to ensure redundancy (10  gbit/s fibre links for 
+carthage and kairouan data centres and 1 gbit/s fibre links for kasba data centre).  
+  

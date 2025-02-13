@@ -1,0 +1,74 @@
+1 framework and requirements for cloud computing  
+ 
+138  
+appendix ii 
+ 
+comparison analysis between cloud computing and data storage federation 
+(this appendix does not form an integral part of this recommendation.) 
+table ii.1 shows the mapping between data storage federation ecosystem and the ccra user view. the dsf 
+service customer has two sub-roles and these sub-roles are mapped onto the csc:cloud service user because 
+two sub -roles have a relationship of using service. the dsf local storage  provider and c sp:cloud service 
+manager and csp:cloud service operations manager, which provide data storage, are mapped in the 
+perspective of providing service. however, for the dsf service provider, the additional considerations in data 
+storage perspective are needed i n cloud computing. to federate and provide data storage from dsf local 
+storages, such as cloud storage and non-cloud storage, they are properly described in csp as new sub-roles, 
+activities and involvements. 
+table ii.1 – mapping between data storage federation ecosystem and ccra user view 
+itu-t y.3505  
+(dsf) 
+itu-t y.3502  
+(cloud computing) note 
+roles activities sub-roles activities 
+dsf service 
+customer 
+• use dsf service csc:cloud 
+service user 
+• use cloud 
+service 
+• the additional considerations in data 
+storage and data perspective on the 
+federated storage environment are 
+needed. 
+dsf service 
+provider 
+• provide virtual 
+storage pool  
+• provide single 
+virtual volume 
+• manage storage 
+management 
+metadata 
+• manage data 
+storage policy 
+– – • the additional considerations in data 
+storage perspective are needed as sub-
+roles and activities in csp. 
+• the sub-roles and activities support the 
+data storage federation service. 
+• manipulate dsf 
+data 
+• manage data 
+operation 
+metadata 
+• manage data 
+manipulation 
+policy 
+– – • the additional considerations in data 
+storage perspective are needed as sub-
+roles and activities in csp. 
+• the sub-roles and activities support the 
+data storage federation service. 
+dsf local 
+storage 
+provider 
+• provide dsf 
+local storage 
+csp:cloud 
+service 
+manager 
+• provide 
+services e 
+• activities and their involvements of the 
+two sub-roles in itu-t y.3502 are 
+supported to provide cloud data storage. 
+  

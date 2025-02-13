@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+292  
+y .3511(14)_f8-8
+cloud service customers
+csc 1 csc 2 csc 3
+catalogue of
+service offerings
+catalogue of
+service offerings
+primary
+cloud
+service
+provider
+secondary
+cloud service
+provider
+ 
+figure 8-8 – services provided from a secondary csp to a primary csp  
+the primary csp may offer services from multiple secondary csps. some of the services offered by the 
+secondary csps may themselves be their own services or services from other csps. note that t he roles of 
+primary and secondary service providers may change depending on the service under consideration. 
+the primary csp serving the csc provides the service level agreement (sla) to the csc and is responsible for 
+ensuring that both services hosted by that primary csp and services offered from a secondary csp will meet 
+the sla between the csc and the primary csp. 
+8.3.3 network connectivity 
+in considering network connectivity for the inter-cloud intermediary pattern, multiple levels of connectivity 
+may be required. 
+in the simplest case, the csp providing services to the csc (the primary csp) is hosting all of the services and 
+is providing the network connectivity to the csc. in this case, the csp can offer an sla covering both the 
+cloud and network services. 
+in a more common case, the csp providing services to the csc (the primary csp) will offer some of the hosted 
+services but will also be offering services from one or more secondary csps. the network connectivity 
+between the primary and the secondary csps may be offered as one of the primary csp's services or it may 
+be provided by a distinct third party network provider. 
+as illustrated by figure 8 -9, the primary csp is responsible for ensuring that the sla between the primary 
+csp and the csc is met taking into account: 
+1) the network connectivity between the primary csp and the csc; 
+2) the services from the primary csp; 
+3) the network connectivity between the primary csp and the involved secondary csps; 
+4) the services from the secondary csps. 

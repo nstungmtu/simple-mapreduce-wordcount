@@ -1,0 +1,26 @@
+xaas 3 
+ 
+  641 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 general description 
+7 functional requirements 
+7.1  computing service functional requirements 
+7.2  storage service functional requirements 
+7.3 network service functional requirements 
+8 security considerations 
+appendix i – use case of infrastructure as a service 
+i.1  use case template 
+i.2  iaas use case on infrastructure level 
+i.3  iaas computing service use case 
+i.4  iaas storage service use case 
+i.5 iaas network service use case 
+appendix ii – methodology of mapping use cases and requirements 
+bibliography 
+ 

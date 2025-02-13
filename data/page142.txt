@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+134  
+i.10 a use case of storage optimization 
+title a use case for storage optimization based on the customer's purpose  
+in data storage federation 
+description when a dsf local storage provider provides the information of his/her cloud storage services 
+with a dsf service provider, the dsf service provider optimizes a single virtual volume according 
+to the requirements of the user, such as data safety and storage performance. a detailed 
+explanation is as follows: the dsf service provider configures the single virtual volume based on 
+the cloud storages provided by dsf local storage provider. the following optimization policies 
+can be applied and the decision of the optimization policy can be done by the dsf service 
+customer according to his requirements. 
+(1) the dsf local storage provider registered multiple cloud storages to the dsf service provider.  
+(2) dsf service provider provides optimization tool for a single virtual volume. 
+(3) dsf service customer chooses optimization policy related with; 
+a. data safety and storage performance (a): dsf service providers provide a binding function 
+that configures a virtual, single data storage for efficient management of distributed data 
+storage that is available to customers. in addition, dsf service providers provide real -time 
+monitoring of the performance of each data storage and use it with a mirroring mechanism 
+to provide optimized services for stability and performance. for example, when a dsf service 
+customer uses his or her own data, virtual data storage provides a service by selecting a data 
+storage that can provide optimal service among the mirrored data storage ; 
+b. enhancement of performance without storage mirroring (b): dsf service provider provides 
+real-time performance monitoring for each data storage. using this, the dsf service provider 
+determines the priority of the data storage that can provide the optimal service and then 
+transfers the data to that storage in appropriate timing. therefore, customers can always 
+receive service from optimal data storage; 
+c. enhancement of performance considering user mobility (c): basically, since the dsf service 
+is affected by the data transmission performance of the network, the performance of the 
+dsf service can be greatly influenced by the location of the customer. therefore, the dsf 
+service provider provides optimization not only for the performance for each data storage 
+but also for the network situation at the user's location. virtual data storage provides real-
+time switching function to the best possible data storage depending on the customer's 
+location. 
+(4) based on the optimization policy selected by the customer, the dsf service provider 
+optimizes the service. after this processing,  
+(5) dsf service customers use services optimized for their purposes. 
+role/sub-role dsf service provider (csp:sfp) 
+dsf service customer (csc:csu) 
+dsf local storage provider (csp:csm) 

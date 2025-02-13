@@ -1,0 +1,49 @@
+3 xaas  
+ 
+690  
+the nc service level management functional component manages the capacity and performance relating to 
+nc. this can involve the application of policies (e.g., a placement rule which aims to avoid single points of 
+failure). 
+the nc service level management functional component obtains monitoring in formation from the nc 
+monitoring and reporting functional component in order to measure and record kpis for the nc. nc capacity 
+can be allocated or de-allocated based on the basis of these kpis. 
+the nc service level management functional component also keeps track of the overall state of an allocated 
+nc capacity and available network capacity. the comparison of allocated capacity against performance kpis 
+can assist in the identification of current or potential bottl enecks, in support of capacity planning. t his 
+includes the management of connectivity capacity and the forwarding of information related to nc capacity 
+and usage reporting. 
+8.3.5.7 nc incident and problem management 
+the nc incident and problem management f unctional component provides capabilities for the capture of 
+incident or problem reports related to nc and managing those reports through to resolution. 
+8.3.5.8 nc inventory 
+the nc inventory functional component keeps track of the allocated nc including th e associated 
+characteristics. 
+8.3.6 oss functional components for physical resources 
+note – this clause is out of the scope of this recommendation. 
+8.4 functional components for naas development support 
+refer to clause 7.9 for a description of development functionalities for naas products and services. 
+the functional components for naas development support include the development support functional 
+components described in clause 9.2.5.5 of [itu-t y.3502]: 
+– developer environment functional component. provides the capabilities to support the 
+development of the naas service software implementation including the development of the 
+following software components: 
+• network function software. a network function software can be developed in such a way that 
+features and capability of the network function is provided by elementary network functions; it 
+can also be provided by composition of other developed network functions; 
+• network services; 
+• network connectivity applications software (such as for sdn applications). 
+– the development environment functiona l component includes capabilities for the creation of the 
+configuration metadata for the above software components as well as scripts and related artefacts 
+that are then used by the provider's operational support s ystems to provision and configure the 
+network function, network service or network connectivity application. 
+– build management functional component. supports the building of a ready-to-deploy naas software 
+package for network functions, network services a nd network connectivity applications which can 
+be passed to the naas csp for deployment into the naas cloud service environment. the software 
+package consists of both the service implementation software and also the configuration metadata 
+and scripts. 
+– test management functional component. supports the execution of test cases against any build of 
+the naas service implementation. the test management functional component produces reports of 
+the executed tests and these can be communicated to the naas csp along with a build of the naas 
+service implementation. 
+the functional components for naas development support (dev -naas products and services) are shown in 
+figure 8-8. 

@@ -1,0 +1,40 @@
+framework and requirements for cloud computing 1 
+ 
+   119 
+6.4.2.2 data manipulation provider 
+the data manipulation provider (dm p) provides dsf data by manipulation and manages data operation 
+metadata and data manipulation policy (see clause 6.3). a data manipulation provider's activities include: 
+– manipulate dsf data;  
+– manage data operation metadata; 
+– manage data manipulation policy. 
+6.4.3 dsf local storage provider 
+the dsf local storage provider provides dsf local storage and interfaces to use it. a dsf local storage 
+provider's activity includes: 
+– provide dsf local storage. 
+7 cloud computing based data storage federation system context  
+this clause describes how cloud computing can support the three main roles of the dsf ecosystem: dsf 
+service customer, dsf service provider and dsf local storage provider.  
+by using cloud computing roles, sub -roles and activities, cloud computing based dsf supports more 
+extensible features by facilitating on -premises storage resources which connect personal and enterprise 
+storage resources.  
+the cloud computing based dsf context is defined with new sub -roles and acti vities based on cloud 
+computing reference architecture (ccra) [itu -t y.3502]. for cloud computing based dsf, csp:storage 
+federation provider (csp:sfp) for federation of dsf local storage  and csp:data manipulation provider 
+(csp:dmp) for management of dsf da ta and policies are defined to utilize dsf local storage  as shown in 
+table 7-1.  
+table 7-1 – mapping roles and sub-roles between data storage federation ecosystem and  
+cloud computing based dsf system context 
+roles and sub-roles of 
+data storage federation ecosystem 
+sub-roles of cloud computing based data storage 
+federation system context 
+dsf service customer csc: cloud service user (csc:csu) 
+dsf service provider : storage federation provider, 
+dsf service provider : data manipulation provider 
+csp: storage federation provider (csp:sfp), 
+csp: data manipulation provider (csp:dmp) 
+dsf local storage provider csp: cloud service manager (csp:csm) 
+figure 7-1 illustrates the cloud computing sub-roles related to dsf. this figure also identifies activities specific 
+for dsf and assigns them to cloud computing sub -roles and illustrates how cloud computing supports dsf 
+service from the perspective of csp:sfp and csp:dmp. the cloud computing based dsf utilizes other sub -
+roles of csp. 

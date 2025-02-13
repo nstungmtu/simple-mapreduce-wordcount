@@ -1,0 +1,14 @@
+ assisting developing countries 8 
+ 
+   1109 
+10.5 reliable electricity 
+electricity is one of the main challenges for the provision of cloud computing services.  
+to benefit from cloud computing services, developing countries have to resolve the problems of 
+inaccessibility, unaffordability and poor quality of electricity. 
+10.6 data centres 
+it is generally recommended that data centres should be of an appropriate t ier-level in order to offer the 
+necessary redundancy and resilience to the cloud computing services.  
+the end result would be a win -win scenario where csps will have enough customers to sustain their 
+businesses and cscs would lower their opex and have the reduced burden of maintaining own computing 
+resources. 
+  

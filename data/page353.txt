@@ -1,0 +1,33 @@
+ framework and requirements for cloud computing 1 
+ 
+   345 
+table ii.2 – virtualized distributed cluster service 
+3) monitor and collect. csc:bdsu monitors the health and progress of the distributed 
+cluster using the tools provided by the csp. when the distributed processing job is 
+completed the csc:bdsu retrieves the output in the specified storage space. 
+a virtual distributed cluster service could be used in a variety of applications, including 
+log analysis, web indexing, data warehousing, machine learning, financial analysis, 
+scientific simulation and bioinformatics.  
+roles/sub-roles – csn:dp 
+– csp:bdap 
+– csp:bdip 
+– csc:bdsu 
+figure  
+ 
+pre-conditions 
+(optional) 
+– the csc:bdsu has registered in the service platform of the csp of the virtual 
+distributed cluster service. 
+– the csc:bdsu has applied the cloud storage space for accepting the input data and 
+output data from the virtual distributed cluster service cluster. 
+post-conditions 
+(optional) 
+– the csc:bdsu could quickly create the specified cluster with the desired number of 
+virtual machines and software versions. 
+– the csc:bdsu gets the processing results after a planned time period.  
+derived requirement – data storage (refer to clause 8.3, requirement 1)  
+– data analysis (refer to clause 8.4, requirements 2, 4, 7) 
+– data management (refer to clause 8.6, requirements 1, 2, 3, 4, 5, 6)  
+– data security and protection (refer to clause 8.7, requirements 2, 3, 4)  
+ 
+

@@ -1,0 +1,46 @@
+8 assisting developing countries  
+ 
+1102  
+• [itu-t l.130 1] which establishes a minimum data set necessary to manage data centres and 
+telecommunication rooms in an environmentally responsible manner. the recommendation 
+specifies the communication interface and defines the parameters to be communicated depending 
+on the type of equipment used in data centres, such as power systems (alternating current 
+(ac)/direct current (dc) and uninterruptible power supply (ups) and energy distribution), cooling 
+systems and ict equipment. 
+• [itu-t l.1302] which specifies an energ y efficiency assessment methodology for data centres and 
+telecom centres, test equipment accuracy requirements, assessment period, assessment conditions 
+and calculation methods. 
+• [itu-t l.1320] which contains the general definition of metrics, test procedures, methodologies and 
+measurement profiles required to assess the energy efficiency of power and cooling equipment for 
+telecommunications and data centres. 
+8.1.5 other standards 
+other standards would be developed as the need arises. 
+8.2 human resources 
+inadequate human resources to fully implement and utilise cloud computing services in developing countries 
+has been identified as a constraint. in order to make cloud computing services a reality in developing 
+countries, there is need to build human capacity and to develop the relevant skills in the following areas: 
+• standards development; 
+• auditing of cloud service provision to ensure compliance with the relevant regulations; 
+• management of the cloud infrastructure and service provision to enable a smoot h migration and 
+integration of cloud services as well as the execution of other legal and business processes; 
+• regulation of the various facets of cloud service provision such as infrastructure installation and 
+management; 
+• cyber-security, service delivery and data protection; and 
+• cloud applications development to create new opportunities for new services. 
+8.3 data centres 
+data centres are considered as one of the infrastructure requirements for supporting and enabling access to 
+cloud services. for this purpose, the establishment of data centres in developing countries should take into 
+account some pillars, including the following: 
+• high availability: service continuity and high availability of data centres infrastructure, based on tier 
+iii specifications of the [tia-942 standard], should be ensured; 
+• security: data centres should be aligned with international data centre security standards (physical 
+and environmental safety, technical security, …); 
+• energy efficiency: ensuring the energy efficiency of data centres by increasing cooling efficiency and 
+reducing power consumption is essential. redundancy of power and cooling supplies should also be 
+guaranteed; 
+• cloud readiness : in addition to the usual data centre services (such as dedicated private area , 
+dedicated rack or colocation, dedicated server,…), data centres would be scalable and ready to 
+support a wide range of cloud services such as virtual private server, virtual private cloud, cloud 
+back-up, virtual load-balancer, virtual firewall, web hosting and elastic storage. for this reason, data 
+centres should ensure higher connectivity to lans and storage area networks (sans) and use 
+virtualization for multi-tenancy; and 

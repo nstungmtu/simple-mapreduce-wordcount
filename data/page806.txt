@@ -1,0 +1,51 @@
+5 intercloud and interoperability  
+ 
+798  
+the relevant csps form a common trusted inter -cloud to establish a trust relationship between them. in 
+particular, the multiple csps involved in inter -cloud may be administered by different parties. in case of an 
+inter-cloud federation, the involved csps may establish trust relationships among them prior to any 
+interactions between them or during inter-cloud interactions (e.g., service requests between csps).  
+the specifics of trusted inter -cloud computing are different depending on the technologies used by csc or 
+csp. therefore, the management of trusted inter-cloud takes into account different levels of security.  
+trusted inter-cloud relationships can be expressed through cross-cutting aspects (identified in [itu-t y.3502]), 
+such as the governance, management, resiliency and security of inter-cloud.  
+trusted inter -cloud computing covers security threats for csc and threats for csp. the specific threats 
+depend on the level of responsibilities and control between the csc and csp, or between csps (such as those 
+identified in [itu-t x.1601]). in trusted inter-cloud systems, the control can be exchanged between csc and 
+csp or between csps to achieve security continuum. the security of inter-cloud can be realized based on: 
+a) self-service security which enables self -service management of security in heterogeneous cloud 
+infrastructures and provides flexible mechanisms to let csc or csp control the security of their cloud 
+computing resources in a fine-grained manner;  
+b) self-managed security which enables full automation of security management in order to reduce 
+operational costs while adding more flexibility and providing a unified view of security in 
+heterogeneous cloud computing environments;  
+c) end-to-end security which implements a distributed security abstraction layer between endpoints 
+defined by the csc to overcome the heterogeneity of security technologies across multi -cloud 
+environments and to manage trust relationships between different layers and across csps, to 
+provide a unified user experience of security. 
+the governance of inter -cloud means the system by which inter -cloud is directed and controlled . 
+a governance system has to monitor and to control usage of cloud computing system in both horizontal 
+(cross-provider) and vertical (cross-layer) dimensions with a high level of automation.  
+the resiliency of inter-cloud means the ability of multi -cloud environment to provide and to maintain an 
+acceptable quality level of service in the face of faults (unintentional, intentional or naturally caused) 
+affecting normal operations. 
+6.1 governance of trusted inter-cloud 
+one of the main challenges in inter -cloud computing is to respect security, confidentiality, and compliance 
+requirements of cloud services hosted in a multi-cloud environment. the governance aspects become key 
+parts of service level agreements (sl as) for cloud services as they allow for usage of cloud services in a 
+transparent manner over all their lifecycle. the governance roles guarantee security and appropriate 
+treatment of cloud applications and cloud data independently of the deployment model. they are specified 
+and targeted for an operational area of cloud computing.  
+the governance of trusted inter-cloud is based on specific policies and principles which allow for the use of 
+particular cloud services in a trustworthy manner. this needs strong ly isolated (physically or logically) 
+instances of cloud services for aspects including identity management, geographic redundancy, support for 
+hybrid scenarios, and effective inter -cloud data (workloads) management. the csps establishing a trusted 
+inter-cloud relationship are obliged to determine their policies of decision -making roles, and implement 
+these policies in their management systems. 
+the governance of trusted inter-cloud can be expressed as  a system of directing and controlling an 
+inter-cloud environment to reach objectives for trust. it can be spread over the governance body and 
+governance executive. the governance body consists of a set of representatives of csps (person or group of 
+people) who are accountable for the performance and conformance of the trusted inter-cloud environment. 
+the governance executive represents the system by which current and future use of trusted inter -cloud is 
+directed and controlled. the governance executive also provides plans, builds and runs trusted inter -cloud 
+enabled business.  

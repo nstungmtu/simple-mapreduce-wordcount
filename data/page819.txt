@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  811 
+title distributed information exchange system in trusted inter-cloud  
+– the csc requests that physical location (localization) for their data store as 
+well as csp can be chosen by csc in an elastic manner. 
+– the primary csp(saas) in an inter-cloud intermediary pattern (acts as 
+csp(intermediary)) is the contact point for csc. 
+– the csp(intermediary) integrates and validate saas services from multiple 
+csps (secondary csps). 
+– the csp2(saas) offers the same service as csp1(saas) or csp3(saas) but does 
+not meet the required business regulatory policy. 
+– for the csp(intermediary), in order to respect the  request of csc, it is 
+necessary to validate security and confidentiality policies from secondary 
+csp1(saas), csp2(saas) and csp3(saas). in case of negative validation, the 
+secondary csp offer is not presented to csc. 
+– in case of connectivity problem between csp(intermediary) and csp1, the 
+saas service is automatically established between csp(intermediary) and 
+csp3. 
+in particular, an example of such service could be paas-based processing of 
+satellite image data for farm crop analysis. 
+roles csc,csp(saas) 
+figure (optional) 
+ 
+pre-conditions (optional) – the primary csp(saas) and secondary csps are in a trusted inter-cloud 
+relationship. 
+– the csp1(saas) and csp3(saas) effects security, safety and confidentiality 
+policies. 
+– the csp2(saas) performs service out of business regulatory policy.  
+post-conditions (optional) – the csp(intermediary) guarantees the security and confidentiality policy of 
+saas.  
+– the csp(intermediary) establishes service between csc and csp1(saas). 
+– the csp(intermediary) establishes service between csc and csp3(saas) in case 
+of failed csp1(saas). 
+derived requirements – security and confidentiality policies  
+– master service agreements 
+– on-demand data security services  
+– deployment and monitoring of security policies around csps  
+– respect data regulation policy (e.g., medical, financial, defence, etc.)  
+ note – regulation policy concern regulation applied to particular business.  
+– respect business regulatory policies 
+– resiliency service  
+– respect laws and regulations,  
+– respect local policies. 
+

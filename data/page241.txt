@@ -1,0 +1,30 @@
+ framework and requirements for cloud computing 1 
+ 
+   233 
+– edge cloud: the edge cloud is deployed at the edge of the network accessed by cscs and has a small 
+resource capacity. the edge cloud requires specialized hardware resources on purpose; i.e., the 
+resources in the edge cloud are constrained due to l imitations of space or power. the edge cloud 
+may have different configurations of resources and cloud capabilities types with physical and virtual 
+resources depending on a csc's requirements of cloud services and conditions in the deployment 
+environment. 
+figure 6-2 shows an example of providing real -time service on distributed cloud for the case of a machine 
+learning (ml) service. the example has four phases. 
+– phase 1 – collecting: end device 1 transfers sensor data to an endpoint of ml training service in the 
+core cloud to train the data; 
+– phase 2 – training: ml training service trains the data and gets a trained rule at the core cloud; 
+– phase 3 – caching: the trained rule is cached from core cloud to regional cloud; the trained rule is 
+then cached to edge clouds 1 and 2; 
+– phase 4 – forecasting: end devices 1 and 2 transfer sensor data to edge clouds 1 and 2, and then 
+edge clouds 1 and 2 perform ml forecasting in real-time processing. the forecasting result is quickly 
+delivered to end devices 1 and 2. 
+if the ml forecasting service is also processed at the core cloud without the edge cloud, then the end device 
+of the csc will receive the forecasting results from the core cloud with high latency. the example in figure 6-
+2 highlights how the distri buted cloud provides benefit to the cloud service in the edge cloud by providing 
+low latency and real-time processing. 
+ 
+figure 6-2 – example of providing real-time service on distributed cloud  
+for the case of a machine learning service 
+note 3 – in this example, it is assumed that the network latency from the end devices to the edge cloud is much lower 
+than from the end devices to the core cloud, and that the execution time of the ml forecasting service is faster than the 
+ml training service. 
+

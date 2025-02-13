@@ -1,0 +1,37 @@
+ framework and requirements for cloud computing 1 
+ 
+   339 
+table i.5 – mobile network user behaviour big data analysis 
+title mobile network user behaviour big data analysis 
+description telecom operators use big data application services to analyse internet accessing behaviour of 
+mobile network users. telecom mobile network users use a 3g/4g network to access mobile 
+internet services (web browsing, social networking, e-commerce, music, video, mobile 
+television, etc.) using mobile devices, such as mobile phones, tablet computers, pdas and so on. 
+optical splitter and deep packet inspection (dpi) devices have been deployed along with the 
+pdsn or serving general packet radio service support no de (sgsn) devices. dpi devices capture 
+the data packets of mobile network devices from the optical splitter and extract the internet 
+access attributes information. telecom operators set up private big data infrastructure using 
+cloud computing technologies or buy services from the csp:bdip and build big data application 
+services or buy services from the csp:bdap. telecom operators could push and promote value 
+added services, applications and advertisements for suitable mobile network users such as a 
+csc:bdsu. privacy rules are followed, if applicable. 
+roles/sub-roles – csn:dp 
+– csp:bdap  
+– csp:bdip 
+– csc:bdsu 
+figure 
+ 
+pre-conditions – the csn:dp can provide the raw data which reflects mobile network users' behaviour.  
+post-conditions – the csp:bdap can have responsibility for providing analysis results of mobile network user 
+behaviour to the csc:bdsu. the analysis results show the users' habits o f using network 
+services, such as in which time slots the users may access which websites or applications.  
+– the csc:bdsu pushes and promotes the value added services, applications and 
+advertisements for suitable mobile network users. 
+derived 
+requirements 
+– data collection (refer to clause 8.1, requirement 1) 
+– data storage (refer to clause 8.3, requirement 1)  
+– data analysis (refer to clause 8.4, requirements 2, 7, 12 )  
+– data application (refer to clause 8.4, requirement 13, clause 8.7, req uirement 1)  
+ 
+

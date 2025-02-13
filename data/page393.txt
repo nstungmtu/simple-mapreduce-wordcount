@@ -1,0 +1,69 @@
+ framework and requirements for cloud computing 1 
+ 
+   385 
+table 8-1 – itu-t q17/13 deliverables 
+title of deliverable current status starting 
+date 
+target 
+date 
+itu-t y.3500|iso/iec 17788 
+information technology – cloud computing – overview 
+and vocabulary 
+recommendation | is  09/2012 08/2014 
+itu-t y.3501, cloud computing – framework and high-
+level requirements 
+recommendation 
+2nd edition 
+recommendation 
+06/2012 
+05/2015 
+05/2013 
+06/2016 
+itu-t y.3503, requirement for desktop as a service recommendation 06/2012 05/2014 
+itu-t y.3600, big data – cloud computing based 
+requirements and capabilities 
+recommendation 06/2013 11/2015 
+itu-t y.3504, functional architecture for desktop as a 
+service 
+recommendation 07/2014 06/2016 
+itu-t y.cccm-reqts, cloud computing – requirements 
+for containers and micro-services 
+draft recommendation 05/2016 2019-q4 
+itu-t y.3505, cloud computing – overview and 
+functional requirements for data storage federation 
+recommendation 05/2016 05/2018 
+itu-t y.ccdc-reqts, distributed cloud overview and high-
+level requirements 
+draft recommendation 10/2016 2019-q2 
+itu-t y.3507, cloud computing – functional 
+requirements of physical machine 
+recommendation 10/2016 11/2018 
+itu-t y.3506, cloud computing – functional 
+requirements for cloud service brokerage 
+recommendation 10/2016 05/2018 
+itu-t y.mlaas-reqts, cloud computing – functional 
+requirements for machine learning as a service 
+draft recommendation 01/2018 12/2020 
+itu-t y.baas-reqts, cloud computing – functional 
+requirements for blockchain as a service 
+draft recommendation 11/2017 12/2020 
+• itu-t y.3500 | iso/iec 17788: this recommendation | international standard provides an overview 
+of cloud computing along with a set of terms, definitions and concepts. it is a terminology 
+foundation for the cloud computing  standardization work. this recommendation | international 
+standard is applicable to all types of organizations (e.g.,  commercial enterprises, government 
+agencies, not-for-profit organizations). 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12210 
+• itu-t y.3501: this recommendation provide s a cloud computing framework by identifying high-
+level requirements for cloud computing. the recommendation addresses the general requirements 
+and use cases for:  
+– cloud computing; 
+– infrastructure as a service (iaas), network as a service (naas), and desktop as a service (daas) 
+cloud services; 
+– inter-cloud, end-to-end resource management, and cloud infrastructure. 
+ the first release of this recommendation addresses a set of use cases and related requirements 
+which are included in appendix i. the second release of this recommendation provides an update 
+of this set of use cases and requirements. the release concept is described in appendix ii.  
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=11917 
+• itu-t y.3503 : t his recommendation provides use cases, general requirements and functional 
+requirements for desktop as a service (daas). 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12167 

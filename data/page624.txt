@@ -1,0 +1,36 @@
+3 xaas  
+ 
+616  
+network capabilities can be delivered through any combination of the three types of cloud capabilities. in 
+particular, network capabilities could support cloud computing in aspects of interconnection of the csp and 
+the csc, topology and route related functionality to share topologies, discovery related functionality to 
+perform other services needed by inter -cloud related activities as well as othe r functionalities related to 
+monitoring, protection, verification, etc.  
+network functionality can be provided as a composite naas service where the naas service consists of more 
+than one network functionality services. hierarchically nested naas composite services can also be provided. 
+composite naas services could apply for different naas capabilities types provided to csc according to the 
+performance objectives expressed in the service level agreement (sla). 
+ 
+figure 6-1 – high-level concept of naas 
+appendix ii provides naas use cases in which the three cl oud capabilities types ( i.e., application, platform 
+and infrastructure capabilities) are provided to the csc. 
+appendix iii provides considerations on the csp's network related activities. 
+note 4 – regarding the network connectivity, one important difference between infrastructure as a service (iaas) and 
+naas is that iaas is a cloud service category that is offered in only one flavour of cloud capability type, and that is 
+infrastructure capabilities type [itu-t y.3500]. however, naas is a cloud service category that can be offered in all three 
+cloud capabilities types. 
+7 functional requirements of naas application 
+this clause provides requirements of naas application derived from the use cases described in appendix ii. 
+7.1 performance 
+– naas application performance is recommended to be manageable to satisfy the csc's needs. 
+– it is recommended that naas csp monitors the utilization and delivery performance of naas 
+application. 
+– naas applicati on is recommended to be provided to the csc according to the perform ance 
+objectives expressed in the sla. 
+7.2 operation and management 
+– the operation of naas application is required to be manageable and deterministic in accordance 
+with the csp operational policies. 
+– it is recommended that each naas application be managed  by naas csp efficiently and 
+automatically, complying with the csp's common framework of service management and service 
+operation management. 
+

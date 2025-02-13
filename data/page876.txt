@@ -1,0 +1,45 @@
+5 intercloud and interoperability  
+ 
+868  
+ideally, cloud subscribers would like to be able to select any cloud provider based on the basis of service cost, 
+performance and capabilities. in order to make this feasible for the cloud consumer, the various hypervisor 
+platforms and infrastructure components involved will need to be interoperable and enable portability, 
+leveraging defined industry standards. 
+reliability and reproducibility of a change such as a vm migration involved in iaas are based on pre-defined 
+standards, specifications, frameworks, scenarios, and processes. this need exists in their organizations too 
+for reasons such as being able to demonstrate the ability to move between internal private clouds, being able 
+to move between cloud providers if necessary, and if for no other reason, to demonstrate that the service is 
+not locked in to that environment with no relocation options once it has been established there. 
+5.3 platform capabilities type interoperability testing 
+platform capabilities type (paas) interoperability encourages seamless operation of cloud applications across 
+providers, rapid integration with consumer orchestration engines, and automatable configuration and 
+operation of both the paas container and the execution of the application itself. this provides the combined 
+benefits of rapid application deployment and linear scalability without the overhead of directly managing the 
+underlying infrastructure for the application, all while avoiding paas lock-in. 
+the business drivers for paas interoperability are as follows: 
+• rapid application deployment: enable subscribers to quickly deploy new business applications. 
+reduce the overhead of ongoing application deployments. 
+• application scalability: ability to quickly scale applications up and back based on the real -time 
+demand for those applications. 
+• application migration: ability to move applications from one discrete paas to another paas available 
+from the same or different cloud provider with minimal effort. 
+• business continuity: migrate or replicate applications among paas services to address outages, 
+security breaches, or other disruptions. this is intended to encompass both disaster recovery and 
+disaster avoidance. 
+interoperability perspectives follow: 
+• interconnectability: the parallel process in which two coexisting environments communicate and 
+interact. 
+• portability: the serial process of moving a system from one cloud environment to another. 
+5.4 application capabilities type interoperability testing 
+in portability and interoperability of application capabilities (saas) environments, business process 
+functionality offered through saas solutions can be initially connected, transferred, or interconnected. saas 
+interoperability allows organizations to create mash-ups from multiple saas and non-saas applications. this 
+is an issue that primarily concerns data exchange, which includes metadata, and interface compatibility. 
+6 cloud computing interoperability testing between csc and csp 
+csc is a party in a business relationship for the purpose of using cloud services. the interoperability between 
+csc and csp supports the csc to interact with csp according to a prescribed method and obtain predictable 
+results. enabled by interworking between csc and csp, csc can use the capabilities provided by csp, such as 
+using the processing, network and storage capability. for example, csc can use virtual machine provide by 
+the csp.  
+csc can also perform business administration tasks such as subscribing to cloud service and administering 
+use of cloud service through the interaction with csp. 

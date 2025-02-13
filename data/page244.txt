@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+236  
+table 6-1 – distributed cloud configuration model 
+model description 
+model 2 
+(edge – core) 
+ 
+model 2 is a shape of a distributed cloud in which the edge cloud and the core 
+cloud are configured together. a cloud service is functionally reconfigured and is 
+executed on both edge and core clouds by interworking. 
+the edge cloud is configured for real-time service delivery. the edge cloud assists 
+end devices by offloading cloud services or caching the data of cloud services. 
+model 3 
+(edge – regional – core) 
+ 
+model 3 is a shape of a distributed cloud in which edge, regional and core clouds 
+are configured together. a cloud service is reconfigured and deployed to edge, 
+regional and core clouds and is executed by interworking. 
+this model is a combination of model 1 and model 2. this model provides cloud 
+services efficiently by mitigating the traffic of the cloud service, caching data of the 
+cloud service and by offloading cloud services for the csc's end devices. 
+6.4 deployment considerations of distributed cloud 
+this clause provides consideration aspects for the deployment of cloud services on a distributed cloud. these 
+consideration aspects include: 
+– infrastructure considerations of distributed cloud; 
+– network considerations of distributed cloud; 
+– service considerations of distributed cloud; 
+– management considerations of distributed cloud; and 
+– security considerations of distributed cloud. 
+6.4.1 infrastructure considerations of distributed cloud 
+infrastructure in a distributed cloud is heterogeneous and geographically distributed. thus, consideration 
+aspects are as follows: 
+– variety of physical resources, which have different hardware structure and instruction, for pooling 
+the resources and deploying cloud services execution efficiently; 
+– energy efficient resources and power consumption control for edge cloud with small resource 
+capacity; and 
+– infrastructure automatic provision, configuration and updating, as well as monitoring functionalities 
+for providing a single system view to cscs. 
+6.4.2 network considerations of distributed cloud 
+the network in a distributed cloud supports connecting distributed cloud resources in broad areas among 
+core, regional and edge clouds and is aware of cloud service. thus, network considerations are as follows: 
+– broad network connectivity of distributed cloud resources among edge, regional and core clouds for 
+managing resources and providing cloud service efficiently; and 
+– deployment of virtual network functions to edge cloud f or controlling network on -demand and 
+being aware context of cloud service. 
+

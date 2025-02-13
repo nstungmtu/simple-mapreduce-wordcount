@@ -1,0 +1,44 @@
+xaas 3 
+ 
+  617 
+– it is recommended the naas csp provide the c sc with an efficient management solution of 
+provisioned naas applica tions allowing to integrate the management of the provisioned naas 
+applications into the csc's network operation environment. 
+7.3 service chain 
+– it is recommended that naas csp provides m echanisms allowing for the chaining of naas 
+applications, e.g., the required naas applications components and associated order. 
+7.4 multiple ip addresses 
+– it is recommended that naas application support multiple ip addresses on a network interface when 
+it delivers network appliance functions (such as firewalls, load balancers). 
+ note – this requirement is also applicable to naas platform and naas connectivity.  
+8 functional requirements of naas platform 
+this clause provides requirements of naas platform derived from the use cases described in appendix ii. 
+8.1 programmable naas platform 
+– it is recommended that naas csp supports deployment of network applications on naas platform 
+by both the csp and the csc. 
+– it is recommended that naas platform provides hardware or software modules specialized for 
+network function acceleration. 
+– it is recommended that naas platform assures and indicates performance available to the csc's 
+applications which are running on it. 
+– it is recommended that naas platform service provides a modular software framework to select and 
+integrate networking functions, security functions and third party applications. 
+– it is recommended that naas csp provides platform support for the csc to manage (e.g., install, 
+upgrade or uninstall) csc owned modules. 
+– it is recommended that naas platform provides network enablers for the csc to initiate (e.g., design, 
+build, manage) and operate the flexible, scalable, functionally expandable networks.  
+– it is recommended that naas platform provides a unified control an d management function over 
+distributed naas platforms for the csc to change, move, or remove network enablers between naas 
+platforms. 
+8.2 dynamic and flexible network services composition and steering 
+– it is recommended that naas csp steers the csc's traffic via service chain which is dynamically and 
+flexibly composed by customized sequences of naas applications on the naas platform according 
+to the csc's specific service logic.  
+8.3 isolation of service chains for tenants 
+– naas csp can optionally support isolation of service chains for tenants, combining different network 
+services, implemented on the naas platform. 
+8.4 flexible scaling of naas platform 
+– it is recommended that naas csp assures flexible scaling of the resources assigned to the naas 
+platform to achieve performance objectives of the network services and applications implemented 
+on the naas platform. 
+ note – this requirement is to meet the changes in services or applications utilization caused by e.g., growth 
+of traffic, change in number of users, adding new services, implementing new applications. 

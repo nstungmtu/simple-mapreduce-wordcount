@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  809 
+title video gaming service in trusted inter-cloud  
+figure (optional) 
+ 
+pre-conditions (optional) – the primary csp(intermediary) and secondary csps are in trusted inter -cloud 
+relationship. 
+– the csp1 and csp2 offer video gaming service (premium service).  
+– the csp (intermediary) integrates and validates gaming services with qos. 
+– the csp (intermediary) establishes service between csc and csp1.  
+post-conditions (optional) – the csp1 is under internal or external perturbation and quality of video gaming 
+service drops below premium service level. 
+– the service is automatically established between csp(intermediary) and csp2 
+without service interruption. 
+derived requirements – real-time monitoring quality of trusted service 
+– integrate and validate services from multiple csps 
+– resiliency service from multiple csps 
+i.2.4 use case of distributed image processing platform in trusted inter-cloud 
+this use case illustrates the security and confidentiality aspects of trusted inter-cloud between a primary csp 
+and secondary csps. the intermediary pattern of inter -cloud used to illust rate the use case is an 
+example only. 
+table i.2.4 – distributed image processing platform in trusted inter-cloud 
+title distributed image platform in trusted inter-cloud  
+description – the csc requests the csp for a platform to build image processing and 
+storage systems. csc is required to provide its own part of the software into 
+the cloud. 
+– the csc request that the platform fits regulatory policy to reach safety, 
+security and confidentiality constraints. the csc requests qos for data 
+processing. 
+– the csc requests that the physical location (localization) for its data store as 
+well as csp can be chosen by csc in an elastic manner. 
+– the primary csp(paas) in an inter-cloud intermediary pattern 
+csp(intermediary) is the contact point for csc. 
+– the csp(intermediary) integrates and validates saas services from multiple 
+csps (secondary csps). 
+– the csp2(saas) offers the same service as csp1(saas) or csp3(saas) but does 
+not meet the required business regulatory policy. 
+– for the csp(intermediary), in order to respect the request of a csc, it is 
+necessary to validate security and confidentiality policies from secondary 
+csp1(saas), csp2(saas) and csp3(saas). in case of negative validation, the 
+secondary csp offer is not presented to csc. 
+

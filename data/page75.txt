@@ -1,0 +1,23 @@
+ framework and requirements for cloud computing 1 
+ 
+   67 
+ 
+figure 8-4 – cloud computing activities relating to cloud service provider sub-roles 
+8.3.2.1 prepare systems 
+the prepare systems activity is focused on preparing the systems of the provider's environment for new 
+cloud service deployments. this activity involves: 
+• assessing the impact of new service deployments or the increase in use of existing services; 
+• modifying or expanding the resources in the data centre to meet the needs of new deployments. 
+8.3.2.2 monitor and administer services 
+the monitor and ad minister services activity focuses on monitoring and administering services and their 
+associated infrastructure which includes user and system privileges. this activity involves: 
+• monitoring the services and infrastructure of the cloud service provider; 
+• capturing events and data that are significant to the business of the provider and presenting this 
+data in a form that is significant to the csp:cloud service business manager. such information 
+includes items such as the usage of the cloud services by cloud service customers and the cost of 
+provision of those services; 
+• administering network infrastructure including routers, domain name servers, ip addresses, virtual 
+private networks (vpns), firewalls and content filtering; 
+• allocating and administering storage; 
+• administering user and system privileges; 
+

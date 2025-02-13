@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   9 
+3.2.27 multi-tenancy: allocation of physical or virtual resources  such that multiple tenants (3.2.37) and 
+their computations and data are isolated from and inaccessible to one another. 
+3.2.28 network as a service (naas): cloud service category (3.2.10) in which the capability provided to the 
+cloud service customer (3.2.11) is transport connectivity and related network capabilities. 
+note – naas can provide any of the three cloud capabilities types (3.2.4). 
+3.2.29 on-demand self-service: feature where a cloud service customer (3.2.11) can provision computing 
+capabilities, as needed, automatically or with minimal interaction with the cloud service provider (3.2.15). 
+3.2.30 platform as a service  (paas): cloud service category (3.2.10) in which the cloud capabilities type 
+(3.2.4) provided to the cloud service customer (3.2.11) is a platform capabilities type (3.2.31). 
+3.2.31 platform capabilities type : cloud capabilities type (3.2.4) in which the cloud service customer 
+(3.2.11) can deploy, manage and run customer-created or customer-acquired applications using one or more 
+programming languages and one or more execution environments supported by the cloud service provider 
+(3.2.15). 
+3.2.32 private cloud: cloud deployment model (3.2.7) where cloud services (3.2.8) are used exclusively by 
+a single cloud service customer (3.2.11) and resources are controlled by that cloud service customer (3.2.11). 
+3.2.33 public cloud: cloud deployment model (3.2.7) where cloud services (3.2.8) are potentially available 
+to any cloud service customer (3.2.11) and resources are controlled by the cloud service provider (3.2.15). 
+3.2.34 resource pooling: aggregation of a cloud service provider's (3.2.15) physical or virtual resources to 
+serve one or more cloud service customers (3.2.11). 
+3.2.35 reversibility: process for cloud service customers (3.2.11) to retrieve their cloud service customer 
+data (3.2.12) and application artefacts and for the cloud service provider (3.2.15) to delete all cloud service 
+customer data (3.2.12) as well as contractually specified cloud service derived data (3.2.13) after an agreed 
+period. 
+3.2.36 software as a service (saas) : cloud service category (3.2.10) in which the cloud capabilities type 
+(3.2.4) provided to the cloud service customer (3.2.11) is an application capabilities type (3.2.1). 
+3.2.37 tenant: one or more cloud service users  (3.2.17) sharing access to a set of physical and virtual 
+resources. 
+4 abbreviations 
+for the purposes of this recommendation | international standard, the following abbreviations apply: 
+caas communications as a service  
+compaas compute as a service 
+dsaas data storage as a service 
+iaas infrastructure as a service 
+iam identity and access management 
+naas network as a service 
+paas platform as a service 
+pii personally identifiable information 
+saas software as a service 
+sla service level agreement 
+5 conventions 
+references to terms defined in clause 3 are shown in bold. 

@@ -1,0 +1,13 @@
+3 xaas  
+ 
+730  
+summary 
+recommendation itu-t x.1602 analyses the maturity levels of software as a service (saas) application and 
+proposes security requirements to provide a consistent and sec ure service execution environment for saas 
+applications. these proposed requirements originate from cloud service providers (csp) and cloud service 
+partners (csn) as they need a saas application environment to meet their demands on security. the 
+requirements are general and independent of any service or scenario specific model (e.g., web services, or 
+representational state transfer (rest)), assumptions or solutions. 
+keywords 
+security requirement, software as a service (saas) application environment, saas maturity level. 
+  

@@ -1,0 +1,44 @@
+xaas 3 
+ 
+  609 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions  
+6 general description 
+6.1 networking challenges in cloud computing 
+6.2 high-level concept of naas 
+7 functional requirements of naas application 
+7.1 performance 
+7.2 operation and management 
+7.3 service chain 
+7.4 multiple ip addresses 
+8 functional requirements of naas platform 
+8.1 programmable naas platform 
+8.2 dynamic and flexible network services composition and steering 
+8.3 isolation of service chains for tenants 
+8.4 flexible scaling of naas platform 
+8.5 integration of software applications 
+9 functional requirements of naas connectivity 
+9.1 common control mechanism for naas connectivity 
+9.2 unified sla for multiple optimized networks 
+9.3 leveraging transport networks dynamically 
+9.4 unified network control mechanism 
+9.5 elastic network reconfiguration 
+9.6 seamless and end-to-end solution of bandwidth allocation 
+9.7 symmetric or asymmetric capacity 
+9.8 optimized and fine-grained traffic engineering 
+9.9 coexistence with legacy network services and functions 
+9.10 centralized control view and abstraction view of resources 
+9.11 csc limited control of services 
+9.12 logically isolated network partition 
+9.13 overlay network mechanism 
+9.14 overlapped private ip addresses 
+9.15 interworking among different vpn solutions 
+9.16 vpn connection in mobile environment 
+9.17 connection to naas csp's network through public internet 
+10 security considerations  

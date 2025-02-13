@@ -1,0 +1,44 @@
+2 cloud computing management  
+ 
+508  
+i.6 decommissioning use case 
+ 
+title service decommissioning use case 
+description a csp provides cloud services to the market. when an original service request passes its 
+expiration date or a user decommission request initiated while the service is running , the 
+resources of this service should be decommissioned automatically. 
+roles csp 
+figure (optional) / 
+pre-conditions 
+(optional) 
+– an original service request passes its expiration date or a user decommission request 
+initiated while the service is running. 
+post-conditions 
+(optional) 
+– the service resources have been decommissioned automatically. 
+derived 
+requirements 
+– decommissioning (refer to clause 7.7) 
+i.7 policy use case 
+ 
+title policy use case 
+description a csp provides some kind of cloud services to the market. the csc of its service want to have 
+the abilities to control who can access to cloud assets, plus both periodic and on-demand 
+logging and reporting. therefore the csp is required to provide functions to support the csc's 
+ability to set policies for doing this. 
+roles csp, csc 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+csc can set policies on the service. 
+post-conditions 
+(optional) 
+the policies of the service have been set successfully. 
+derived 
+requirements 
+– policy (refer to clause 7.8) 
+ 
+ 
+  
+

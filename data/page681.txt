@@ -1,0 +1,49 @@
+xaas 3 
+ 
+     673 
+the analytical network applications are used to match specific conditions based on the analytical resu lts. 
+once a condition is matched, the application can activate the pre-defined event and the further actions will 
+depend on the specific policies associated with this condition. 
+these functionalities can be achieved along with other related functionalities , such as naas service 
+instantiation, naas service orchestration, resource abstraction and control, and evolved real -time oss, and 
+can help to complete the whole naas service lifecycle management in an iterative way. more details on the 
+lifecycle management of cloud services can be found in [itu-t y.3522]. 
+7.5 autonomic functionalities 
+autonomic functionalities in the naas architecture are responsible for making decisions on their own, using 
+high-level policies. they constantly check and optimize their stat us automatically and ad apt themselves to 
+changing conditions. 
+from an operational point of view, closed control loops driven through autonomic functionalities can be 
+included at resource level (pnfs, vnfs) as well as in the different oss functionalities described in clause 7.8. 
+typically, a closed loop control is comprised of functionalities for collecting and monitoring data from the 
+system being managed, analysing (through filtering, correlation and other mechanisms), planning (different 
+actions based on inferring trends, finding causes of the problem) and executing the decided plan(s). 
+autonomic functionalities can therefore involve and rely on the use of network analy tics functionalities 
+(see clause 7.4). policies can be used with control loops to guide their operation (s ee clause 7.6 regarding 
+policy related functionalities). 
+7.6 policy related functionalities 
+policy related functionalities in the naas architecture play an important role in realizing lifecycle 
+management (refer to different oss functiona lities, see clause  7.8), network operational policy modelling 
+(refer to naas service instantiation functionalities, see clause 7.2) as well as closed loop automation (refer to 
+autonomic functionalities, see clause 7.5) and network analytics functionalities  (see clause 7.4).  the main 
+goal of policy functionalities is to control in a simple manner the behaviour of the naas csp system using 
+configurable policies and rules. 
+policy related functionalities include: 
+– policy creation: used to design and validate policies rules, identify and resolve overlaps and conflicts 
+between policies. a policy can be of a high -level nature to create a condition, requirement or 
+constraint that must be provided, maintained, and enforced. a policy may also be defined at a lower 
+level, such as a machine-readable rule or software condition. policies can be created in conjunction 
+with naas services (refer to development functionalities in clause 7.9 or independently from naas 
+services (e.g., policies unrelated to naas services such as naas csp internal security policies). 
+– policy distribution: after being created, policies available in repositories are distributed to the right 
+policy-enabled components in the naas architecture; 
+– policy decision and enforcement: at runtime, policies t hat were previousl y distributed to policy -
+enabled naas components will be used by those components to control or influence their 
+functionality and behaviour, including any decisions and actions that have to be taken. 
+7.7 naas resource functionalities 
+the naas resource functionalities include the functionalities necessary for the support of naas services. this 
+include functionalities such as network services, network functions, as well as the resources used in 
+underlying cloud computing infrastructures and n etwork infrastruct ures (see clause 6.3 for further 
+description of naas resources). for example, these naas resource functionalities can be used to provide 
+virtualized networks exposed by the service layer to the naas csc. 
+naas resource functionalities incl ude network connec tivity functionalities used in the different naas csp 
+domains. network connectivity functionalities include interworking functionalities between the different 

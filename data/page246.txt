@@ -1,0 +1,51 @@
+1 framework and requirements for cloud computing  
+ 
+238  
+– on-demand network traffic control : it is required that a distributed cloud provid e on -demand 
+network traffic control to mitigate congested network links among core, regional and edge clouds 
+by reallocating routing paths and allocating bandwidth; 
+ note 2 – the network bandwidth utilization inside a distributed cloud is substantially red uced with on -
+demand network traffic control. 
+– service routing: it is required that a distributed cloud support service routing for provisioning cloud 
+service flowing to cscs; 
+ note 3 – service routing is a unified service supporting platforms built on the  distributed service networking 
+(dsn). it supplies the service registration, publication, discovery, triggering and access mechanisms, and 
+enhanced capabilities to optimize the service. [b-itu-t y.2085] 
+– context awareness: it is required that a distributed cloud provide discovery of context information 
+for deploying and delivering cloud service requests to the best location among core, regional and 
+edge clouds; 
+ note 4 – discovery of context information is enabled by network functions.  
+– high-speed network connectivity: it is recommended that a distributed cloud provide high -speed 
+network connectivity to satisfy significantly higher data rates and data transportation among core, 
+regional and edge clouds; 
+– reliable network connectivity: it is recommended that a distributed cloud provide reliable network 
+connectivity for seamless network links with low error rates and fast connection recovery from 
+failures among core, regional and edge clouds; 
+– network virtualization: it is recommended that a distributed clo ud support network virtualization 
+for dynamic network deployment; 
+ note 5 – network virtualization is a technology that enables the creation of logically isolated network 
+partitions over shared physical networks so that heterogeneous collections of multipl e virtual networks can 
+simultaneously coexist over the shared networks. this includes the aggregation of multiple resources in a 
+provider and appearing as a single resource. [b-itu-t y.3011] 
+– network services delivery : it is recommended that a distributed  cloud provide network services 
+delivery wherever csc’s use cloud services. 
+ note 6 – network service delivery includes virtualized network functions of switching, tunnelling, traffic 
+analysis, and security such as load balancer, firewall and intrusion det ection. 
+7.3 service requirements for distributed cloud 
+– service mobility : it is required that a distributed cloud provide service mobility for supporting 
+service level agreements (slas); 
+ note 1 – for service mobility, the cscs' location detection and delivery of corresponding cloud services to the 
+suitable distributed cloud resource automatically are needed for fast response time.  
+– lightweight service: it is required that a distributed cloud provide lightweight cloud services for low 
+power consumption resources at edge clouds; 
+– context information update : it is required a distributed cloud support the updating of the 
+associated context information periodically or aperiodically; 
+ note 2 – see clause 6.2 for context information. 
+– caching of cloud service image : it is required that a distributed cloud provide caching of cloud 
+service images; 
+ note 3 – frequently used cloud service images need to be cached in a regional cloud to deploy cloud service 
+quickly to an edge cloud. 
+– service mig ration: it is required that a distributed cloud provide service migration from one 
+distributed cloud resource to another one; 
+ note 4 – service migration refers to running cloud services reallocated to another distributed cloud resource 
+by taking a snapshot. 

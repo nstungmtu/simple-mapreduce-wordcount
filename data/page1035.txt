@@ -1,0 +1,49 @@
+security 7 
+ 
+  1027 
+5) the unified account audit should mainly focus on the assignment of identity account, and the 
+behaviour of log-in and log-out according to the access control modules, which can help to dig out 
+the illegal accounts and overdue accounts, detect the account of over -authorization and lack of 
+authorization, and prevent log -in attempts with abandoned accounts or faked accounts. it should 
+submit the security events of accounts to the security audit module or systems to carry out a wider 
+range of audit function, such as intrusion detection, fault monitoring audit, and so on. 
+6) it should support user password management, which includes the unified sets of user password 
+policies based on the security policy of cloud platform, such as cryptographic algorithms, the length 
+of a password, the complexity of a password and the cycle of password updating. it should support 
+various types of passwords, such as graphical passwords, sound -based passwords and so on. 
+furthermore, it should support the functions of password synchronization and password reset. 
+7) it should provide self-service for tenants in account management. some management work can be 
+done by the tenants themselves, such as the modification of some simple user properties and 
+password updating, which can lighten the maintenance burden of the management staff. 
+8.1.2 access control management 
+csps should establish a unified, centralized authentication and authorization system to improve the security 
+of access control in daily operation. operational logs for access control to cloud computing systems should 
+be recorded for later audit. 
+1) unified authentication should support the functions below: 
+• support single sign -on (sso): it should support the parameters setting of sso, such as the 
+maximum session time, maximum idle time and maximum cache exist time. 
+• support mainstream authentication technology, such as ldap authentication, digital 
+certification authentication, token authent ication, biometric authentication, multifactor 
+authentication and so on. 
+• provide detailed authentication logs. it includes system identifications, logging users, log -in 
+time, log-out time, log-in internet protocol (ip) address, log-in terminal, logging results records 
+(success or failure). 
+• provide differentiated, optional authentication methods according to various systems and 
+services. it can meet the balance between the security level and ease of use and even cost. 
+2) unified authorization should support the functions below: 
+• provide authorization to access cloud resources, according to the predefinition of users, user 
+groups, and users' privileged level. 
+• support the mechanisms of centralized authorization and hierarchical authorization, and the 
+authorization range of hierarchical authorized administrators should be restricted by the 
+authorization administrator. 
+• support fine-grained authorization policy and coarse-grained authorization policy. 
+• provide detailed authorization logs, including ip addresses, operator, authorization time, as well 
+as granted and cancelled permissions. 
+3) other requirements 
+• control on accessing logs. csps should ensure that when administrators can access the logs, 
+they have granted privileges to do so. the tenants shoul d have privileges granted by the 
+administrators to view the logs related to them appropriately through a self -service portal 
+website or other client tools. 
+• mechanisms of encryption. the sensitive data such as authentication data, authorization data, 
+etc. should be encrypted in the procedure of storage and transmission. 
+• all the operational logs related to csc should be visible appropriately. 

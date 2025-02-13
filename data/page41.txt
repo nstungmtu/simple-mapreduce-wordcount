@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   33 
+use case 
+requirements – security 
+– service availability, service reliability and quality assurance 
+– service access 
+– interoperability 
+– regulatory aspects 
+– accounting and charging 
+ 
+use case 
+name use case use service 
+abstract a csc or a csn uses a published service. according to the agreement of the sla, the user 
+invokes the cloud service.  
+actors csc, csn 
+pre-conditions 
+(optional) 
+– the service to be used has already been published by a csp (uc -ps).  
+– the csc or the csn has been authenticated. 
+post-conditions 
+(optional) 
+– the used service should be kept available during the whole invocation. 
+– the sla should be met for service use. 
+requirements – service life-cycle management 
+– security 
+– portability 
+– interoperability 
+– regulatory aspects 
+– service availability, service reliability and quality assurance 
+– service access 
+– accounting and charging 
+i.2 iaas general use case  
+use case 
+name iaas general use case 
+abstract csc uses iaas services including computing, storage and network capabilities to deploy and 
+run arbitrary applications. 
+roles csc, csp 
+figure 
+ 
+

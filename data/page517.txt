@@ -1,0 +1,58 @@
+cloud computing management 2 
+ 
+  509 
+i.8 lifecycle stage management use case 
+title lifecycle stage management use case 
+description a csp provides some kind of cloud services to the market. for a better management for its 
+services, the csp is required to provide the ability to run the given service through its lifecycle 
+stages and offers the needed functionality at every step of the process. 
+roles csp 
+figure (optional) / 
+pre-conditions 
+(optional) 
+/ 
+post-conditions 
+(optional) 
+/ 
+derived 
+requirements 
+– lifecycle stage management (refer to clause 7.9) 
+i.9 service automation and continuous delivery use case 
+title service automation and continuous delivery use case 
+description a csp provides cloud services to the market. because of the continuous changing of the 
+market and csc's requirements, the design of the cloud service should be an iterative process. 
+by monitoring the service during its operation, the demand variations should be responded to 
+automatically and the necessary feedback to effect changes should be offered to the service 
+designer. 
+roles csp, csc 
+figure (optional) / 
+pre-conditions 
+(optional) 
+/ 
+post-conditions 
+(optional) 
+/ 
+derived 
+requirements 
+– service automation and continuous delivery (refer to clause 7.10) 
+i.10 metadata management use case 
+title metadata management use case 
+description a csp provides cloud services to the market. according to market requirement changes, it is 
+needed to adjust the already existing cloud services. therefore, a robust schema like metadata 
+which can be distributed in each stage needs to be provided. 
+roles csp 
+figure (optional) / 
+pre-conditions 
+(optional) 
+/ 
+post-conditions 
+(optional) 
+csp can support new cloud service creation with minimal modifications. 
+derived 
+requirements 
+– metadata management (refer to clause 7.11) 
+bibliography 
+ 
+[b-tmf tr198]  tm forum tr198, multi-cloud service management pack – simple management api 
+(smi) developer primer and code pack, release 2.2.  
+https://www.tmforum.org/?s=tr198  

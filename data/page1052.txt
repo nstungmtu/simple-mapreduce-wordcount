@@ -1,0 +1,32 @@
+7 security  
+ 
+1044 
+12.3 backup 
+12.4 logging and monitoring 
+12.5 control of operational software 
+12.6 technical vulnerability management 
+12.7 information systems audit considerations 
+13 communications security 
+13.1 network security management 
+13.2 information transfer 
+14 system acquisition, development and maintenance 
+14.1 security requirements of information systems 
+14.2 security in development and support processes 
+14.3 test data 
+15 supplier relationships 
+15.1 information security in supplier relationships 
+15.2 supplier service delivery management 
+16 information security incident management 
+16.1 management of information security incidents and improvements 
+17 information security aspects of business continuity management 
+17.1 information security continuity 
+17.2 redundancies 
+18 compliance 
+18.1 compliance with legal and contractual requirements 
+18.2 information security reviews 
+annex a – cloud service extended control set 
+annex b – references on information security risk related to cloud computing 
+bibliography 
+ 
+ 
+  

@@ -1,0 +1,28 @@
+1 framework and requirements for cloud computing  
+ 
+336  
+table i.2 – the massive and high resolution multimedia data service 
+title the massive and high resolution multimedia data service  
+description in this use case, the cloud service provider should support the csp: bdip provider to collect, 
+process and transmit the massive multimedia data using cloud service s. in addition, the csp 
+should support the csp:bdap to provide massive multimedia related application services. 
+the csp:bdap can provide the multimedia analysis and visualization to the user and provide 
+the multimedia collection (transmission), processing and storage to the user or the 
+csp:bdap. 
+roles/sub-roles – csp 
+– csp:bdip  
+– csp:bdap 
+– csc:bdsu 
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– acceleration processing (refer to clause 8.2, requirement 2)  
+– network monitoring (refer to clause 8.6, requirement 5) 
+

@@ -1,0 +1,57 @@
+ framework and requirements for cloud computing 1 
+ 
+   359 
+table 9-1 – itu-t deliverables and work items related to big data 
+study 
+group 
+reference 
+(note) 
+title status 
+sg 13 [itu-t y.3600] big data – cloud computing based requirements and capabilities published 
+2015 
+sg 13 [itu-t 
+y.bigdataex-reqts] big data exchange framework and requirements 2q 2017 
+sg 13 [itu-t  
+y.bdaas-arch] functional architecture of big data as a service dec. 2016 
+sg 13 [itu-t 
+y.bddn-req] requirement of big data-driven networking dec. 2018 
+sg 13 [itu-t y.bddn-fr] framework of big data driven networking based on dpi jul. 2018 
+sg 13 [itu-t y.dsf-reqts] requirements and capabilities for data storage federation 2q 2018 
+sg 13 [itu-t 
+y.bdpi-mec] 
+mechanism of deep packet inspection applied in network big data 
+context dec. 2018 
+sg 13 [itu-t 
+y.sdn-arch] functional architecture of software-defined networking jul. 2017 
+sg13 [itu-t 
+y.bdp-reqts] big data – requirements for data provenance 4q 2018 
+sg 17 [itu-t x.1601] security framework for cloud computing published 
+2014 
+sg 17 [itu-t 
+x.cscdatasec] guidelines for cloud service customer data security dec. 2016 
+sg 20 [itu-t y.iot-
+bigdata-reqts] 
+specific requirements and capabilities of the internet of things for 
+big data 4q 2016 
+note – clause i.1 contains a description of each cited reference. 
+9.2 iso/iec jtc 1 
+in november 2014, the iso/iec joint technical committee 1 ( jtc 1) established working group (wg) 9 
+[b-jtc 1] on big data to: 
+− serve as the focus of, and proponent for, big data standardization; 
+− develop foundational standards for big data – including reference architecture and vocabulary 
+standards – for guiding big data efforts throughout jtc 1 upon which other standards can be 
+developed; 
+− develop other big data standards that build on the foundational standards when relevant jtc  1 
+subgroups, that could address these standards, do not exist or are unable to develop them. 
+− identify gaps in big data standardization; 
+− develop and maintain liaisons with all relevant jtc 1 entities as well as with any other jtc 1 subgroup 
+that may propose work related to big data in the future; 
+− identify jtc 1 (and other organization) entities that are developing standards an d related material 
+that contribute to big data, and where appropriate, investigate ongoing and potential new work that 
+contributes to big data; 
+− engage with the community outside of jtc 1 to grow the awareness of and encourage engagement 
+in jtc 1 big data standardization efforts within jtc 1, forming liaisons as is needed. 
+jtc 1 subcommittee (sc) 27 has been developing standards for the protection of information and ict, which 
+include generic methods, techniques and guidelines to address aspects of both security and privacy. security 
+and privacy is one of the cross cutting aspect on ict, and the activities of sc 27 can be applied to the area of 
+big data as well. 

@@ -1,0 +1,22 @@
+1 framework and requirements for cloud computing  
+ 
+268  
+appendix i 
+ 
+overview and reference model for storage in a cloud environment 
+(this appendix does not form an integral part of this recommendation.) 
+storage resources are used to store a huge amount of data. the traditional storage system utilizes a tightly-
+coupled symmetry reference model which aims to work out high performance computing problems and may 
+fulfil cloud computing scalability requirements . the next generation system adopts a loosely -coupled 
+asymmetry reference model which centralizes metadata and controls manipulation. this reference model is 
+not suitable for high performance computing; however, this design is to solve large capacity storag e needs 
+based on cloud computing deployment. 
+the applications and data in cloud environments need be delivered and maintained reliably using a tightly-
+coupled architecture. other applications (e.g., search engines, media streaming) may rely on loosely-coupled 
+architecture. 
+i.1 reference model for cloud storage 
+cloud storage delivers virtualized storage on demand over a network based on cluster, grid and distributed 
+file systems. when the key issue of operation and processing in cloud computing i s the storage and 
+management of large-scale data, a large number of storage equipment need to be deployed. hence, cloud 
+storage is a cloud computing system for data storage and management. 
+figure i.1 depicts the cloud storage reference model. 

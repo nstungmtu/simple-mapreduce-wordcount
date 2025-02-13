@@ -1,0 +1,57 @@
+security 7 
+ 
+  981 
+10 framework methodology 
+to develop a security framework for cloud computing means understanding what threats and challenges 
+exist, as was discussed in clauses 7 and 8, for the chosen specific cloud service along with the business, 
+technology and regulatory requirements which are to be taken together to identify security controls, policies 
+and procedures that will be needed for a given cloud service. the capabilities described in clause 9 to address 
+and mitigate these threats and challenges are the n used to develop the security controls, policies and 
+procedures for the chosen specific cloud computing service. this recommendation focuses on what the 
+needs are for security in a cloud computing environment, the threats and challenges of a traditional 
+computing environment exist within the cloud environment and as such following the standards and best 
+practices defined by the industry should be followed in addition to this recommendation. 
+the methodology described here should be followed to create the framework that will identify what security 
+controls, policies and procedures will be needed for a specific given cloud computing service. it is not possible 
+to provide a single normative framework for all cloud computing services, since they vary greatly in business 
+model, services offered and implementation choices: 
+• step 1: use clauses 7 and 8 to identify security threats and security implications of the challenges in 
+the cloud computing service under study. 
+• step 2: use clause 9 to identify the needed high-level security capabilities based on identified threats 
+and challenges which could mitigate security threats and address security challenges. 
+• step 3: derive security controls, policies and procedures which could provide the security abilities 
+that are needed based on identified security capabilities. 
+note – a set of appropriate requirements with respect to the security capabilities will need to be determined by the 
+csc and csp using appropriate standards. this determination will be based on the risk as sessment. 
+to identify which security threats and challenges are relevant for the cloud service under study, each threat 
+or challenge should be reviewed. one approach could be as simple as a table showing a 'y' next to the threat 
+or challenge. 
+for an example using this approach, when the csp provides file storage as a service to individual users, the 
+csp would like to understand what security threats and challenges users are mainly concerned about, and to 
+analyse what security threats and challenges that csp  mainly needs to address. table 1 demonstrates this 
+approach. 
+table 1 – example of security framework analysis step 1 for file storage as a service 
+area of analysis specific threat or challenge is this applicable to this 
+service? 
+clause 7.1 security threats for cloud 
+service customers (csc) 
+clause 7.1.1 data loss and leakage y 
+clause 7.1.2 insecure service access y 
+clause 7.1.3 insider threats  
+clause 7.2 security threats for cloud 
+service providers (csps) 
+clause 7.2.1 unauthorized administration 
+access 
+y 
+clause 7.2.2 insider threats y 
+clause 8.1 security challenges for cloud 
+service customers (cscs) 
+clause 8.1.1 ambiguity in responsibility y 
+clause 8.1.2 loss of trust y 
+clause 8.1.3 loss of governance y 
+clause 8.1.4 loss of confidentiality y 
+clause 8.1.5 service unavailability y 
+clause 8.1.6 cloud service provider lock-in y 
+clause 8.1.7 misappropriation of 
+intellectual property 
+ 

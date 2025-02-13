@@ -1,0 +1,44 @@
+7 security  
+ 
+976 
+while lock-in is a business issue, it is not in itself a security threat . however, it can sometimes give rise to 
+security concerns. for example, if the csn who supplies a key component goes out of business, it may be that 
+no further security patches are available. where vulnerability in the component emerge s, it may be very 
+difficult or expensive to mitigate the risk. 
+8.2.9 supply chain vulnerability 
+a csp is at risk if hardware or software delivered to the platform through their supply chain undermines csc 
+or csp security, for example, the accidental or deliberate introduction of malware or exploitable 
+vulnerabilities. 
+a case in point would be bad software from the csn. this security challenge exists for csn software running 
+in the csp, such as customer facing, a virtual machine (vm) guest operating  system (os), applications, 
+platform components, or audit/monitoring software (e.g., for a partner providing a service audit). 
+another example is wh en a csp is running software provided by a partner;  the csp is at risk if the partner 
+fails to provide the necessary security updates in a timely manner. 
+8.2.10 software dependencies 
+when vulnerability is detected, it may not be possible to apply updates immediately because doing so would 
+break other software components (though those components may not otherwise require updating). this is 
+particularly true if the dependency exists between components provided by one or more csns, rather than 
+the csps themselves. 
+8.3 security challenges for cloud service partners (csns) 
+this clause considers challenges that directly affect csns. such challenges might affect the ability of a csn to 
+do business, to get paid, to protect their intellectual property, and to avoid l egal or regulatory difficulties. 
+security challenges  to a given csn will depend on their specific business and environments, such a s 
+development, integration, audit, or otherwise. 
+8.3.1 ambiguity in responsibility 
+where there is a mix of csp and csn software running in the service, it may not be apparent to the csc where 
+the responsibility for mitigation and handling of security incidents resides. it may be quite difficult to 
+determine the responsible entity by technical analysis. this could result in mutua l finger-pointing between 
+the csp and csn(s) as to who is at fault, which could result in further breaches if the root cause is not found. 
+8.3.2 misappropriation of intellectual property 
+when partners submit software or other assets to the csp for execution, the security challenge exists that 
+this material could be leaked to third parties or misappropriated for unauthorized use. this could include a 
+violation of copyright or the exposure of trade secrets. 
+8.3.3 loss of software integrity 
+once the partner's software is running in  the csp, there is a possibility of the software being modified or 
+infected while it is out of the direct control of  the csn, thus causing their software to misbehave in some 
+way. although this possibility exists outside the csn's control, it could seriously affect their reputation and 
+thus their business. 
+9 cloud computing security capabilities 
+this recommendation identifies the following  security capabilities  against identified cloud computing 
+security threats and challenges. parameters related with these security capabilities may be stipulated in the 
+security service level agreement (sla), for example, an incident response time. 

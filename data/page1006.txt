@@ -1,0 +1,46 @@
+7 security  
+ 
+998 
+e) insecure service access: in the monitoring data collection stage, insecure access to the data 
+collection interfaces could cause monitoring data loss. 
+f) unauthorized administration access: unauthorized administration access to the csp's monitoring 
+data collection system, or the csc's system could result in monitoring data loss. for example, 
+attackers may use a system vulnerability to gain unauthori zed administration access to the csc's 
+system and modify the monitoring collection destination ip address to that of the attackers. 
+9.2 security threats and challenges in monitoring data storage stage 
+a) data loss and leakage: as the cloud service environment is typi cally a multi -tenant one, loss or 
+leakage of data is a serious threat to both the csc and csp. a lack of appropriate management of 
+cryptographic information, such as encryption keys, authentication codes and access privilege, could 
+lead to significant damages, such as data loss and unexpected leakage to the outside. for example, 
+insufficient authentication, authorization, and audit controls; inconsistent use of encryption and/or 
+authentication keys; operational failures; disposal problems; jurisdiction and political issues; data 
+centre reliability; and disaster recovery, can be recognized as major threats. 
+b) service unavailability: a monitoring data storage server can be attacked by a denial of service (dos) 
+or distributed denial of service (ddos) attack; i n addition, the monitoring data storage hardware 
+could fail and cause data loss or destruction. 
+9.3 security threats and challenges in monitoring data use stage 
+a) data misuse: csc monitoring data could be misused by the csp. monitoring data could be used by a 
+csp to maintain sla and the operation of cloud computing platform and resources; however, csc 
+monitoring data could also be used for other purposes by the csp without csc permission. 
+b) insider threats: an employee of a csp or csc could misuse the csc's monitoring data for other than 
+intended purposes. 
+c) system vulnerability: monitoring data could be lost during data usage due to system vulnerabilities. 
+d) eavesdropping: monitoring data could be subject to eavesdropping by attackers. 
+9.4 security threats and challenges in monitoring data migration stage 
+a) data misuse: monitoring data could migrate between different physical locations. it is very 
+important not to allow data to be misused as a result of monitoring data being transmitted to 
+different locations. 
+b) spoofing: attackers could masquerade as the management system or data storage server of a cloud 
+monitoring service, and cause the loss or misuse of monitoring data. 
+c) tampering and intercepting: attackers could use man-in-the-middle or other network attacks to 
+tamper and intercept monitoring data. 
+9.5 security threats and challenges in monitoring data analysis stage 
+a) data misuse: csc monitoring data could be misused by the csp during data analysis. 
+b) system vulnerability: monitoring data could be lost due to a data analysis system vulnerability. 
+c) dos attack: a monitoring data analysis server could be attacked by dos or ddos attack. 
+9.6 security threats and challenges in monitoring data presentation stage 
+a) data misuse: csc monitoring data could be misused (or be presented without csc permission) by 
+the csp during data presentation. 
+b) system vulnerability: reporting and analysis data could be lost due to a data presentation system 
+vulnerability. 
+c) misrepresentation: csc monitoring data could be misrepresented during a data presentation. 

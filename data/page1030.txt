@@ -1,0 +1,48 @@
+7 security  
+ 
+1022 
+rpo recovery point objective 
+rto recovery time objectives 
+saas software as a service 
+sla service level agreement 
+sms short message service 
+sso single sign-on 
+vdc virtual data centre 
+vm virtual machine 
+5 conventions 
+none. 
+6 overview 
+with the rapid expansion of the cloud computing market and the establishment of industry chains, security 
+issues continue to be a major and important topic that cannot be ignored. cloud computing systems are 
+facing more challenges than traditional information technology (it) systems beca use they are more 
+complicated, and huge amounts of users' private data have been stored in the cloud. both security and 
+privacy protection are the most important factors when customers evaluate the use of cloud computing 
+services. 
+more and more cloud servi ces will be supplied, and methods to guarantee the reliability of these cloud 
+services have become more urgent. it is therefore necessary to thoroughly investigate the operational 
+security of cloud computing to provide guidelines for cloud service providers (csps). the guidelines can help 
+csps reduce the security risk from improper operation, unreasonable business design, etc., and improve the 
+overall security level of operation for cloud computing services. 
+from the perspective of csps, the main security challenges of operational security are described below: 
+1) challenges to the maintenance of cloud computing infrastructure: when cloud computing provides 
+the users with it infrastructure, a platform or software as a service, the stability, reliability and safe 
+delivery of cloud services are a prerequisite to carry out business. in order to guarantee that 
+customer service is not interrupted, the infrastructure of the cloud system should be ensured for a 
+reliable and stable operation, and the necessary precautions should be adopted to protect the safety 
+and privacy of user's information. even in the event of a small failure, many cscs  may experience 
+difficulties such as business interruption or data loss. csps should seriously consider how to quickly 
+locate the faults and automatically switch to the backup system seamlessly to protect the availability 
+of customers' service. 
+2) challenges to the management mode of cloud computing: the characteristics of cloud computing, 
+such as cross -regional services, huge comp uting power, separation of data management and 
+ownership,  distinguishes it  from the traditional it services. these challenges require effective 
+management and co-operation between branch nodes to solve security problems by csps. for csps, 
+some necessary technical measures, such as security configuration management, etc., a reasonable 
+distribution of management authority, and a set of effective management rules and processes will 
+be needed to prevent the leakage of user data. for example, csps should take measures to prevent 
+the internal administrators from overstepping their authority so as to prevent users from abusing 
+the cloud computing resources. 
+overall, for the complete security of cloud applications operated on the cloud infrastructure, cs ps should 
+adopt different technological methods and management mechanisms not only to maintain the security, 
+stability and availability of the cloud infrastructure, but also to protect the business continuity and the user 
+data of the cloud services operated. 

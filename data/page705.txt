@@ -1,0 +1,49 @@
+xaas 3 
+ 
+     697 
+appendix i 
+ 
+mapping among naas functional requirements and functionalities 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix aims to describe the mapping among naas functional requirements (specified in 
+[itu-t y.3512]) and functionalities. the mapping between functiona lities and functional requirements of 
+three kinds of naas services had been taken into account. 
+i.1 mapping and derivation of functionality for naas service instantiation 
+taking the functional requirements ''elastic network reconfiguration '', ''dynamic and flexible network 
+services composition and steering'', and ''unified network control mechanism'' as the analysis example, naas 
+architecture needs to satisfy dynamic configuration change requirements based on real-time network status 
+and policy, and network resource abstraction across different layers including application layer (l7), ip layer 
+(l3), and lower layers (l0-l2). 
+the traditional development and operation procedures are always separated and hardly address real -time 
+configuration changes due to slow deployment of network functions/devices and unsatisfactory quality of 
+experience (qoe). therefore, it is also needed fo r the naas csp to offer programmable ways to configure 
+networks (so called development and operations ( devops)), which is also mentioned in the functional 
+requirement ''programmable naas platform''. 
+note – devops is a  software development method  that stresses communication, collaboration (information sharing 
+and web service usage), integration, automation and measurement of cooperation between  software developers and 
+other it professionals. devops acknowledges the interdependence of software development and it operations. 
+to implement network resource abstraction across different layers, it is needed to model different network 
+resources in a unified manner, including physical and/or virtualized network nodes and links. apart from this, 
+network services and t he corresponding deployment policies also need respective unified models. these 
+three kinds of models should be able to share information with one another in order that the real -time 
+configuration change demands can be transferred from the naas csc to the naas csp's network elements. 
+moreover, regarding the requirement ''optimized and fine -grained traffic engineering '', its detailed 
+description includes ''collects near real -time utilization metrics and topology data from it s own network 
+equipment'' and ''controls the network resource allocation by reconfiguring network profiles as well as 
+properties in response to dynamically changing traffic demands'', which also require dynamic configuration 
+changes response. therefore, th is can be grouped to derive the co mmon functionality with the above  
+mentioned functional requirements. 
+i.2 mapping and derivation of functionality for service orchestration 
+regarding ''coexistence with legacy network services and functions'', its detailed description includes ''avoid 
+or mitigate possible performance and flexibility impacts when introducing new network connectivity 
+services'' and ''support coexistence of new network connectivity services with legacy systems '', which 
+requires naas architecture to provide the evolution and incremental deployment mechanism for the new 
+paradigm of networking. 
+taking the introduction of sdn as an example, during its transition, sdn-based networks should/could coexist 
+with legacy ip networks, any sdn -based deployme nt should/could be able to exchange reachability 
+information, forwarding traffic, and express routing policies with exiting ip networks. 
+moreover, ''interworking among different vpn solutions '' is an example of networking connectivity 
+interworking implementation requirement and can also be grouped in this functionality. 
+regarding the ''unified network control mechanism '', ''centralized control view and abstraction view of 
+resources'', ''unified sla for multiple optimized networks'', and ''leveraging transport networks dynamically'' 
+functional requirements, their detailed description includes ''provide a unified control mechanism for the 

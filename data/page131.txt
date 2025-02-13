@@ -1,0 +1,48 @@
+framework and requirements for cloud computing 1 
+ 
+   123 
+(8) it is required that the csp:dmp provide the validation of dsf data on data operation to check the 
+data integrity. 
+(9) it is required that csp:dmp support csc:csu's data consistency for replicated dsf data. 
+note 6 – the data consistency means that csp:dmp correctly backup current dsf data in order to recover 
+csc:csu's data on storage failure. 
+(10) it is required that csp:dmp support csc:csu's data transparency. 
+note 7 – the data transparency means to access csc:csu's data without knowing location. 
+8.3 storage federation requirements 
+(1) it is recommended that csp:sfp provide the performance information of dsf local storage from 
+storage management metadata. 
+note 1 – performance information are read/write i/o speed, netwo rk bandwidth, storage capacity, storage 
+types, etc. 
+(2) it is recommended that csp:sfp provide virtual storage pool optimization considering the 
+performance of dsf local storage. 
+note 2 – virtual storage pool optimization includes storage mirroring, storage prioritization, csc:csu's access 
+geo-location and their combinations. 
+(3) it is recommended that csp:sfp provide single virtual volume optimization based on csc:csu's 
+purpose. 
+note 3 – single virtual volume optimization include storage size, data safety, storage performance, mobility 
+of the usage environment and their combinations. 
+(4) it is required that csp:sfp provide the configuration of single virtual volume from csc:csu requests. 
+(5) it is required that csp:sfp provide a read/write cache to access data. 
+note 4 – the read/write cache enables to enhance the performance of the storage and the device storing the 
+data is used by various devices for fast cache operation. 
+note 5 – the various devices for fast cache are main memory, ram based disk, ssd, etc.  
+(6) it is recommended that csp:sfp provide hierarchical cache management using cache multi-tiering. 
+note 6 – cache multi-tiering means that for the high -speed access, cache hierarchy is extended to various 
+devices for fast caching. 
+note 7 – for capacity limit, if a main-memory cache area is exhausted, it is automatically expanded to a ram 
+based disk cache and expanded to ssd cache.  
+note 8 – when csc:csu performs the data ope ration, the data operation is performed in the memory area 
+in advance for fast write response.   
+(7) it is required that csp:sfp provide the backup of global registry for high availability. 
+note 9 – the backup of the global registry is synchronized with most recently updated csc:csu's data. 
+(8) it is recommended that csp:sfp provide in-parallel access to dsf local storage. 
+(9) it is required that csp:sfp provide the registration of csc:csu's credentials to a dsf local storage. 
+(10) it is recommended that csp:sfp support monitoring the performance information of dsf local 
+storage. 
+(11) it is required that csp:sfp provide the management of dsf local storage interface. 
+(12) it is recommended that csp:sfp support access to the secured storage interface for dsf l ocal 
+storage. 
+(13) it is required that csp:sfp provide the storage operation for dsf local storage. 
+note 10 – storage operation for dsf local storage includes create, delete, scaling, partitioning and checking 
+volume, etc.). 
+(14) it is required that csp:sfp provide scaling of single virtual volume on csc:csu demand. 

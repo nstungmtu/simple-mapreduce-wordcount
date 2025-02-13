@@ -1,0 +1,52 @@
+ framework and requirements for cloud computing 1 
+ 
+   379 
+below arethe key characteristics of cloud computing described in [itu-t y.3500]: 
+− broad network access : a feature where the physical and virtual resources are available over a 
+network and accessed through standard mechanisms that promote use by heterogeneous client 
+platforms. the focus of this key characteristic is that cloud computing offers an increased level of 
+convenience in that users can access physical and virtual resourc es from wherever they need to 
+work, as long as it is network accessible, using a wide variety of clients including devices such as 
+mobile phones, tablets, laptops and workstations. 
+− measured service: a feature where the metered delivery of cloud services is such that usage can be 
+monitored, controlled, reported and billed. this is an important feature needed to optimize and 
+validate the delivered cloud service. the focus of this key characteristic is that the customer may 
+only pay for the resources that they use. from the customers' perspective, cloud computing offers 
+the users value by enabling a switch from a low efficiency and asset utilization business model to a 
+high efficiency one. 
+− multi-tenancy: a feature where physical or virtual resources are allocated in such a way that 
+multiple tenants and their computations and data are isolated from and inaccessible to one another. 
+typically, and within the context of multi -tenancy, the group of cloud service users that form a 
+tenant will all belong to the same cloud service customer organization. there might be cases where 
+the group of cloud service users involves users from multiple different cloud service customers, 
+particularly in the case of public cloud and community cloud deployments. however, a given  cloud 
+service customer organization might have many different tenancies with a single cloud service 
+provider representing different groups within the organization. 
+− on-demand self -service: a feature where a cloud service customer can provision computing 
+capabilities, as needed, automatically or with minimal interaction with the cloud service provider. 
+the focus of this key characteristic is that cloud computing offers users a relative reduction in the 
+costs, time and effort needed to take an action, since i t grants the user the ability to do what they 
+need, when they need it, without requiring additional human user interactions or overheads. 
+− rapid elasticity and scalability : a feature where physical or virtual resources can be rapidly and 
+elastically adjusted, in some cases automatically, to quickly increase or decrease resources. for the 
+cloud service customer, the physical or virtual resources available for provisioning often appear to 
+be unlimited and can be purchased in any quantity at any time automatica lly, subject to the 
+constraints of service agreements. therefore, the focus of this key characteristic is that cloud 
+computing means that customers no longer need to worry about limited resources and might not 
+need to worry about capacity planning. 
+− resource pooling: a feature where a cloud service provider's physical or virtual resources can be 
+aggregated in order to serve one or more cloud service customers. the focus of this key 
+characteristic is that cloud service providers can support multi-tenancy while at the same time using 
+abstraction to mask the complexity of the process from the customer. from the customer's 
+perspective, all they know is that the service works, while they generally have no control or 
+knowledge over how the resources are being provi ded or where the resources are located. this 
+offloads some of the customer's original workload, such as maintenance requirements, to the 
+provider. even with this level of abstraction, it should be pointed out that users might still be able 
+to specify locations at a higher level of abstraction (e.g., country, state, or data centre). 
+the general requirements for cloud computing described in [itu-t y.3501] are as follows: 
+− service life -cycle management : it is required that the cloud service provider ( csp) suppo rts 
+automated service provisioning, modification and termination during the service life-cycle. 
+− regulatory: it is required that all applicable laws and regulations be respected, including those 
+related to the protection of personally identifiable information (pii). 
+− security: it is required that the cloud computing systems provided by a csp be appropriately secured 
+to protect the interests of all involved parties (e.g., persons and organizations). 

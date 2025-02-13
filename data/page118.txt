@@ -1,0 +1,14 @@
+1 framework and requirements for cloud computing  
+ 
+110  
+summary 
+recommendation itu -t y.3505 provides an overview and functional requirements for data storage 
+federation. d ata storage federation provides a single virtual volume from multiple data sources in 
+heterogeneous storages. in this recommendation, configuration for logical components and an ecosystem 
+of data storage federation as well as cloud computing based data storage federation are introduced for data 
+storage federation. functional requirements are derived from use cases. 
+keywords 
+cloud computing, data storage federation, functional requirement. 
+ 
+ 
+  

@@ -1,0 +1,8 @@
+xaas 3 
+ 
+    659 
+bibliography 
+ 
+[b-iso/iec ovf] iso/iec standard 17203:2011, information technology -- open virtualization format 
+(ovf) specification. 
+ 

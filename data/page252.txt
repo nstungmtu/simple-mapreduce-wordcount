@@ -1,0 +1,35 @@
+1 framework and requirements for cloud computing  
+ 
+244  
+table ii.1 – autonomous cloud service provisioning on distributed cloud 
+use case 
+figure  
+ 
+ 
+pre-conditions 
+(optional) 
+associated context information is updated periodically or aperiodically.  
+post-conditions 
+(optional) 
+ 
+requirements – adaptive resource composition (see clause 7.1) 
+– context information update (see clause 7.3) 
+– autonomous cloud service provisioning (see clause 7.3) 
+– massive data handling on edge cloud (see clause 7.3) 
+– context information management (see clause 7.4) 
+ii.2 customer-oriented cloud service provisioning on distributed cloud 
+table ii.2 – customer-oriented cloud service provisioning on distributed cloud 
+use case 
+name customer-oriented cloud service provisioning on distributed cloud. 
+abstract this use case describes customer-oriented service deployment on distributed cloud. 
+a main benefit of distributed cloud is provisioning of a cloud service in close proximity to 
+csc. for the provisioning, methods to support customer-oriented cloud service provisioning 
+on distributed cloud are needed and is called service routing. the service routing includes 
+packet routing, service awareness, etc. by service awareness on distributed cloud, a cloud 
+service is deployed on a cloud in close proximity to the csc or the request of a cloud service 
+is delivered to another cloud. accordingly, the service routing on distributed cloud enab les: 
+– scaling or migrating a cloud service for supporting mobility as shown in figure <an 
+example of scaling or migrating a cloud service for supporting mobility>;  
+– deploying and providing a cloud service for low response time as shown in figure <  an 
+example of deploying and providing a cloud service for low response time>; and  
+

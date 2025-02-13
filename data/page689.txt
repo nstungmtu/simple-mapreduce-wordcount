@@ -1,0 +1,39 @@
+xaas 3 
+ 
+     681 
+ 
+figure 8-3 – oss-naas functional components 
+the oss-naas functional components include the following oss functional components: 
+1) service catalogue functional component (see clause 9.2.5.3 of [itu -t y.3502]) . this component 
+includes a listing of all cloud services of naas csps including the relevant naas services; 
+ 
+ modelling is needed for ensuring an efficient control and management of the naas services, policies, 
+and resources by the naas csp. the following models used for naas servi ce instantiation 
+(see clause 7.2.2) are needed in the service catalogue: 
+– naas service models 
+ a naas service model provides the information model of a given naas service (e.g. , vpn as a 
+service (vpnaas)) being offered by the naas csp. naas service models are used for creating and 
+deploying naas service solutions by  the naas csp. in a naas service model, a naas service 
+specification is needed which includes the various interfaces related to the operations offered 
+by a naas service. the naas service model i s used when instantiating the corresponding naas 
+service. for example, in case of a vpn service instance the different service attributes used to 
+model a vpn service, such as tenant id, vpn site ids, vpn type and access bandwidth are part 
+of the naas servi ce model and will be subsequently used by the naas csc when tr iggering 
+vpn-related service requests. 
+– naas service operational policy models 
+ a naas service operational policy model provides the information model related to network 
+operational policies for a given naas service. the operational policies can be created at different 
+levels of abstraction and can represent different types of policy rules for controlling  naas 
+resources managed by the naas csp. the operational policies are used to control the 
+configuration changes of naas resources (e.g., network elements). 
+ for a given naas service, the corresponding naas service model and naas service operational 
+policy model always work together although loosely bound to each other. the creation, 
+deletion, and any major state changes of a specific naas service instance (instantiated based on 
+the corresponding naas service model selected by the naas csc) usually trigger the execution 
+of one specific naas service operational policy model, which is used together w ith the naas 
+service model during the whole lifecycle of the naas service. 
+– naas resource models 
+ a naas resource model reflects , in an abstract manner , naas csp's resources including their 
+associated topological view across different layers. a naas resou rce model reflects the 
+attributes and operational pa rameters of given naas resources (e.g. , ns, nf, virtualized 
+

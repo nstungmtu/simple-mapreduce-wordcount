@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   287 
+in figure 8-1, intra-cloud service and resource handling allows a csp (a or b) to manage its own resources 
+including underlying physical resources and abstracted resources. inter-cloud service and resource handling 
+allows a csp to negotiate for the use of peer csps' abstracted resources provided as cloud services. 
+for example, when csp a decides to use resources from csp b, its intra-cloud service and resource handling 
+will interact with its inter-cloud service and resource handling, which will then interact with csp b. when the 
+inter-cloud service and resource handling of csp b receives the request from csp  a, the request will be 
+relayed towards its own intra -cloud service and resource handling in order for csp b to decide whether to 
+provide the service and associated abstracted resources to the csp a. 
+8.2 overview of inter-cloud federation 
+8.2.1 introduction 
+in the inter-cloud federation pattern, a number of csps provide services to cscs. when  needed (e.g., in the 
+event of a serious shortage in resource pool) , csps within the inter -cloud federation utilize other csps' 
+resources to provide services to their customers. 
+figure 8-2 illustrates the inter-cloud federation pattern. 
+y .3511(14)_f8-2
+csp a
+inter-cloud federation
+service xcsc 1
+service y
+csc 2
+csc 3 service z
+csp c
+csp b
+csp e csp d
+ 
+figure 8-2 – inter-cloud federation 
+as shown in figure 8-2, csc 1 and csc 2 use services x and y provided by csp a, but the resources used for 
+services x and y may actually be provided by csps b, c or e. 
+8.2.2 primary csp and secondary csp 
+in an inter -cloud federation, two or more csps inter act to provide cloud services to cscs. the csp that is 
+responsible for providing the services to a given csc is called the primary csp while the peer csps in the inter-
+cloud federation offering their own resources as services to the primary csp are called secondary csps. 
+when needed, the primary csp will make request in order to utilize the resources of secondary csps. the 
+primary csp determines which secondary csps will actually provide such resources (e.g.,  in terms of 
+processing power, storage and networks) to the csc. in some cases, the primary csp may provide none of its 
+own resources and will have to obtain all resources required for the support of services from secondary csps. 
+the roles of primary csp and secondary csp depend on the individual service . for example, in figures 8 -3 
+and 8-4, csp a is the primary csp and csps b, c and e are secondary csps for services x and y. for service z, 
+csp e is the primary csp and csps a and d are secondary csps. 

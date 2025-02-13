@@ -1,0 +1,49 @@
+security 7 
+ 
+  1025 
+7.2.2.3 emergency response 
+csps should provide a hotline service number to provide a fault reporting service, available 5*8 or 7*24. 
+additionally, the service indicators should include failure acceptance time, troubleshooting time, and so on. 
+7.2.2.4 security measures 
+csps should provide appropriate security measures for the whole cloud computing infrastructure. 
+1) measures on computing virtualization 
+ csps should impleme nt available measures to provide flow inspection, virtual firewall or other 
+security features in the hypervisor layer, which can keep the behaviour of intra -virtual machines 
+(vms) visible and controlled by administrators. 
+2) network and domain isolation 
+ csps should implement network and domain isolation measures, such as firewall, access control list 
+(acl) policies in routers, and domain controllers to keep strict isolation of different cscs. 
+3) privileged access 
+ csps should implement measures, such as just in time (jit) access, to ensure privileged access. 
+4) authentication 
+ csps should implement strong authentication methods, such as multi -factor authentication, 
+fingerprint authentication, etc., to reinforce the security of the authentication. 
+5) measures to secure network traffic 
+ csps should implement available measures to resist denial of service (dos)/distributed denial of 
+service (ddos) attacks and circumvent network congestion, deploy intrusion detection or 
+prevention systems to resist network intrusion. 
+6) measures against malware 
+ csps should implement available measures to prevent infection by malware or virus. 
+7) patch upgrade 
+ csps should regularly implement patch upgrade and version upgrade for the virtualization software, 
+the operating system and database (db) to keep them up to date. 
+7.2.2.5 security audit 
+csps should carry out regular security audits over the whole cloud computing system. the audit can be 
+executed by an internal independent audit team or third -party auditors (acting as cloud service partners 
+(csns)). the audit results should be appropriately visible to cscs. 
+7.2.2.6 security monitoring for improving sla 
+csps should provide a mechanism to monitor the quantitative parameters of services to improve sla. 
+1) monitoring objects 
+ define the monitoring objects, such as the central processing unit (cpu) utilization, security 
+warnings, and so on. the trigger condition should also be explicitly indicated. 
+2) security event notification 
+ the mode and time of security event  notification should be stipulated. the notification mode 
+includes e -mail, telephone, short messages or other ways negotiated by csps and cscs. the 
+notification time means the average time from the event occurrence to notifying csc. 
+ csps may provide appro priate capabilities for cscs such as service -level self -monitoring and 
+automatic supervision of the resources allocated to them. 
+7.2.2.7 security certification 
+csps should be responsible for the acquisition of relevant security certifications, and they sho uld regularly 
+update these certifications to meet the requirements of cscs. 
+the engineers and other csp staff should take security training courses and should be qualified for the 
+operations of the cloud computing platform. 

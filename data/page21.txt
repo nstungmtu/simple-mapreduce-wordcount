@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   13 
+– hybrid cloud: cloud deployment model using at least two different cloud deployment models. the 
+deployments involved remain unique entities but are bound together by appropriate technology 
+that enables interoperability, data portability and application portability. a hybrid cloud may be 
+owned, managed, and operated by the organization itself or a third party and may exist on premises 
+or off premises. hybrid clouds  represent situations where interac tions between two different 
+deployments may be needed but remained linked via appropriate technologies. as such the 
+boundaries set by a hybrid cloud reflect its two base deployments. 
+6.6 cloud computing cross cutting aspects 
+cross cutting aspects are behav iours or capabilities which need to be coordinated across roles and 
+implemented consistently in a cloud computing system. such aspects may impact multiple roles, activities, 
+and components, in such a way that it is not possible to clearly assign them to individual roles or components, 
+and thus become shared issues across the roles, activities and components. 
+key cross cutting aspects include: 
+– auditability: the capability of collecting and making available necessary evidential information 
+related to the operation and use of a cloud service, for the purpose of conducting an audit; 
+– availability: the property of being accessible and usable upon demand by an authorized entity. the 
+"authorized entity" is typically a cloud service customer; 
+– governance: the system by which the provision and use of cloud services  are directed and 
+controlled. cloud governance is cited as a cross -cutting aspect because of the requ irement for 
+transparency and the need to rationalize governance practices with slas and other contractual 
+elements of the cloud service customer to cloud service provider  relationship. the term internal 
+cloud governance is used for the application of desig n-time and run -time policies to ensure that 
+cloud computing  based solutions are designed and implemented, and cloud computing  based 
+services are delivered, according to specified expectations. the term external cloud governance is 
+used for some form of agr eement between the cloud service customer  and the cloud service 
+provider concerning the use of cloud services by the cloud service customer; 
+– interoperability: ability of a cloud service customer to interact with a cloud service and exchange 
+information according to a prescribed method and obtain predictable results; 
+– maintenance and versioning: maintenance refers to changes to a cloud service or the resources it 
+uses in order to fix faults or in order to upgrade or extend capabilities for business reason s. 
+versioning implies the appropriate labelling of a service so that it is clear to the cloud service 
+customer that a particular version is in use; 
+– performance: a set of behaviours  relating to the operation of a cloud service, and having metrics 
+defined in a sla; 
+– portability: ability of cloud service customers  to move their data or their applications between 
+multiple cloud service providers at low cost and with minimal disruption. the amount of cost and 
+disruption that is acceptable may vary based upon the type of cloud service that is being used; 
+– protection of pii: protect the assured, proper, and consistent collection, processing, communication, 
+use and disposal of personally identifiable information (pii) in relation to cloud services; 
+– regulatory: there are a number of different regulations that may influence the use and delivery of 
+cloud services. statutory, regulatory, and legal requirements vary by market sector and jurisdiction, 
+and they can change the responsibilities of both cloud service customers  and cloud service 
+providers. compliance with such requirements is often related to governance and risk management 
+activities; 
+– resiliency: ability of a system to provide and maintain an acceptable level of service in the face of 
+faults (unintentional, intentional, or naturally caused) affecting normal operation; 

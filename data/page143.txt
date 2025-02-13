@@ -1,0 +1,12 @@
+framework and requirements for cloud computing 1 
+ 
+   135 
+figure 
+(optional) 
+  
+pre-conditions 
+(optional) 
+– csp:sfp has an access interface with multiple dsf local storage.  
+post-conditions 
+(optional)  
+

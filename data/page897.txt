@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  889 
+appendix ii 
+ 
+test cases for cloud computing infrastructure capabilities interoperability testing 
+between the csc and csp 
+(this appendix does not form an integral part of this recommendation.) 
+ii.1 test cases for computing service interoperability testing between the csc and csp 
+ii.1.1 test case: vm configuration 
+table ii.1 – test case: vm configuration 
+vm configuration test description 
+test purpose to verify that the csc configures the vm with processors, hard disks, memory and nic 
+parameters. 
+reference [itu-t y.3513] clause 7.1.2 
+test sequence step type description result 
+1 stimulus the csc configures the processor parameters of the vm, in 
+the permissible range of physical resources conditions.  
+ 
+2 check processor parameters configuration is in effect. the 
+processor of the vm is consistent with the parameters 
+specified in step 1. 
+ 
+3 stimulus the csc configures the hard disk parameters of the vm, in 
+the permissible range of physical resources conditions. 
+ 
+4 check hard disk parameters configuration is in effect. the hard 
+disks of the vm are consistent with the parameters specified 
+in step 3. 
+ 
+5 stimulus the csc configures the nic parameters of the vm, in the 
+permissible range of physical resources conditions. 
+ 
+6 check nic parameters configuration is in effect. the nic of the vm 
+is consistent with parameters specified in step 5. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ 
+ii.1.2 test case: vm migration 
+table ii.2 shows the test case for vm migration.  
+  

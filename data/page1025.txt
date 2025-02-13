@@ -1,0 +1,33 @@
+security 7 
+ 
+  1017 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+guidelines for the operational 
+security of cloud computing 
+recommendation itu-t x.1642 
+(03/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

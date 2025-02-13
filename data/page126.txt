@@ -1,0 +1,38 @@
+1 framework and requirements for cloud computing  
+ 
+118  
+two kinds of metadata are shown in figure 6-3 as follows: 
+– data operation metadata is a description required to perform data operations. it includes the 
+attributes of virtual storage pool and single virtual volume. it includes a transaction log and dsf data 
+attributes of read/write caching, snapshot, replication, fragmentation, etc. 
+– storage operation metadata is a description required to perform storage operations. it includes the 
+location of dsf local stora ge, interface, api for customer data operation, read/write speed, storage 
+capacity, etc. 
+6.4 ecosystem of data storage federation  
+this clause identifies roles and sub -roles of the dsf ecosystem. in addition, relationships among roles and 
+sub-roles are specified.  
+ 
+figure 6-4 – data storage federation ecosystem 
+dsf service is a service to provide single virtual volumes and policies and it is offered by a dsf service 
+provider. 
+the dsf ecosystem includes the following roles as shown in figure 6-4:  
+– dsf service customer;  
+– dsf service provider;  
+– dsf local storage provider.  
+6.4.1 dsf service customer  
+the dsf service customer uses a dsf service including a single virtual volume and policies from a dsf service 
+provider. a dsf service customer's activity includes: 
+– use of dsf service. 
+6.4.2 dsf service provider 
+the dsf service provider federates dsf local storages and provides a dsf service with an access mechanism. 
+the dsf service provider role consists of two sub-roles: 
+– storage federation provider;  
+– data manipulation provider.  
+6.4.2.1 storage federation provider 
+the storage federation provider (sfp) provides a single virtual volume by federation of dsf local storages. a 
+storage federation provider's activities include: 
+– provide virtual storage pool;  
+– provide single virtual volume; 
+– manage storage management metadata; 
+– manage data storage policy.  
+

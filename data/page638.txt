@@ -1,0 +1,44 @@
+3 xaas  
+ 
+630  
+between csc and particular data centre. the xaas csp acting alone is not able to impact 
+network performance without interaction with naas csp. 
+as a solution to guarantee end-to-end service quality, bandwidth reservations can be 
+applied in the network between the csu and the data centre. this allows the guarantee of 
+certain network performance and can be a basis for end-to-end sla contract for the service 
+between a csu and the xaas csp. to fulfil these needs, xaas csp interacts with naas csp. 
+naas csp can be any actor that has the ability to offer connectivity between xaas csp  and 
+the csc, to which csu belongs. 
+roles csu, csc, csp  
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+– xaas csp has no impact on connectivity parameters between the service and the csu. 
+post-conditions 
+(optional) 
+– xaas csp offers end-to-end service quality or sla to the csc, on the basis of 
+cooperation with naas csp. 
+derived 
+requirements 
+– seamless and end-to-end solution of bandwidth allocation (refer to clause 9.6) 
+– symmetric or asymmetric capacity (refer to clause 9.7) 
+ii.4.2.4 naas connectivity use case for optimized traffic engineering 
+ 
+title naas connectivity use case for optimized traffic engineering 
+description the csp provides network connectivity services to a csc in order for the csc to inter-
+connect its own multiple geographically distributed data centres. with the increase of 
+cloud services deployed over the csc's data centres, more and more traffic, e.g., for data 
+mirroring, redundancy, database synchronization, vm migration, active-active storage 
+replication, is traversing the csp's backbone network due to the csc's increasing 
+distributed services.  
+currently, csp typically provides the csc with static connectivity services resulting in either 
+over-provisioned, under-utilized service capacity or under-provisioned, capacity-capped 
+services.  
+in order to make a more efficient use of its connectivity resources, a solution for the csp is 
+to support a central decision-making function for the backbone traffic engineering. at the 
+minimum, such solution has to coexist with other legacy network solutions used by the csp 
+for the support of other services. 
+roles csc, csp 
+

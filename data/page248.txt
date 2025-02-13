@@ -1,0 +1,17 @@
+1 framework and requirements for cloud computing  
+ 
+240  
+8 security considerations related to itu-t recommendations 
+it is recommended that the security framework for cloud computing described in [b -itu-t x.1601] be 
+considered for the distributed cloud. [b-itu-t x.1601] analyses security threats and challenges in the cloud 
+computing environment and describes security capabilities that could mitigate these threats and meet 
+security challenges. 
+it is recommended that the guidelines for the operational secur ity of cloud computing described in 
+[b-itu-t x.1642] be considered for the distributed cloud. [b -itu-t x.1642] clarifies the security 
+responsibilities between csps and cscs, and analyses the requirements and categories of security metrics of 
+operational security for cloud computing. 
+it is recommended that the security framework for the iot based on the gateway model described in 
+[b-itu-t x.1361] be considered for edge clouds in the distributed cloud. in particular, [b -itu-t x.1361] 
+analyses security threats  to the iot gateway and to the network and describes security capabilities for 
+gateways and the network that address and mitigate these security threats and challenges. 
+  

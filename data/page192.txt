@@ -1,0 +1,51 @@
+1 framework and requirements for cloud computing  
+ 
+184  
+7 functional requirements for a physical machine 
+7.1 component requirements 
+7.1.1 processing unit requirements 
+7.1.1.1 cpu requirements 
+– virtualization instruction set : it is recommended that a physical machine supports a cpu  
+virtualization instruction set to improve the performance of cpu virtualization. 
+– cpu replacement: it is recommended that a physical machine supports substitution of cpu with 
+other cpus to allow cpu upgrade or replacement of faulty cpus. 
+– multiple cpus: it is recommended that a physical machine supports multiple cpus to achieve higher 
+performance. 
+– low power consumption of cpu : it is recommended that a physical machine supports low power 
+consumption of cpu to reduce the operational expenditure (opex). 
+7.1.1.2 memory requirements 
+– hardware-assisted memory virtualization : it is recommended that a physical machine  supports 
+hardware-assisted memory virtualization to improve the performance of memory virtualization. 
+– memory replacement: it is recommended that a physical machine supports substitution of memory 
+with other memories to allow memory upgrade or replacement of faulty memory. 
+– memory reliability: it is recommended that a physical machine supports memory reliability using 
+memory redundancy and memory error correction technologies. 
+note 1 – memory reliability refers to technologies to i mprove the reliability of the physical machine by  preventing 
+permanent loss of data or downtime caused by memory failure . one example is m emory mir roring, as one 
+implementation of memory redundancy. memory mirroring replicates and stores data on a different physical memory 
+within different channels simultaneously. if the primary physical memory failure occurs, subsequent read and write will 
+use the backup memory. 
+– supporting various types of memory: it is recommended that a physical machine provides various 
+types of memory such as non-volatile and volatile memory depending on the cpu's memory usage. 
+note 2 – examples of cpu's memory usage with non -volatile and volatile types are booting up and storing temporary 
+data as main memory, respectively. non -volatile type includes rom and volatile type is classified into static random 
+access memory (sram) and dynamic random access memory (dram).  
+7.1.1.3 storage requirements 
+– multiple interfaces for storage: it is recommended that a physical machine supports interfaces of 
+storage for different media, such as magnetic storage, optical storage and semiconductor storage. 
+note 1 – examples of interfaces include integrated development environment (ide), serial at attachment (sata), serial 
+attached scsi (sas), small computer system interface (scsi), at attachment (ata), m.2 (formerly known as ngff), 
+peripheral component interconnect express (pci-e) and mini-serial at attachment (msata). 
+– storage replacement: it is recommended that storage in a physical machine supports substitution 
+of storage with other storages to allow external storage upgrade or replacement of faulty external 
+storage. 
+– storage redundancy hardware : it is recommended that a physical machine supports storage 
+redundancy hardware. 
+note 2 – an example of storage redundancy hardware is raid card. raid card is to support data storage virtualization 
+technology that combines multiple physical disk drive components into one or more logical units for the purposes of 
+data redundancy, performance improvement, or both. 
+– storage hibernation: it is recommended that a physical machine supports hibernation of storages 
+without i/o for a long time to reduce energy consumption. 
+note 3 – an example of storage hibernation is hard disk drive (hdd) hibernat ion. the hdd spins continuously at 
+5400/7200 revolutions per minute (rpm) consuming lots of power. during hdd hibernation, the hdd stops spinning to 
+reduce power consumption.  

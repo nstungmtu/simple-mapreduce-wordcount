@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+252  
+appendix iii 
+ 
+a comparison of distributed cloud with related technology 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix identifies a comparison of the distributed cloud, edge computing, fog computing, multi-access 
+edge computing and cloudlet. there are various technologies related to the edge of the network, such as 
+edge computing, fog computing, cloudlet and multi-access edge computing. the edge -related technologies 
+fully or partially utilize cloud computing technology. in the perspective of multi -cloud, distributed cloud 
+extends a cloud to the edge of the network. accordingly, the distributed cloud and the ed ge-related 
+technologies definitely have a common point. thus, it is necessary to compare key features and show the 
+coverage of them among the distributed cloud and the edge related technologies. in this appendix, the 
+coverage of key features among the dist ributed cloud and the edge -related technologies are analysed and 
+illustrated as follow: 
+– cloud computing focuses on non-real-time services and supports periodic maintenance and service 
+decision – making while distributed cloud extends the cloud computing capabilities to the edge and 
+supports real-time smart processing and execution of local services. distributed cloud takes core, 
+regional and edge as a whole and closely interacts with one another. resource -constrained, 
+unreliable or bandwidth -limited netwo rk connections, or applications that demand very high 
+bandwidth, low latency, or widespread compute capacity across many sites are considered by 
+distributed cloud but not involved with cloud computing. 
+– edge computing is performed on an open platform at t he edge of the network near things or data 
+sources, integrating network, computing, storage and application core capabilities and providing 
+edge intelligent services. edge computing meets the requirements of industrial digitalization for 
+agile connections,  real-time services, data optimization, smart application, security and privacy 
+protection. local devices and their capabilities are a part of edge computing while distributed cloud 
+is not involved with local devices. the major scenario of edge computing f ocuses on iot, but 
+distributed cloud has many scenarios beside iot. big data analytics is considered as one of the key 
+capabilities for edge computing while distributed cloud treats it as a service which it’s carried on. 
+• fog computing is a horizontal, physical or virtual resource paradigm that resides between smart 
+end-devices and traditional cloud or data centres. fog computing supports vertically isolated, 
+latency-sensitive applications by providing ubiquitous, scalable, layered feder ated and distributed 
+computing, storage and network connectivity. rather than a substitute, fog computing often serves 
+as a complement to cloud computing. fog computing is mainly for iot scenarios while distributed 
+cloud has many scenarios beside iot. it i s similar to edge computing where the local devices are 
+involved for fog computing but the infrastructure of distributed cloud only includes data centres. 
+– multi-access edge computing  (mec) offers cloud -computing capabilities and an it service 
+environment at the edge of the network and provides ultra-low latency and high bandwidth as well 
+as real -time access to radio network information that can be leveraged by applications. mec is 
+mainly for mobile scenarios and is extending to fixed mobile convergence sc enarios. the scope of 
+mec is involved in distributed cloud. 
+– cloudlet can be viewed as a "data centre in a box", which represents the middle tier of a three-tier 
+hierarchy "mobile or iot device  – cloudlet – cloud", whose goal is to bring the cloud closer.  it is 
+mainly for scenarios of convergence of mobile and cloud computing. the scope of cloudlet is 
+involved in distributed cloud. 
+  

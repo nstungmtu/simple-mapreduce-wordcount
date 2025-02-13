@@ -1,0 +1,23 @@
+framework and requirements for cloud computing 1 
+ 
+   131 
+i.7 efficient data storage management 
+title efficient data storage management 
+description as shown in figure 1, dsf service provider efficiently manages data to support better storage 
+access performance and to reduce management burden. tiering is a technique to fulfil 
+efficient data management. by organizing tiered caches, frequently accessed files are stored in 
+high speed cache. while access files are rarely stored in a low speed cache. cached files are 
+stored on corresponding data storages by managed api. 
+as shown in figure 2, a dsf service customer saves a same file on a single virtual volume. to 
+avoid waste of data storage capacity dsf service provider performs a de -duplicate data 
+operation. for example, when a file is stored, data replication checking is accomplished. as the 
+result of the checking, a file is stored. if a same file is already stored, the file is managed by 
+data operation metadata. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp) 
+figure (optional) 
+ 
+figure 1 – tiered caches for access performance 
+ 
+figure 2 – de-duplication data for saving storage capacity 
+

@@ -1,0 +1,37 @@
+framework and requirements for cloud computing 1 
+ 
+   217 
+table ii.4 – using an interconnect network for high-performance service – use case 
+title using interconnect network for high-performance service 
+description when a cloud service user requests a high performance computing service (e.g., parallel 
+processing, big data processing, etc.), a cloud service operations manager is responsible for 
+setting up an interconnection network among processing units, because multiple computing 
+resources are required to perform such a service. 
+ethernet is a widely used protocol for the interconnection network but the cloud service 
+operations manager may provide other protocols. therefore, depending on the protocols, 
+the performance of the interconnect network is determined and the cloud service operations 
+manager can select and provide the appropriate interconnect network to the cloud service 
+user. 
+for utilizing this interconnect network system, a cloud service user can employ socket based 
+applications in the case of using ethernet protocol. for other networks, a cloud service user is 
+provided with applications per application program interfaces (api) from a cloud service 
+operations manager. this is due to the fact that, a cloud operations manager also has a 
+responsibility to provide a device driver and api for utilizing the propriety network.  
+occasionally, a cloud service user may request multiple physical machines for such a service. 
+in this case, a cloud operations manager has a responsibility to support multiple shared 
+resources through the network. since the physical machines are independent of network 
+devices, this network would be arranged as cabling in an interconnect network.  
+when a cloud service operations manager makes this cabled network, it is constructed to 
+support various topologies (e.g., ring, mesh, tree) to meet the different performance levels of 
+the service requested from a cloud service user.  
+roles/sub-roles csc: cloud service user and csp: cloud service operations manager 
+figure 
+ 
+pre-conditions 
+(optional) 
+csc: cloud service user wants to use a high performance computing application.  
+post-conditions 
+(optional) 
+physical machines can run a high performance  computing application through a system 
+interconnect network and cabled network. 
+

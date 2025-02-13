@@ -1,0 +1,31 @@
+8 assisting developing countries  
+ 
+1098  
+ 
+figure 7-3 – implemented cloud computing models 
+case study: senegal 
+senegal is at the stage where information is being gathered by various experts to try and guide 
+developments in cloud computing in the country. specifically, some of the country's ict operators have 
+begun to implement or are already using cloud computing. at present, the application of cloud computing 
+is mostly by big corporate organizations like banks. many operational and regulatory issues such as policy 
+implementation, licensing and security still remain unclear. senegal would want to holistically provid e an 
+environment which promotes the availability of this service to many users. 
+ 
+case study: zambia 
+in zambia, there are about seven (7) cloud service providers already providing or in the process of offering 
+cloud computing services to the public. only one (1) of these providers has cloud computing as its core 
+business. the other providers offer cloud computing services as value added services (vas) to which they 
+obtain a license from the ict regulator, zicta.  
+7.3 applications and services 
+the common cloud computing applications and services in use include: 
+• data storage; 
+• platform as a service; and 
+• software as a services. 
+the most salient service is infrastructure as a service (iaas) which has demonstrated to be the most promising 
+cloud computing solution. other promising applications are: 
+• saas 
+• paas 
+• caas 
+• naas 
+• data storage 
+

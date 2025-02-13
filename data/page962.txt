@@ -1,0 +1,58 @@
+6 monitoring  
+ 
+954  
+7.1.5 software-defined networking 
+software-defined networking (sdn) is a concept that enables network operators and data centres to flexibly 
+manage their networking equipment using software. sdn introduces new levels of flexibility and automation 
+without manual interaction for networking. 
+7.1.5.1 software-defined networking-based network 
+network setup in sdn is now separated from a network engineer's regular activities; network issue 
+troubleshooting and diagnosis have become more complex. the availability, performance, utilization and 
+capacity of sdn monitoring can enable a cloud computing provider more confidently to adopt sdn in cloud 
+computing.  
+see table 7-5 
+table 7-5 – parameters collected to monitor a software-defined networking controller 
+metric name description  unit 
+latency of topology discovery latency of topology discovery ms 
+latency of connection from switch to 
+controller latency of connection from switch to controller ms 
+number of active switches number of active switches switch 
+incoming packets of the same source 
+addresses 
+numbers of incoming packets with the same 
+incoming source addresses packet 
+incoming packets of the same 
+destination addresses 
+numbers of incoming packets with the same 
+incoming destination addresses packet 
+outgoing packets of the same source 
+addresses 
+numbers of outgoing packets with the same 
+outgoing source addresses packet 
+outgoing packets of destination 
+addresses 
+numbers of outgoing packets with the same 
+outgoing destination addresses packet 
+incoming packets of the same source 
+port 
+numbers of incoming packets with the same 
+incoming source port numbers packet 
+incoming packets of the same 
+destination port 
+numbers of incoming packets with the same 
+incoming destination port number packet 
+outgoing packets of the same source 
+port 
+numbers of outgoing packets with the same 
+outgoing source port numbers packet 
+outgoing packets of the same 
+destination port 
+numbers of outgoing packets with the same 
+outgoing destination port numbers packet 
+7.1.5.2 service chain 
+cloud computing provides not only computing and storage resources to consumers as a resource pool, but 
+also as a network resource pool. according to appointed service logic, network traffic passes though several 
+service points (generally reference is made to firewall, load balance or any other network functions (nfs)). a 
+service chain (sc) links these service points together. a cloud computing provider should consider 
+the ’performance and status of an sc when it provides service to consumers. 
+  

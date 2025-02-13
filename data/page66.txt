@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+58  
+functional components of the multi-layer functions are described in clause 9.2.5. 
+7.4 relationship between the user view and the functional view 
+figure 7-5 illustrates how the user view provides the set of cloud computing activities that are represented 
+within the functional view (and realized using the technologies of the implementation view). 
+y .3502(14)_f7-5
+functional
+component
+functional
+component
+functional
+component
+functional
+component
+layer
+layer
+layer
+multi-layer
+functions
+role
+activity
+activity
+functional viewuser view
+ 
+figure 7-5 – from user view to functional view 
+further details on the relationship between the user view and functional view can be found in clause 10. 
+7.5 relationship of the user view and functional view to cross-cutting aspects 
+cross-cutting aspects, as their name implies, apply across both the user view and across the functional view 
+of cloud computing. 
+cross-cutting aspects apply to roles and sub-roles in the user view and they directly or indirectly affect the 
+activities which those roles perform. 
+cross-cutting aspects also apply to the functional components within the functional view, which are used 
+when performing the activities described in the user view. 
+cross-cutting aspects of cloud computing described in clause 8.5 include: 
+• auditability; 
+• availability; 
+• governance; 
+• interoperability; 
+• maintenance and versioning; 
+• performance; 
+• portability; 
+• protection of personally identifiable information; 
+• regulatory; 
+• resiliency; 
+• reversibility; 
+• security; 
+• service levels and service level agreement.  

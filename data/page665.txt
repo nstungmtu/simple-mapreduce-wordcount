@@ -1,0 +1,16 @@
+xaas 3 
+ 
+    657 
+use case 
+requirements  – network policy migration (refer to clause 7.3.1) 
+– network qos (refer to clause 7.3.2) 
+– ip address (refer to clause 7.3.3) 
+– network isolation (refer to clause 7.3.4) 
+– virtual networking (refer to clause 7.3.5) 
+– load balance (refer to clause 7.3.6) 
+– firewall (refer to clause 7.3.7) 
+– gateway (refer to clause 7.3.8) 
+– network configuration (refer to clause 7.3.9) 
+ 
+ 
+  

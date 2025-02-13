@@ -1,0 +1,36 @@
+1 framework and requirements for cloud computing  
+ 
+166  
+table i.10 – a use case of cloud service control status validation 
+title a use case for cloud service control status validation in cloud service brokerage. 
+description this use case describes a validation of legitimate service status after a csn: cloud service 
+broker made a request for an action (e.g., create, pause, resume, or restart) to change service 
+status on behalf of a csc. since a csp and a csn: cloud service broker are not tightly coupled, 
+the csn: cloud service broker does not know the result of the control request instantly. so, a 
+csn: cloud service broker needs to keep checking status of service by communicating with the 
+csp until the csn: cloud service broker  verifies whether the control request is correctly 
+performed or not. 
+(1) on behalf of the csc, the csn: cloud service broker makes a control request (e.g., create, 
+pause, resume, restart, or terminate) to the csp who is hosting the service. 
+(2) the requested csp sends an acknowledgement to the csn: cloud service broker for the 
+service control request and starts to control a service accordingly. 
+(3) after the csn: cloud service broker receives the acknowledgement, the csn: cloud 
+service broker sets a time window to wait and periodically verify the service status. the 
+csn: cloud service determines an efficient period to repeat a communication with the 
+csp to get information on the latest service status.  
+(4) the csn: cloud service broker verifies that the current service status complies with the 
+ideal service status by the request from the csc. the csn: cloud service broker keeps 
+communicating with the csp until the service status becomes ideal status or error status, 
+or a certain deadline is over. 
+(5) finally, through the workspace, the csn: cloud service broker notifies the result of service 
+control to the csc. 
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+ 
+pre-conditions 
+(optional) 
+the csp has an account for accessing csb workspace. 
+the csc has an account for accessing csb workspace. 
+the csc selected a cloud service to utilize. 
+csn: cloud service broker and csc established a sla. 
+

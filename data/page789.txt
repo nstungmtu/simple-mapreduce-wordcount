@@ -1,0 +1,22 @@
+video processing and storage 4 
+ 
+  781 
+(13) the scu transfers the media address to the csau. 
+(14) after receiving the real-time media address, the csau requests the mdu to start transmitting the 
+media stream. 
+(15) the mdu sends a request to the pu for initiating a media stream. 
+(16) the pu creates a media channel with the mdu and sends the media stream to the mdu. 
+(17) the mdu transfers the media stream to the csau. 
+(18) the csau transfers this media stream to the csdu to store it in the cloud data nodes. 
+(19) when the storage plan is completed, the cu sends a stop-media request to the csau. 
+(20) the csau transfers this stop request to the mdu. 
+(21) the mdu returns a response to the csau. 
+(22) the csau requests the scu to disconnect. 
+(23) the scu returns a response to end this real-time media storage. 
+7.4.2 video file storage 
+a network video recorder (nvr) is usually used as a typical msu for continuously recording the surveillance 
+video from network cameras. when a user wants to upload a video file from the nvr to the cloud storage 
+system, the cu initiates a storage request and sends it to the scu to start the media storage. 
+ 
+figure 7-4 – high-level procedural flows for video file uploading from nvr 
+

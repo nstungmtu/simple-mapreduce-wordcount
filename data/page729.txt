@@ -1,0 +1,24 @@
+xaas 3 
+ 
+  721 
+8.2 performance 
+referring to [itu-t y.3502], this recommendation identifies additional performance metrics and indicators 
+relating to the operation of a big data service, such as: 
+– realtime performance metrics, such as automatic fault tolerance and database extensibility; 
+– elastic calculation performance indicators, such as connections per second and packets per second; 
+– storage performance indicators, such as bandwidth and input/output preferences per second; 
+– data disaster tolerance performance indicators including recovery point indicator. 
+9 security considerations 
+security aspects for consideration within the cloud computing environment, especially for bdaas, are 
+addressed by security challenges for csps, as described in [b -itu-t x.1601]. in particular, [b -itu t x.1601] 
+analyses security threats and challenges, and describes security capabilities that could mitigate these threats 
+and meet the security challenges. 
+[b-itu-t x.1631] provides guidelines supporting the implementation of information security controls for cscs 
+and csps. many of the guidelines guide the csps to assist the cscs in implementing the controls, and guide 
+the cscs to implement such controls. selection of appropriate information security controls, and the 
+application of the implementation guidance provided, will depend on a risk assessment as well as any legal, 
+contractual, regulatory or other cloud-sector specific information security requirements. 
+it is also recommended that the guidelines for csc data security described in [b-itu-t x.1641] are considered. 
+it provides generic security guidelines for the csc data in cloud computing, analyses the csc data security 
+life-cycle and proposes security requirements at each stage of the data life-cycle. 
+  

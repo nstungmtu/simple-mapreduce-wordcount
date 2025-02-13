@@ -1,0 +1,19 @@
+1 framework and requirements for cloud computing  
+ 
+342  
+table i.7 – intelligent transport big data analysis 
+pre-conditions – the speed sensors and high-resolution cameras are installed at intersections and key points 
+of roads in the city and outskirts. 
+– the traffic of vehicles and the status of roads data are collected in real time.  
+– the big data applications for intelligent transport systems are built upon the private or 
+public big data infrastructure. 
+post-conditions – real time and accurate route navigation based on the shortest path algorithm and route 
+traffic could be provided to private and business vehicle drivers of all types of vehicles on 
+the road except drivers of track vehicles. 
+– accurate scheduling for bus departures is established on the real time analysis and 
+prediction of road traffic. 
+– automatic recognition of violations of road traffic laws such as speeding, running red lights, 
+drink-driving, running through restricted areas, fatigue driving, etc. 
+derived 
+requirements 
+– data analysis (refer to clause 8.4, requirement 3, 9,12) 

@@ -1,0 +1,50 @@
+1 framework and requirements for cloud computing  
+ 
+28  
+– unified communication: it is recommended that the csp provides to cscs a consistent unified user 
+interface and user experience of communications applications, such as voice, messaging, audio, 
+video conferencing, etc., across multiple devices and media-types.  
+12 general requirements for bdaas 
+the general requirements for big data as a service ( bdaas) derived from the use cases in clause i. 7 are as 
+follows: 
+– resource clustering: it is recommended for the csp to cluster resources for processing of extensive 
+data; 
+ note 1 – resources includes processing, storage and networks, etc.  
+– data collection: it is recommended for the bdaas csp to collect data from cscs, csns and csps; 
+ note 2 – data includes various types, different formats, real time streaming/static data and csc data including 
+users' behaviour data. 
+– data storing: it is recommended for the bdaas csp to store data with sufficient storage and fulfil 
+performance demands; 
+– data analysing: it is recommended for the bdaas csp to analyse data with various kinds of analysis 
+algorithms; 
+ note 3 – data analysis algorithms include classification, clustering, regression, association, ranking,  etc. 
+– data visualizing: it is recommended for the bdaas csp to provide reporting tools with multiple styles 
+of data visualization; 
+ note 4 – visualization styles include statistical graphics, forms, diagrams, charts, etc.  
+– data managing: it is recommended for the bdaas csp to support management of data lifecycle and 
+resources monitoring. 
+ note 5 – functional requirements for bdaas are provided in clause 8 of [itu-t y.3600]. 
+13 general requirements for inter-cloud computing 
+the general requirements for inter-cloud computing derived from the use cases in clause i.8 are as follows: 
+– on-demand assignment of cloud computing resources among csps: for assigning cloud computing 
+resources among csps on demand, it is required that a csp defines (a) a trusted relationship 
+between cooperating csps; (b) an appropriate agreement and means of exchanging data on cost, 
+performance and other information for each resource; and (c) an agreed methodology for 
+requesting, using and returning the resources of other csps; 
+– resource and load distribution: a csp in an inter-cloud federation is required to utilize appropriate 
+resources distributed in other csps for wide -area load distribution according to the required 
+promptness, flexibility and cost; 
+– user environment adaptation : a csp is required to detect changes in the cloud service user 
+environment, discover alternative resources in other csps for these changes and migrate the service 
+environment smoothly with minimum impact based on the csc's approval; 
+ note 1 – these actions are to be performed for all cloud service users. 
+– inter-cloud service intermediation: inter-cloud service intermediation enables the csp to select the 
+most suitable cloud services and to create new cloud services by integrating cloud services offered 
+by other csps. it is recommended that the csp engages in support of intermediation for multiple 
+cloud services of various cloud service categories such as iaas, naas, paas and saas; 
+– large-scale migration: a csp in an inter-cloud federation is recommended to be able to guarantee 
+continuity of all the cloud services in the csp by large -scale service migration to other federated 
+csps with minimum impact during a desired period. it is recommended to consider the priority of 
+cloud services when migrating. 
+ note 2 – for more information on functional requirements for inter-cloud computing,  see clause 9 of 
+[itu-t y.3511]. 

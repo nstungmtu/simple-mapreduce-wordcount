@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  911 
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+47 7.3.7 firewall – it is recommended that the iaas csp delivers 
+a physical or virtual firewall to the csc. 
+– 9.8 interoperability testing of 
+firewall between the csc and csp 
+48 7.3.8 gateway – it is recommended that the iaas csp 
+provides necessary network interworking 
+functions so that the csc uses provisioned 
+infrastructure resources as if they are at the 
+csc's premises. 
+– 9.4 interoperability testing of 
+network isolation between the csc 
+and csp 
+49 7.3.9 network 
+configuration 
+– it is recommended that the iaas csp 
+provides the csc with operations handling 
+mechanisms related to the network 
+configurations according to the objectives of 
+the sla. 
+see other network related testing 
+objects: 
+– 9.5 interoperability testing of ip 
+address allocation between the csc 
+and csp 
+– 9.2 interoperability testing of 
+network qos between the csc and 
+csp 
+– 9.3 interoperability testing of 
+network address translation 
+between the csc and csp 
+ 
+bibliography 
+ 
+[b-etsi gs nfv-tst 002 v1.1] etsi gs nfv-tst 002 v1.1 (2016), network functions 
+virtualisation (nfv); testing methodology; report on nfv 
+interoperability testing methodology.  
+ 

@@ -1,0 +1,40 @@
+1 framework and requirements for cloud computing  
+ 
+234  
+6.2 characteristics of distributed cloud 
+the characteristics of cloud computing [itu-t y.3500] are inherited to distributed cloud as: 
+– broad network access; 
+– measured service; 
+– multi-tenancy; 
+– on-demand self-service; 
+– rapid elasticity and scalability; 
+– resource pooling. 
+the distributed cloud also has the following additional characteristics: 
+– distributed cloud resource : the resources of distributed cloud are geographically distributed at 
+various types of data centres, base stations and iot gateways. the distributed cloud resources are 
+pooled on demand to meet csc requirements by using different physical and virtual resources 
+dynamically; 
+– heterogeneous infrastructure: the distributed cloud has different scale infrastructures with large 
+resource capacity in core/regional cloud and small resource capacity in edge cloud. the distributed 
+cloud needs to utilize heterogeneous infrastructure as a single system to provide various services to 
+cscs; 
+– context awareness network : the distributed cloud has on -demand network control according to 
+context information for cscs. through context awareness network, mirrored cloud service to edge 
+cloud is provided directly to cscs; 
+ note – context information includes cloud service context information and network service context 
+information. examples of cloud service context information are capacity of cloud, resource usage, service 
+id/name, service location, status of neighbour. examples of network service context information are latency, 
+bandwidth, quality of service (qos), routing path. 
+– agile service: cloud services can be deployed to the distributed cloud resource quickly and can be 
+easily developed. the developed cloud services can be rapidly and dynamically provided on-demand 
+across various types of distributed cloud resources; 
+– autonomous management: the distributed cloud has global management in core cloud for the 
+management of distributed  cloud resources and cloud service with autonomous resource 
+management for edge cloud. edge cloud can manage its own resources and services when the global 
+management system of distributed cloud is not applicable. 
+6.3 configuration models of distributed cloud 
+the cloud computing needs to be distributed to nearby cscs to support characteristics of distributed cloud. 
+depending on a csc's requirements and characteristics of distributed cloud, cloud services are deployed to 
+one or more cloud among edge, regional and core clouds with network functions. for each cloud service with 
+the csc's requirements, network resources are allocated by network slicing which allows multiple logical 
+networks to run on top of a shared physical network infrastructure. 

@@ -1,0 +1,35 @@
+cloud computing management 2 
+ 
+  535 
+appendix i 
+ 
+use case of inter-cloud data management 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix includes inter -cloud data management -related use cases fr om which the corresponding 
+functional requirements are derived. 
+i.1 use case template 
+the use cases developed in this appendix adopt the format in table i.1 for better readability and convenient 
+material organization. 
+table i.1 – use case template table 
+title the title of the use case. 
+description scenario description of the use case. 
+roles roles involved in the use case. 
+figure (optional) figure to explain the use case, but not mandatory. 
+pre-conditions (optional) the necessary pre-conditions that should be achieved before starting the use case. 
+post-conditions 
+(optional) 
+the post-conditions that will be carried out after the termination of current use case. 
+derived requirements requirements derived from the use cases, whose detailed description is pr esented in 
+the dedicated clause. 
+i.2 use case of data use policies in inter-cloud 
+this use case illustrates data use policies aspect in inter -cloud. the inter -cloud federation pattern used to 
+illustrate the use case is an example only. 
+table i.2 – data use policies in inter-cloud 
+title data use policies in inter-cloud 
+description the csc requests saas, which operates its data in specific countries. the csp-a (saas) 
+acts in an inter-cloud federation pattern among cpss (saas) and becomes the contact 
+point for the csc. the csp-a (saas) determines and validates appropriate data use 
+policies or principles that allow exchange and operational use of csc data among the 
+inter-cloud federation. if the csp (saas) operates out of specific countries, csc data is 
+not exchanged. 
+roles csc, csp (saas). 

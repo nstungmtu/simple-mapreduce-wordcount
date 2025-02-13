@@ -1,0 +1,17 @@
+ framework and requirements for cloud computing 1 
+ 
+   253 
+bibliography 
+ 
+[b-itu-t x.1361] recommendation itu-t x.1361 (2018), security framework for the internet of things 
+based on the gateway model. 
+[b-itu-t x.1601]  recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[b-itu-t x.1642] recommendation itu-t x.1642 (2016), guidelines for the operational security of 
+cloud computing. 
+[b-itu-t y.2085] recommendation itu-t y.2085 (2016), distributed service networking service 
+routing. 
+[b-itu-t y.3011] recommendation itu-t y.3011 (2012), framework of network virtualization for 
+future networks. 
+ 
+ 
+ 

@@ -1,0 +1,38 @@
+5 intercloud and interoperability  
+ 
+924  
+nist sajacc: phase i is published project to define testable use cases that provide the basis for independent 
+evaluation of cloud standards, products and processes. the output of the working group report "sajacc 
+working group recommendations to nist" has been delivered in february 2013. 
+working group continues with phase ii to define and refine use cases with greater technical detail.  sajacc 
+phase ii launched feb ruary 2013 to refine and  extend phase i use case test cases based on priority action 
+plan. 
+figure 5-2 shows the nist cloud portal (currently in the form of a  community wikipedia website) and the 
+main steps of starting the sajacc process. sajacc has completed several iterations of steps  1-3, and 
+exploratory activities conducted in a community setting for the process described in step 4 of the figure, 
+resulting in output that has been documented in the nist cloud standards wiki. 
+ 
+figure 5-2 – nist cloud standards portal (reference: nist cloud computing website) 
+table 5-8 – nist documents and work items related to cci 
+reference name/title status 
+nist sajacc internal group report sajacc working group recommendations to nist published 
+nist sajacc white paper virtual machine portability white paper draft 
+nist sp 800-145 the nist definition of cloud computing published 
+nist sp 500-292 nist cloud computing reference architecture published 
+nist sp 500-293vol1 us government cloud computing technology roadmap 
+volume i release 1.0: high-priority requirements to 
+further usg agency cloud computing adoption 
+draft 
+nist sp 500-293vol2 us government cloud computing technology roadmap 
+volume ii release 1.0: useful information for cloud 
+adopters 
+draft 
+5.1.9 oasis 
+oasis is a non-profit consortium that drives the development, convergence and adoption of open standards 
+for the global information society. 
+oasis works on the tosca project which is cloud interoperability initiative related aspects of cci. 
+cloud includes several technical projects, such as oasis tosca project which enhances the portability and 
+management of cloud applications and  services across their lifecycle.  tosca will enable the interoperable 
+description of application and infrastructure cloud services, the relationships between parts of the service 
+and the operational behaviour of these services (e.g., deploy, patch, shutdown). 
+

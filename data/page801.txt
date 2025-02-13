@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  793 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of trusted inter-cloud 
+6.1 governance of trusted inter-cloud 
+6.2 management of trusted inter-cloud 
+6.3 resiliency of trusted inter-cloud 
+6.4 security and confidentiality of trusted inter-cloud 
+6.5 relationship between trusted inter-cloud and the cloud computing reference 
+architecture 
+7 general requirements for trusted inter-cloud 
+7.1 data separation 
+7.2 data annotation 
+7.3 confidentiality of data 
+7.4 operational statistics 
+7.5 interoperability and dependability 
+7.6 master service agreement 
+8 requirements for governance of trusted inter-cloud 
+8.1 geographical policies 
+8.2 governance policies 
+8.3 governance roles 
+8.4 regulatory policies 
+8.5 laws and regulations 
+9 requirements for management of trusted inter-cloud 
+9.1 management policies 
+9.2 management roles 
+9.3 distributed data 
+9.4 identity management 
+9.5 access management 
+9.6 policy language 
+10 requirements for resiliency of trusted inter-cloud 
+10.1 service monitoring 
+10.2 service continuity 
+10.3 resiliency policies 
+10.4 resiliency validation 
+11 requirements for security and confidentiality of trusted inter-cloud 
+11.1 security and confidentiality policies 

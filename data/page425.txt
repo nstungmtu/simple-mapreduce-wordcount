@@ -1,0 +1,51 @@
+ framework and requirements for cloud computing 1 
+ 
+   417 
+• carrier ethernet services for cloud use cases:  
+– includes both single and multiple ethernet cloud carrier domain cases; 
+– part1: for cloud provider interconnect (cp to cp); 
+– part2: for enterprise access to cp.  
+• carrier ethernet services for cloud management interface profile:  
+– identify relevant protocol neutral mef 7.x objects (and attributes); 
+– operational use cases and information requirements for cp to ecc management interface; 
+– focus on reconfiguration of specific service attributes (e.g., cir);  
+– phase 1 approach: changes to service attributes occur only when evc/ovc is inactive or during 
+a maintenance interval; 
+– explore scheduled reconfiguration and configuration durations; 
+– provide interface operational requirements: number of changes allowed over time (how long 
+change should last); lead time for request fulfilment; 
+– describe slss for management interactions (performance metrics).  
+table 20-2 provides an analysis of metro ethernet forum deliverables.  
+table 20-2 – analysis of metro ethernet forum deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+ carrier ethernet 
+services for 
+cloud use cases 
+    
+security       
+management    carrier 
+ethernet 
+services for 
+cloud 
+management 
+interface 
+profile 
+  
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+  

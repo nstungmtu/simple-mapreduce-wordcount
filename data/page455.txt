@@ -1,0 +1,17 @@
+cloud computing management 2 
+ 
+  447 
+bibliography 
+ 
+[b-itu-t m.60] recommendation itu-t m.60 (1993), maintenance terminology and definitions. 
+[b-itu-t m.3010] recommendation itu-t m.3010 (2000), principles for a telecommunications 
+management network. 
+[b-itu-t m.3050.0] recommendation itu-t m.3050.0 (2007), enhanced telecom operations map 
+(etom) – introduction. 
+[b-itu-t y.3500] recommendation itu -t y.3500 (2014), information technology – cloud 
+computing – overview and vocabulary. 
+[b-itu-t y.3501] recommendation itu-t y.3501 (2013), cloud computing framework and high-level 
+requirements. 
+[b-tmf tr198]   tm forum tr198, multi-cloud service management pack – simple management 
+api (smi) developer primer and code pack, v2.2. 
+<https://www.tmforum.org/?s=tr198>  

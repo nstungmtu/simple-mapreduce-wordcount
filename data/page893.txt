@@ -1,0 +1,41 @@
+intercloud and interoperability 5 
+ 
+  885 
+7.10 interoperability testing of vm backup between the csc and csp 
+the test object of vm backup is to verify that the csc obtains the configuration and data of a particular vm 
+by making a backup and restoring the vm. the test case of vm backup can be found in appendix ii.1.10. 
+7.11 interoperability testing of vm life cycle management between the csc and csp 
+the test object of vm life cycle management is to verify that the csc manages the vm with various operations 
+including start, shutdown, restart, suspend and resume vm. the test case of vm life cycle management can 
+be found in appendix ii.1.11. 
+7.12 interoperability testing of physical machine life cycle management between the csc and csp 
+the test object of physical machine life cycle management is to verify that the csc  manages the physical 
+machine with various operations including start, shutdown, hibernate and wake-up. the test case of physical 
+machine life cycle management can be found in appendix ii.1.12. 
+7.13 interoperability testing of vm configuration inquiring between the csc and csp 
+the test object of vm configuration inquiring is to verify that the csc inquires vm configuration with the cpu 
+number, memory allocated, nic number and ip address allocated. the test case of vm configuration inquiring 
+can be found in appendix ii.1.13.  
+7.14 interoperability testing of physical machine configuration inquiring between the csc and csp 
+the test object of physical machine configuration inquiring is to verify that the csc inquires physical machine 
+configuration with the number of cpu cores, memory size, disk size and nic number. the test case of physical 
+machine configuration inquiring can be found in appendix ii.1.14. 
+8 storage service interoperability testing between the csc and csp 
+storage service interoperability testing between the csc and csp valuates the interaction between the csc 
+and csp for storage service and related management functions ; these include storage migration, storage 
+snapshot, storage backup, storage  resource reservation, i/o performance, storage life cycle management  
+and storage utilization status inquiring. for a  description of related function al requirements refer to 
+[itu-t y.3513]. 
+8.1 interoperability testing of storage migration between the csc and csp 
+the test object of storage migration is to verify that the csc  migrates data of the vm to different storage 
+media without any loss. the test case of storage migration can be found in appendix ii.2.1. 
+8.2 interoperability testing of storage snapshot between the csc and csp 
+the test object of storage snapshot is to verify that the csc  preserves and recovers the state and data of 
+storage. the test case of storage snapshot can be found in appendix ii.2.2. 
+8.3 interoperability testing of storage backup between the csc and csp 
+the test object of storage backup is to verify that the csc backs up and restores data when faulty or data 
+loss occurs. the test case of storage backup can be found in appendix ii.2.3. 
+8.4 interoperability testing of storage resource reservation between the csc and csp 
+the test object of storage resource reservation is to verify that the csc reserves available storage resources 
+(e.g., storage space and lun)  for the vm. the test case of storage resource reservation can be found in 
+appendix ii.2.4. 

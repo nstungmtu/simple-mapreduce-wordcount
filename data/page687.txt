@@ -1,0 +1,42 @@
+xaas 3 
+ 
+     679 
+– billing functional component. the billing functional component has capabilities for the metering and 
+rating of the use of naas services by naas cscs and the generation of invoices based on the charges 
+for the use of naas services created by the metering  and rating function, and the tra nsmission of 
+the invoices to the naas cscs. 
+in addition to bss components defined in [itu-t y.3502], the following functional components are added (see 
+figure 8-1): 
+– the customer order management functional component is responsible of the lifecycle management 
+of a naas cscs' requests for naas products (and naas services offered by these naas products). this 
+includes customer order establishment (step guiding, data collection and validation), customer 
+order orchestration and  overall customer order lifecycle  management (see [itu -t y.3521] and 
+[itu-t y.3522]). orders from naas cscs may be for new naas products and naas services, or may 
+be for updating or terminating of an existing naas service; 
+– the product inventory functional component holds information of naas products' instances ordered 
+by naas cscs. this information is updated during the lifecycle of the naas products instances, 
+reflecting changes resulting from execution of management operations on these naas pro duct 
+instances. 
+8.2 service layer functional components for naas 
+figure 8-2 shows the service layer functional components used for naas services instantiation and also when 
+a naas service is instantiated by the naas csp. 
+ 
+figure 8-2 – service layer functional components for naas 
+8.2.1 business capabilities (naas) 
+the business capabilities (naas) functional component provides a set of capabilities for accessing the naas 
+business related functionalities (see clause 7.1) related to the provision of naas  services. the business 
+functionalities are con tained within the business support systems (bss) functional components (see 
+clause 8.1). 
+in particular, the business capabilities (naas) functional component provide access means for the naas csc 
+to select and purchase a naas product (and associated naas s ervices with associated naas service models 
+and naas service operational policy models) available in the product catalogue functional component (see 
+clause 8.1). once validated by the naas csp, the requested naas service is instantiated by the naas csp, i.e., 
+a corresponding service capabilities (naas) functional component is made available in the service layer 
+allowing for further naas service interactions between the naas csc and the naas csp. if not already 
+instantiated an administration capabilities (naas) functional component is also made available in the service 
+layer allowing for naas service-related management interactions between the naas csc and the naas csp. 
+interactions through the business capabilities (naas) functional component also allow for the naas csc to 
+access the billing information related to the usage of instantiated naas services. using bss and oss functional 
+components, the naas csp collects relevant usage measurements and usage events in order to generate and 
+provide a bill to the naas csc. 
+

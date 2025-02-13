@@ -1,0 +1,41 @@
+security 7 
+ 
+  1021 
+3.1.15 software as a service (saas) [b-itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is an application capabilities type. 
+3.1.16 tenant [b-itu-t y.3500]: one or more cloud service users  sharing access to a set of physical and 
+virtual resources. 
+3.1.17 threat [b-iso/iec 27000]: potential cause of an unwanted incident, which may result in harm to a 
+system or organization. 
+3.1.18 vulnerability [b-nist-sp-800-30]: weakness in an information system, system security procedures, 
+internal controls, or implementation that could be exploited by a threat source. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+acl access control list 
+api application programming interface 
+bia business impact analysis 
+cctv closed circuit television 
+cpu central processing unit 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+db database 
+ddos distributed denial of service 
+dlp data leakage prevention 
+dos denial of service 
+iam identity and access management 
+iaas infrastructure as a service 
+ict information and communication technology 
+idm identity management 
+ids intrusion detection system 
+ip internet protocol 
+ips intrusion prevention system 
+isp internet service provider 
+it information technology 
+jit just in time 
+ldap lightweight directory access protocol 
+naas network as a service 
+os operating system 
+paas platform as a service 

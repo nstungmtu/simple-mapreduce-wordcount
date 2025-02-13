@@ -1,0 +1,25 @@
+ framework and requirements for cloud computing 1 
+ 
+   325 
+cloud computing sub-roles can be mapped to big data roles as shown in table 7-1. 
+table 7-1 – mapping table between big data ecosystem roles and  
+cloud computing based big data system context sub-roles 
+big data ecosystem roles cloud computing based big data system context sub-roles 
+data provider csn:data provider 
+big data service provider csp:big data infrastructure provider, csp:big data application provider 
+big data service customer csc:big data service user 
+figure 7-1 illustrates the cloud computing sub -roles for big data. figure 7 -1 also identifies activities specific 
+for big data and assigns them to cloud computing sub -roles. arrows used in figure 7 -1 show the data and 
+service flows within a cloud computing based big data system context. 
+ 
+figure 7-1 – cloud computing based big data system context 
+figure 7 -2 illustrates, as an example scenario, how cloud computing supports big data service s from the 
+viewpoints of csp: big data application providers (bdaps) and csp:big data infrastructure providers (bdips). 
+a cloud based big data service, which is provided by a csp:bdap or a csp:bdip, utilizes other sub-roles of the 
+cloud service provider. 
+the csp provides service s of application and platform capability types  such as software as a service and 
+platform as a service and these services can be used by the csp:bdap to perform data analysis, visualization 
+and other big data applications. in addition, the csp:bdip can use the cloud service s of cloud infrastructure 
+capability types such as compute as a service, data storage as a service, infrastructure as a service and 
+network as a service to perform big data services for data collection, data processing, data management, etc. 
+

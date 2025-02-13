@@ -1,0 +1,46 @@
+3 xaas  
+ 
+720  
+– the ability to check and delete useless policies. for example, if a data policy is update d, obsolete 
+ones need to be deleted;  
+– the ability to apply data policies to the process of data collection, data processing, data preservation, 
+data storage, etc. 
+ note 4 – data preservation policy is used to protect and prolong  the existence and authenticity of data and 
+its metadata. 
+7.3.3.3 data catalogue functional component 
+the data catalogue functional component is mainly responsible for registering data catalogue, and it also 
+supports searching data by browsing data catalogue. this functional compon ent is a sub -function of the 
+service catalogue functional component defined in [itu-t y.3502]. 
+this functional component provides: 
+– registering a data catalogue to cloud service partner (csp) for searching the appropriate data. data 
+catalogue provides data access methods, data use policy, etc.; 
+– data searching capability that allows browsing of data catalogue and searching data with keywords, 
+application domain, specific data fields, etc. 
+7.3.3.4 resource orchestration functional component for big data 
+bdaas services are provisioned and maintained over underlying resources which belong  to the cloud 
+computing infrastructure, including processing resources, storage resources and network resource s. the 
+resource orchestration functional component for big data is responsible for  binding, load balancing and 
+scheduling resources provided by service providers (e.g., csp: big data infrastructure p rovider (bdip)) and 
+requested by csc: bdsu. 
+this functional component provides: 
+– resource binding that supports allocating resources related to data processing, data storage and 
+data analysis; 
+– resource load balancing that enables automated resource movement as workload requirements 
+change; 
+– resource scheduling that allocates resources to tasks required by big data services, and schedules  
+the start- and end-time of each task according to resource availability. 
+8 cross-cutting aspects for bdaas 
+cross-cutting aspects can be shared and can impact multiple roles, cloud computing activities and functional 
+components, as described in [itu-t y.3502]. this clause defines cross-cutting aspects for bdaas. 
+8.1 data redundancy 
+data redundancy refers to the repeated occurrence of the same data in the system. for example, in a 
+relational database, data redundancy mainly refers to the repeated storage of the same data in the relational 
+database, including repetition of tables, attributes, tuples, and attribute values. necessary data redundancy 
+can improve the anti -interference ability of data, thus preventing data loss and errors. for example, 
+redundantly encoding data by adding several bits based on the length of the original binary code, to prevent 
+key data loss and errors. 
+however, data redundancy should be minimized to improve storage space utilization, but in some cases, data 
+redundancy should also be increased appropriately. data compression and de -duplication are two key 
+technologies to reduce data redundancy. 
+csp: big data application provider (bdap) and csp: bdip support reducing unnecessary redundant data and 
+increase useful data redundancy appropriately. 

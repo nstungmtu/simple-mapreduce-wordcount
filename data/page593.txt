@@ -1,0 +1,49 @@
+xaas 3 
+ 
+  585 
+– configures a pre-configured virtual desktop environment (such as an os image and a user di sk 
+image) and stores it to share for convenience and speed of the configuration; 
+– installs and updates software in a pre -configured virtual desktop environment as well as a daas 
+platform; 
+– deploys a daas platform which scales up, down, and out including redundancy; 
+ note 2 – if a heterogeneous virtualization infrastructure is adopted, this function deploys it  and prepares a 
+new pre-configured environment compared with the previous user environment. 
+– determines operating status of a daas platform and a virtual desktop according to csc type; 
+ note 3 – based on the operating status, this function assigns  a previously allocated  virtual desktop, a 
+temporary allocated virtual desktop, or a new ly created virtual desktop on the optimum daas platform  
+according to csu's account information. 
+ note 4 – the optimum daas platform has  best-efforts performance from the monitoring  of server power or 
+performance among daas platforms. 
+– identifies csc type and service catalogue. 
+7.3 virtual desktop resource management 
+virtual desktop resource management functions: 
+– monitor and control states of virtual desktop resources (see clause 7.3.1 monitoring and controlling 
+virtual desktop resource function); 
+– manage user accounts and profiles in terms of administrators and daas users (see clause 7.3.2 user 
+account and profile management function); 
+– offer a virtual desktop and other resources to a daas user in a timely manner (see clause 7.3.3 virtual 
+desktop resource allocation and distribution function); 
+– establish operational policy (see clause 7.3.4 operational policy management for daas function); 
+– offer high availability (see clause 7.3.5 high availability for daas function); 
+– supply management of power consumption (see clause 7.3.6 power management of virtual desktop 
+resource function). 
+7.3.1 monitoring and controlling virtual desktop resource 
+in the monitoring and controllin g virtual desktop resource function, monitored and controlled targets for 
+daas are mainly virtualization infrastructure and virtual desktops. monitoring information is classified into 
+static and run-time data. 
+note 1 – the exchanged monitoring information is communicated through a protocol between a monitoring target and 
+virtualization infrastructure. a software agent or daemon activated in virtualization infrastructure is used to gather 
+monitoring information which is stored as a form of database or other file formats. this database is normally accessible 
+by other functions. 
+the monitoring and controlling virtual desktop resource function: 
+– monitors the i nformation of virtualization infrastructure to gather by event processing during 
+running daas; 
+ note 2 – the monitoring information of virtualization infrastructure is as follows: 
+• basic information of virtualization infrastructure: machine's host name, machine type; 
+• hardware (h/w) resource for virtualization infrastructure: total memory space, the number of 
+cpus, total storage space, machine's ip address, media access control (mac) address, the 
+availability for performance enhancement, estimated power; 
+• virtualization related resource: hypervisor information, the number of currently running virtual 
+desktops, the supported maximum number of virtual desktops, supported oss. 
+– monitors the information for each virtual desktop to gather by event processing; 
+ note 3 – the monitoring information of virtual desktops is as follows: 

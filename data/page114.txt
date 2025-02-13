@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+106  
+a.4 the cloud service provider–auditor relationship 
+a cloud auditor should audit to agreed specifications, policies and agreements. 
+audit specifications could be standards set by the cloud service provider, set by the auditor, or standards set 
+independently, possibly as required by law. whichever standard is used can depend on who the target of the 
+auditor's audit result is. if the target of the audit result is a cloud service customer  who wants some 
+independent assurance then the audit should use an independently set standard.  
+policies are set by the provider for auditing the provider's infrastructures and services. these policies are set 
+by the business during the governance processes. 
+the cloud service  agreement can include terms relating to the audit of the cloud service provider  and 
+possibly of the cloud service customer. similar agreements can be in place between a primary cloud service 
+provider and secondary cloud service providers. the responsibilities of the auditor are the same in each case. 
+the cloud auditor's cloud computing activities  are security audit, privac y impact audit and performance 
+audit. for all of these cloud computing activities, the cloud auditor can obtain audit evidence from the cloud 
+service provider. the form of the audit evidence will vary depending on the type of audit and the standard(s) 
+that apply to the audit. the evidence might take the form of procedural documents, or the form of log 
+records. in any case, the cloud service provider can have a means by which the cloud auditor can obtain the 
+required evidence. 
+in figure 10-2, the perform audit activity of the cloud auditor makes requests for audit evidence to the cloud 
+service provider through the administration access functional component of the cloud service provider , 
+invoking the necessary administration capabilities. 
+a.4.1 security audit 
+various standards exist for system security audit. iso/iec 27001 is one such standard, covering information 
+security management. there are also many other organizations which provide auditable standards for cloud 
+security. 
+a.4.2 privacy impact audit 
+various data protection authorities (e.g., the privacy commissioner in canada and the information 
+commissioner in the uk) publish guidelines on the assessment and/or audit of the privacy impact of 
+programs, policies or systems. the protection of pii is typically subject to regulation and/or legislation, but 
+one of the issues relating to the cloud service  is that the cloud service customer  can be in a different 
+jurisdiction to that which applies to the cloud service provider. the situation can be made more complex  if 
+the cloud service provider operates multiple data centres in different jurisdictions and moves data or service 
+execution between these data centres (e.g., for the purposes of service continuity or for the efficient use of 
+resources). 
+iso/iec 27018 is a  standard which defines the information security controls applicable to a cloud service 
+provider when acting as a data processor. iso/iec is also dealing with the wider aspects of privacy (see the 
+iso/iec 29100 series of standards, for example).  
+a cloud auditor should assess the protection of personally identifiable information aspects of a cloud service 
+and the cloud service provider 's operations against data protection regulations of the appropriate 
+jurisdictions, following the guidelines issued by the data protection authorities and relevant standards. 
+a.4.3 performance audit 
+performance audit assesses the ability of the cloud service provider  to meet the performance targets 
+specified for their cloud services, typically documented in the sla. 

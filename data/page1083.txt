@@ -1,0 +1,45 @@
+security 7 
+ 
+  1075 
+annex a 
+ 
+cloud service extended control set 
+(this annex forms an integral part of this recommendation | international standard.) 
+this a nnex provides additional control objectives, controls and implementation guidance as an extended 
+control set for cloud services. iso/iec 27002 control objectives related to these controls are not repeated. 
+an organization intending to implement these controls in an information security management system (isms) 
+that is to be conformant to iso/iec 27001, should extend its statement of applicability (soa) by including the 
+controls stated in this annex. 
+cld.6.3 relationship between cloud service customer and cloud service provider 
+objective: to clarify the relationship regarding shared roles and responsibilities between the cloud service 
+customer and the cloud service provider for information security management. 
+cld.6.3.1 shared roles and responsibilities within a cloud computing environment 
+control 
+responsibilities for shared information security roles in the use of the cloud service should be allocated to 
+identified parties, documented, communicated and implemented by both the cloud service customer and 
+the cloud service provider. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should define or extend its 
+existing policies and procedures in accordance with its 
+use of cloud services, and make cloud service users 
+aware of their roles and responsibilities in the use of the 
+cloud service. 
+the cloud service provider should document and 
+communicate its information security capabilities, roles, 
+and responsibilities for the use of its cloud service, along 
+with the information security roles and responsibilities 
+for which the cloud service customer would need to 
+implement and manage as part of its use of the cloud 
+service. 
+other information for cloud services 
+in cloud computing, roles and responsibilities are typically divided between employees of the cloud service 
+customer and employees of the cloud service provider. the allocation of  roles and responsibilities  should 
+take into consideration the cloud service customer data and the cloud service customer applications for 
+which the cloud service provider is a custodian. 
+cld.8.1 responsibility for assets 
+the objective specified in clause 8.1 of iso/iec 27002 applies. 
+cld.8.1.5 removal of cloud service customer assets 
+control 
+assets of the cloud service customer that are on the cloud service provider 's premises should be removed, 
+and returned if necessary, in a timely manner upon termination of the cloud service agreement. 

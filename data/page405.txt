@@ -1,0 +1,68 @@
+ framework and requirements for cloud computing 1 
+ 
+   397 
+table 11-1– itu-t sg5 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t l.1410, methodology for the assessment of the 
+environmental impact of information and 
+communication technology goods, networks and 
+services 
+recommendation  12/2014 
+itu-t l.1301, minimum data set and communication 
+interface requirements for data centre energy 
+management 
+recommendation  05/2015 
+itu-t l.1201, architecture of power feeding systems of 
+up to 400 vdc 
+recommendation  03/2014 
+itu-t l.1202, methodologies for evaluating the 
+performance of an up to 400 vdc power feeding system 
+and its environmental impact 
+recommendation  04/2015 
+itu-t l.1420, methodology for energy consumption and 
+greenhouse gas emissions impact assessment of 
+information and communication technologies in 
+organizations 
+recommendation  02/2012 
+itu-t l.1430, methodology for assessment of the 
+environmental impact of information and 
+communication technology greenhouse gas and energy 
+projects 
+recommendation   12/2013 
+itu-t l.1302, assessment of energy efficiency on 
+infrastructure in data centres and telecommunication 
+centres 
+recommendation  11/2015 
+itu-t l.1320, energy efficiency metrics and 
+measurement for power and cooling equipment for 
+telecommunications and data centres 
+recommendation  03/2014 
+itu-t l.1205, interfacing of renewable energy or 
+distributed power sources to up to 400 vdc power 
+feeding systems 
+recommendation 12/2013 12/2016 
+itu-t l.green_mgm_dc, functionality requirements and 
+framework of green data centre energy-saving 
+management system 
+wi approved 12/2014 2018 
+itu-t l.1440, methodology for environmental impact 
+assessment of information and communication 
+technologies at city level 
+recommendation  10/2015 
+itu-t l.1204, extended architecture of power feeding 
+systems of up to 400 vdc 
+recommendation  06/2016 
+itu-t l.1220, innovative energy storage technology for 
+stationary use – part 1: overview of energy storage 
+recommendation  05/2017 
+itu-t l.1206, impact on ict equipment architecture of 
+multiple ac, –48 vdc or up to 400 vdc power input 
+recommendation  05/2017 
+l.se_dc, smart energy solutions for data centre and 
+telecommunication centre 
+draft recommendation 05/2017 12/2018 
+• itu-t l.1200: this recommendation specifies the direct current (dc) interface between the power 
+feeding system and ict equipment connected to it. it also describes normal and abnormal voltage 
+ranges, and immunity test levels for ict equipment to maintain the stability  of telecommunication 
+and data communication services. the specified interface is operated from a dc power source of up 

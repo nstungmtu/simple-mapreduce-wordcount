@@ -1,0 +1,53 @@
+ framework and requirements for cloud computing 1 
+ 
+   269 
+y.3510(13)_fi.1
+block storage client filesystem client database/table client object storage client other client
+(e.g., xam client)
+other
+(e.g., xam
+vim)
+crud
+operations via
+http
+jdbc. odbc.
+xml
+cifs. nfs.
+webda v
+fc. iscsl
+fcoe. luns
+the accesss sub-layer
+user identification
+and access application interfaces
+the presenting sub-layer
+network access
+equipment
+backup disaster
+recovery service cloudsan service cloud nas service cloud
+the infrastructure sub-layer infrastructure monitor
+cluster
+file access interfaces: cifs.
+nfs. webda v
+virtual volume
+management
+backup
+infrastructure
+storage
+infrastructure
+block service interfaces such
+as fc, iscsi, fcoe, luns
+virtual volume
+management
+backup
+infrastructure
+storage
+infrastructure
+nas dfs bcsanbackup backup
+ 
+figure i.1 – cloud storage reference model 
+note – the interfaces and protocols shown in figure i.1 are examples used for illustrative purposes.  
+cloud storage is the cooperating operation of multiple storage devices, multi-applications and multi-services. 
+not every storage system can be called cloud storage. a cloud storage system can provide functionalities 
+such as a storage area network (san), network attached storage (nas), data backup and disaster recovery. 
+as shown in figure i.1, the cloud storage reference model is composed of three sub -layers which are 
+described in the following clauses. 

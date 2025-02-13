@@ -1,0 +1,43 @@
+framework and requirements for cloud computing 1 
+ 
+   133 
+title the data read/write cache and parallel distributed file  
+for performance enhancement 
+derived 
+requirements 
+– clause 8.3 requirement (5) 
+– clause 8.4 requirement (16) 
+– clause 8.3 requirement (7) 
+– clause 8.2 requirement (5)  
+– clause 8.3 requirement (8) 
+– clause 8.3 requirement (9) 
+i.9 data storage federation and management 
+title the use case for data storage federation and management 
+description in this scenario, it is a use case for one storage system connected to various storage types. in 
+the figure on this use case, no matter what type of storage the storage system has, the dsf 
+service customer is seen as the federated storage and dsf service customer does not care 
+about what storage they use. thus, a federated storage system or appliance in this figure is 
+responsible for making multiple storage systems of a storage visible to a single system. 
+similarly, management has a unified management interface. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp/dmp) 
+dsf local storage provider (csp:csm) 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+– csc:csu requests a data storage to dsf service provider and has own data storage.  
+– csp:sfp provide storage system, appliance or device to federate the other storages  
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.2 requirement (7) 
+– clause 8.3 requirement (14) 
+– clause 8.1 requirement (2)  
+– clause 8.2 requirement (6) 
+– clause 8.4 requirement (5)  
+– clause 8.1 requirement (8) 
+– clause 8.2 requirement (8) 
+

@@ -1,0 +1,58 @@
+1 framework and requirements for cloud computing  
+ 
+210  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+– [b-ocp yose] provides remote bmc firmware update as 'vendors should 
+provide tool(s) to implement a remote bmc firmware update, which will not 
+require any physical input' in clause 6.17. 
+– [b-ocp dsbs] provides remote machine management as 'a revision 1.0 
+decathlete server board shall implement the requirements of the ocp 
+open hardware management specification for remote machine 
+management (version 0.93)' in clause 10. 
+42 diagnostic of physical 
+machine 
+– [b-etsi eve007] provide diagnostic of physical machine as 'the rack power 
+subsystem should provide a means to report power system fault events' in 
+clause 5.3.2.3. 
+– [b-ocp 2s] provides error log as 'error to be logged' in clause 9.11.1.  
+– [b-ocp ambh] provides system log as 'the bios logs system events through 
+the baseboard management controller (bmc)' in clause 5.10. 
+– [b-ocp yose] provides event log as 'the vendor should implement the bmc 
+to support storing events/logs from each 1s server baseboard, device 
+carrier card and mezzanine card' in clause 6.15. 
+– [b-ocp dsbs] provides log as 'the decathlete server board standard will 
+define a minimal set of error handling and alerts. these features may 
+become a section of this standard, or may be a standalone specification 
+authored by the ocp hardware management project' in clause 9.  
+43 expansion of 
+interconnect network 
+– [b-ocp yose] provides network connectivity as 'the network controller 
+vendors offer network interface cards (nics) that support multi-host 
+functions. these multi-host nics provide network connectivity to multiple 
+servers through a pcie interface' in clause 5.7.6. 
+– [b-ocp dsbs] provides network connectors as 'the server board shall have 
+one lan device to support the rj-45 network interface connectors' in 
+clause 6.1. 
+– [b-ocp nic] provides network interconnect as 'nc-si over rbt capable ocp 
+nic 3.0 cards shall use a unique package id per asic when multiple asics 
+share the single nc-si physical interconnect to ensure there are no 
+addressing conflicts' in clause 4.8.1. 
+44 i/o interface for device 
+extensions 
+– [b-ocp ocsb] provides i/o interface for device extensions as 'high-speed 
+interface topologies' in clause 7. 
+– [b-ocp 2s] provides i/o interface for device extensions as 'pcie x32 
+slot/riser card' in clause 11.1. 
+– [b-ocp jbog] provides i/o interface for device extensions as '8 x16 pcie 
+gen3 slots for gpu' in clause 4.1. 
+– [b-ocp hsas] provides i/o interface for device extensions as 'pcie port 
+assignments' in clause 8. 
+– [b-ocp qgd] provides i/o interface for device extensions as 'pcie expansion 
+slot' in clause 2. 
+– [b-ocp dsbs] provides i/o interface for device extensions as 'the server 
+board shall provide support for one riser card and may provide support 
+for two riser cards. the riser card slots can be configured to meet any range 
+of usage models' in clause 6.4. 

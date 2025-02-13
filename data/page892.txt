@@ -1,0 +1,41 @@
+5 intercloud and interoperability  
+ 
+884  
+7 computing service interoperability testing between the csc and csp 
+computing service interoperability testing between the csc and csp valuates the interaction between the 
+csc and csp for computing service and related management functions, which include vm configuration, vm 
+migration, vm snapshot, vm clone, vm time synchronization, vm reservation, vm image, vm template, vm 
+scaling, vm backup, life cycle management of the vm and physical machine, and vm and physical machine 
+configuration inquiring. for a description of related functional requirements refer to [itu-t y.3513]. 
+7.1 interoperability testing of vm configuration between the csc and csp 
+the test object of vm configuration is to verify that the csc configures the vm with processors, hard disks, 
+memory and nic parameters. the test case of vm configuration can be found in appendix ii.1.1. 
+7.2 interoperability testing of vm migration between the csc and csp 
+the test object of vm migration is to verify that the csc migrates the vm from a particular host to another 
+host. the test case of vm migration can be found in appendix ii.1.2. 
+7.3 interoperability testing of vm snapshot between the csc and csp 
+the test object of vm snapshot is to verify that the csc captures the state (vm memory, settings, and virtual 
+disks) of the vm by taking snapshots of it and rolling back to the previous vm state when needed. the  test 
+case of vm snapshot can be found in appendix ii.1.3. 
+7.4 interoperability testing of vm clone between the csc and csp 
+the test object of vm clone is to verify that the csc clones a particular vm and the cloned vm has identical 
+configuration and csp/csc data as the original one. the test case of vm clone can be found in appendix ii.1.4. 
+7.5 interoperability testing of vm time synchronization between the csc and csp 
+the test object of vm time synchronization is to verify that the csc sets vm time synchronization manually 
+or automatically. the test case of vm time synchronization can be found in appendix ii.1.5. 
+7.6 interoperability testing of vm reservation between the csc and csp 
+the test object of vm reservation is to verify that the csc  reserves available computing resources (cpu, 
+memory) for particular vm before it is initiated . the test case of vm reservation can be found in appendix 
+ii.1.6. 
+7.7 interoperability testing of vm image between the csc and csp 
+the test object of vm image is to verify that the csc  creates a new vm by vm image, which consists of 
+infrastructure configuration and csp data, csc data or both. the test case of vm image can be found in 
+appendix ii.1.7. 
+7.8 interoperability testing of vm template between the csc and csp 
+the test object of vm template is to verify that the csc  creates vms by vm template, including the open 
+virtualization format (ovf). the test case of vm template can be found in appendix ii.1.8. 
+7.9 interoperability testing of vm scaling between the csc and csp 
+the test object of vm scaling is to verify that the csc changes the scale of vms dynamically based on the 
+scaling policies and monitored events of the vm; this includes configuration change (e.g., cpu, memory, 
+network bandwidth increased or decreased) and components change (new vm added or removed). the test 
+case of vm scaling can be found in appendix ii.1.9. 

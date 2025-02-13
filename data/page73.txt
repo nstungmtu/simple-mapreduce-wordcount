@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   65 
+the csp:cloud service deployment manager's cloud computing activities include: 
+• define environment and processes (clause 8.3.2.5); 
+• define and gather metrics (clause 8.3.2.6); 
+• define deployment steps (clause 8.3.2.7). 
+8.3.1.3 csp:cloud service manager 
+the csp:cloud service manager is a sub -role of cloud service provider which has responsibility for ensuring 
+that the cloud service provider 's services are available for use by cloud service customers , and that they 
+function correctly and comply with targets specified in the service level agreement. the csp:cloud service 
+manager is also responsible for ensuring the smooth operation of the cloud service provider 's business 
+support system and operational support system, as well as the operation of the other functionalities offered 
+to the cloud service customers and cloud service partners for management, administration and other cloud 
+computing activities. 
+the csp:cloud service manager's cloud computing activities include: 
+• provide services (clause 8.3.2.8); 
+• deploy and provision services (clause 8.3.2.9); 
+• perform service level management (clause 8.3.2.10). 
+8.3.1.4 csp:cloud service business manager 
+the csp:cloud service business manager is a sub-role of cloud service p rovider which has overall 
+responsibility for the business aspects of offering cloud services to cloud service customers. the csp:cloud 
+service business manager creates and tracks the business plan, defines the service offering strategy and 
+manages the business relationship with cloud service customers. 
+the csp:cloud service business manager's cloud computing activities include: 
+• manage business plan to provide cloud services (clause 8.3.2.11); 
+• manage customer relationships (clause 8.3.2.12); 
+• manage financial processing (clause 8.3.2.13). 
+8.3.1.5 csp:customer support and care representative 
+the csp:customer support and care representative is a sub-role of cloud service provider that is the main 
+interface for the cloud service customer with the cloud service provider and is responsible for reacting to 
+customer issues and queries in a timely and cost efficient way, with the goal of maintaining customer 
+satisfaction with the cloud service provider and the cloud services offered. 
+the csp:customer support and care representative's cloud computing activities include: 
+• handle customer requests (clause 8.3.2.14). 
+8.3.1.6 csp:inter-cloud provider  
+the csp:inter-cloud provider is a sub-role of cloud service provider that relies on one or more peer cloud 
+service providers to provide part or all of the cloud services offered to cloud service customers  by that 
+csp:inter-cloud provider. the csp:inter-cloud provider's main activities are the intermediation, aggregation, 
+arbitrage, peering or federation of peer cloud service providers' cloud services  and their business and 
+administration capabilities from the cloud service customer viewpoint  so that the cloud service customer 
+only uses the service, business and administration interfaces of the inter-cloud service provider. 
+the csp:inter-cloud provider's cloud computing activities include: 
+• manage peer cloud services (clause 8.3.2.15); 
+• perform peering, federation, intermediation, aggregation and arbitrage (clause 8.3.2.16). 

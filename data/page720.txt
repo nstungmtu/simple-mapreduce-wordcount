@@ -1,0 +1,19 @@
+3 xaas  
+ 
+712  
+ 
+figure 6-1 – cloud computing based big data system context  
+6.1.2 functional view for bdaas 
+the functional architecture of cloud computing in [itu -t y.3502] describes functional components in terms 
+of a layering framework where specific types of functions are grouped into each layer and where there are 
+interfaces between the functional components in successive layers. 
+the functional components for bdaas represent sets of funct ions that are necessary to perform the bdaas 
+activities for various roles and sub-roles. 
+6.1.3 cross-cutting aspects for bdaas 
+cross-cutting aspects include both architectural and operational considerations. cross -cutting aspects for 
+bdaas apply to multiple elements within the description of the functional architecture or in connection with 
+its operation as an instantiated system. these cross-cutting aspects for bdaas are shared issues across roles, 
+activities and functional components. 
+6.2 relationship between user view and functional view 
+figure 6-2 illustrates the relationship between the user view and functional view for bdaas. 
+

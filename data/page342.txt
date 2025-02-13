@@ -1,0 +1,33 @@
+1 framework and requirements for cloud computing  
+ 
+334  
+appendix i 
+ 
+use cases of cloud computing in support of big data 
+(this appendix does not form an integral part of this recommendation.) 
+table i.1 – personalization customized service using big data 
+title personalization customized service using big data 
+description there are lots of network devices such as laptop computers, smart phones, smart pads, 
+pdas, health equipment, etc. owners of these devices can access internet and support 
+network services in order to get some information, to buy something, to see movies, e tc. 
+each activity might be logged such as network access information, records of visiting a 
+website as well as usage of a service category in network service providers. this data volume 
+can be of a tremendous size due to so many devices accessing internet at same time. 
+consequently, data processing can become a big data problem. more meaningful 
+information can however be extracted from big data. 
+in this scenario, the csp:bdip should have capabilities to collect data and store said data, and 
+the csp:bdap should have capabilities to analyse data which are related to the web service 
+user's activities. the csp:bdap also has the task of providing the results of analysis to the 
+csc:bdsu. 
+csp:bdip can store relevant information of the web service user's activities in the big data 
+storage and provides this data to the csp:bdap. the csp:bdap can receive requests for 
+operations with data and get some other information (e.g., weather information, season, 
+holiday information, etc.) from external data sources which are supported by the csn:dp.  
+the csp:bdap may know the patterns or preferences of the user through analysis of the 
+user's activities and pre-stored information. the csp:bdap can then provide the user's 
+pattern information and the user's preferences to the csc:bdsu. such information is very 
+helpful in enabling the csc:bdsu to advertise to or support the web service users.  
+roles/sub-roles – csp:bdip 
+– csp:bdap 
+– csn:dp 
+– csc:bdsu  

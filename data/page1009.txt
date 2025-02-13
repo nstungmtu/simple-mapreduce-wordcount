@@ -1,0 +1,39 @@
+security 7 
+ 
+  1001 
+table 10 -4 provides a summary mapping of monitoring data migration sec urity threats to security 
+requirements. 
+table 10-4 – monitoring data migration: security threats mapping to security requirements  
+security threats security requirements 
+data misuse a), c) 
+spoofing b), c) 
+tampering and intercepting b), c) 
+10.5 security requirements for monitoring data analysis 
+the data security requirements for the monitoring data analysis include the following: 
+a) it is required that the csp provide notification regarding the purpose of monitoring data analysis to 
+the csc; 
+b) it is required that the csp implement defenses against the vulnerabilities of monitoring data analysis 
+system, for example the csp should prevent data loss and leakage in the monitoring data analysis 
+system; 
+table 10 -5 provides a summary mapping of monitori ng data analysis security threats to security 
+requirements. 
+table 10-5 – monitoring data analysis: security threats mapping to security requirements  
+security threats security requirements 
+data misuse a) 
+system vulnerability b) 
+dos attack b) 
+10.6 security requirements for monitoring data presentation 
+the data security requirements for the monitoring data presentation include the following: 
+a) it is required that the csp maintain the integrity and accuracy of presented monitoring data; 
+b) it is required that the csp implement authentication methods to protect access the monitoring data 
+presentation; 
+c) it is required that the csp support defenses against the vulnerabilities of the monitoring data 
+presentation system, for example the csp could use pen etration testing methods to prevent 
+vulnerabilities of the monitoring data presentation system. 
+table 10 -6 provides a summary mapping of monitoring data presentation security threats to security 
+requirements. 
+table 10-6 – monitoring data presentation: security threats mapping to security requirements  
+security threats security requirements 
+data misuse a), b) 
+system vulnerability b), c) 
+misrepresentation a), b), c) 

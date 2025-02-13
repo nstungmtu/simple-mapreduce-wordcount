@@ -1,0 +1,45 @@
+xaas 3 
+ 
+  741 
+applications consist of static security features when applications are in idle status and of dynamic security 
+features when applications are running. 
+8.2 security requirements of csp 
+besides common security requirements, csp has  specific security requirement s in the saas application 
+environment. 
+8.2.1 availability 
+for csp, the saas application environment is required to ensure that cscs are in service all the time, which 
+requires the handling of hardware/software failures, denial of service attacks, etc. it is essential to ensure 
+the minimal downtime for cscs. 
+8.2.2 service interoperability/portability guarantee 
+when csc wants to migrate all or a part of its system to another csp, the original csp require s the saas 
+application envi ronment to provide service inte roperability and portability guarantee to minimize the 
+damage to csc's business. besides,  the saas application environment  is required to guarantee that the 
+related data will be deleted permanently on the previous csp and will not be recovered by any other party. 
+8.2.3 software assets protection 
+software assets (such as applications, application -internal data, scripts, macros, function code library, 
+software license, etc.) are required to be protected in the saas application environment. 
+csp requires the saas application environment to  protect the confidentiality and integrity of any software 
+assets provided by csp or csn, which implies that these software assets cannot be copied, misappropriated, 
+tampered with, given away, or otherwise used in an unauthorized manner. 
+8.2.4 legal compliance 
+though csp can use dat a backup and redundancy mechanisms to ensure csc's data reliability, the saas 
+application environment is required to ensure that data copies shall not be retained for longer time than the 
+permitted data retention period under the applicable data protection law. 
+8.2.5 security verification for source codes 
+as in the saas application environment, csn may provide the applications' codes, content or software to csp, 
+the saas application environment is required to provide mechanisms that assist csp to verify the codes and 
+to prevent malicious codes. 
+8.3 security requirements of csn 
+in the saas application environment, csn can be an application developer, content provider, software 
+provider, system integrator and auditor. besides common security requirements, csn has its own security 
+requirements in the saas application environment.  
+8.3.1 audit security 
+when csn is an auditor, the saas application environment is required to provide mechanisms that assist csn 
+to collect audit events, logging and reporting information at the granularity of tenant and application. these 
+information are used to assure that csp's service complies with governmental regulatory requirements and 
+legal agreements contracted with tenants . the saas application environment  is also required to  provide 
+mechanisms that assist csn to ensure that the information collected and reported by the audit components 
+within the csp system are correct and not subject to tampering or manipulation. 
+besides, the saas application environment is required to provide the capability for csn to record the changes 
+of important data and monitor the data availability online, in order to sen d a security alarm in time and 
+therefore reduce losses. 

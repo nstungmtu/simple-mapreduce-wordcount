@@ -1,0 +1,22 @@
+4 video processing and storage  
+ 
+780  
+ 
+figure 7-3 – high-level procedural flows for real-time media storage 
+figure 7-3 shows the procedural flows of real-time media storage in a cloud storage system: 
+(1) the cu initiates a storage plan request and sends this request to the scu. 
+(2) the scu forwards this storage plan request to the cmu. 
+(3) the cmu authenticates the storage access permission and then sends this storage plan request  to 
+the csmu.  
+(4) the csmu authenticates the storage access permission and then sends this storage plan request to 
+the csau. 
+(5) the csau returns a response to the csmu when it is ready for this storage plan. 
+(6) the csmu returns the csau information to the cmu. 
+(7) the cmu sends a response including the csau information to the scu. 
+(8) the scu forwards this response to the cu. 
+(9) when the cu receives the csau information, it sends the real-time media storage request to the 
+csau. 
+(10) when the csau receives the storage request, it sends a request to the scu for the media address. 
+(11) the scu forwards this request to the mdu. 
+(12) the mdu returns the media address to the scu. 
+

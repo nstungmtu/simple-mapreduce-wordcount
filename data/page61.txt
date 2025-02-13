@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   53 
+the ccra is also intended to: 
+• facilitate the understanding of the operational intricacies of cloud computing; 
+• illustrate and provide understanding of various cloud services and their provisioning and use; 
+• provide a technical reference to enable  the international community to understand, discuss, 
+categorize and compare cloud services; 
+• be a tool for describing, discussing, and for developing a system -specific architecture using a 
+common framework of reference; 
+• facilitate the analysis of candidate standards in areas including security, interoperability, portability, 
+reversibility, reliability and service management, and support analysis of reference 
+implementations. 
+7 reference architecture concepts 
+this recommendation | international standard d efines a ccra that can serve as a fundamental reference 
+point for cloud computing standardization and which provides an overall framework for the basic concepts 
+and principles of a cloud computing system. 
+this clause provides an overview of the architectur al approaches that are used in this recommendation | 
+international standard. 
+7.1 ccra architectural views 
+cloud computing systems can be described using a viewpoint approach. 
+four distinct viewpoints are used in the ccra (see figure 7-1): 
+• user view; 
+• functional view; 
+• implementation view; and 
+• deployment view. 
+ 
+figure 7-1 – transformations between architectural views 
+table 7-1 provides a description of each of these views.  
+table 7-1 – ccra views 
+ccra view description of the ccra view scope 
+user view the system context, the parties, the roles, the sub-roles 
+and the cloud computing activities 
+within scope 
+functional view the functions necessary for the support of cloud 
+computing activities 
+within scope 
+implementation view the functions necessary for the implementation of a 
+cloud service within service parts and/or infrastructure 
+parts 
+out of scope 
+

@@ -1,0 +1,59 @@
+2 cloud computing management  
+ 
+506  
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+– the status, availability, performance and/or delay time of cloud service can be collected 
+through smi. 
+– the e2e cloud service lifecycle management system of csp1 reports internally service 
+health condition, performance, security, geo-location of cloud service a1 through 
+corresponding smi. 
+– the e2e cloud service lifecycle management system of csp1 reports externally service 
+health condition of cloud service a1 o csp2 through smi between csps.  
+derived 
+requirements 
+– service management interface (refer to clause 7.1) 
+– service management interface between csps (refer to clause 7.1) 
+– reporting (refer to clause 7.4) 
+i.2 self-service use case 
+ 
+title self-service use case 
+description csp provides cloud services to the market. for improvement of csc experiences, the csp 
+provides self-service method to cscs (e.g., web portal or other automated approaches) to 
+discover, purchase, configure, deploy, activate and deactivate cloud service and to check cloud 
+service status.  
+roles csp, csc 
+figure (optional) / 
+pre-conditions 
+(optional) 
+/ 
+post-conditions 
+(optional) 
+– the self-service method is provided to cscs to discover, purchase, configure, deploy, 
+activate and deactivate cloud service and to check cloud service status.  
+derived 
+requirements 
+– self-service (refer to clause 7.2) 
+i.3 service maintenance use case 
+ 
+title service maintenance use case 
+description a csp provides cloud services to the market. for the stability and availability of its service, 
+periodic maintenance is needed. for a good customer experience, the maintenance cannot 
+result in a long suspension and deactivation of a service. therefore it is required that csp can 
+provide automated software enabled cloud services to shorten the maintenance time. 
+roles csp 
+figure (optional) / 
+pre-conditions 
+(optional) 
+– the csp can provide automated software enabled cloud services. 
+post-conditions 
+(optional) 
+– the duration of suspension and deactivation is reduced markedly. 
+derived 
+requirements 
+– service maintenance (refer to clause 7.3) 
+ 
+  

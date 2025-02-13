@@ -1,0 +1,44 @@
+4 video processing and storage  
+ 
+774  
+1 scope 
+this recommendation describes architecture, functional entities, reference points and service control flow 
+of cloud storage in visual surveillance. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions ind icated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t h.626] recommendation itu-t h.626 (2011), architectural requirements for visual 
+surveillance. 
+[itu-t f.743.2] recommendation itu-t f.743.2 (2016), requirements for cloud storage in visual 
+surveillance. 
+[itu-t m.60] recommendation itu-t m.60 (1993), maintenance terminology and definitions. 
+[itu-t y.101] recommendation itu-t y.101 (2000), global information infrastructure terminology: 
+terms and definitions. 
+[itu-t y.2012] recommendation itu-t y.2012 (2010), functional requirements and architecture of 
+next generation networks. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 application [itu-t y.101]: a structured set of capabilities, which provide value -added functionality 
+supported by one or more services. 
+3.1.2 cloud storage [itu-t f.743.2]: a data storage model for enabling service users to have ubiquitous, 
+convenient and on-demand network access to a shared pool of configurable storage resources, which can be 
+rapidly provisioned and released with minimal manage ment effort or service-provider interaction. in cloud 
+storage systems, the physical and virtual resources can be dynamically assigned and reassigned according to 
+user demand. 
+3.1.3 customer [itu-t m.60]: an entity which receives services offered by a servi ce provider based on a 
+contractual relationship. it may include the role of a network user. 
+3.1.4 customer unit [itu-t h.626]: a device located at the customer part of a visual surveillance system 
+and used to present multimedia information (such as audio, video, image, alarm signal, etc.) to the end user. 
+3.1.5 functional architecture [itu-t y.2012]: a set of functional entities and the reference points between 
+them, used to describe the structure of an ngn. these functional entities are separated by reference points, 
+and thus, they define the distribution of functions. 
+note 1 – the functional entities can be used to describe a set of reference configurations. these reference 
+configurations identify which reference points are visible at the boundaries of equipment implementation and between 
+administrative domains. 
+note 2 – the definition is not only applicable to ngns, but also to other ip packet switch based networks.  

@@ -1,0 +1,47 @@
+video processing and storage 4 
+ 
+  767 
+– ser-12: a vscc platform is recommended to support the management of video-transcoding tasks, 
+e.g., creation, pause, restart and deletion. 
+– ser-13: a vscc platform is recommended to view the progress of video-transcoding tasks. 
+– ser-14: a vscc platform is recommended to view the status of resourc es utilized by video -
+transcoding tasks. 
+– ser-15: a vscc platform is recommended to support the viewing of log files that record the 
+operations of video-transcoding tasks. 
+7.3 security requirements 
+7.3.1 authentication security requirements 
+– sec-01: a vsc c platform is required to provide the mechanisms for authentication and 
+authorization, and to permit only authorized users to access the system and use system services. a 
+vscc platform is required to forbid unauthorized users to handle any system resources. 
+7.3.2 access security requirements 
+– sec-02: a vscc platform is required to operate in an environment where network address 
+translation (nat) or firewall devices are present. it is recommended to utilize specified firewalls, 
+gatekeepers and other network  devices to ensure security for access to some special cloud 
+computing services. 
+7.3.3 content security requirements 
+– sec-03: a vscc platform is recommended to ensure the security of processed video data, the results 
+of the video processing, etc.  
+– sec-04: a vscc platform is required to protect user privacy. 
+7.3.4 system security requirements 
+– sec-05: a vscc platform is required to have the capability to resist various attacks. 
+– sec-06: a vscc platform is required to provide troubleshooting mechanisms. it is required that a 
+structural single-node problem be avoided (i.e., a problem at a single node should not cause failure 
+of the entire system). 
+7.4 management requirements 
+7.4.1 resources management requirements 
+– man-01: a vscc platform is required to s upport resource management of the cloud computing 
+platform. resources can be increased and decreased flexibly according to service requests. 
+7.4.2 equipment management requirements 
+– man-02: a vscc platform is required to provide unified management of the computing equipment. 
+7.4.3 service management requirements 
+– man-03: a vscc platform is required to provide various computing service subscription means for 
+users, and to provide the capabilities to query, view and modify their subscription information. 
+– man-04: a vscc platform is recommended to provide the capability of accounting, charging and 
+billing for the computing service operation. 
+– man-05: a vscc platform is recommended to provide various alternative accounting modes, and to 
+support flexible combination of payment modes, billing modes, billing cycles, preferent ial 
+pricing, etc. 
+7.4.4 system management requirements 
+– man-06: a vscc platform is required to provide a unified system management interface that can 
+be called conveniently. 
+– man-07: a vscc platform is required to provide a visual interface for users. 

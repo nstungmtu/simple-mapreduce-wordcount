@@ -1,0 +1,24 @@
+xaas 3 
+ 
+  601 
+appendix i  
+ 
+relationship between daas logical components and cloud  
+computing reference architecture 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provide s the relationship between daas logical compo nents [itu-t y.3503] and cloud 
+computing reference architecture in [itu-t y.3502]. 
+the relationship between daas logical components and cloud computing reference architecture can be done 
+in two steps. 
+the first step is the mapping between daas logical comp onents and daas functions in clause 6.  based on 
+clause 6, each corresponding functions of daas for the daas logical components in [itu-t y.3503] is described 
+in table 6-1. 
+the second step is the mapping between daas functions and f unctional components of c loud computing 
+reference architecture. this mapping is described in figure 8-1. 
+therefore, the possible mapping between daas  logical components and functional components in cloud 
+computing reference architecture is shown in figure i.1. 
+ 
+figure i.1 – relationship between daas logical components and  
+cloud computing reference architecture 
+  
+

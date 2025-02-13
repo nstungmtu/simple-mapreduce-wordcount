@@ -1,0 +1,20 @@
+ framework and requirements for cloud computing 1 
+ 
+   107 
+ 
+figure a.7 – the cloud service developer–cloud service provider relationship 
+bibliography 
+ 
+– iso/iec 27000:2014, information technology – security techniques – information security 
+management systems – overview and vocabulary. 
+– iso/iec 27001:2013, information technology – security techniques – information security 
+management systems – requirements. 
+– iso/iec 27002:2013, information technology – security techniques – information security 
+management systems – code of practice for information security management. 
+– iso/iec 27018:2014, information technology – security techniques – information security 
+management systems – code of practice for protection of personally identifiable information (pii) 
+in public clouds acting as pii processors. 
+– iso/iec/ieee 24765:2010, systems and software engineering – vocabulary. 
+– iso/iec/ieee 42010:2011, systems and software engineering – architecture description. 
+ 
+

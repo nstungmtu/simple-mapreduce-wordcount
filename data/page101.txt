@@ -1,0 +1,47 @@
+ framework and requirements for cloud computing 1 
+ 
+   93 
+9.2.5.5 development support functional components 
+the development support functional components support the cloud computing activities of the cloud service 
+developer. this includes support of the development and/or composition of service implementations, build 
+management and test management. 
+the development support functional components include: 
+• developer environment; 
+• build management; 
+• test management. 
+9.2.5.5.1 developer environment 
+the developer environment functional component provides the capabilities to support the development of 
+the service impl ementation software. development of software components for the service is supported, 
+plus tools which assist in composing the service from a set of other services. 
+the developer environment functional component supports the use of the capabilities provided by the cloud 
+service provider 's environment, including connections to resources and network, integration with other 
+services (including services of peer cloud service providers), integration with monitoring and management 
+capabilities, integration with security capabilities. 
+the developer environment functional component also supports the creation of configuration metadata 
+relating to the service being developed and also supports the creation of scripts and related artefacts that 
+are used by the provider's operational support systems to provision and configure the service. 
+9.2.5.5.2 build management 
+the build management functional component supports the building of a ready-to-deploy software package 
+which can be passed to the cloud service provider for deployment into the cloud service environment. the 
+software package consists of both the service implementation software and also the configuration metadata 
+and scripts. 
+9.2.5.5.3 test management 
+the test management functional component supports the execution of test cases against any build of the 
+service implementation. the test management functional component produces reports of the executed tests 
+and these can be communicated to the cloud service provider  along with a build of the service 
+implementation. 
+it is typical for testing to be performed in a specialized test environment, which closely approximates to the 
+production environment without interfering with the production environment. for cloud computing, the test 
+environment can be made available by the cloud service provider. 
+10 relationship between the user view and the functional view 
+10.1 general 
+as well as specifying the roles and cloud computing activities  view in clause 8 and the functional view 
+including architectural functional components in clause 9, this recommendation | international standard 
+describes in this clause the logical relationships of the roles and cloud computing activities to the functional 
+components. 
+standards can be relevant to some of these relationships. stan dards associated with a relationship can be 
+used to (i) specify degrees of information flow or other types of interoperability; and/or (ii) ensure specified 
+degrees of quality (e.g., security or service level). 
+logical relationships defined in this archite cture are a significant part of specifying the ccra and its 
+behaviour. the relationship describes matters such as the required information flows between the functional 
+components in the ccra. 

@@ -1,0 +1,58 @@
+1 framework and requirements for cloud computing  
+ 
+394  
+table 10-1– itu-t sg17 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t x.1602, security requirements for software as a 
+service application environments 
+recommendation 04/2011 03/2016 
+itu-t x.1641, guidelines for cloud service customer data 
+security 
+recommendation 09/2014 09/2016 
+itu-t x.1603, data security requirements for the 
+monitoring service of cloud computing 
+recommendation 09/2015 03/2018 
+itu-t x.sriaas, security requirements of public 
+infrastructure as a service (iaas) in cloud computing 
+draft recommendation 03/2016 09/2019 
+itu-t x.srnaas, security requirements of network as a 
+service (naas) in cloud computing 
+draft recommendation 09/2016 09/2019 
+itu-t x.srcaas, security requirements for 
+communication as a service application environments 
+draft recommendation 09/2016 109/2019 
+itu-t x.gsbdaas, guidelines on security of big data as a 
+service 
+draft recommendation 09/2016 09/2019 
+itu-t x.sgcc, security guidelines for container in cloud 
+computing environment 
+draft recommendation 09/2018 q4/2020 
+• itu-t x.1601: this recommendation provides guidelines for cloud service customer data security in 
+cloud computing, for those cases where the cloud service provider (csp) is responsible for ensuring 
+that the data is handled with proper security. this is not always the case, s ince for some cloud 
+services the security of the data will be the responsibility of the cloud service customers (cscs) 
+themselves. in other cases, the responsibility may be mixed. 
+ for example, in some cases the csp may be responsible for restricting access to the data, while the 
+csc remains responsible for deciding which cloud service users (csus) should have access to it, and 
+the behaviour of any scripts or applications with which the csu processes the data. 
+ this recommendation identifies security controls for cloud service customer data that can be used 
+in different stages of the full data life cycle. these security controls may differ when the security 
+level of the cloud service customer data changes. therefore, the recommendation provides 
+guidelines on when each control should be used for best security practice. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?id=12613  
+• itu-t x.1631 | iso/iec 27017: recommendation itu-t x.1631 | iso/iec 27017 provides guidelines 
+for information security controls applicable to the provision and use of cloud services by providing: 
+– additional implementation guidance for relevant controls specified in iso/iec 27002; 
+– additional controls with implementation guidance that specifically relate to cloud services. 
+ this recommendation | international standard provides controls and implementation guidance for 
+both cloud service providers and cloud service customers. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12490  
+• itu-t x.1642: this recommendation provides guideline of operational security for cloud computing, 
+which includes guidance on service level agreements (slas) and daily security maintenance for cloud 
+computing. the target audiences of this recommendation are cloud service providers, such as 
+traditional telecommunication operators, isps and icps. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12616  
+• itu-t x.1602: this recommendation provides a generic functional description for a secure service 
+oriented software as a service (saas) application environment that is independent of network types, 
+operating systems, middleware, vendor specific products or solutions. in addition, this 

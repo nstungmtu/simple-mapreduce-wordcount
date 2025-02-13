@@ -1,0 +1,34 @@
+ framework and requirements for cloud computing 1 
+ 
+   15 
+annex a 
+ 
+cloud service categories 
+(this annex does not form an integral part of this recommendation | international standard.) 
+annex a describes the possibility of there being additional cloud service categories  not yet found in this 
+recommendation | international standard. 
+table a.1 – cloud service categories and cloud capabilities types 
+cloud service categories 
+cloud capabilities types 
+infrastructure platform application 
+compute as a service x   
+communications as a service  x x 
+data storage as a service x x x 
+infrastructure as a service x   
+network as a service x x x 
+platform as a service  x  
+software as a service   x 
+table a.1 shows the relationship of the seven cloud service categories  and three cloud capabilities types 
+described in clause 6. an "x" at the intersection of a row and column depicts that the cloud service category, 
+shown as a row in table a.1, is of the indicated cloud capabilities type, shown as a column in table a.1. 
+a cloud service category  that offers p rocessing, storage or networking resources has an "x" in the 
+infrastructure column. a cloud service category may offer the capability of deploying, managing and running 
+customer-created or customer-acquired applications using one or more programming languages and one or 
+more execution environments supported by the cloud service provider , in which case it has an "x" in the 
+platform column. similarly, a cloud service category may offer the use of an application offered by the cloud 
+service provider , in which case it will have an "x" in the application column. note that a cloud service 
+category could offer any combination of the three cloud capability types. 
+the commercial cloud computing market is very dynamic and new cloud services continue to materialize 
+into new informal cloud service categories. some examples of such emerging cloud service categories are 
+included in table  a.2. many more cloud service categories  will continu e to emerge as cloud computing 
+continues to grow. 

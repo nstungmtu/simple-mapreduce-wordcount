@@ -1,0 +1,54 @@
+1 framework and requirements for cloud computing  
+ 
+390  
+table 8-3 – itu-t q19/13 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3518, cloud computing – functional 
+requirements of inter-cloud data management 
+recommendation 07/2016 11/2018 
+itu-t y.3517, cloud computing – overview of inter-
+cloud trust management 
+recommendation 07/2016 11/2018 
+itu-t y.cccsdaom-reqts, cloud computing – 
+requirements of cloud service development and 
+operation management 
+draft recommendation 08/2018 09/2020 
+itu-t y.ccm-reqts, cloud computing maturity 
+requirements and framework 
+draft recommendation 01/2018 12/2019 
+itu-t y.cslm-metadata, metadata framework for cloud 
+service life-cycle management 
+draft recommendation 03/2017 01/2019 
+itu-t y.e2efapm, cloud computing – end-to-end fault 
+and performance management framework of virtual 
+network services in inter-cloud 
+draft recommendation 08/2018 09/2020 
+• itu-t y.3520 : this recommendation provides a framework for end -to-end cloud computing 
+resource management. this recommendation includes: 
+– general concepts of end-to-end cloud computing resource management;  
+– a vision for adoption of cloud computing resource management in a telecommunication rich 
+environment;  
+– end-to-end management of cloud resource and services across multiple platforms, i.e., 
+management of any hardware and software used in support of the delivery of cloud services.  
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12585  
+• itu-t y.3514: this recommendation specifies the framework of trusted inter-cloud computing and 
+relevant use cases, based on the framework specified in [itu -t y.3511]. the scope of this 
+recommendation includes: 
+– objectives of trusted inter-cloud computing; 
+– requirements for security of trusted inter-cloud; 
+– requirements for governance of trusted inter-cloud; 
+– requirements for resiliency of trusted inter-cloud. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13254 
+• itu-t y. 3518: this recommendation specifies the functional requirements for inter -cloud data 
+management. it provides an overview of inter -cloud data management and inter -cloud data 
+classification in aspects o f categories, identification qualifiers and dependency. this 
+recommendation proposes a set of requirements for inter -cloud data annotation, processing and 
+usage to enable the justification of use of network data plane mechanisms for data protection and 
+traffic isolation. the scope of this recommendation includes: 
+– overview of inter-cloud data management; 
+– inter-cloud data classification;  
+– requirements for inter-cloud data annotation, processing and usage; 
+– requirements for inter-cloud data isolation and protection;  
+– requirements for inter-cloud data management. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13645 

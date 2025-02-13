@@ -1,0 +1,46 @@
+7 security  
+ 
+1080 
+spring singapore 2012, annex b: checklist of security and service level considerations when reviewing iaas 
+of singapore technical reference 31:2012 technical reference for security and service level guidelines for 
+the usage of public cloud computing services – march. 
+spring singapore 2013, singapore standard ss 584:2013 specification for multi-tiered cloud computing 
+security – august. 
+spring singapore 2012, singapore technical reference 30:2012 technical reference for virtualisation 
+security for servers – march. 
+spring singapore 2012, singapore technical reference 31:2012 technical reference for security and 
+service level guidelines for the usage of public cloud computing services – march. 
+us government fedramp pmo 2014, fedramp security controls baseline version 2.0 – june. 
+bibliography 
+ 
+– recommendation itu-t x.805 (2003), security architecture for systems providing end-to-end 
+communications. 
+– iso/iec 17203:2011, information technology – open virtualization format (ovf) specification. 
+– iso/iec 27001:2013, information technology – security techniques – information security 
+management systems – requirements. 
+– iso/iec 27005:2011, information technology – security techniques – information security risk 
+management. 
+– iso/iec 27018:2014, information technology – security techniques – code of practice for protection 
+of personally identifiable information (pii) in public clouds acting as pii processors. 
+– iso/iec 27036-1:2014, information technology – security techniques – information security for 
+supplier relationships – part 1: overview and concepts. 
+– iso/iec 27036-2:2014, information technology – security techniques – information security for 
+supplier relationships – part 2: requirements. 
+– iso/iec 27036-3:2013, information technology – security techniques – information security for 
+supplier relationships – part 3: guidelines for information and communication technology supply 
+chain security. 
+– iso/iec cd 27036-4, information technology – security techniques – information security for 
+supplier relationships – part 4: guidelines for security of cloud services – (under development). 
+– iso/iec 27040:2015, information technology – security techniques – storage security. 
+– iso 19440:2007, enterprise integration – constructs for enterprise modelling. 
+– iso 31000:2009, risk management – principles and guidelines. 
+– nist, sp 800-145 2011, the nist definition of cloud computing. 
+– nist 2009, effectively and securely using the cloud computing paradigm. 
+– enisa 2009, cloud computing benefits, risks and recommendations for information security. 
+– cloud security alliance, security guidance for critical areas of focus in cloud computing v3.0. 
+– cloud security alliance, top threats to cloud computing v1.0. 
+– cloud security alliance, domain 12: guidance for identity & access management v2.1. 
+– isaca, cloud computing: business benefits with security, governance and assurance perspectives. 
+– isaca, cloud computing management audit/assurance program. 
+ 
+  

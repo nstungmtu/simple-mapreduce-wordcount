@@ -1,0 +1,44 @@
+security 7 
+ 
+  1061 
+11.2.3 cabling security 
+control 11.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.4 equipment maintenance 
+control 11.2.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.5 removal of assets 
+control 11.2.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.6 security of equipment and assets off-premises 
+control 11.2.6 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.7 secure disposal or reuse of equipment 
+control 11.2.7 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should request confirmation 
+that the cloud service provider has the policies and 
+procedures for secure disposal or reuse of resources. 
+the cloud service provider should ensure that 
+arrangements are made for the secure disposal or reuse 
+of resources (e.g., equipment, data storage, files, 
+memory) in a timely manner. 
+other information for cloud services 
+additional information about secure disposal can be found in iso/iec 27040. 
+11.2.8 unattended user equipment 
+control 11.2.8 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+11.2.9 clear desk and clear screen policy 
+control 11.2.9 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12 operations security 
+12.1 operational procedures and responsibilities 
+the objective specified in clause 12.1 of iso/iec 27002 applies. 
+12.1.1 documented operating procedures 
+control 12.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.1.2 change management 
+control 12.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 

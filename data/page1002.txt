@@ -1,0 +1,43 @@
+7 security  
+ 
+994 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 monitoring data: monitoring data is the output of the cloud monitor service, which helps cloud 
+service provider (csp) and cloud service customers (csc) manage cloud platforms and cloud resources. 
+3.2.2 monitor service: the monitor service activity monitors the delivered service quality with respect to 
+service levels as defined in the service level agreement (sla) between cloud service customer and cloud 
+service provider. 
+3.2.3 necessary monitoring data: necessary monitoring data is used to maintain service level agreements 
+(sla). necessary monitoring data could help cloud service provider (csp) to keep cloud computing platforms 
+security and stable. necessary monitoring data could include, but is not limited to, management system 
+monitoring data, physical resources monitoring data, network monitoring data and etc. necessary 
+monitoring data is mainly used by csps but could also be shared with cloud service customers (cscs). 
+3.2.4 optional monitoring data: optional monitoring data is provided on the demand of cloud service 
+customers (cscs) and to provide cloud monitor service. optional monitoring data could include, but is not 
+limited to, virtual machine monitoring data, data storage service monitoring data, cscs' application on cloud 
+monitoring data and etc. 
+3.2.5 virtual machine (vm): an efficient, isolated, logical duplicate of a real machine. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bcp business continuity plan 
+caas communications as a service 
+cpu central processing unit 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+csu cloud service user 
+ddos distributed denial of service 
+dns domain name system 
+dos denial of service 
+iaas infrastructure as a service 
+iam identity and access management 
+ict information and communication technology 
+ip internet protocol 
+it information technology 
+naas network as a service 
+os operating system 
+paas platform as a service 
+pii personally identifiable information 
+pki public key infrastructure 

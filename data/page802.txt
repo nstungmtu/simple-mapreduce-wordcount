@@ -1,0 +1,13 @@
+5 intercloud and interoperability  
+ 
+794  
+11.2 level of robustness 
+11.3 security policy negotiation 
+11.4 security and confidentiality policy 
+11.5 data security 
+11.6 security policy monitoring 
+12 security considerations 
+appendix i – use case of trusted inter-cloud computing 
+i.1 use case template 
+i.2 trusted inter-cloud related use cases 
+bibliography 

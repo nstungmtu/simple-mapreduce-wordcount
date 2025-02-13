@@ -1,0 +1,46 @@
+security 7 
+ 
+  1011 
+2) data protection 
+ data protection ensures that csc data and cloud service derived data held in a cloud computing 
+environment is appropriately secured so that it can only be accessed or changed as authorized by 
+the csc (or according to applicable law). this protection may include some combination of access 
+control lists, integrity verification, error correction/data recovery, encryption and other appropriate 
+mechanisms. when a csp provides storage encryption for c scs, this function can be client -side 
+encryption (e.g., within a csp application) or server-side encryption. 
+3) confidentiality protection 
+ private information can include personally identifiable information (pii) and confidential corporate 
+data. the collection, use, transfer, handling, storage and destruction of private information can be 
+subject to confidentiality regulations or laws. this restriction applies to both csps and their cscs, 
+e.g., a csc must be able to permanently delete a data table containi ng private information, even 
+though the csp is not aware of the table contents. csps may also need to support information 
+handling, e.g., searching of csc data in its transformed or encrypted form. 
+ confidentiality protection extends to private information that may be observed or derived from csc 
+activities, such as business trends, relationships or communications with other parties, and activity 
+levels and patterns. 
+ confidentiality protection is also responsible for ensuring that all private information ( including 
+observed or derived data) is used only for those purposes that have been agreed between a csc and 
+a csp. 
+ a risk assessment of private information (called a "confidentiality risk assessment") can assist a csp 
+in identifying the specific risks of confidentiality breaches involved in an envisaged operation. the 
+csp should identify and implement capabilities to address the confidentiality risks identified by the 
+risk assessment and treatment of private information. 
+ note – in some jurisdictions, individual natural persons (i.e., human users) are treated separately from their 
+employers for confidentiality purposes. in such circumstances, confidentiality of the csu will be appropriately 
+protected in addition to that of the csc or tenant. 
+6.4 data security lifecycle 
+based on the actual situation of cloud service, the csc data security lifecycle includes: 
+1) creation: this is probably better named creation/update because it applies to creating or changing 
+a data/content element, not just a document or database. creation is the generation of new digital 
+content, or the alteration/updating of existing content. 
+2) transmission: this is the communication process of transferring data from one place to another. 
+3) storage: storage is the act of committing the  digital data to some sort of repository, and typically 
+occurs nearly simultaneously with creation. 
+4) use: data is viewed, processed, shared or otherwise used in some sort of activity. 
+5) migration: data migration is the process of transferring data betwe en storage types, formats, or 
+computer systems. it is a key consideration for any system implementation, upgrade, or 
+consolidation. data migration occurs for a variety of reasons, including: server or storage equipment 
+replacements or upgrades; website consolidation; server maintenance; and data centre relocation. 
+6) destruction: data is permanently destroyed using physical or digital means (e.g., crypto shredding). 
+7) backup and restoration: users can create data backups and restore data from backups. 
+  

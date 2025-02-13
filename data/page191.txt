@@ -1,0 +1,41 @@
+framework and requirements for cloud computing 1 
+ 
+   183 
+6.4.3 i/o virtualization  
+i/o virtualization refers to dividing a single physical i/o into multiple isolated logical i/os. there are two 
+modes of i/o virtualization: software based and and hardware-assisted i/o virtualization:  
+– software based mode simulates i/o devices based on software.  
+– the hardware-assisted mode provides better performance by reducing a hypervisor's participation 
+in i/o processing by using hardware. 
+a network adapter is an i/o device specifically for data transmission. a network adapter provides an isolated 
+logical i/o based on a single physical i/o to  receive and send data packets inside and outside of a physical 
+machine as virtual network interfaces in order to improve interface utilization. 
+6.5 scalability of components in the physical machine 
+scalability of components in a physical machine allows enhancing the processing unit, power supply and 
+cooling components of the physical machine. 
+6.5.1 scalability of the processing unit 
+scalability of the processing unit allows the processing units of a physical machine to be expanded. scalability 
+of the processing unit provides more hardware processing resources  in order to meet potential growth 
+needs, such as providing more cpu and memory resources to host more vms with th e growth of business 
+needs. 
+there are several ways to expand processing units as shown hereafter with availability of motherboard 
+interfaces and enclosure: 
+– replacing components of a processing unit with other components with higher capability, such as a 
+cpu, memory, storage and i/o devices; 
+– adding components to a processing unit, such as a cpu, memory, storage and i/o devices; 
+– replacing processing units with other processing units with higher capability; 
+– adding processing units to the physical machine. 
+6.5.2 scalability of power supply 
+scalability of power supply allows the power supply of a physical machine to be expanded. scalability of 
+power supply provides more power in future for the potential increasing power consumption needs of the 
+physical machine, such as providing more power for additional processing units.  
+there are several ways to expand power supply as shown hereafter with availability of enclosure: 
+– replacing power supplies of a physical machine with other power supplies with higher capability; 
+– adding power supplies to the physical machine. 
+6.5.3 scalability of cooling 
+scalability of cooling allows the cooling capability of a physical machine to be increased. scalability of cooling 
+provides a higher cooling capability to meet the potential increasing cooling needs of the physical machine.  
+there are several ways to expand cooling capability as shown hereafter with availability of enclosure: 
+– replacing cooling components of a physical machine with other cooling components  with higher 
+capability; 
+– adding cooling components to the physical machine. 

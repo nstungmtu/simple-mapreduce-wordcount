@@ -1,0 +1,33 @@
+xaas 3 
+ 
+    661 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cloud computing – functional architecture 
+of network as a service 
+recommendation itu-t y.3515 
+(07/2017) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

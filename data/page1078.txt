@@ -1,0 +1,47 @@
+7 security  
+ 
+1070 
+15.2 supplier service delivery management 
+the objective specified in clause 15.2 of iso/iec 27002 applies. 
+15.2.1 monitoring and review of supplier services 
+control 15.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+15.2.2 managing changes to supplier services 
+control 15.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+16 information security incident management 
+16.1 management of information security incidents and improvements 
+the objective specified in clause 16.1 of iso/iec 27002 applies. 
+16.1.1 responsibilities and procedures 
+control 16.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should verify the allocation 
+of responsibilities for information security incident 
+management and should ensure that it meets the 
+requirements of the cloud service customer. 
+as a part of the service specifications, the cloud service 
+provider should define the allocation of information 
+security incident management responsibilities and 
+procedures between the cloud service customer and the 
+cloud service provider. 
+the cloud service provider should provide the cloud 
+service customer with documentation covering: 
+– the scope of information security incidents that the 
+cloud service provider will report to the cloud 
+service customer; 
+– the level of disclosure of the detection of 
+information security incidents and the associated 
+responses; 
+– the target timeframe in which notifications of 
+information security incidents will occur; 
+– the procedure for the notification of information 
+security incidents; 
+– contact information for the handling of issues 
+relating to information security incidents; 
+– any remedies that can apply if certain information 
+security incidents occur. 
+16.1.2 reporting information security events 
+control 16.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 

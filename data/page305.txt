@@ -1,0 +1,35 @@
+ framework and requirements for cloud computing 1 
+ 
+   297 
+occurs, the absolute controllability for a given primary csp role, i.e., permission, is transferred to one of the 
+designated secondary csps. by transferring the responsibility of the primary csp role with associated 
+management information, the service can continue even if the primary csp's systems are seriously damaged, 
+e.g., due to a natural disaster or  the csp stops a service due to economic decisions (refer to use cases in 
+clauses i.4 and i.5). activation of the primary csp role delegation needs prior agreement of the csc. 
+the primary csp role delegation capability is required to: 
+– be activated only with the prior agreement of the csc. 
+the primary csp role delegation capability is recommended to: 
+– allow a csp to discover peer csps that are capable of inheriting the primary csp role, and enable the 
+csp to negotiate with these peer csps as to whether they can accept the inheritance; 
+– allow a csp to transfer its management information associated with the primary csp role in a reliable 
+manner (e.g., periodically) to the peer csps that have accepted the permission transfer with that 
+csp;  
+– allow the controllability of the information associated with the primary csp role to be transferred 
+to the secondary csps with minimum interruptions; 
+– allow a csp to cancel the permission transfer arrangements. 
+9.10 inter-cloud service handling 
+the inter-cloud service handling capability deals with the primary csp offering cloud services to its cscs based 
+on the handling of services provided by the secondary csps. this capability can be used for inter -cloud 
+intermediary pattern. 
+the inter-cloud service handling capability is required to:  
+– support service intermediation, i.e., conditioning or enhancing the cloud service of a peer csp; 
+– support service aggregation, i.e., providing the composition of a set of services provided by the csps; 
+– support service arbitrage, i.e., selecting one service offering from a group offered by the peer csps.  
+10 security considerations 
+the security framework for cloud computing is described in [itu -t x.1601] covering security challenges for 
+csps. in particular, [itu -t x.1601] analyses sec urity threats and challenges in the cloud computing 
+environment and describes security capabilities that could mitigate these threats and meet security 
+challenges. 
+appendix iv identifies important aspects that should be considered when developing recommendations 
+addressing inter-cloud security aspects. 
+  

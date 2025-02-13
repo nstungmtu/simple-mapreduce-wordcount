@@ -1,0 +1,52 @@
+7 security  
+ 
+1034 
+configuration management security involves the following measures: 
+1) configuration management auditing 
+ configuration management auditing is to ensure that the configuration alteration and release 
+requirements have b een implemented effectively  and efficiently . it can help csps verify the 
+correctness, consistency, completeness, validity, and traceability of each configuration item. 
+configuration management auditing should be executed periodically during the daily operation. 
+ all logs of user access, modification, archive and retrieval should be recorded and archived for online 
+or offline audit. 
+ furthermore, the report of configuration management auditing related to cscs or their services 
+should be appropriately visible to cscs, to enable cscs to supervise the security measures and the 
+effectiveness of csps. 
+2) configuration management monitoring 
+ csps should monitor all the alternation s and other operation s of configuration files of an entire 
+cloud computing environment, to prevent non-authorized access, leakage, illegal modification and 
+mis-configuration. 
+3) configuration management database protecting 
+ csps should do precise maintenance and management  of the configuration management database, 
+such as role-based authority assignment, garbage removal, regular auditing, periodical backup, etc. 
+8.9 emergency response plans 
+it is critical to ensure that the cloud computing systems are able to be operated effectively by csps without 
+excessive interruption following a security incident. an emergency response plan supports this requirement 
+by establishing an effective programme, procedures, and technical measures. 
+in order to reduce the impact of security incidents on the cloud computing platforms and services, csps' 
+emergency response plan should provide a clear guidance for operators and strike a balance between the 
+level of detail and degree of flexibility. the development and management of an emergency response plan is 
+a cycle of continuous improvement process consisting of three phases: development phase, testing and 
+implementation phase, and maintenance phase. 
+8.9.1 development phase 
+above all, the quantitativ e and qualitative analysis methods should be adopted to make a comprehensive 
+risk assessment and business impact analysis (bia) of the cloud computing systems. after that, the key 
+features and components of the system could be obtained, as well as the impa ct of different security 
+incidents. on this basis, according to the security clause of sla between csps and cscs, the regulatory 
+requirements, and the recovery target of the emergency response can be formulated such as the scope of 
+rto and rpo. furthermore , the characters of cloud service and classification of incidents should also be 
+considered while developing an emergency response plan. 
+the emergency response plan includes: 
+1) notification: a notification procedure should be developed to notify the response team, 
+management staff and related cscs once a security incident occurs. 
+2) classification and grading of security events: the security assessment of a security incident should 
+be implemented by the emergency response team to determine its category and grade. 
+3) launching: after the classification and grading of the security events, it is urgent for csps and cscs 
+to activate the correspondingly pre-established response programme. 
+4) action: after activating the response programme, countermeasures s hould be launched 
+immediately to suppress the impact of security incidents. additionally, recovery operations should 
+be taken right after the incidents are effectively controlled. 
+5) post-disposal: after the emergency action, it is important to make a conc lusion of the latest 
+emergency response, which includes actions to analyse and summarize the reasons for the incident, 
+take the assessment of the loss and make the evaluation of the effectiveness and efficiency of the 
+emergency response plan. 

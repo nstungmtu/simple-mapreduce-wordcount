@@ -1,0 +1,22 @@
+video processing and storage 4 
+ 
+  783 
+ 
+figure 7-5 – high-level procedural flows for image uploading from surveillance camera 
+figure 7-5 shows the procedural flows of the image uploading from the pu to the cloud storage system: 
+(1) the cu initiates an image storage request and sends this request to the scu. 
+(2) the scu forwards this image uploading plan request to the cmu. 
+(3) the cmu authenticates the uploading access permission and then sends this uploading plan request 
+to the csmu. 
+(4) the csmu authenticates the uploading access permission and then sends this uploading plan 
+request to the csau. 
+(5) the csau returns a response to the csmu when it is ready for this uploading plan. 
+(6) the csmu returns the csau information to the cmu. 
+(7) the cmu sends a response to the scu. 
+(8) the scu forwards this response to the cu. 
+(9) when the cu receives the csau information, it sends the image storage request to the csau. 
+(10) when the csau receives the request, it sends a request to the scu for the data source address. 
+(11) the scu forwards the request to the mdu. 
+(12) the mdu returns the address to the scu. 
+(13) the scu transfers the data source address to the csau. 
+

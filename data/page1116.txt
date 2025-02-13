@@ -1,0 +1,41 @@
+8 assisting developing countries  
+ 
+1108  
+9.6 compliance limitations 
+currently, there are no clear policies or regulatory frameworks on the provision of cloud computing services 
+in most developing countries. equally, there is a lack of standards adoption that will ensure adherence to 
+international best practices for which csps could be held accountable. this has had adverse implications on 
+the speedy uptake of cloud computing services. 
+9.7 high cost of broadband internet 
+in its report of september 2017 [b-itu/unesco] "the state of broadband: broadband catalysing sustainable 
+development", the broadband commission projected internet penetration in developing world to reach 
+41.3per cent by the end 2017. affordability, lack of skills and infrastructure are the reasons among the large 
+gaps in connectivity around the world. 
+internet is still not affordable in developing countries and cloud computing can be very expensive, especially 
+in terms of bandwidth consumption, according to 75 per cent of the questionnaire respondents.  
+besides the obvious factors, migration to cloud computing could lead to unexpected additional costs 
+according to the [b -itu-d report] in april 2012 entitled "cloud computing in africa: situation and 
+perspectives". indeed, some operations can be very cost ly especially if they are not well planned in the 
+timeline. for example, moving large volumes of data to or from the cloud can be very expensive. the same 
+is true of data storage on the cloud for very long periods. such an operation can be very expensive w ithout 
+the service user realizing it in the short term. 
+10 general recommendations on adoption of cloud computing by developing countries 
+general recommendations on cloud computing adoption in developing countries are listed and described as 
+follows: 
+10.1 regulatory framework 
+the provision and uptake of cloud services require an enabling environment respectively for csps and cscs. 
+a number of issues such as cyber security, privacy, data centre location and quality of service have to be 
+looked into to make this possible.  
+international standardization organizations should participate in developing a model regulatory framework 
+which developing countries can easily adopt.  
+10.2 standards adoption 
+developing countries are encouraged to adopt/adapt international standards relating to security and trust 
+to stimulate the uptake of cloud computing services.  
+10.3 basic broadband infrastructure 
+broadband is the main infrastructure requirement to access cloud computing services. as such, it is necessary 
+to ensure that broadband infrastructure is developed as the bedrock for cloud services to thrive. 
+policy makers and regulators should put in place policies and regulations that support the development of 
+broadband infrastructure. 
+10.4 internet exchange points 
+ixp can reduce the exchange of data between csps.  
+it is recommended that developing countries consider the establishment of national and regional ixp.  

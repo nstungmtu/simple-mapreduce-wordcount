@@ -1,0 +1,50 @@
+ framework and requirements for cloud computing 1 
+ 
+   149 
+for the establishment of a contract, this logical component needs to create a cloud sla document by using 
+csp's sla and notifies it to the contracted csc. this logical component registers an agreed service level to the 
+service management logical component to guarantee the contracted service quality. if the cloud service fails to 
+meet the service level, this logical component enforces remedies for failures to meet the terms of the sla.  
+6.4.4 service access management 
+a service access management logical component requests to launch a contracted c loud service to the 
+designated csp. this logical component also manages access information of cloud services. in order to use to 
+a cloud service, a csc requires to get access information. after a csp launches a cloud service, the csp 
+provides access information to a cloud service broker and this logical component manages the information 
+and delivers the access information to the csc.  
+note – the access information is required for a csc to access a cloud service. the access information may include an 
+access point such as internet protocol address or uniform resource locator (url) of the cloud service and authentication 
+methods such as a certificate or identification (id) and password to access the cloud service . 
+6.4.5 service management 
+a service management logical component manages the controls and status of running cloud services. this 
+logical component delivers control requests for the running cloud services to csps in order to stop, resume 
+and terminate them on behalf of a csc. this logical component also  checks the status of running cloud 
+services by monitoring and enforces the service level agreed in a sla. if a cloud service fails to meet the 
+service level, this logical component needs to take an action to handle the situation by interacting with a 
+contract management logical component. 
+7 functional requirements of cloud service brokerage 
+7.1 functional requirements for workspace 
+– authentication and authorization for workspace : it is required that a csn: cloud service broker 
+have authentication and authorization mechanisms to authorize csps and cscs access to workspace. 
+– account management: it is required that a csn: cloud service broker manage the accounts of cscs 
+and csps. 
+– user interface for cscs: it is recommended that a csn: cloud service broker provide a user interface 
+for cscs to search, select, request, launch, monitor, manage and pay for the cloud services from the 
+multiple csps. 
+– user interface for csps: it is recommended that a csn: cloud service broker provide a user interface 
+for csps to register information about the csps and cloud services to a csn: cloud service broker. 
+ note – the information about a csp includes a name of the csp, entry point url of the csp at which a csn: 
+cloud service broker gains access to and communicates with the csp, geographical location of the csp, access 
+account to the csp and so on. 
+7.2 functional requirements for product catalogue management 
+– registration of cloud service: it is required that a csn: cloud service broker provide registration of 
+cloud services in the product catalogue. 
+ note 1 – depending on the service models, the subject and way of registration are different. for a cloud 
+service aggregation model, cloud ser vices in csps are registered in a product catalogue. for cloud service 
+integration and customization models, a csn: cloud service broker registers new cloud services to a product 
+catalogue by integrating the registered cloud services according to the broke r and csc's requirements, 
+respectively. 
+– cloud service deregistration: by the agreement between a csp and a csn: cloud service broker, it 
+is required that the csn: cloud service broker deregister the cloud services in a product catalogue. 
+ note 2 – the deregistration of a cloud service includes disabling the cloud service from the product catalogue, 
+notifying the deregistration of the cloud service to related cscs, stopping all running cloud services and 
+deleting the cloud service from the product catalogue. 

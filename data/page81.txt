@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   73 
+8.4.1.1 cloud service developer 
+the cloud service developer is a sub-role of cloud service partner  which is responsible for design ing, 
+developing, testing and maintaining the implementation of a cloud service. this can involve composing the 
+service implementation from existing service implementations. 
+the cloud service developer's cloud computing activities include: 
+• design, create and maintain service components (clause 8.4.2.1); 
+• compose services (clause 8.4.2.2); 
+• test services (clause 8.4.2.3). 
+note 1 – cloud service integrator and cloud service component developer describe sub-roles of cloud service developer, where 
+the cloud service integrator deals with the composition of a service from other services, and where cloud service component 
+developer deals with the design, creation, testing and maintenance of individual service components. 
+note 2 – this includes service implementa tions and service components that involve interactions with peer cloud service 
+providers. 
+8.4.1.2 cloud auditor 
+the cloud auditor is a sub-role of cloud service partner with the responsibility of conducting an audit of the 
+provision and use of cloud services. a cloud audit typically covers operations, performance and security, and 
+examines whether a specified set of audit criteria are met. there are a variety of specifications for the audit 
+criteria, for example, iso/iec 27002 addresses security considerations. 
+the cloud auditor's cloud computing activities include: 
+• perform audit (clause 8.4.2.4); 
+• report audit results (clause 8.4.2.5). 
+8.4.1.3 cloud service broker 
+the cloud service broker is a sub-role of cloud service partner that negotiates relationships between cloud 
+service customers and cloud service providers. the cloud service broker is not itself a cloud service provider 
+and should not be confused with the role of inter -cloud provider (see clause 8.3.1.6). the cloud service 
+broker role could be combined with or operate independently of the role of inter-cloud provider. 
+the cloud computing activities of a cloud service broker include: 
+• acquire and assess customers (clause 8.4.2.6);  
+• assess marketplace (clause 8.4.2.7); 
+• set up legal agreement (clause 8.4.2.8); 
+the marketplace assessment can happen prior to customer acquisition, creating pre-agreements with cloud 
+service providers and this can enable cloud service customers  to select cloud service providers  from a 
+service catalogue, possibly negotiating service details (e.g., service level objectives) at selection time. 
+in either case, the cloud service broker only acts during the contracting phase of the service, between the 
+cloud service customer  and cloud service provider . the cloud service broker  is not involved during the 
+consumption of the service. in such cases, the activities involve cloud service provider's activities. 
+8.4.2 cloud computing activities 
+the cloud computing activities which relate to the sub-roles of cloud service partner are shown in figure 8-5. 

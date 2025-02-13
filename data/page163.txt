@@ -1,0 +1,25 @@
+ framework and requirements for cloud computing 1 
+ 
+   155 
+table i.2 – a general use case of cloud service aggregation 
+figure 
+ 
+pre-conditions 
+(optional) 
+the csn: cloud service broker  and multiple csps achieve a cooperation agreement and the 
+csn: cloud service broker can sell these csps' cloud services. 
+the csn: cloud service broker  adapts the different cloud application programming interfaces 
+(apis) of multiple csps. 
+post-conditions 
+(optional) 
+the cscs can order and use the cloud services of multiple csps through a csb workspace. 
+derived 
+requirements 
+– user interface for cscs (see clause 7.1) 
+– delivering cloud service provision request (see clause 7.4) 
+– cloud service sla management (see clause 7.5) 
+– cloud service charging (see clause 7.3) 
+– cloud service monitoring (see clause 7.5) 
+– registration of cloud service (see clause 7.2) 
+ 
+

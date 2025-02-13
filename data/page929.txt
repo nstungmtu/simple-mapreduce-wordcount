@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  921 
+infrastructure. governance elements include registration, geo -independence, trust anchor, and potentially 
+compliance and audit. the standard does not address intra -cloud (within cloud) operation, as this is cloud 
+implementation-specific, nor does it address proprietary hybrid-cloud implementations. 
+q suppl.65(14)_f5-1
+intercloud root
+intercloud exchanges
+public access
+public cloud
+public cloud
+public access
+internal user access
+private cloud
+public cloud
+public access
+ 
+figure 5-1 – reference network inter-cloud topology 
+(reference: ieee cloud computing initiative: http://cloudcomputing.ieee.org/intercloud) 
+table 5-4 – ieee documents and work items related to cci 
+reference name/title status 
+ieee p2301 guide for cloud portability and interoperability profiles (cpip) in process 
+ieee p2302 standard for intercloud interoperability and federation (siif) in process 
+another area ieee plans to explore involves developing environments for creating and testing protocols for 
+the ieee p2302 draf t standard for intercloud interoperability and federation. ieee has partnered with 
+universities and research institutions around the world that already have cloud computing resources. the 
+goal is to create a well-connected standards-based platform. 
+5.1.5 ietf 
+the ietf is an international organization that develops standards and specifications applicable to the 
+internet. 
+ietf works on cloud computing interface, and testing methodology  related aspects of cci  cloud related 
+working groups are: 
+• ietf/l3vpn (layer 3 virtual private networks); 
+• ietf/oauth (web authorization protocol); 
+• ietf/scim (system for cross-domain identity management); 
+• ietf/ippm (ip performance metrics). 
+the l3vpn, oauth, system for cross-domain identity management (scim) working groups work on cloud 
+computing protocol related aspects of cci. 
+the l3vpn working group is responsible for defining, specifying and extending bgp/mpls ip vpns solutions 
+for supporting provider-provisioned l3vpn. 
+the oauth working group develops oauth for authorization. oauth provides client applications a 'secure 
+delegated access' to server resources on behalf of a resource owner. 
+the scim working group is developing scim specification that is designed to make managing user identity in 
+cloud based applications and services easier. 

@@ -1,0 +1,58 @@
+security 7 
+ 
+  1069 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should include the cloud 
+service provider as a type of supplier in its information 
+security policy for supplier relationships. this will help 
+to mitigate risks associated with the cloud service 
+provider's access to and management of the cloud 
+service customer data. 
+(no additional implementation guidance) 
+15.1.2 addressing security within supplier agreements 
+control 15.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should confirm the 
+information security roles and responsibilities relating to 
+the cloud service, as described in the service agreement. 
+these can include the following processes: 
+– malware protection; 
+– backup; 
+– cryptographic controls; 
+– vulnerability management; 
+– incident management; 
+– technical compliance checking; 
+– security testing; 
+– auditing; 
+– collection, maintenance and protection of evidence, 
+including logs and audit trails; 
+– protection of information upon termination of the 
+service agreement; 
+– authentication and access control; 
+– identity and access management. 
+the cloud service provider should specify as part of an 
+agreement the relevant information security measures 
+that the cloud service provider will implement to ensure 
+no misunderstanding between the cloud service 
+provider and cloud service customer. 
+the relevant information security measures that the 
+cloud service provider will implement can vary based on 
+the type of cloud service the cloud service customer is 
+using. 
+15.1.3 information and communication technology supply chain 
+control 15.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+(no additional implementation guidance) if a cloud service provider uses cloud services of peer 
+cloud service providers, the cloud service provider 
+should ensure information security levels to its own 
+cloud service customers are maintained or exceeded. 
+when the cloud service provider provides cloud services 
+based on a supply chain, the cloud service provider 
+should provide information security objectives to 
+suppliers, and request each of the suppliers to perform 
+risk management activities to achieve the objectives. 

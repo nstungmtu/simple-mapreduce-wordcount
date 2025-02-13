@@ -1,0 +1,27 @@
+monitoring 6 
+ 
+   961 
+see table 7-15. 
+table 7-15 – parameters collected for monitoring the access layer 
+metric name description unit 
+account entries number of successful account logon events event 
+unsuccessful account entries number of unsuccessful account logon events event 
+account exits number of account logout events event 
+create account number of successful account creation events event 
+modify account number of successful account modification events event 
+delete account number of successful account deletion events event 
+unsuccessful account management  number of unsuccessful account management 
+events event 
+policy change number of successful policy change events event 
+unsuccessful policy change number of unsuccessful policy change events event 
+data deletions number of successful data deletion events event 
+unsuccessful data deletions number of unsuccessful data deletion events event 
+data access number of successful data access events event 
+unsuccessful data access number of unsuccessful data access events event 
+data changes number of successful data changes events event 
+unsuccessful data changes number of unsuccessful data change events event 
+unauthorized access,  number of unauthorized service access events event 
+unauthorized modification number of unauthorized service modification 
+events event 
+unauthorized deletion number of unauthorized service deletion events event 
+ 

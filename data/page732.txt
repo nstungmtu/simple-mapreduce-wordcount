@@ -1,0 +1,101 @@
+3 xaas  
+ 
+724  
+table i.1 – mapping between requirements, activities and functional components 
+requirements in [itu-t y.3600] activities in 
+[itu-t y.3600] 
+functional 
+components in this 
+recommendation 
+related layers 
+with 
+[itu-t y.3502] 
+<clause 8.4 requirement (3)> 
+it is required for the csp:bdap to support 
+association analysis. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (4)> 
+it is required for the csp:bdap to support 
+different data analysis algorithms. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (5)> 
+it is recommended that the csp:bdap 
+supports customization of analytical 
+applications. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (6)> 
+it is recommended for the csp:bdap to 
+support user defined algorithms. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (7)> 
+ it is recommended for the csp:bdap to 
+support data processing in distributed 
+computing environments. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (9)> 
+it is recommended that the csp:bdap 
+supports data classification in parallel. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (10)> 
+it is recommended that the csp:bdap 
+provides different analytical applications. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (11)> 
+it is recommended that the csp:bdap 
+supports customization of analytical 
+applications. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (12)> 
+it is recommended for the csp:bdap to 
+support real-time analysis of streaming data. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (13)> 
+it is recommended for the csp:bdap to 
+support user behavior analysis.  
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (14)> 
+the csp:bdap can optionally perform analysis 
+of different data types and formats in 
+realtime. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.6 requirement (2)> 
+it is required for the csp:bdip to track a data 
+history which contains source of data and 
+data processing method. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 

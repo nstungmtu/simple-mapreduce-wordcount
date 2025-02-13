@@ -1,0 +1,37 @@
+xaas 3 
+ 
+  719 
+ 
+figure 7-6 – operational support systems functional components  
+extended for bdaas 
+7.3.3.1 data life-cycle monitoring functional component 
+the data life-cycle is a sequence of steps from the initial creation or capture of the data to the final archive 
+and/or deletion at the end of its useful life. the data life -cycle monitoring functional component is 
+responsible for monitoring data availability, preservation and usage freque ncy during the  entire data life -
+cycle from creating, storing, using, sharing, archiving, and destroying data. 
+this functional component is responsible for: 
+– monitoring data availability-related information such as expiration date, sensitivity level and sharing 
+right of data; 
+– monitoring data preservation -related information (e.g. , created time) and operation (e.g. , data 
+creation and data deletion). the monitoring results gui de the data archive, deletion and recovery 
+based on data preservation policy. for example, if archived data have expired, it needs to be deleted; 
+– checking the frequency of data usage. according to the different frequency of data usage, data 
+processing an d data management schemes are adjusted in the process of data life -cycle. for 
+example, in the data storage process, data that are accessed more frequently will be stored on 
+faster, but more expensive storage media, while less critical data will be stored o n cheaper, but 
+slower media. 
+7.3.3.2 data policy management functional component 
+the data policy management functional component is responsible for creating, modifying and deleting data 
+policies, such as data provenance sharing policy, data license policy and data preservation policy. the bdaas 
+service provider applies data policies to the processes of data collection, data processing, data storage, etc. 
+this functional component provides: 
+– the ability to create data policies, such as the creation of data sharing policy, data license policy and 
+data price policy according to  various usage requirements. for example, for the transmission of 
+sensitive data, an encrypted transmission policy is created; 
+ note 1 – data sharing policy is used to determine whether the data source can be shared or not according to 
+the security level of the data. 
+ note 2 – data license policy is used to set up application conditions, period of validity and authentication 
+method for different licenses. 
+ note 3 – data price policy is used to set reasonable prices according to data volume, data sources and other 
+conditions. in some cases, data prices should be set by negotiating with data users.  
+

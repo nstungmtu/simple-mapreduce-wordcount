@@ -1,0 +1,34 @@
+framework and requirements for cloud computing 1 
+ 
+   221 
+table ii.8 – configurations of clustering processing units – use case 
+title a use case of configurations of clustering processing units 
+description when a csc: cloud service user requests a cloud service, a csp: cloud service operations 
+manager is responsible for providing computing resources, which can run the cloud service. 
+in this case, based on the multiple processing units in the physical machine, it is possible for 
+the csp: cloud operations manager to configure a clustering system which can distribute the 
+computational loads among the multiple processing resources. 
+therefore, in order to utilize highly integrated computing resources efficiently, the csp: cloud 
+operations manager has a responsibility to configure the clustered processing units. the 
+configuration can be changed dynamically and elastically according to the cloud service's 
+requirements from the csc: cloud service user. in other words, according to the required 
+cloud service's characteristics (e.g., network usage ratio, computing capability, the 
+proportion of memory intensive computation, an efficiency of distributed computing), the 
+configuration of the cluster system can vary. 
+in case of a cloud service based on distributed processing clustering configuration is suitable 
+because data analysis work load can be divided into several processing units. on the other 
+hand, when a csc: cloud service user requests a cloud service, where data communications 
+occur intensively among processing units, minimum numbers of processing units are 
+recommended as a clustered resources. 
+in addition, the networking between each processing unit for clustering can be basically 
+based on a legacy network such as ethernet. for a cloud service that is clustering -favourable 
+but has high proportion of network usage among processing units, a proprietary network for 
+clustering environment can be provided to eliminate the overhead of network 
+communications.  
+roles/sub-roles csp: cloud service operations manager, csc: cloud service user 
+figure 
+ 
+pre-conditions 
+(optional) 
+csc: cloud service user wants to use a cloud service. 
+

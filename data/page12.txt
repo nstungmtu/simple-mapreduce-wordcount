@@ -1,0 +1,12 @@
+1 framework and requirements for cloud computing  
+ 
+4  
+summary 
+this recommendation | international standard provides an overview of cloud computing, and defines related 
+terms. 
+the terms and definitions provided in this recommendation | international standard: 
+– cover commonly used terms and definitions in cloud computing standards; 
+– will not cover all terms and definitions used in cloud computing standards; and 
+– do not preclude the definition of additional terms for use in cloud computing standards. 
+ 
+  

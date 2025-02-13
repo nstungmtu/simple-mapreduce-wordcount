@@ -1,0 +1,50 @@
+framework and requirements for cloud computing 1 
+ 
+   195 
+table i.4 – etsi related specifications  
+specification summary published  
+hardware interoperability 
+requirements specification [b-etsi 
+eve007] 
+the document develops a set of normative 
+interoperability requirements for the nfv hardware 
+ecosystem and telecommunications physical 
+environment to support nfv deployment.  
+2017-03 
+i.2 relationship with related specifications from other sdos 
+table i.5 analyses the relationship between functional requirement introduced in this recommendation and 
+the related specification from other sdos. the major differences between this recommendation and other 
+related specifications are as follows: 
+– 'monitoring environment condition' (see clause 7.1.6) and 'no additional ports' (see clause 7.5) are 
+not addressed in the specifications identified in i.1 
+– this recommendation introduced the physical machine with functional requirements derived by 
+use cases with general p urpose; other deliverables from other sdos are specific for server 
+implementation or interface in detail. 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+1 virtualization 
+instruction set 
+– [b-ocp 1s] provides virtualization instruction set as 'the twin lakes 1s 
+server is designed to use intel xeon processor d-2191 utilizing the 
+performance and advanced intelligence of intel xeon processors packaged 
+into a dense, lowpower soc' in clause 3. 
+– [b-ocp bs] provides virtualization instruction set as 'intel xeon 
+haswell/broadwell-ep' in clause 2 table 2-1. 
+– [b-ocp hsas] provides virtualization instruction set as 'the motherboard is 
+designed to support dual intel xeon e5-2600 v3 and v4 series processors 
+and up to 2048gb lrdimm 3ds/1024gb lrdimm/ 512gb rdimm ddr4 
+memory. leveraging advanced technology from intel, the motherboard is 
+capable of offering scalable 32- and 64- bit computing, high-bandwidth 
+memory design and lightning-fast pci-e bus implementation' in clause 7. 
+– [b- ocp imbh] provides virtualization instruction set as 'the efficiency 
+performance motherboard, built with the intel xeon e5-2600 processor, was 
+originally was code-named the sandy bridge-ep motherboard' in clause 4. 
+– [b-ocp oapm] provides virtualization instruction set as 'cpu: amd epyc 
+processors' in clause 5. 
+– [b-ocp mb] provides virtualization instruction set as 'intel motherboard 
+v3.1 (also referred to "motherboard" or "the motherboard" in this 
+document, unless noted otherwise) is based on intel xeon processor e5 -
+2600 v3 (formerly code-named haswell-ep processor) product family cpu 
+architecture' in clause 4.1 

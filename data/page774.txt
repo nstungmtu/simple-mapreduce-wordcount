@@ -1,0 +1,48 @@
+4 video processing and storage  
+ 
+766  
+– usr-05: a vscc platform is recommended to support the online or offline surveillance video -
+transcoding function. 
+– usr-06: a vscc platform is recommended to support online or offline intelligent surveillance video 
+analysis functions. 
+– usr-07: a vscc platform is required to support the configuration of computing resources for video 
+surveillance tasks on demand. 
+– usr-08: a vscc platform is required to support the user view of the status of user computing tasks 
+and computing resources. 
+7.1.2 cloud computing service provider requirements 
+– usr-09: a vscc platform is required to support convenient provider login to and logout from the 
+system. the provider name and password are required when logging into the system. 
+– usr-10: a vscc platform is required to support the provider view of the system operating status 
+from the beginning to now, including the system computing resource occupancy rate, the remaining 
+computing resources of the system, the computing resource occupancy rate of individual users and 
+the remaining computing resources of individual users. 
+– usr-11: a vscc platform is required to support flexible computing resource assignment for 
+individual users. 
+7.2 service requirements 
+7.2.1 online intelligent video processing service requirements 
+– ser-01: a vscc platform is recommended to support online intelligent video processing. the video 
+processing components deployed on a vscc platform can receive video streams from premises units 
+(pus) and process the video in real time. 
+– ser-02: a vscc platform is recommended to support online management of video processing tasks, 
+such as creation, pause, restart and deletion. 
+– ser-03: a vscc platform is recommended to view the progress of online video processing tasks. 
+– ser-04: a vscc platform is recommended to view the status of resources utilized by o nline 
+intelligent video processing tasks. 
+– ser-05: a vscc platform is recommended to support the viewing of log files that record the 
+operations of online intelligent video processing tasks. 
+7.2.2 offline intelligent video processing service requirements 
+– ser-06: a vscc platform is recommended to support offline intelligent video processing. the video 
+processing components deployed on the vscc platform can download the video files from the msu 
+and carry out their batch processing. 
+– ser-07: a vscc platform is recommended to support offline management of video processing tasks, 
+such as creation, pause, restart and deletion. 
+– ser-08: a vscc platform is recommended to view the progress of offline video processing tasks. 
+– ser-09: a vscc platform is recommended to view the status of resources utilized by offline 
+intelligent video processing tasks. 
+– ser-10: a vscc platform is recommended to support the viewing of log files that record the 
+operations of offline intelligent video processing tasks. 
+7.2.3 video transcoding 
+– ser-11: a vscc platform is recommended to support video transcoding. the video -transcoding 
+components deployed on the vscc platform can receive video streams from pus and transcode the 
+video in real time. in addition, the video-transcoding components can download video files from the 
+msu and carry out their transcoding in batches. 

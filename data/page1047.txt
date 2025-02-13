@@ -1,0 +1,31 @@
+security 7 
+ 
+  1039 
+bibliography 
+ 
+[b-itu-t e.409]   recommendation itu-t e.409 (2004), incident organization and security 
+incident handling: guidelines for telecommunication organizations. 
+[b-itu-t x.810]   recommendation itu-t x.810 (1995) | iso/iec 10181-1:1996, information 
+technology – open systems interconnection – security frameworks for open 
+systems: overview. 
+[b-itu-t x.1601]   recommendation itu-t x.1601 (2015), security framework for cloud 
+computing. 
+[b-itu-t y.3500]   recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-itu-t y.3510]   recommendation itu-t y.3510 (2016), cloud computing infrastructure 
+requirements. 
+[b-iso/iec dis 19086-1] iso/iec dis 19086-1: 2016, information technology – cloud computing – 
+service level agreement (sla) framework and technology – part 1: overview 
+and concepts. 
+[b-iso/iec 20000-1]  iso/iec 20000-1:2011, information technology – service management – 
+part 1: service management system requirements. 
+[b-iso/iec 27000]  iso/iec 27000:2012, information technology – security techniques – 
+information security management systems – overview and vocabulary. 
+[b-iso/iec dis 27017]  iso/iec dis 27017:2015 , information technology – security techniques – 
+code of practice for information security controls based on iso/iec 27002 
+for cloud services. 
+[b-iso 27729]   iso 27729:2012, information and documentation – international standard 
+name identifier (isni) 
+[b-nist-sp-800-30]  nist special publication 800-30 rev. 1 (2012), guide for conducting risk 
+assessments. 
+ 

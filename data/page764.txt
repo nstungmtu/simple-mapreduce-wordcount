@@ -1,0 +1,46 @@
+4 video processing and storage  
+ 
+756  
+8.2.3 video metadata storage service requirements 
+– ser-013: a vscs system is required to support video metadata writing through the network. 
+– ser-014: a vscs system is required to support video metadata deletion. 
+– ser-015: a vscs system is required to support video metadata browsing and searching; the 
+searching condition can be the source of video metadata, the creation time of video metadata, video 
+metadata content, etc. 
+8.3 security requirements 
+8.3.1 authentication security requirements 
+– sec-001: a vscs system is required to provide the mechanisms for authentication and authorization, 
+and it is required to only permit authorized users to access the system and use system serv ices. a 
+vscs system is required to forbid an unauthorized user to handle any resources of the system. 
+8.3.2 access security requirements 
+– sec-002: a vscs system is required to operate in environments where network address translation 
+(nat) and/or firewall  devices are present. it is recommended to utilize specified firewalls, 
+gatekeepers and other network devices to ensure security for access to some special cloud storage 
+services. 
+8.3.3 content security requirements 
+– sec-003: a vscs system is required to ensure the security of stored data such as video, picture, 
+video metadata, etc. it is recommended to provide the mechanisms to protect the copyrights of the 
+stored data, and to protect the stored data from being corrupted. 
+– sec-004: a vscs system is requi red to provide data protection mechanisms such as data backup, 
+coding, etc. it is required to be able to recover the destroyed data. 
+– sec-005: a vscs system is required to protect user privacy. 
+8.3.4 system security requirements 
+– sec-006: a vscs system is required to have the capability of resisting various attacks. 
+– sec-007: a vscs system is required to provide the mechanisms for troubleshooting. it is required 
+that a structural single-node problem be avoided (i.e., a problem at a single node should not cause 
+failure of the entire system). 
+8.4 management requirements 
+8.4.1 storage management requirements 
+– man-001: a vscs system is required to support storage space management. the storage space can 
+be increased and decreased flexibly. 
+8.4.2 equipment management requirements 
+– man-002: a vscs system is required to provide the unified management of the storage equipment. 
+8.4.3 service management requirements 
+– man-003: a vscs system is required to provide the various storage service subscription means for 
+users, and to provide the capabilities of querying, viewing and modifying their subscription 
+information. 
+– man-004: a vscs system is recommended to provide the capability of accounting, charging and 
+billing for the service operation. 
+– man-005: a vscs system is recommended to provide various alternative accounting modes, and to 
+support flexible combinations of payment modes, billing modes, billing cycles, preferential pricing, 
+etc. 

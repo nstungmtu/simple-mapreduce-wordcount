@@ -1,0 +1,43 @@
+7 security  
+ 
+992 
+1 scope 
+this recommendation describes data security requirements for the monitoring service of cloud computing. 
+the recommendation analyses data security threats and challenges associated with the monitoring service 
+in a cloud computing environment, and describes data security requirements of the monitoring service 
+including data scope, data lifecycle, data acquisition and data storage. this recommendation can be used by 
+cloud service providers (csps) who provide monitoring services to cloud service customers (cscs). 
+2 references 
+none. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 authentication [b-nist-sp-800-53]: verification of the identity of a user, process, or device, often as 
+a prerequisite to allowing access to resources in an information system. 
+3.1.2 capability [b-iso/iec 19440]: quality of being able to perform a given activity. 
+3.1.3 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on demand. 
+note – examples of resources include servers, operating systems, networks, software , applications, and storage 
+equipment. 
+3.1.4 cloud service [b-itu-t y.3500]: one or more  capabilities offered vi a cloud computing (see clause 
+3.1.3) invoked using a defined interface. 
+3.1.5 cloud service customer [b-itu-t y.3500]: party (see clause 3.1.15) which is in a business relationship 
+for the purpose of using cloud services (see clause 3.1.4). 
+note – a business relationship does not necessarily imply financial agreements.  
+3.1.6 cloud service partner [b-itu-t y.3500]: party (see clause 3.1.15) which is engaged in support of, or 
+auxiliary to, activities of either the cloud service provider ( see clause 3.1.7) or the cloud service customer 
+(see clause 3.1.5), or both. 
+3.1.7 cloud service provider [b-itu-t y.3500]: party (see clause 3.1.15) which makes cloud services ( see 
+clause 3.1.4) available. 
+3.1.8 cloud service user [b-itu-t y.3500]: natural person, or entity acting on their behalf, associated with 
+a cloud service customer (3 see clause.1.5) that uses cloud services (see clause 3.1.4). 
+note – examples of such entities include devices and applications. 
+3.1.9 communications as a service (caas) [b-itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer (see clause 3.1.5) is real time interaction and collaboration. 
+note – caas can provide both application capabilities type and platform capabilities type.  
+3.1.10 community cloud [b-itu-t y.3500]: cloud deployment model where cloud services (see clause 3.1.4) 
+exclusively support and are shared by a specific collection of cloud service customers (see clause 3.1.5) who 
+have shared requirements and a relationship with one anot her, and where resources are controlled by at 
+least one member of this collection. 
+3.1.11 hypervisor [b-nist-sp-800-125]: the virtualization component that manages the guest oss on a host 
+and controls the flow of instructions between the guest oss and the physical hardware. 

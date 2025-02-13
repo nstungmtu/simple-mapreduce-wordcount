@@ -1,0 +1,19 @@
+cloud computing management 2 
+ 
+  491 
+bibliography 
+ 
+[b-itu-t e.107] recommendation itu-t e.107 (2007), emergency telecommunications service (ets) 
+and interconnection framework for national implementations of ets. 
+[b-itu-t m.60] recommendation itu-t m.60 (1993), maintenance terminology and definitions. 
+[b-itu-t y.1271] recommendation itu-t y.1271 (2014), framework(s) on network requirements and 
+capabilities to support emergency telecommunications over evolving circuit-switched 
+and packet-switched networks. 
+[b-itu-t y.2205] recommendation itu-t y.2205 (2011), next generation networks – emergency 
+telecommunications – technical considerations. 
+[b-fgcc part 4] itu-t focus group on cloud computing – technical report (2012), part 4: cloud 
+resource management gap analysis. 
+www.itu.int/dms_pub/itu-t/opb/fg/t-fg-cloud-2012-p4-pdf-e.pdf  
+[b-tmf tr198] tm forum tr198, multi-cloud service management pack – simple management api 
+(smi) developer primer and code pack, release 2.2. 
+www.tmforum.org/?s=tr198 

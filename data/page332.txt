@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+324  
+6.2.1.2 data broker 
+the data broker serves to connect between the data supplier and the big data service provider. the data 
+broker can act as a clearinghouse, open data mart, etc. and its activities include: 
+– providing a meta-information registry to the data supplier for publishing their data sources; 
+– finding on-line open-data sources and registering corresponding meta-information; 
+– providing a service catalogue to the big data service provider for searching usable data. 
+6.2.2 big data service provider (bdsp) 
+the big data service provider (bdsp) supports capabilities for big data analytics and infrastructure. the big 
+data service provider can act as a form of big data platform, an extension of the existing data analytics 
+platform, etc. big data service provider activities include:  
+– searching data sources (from the data broker) and collecting data by requesting and crawling; 
+– storing data to a data repository; 
+– integrating data; 
+– providing tools for data analysis and visualization; 
+– supporting data management such as data proven ance, data privacy, data security, data retention 
+policy, data ownership, etc. 
+6.2.3 big data service customer (bdc) 
+the big data service customer (bdc) is the end-user or is a system that uses the results or services from a big 
+data service provider. the big data service customer may produce new services or knowledge on consumer 
+activities and furnish them outside of the big data ecosystem. big data service customer activities include:  
+– requesting big data services from the big data service provider; 
+– using the outputs of big data services. 
+6.3 relationship between cloud computing and big data 
+big data refers to technologies and services which extract valuable information from the extensive datasets 
+characterized by the vs, while cloud computing is, as defined in [itu -t y.3500], the paradigm for enabling 
+network access to a scalable and elastic pool of shareable physical or virtual resources with self -service 
+provisioning and administration on-demand. 
+big data need s on-demand high performance data processing and distributed storage as well as variety of 
+tools required to accomplish activities of the big data ecosystem which are described in clause 6.2.  cloud 
+computing meets the challenges of big data as described in clause 6.1. the burst nature of workloads makes 
+cloud computing more appropriate  for big data challenges such as scalability and timeliness . the big data 
+ecosystems, which are  supported by a cloud computing system context , can be referred to  as cloud 
+computing based big data. cloud computing based big data is addressed in detail in clause 7. 
+7 cloud computing based big data 
+this clause describes a cloud computing based big data system context that is effective for supporting big 
+data. it also provides benefits of cloud computing based big data. 
+7.1 cloud computing based big data system context 
+cloud computing based big data system context is described with new sub-roles and activities based on the 
+architectural user view defined in [itu-t y.3502]. this clause describes how cloud computing can support the 
+three main roles in a big data ecosystem : data provider, big data service provider and big data service 
+customer. 

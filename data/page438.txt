@@ -1,0 +1,24 @@
+2 cloud computing management  
+ 
+430  
+figure 8-1 – comprehensive view of cloud computing management 
+as shown in figure 8 -1, cloud computing management is realized based on smis, which co rrelate layers 
+determined in the reference architecture of cloud comp uting [ itu-t y.3502] to offer complete e2e 
+management service chains (see clause 6). 
+a management layer represents a level of abstraction within the management system, such that higher layers 
+do not need to interact directly with low-level managed elements or components. 
+a management component as represented here refers to a collection of management functionality that has 
+responsibility for a specific area within a management layer. 
+the smis allow elements, components, and layers to expose management inform ation and telemetry in a 
+consistent matter that can be rolled up into a comprehensive diagnostics and management service. 
+see appendix i for a complex scenario example of the use of this concept. 
+the purposes of the management layers are described below. 
+8.1.1 customer management layer 
+the customer management layer considers the fundamental knowledge of customers' needs and includes all 
+functionalities necessary for the acquisition, enhancement and retention of a relationship with a customer. 
+for details of the functionalities present in the customer management layer, see clause 10.1. 
+8.1.2 product management layer 
+the product management layer includes the necessary management functions for maintaining the existing 
+product catalogue and providing necessary functions for products sale. 
+for details of the functionalities present in the product management layer, see clause 10.2. 
+

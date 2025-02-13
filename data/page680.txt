@@ -1,0 +1,51 @@
+3 xaas  
+ 
+672  
+the naas csc. this representation avoids the direct communication and interaction between the naas csc 
+and these naas resources (e.g., network elements of the naas csp infrastructure) and masks implementation 
+specific aspects of naas resources used in the context of the naas serv ice instance. this abstract view 
+presented to the naas csc  also allows real -time configuration change demands from the naas csc to be 
+reflected by the naas csp on its own resources. therefore, a hierarchical and extensible framework, which 
+can be realised by a set of information models, needs to be designed to hide the protocol specific  and/or 
+vendor specific details of the resources being used by the naas csp. the modelled objects being part of these 
+naas information models can be grouped as naas resource model, naas service model, and naas service 
+operational policy model. 
+naas resourc e models reflect in an abstract manner naas csp 's resources including their associated 
+topological view across different layers (e.g., layer 2 (l2) and layer 3 (l3)). naas resource models designed by 
+the naas csp or cloud service partners (csns) (e.g., service developer) are used by the naas csp to represent 
+naas csp's resources at a conceptual level, including physical and/or virtualized network functions as well as 
+connectivity links. naas resource models are not exposed to the naas csc. 
+a naas service model is service specific, i.e., specific to the naas service being offered to the naas csc by the 
+naas csp but rely on underlying naas resource models. once a naas service is instantiated for a naas csc, 
+the corresponding naas service model designed by the naas csp is exposed to the naas csc. 
+a naas service operational policy model is service specific, i.e., are specific to the naas service being offered 
+to the naas csc. this m odel defines naas csp -wide policies applicable for the corresponding naas service 
+and is designed by the naas csp or csn (e.g., service developer). during the instantiation of a naas service, 
+the naas service operational policy model is combined with the naas service model and mapped into a target 
+configuration of naas csp's resources (e.g., network elements), according to naas resource models. 
+note – the usage example of modelling is provided in appendix ii. 
+7.3 functionalities for naas service orchestration 
+the naas service orchestration functionalities are responsible for cross-domain service orchestration within 
+the naas csp, e.g. , for a naas connectivity service, the functionality will be capable to orchestrate naas 
+resources (including network services, network functions and resources) in multiple naas csp domains 
+(including legacy domains and virtualized network domains). 
+upon re ceipt of a naas service request from the naas csc, th ese functionalit ies are responsible for 
+decomposing, as necessary, the request into several independent requests and for distributing each of the 
+resulting requests to the relevant control functions of the naas csp. an example of a composite naas service 
+is a service chain path, i.e., an ordered list of connection points forming a chain of network functions ( pnfs 
+and/or vnfs), along with policies associated to the list. 
+the naas service orchestration functionalities interact with the naas service instantiation functionalities to 
+address naas service decomposition and configuration of requests received from naas service instantiation 
+functionalities (see clause 7.2.1). 
+in case of a non-composite naas service request received from the naas csc, the naas service orchestration 
+functionalities can transfer this request to the relevant domain control function. 
+the naas orchestration functionalities are also responsible for ensuring that naas resources (e.g., nss, nfs, 
+connectivity) are appropriately instantiated throughout the different naas csp domains (e.g., across one or 
+network domains that can be using different networking connectivity technologies). 
+7.4 functionalities for network analytics 
+functionalities f or network analytics are responsible for data collection from  the naas csp's network  
+environment (such as network jitter, delay, packet loss rate, round -trip time, domain name s ystem (dns) 
+resolution time) a nd events listening to continuously monitor naas services during their lifecycle. these 
+functionalities help to provide customized analytical network applications and provide the analysed results 
+to the related functional components (such as resource abstraction and control) for further action, including 
+healing the service, appropriately scale up or scale down the service, dynamically adjust routing, etc . 

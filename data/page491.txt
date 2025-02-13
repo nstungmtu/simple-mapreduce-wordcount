@@ -1,0 +1,74 @@
+cloud computing management 2 
+ 
+  483 
+y.3520(13)_f03
+management
+system(s)
+application
+cloud
+virtualized
+resources
+network
+virtualized
+resources
+cloud
+provider
+resource view
+service orders and provisioning
+trouble tickets/fm/pm/qos/sla
+charging/billing/settlement
+cloud service
+provider
+management
+system(s)
+application
+network
+logical
+resources
+network
+physical
+resources
+csp
+resource view
+inter-service provider
+b2b interfaces
+app a app b
+crm
+telco
+service
+provider
+(csp)
+customer
+dashboard
+app c = a + b
+(composed service)
+service/resource
+delivery path
+service/resource
+management path(s)
+ 
+figure 3 – end to end management expectations in a multi-cloud scenario 
+similar to the case of a single cloud scenario, service and resource management interfaces need to be able 
+to manage the relevant underlying resources in a coordinated manner that is effectively transparent to the 
+external systems that are interacting with those management interfaces.  
+figure 3 depicts a management system architecture providing the needed management interfaces (again, 
+the interfaces themselves are not at issue, as each implementation may have fine -tuned its own). the best 
+practices should p rovide the flexibility for the cloud application itself to expose its service or resource 
+management interfaces. in addition, they need to enable a  management system to expose one or more of 
+the interfaces so that the management system is tracking the dyna mic changes in the underlying resources 
+allocated to support the cloud application being managed.  
+the framework permits each csp, as well as the csc, to have accurate knowledge regarding the actual status 
+of services via metrics retrieved from the underlying relevant resources across a multi-cloud environment. in 
+other words, all three dashboards depicted in figure 3 need to accurately display the s tatus of the services. 
+in addition, the framework should consider a comprehensive service lifecycle management process from the 
+point of view of csps and cscs, i.e., the stages needed from the time the csc makes a request until the csp 
+receives compensation.  
+7 requirements for the resource management involving multi-cloud service providers 
+7.1 high-level architecture for end to end multi-cloud resource management 
+figure 4 shows a high-level architecture for end to end multi-cloud resource management. this architecture 
+depicts the virtual machines containing a software stack consisting of middleware layers contain ing 
+application servers hosted by the runtime environment of choice, on top of which cloud applications execute. 
+figure 4 also shows both functional interfaces (fis) and service management interfaces (smis) being exposed 
+by various cloud applications running on multiple cloud data centres. the information can be consumed from 
+various smis that are exported by multiple applications executing in multiple cloud data centres, allowing for 
+a comprehensive end to end multi-cloud resource management and monitoring system to be realized. 

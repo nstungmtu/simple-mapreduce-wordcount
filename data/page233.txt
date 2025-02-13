@@ -1,0 +1,19 @@
+framework and requirements for cloud computing 1 
+ 
+   225 
+[b-ocp ocssas] open cloudserver sas mezzanine i/o specification v1.0. 
+[b-ocp ocsssd] open cloudserver ocs solid state drive v2.1. 
+[b-ocp ocstray] open cloudserver ocs tray mezzanine specification v2.0. 
+[b-ocp octam] project olympus cavium thunderx2 armx64 motherboard specification. 
+[b-ocp omb] project olympus intel xeon scalable processor motherboard specification. 
+[b-ocp osr] project olympus server rack specification. 
+[b-ocp pcirc] facebook pcie retimer card v1.1. 
+[b-ocp pmsch] panther+ micro-server card hardware v0.8. 
+[b-ocp qgd] quantagrid d51b-1u v1.1. 
+[b-ocp sj] inspur server project san jose v1.01. 
+[b-ocp tp] facebook server intel motherboard v4.0 project tioga pass v0.30. 
+[b-ocp yose] facebook multi-node server platform: yosemite v2 design specification v1.0. 
+[b-snia sf]  snia swordfish specification v1.0.6. 
+ 
+ 
+ 

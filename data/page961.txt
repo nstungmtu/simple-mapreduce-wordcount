@@ -1,0 +1,44 @@
+monitoring 6 
+ 
+   953 
+7.1.4 network 
+high-performance computing requires large amounts of network bandwidth . particularly for cloud 
+computing, the network has a strong meaning, as all provided resources and services are available through a 
+network. it has been found that poor network performance is caused by virtualization i/o overhead. a 
+network monitoring system helps in realization of traffic, utilization and errors and then, based on accurate 
+monitoring information, quality of service (qos) policy validation, network outage resolution, performance 
+problem troubleshooting, and in making important capacity planning decisions.  
+see table 7-4. 
+table 7-4 – parameters collected to monitor a network 
+metric name description unit 
+incoming bytes number of bytes received by network interface kb 
+incoming byte rate average rate of bytes received by network interface per 
+second kb/s 
+maximum incoming byte rate maximum incoming byte rate during a specific period 
+(5 minute/15 minutes/60 minutes) kb/s 
+outgoing bytes number of bytes sent by network interface kb 
+outgoing byte rate average rate of bytes sent by network per second kb/s 
+maximum outgoing byte rate maximum outgoing byte rate (5 minute/15 minutes/ 
+60 minutes) kb/s 
+incoming packets number of incoming packets packet 
+incoming packet rate average rate of incoming packets per second packet/s 
+average packets size incoming average packets size incoming (1 minute/5 minutes/ 
+15 minutes) byte 
+outgoing packets number of outgoing packets packet 
+outgoing packet rate average rate of outgoing packets per second packet /s 
+average packets size outgoing  average packets size outgoing (1 minute/5 minutes/ 
+15 minutes) byte 
+outgoing errors sending error of network interface packet 
+bandwidth of incoming  total capacity of the connection of the incoming  mb 
+utilization of incoming interface percentage of incoming byte rate with respect to 
+bandwidth of incoming. % 
+bandwidth of outgoing  total capacity of the connection of the outgoing  mb/s 
+utilization of outgoing interface percentage of outgoing byte rate with respect to bandwidth 
+of outgoing link. % 
+average latency average of delay of data transition ms 
+minimum latency minimum time interval between submitting a packet and 
+arrival at its destination ms 
+maximum latency maximum time interval between submitting a packet and 
+arrival at its destination ms 
+packet loss percentage of packets lost with respect to packets sent. % 
+jitter the difference in end-to-end one-way delay ms 

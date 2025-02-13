@@ -1,0 +1,36 @@
+xaas 3 
+ 
+736  
+3) tenants store data in their own virtual machines or physical machines, which are isolated from each 
+other. as a result, the saas environment provider has to provide sufficient resources such as storage 
+to support a potentially large number of application instances running concurrently. 
+with the development and improvement of software technolog y, the application will  be provided with  
+enough configuration options to meet the users' customized requirements, and the configuration and usage 
+process should be more intelligent and automated. saas application providers will divide the products into 
+different versions to match different tenant levels. 
+7.3 level 3: multi-tenant saas application 
+in this level, with the help of configurable metadata, a saas application provider is able to provide a single 
+instance that serves multiple tenants concurrently. the multi-tenancy can be enabled at different layers 
+including os, the data management system, middleware and application. a tenant identifier is introduced to 
+distinguish between the different customers.  when a database is used in a data management system , the 
+database schema is extended to include tenant identity parameter for storing all customers' data into the 
+same set of tables. a tenant identity is also needed in database queries in order to retrieve data for a specified 
+customer. figure 4 illustrates the general architecture of multi-tenant saas application. 
+ 
+figure 4 – architecture of multi-tenant saas application 
+business intelligence saas, for example customer relationship management  (crm), is considered to be a 
+typical implementation of this level. until now, more efforts have been taken to combine data warehousing 
+and cloud computing with saas in order to provide online business intelligence applications. data warehouse 
+are hosted in the data centre, and business intelligence applications and the data models are predefined to 
+use with very little customization. for the tenants, all they need to do are selecting the data elements 
+required by business intelligence applications and defining the data mapping from data sources to the data 
+warehouse and data model. the system will integrate data from multiple source systems into data warehouse 
+to support the online  analytical processing (olap) applications by using automatically generated scripts. 
+usually in the run time, a single instance of business intelligence application serves multiple tenants 
+concurrently by using metadata techniques. authorizations and security policies ensure that each customer's 
+data and application access are isolated from that of other customers. 
+this level provides much more efficiency in the use of computing and storage resources, and therefore can 
+be able to accommodate more tenants. it is also possible to achieve comparable performance, scalability and 
+elasticity with the help of data partitioning and parallel techniques. 
+configurability and multi-tenant efficiency are the distinctive characteristics for this level of saas application. 
+

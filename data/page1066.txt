@@ -1,0 +1,54 @@
+7 security  
+ 
+1058 
+9.3 user responsibilities 
+the objective specified in clause 9.3 of iso/iec 27002 applies. 
+9.3.1 use of secret authentication information 
+control 9.3.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9.4 system and application access control 
+the objective specified in clause 9.4 of iso/iec 27002 applies. 
+9.4.1 information access restriction 
+control 9.4.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should ensure that access to 
+information in the cloud service can be restricted in 
+accordance with its access control policy and that such 
+restrictions are realized. this includes restricting access 
+to cloud services, cloud service functions, and cloud 
+service customer data maintained in the service. 
+the cloud service provider should provide access 
+controls that allow the cloud service customer to restrict 
+access to its cloud services, its cloud service functions 
+and the cloud service customer data maintained in the 
+service. 
+other information for cloud services 
+the cloud computing environment includes additional areas that require access controls. as part of the cloud 
+service or cloud service functions, access to functions and services, such as the hypervisor management 
+functions and administrative consoles, might need additional access control. 
+9.4.2 secure log-on procedures 
+control 9.4.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9.4.3 password management system 
+control 9.4.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+9.4.4 use of privileged utility programs 
+control 9.4.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+where the use of utility programs is permitted, the 
+cloud service customer should identify the utility 
+programs to be used in its cloud computing 
+environment, and ensure that they do not interfere with 
+the controls of the cloud service. 
+the cloud service provider should identify the 
+requirements for any utility programs used within the 
+cloud service. 
+the cloud service provider should ensure that any use 
+of utility programs capable of bypassing normal 
+operating or security procedures is strictly limited to 
+authorized personnel, and that the use of such 
+programs is reviewed and audited regularly. 

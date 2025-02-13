@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   399 
+• itu-t l.1420 : recommendation itu -t l.1420 presents the methodology to be followed if an 
+organization intends to claim compliance with this recommendation when assessing its information 
+and communication techno logy (ict) related energy consumption and/or greenhouse gas (ghg) 
+emissions.  
+ this recommendation can be used to assess energy consumption and ghg emissions generated 
+over a defined period of time for the following purposes: for assessment of related impact from ict 
+organizations or for assessment of impact from ict related activities within non-ict organizations. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=11431  
+• itu-t l.1430 : recommendation itu -t l.1430 is intended as a complement to iso standard iso 
+14064-2 and the project protocol of the greenhouse gas protocol (ghg protocol). 
+ this recommendation provides guidance for the application of a specific methodology to assess the 
+environmental impact of information and communication technology (ict) greenhouse gas (ghg) 
+and energy projects. this assessment methodology is specifically directed at quantifying and 
+reporting ghg emission reductions, ghg removal enhancements, energy consumption reductions, 
+and enhancement of energy generation and storage in ict ghg and energy projects. 
+ an ict ghg project uses mainly ict goods, networks and services (gns) and is designed to reduce 
+ghg emissions or increase ghg removals tha t are quantified by comparison between the 
+environmental impact of a project activity and a corresponding baseline scenario. 
+ an ict energy project uses mainly ict goods, networks and services to reduce energy consumption 
+and improve energy efficiency. 
+ from the ict perspective, this recommendation takes into account considerations based on existing 
+project quantification guidelines and aims at covering ict ghg and energy project activities within 
+both the ict and non-ict sectors. 
+ this recommendation recog nizes the importance of project validation and verification for the 
+credibility of project results but does not enforce the validation and verification procedures to be 
+applied. it is expected that such procedures will be determined by the selected ghg pro gramme, 
+national regulations, the project proponent's internal policy or the intended user's request. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=11904  
+• itu-t l.1 302: recommendation itu -t l.1302 contains the energy efficiency assessment 
+methodology for data and telecommunication centres, test equipment accuracy requirements, 
+assessment periods, assessment conditions and calculation methods. 
+ for data and telecommunication centres, the document was divided into assessment methods for 
+whole data centre /telecommunication centre efficiency and for partial data 
+centre/telecommunication centre efficiency. 
+ as the main energy consuming infrastructure in data centres/telecommunication centres are power 
+feeding systems (power supply system) and cooling systems, both system energy efficiency 
+measurement methodologies are covered in this recommendation. 
+ it takes advantage of methodologies and best practices currently in use o r in development in 
+networks and data centres/telecommunication centres. 
+ this recommendation aims to reduce the negative impact of data and telecommunication centres 
+through providing the methodologies of energy efficiency assessments. it is commonly reco gnized 
+that data and telecommunication centres will have an ever -increasing impact on the environment 
+in the future. the application of the assessment methods defined in this recommendation can help 
+owners and managers to build future data centres/telecommunication centres, or improve existing 
+ones, to operate in an environmentally responsible manner.  
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12630 

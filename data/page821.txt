@@ -1,0 +1,36 @@
+intercloud and interoperability 5 
+ 
+  813 
+table i.2.7 – distributed document exchange system in trusted inter-cloud 
+title distributed document exchange system in trusted inter-cloud 
+description – the csc requests from csp(paas) cloud-based system which allows 
+exchanging documents between their partners. 
+– the csc requests that these documents could be reviewed, updated and 
+audited by the csc or cloud service partner (csn).  
+– the csc requests that distributed document exchange system fits regulatory 
+policy to reach safety, security and confidentiality constraints. 
+– the csp(paas) forms federation pattern among cpss(saas) and becomes 
+contact point for csc. 
+– the csp(paas) determine appropriate policies or principles which allows using 
+of distributed document system in trustworthy manner. 
+roles csc, csp(paas), csp(saas) 
+figure (optional) 
+ 
+pre-conditions (optional) – the csp(paas) and csps(saas) are in trusted inter-cloud relationship. 
+post-conditions (optional) – the csps implements governance policy in theirs management system.  
+derived requirements – governance policies and governance roles 
+– data separation for ensuring security and confidentiality 
+– annotation (tagging) of cloud workloads to comply with regulatory needs  
+– identity and access management to comply with csc policy  
+bibliography 
+ 
+[b-iso/iec 19086-1] iso/iec 19086-1:2016, information technology – cloud computing – service 
+level agreement (sla) framework – part 1: overview and concepts. 
+[b-iso/iec 27000] iso/iec 27000:2016,  information technology – security techniques – 
+information security management systems – overview and vocabulary. 
+[b-iso/iec 38500:2015] iso/iec 38500:2015, information technology – governance of it for the 
+organization. 
+[b-tmf tr198] tm forum tr198, multi-cloud service management pack – simple 
+management api (smi) developer primer-service delivery framework cloud 
+interface v2.2. <https://www.tmforum.org/?s=tr198>  
+

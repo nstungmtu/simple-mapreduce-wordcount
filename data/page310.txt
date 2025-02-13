@@ -1,0 +1,40 @@
+1 framework and requirements for cloud computing  
+ 
+302  
+i.4 guaranteed availability in the event of a disaster or large-scale failure 
+table i.4 shows inter-cloud use case for guaranteed availability in the event of a disaster or large-scale 
+failure. 
+table i.4 – inter-cloud use case: guaranteed availability in the event  
+of a disaster or large-scale failure 
+use case 
+use case title inter-cloud use case: guaranteed availability in the event of a disaster or large -
+scale failure 
+relevant roles csp and csc 
+use case description – csps continue offering their service using the resources leased from each 
+other, even when systems in one csp are damaged due to natural disasters 
+or large-scale failures.  
+– available resources in other csps are autonomously discovered and reserved 
+through the inter-cloud federation. 
+– the services with a high priority are only recovered if available resources are 
+not sufficient to recover all services. in examining the availability of 
+resources provided by other csps, the guaranteed level of quality of the 
+resources is taken into account.  
+– the services requiring early recovery are recovered using available resources 
+on a best-effort basis even if their quality requirements are partly satisfied. 
+– network connections among interworking csps are instantaneously 
+established or reconfigured. the lead csp, which is preconfigured and 
+governs the recovery procedure, manages the roles of available csps and 
+instructs service continuation based on the original csp data. 
+– access from cscs is appropriately distributed to the interworking csps so as 
+to achieve the disaster recovery and thus mitigate the service discontinuity.  
+information flow  – relevant csps are supposed to join a common trusted alliance (federation) in 
+advance and set up the service level agreements (slas). 
+– the lead csp, which is preconfigured and governs the recovery procedures, 
+inquires about the resource availability of other csps in the alliance to 
+recover its cloud services to meet quality requirements of the cscs. the 
+requested csps reply whether or not they are able to lease the resources. 
+– the cloud resource management (e.g., crud: create, read, update and 
+delete) is operated across multiple csps. the management is to enable 
+leasing of cloud resources from different csps in the alliance. 
+– the relevant csps exchange monitoring and auditing information of the 
+leased resources. 

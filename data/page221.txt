@@ -1,0 +1,37 @@
+framework and requirements for cloud computing 1 
+ 
+   213 
+appendix ii 
+ 
+use cases of the physical machine for cloud computing 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes physical machine related use cases. 
+table ii.1 – providing iaas service with processing resource – use case 
+title providing iaas service with processing resource use case 
+description infrastructure capabilities type, especially for providing vm, which is resided on a physical 
+machine. the virtual machine provides a virtualized and isolated computing environment for 
+each guest operating system (os) with processing, storage, networking and other hardware 
+resources. usually a physical machine would carry more than one virtual machine and needs 
+to provide more virtual cpu than physical cpu, so as the memory and i/o devices. 
+furthermore, the physical machine usually provides a management function for the csp to 
+manage and monitor the physical machines. the loading information would help the csp to 
+select which host to deploy the vms and the fault location information could help the csp 
+easily replace the failure component. as more applications run in one physical machine, the 
+reliability is required so that it could continue to run and bear the services without migrating 
+when there are few failures. as some applications may require some other hardware 
+components with special features, the physical machine would have to reserve one or more 
+extended interfaces for adding cloud resources. to improve the vm's performance, the 
+physical machines usually use cpus with virtualization instruction set support. for situations 
+with a lot of network traffic processing, physical machines can offload traffic processing to 
+i/o devices to improve performance and reduce the load of cpus.  
+roles/sub-roles csp: cloud service operations manager 
+figure 
+ 
+pre-conditions 
+(optional) 
+the virtual machine resides on the physical machine. 
+post-conditions 
+(optional) 
+csp: cloud service operations manager wants to build or expand a resource pool to provide 
+vm service. 
+

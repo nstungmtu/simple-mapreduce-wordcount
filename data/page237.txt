@@ -1,0 +1,38 @@
+ framework and requirements for cloud computing 1 
+ 
+   229 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of distributed cloud 
+6.1 concept of distributed cloud 
+6.2 characteristics of distributed cloud 
+6.3 configuration models of distributed cloud 
+6.4 deployment considerations of distributed cloud 
+7 high-level requirements for distributed cloud 
+7.1 infrastructure requirements for distributed cloud 
+7.2 network requirements for distributed cloud 
+7.3 service requirements for distributed cloud 
+7.4 management requirements for distributed cloud 
+7.5 security requirements for distributed cloud 
+8 security considerations related to itu-t recommendations 
+appendix i – general use cases for distributed cloud 
+i.1 use case template 
+i.2 general use case 
+appendix ii – use cases for configuration of distributed cloud 
+ii.1 autonomous cloud service provisioning on distributed cloud 
+ii.2 customer-oriented cloud service provisioning on distributed cloud 
+ii.3 distributed cloud infrastructure and service management 
+ii.4 distributed cloud infrastructure and service provisioning 
+ii.5 hierarchical caching of cloud service images 
+ii.6 high mobility support on distributed cloud 
+appendix iii – a comparison of distributed cloud with related technology 
+bibliography 
+ 
+ 

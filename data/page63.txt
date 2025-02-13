@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   55 
+figure 7-3 illustrates the entities that are defined for the user view.  
+y .3502(14)_f7-3
+party
+role
+aspect
+role
+sub-role sub-role
+activity activity
+activityactivity
+ 
+figure 7-3 – user view entities 
+7.2.1 cloud computing activities 
+a cloud computing activity is defined as a specified pursuit or set of tasks. 
+cloud computing activities need to have a purpose and deliver one or more outcomes. 
+activities in a cloud computing system are conducted using functional components (see clause 7.3.1). 
+cloud computing activities are identified and described in more detail in clause 8. 
+7.2.2 roles and sub-roles 
+a role is a set of cloud computing activities that serve a common purpose. 
+in the ccra, three roles have been defined: 
+• cloud service customer (csc) : a party which is in a business relationship for the purpose of using 
+cloud services.  
+• cloud service provider (csp): a party which makes cloud services available. 
+• cloud service partner  (csn): a party which is engaged in support of, or auxiliary to, activities of 
+either the cloud service provider or the cloud service customer, or both. 
+a sub-role is a subset of the cloud computing activities for a given role. 
+different sub-roles can share the cloud computing activities associated with a given role. 
+descriptions of the cloud computing roles and sub-roles are provided in clause 8. 
+7.2.3 parties 
+a party is a natural person or legal person, whether or not incorporated, or a group of either. parties in a 
+cloud computing system are its stakeholders. 
+a party can assume more than one role at any given point in time and can engage in a specific subset of 
+activities of that role. examples of parties include, but are not limited to, large corporations, small and 
+medium sized enterprises, government departments, academic institutions and private citizens. 
+7.2.4 cloud services 
+cloud services  are the essential elements of cloud computing. cloud services are covered in rec. itu -t 
+y.3500 | iso/iec 17788. this clause provides a summary. 
+cloud services can be described in terms of the cloud capabilities types which they offer, based on the 
+resources provided by the cloud service. there are three cloud capabilities types: 

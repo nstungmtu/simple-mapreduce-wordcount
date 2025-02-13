@@ -1,0 +1,11 @@
+3 xaas  
+ 
+608  
+summary 
+recommendation itu -t y.3512 describes the concept of network as a service (naas) and its functional 
+requirements. it provides typical use cases of naas and specifies the functional requirements of three 
+aspects, ranging from naas application, naas platform and naas connectivit y which are based on the 
+corresponding uses cases and cloud capabilities types. 
+keywords 
+cloud computing, network as a service, naas, naas application, naas connectivity, naas platform. 
+  

@@ -1,0 +1,57 @@
+ framework and requirements for cloud computing 1 
+ 
+   387 
+• itu-t y.3507: this recommendation provides the functional requirements of the physical machine 
+for cloud computing based on cloud computing infrastructure requirements in [itu -t y.3510]. it 
+addresses the following subjects: (i) overview of the physical machi ne; (ii) functional requirements 
+of the physical machine. the functional requirements provided in this recommendation are derived 
+from use cases. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13652 
+• itu-t y. 3506: cloud service brokerage is a service that arbitrates, delivers and manages cloud 
+services provided by cloud serv ice providers for cloud service customers. this recommendation 
+provides the functional requirements of cloud service brokerage. to provide functional 
+requirements for cloud service brokerage, this recommendation specifies an overview and includes 
+a service model and configuration of cloud service brokerage. various use cases are also identified 
+to derive the functional requirements. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13612 
+• itu-t y.mlaas-reqts: this recommendation provides cloud computing requirements for machine 
+learning as a service, which addresses capabilities, and requirements from use cases. machine 
+learning as a service (mlaas) is a cloud service ca tegory to support the development and 
+applications of machine learning in the cloud computing environments. on the perspective of cloud 
+computing service provisioning, this recommendation defines the capabilities and functional 
+requirements for mlaas to id entify functionalities such as data gathering, machine learning 
+modelling and computing resources, etc. this is fundamentally aligned with the cloud computing 
+reference architecture of [itu-t y.3502].  
+ note – developments of machine learning algorithms an d methodology are out of the scope of this 
+recommendation. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14484 
+– itu-t y.baas-reqts: recommendation itu-t y. baas-reqts provides the functional requirements for 
+blockchain as a service (baas) in the cloud computing environment. blockchain technologies use 
+decentralized, shared, immutable ledgers to store data and record transactions histo ry, by which 
+the trust, accountability, transparency and efficiency can be achieved. blockchain technologies 
+include p2p networking, consensus mechanism, smart contract and cipher algorithms, which are 
+now driving various emerging applications across a wid e range, such as digital cryptocurrency, 
+finance, insurance, banking, healthcare, government, manufacturing, retail, legal, media and 
+entertainment, supply chain and logistics, accounting, notarization and certification. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14485 
+8.2 q18 
+table 8-2 provides a list of itu-t q18/ sg13 deliverables associated with cloud computing. 
+table 8-2 – itu-t q18/13 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3502 | iso/iec 17789 
+information technology – cloud computing – reference 
+architecture 
+recommendation | is  09/2012 08/2014 
+itu-t y.3510, cloud computing infrastructure 
+requirements 
+recommendation 
+2nd edition  
+06/2012 
+05/2015 
+05/2013 
+02/2016 
+itu-t y.3511, framework of inter-cloud computing recommendation 06/2012 03/2014 
+itu-t y.3512, cloud computing – functional 
+requirements of network as a service 
+recommendation 06/2012 06/2013 

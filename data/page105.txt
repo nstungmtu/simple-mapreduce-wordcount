@@ -1,0 +1,10 @@
+ framework and requirements for cloud computing 1 
+ 
+   97 
+figure 10-2 provides a view of roles, cloud computing activities and functional components drawing links 
+between cloud computing activities  of multiple roles. annex a provides a description of each of these 
+relationships. 
+ 
+figure 10-2 – examples of relationships and interactions between activities and functional components  
+  
+

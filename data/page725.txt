@@ -1,0 +1,33 @@
+xaas 3 
+ 
+  717 
+7.2.1 distributed processing functional component 
+the distributed processing functional component is responsible for processing data by the distributed cluster 
+resources. this functional component provides distributed  computing, as well as storage options for 
+intermediate or final processing results to satisfy the requirements of different data types and scenarios. 
+this functional component supports: 
+– processing data by the distributed cluster reso urces with each node  containing pieces of whole 
+datasets and processing that data locally in parallel, and write the intermediate or final processing 
+results to file system or memory cache; 
+ note – cluster resources refer to the physical or virtual servers of the distributed processing cluster. 
+– processing data by the distributed cluster resources with nodes organizing into logical topology 
+where data flows through. 
+7.3 multi-layer functional components  
+7.3.1 integration functional components 
+the service integration functional component, in the integration functional components , is extended for 
+bdaas (see figure 7-4) with the following functional components: 
+– third-party service integration functional component (see clause 7.3.1.1). 
+ 
+figure 7-4 – service integration functional component extended for bdaas 
+7.3.1.1 third-party service integration functional component 
+the third -party service integration functional component supports the development of service 
+implementation tools which assist in modifying and adapting the service from a set of third-party services. 
+this functional component supports: 
+– integrating multiple big data services; 
+– integrating third-party services with operational systems, as well as reporting tools or systems; 
+– integrating, adjusting and optimizing user-defined algorithms.  
+7.3.2 security systems functional components 
+the authorization and security policy management functional component, in the security systems functional 
+components, is extended for bdaas (see figure 7-5) with the following functional components: 
+– security and privacy management functional component (see clause 7.3.2.1). 
+

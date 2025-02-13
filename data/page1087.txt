@@ -1,0 +1,42 @@
+security 7 
+ 
+  1079 
+annex b 
+ 
+references on information security risk related to cloud computing 
+(this annex does not form an integral part of this recommendation | international standard.) 
+proper use of the information security controls provided by this recommendation | international standard 
+relies on the organization's information security risk assessment and treatment. although these are 
+important subjects, the focus of this recommendation | international standard is not on the approa ch to 
+information security risk assessment and treatment. following is a list of references that include descriptions 
+of the risk sources and risks in the provision and use of cloud services. it should be noted that risk sources 
+and risks vary according to  the type and nature of the service and the emerging technologies of cloud 
+computing. users of this recommendation | international standard are recommended to refer to the current 
+versions of the documents as necessary. 
+recommendation itu-t x.1601 (2014), security framework for cloud computing. 
+australian government information management office 2013, summary of checkpoints in: privacy and 
+cloud computing for australian government agencies, better practice guide, version 1.1, february, 
+pg. 8.http://www.finance.gov.au/files/2013/02/privacy-and-cloud-computing-for-australian-government-
+agencies-v1.1.pdf 
+australian government cyber security centre 2015, cloud computing security for tenants – april. 
+http://www.asd.gov.au/publications/protect/cloud_computing_security_for_tenants.pdf 
+australian government cyber security centre 2015, cloud computing security for cloud service providers – 
+april. 
+http://www.asd.gov.au/publications/protect/cloud_computing_security_for_cloud_service_providers.pdf 
+cloud security alliance 2014, cloud controls matrix – january. 
+enisa 2009, cloud computing security risk assessment – november. 
+enisa 2009, cloud computing information assurance framework – november. 
+hong kong ogcio 2013, security & privacy checklist for cloud service providers in handling personal 
+identifiable information in cloud platforms – april. 
+hong kong ogcio 2013, security checklists for cloud service consumers – january. 
+isaca 2012, security considerations for cloud computing – july. 
+nist, sp 800-144 2011, guidelines on security and privacy in public cloud computing – december. 
+nist, sp 800-146 2012, cloud computing synopsis and recommendations – may. 
+spring singapore 2012, annex a: virtualisation security risk assessment of singapore technical reference 
+30:2012 technical reference for virtualisation security for servers – march. 
+spring singapore 2012, annex a: checklist of security and service level considerations when reviewing saas 
+of singapore technical reference 31:2012 technical reference for security and service level guidelines for 
+the usage of public cloud computing services – march. 
+spring singapore 2013, annex a: cloud service provider disclosure of singapore standard ss 584:2013 
+specification for multi-tiered cloud computing security – august. 
+  

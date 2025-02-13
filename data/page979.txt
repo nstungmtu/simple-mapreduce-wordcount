@@ -1,0 +1,50 @@
+security 7 
+ 
+  971 
+are usually delivered in certain service categories, e.g., infrastructure as a service (iaas), platform as a service 
+(paas), software as a service (saas), network as a service (naas), and many others. these service categories 
+enable cloud computing customers to launch or change their business quickly and easily without establishing 
+new information and communication technology (ict) infrastructure and systems and provide opportunities 
+to provision resources elastically, as needed. for example, some cloud service providers (csps) might provide 
+abstracted hardware and software resources which may be offered as a service (e.g., iaas or naas) . other 
+cloud service providers may provide cloud specific platforms (paa s) or applications (saas) to enable 
+customers and partners to rapidly develop and deploy new applications which can be configured and used 
+remotely. 
+there are security threats and challenges in adopting cloud computing, and security requirements vary to a 
+great extent for different cloud computing service deployment models and service categories. the 
+distributed and multi-tenant nature of cloud computing, the prevalence of remote access to cloud computing 
+services and the number of entities involved in each  process make cloud computing inherently more 
+vulnerable to both internal and external security threats than other paradigms. many of the security threats 
+can be mitigated with the application of traditional security processes and mechanisms. security touc hes 
+upon and impacts many parts of a cloud computing service. therefore, the security management of the cloud 
+computing services, as well as the associated resources, is a critical aspect of cloud computing. 
+before the migration of the ict system to cloud computing, a potential cloud service customer (csc) should 
+identify their security threats (see clause 7 below) and security challenges (see clause 8). 
+based on these threats and challenges, a set of high -level security capabilities (see clause 9) are identified. 
+specific requirements for these capabilities are out of the scope of this recommendation, but they will need 
+to be identified for specific implementations of cloud computing services, based on risk assessment against 
+the identified threats and challenges. 
+based on the risk assessment,  a csc can determine whether to adopt cloud computing , and can make 
+informed decisions over service providers and architecture. the above risk assessment should be performed 
+by using an information security risk management framework (e.g., the risk management framework defined 
+in [b-iso/iec 27005]). see also clause 10 below for a suggested framework methodology. 
+this recommendation distinguishes between security threats and security challenges. security  threats are 
+those associated with attacks (both active and passive), and also environmental failures or disasters. security 
+challenges comprise difficulties arising from the nature and operating environment of cloud services. when 
+not properly addressed, security challenges may leave doors open for threats. 
+based on these identified security threats and challenges, the security capabilities are described to mitigate 
+security threats and address security challenges for cloud computing. 
+7 security threats for cloud computing 
+threats have the potential to harm assets such as informatio n, processes and systems and therefore 
+organizations. threats may be of a natural or human origin, and could be accidental or deliberate. a threat 
+may arise from within or from outside the organization. threats can be classified as accidental or intentional 
+and may be active or passive. 
+the specific threats encountered are highly dependent on the chosen specific cloud service. for example, for 
+a public cloud, threats can arise from the split responsibilities between the csc and csp: complexities of 
+specifying jurisdiction over data and processes, consistency and adequacy of data protection, and 
+maintenance of confidentiality, etc. however, for a private cloud, the threats are simpler to address because 
+the csc controls all the tenants hosted by the csp. even  though some of the threats identified in this 
+recommendation are also covered by existing industry documents (e.g., recommendation itu -t x.800), all 
+the threats are relevant to cloud computing. the applicability of individual threats will depend on the specific 
+cloud service. 
+this clause describes the various security threats that can arise in a cloud computing environment. 

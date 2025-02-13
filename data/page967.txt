@@ -1,0 +1,33 @@
+monitoring 6 
+ 
+   959 
+see table 7-13. 
+table 7-13 – parameters collected for monitoring database efficiency 
+metric name description unit 
+space total space of db kb 
+space used total space used of db kb 
+queries  total number of db queries (select, insert, update, 
+delete, replace) query 
+replace request volume of replace requests request 
+replace request rate average rate of replace requests per second request/s 
+response time of replace request  average time of responding replace request ms 
+insert/set request volume of insert/set requests request 
+insert/set request rate average rate insert/set request of per second request/s 
+response time of insert/set request average time of responding insert/set request ms 
+update request volume of update requests request 
+update request rate average rate of update requests per second request/s 
+response time of update request average time of responding update request ms 
+delete request volume of delete requests request 
+delete request rate average rate of delete requests per second request/s 
+response time of delete request average time of responding delete request ms 
+select/get request volume of select requests request 
+select/get request rate average rate of select requests per second request/s 
+response time of select/get request average time of responding select/get request ms 
+connect connection number of concurrent clients request 
+connect rate average rate of connections per second request/s 
+slow/expired query volume of slow/expired queries query 
+slow/expired query rate average rate of slow/expired queries per second request/s 
+7.2.3.4 web service performance 
+the main function of the web serve r is to provide an online information browsing service. there are three 
+types of performance parameter for web service: throughput, concurrent transactions and response time. 
+  

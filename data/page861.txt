@@ -1,0 +1,39 @@
+intercloud and interoperability 5 
+ 
+  853 
+table i.2 – trusted network function virtualization 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+– the csps(saas) form federation pattern of inter-cloud.  
+post-conditions 
+(optional) 
+– the csps(saas) implement trust management system. 
+– the csp(saas) uses reputation scores of csps. 
+derived 
+requirements 
+– inter-cloud trust policies and credentials (refer to clause 7.1). 
+– inter-cloud reputation scoring (refer to clause 7.2). 
+i.3 use case of selecting csp by reputation-based trust evaluation 
+this use case illustrates reputation-based trust evaluation in inter-cloud. the intermediary pattern of inter-
+cloud used to illustrate the use case is an example only. 
+table i.3 – selecting csp by reputation-based trust evaluation 
+title selecting csp by reputation-based trust evaluation  
+description – the csc requests a saas service from csp1; 
+– csp1 cannot provide the service by itself, it plans to fulfil the service with 
+inter-cloud intermediary pattern in which csp1 acts as the intermediary; 
+– all of csp2(saas), csp3(saas) and csp4(saas) can provide the service s csp1 
+needs; 
+– csp1 will select a csp as the secondary csp base on the reputation of them. 
+in this step: 
+1) if csp1 has an internal trust evaluation system, it will query and compare 
+the reputation of csp2, csp3 and csp4 in this system and choose the best 
+one to establish a trust relationship with; 
+2) if csp1 does not have an internal trust evaluation system or there are no 
+records about csp2, csp3 and csp4 in the internal system, csp1 should 
+find a third-party trust evaluation system to query and compare the 
+reputation data about these csps; 
+– csp2(saas) is the best choice and csp1 establishes a trust relationship with it. 
+roles csc, csp, csp(saas). 
+

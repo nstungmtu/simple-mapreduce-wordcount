@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   259 
+3.1.7 logical resource [b -itu-t y.3011]: an independently manageable partition of a physical resource, 
+which inherits the same characteristics as the physical resource and whose capability is bound to the 
+capability of the physical resource. 
+note – "independently" means mutual exclusiveness among multiple partitions at the same level.  
+3.1.8 management system [b-itu-t m.60]: a system with the capability and authority to exercise control 
+over and/or collect management information from another system. 
+3.1.9 virtual resource [b-itu-t y.3011]: an abstraction of physical or logical resource, which may have 
+different characteristics from the physical or logical resource and whose capability may not be bound to the 
+capability of the physical or logical resource. 
+note – "different characteristics" means simplification or extension of the resource characteristics. "different 
+characteristics" allows the virtual resource to expose access or control methods different from the original physical or 
+logical resource. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 hypervisor: a type of system software t hat allows multiple operating systems to share a single 
+hardware host. 
+note – each operating system appears to have the host's processor, memory and other resources, all to itself.  
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cpu central processing unit  
+csc cloud service customer 
+csp cloud service provider 
+dfs distributed file system 
+dht distributed hash table 
+dns domain name system  
+et emergency telecommunications 
+ets emergency telecommunications service 
+i/o input/output 
+iscsi internet small computer system interface 
+lan local area network 
+nas network attached storage 
+nfs network file system 
+ntp network time protocol 
+os operating system 
+qos quality of service 
+san storage area network 
+sla service level agreement 
+vcpu virtual cpu 
+vi virtual infrastructure 
+vm virtual machine 
+vpn virtual private network 

@@ -1,0 +1,44 @@
+ assisting developing countries 8 
+ 
+   1107 
+• [itu-t x.1258] "enhanced entity authentication based on a ggregated attributes"; aggregating 
+attributes from multiple attribute authorities may be needed in order to enable a relying party to 
+enhance its trust in the identity of a party. the aggregation can be regarded as having to deal with 
+a collection of globally unique identifiers, which is common across all attribute authorities.  
+all ict stakeholders have a role to play in making cloud computing services more trusted in developing 
+countries. there could be some aspects that may differ from country to country  but a common framework 
+could be provided to make it easier for stakeholders to accept them.  
+it is believed that the more trust issues are handled, the more cscs will take up cloud computing services. 
+9 challenges of cloud computing adoption 
+the regulation of cloud computing services is not properly defined in most developing countries which greatly 
+inhibits the adoption of cloud services in these countries. the main challenges that have affected the 
+adoption of cloud computing in developing countries include: 
+9.1 lack of regulatory framework for cloud computing services 
+developing counties lack the regulatory framework to govern the provision and consumption of cloud 
+computing services.  
+9.2 security and privacy concerns 
+data security and privacy are the m ost salient challenges associated with the adoption of cloud computing 
+services in developing countries. cscs tend to be sceptical about handing over their data to a third party. 
+there are concerns of confidentiality of company information, the likelihood of corruption of data and the 
+fate of csc's data when there is a switch over to another service provider or after termination of the contract. 
+csps have a responsibility to demonstrate their credibility as well as to improve awareness on the safety of 
+cloud computing services.  
+a lot of speculation has been raised on the geographical location of the data centres. cscs feel they lose 
+control of their data once it is in a location outside their jurisdiction. the local authorities may also not have 
+control ove r such data. cscs get concerned regarding how they could be protected in such instances or 
+indeed what each country's strategy could be in this regard. 
+9.3 infrastructure needs 
+some csps highlighted the need to invest more in infrastructure that could prov ide a broader diversity of 
+cloud computing services as well as increase the capacity of providers to serve more users. this includes the 
+need to deploy data centres, internet exchange points (ixp) and robust electricity infrastructure sources.  
+9.4 capacity building 
+csps highlighted the need for capacity building initiatives on the use, regulation and implementation of cloud 
+computing services as well as the development of cloud computing applications that will create new 
+opportunities for cloud services. t he capacity building interventions could be targeted at corporate 
+organizations as well as embedded in the curriculum for schools and tertiary institutions. 
+9.5 quality of service 
+the provision of cloud computing services relies on good quality and reliabl e internet services. there has 
+been a general concern from the csps and cscs about the unreliable and low internet connection speed over 
+which cloud services are provided. the lack of ixps has also resulted in users paying high international 
+bandwidth prices thereby negatively affecting cloud service provision and uptake of cloud services in most 
+developing countries. 

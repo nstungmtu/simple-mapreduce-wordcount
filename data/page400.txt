@@ -1,0 +1,82 @@
+1 framework and requirements for cloud computing  
+ 
+392  
+table 8-4 – analysis of itu-t sg13 deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental itu-t y.3500 | 
+iso/iec 17788 
+itu-t y.3501, 
+itu-t y.3510, 
+itu-t y.3600 
+itu-t y.3502 | 
+iso/iec 17789 
+   
+cloud service 
+category 
+ itu-t y.3503, 
+itu-t y.cccm-
+reqts, itu-t 
+y.3512, itu-t 
+y.3513, itu-t 
+y.mlaas-reqts,  
+itu-t y.baas-
+reqts, itu-t 
+y.ccdc-reqts,  
+itu-t y.3507, 
+itu-t y.3505 
+itu-t y.3504,  
+itu-t y.3515,  
+itu-t y.3509,  
+itu-t  
+y.dsf-arch 
+   
+security       
+management itu-t y.3520, 
+itu-t y.cslm-
+metadata 
+itu-t 
+y.cccsdaom-
+reqts, itu-t 
+y.ccm-reqts, 
+itu-t 
+y.e2efapm  
+    
+inter-cloud, csb  itu-t y.3506, 
+itu-t y.3511, 
+itu-t y.3514, 
+itu-t y.3518, 
+itu-t y.3517 
+itu-t y.3516    
+sla, metering       
+testing       
+others       
+9 itu-t jrg-ccm (joint rapporteur group on cloud computing management) of itu-t sg13 and 
+itu-t sg2 
+table 9-1 provides a list of itu-t jrg-ccm deliverables associated with cloud computing. 
+table 9-1 – itu-t jrg-ccm deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3521/m.3070, overview of end-to-end cloud 
+computing management 
+recommendation 02/2013 03/2016 
+itu-t y.3522, end-to-end cloud service lifecycle 
+management requirements 
+recommendation 06/2013 09/2016 
+itu-t m.3371, requirements for service management in 
+cloud-aware telecommunication management system 
+recommendation 01/2013 09/2016 
+• itu-t y.3521/m.3070 : recommendation itu -t y.3521 presents the conceptual view and the 
+common model of end -to-end (e2e) cl oud computing management based on the service 
+management interface (smi) and cloud computing reference architecture, from the perspective of 
+the telecommunications industry. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12714  

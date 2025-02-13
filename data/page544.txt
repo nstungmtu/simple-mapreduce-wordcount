@@ -1,0 +1,22 @@
+2 cloud computing management  
+ 
+536  
+table i.2 – data use policies in inter-cloud 
+figure (optional) 
+ 
+pre-conditions (optional) the csps (saas) forms an inter-cloud federation pattern. 
+post-conditions 
+(optional) 
+the csps (saas) implement data use policy in their management system.  
+derived requirements inter-cloud data use policies (refer to clause 9.1). 
+i.3 use case of secure data management of the saas replication model in inter-cloud 
+this use case illustrates secure data management of the saas replication model in inter -cloud. the inter-
+cloud federation pattern used to illustrate the use case is an example only. 
+table i.3 – secure data management of the saas replication model in inter-cloud 
+title secure data management of the saas replication model in inter-cloud 
+description the saas replication model, deployed on multiple csps, that combines software logic 
+and data into one service enables the user to get evidence of the integrity of the result 
+among multiple csps in order to guarantee that an operation performed in a cloud 
+system has not been tampered with by the csp or attackers. 
+roles csc, csp (saas) 
+

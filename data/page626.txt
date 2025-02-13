@@ -1,0 +1,43 @@
+3 xaas  
+ 
+618  
+8.5 integration of software applications 
+– it is recommended that naas csp supports integration of software applications deployed on the 
+naas platform by either the csp or the csc, or both, to allow building of the combined solutions. 
+9 functional requirements of naas connectivity 
+this clause provides requirements of naas connectivity derived from the use cases described in appendix ii. 
+9.1 common control mechanism for naas connectivity 
+– it is recommended that the naas connectivity control mechanism p rovided by the naas csp 
+supports the negotiation of connectivity parameters  (such as interface characteristics, connection 
+endpoints, ip version support, qos, l3/l2vpn type, connectivity extension approach (e.g., clause 10 
+of [b-ietf rfc 4364], routing information (e.g., border gateway protocol (bgp) route target). 
+– it is recommended that naas csp provides a common naas connectivity control mechanism 
+allowing identified naas connectivity to be provided in a secure and qos guaranteed manner. 
+– it is recommended that the naas connectivity control mechanism is able to cope with potentially 
+different csc identification schemes used on the naas csp side and on the connected endpoint. 
+– naas csp can optionally provide isolated connectivity for the network tenants. 
+9.2 unified sla for multiple optimized networks 
+– it is recommended that naas csp provides network connectivity services using unified sla for csc's 
+management of multiple optimized networks in or der to simplify and unify the control and 
+management of networks.  
+ note – this mechanism allows the csp to create and add new features to their networks to provide high 
+quality services which can meet csc's differentiated requirements. 
+– it is recommended that composite naas services policy should be expressed in the sla. 
+ note 1 – naas service can be a composite service, where the service consists of more than one naas service. 
+ note 2 – this requirement is also applicable to the naas application and the naas platform. 
+9.3 leveraging transport networks dynamically 
+– it is recommended that naas csp leverages transport networks dynamically from multiple choices 
+of physical and virtual networks for the purpose of providing network connectivity services, such as 
+recovery, bod, qos guarantee, etc.  
+ note – the transport networks can be heterogeneous in terms of technology and administrative domain.  
+9.4 unified network control mechanism 
+– it is recommended that naas csp provides a unified control mechanism for the end -to-end naas 
+connectivity given to a csc. 
+ note – naas con nectivity could be provided either by multiple heterogeneous networks or by a network 
+employing one or more naas platforms or applications, which perform(s) network functions . 
+9.5 elastic network reconfiguration 
+– it is recommended for the csp to provide the elastic network reconfiguration in order to match the 
+computing and storage elasticity and to maintain service continuity. 
+9.6 seamless and end-to-end solution of bandwidth allocation 
+– it is recommended that naas csp provides seamless and end -to-end so lution of bandwidth 
+allocation independent of network technology and architecture. 

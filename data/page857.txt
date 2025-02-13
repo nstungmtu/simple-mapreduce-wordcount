@@ -1,0 +1,35 @@
+intercloud and interoperability 5 
+ 
+  849 
+another approach to implement reputation-based trust evaluation is shown in figure 6-2. it is a centralized 
+framework which has one or some independent trust evaluation systems operated by a third-party operator. 
+with this approach, csps do not have their own trust evaluation  system; they only provide their first -hand 
+reputation information to the centralized trust evaluation system and query the trust values of csps from 
+the centralized trust evaluation  system when they need it. in this approach, the trust evaluation system 
+calculates the trust value for csps only base d on second-hand reputation information provided by csps in 
+the inter-cloud. therefore, an efficient mechanism for protecting against unfair ratings is more important in 
+this approach. 
+ 
+figure 6-2 – another approach to implement reputation-based trust management 
+6.4 cloud service evaluation framework 
+the reputation of a csp is highly correlated with the evaluation of cloud services it provides. a  csc could 
+compare and evaluate cloud services through the cloud sla provided by the csp. a cloud sla is a part of the 
+cloud service agreement (csa) that includes cloud service level objectives (slos) and cloud service qualitative 
+objectives (sqos) for the covered cloud service. an slo is a commitment a csp makes for a specific, 
+quantitative characteristic of a cloud service, where the value follows the interval scale or ratio scale. an sqo 
+is a commitment a cloud service provider makes for a specific, qualitative characteristic of a cloud service, 
+where the value follows the nominal scale or ordinal scale. both slo and sqo could be measured by metrics. 
+metric is the standard of measurement that defines the conditions and the rules for performing the 
+measurement and for understanding the results of a measurement. 
+with a uniform cloud sla framework, a csp and a csc could avoid confusio n and have a common 
+understanding about the cloud service quality commitment. therefore, it could be used as a cloud service 
+evaluation framework by a csc when comparing cloud services from different cloud service providers. 
+for more information about csa, cloud sla, slo, sqo and cloud sla metric models refer to [b-iso/iec 19086-
+1] and [b-iso/iec 19086-2]. 
+6.5 relationship with cloud computing reference architecture 
+the cloud computing reference architecture [itu -t y.3502] provides an architectural framewor k that is 
+effective for describing the cloud computing roles, sub -roles, cloud computing activities, cross -cutting 
+aspects, as well as the functional architecture and functional components of cloud computing. it also defines 
+functional components for supporting inter-cloud computing, e.g., peer service integration and peer service 
+management. 
+

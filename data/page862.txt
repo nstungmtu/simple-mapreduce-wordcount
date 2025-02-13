@@ -1,0 +1,32 @@
+5 intercloud and interoperability  
+ 
+854  
+table i.3 – selecting csp by reputation-based trust evaluation 
+figure (optional) 
+ 
+pre-conditions (optional) – all of csp2(saas), csp3(saas) and csp4(saas) can provide the service s csp1 
+needs. 
+– csp1 has an internal trust evaluation system. 
+– there is a third-party trust evaluation system. 
+post-conditions (optional) – csp1 establishes a trust relationship with csp2(saas) and provides service to 
+the csc with an inter-cloud intermediary pattern. 
+derived requirements – inter-cloud reputation-based trust evaluation (refer to clause 7.3). 
+i.4 use case of sso authentication within inter-cloud environment  
+this use case illustrates sso authentication in inter-cloud. the federation pattern of inter -cloud used to 
+illustrate the use case is an example only. 
+ 
+table i.4 – sso authentication within inter-cloud environment 
+title sso authentication within inter-cloud environment 
+description – the csc requests saas service x from csp1(saas); 
+– the csps(saas) form inter-cloud federation pattern among them. the service x is integrated 
+from services provided by csp1(saas), csp2(saas) and csp3(saas); 
+– each csp has its own identity management system, and the csc is not willing to be 
+authenticated more than one time when accessing saas service x;  
+– there is a trusted third-party sso system which provides a certification service to certify 
+credentials on behalf of all parties in the federation. with this sso mechanism, the csc is able 
+to access various saas services offered by different csps once it is successfully authenticated by 
+any member of the federation; 
+– each csp supports a periodical verification mechanism to check if the csc still ha s the privilege 
+to access the csp's service. 
+roles csc, csps(saas). 
+

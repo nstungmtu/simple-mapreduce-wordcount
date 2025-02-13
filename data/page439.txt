@@ -1,0 +1,39 @@
+cloud computing management 2 
+ 
+  431 
+8.1.3 service management layer 
+the service management layer focuses on the knowledge of cloud services and includes all functionalities  
+necessary for the management and operations of cloud services required by or proposed to customers. the 
+focus is on cloud service delivery and management as opposed to the management of the underlying 
+resources. 
+this layer is accountable for cloud service  delivery such as service instance management, and cloud service 
+operation such as service monitoring and problem handling and the assurance of the service quality. 
+for details of the functionalities present in the service management layer, see clause 10.3. 
+8.1.4 resource management layer 
+the resource management layer is responsible for maintaining knowledge of re sources (application, 
+computing and network infrastructures) and for managing all these resources (e.g. , networks, it systems, 
+servers, routers) utilized to deliver and support cloud services required by or proposed to customers. 
+for details of the functionalities present in the resource management layer, see clause 10.4. 
+8.2 service management interface 
+the smi-based approach provides a means to allow consistent e2e management of cloud computing services 
+exposed by, and across, different domains of csps th us unifying the traditional telecommunication 
+environment and the cloud computing environment. 
+the smi capabilities include the following: 
+− activation of a cloud service, i.e., making a cloud service available for a particular context (deploying 
+a cloud service instance); 
+− provisioning of a cloud service, i.e., configuring the settings of a cloud service instance; 
+− status monitoring of a cloud se rvice instance, i.e., querying the history and current status in terms 
+of lifecycle management for a specific cloud service instance; 
+− usage monitoring of a cloud service instance, i.e. , querying for usage metrics from a cloud service 
+instance or listenin g for usage metrics reports or alarms (e.g. , if metrics conditions imply 
+notifications); 
+− health monitoring of a cloud service instance, i.e., querying for health metrics from a cloud service 
+instance; 
+− update of a cloud service instance, i.e. , modification of the setting or lifecycle management status 
+of a cloud service instance; 
+− de-activation of a cloud service, i.e., making a cloud service unavailable. 
+a further description of how the smi -based model can be used across various cloud computing referen ce 
+architecture layers can be found in annex a. 
+8.3 relationship with the cloud computing reference architecture 
+figure 8-2 illustrates the relationship between the management layers described in clause 8. 1 and the bss 
+and oss components of the cloud computing reference architecture as defined in [itu-t y.3502]. 

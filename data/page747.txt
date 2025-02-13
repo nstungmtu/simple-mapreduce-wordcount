@@ -1,0 +1,50 @@
+xaas 3 
+ 
+  739 
+8.1.1.3 access management 
+saas app lication environment administrators are required to  provide mechanisms,  which delegate 
+authorization to tenants' administrators. the tenants' administrators grant access rights to their 
+corresponding resources. the access management of such a saas applicat ion environment should support 
+multiple access control models, such as identity based model, strategy based model, role based model, task 
+based model, etc. 
+for custom and configurable level  saas applications , a role -based access control mode l is a basic 
+requirement. for instance, csn, which supports to build a service from cs p, may be in charge of some 
+applications but has no rights to administer the whole cloud service system. besides, csn may be allowed to 
+access only a part of the resources with granted access rights. however, csn can share its resource by 
+providing application interfaces to other csns. 
+for the multi-tenant and scalable level, an integration of access control model for each individual and group 
+is needed. for the role -based access control, shared  resources among multiple tenants should be utilized 
+according to task groups in a work flow and rights granted to those tasks. thus, when these task groups are 
+executed, the saas application environment should define the support task-based access control mechanism. 
+this mechanism is used to  make sure that access right of tenants to underlying resources could be timely 
+granted and revoked, and underlying resources are prevented from unauthorized utilization.  
+8.1.2 interface security 
+the saas application environment is required to  secure interfaces open to csps or csns  through which 
+various kinds of cloud computing services are delivered  or developed , and it is also required to  secure 
+communications based on these interfaces. mechanisms that are available to ensure interface security 
+include but are not limited to: unilateral/mutual authentication, integrity checksum, digital signature, etc. 
+8.1.3 data security 
+8.1.3.1 data isolation 
+data can be isolated physically or logically. physical data isol ation should be accomplished by the access 
+control of physical storages. it  should require the saas application environment to store data of different 
+tenants in different areas of physical storage, or implement the data accesses control for different tena nts 
+through access permission, data domain or any other methods. logical da ta isolation implies that different 
+tenants should be avoided to access others' data by the means of techniques such as virtualization , even if 
+all the data are stored together. 
+for custom and configurable level saas applications, each tenant's data are se parately stored and isolated 
+from the others at the physical level. 
+for multi-tenant and scalable level saas applications, all tenant's data are stored in the cloud. therefore, the 
+saas application environment is required to be intelligent enough to segregate data from different tenants, 
+and maintain isolation among different tenants' data at rest, at processing or at transmission. the boundary 
+between each tenant should be ensured at the physical level or at the logical level, which depends on the 
+required isolation granularity and the specific deployment of the cloud computing software and hardware. 
+8.1.3.2 data confidentiality 
+in most cases , the tenant's data is  on off -premise storage and utilization, and is subjected to exposure . 
+therefore, the saas application environment is required to support encryption mechanisms to ensure data 
+confidentiality in transmission, during processing or out of occupation , and prev ent data leakage due to 
+security vulnerabilities in the application. 
+data encryption servic e is required for all saas levels. critical data is required to be encrypted to prevent 
+exposure. 
+for multi-tenant and scalable level, as tenants' data should be stored in one database or even one big table, 
+the saas application environment is required to  provide an appropriate key management mechanism to  
+ensure that the data cannot be cracked by other tenants. 

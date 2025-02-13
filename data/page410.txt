@@ -1,0 +1,62 @@
+1 framework and requirements for cloud computing  
+ 
+402  
+12 itu-t sg11 
+table 12-1 provides a list of itu-t sg11 deliverables associated with cloud computing. 
+table 12-1– itu-t sg11 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t q.4040, the framework and overview of cloud 
+computing interoperability testing 
+recommendation 02/2013 02/2016 
+itu-t q.4041.1, cloud computing infrastructure 
+capabilities interoperability testing – part 1: 
+interoperability testing between the csc and csp 
+recommendation 04/2015 11/2017 
+itu-t q.4042.1, cloud interoperability testing for web 
+applications 
+recommendation 04/2016 03/2018 
+itu-t q.3914, set of parameters of cloud computing for 
+monitoring 
+recommendation 07/2014 11/2017 
+• itu-t q.4040: this recommendation describes the framework and provides an overview of cloud 
+computing interoperability testing. according to the identified target areas of testing, the 
+framework recommendation includes overview of cloud computing interoperability test ing with 
+common confirmed items, infrastructure capabilities type, platform capabilities type and application 
+capabilities type interoperability testing. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12703  
+• itu-t q. 4041.1: this recommendation specifies the cloud computing infrastructure capabilities 
+type interoperability tes ting between the csc and csp, including interoperability testing of 
+computing services, storage services, network services and related management functions based on 
+the functional requirements specified in recommendation itu -t y.3513. the test cases of clo ud 
+computing infrastructure capabilities type interoperability testing between the csc and csp have 
+also been introduced. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13492&lang=en 
+• itu-t q.4042.1: this document focuses on the cloud interoperability testing for web applications. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13839 
+• itu-t q.3914: this recommendation provides a set of parameters that indicate the status and event 
+of a cloud computing system, including resource layer, service layer and access layer.  
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13487 
+table 12-2 provides an analysis of itu-t sg11 deliverables. 
+table 12-2 – analysis of itu-t sg11 deliverables 
+ general, 
+definition 
+requirements 
+use cases 
+architec-
+ture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security       
+management       
+inter-cloud, csb       
+sla, metering       

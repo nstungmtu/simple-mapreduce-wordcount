@@ -1,0 +1,40 @@
+cloud computing management 2 
+ 
+  469 
+– it is required that the service order management provides functions to  track the provisi oning 
+process of service order which contain cloud service. 
+9.4 service problem management 
+in a cloud-aware telecommunication management system, the service problem management requirements 
+include: 
+– it is required that the service problem management provides functions to manage complaint tickets 
+from the customer side as well as trouble tickets from network surveillance; 
+– it is required that the service problem management provides functions to separate a fault between 
+the cloud and the telecommunication network; 
+– it is recommended that the service problem management has holistic view of 
+configuration/relationship of different network layers to support root cause analysis. 
+9.5 service performance management 
+in a cloud -aware telecommunication  management system, the service performance management 
+requirements include: 
+– it is required that the service performance management provides functions to monitor, analyse and 
+report the key performance indicator (kpi) of cloud service. 
+9.6 service test management 
+in a cloud -aware telecommunication management system, the service test management requirements  
+include: 
+– it is required that the service test management provides functions to test the cloud service, both in 
+the fulfilment and assurance process. 
+9.7 service quality management 
+in a cloud -aware telecommunication management system, the service quality management requirements 
+include: 
+– it is required that the service quality management provides functions to monitor, analyse and report 
+the key quality indicator (kqi) of cloud service. 
+9.8 service rating/discounting management 
+in a cloud -aware telecommunication management system, the service rating/discounting management 
+requirements include: 
+– it is required that the service rating/discounting management provides functions to support service 
+rating/discounting in the context of service bundling and composition which contains cloud service. 
+10 security considerations 
+security aspects for consideration within the cloud computing environment, includ ing service management 
+in a cloud-aware telecommunication management system, are addressed by security challenges for the csps 
+as described in [itu -t x.1601]. in particular, [itu -t x.1601] analyses security threats and challenges, and 
+describes security capabilities that could mitigate these threats and meet the security challenges. 
+  

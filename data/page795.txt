@@ -1,0 +1,23 @@
+video processing and storage 4 
+ 
+  787 
+figure 7-7 shows the procedural flows of the media acquisition from the cloud storage system to the cu: 
+(1) the cu initiates a media acquisition request and sends this request to the scu. 
+(2) the scu forwards this acquisition request to the cmu. 
+(3) the cmu authenticates the acquisition access permission and then sends this request to the csmu. 
+(4) the csmu authenticates the acquisition access permission and then sends this request to the csau. 
+(5) the csau returns a response to the csmu when it is ready for this media acquisition request. 
+(6) the csmu returns the csau information to the cmu. 
+(7) the cmu sends a response to the scu. 
+(8) the scu forwards this response to the cu. 
+(9) when the cu receives the response, it sends a media acquisition request to the csau. 
+(10) the csau transfers this request to the csdu. 
+(11) after receiving this request, the  csdu creates a media channel with the csau to transmit the 
+required media data. 
+(12) the csau transfers the media data to the cu. 
+(13) when the cu stops the media acquisition, it sends a stop request to the csau. 
+(14) the csau transfers this request to the csdu. 
+(15) the csdu returns a response to the csau. 
+(16) the csau requests the scu to disconnect. 
+(17) the scu returns a response to end this media acquisition operation. 
+ 

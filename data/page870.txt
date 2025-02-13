@@ -1,0 +1,13 @@
+5 intercloud and interoperability  
+ 
+862  
+summary 
+recommendation itu -t q.4040 describes the framework and provides an overview of cloud computing 
+interoperability testing. according to the identified target areas of testing, this framework recommendation 
+includes an overview of cloud computing interoperability testing with common confirmed items, 
+infrastructure capabilities type, pla tform capabilities type and application capabilities type interoperability 
+testing. this recommendation describes the overview target areas of testing for interoperability testing of 
+cloud computing. 
+keywords 
+cloud computing, interoperability. 
+  

@@ -1,0 +1,30 @@
+framework and requirements for cloud computing 1 
+39 
+i.8 inter-cloud computing use case 
+use case 
+name inter-cloud computing use case for federation 
+abstract csps federate to provide a service to the csc 
+roles csc, csp 
+figure 
+pre-conditions 
+(optional) 
+– csps federate with each other by establishing a trust relationship and policy settlement.
+– a csc uses a service provided by one of the federated csps.
+– case-a: the csp that offers the service to the csc is going to spend all resources due to
+overload, or has lost the resources due to disaster.
+– case-b: the csc changes its environment (e.g., location) and reaches the csp from a
+place which is further away than before.
+post-conditions 
+(optional) 
+– case-a: the csp ensures that its services continue to be offered by the support of other
+federated csps, even when performance or availability of the service may be degraded
+due to csp's resource problems (e.g., overload or disaster).
+– case-b: another csp in the federation, on behalf of the csp which has offered the
+service to the csc, provides a new appropriate service environment to the csc to
+compensate for possible degradation, even when performance or availability of the
+service may be degraded due to a csc's environmental change (e.g., location changes).
+requirements – on-demand assignment of cloud resource among csps
+– resource and load distribution
+– large-scale migration
+– user environment adaptation
+

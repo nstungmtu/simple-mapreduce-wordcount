@@ -1,0 +1,63 @@
+1 framework and requirements for cloud computing  
+ 
+208  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+36 provide i/o interface 
+to administrator 
+– [b-ocp 1s] provides 'the primary x16 pcie edge connector supports: usb 
+2.0 port' in clause 3. 
+– [b-ocp 2s] provides 'support of gui and kvm on hardware level to 
+accommodate the ocp customers whose environment requires using of 
+vga and kvm' in clause 9.3. 
+– [b-ocp sj] provides 'usb and vga' in clause 4.2. 
+– [b-ocp yose] provides 'supports a vga interface' in clause 9.5.  
+– [b-ocp 1s] provides keyboard interface as 'bridge ic provides ways to 
+transfer messages between them via kcs interfaces. for in-band 
+management, the bridge ic can forward the soc's keyboard controller style 
+(kcs) request to the bmc' in clause 9.7.3. 
+– [b-ocp ambh] provides usb interface as 'the motherboard has two 
+external usb ports located in the front of the motherboard. the bios 
+supports the following usb devices: keyboard and mouse' in clause  10.6. 
+– [b-ocp tp] provides usb interface as 'the motherboard has one ex ternal 
+type-a, right angle usb 2.0/3.0 port and one usb 3.0. type-c port located in 
+front of the motherboard. the bios should support the following usb 
+devices: usb keyboard and mouse' in clause 10.5. 
+– [b-ocp yose] provides vga support as 'the yosemite v2 platform supports a 
+vga interface. the original sata interface on 1s server interface has been 
+repurposed to be a x1 pcie link' in clause 9.5. 
+– [b-ocp dsbs] provides usb support as 'the server board shall provide two 
+external usb ports and the bios shall support the following usb devices: 
+keyboard and mouse ,bootable usb flash drive, bootable usb hard disk, 
+bootable usb optical disk' in clause 6.2. 
+37 provide i/o interface 
+to external storage 
+device 
+– [b-ocp 1s] provides interface to external storage as 'boot m.2 slot is only 
+available in 2280 form factor and it can be configured as either sata or pcie 
+interface through bom options' in clause 9.4. 
+– [b-ocp ambh] provides sata port as 'the motherboard has sp5100 
+interfaces on board, which support up to six sata ports' in clause 10.7. 
+– [b-ocp tp] provides sata port as 'sata port 0~7 can be connected to one 
+vertical mini-sas hd 8 ports connector. ssata ports 2~5 can be connected 
+to one mini-sas hd 4 ports connector' in clause 10.6. 
+– [b-ocp o2usm] provides sata port as 'supports up to 12 sata devices' in 
+clause 4. 
+– [b-ocp dsbs] provides sata port as 'the server board shall have support 
+up to six sata ports' in clause 6.3. 
+38 network interface 
+virtualization 
+– [b-ocp 25gdual] provides network virtualization as 'support receive side 
+scaling (rss), single root i/o virtualization (sr-iov), vlan tagging, layer 2 
+priority encoding, link aggregation and full-duplex flow control 802.3 
+functions in the mac' in table 1.  
+39 device driver and api 
+supports 
+– [b-etsi eve007] provide device driver and api supports as 'the network 
+interface should be configurable to service either a management or 
+production network' in clause 5.6.2. 
+– [b-ocp 1s] provides device driver support as 'the twin lakes 1s server 
+supports three m.2 solid-state drives in 2280 or 22110 form factors' in 
+clause 3. 

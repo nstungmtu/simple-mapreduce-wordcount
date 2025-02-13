@@ -1,0 +1,29 @@
+cloud computing management 2 
+ 
+  485 
+• it is recommended that the cloud computing platform supports workload portability and related 
+management capabilities (e.g., control, operation and monitoring) amongst cloud service providers, 
+supporting various cloud deployment models [itu-t y.3500], in a cost effective way.  
+8 cloud resource management for emergency telecommunications 
+emergency telecommunications (et) [b-itu-t y.2205] are any emergency related service that requires special 
+handling relative to other services (i.e., priority access for authorized users and priority treatment to 
+emergency traffic). 
+while not always required, if the resources of the csp are us ed to support the emergency 
+telecommunications service (ets) [ b-itu-t e.107 ], appropriate resource management functions will be 
+needed to allow priority treatment in the use of the cloud computing resources by authorized users. the 
+requirements in [b-itu-t y.1271] are relevant. 
+note – requirements in [ b-itu-t y.1271] apply across multiple layers of the cloud comput ing reference architecture 
+[itu-t y.3502]. 
+9 security considerations 
+the security framework from cloud computing [itu-t x.1601], analyses security threats and challenges in the 
+cloud computing environment and describes security capabilities that could mi tigate these threats and 
+address security challenges. the single cloud and multi-cloud resource management framework described in 
+this recommendation is based on the interconnections within a single cloud service provider or between two 
+or more cloud compu ting systems operated by different se rvice providers. thus, secure interconnection 
+within and across the systems should be considered. protection of internal management system interfaces 
+and information against unauthorized access, internally or by an external interconnected entity, should also 
+be considered. exposed internal and external management interfaces should also be security protected. it is 
+recommended that the applicable x, y and m series of itu -t security recommendations be taken into 
+consideration, including access control, authentication, data confidentiality, communications security, data 
+integrity, availability and privacy. 
+  

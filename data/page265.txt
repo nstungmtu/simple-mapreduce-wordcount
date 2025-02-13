@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   257 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of cloud infrastructure 
+7 requirements for processing resources 
+7.1 physical machine requirements 
+7.2 virtual machine requirements 
+7.3 software resources provisioning requirements 
+7.4 time-sensitive services requirements 
+8 requirements for networking resources 
+8.1 general requirements for networking resources 
+8.2 access and core transport network 
+8.3 intra-datacentre network 
+8.4 inter-datacentre network 
+9 requirements for storage resources 
+9.1 storage space 
+9.2 storage interface 
+9.3 storage management 
+9.4 storage availability 
+9.5 data de-duplication 
+10 requirements for resources abstraction and control 
+11 support of emergency telecommunications 
+12 security considerations 
+appendix i – overview and reference model for storage in a cloud environment 
+i.1 reference model for cloud storage 
+appendix ii – considerations on resource monitoring 
+ii.1 health monitoring 
+ii.2 performance monitoring 
+ii.3 capacity monitoring 
+ii.4 security and compliance monitoring 
+ii.5 monitoring and metering for charging and billing 
+ii.6 monitoring in support of cloud services 
+appendix iii – power management in cloud infrastructure 
+appendix iv – considerations on supporting of ets 
+bibliography 
+ 

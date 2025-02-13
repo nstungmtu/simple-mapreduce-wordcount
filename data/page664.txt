@@ -1,0 +1,48 @@
+3 xaas  
+ 
+656  
+use case 
+requirements  – storage migration (refer to clause 7.2.1) 
+– storage snapshot (refer to clause 7.2.2) 
+– storage backup (refer to clause 7.2.3) 
+– i/o performance (refer to clause 7.2.4) 
+– storage resource reservation (refer to clause 7.2.5) 
+i.5 iaas network service use case 
+use case 
+name  iaas use case on network 
+abstract  csc uses network functions, such as ip address, vlan, virtual switch, load balance and 
+firewall provided by the csp 
+roles  csc, csp 
+figure  
+y .3513(14)_fi.5
+cloud infrastructure
+computing
+resource pool
+network
+resource pool
+csp
+csc
+portal
+csp
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism and 
+retrieves the functions exposed that are related to network and computing, if needed.  
+post-conditions 
+(optional)   
+description – csc accesses and queries the csp portal to retrieve the list of supported network 
+functions (e.g., ip address, vlan, virtual switch, load balance, firewall). 
+– csc selects the appropriate network service from the query results and requests csp 
+to create a network based on the selection. 
+– csc requests the csp to attach the created network with the related virtual machine. 
+– csc manages and monitors the created network during its lifecycle. it includes, but not 
+limited to: 
+• bind the network connectivity service to the related virtual machine;  
+• query the network and its status; 
+• update, upgrade or scaling the network; 
+• execute performance metrics; 
+• manage the ip address pool; 
+• manage network services, such as vlan, virtual switch, load balance, firewall, 
+gateway;  
+• manage tenants' network according to the sla objectives. 

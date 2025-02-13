@@ -1,0 +1,39 @@
+ framework and requirements for cloud computing 1 
+ 
+   45 
+table ii.1 – edition plan of this recommendation 
+scope edition 1 edition2 edition3 
+general requirements for cloud computing o extended extended 
+general requirements for iaas o extended extended 
+general requirements for naas o extended extended 
+general requirements for daas o extended extended 
+general requirements for paas  o extended 
+general requirements for caas  o extended 
+general requirements for bdaas  o extended 
+general requirements for saas   o 
+general requirements for inter-cloud o extended extended 
+general requirements for end-to-end cloud 
+resource management 
+o extended extended 
+general requirements for cloud infrastructure o extended extended 
+general requirements for trusted cloud service  o extended 
+others general requirements   o 
+security consideration o extended extended 
+use case generic use cases o extended extended 
+iaas general use case o extended extended 
+naas general use case o extended extended 
+daas general use case o extended extended 
+paas general use case  o extended 
+caas general use case  o extended 
+bdaas use case  o extended 
+saas general use case   o 
+inter-cloud general use case o extended extended 
+end-to-end cloud resource 
+management use case 
+o extended extended 
+cloud infrastructure use case o extended extended 
+trusted cloud service use case  o extended 
+other use cases   o 
+note – the mark "o" indicates initial requirements and use cases are prepared, "extended" indicates additional 
+requirements and use cases will be provided. 
+ 

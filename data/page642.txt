@@ -1,0 +1,10 @@
+3 xaas  
+ 
+634  
+figure (optional) 
+ 
+figure 1 – case i: public cloud site multi-tenant vpn gw with overlapping private 
+ip addresses 
+ 
+figure 2 – case ii: interworking support for different types of vpns 
+

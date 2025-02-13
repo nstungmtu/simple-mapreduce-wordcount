@@ -1,0 +1,14 @@
+3 xaas  
+ 
+696  
+b.2 virtualized network 
+virtualized network functional component provides virtualized network elements, such as virtual nodes, 
+ports, switches and links.  each tenant is represented by one virtualized network and different tenants can 
+only discover their own virtualized network. all virtualized network elements are mapped to at least one 
+physical element and can be enabled, disabled, modified or reorganised at runtime. 
+note – a virtualized network element is a broader concept than vnf. it can  be a vnf but also can correspond to a 
+network port or network link. 
+b.3 physical-virtualized-networks mapping 
+physical-virtualized-networks mapping functional component  enforces the mapping between virtualized 
+(overlay) networks and physical (underlay) networks. the mapping contents are stored in a database, which 
+can be accessed by both physical and virtualized networks. 

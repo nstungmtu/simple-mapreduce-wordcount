@@ -1,0 +1,10 @@
+7 security  
+ 
+1038 
+5) key management and data encryption audit: as encryption is the core mechanism to protect data 
+in the cloud computing environment regardless of whether the service model is iaas, paas or even 
+saas, audit requirements should include the implementation and pr ocessing of key management  
+and data encryption. 
+6) emergency response and management audit: audit requirements focus mainly on an emergency 
+plan, a centralized management of security incidents, and a correlation analysis between the 
+different security events. 

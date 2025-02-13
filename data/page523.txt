@@ -1,0 +1,42 @@
+cloud computing management 2 
+ 
+  515 
+3.1.4 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.5 network as a service (naas) [b-itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer is transport connectivity and related network capabilities. 
+3.1.6 network function [itu-t y.3515]: a function of a network infrastructure whose external interfaces 
+and functional behaviour are well specified. 
+note – examples of network functions include network switches and network routers. 
+3.1.7 network service [itu-t y.3515]: a collection of network functions with a well specified behaviour. 
+note – examples of network services include content delivery networks (cdns) and ip multimedia subsystem (ims).  
+3.1.8 software-defined networking  [b-itu-t y.3300]:  a set of techniques that enables to directly 
+program, orchestrate, control and manage network resources, which facilitates the design, delivery and 
+operation of network services in a dynamic and scalable manner. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 naas service operational policy administration point (npap): an entity in the network as a service 
+(naas) service operational policy framework that administrates the policies. 
+3.2.2 naas service operational policy decision point (npdp): an entity in the network as a service (naas) 
+service operational policy framework that makes authorization decisions and distributions of the policies. 
+3.2.3 naas service operational policy enforcement point (npep) : an entity in the network as a service 
+(naas) service operational policy framework that implements the decisions of npdp (3.2.2). 
+3.2.4 naas service operational poli cy information point (npip) : an entity in the network as a service 
+(naas) service operational policy framework that stores the policies. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+ci  continuous integration 
+cd  continuous delivery 
+cdn  content delivery network 
+ce  customer edge 
+csc   cloud service customer 
+csp   cloud service provider 
+devops  development and operations 
+eca  event, condition and action 
+ims  ip multimedia subsystem 
+naas  network as a service 
+nf   network function 
+npap  naas service operational policy administration point 
+npdp  naas service operational policy decision point 
+npep  naas service operational policy enforcement point 
+npip  naas service operational policy information point 
+ns  network service 

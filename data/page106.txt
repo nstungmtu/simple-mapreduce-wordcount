@@ -1,0 +1,23 @@
+1 framework and requirements for cloud computing  
+ 
+98  
+10.2.3 multi-tenancy and isolation 
+cloud computing  involves the sharing of some resources, and this typically means the sharing of those 
+resources with other customers of th e cloud services involved. the terms tenancy and multi-tenancy are 
+used to describe the situation where resources are shared. 
+a tenant of a cloud service is not quite the same as a cloud service customer  – a tenant is a group of 
+csc:cloud service users  sharing access to a set of physical and virtual resources . typically, the group of 
+csc:cloud service users will be associated with a particular cloud service customer , but a cloud service 
+customer can well have multiple tenants – groups of users from different departments within the customer 
+organization, for example. 
+multi-tenancy is the allocation of physical or virtual resources  so that multiple tenants and their 
+computations and data are isolated from and inaccessible to one another. in other words, the users who 
+belong to one tenancy should be completely unaware of the presence of users from another tenancy. 
+multi-tenancy does not only affect the cloud services themselves; it also affects the business and 
+administration capabilities offered to cloud service customers  by the cloud service provider . information 
+about user accounts, subscriptions, usage and billing must all be kept isolated and visible onl y to the 
+customers who own the related tenancies. particular care must be taken in relation to resources such as log 
+files, which can contain records relating to multiple tenants. if a particular customer needs to access the log 
+records, for example when an incident occurs, then the log records must be filtered so that the customer can 
+only see records relating to its tenancies. 
+  

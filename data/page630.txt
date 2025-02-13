@@ -1,0 +1,38 @@
+3 xaas  
+ 
+622  
+appendix ii 
+ 
+use cases of naas 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix includ es three types of naas use cases: naas application related use cases, naas platform 
+related use cases and naas connectivity related use cases. each type of naas use case is further divided into 
+general and detailed use cases. 
+ii.1 use case template 
+the use cases developed in appendix ii should adopt the following unified format for consistent readability 
+and convenient material organization. 
+ 
+title title of the use case 
+description scenario description of the use case 
+roles roles involved in the use case 
+figure (optional) figure to explain the use case, but is not mandatory 
+pre-conditions 
+(optional) 
+the necessary pre-conditions that should be achieved before starting the use case.  
+post-conditions 
+(optional) 
+the post-condition that will be carried out after the termination of current use case. 
+derived requirements requirements derived from the use cases, whose detailed descriptions are presented in 
+the dedicated clauses. 
+ii.2 naas applications related use cases 
+this clause provides description of use c ases related where naas  csc can provision and use  network 
+applications. 
+note – in the following clauses, xaas represents any categories of cloud services such as software as a service (saas), 
+platform as a service (paas), iaas, caas, etc. 
+ii.2.1 general use cases 
+ii.2.1.1 general naas application use case 
+ 
+name general naas application use case 
+description a xaas csc or xaas csp uses the network applications (e.g., virtual dpi (vdpi), vfw, vcdn) 
+provided by naas csp. these network applications can be chain ed by naas csp. 
+roles csc, csp 

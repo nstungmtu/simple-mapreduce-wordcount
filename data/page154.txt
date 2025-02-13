@@ -1,0 +1,34 @@
+1 framework and requirements for cloud computing  
+ 
+146  
+to enhance the operations of the cloud service broker, its activities  defined in [itu -t y.3502] need to be 
+extended to cover features such as how to access cloud services, how to manage and how to monitor the 
+cloud services. 
+6.2 introduction to cloud service brokerage 
+a cloud service brokerage (csb) is a service between cscs and csps, in which the cloud service broker 
+arbitrates, delivers and manages the cloud services from the csps to the cscs. the objectives of csb are to 
+provide a single access, easily managed and value-added service to cscs from multiple csps.  
+as shown in figure 6 -1, the csb premises the multiple cscs and csps environment. in csb, a csp registers 
+cloud services to a cloud service broker and the cloud service broker configures a product catalogue with the 
+registered cloud services. the cloud service broker also registers cloud services during the configuration of 
+the product catalogue. three service models (see clause 6.3) are implemented depending on how the product 
+catalogue is configured in cloud service brokerage.  
+when, a csc requests a cloud service with csc's requirements to the cloud service broker, the cloud service 
+broker searches for best-matched cloud services.  
+once the csc agrees with the conditions (e.g. terms and price) of a cloud service by the cloud service broker, 
+the cloud service broker makes a contract with the csc for brokering a cloud service. on behalf of the csc, 
+the cloud service broker requests to launch a cloud service to the csps and the access information from the 
+csps is delivered to the csc. using the access information, the csc accesses and utilizes the cloud service.  
+during the use of the cloud service, the cloud service broker monitors and controls the cloud service on behalf 
+of the csc. 
+note – the more detailed overall behaviour of the cloud service brokerage with specific steps is described in table i.1 
+and table i.9 of appendix i for a general use case and a use case for cloud service management, respectively.  
+ 
+figure 6-1 – basic concept of cloud service brokerage  
+in addition to the three activities of the cloud service broker of [itu -t y.3502], the cloud service brokerage 
+needs new activities of the cloud service broker. these new activities are described below. 
+– assist csc for accessing service : it includes acquiring access information for a cloud service from 
+csps who provide the cloud service, and forwarding the access information to the csc who requests 
+the cloud service to understand access and usage of the cloud se rvice. in order to assist a csc to 
+access a cloud service, access information is transmitted securely. 
+

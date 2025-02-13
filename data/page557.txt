@@ -1,0 +1,34 @@
+xaas 3 
+ 
+  549 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 convention 
+6 introduction to desktop as a service (daas)  
+6.1 main advantages of daas 
+6.2 general configuration for daas 
+6.3 interaction between daas components 
+7 daas general requirements 
+8 daas functional requirements 
+8.1 operation and management requirements 
+8.2 daas platform-side functional requirements 
+8.3 daas client-side functional requirements 
+8.4 daas platform-daas client interaction functional requirements 
+8.5 daas security requirements 
+9 security considerations 
+appendix i – relationship between daas logical components and the cloud computing reference 
+architecture 
+appendix ii – daas client classification 
+appendix iii – daas use cases 
+appendix iv – value for response time limit 
+appendix v – service provisioning based on csc types in daas 
+v.1 types of cloud service customer 
+v.2 user account provisioning based on csc types in daas 
+v.3 service provisioning in daas 
+bibliography 
+ 

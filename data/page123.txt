@@ -1,0 +1,28 @@
+framework and requirements for cloud computing 1 
+ 
+   115 
+ 
+figure 6-2 – example of customer data manipulation in dsf 
+figure 6-2 shows an example flow of customer data manipulation in dsf. when a customer stores customer 
+data in a single virtual volume, dsf manipulates the customer data through data operations. through the 
+creating data operation, the customer data is fragmented into dsf data and stored in dsf local storage. the 
+name and location of the customer data is registered to a global registry. the global registry is a data set for 
+the information on customer data.  
+note 1 – dsf data is a manipulated customer data in dsf and is permanently stored on dsf local storage. it includes 
+fragmented, encrypted and compressed customer data. 
+note 2 – the information on customer data includes the location, size and attributes, etc. this information is taken 
+from data operation metadata and storage management metadata. 
+according to customer requests to use data in a single virtual volume, the basic data operations such as 
+creating, reading, updating, deleting, searching and sharing are performed by dsf. 
+examples of basic data operations in dsf are described as follows: 
+– creating: fragmenting customer data, storing it to dsf local storage and registering data name and 
+locations to the global registry; 
+– reading: searching for a data name and location in the global registry, loading fragmented data from 
+the dsf local storage and combining the fragmented data; 
+– updating: searching for a data name and location in the global registry, updating customer data to 
+dsf local storage, updating changes to the global registry; 
+– deleting: searching for a data location in the global registry, removing data location from the global 
+registry and deleting fragmented data in the dsf local storage; 
+– searching: searching for a data name in the global registry; 
+– sharing: searching for a data name and changing an attribute in the global registry to share data.   
+

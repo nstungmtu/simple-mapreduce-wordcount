@@ -1,0 +1,41 @@
+xaas 3 
+ 
+     667 
+3.2.4 physical network function: a network function implemented via a tightly coupled software and 
+hardware system. 
+note – examples of physical network functions include physical network switches and physical routers. 
+3.2.5 virtualized network function: a n etwork function tha t can be deployed as a software on a naas 
+cloud service provider infrastructure. 
+note – examples of virtualized network functions include virtual switches and virtual routers. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bss business support system 
+ccra cloud computing reference architecture 
+ccs cloud compute and storage 
+cdn content delivery network 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+devops development and operation 
+dns domain name system 
+ems  element management system 
+id identifier 
+ims ip multimedia subsystemip internet protocol 
+it information technology 
+kpi key performance indicator 
+l2 layer 2 
+l3 layer 3 
+mpls multiprotocol label switching 
+naas network as a service 
+nc network connectivity 
+nf network function 
+nfv network functions virtualization 
+nfvi network functions virtualization infrastructure 
+nms network management system 
+ns network service 
+oss operation support system 
+otn optical transport network 
+pnf physical network function 
+pop points of presence 
+qoe quality of experience 

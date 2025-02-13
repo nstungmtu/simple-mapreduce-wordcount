@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   311 
+another scenario, shown in figure iii.2-d is to offer an elastic service, in which the service capacity is adjusted 
+in accordance with the user's demand. in this scenario, the secondary csp should start and stop its resource 
+offering according t o the primary csp's control. interaction with the user involves changing the resource 
+offering.  
+iii.2.1 csc-initiated operation and csp-initiated operation 
+looking at the scenarios in figure iii.2 from the viewpoint of who initiates operations, the reliable service in 
+figure iii.2-c and the elastic service in figure iii.2-d are different.  
+with the reliable service, the service continuity should be achieved without disturbing the user. the problem 
+should be solved on the csp side, without necessarily revealing the problem to the user. this may impose a 
+specific requirement. in order not to disturb the user, the primary and secondary csps should move the user 
+application, if necessary, and continue the service by themselves. this may include installation and activation 
+of the user application. 
+the requirement for resource set -up and activation, which is described in clause 9.5, corresponds to this 
+case. 
+with the elastic service, the csc may change the use of the csp's resources explicitly or the primary csp may 
+change the resource offerings by somehow sensing the csc's demand.  
+iii.3 consideration on network connectivity 
+the description here is meant to supplement clauses 8.2.3 and 8.3.3 on network connectivity. 
+networks should, at least, support connectivity between the csc and the csp, between the csps, and within 
+the csps. based on the primary-secondary model of inter-cloud computing over multiple csps, these network 
+parts correspond to: 
+1) a network between the csc and the primary csp;  
+2) networks between the primary and the secondary csps;  
+3) a network in the primary csp, and; 
+4) networks in the secondary csps.  
+from the csp's perspective, networks 1) and 2) are external, whereas networks 3) and 4) are internal.  
+figure iii.3 explicitly shows the external networks of 1) as "network q" and 2) as "network x", "network y", 
+and "network z". 
+primary csp
+csc
+secondary csp a
+secondary csp b
+secondary csp c
+network y
+network x
+network z
+network q
+y .3511(14)_fiii.3
+csc's application
+ 
+figure iii.3 – networking in inter-cloud 

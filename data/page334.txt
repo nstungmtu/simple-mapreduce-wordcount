@@ -1,0 +1,29 @@
+1 framework and requirements for cloud computing  
+ 
+326  
+ 
+figure 7-2 – an example scenario of cloud computing support for big data 
+note – figure 7-2 considers cloud service categories based on table a.1 of itu-t y.3500. 
+7.1.1 csn:data provider (csn:dp) 
+csn:data provider (csn:dp) is the sub-role of the cloud service partner (csn) generating and publishing new 
+data or information which feeds into the big data system for discove ry, access and transformation. the 
+csp:data provider's activities include a generate data activity, a publish data activity and a brokerage data 
+activity. 
+7.1.1.1 generate data activity  
+the generate data activity involves gathering data from several kinds of sources. the data can be generated 
+in a variety of types such as structured data, semi-structured data and unstructured data. 
+the data sources include public data (data from governments, organizations, internet, etc.), 
+private/enterprise data and appli cation based data, such as s ocial network service  (sns) and internet of 
+things (iot) data. 
+7.1.1.2 publish data activity 
+the publish data activity is the process of registering metadata of data to the csn. it provides metadata for 
+brokerage data activity. 
+note – metadata is delivered to the csp:bdip through brokerage data (see clause 7.1.1.3) with the data 
+catalogue which includes data access methods, data use policy, etc. 
+7.1.1.3 brokerage data activity 
+the brokerage data activity involves providing metadata of data to the csp: bdip.  
+types of brokerage data activities include: 
+– providing a data registry to the csn:dp for publishing their data sources; 
+– finding an on-line data source and registering its metadata; 
+– providing a catalogue to the csp:bdip for searching appropriate data. 
+

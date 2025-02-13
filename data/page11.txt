@@ -1,0 +1,8 @@
+framework and requirements for cloud computing 1 
+3 
+information technology – cloud computing – 
+overview and vocabulary 
+rec. itu-t y.3500 (2014) | iso/iec 17788:2014  
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things 
+and smart cities 

@@ -1,0 +1,64 @@
+ framework and requirements for cloud computing 1 
+ 
+   401 
+reference model for future recommendations, e.g., on the performanc e of dc power feeding 
+systems. this recommendation describes extended power feeding architectures using up to 400 
+vdc, e.g., hybrid redundant dc and ac power feeding based on recommendation itu-t l.1201. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12882 
+• itu-t l.1220 : this recommendation provides an overview of evolution of energy storage for 
+stationary use for ict/telecommunication equipment. global results of investigations from 
+laboratory and field tests of solutions for site, network, data centre and cpe resilience in smart 
+sustainable cities. mobile and portable batteries are out of the scope of this recommendation. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10713 
+ itu-t l.1206 : the document discusses multiple power interfaces to ict equipment operated by 
+standardized –48v direct current, alternating current source and direct current source up to 400 v 
+in line with the interfaces, operational voltage and characteristics detailed w ithin itu -t 
+recommendation and etsi relevant standards. it also includes some details on the power 
+architecture within the ict equipment between the ict power interface and the ict end load.  
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13938 
+ itu-t l.se_dc: recommendation "smart energy solutions for data centre and telecommunication 
+centre" defines established clear requirements on data centre and telecommunication centre smart 
+energy system performance, safety, energy efficiency and environmental impacts. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14153 
+table 11-2 provides an analysis of itu-t sg5 deliverables. 
+table 11-2 – analysis of itu-t sg5 deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security       
+management  itu-t l.1301, 
+itu-t 
+l.green_mgm_d
+c 
+   itu-t l.1410 
+inter-cloud, 
+csb 
+      
+sla, metering       
+testing      itu-t l.1202, 
+itu-t l.1420, 
+itu-t l.1430, 
+itu-t l.1302, 
+itu-t l.1320, 
+itu-t l.1440 
+others   itu-t l.1201, 
+itu-t l.1204 
+itu-t 
+l.renewable 
+ itu-t l.1200, 
+itu-t l.1300, 
+itu-t l.1220, 
+itu-t l.1206, 
+l.se_dc 

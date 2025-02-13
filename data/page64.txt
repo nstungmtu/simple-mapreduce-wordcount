@@ -1,0 +1,42 @@
+1 framework and requirements for cloud computing  
+ 
+56  
+• application capabilities type;  
+• platform capabilities type;  
+• infrastructure capabilities type. 
+cloud capabilities types and cloud service categories are covered in rec. itu-t y.3500 | iso/iec 17788. 
+cloud services are also grouped into categories, where each category is a group of cloud services that possess 
+a common set of qualities. the services in these categories can include capabilities from one or more of the 
+cloud capabilities types above. 
+representative cloud service categories include: 
+• infrastructure as a service (iaas); 
+• platform as a service (paas); 
+• software as a service (saas); 
+• network as a service (naas). 
+other cloud service categories are described in rec. itu-t y.3500 | iso/iec 17788. 
+7.2.5 cloud deployment models 
+cloud deployment models are covered in rec. itu-t y.3500 | iso/iec 17788. this clause provides a summary. 
+cloud deployment models are a way in which cloud computing can be organized based on the control and 
+sharing of physical or virtual resources. 
+the cloud deployment models include: 
+• public cloud; 
+• private cloud; 
+• community cloud; 
+• hybrid cloud. 
+7.2.6 cross-cutting aspects 
+cross-cutting aspects  are behaviours or capabilities which need to be coordinated across roles and 
+implemented consistently in a cloud computing system.  
+cross-cutting aspects can be shared and can impact multiple roles, cloud computing activities and functional 
+components. 
+cross-cutting aspects apply to multiple individual roles or functional components. 
+an example of a cross-cutting aspect is security. 
+a description of the cross-cutting aspects is provided in clause 8.5. 
+7.3 functional view of cloud computing 
+the functional view is a technology -neutral view of the functions necessary to form a cloud computing 
+system. the functional view describes the distribution of function s necessary for the support of cloud 
+computing activities. 
+the functional architecture also defines the dependencies between functions. 
+the functional view addresses the following cloud computing concepts: 
+• functional components;  
+• functional layers; and 
+• multi-layer functions. 

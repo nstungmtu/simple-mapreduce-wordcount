@@ -1,0 +1,54 @@
+ framework and requirements for cloud computing 1 
+ 
+   151 
+– remedies for failures to meet the terms of the sla : it is recommended that a csn: cloud service 
+broker provide agreed remedies for failures to meet the terms of the sla. 
+ note 4 – examples of a remedies are migration, scale up, performance extension and so on.  
+7.4 functional requirements for cloud service access management 
+– delivering cloud service provision request : it is recommended that a csn: clou d service broker 
+deliver the provisioning request to csps as requested by the csc. 
+– delivering cloud resource request: when a csc needs more cloud resources of a cloud service, it is 
+recommended that a csn: cloud service broker deliver the csc's request for resources to a csp. 
+– access information forwarding: it is required that a csn: cloud service broker forward the access 
+information of a cloud service from a csp to the authorized csc. 
+– prohibiting access information storing: it is recommended that a csn: cloud service broker provide 
+prohibiting of the access information for a cloud service not to open or store. 
+7.5 functional requirements for cloud service management 
+– cloud service sla management : it is recommended that a csn: clou d service broker provide sla 
+management of running cloud service across multiple csps. 
+– cloud service monitoring: it is recommended that a csn: cloud service broker monitor the status of 
+cloud services by using gathered monitoring information of the cloud service from multiple csps. 
+ note 1 – the monitoring information is gathered periodically or aperiodically at runtime to check conditions 
+or status of cloud services. the monitoring information includes measured data for metrics of service levels in 
+sla or resource utilization of cloud services. 
+ note 2 – a csn: cloud service broker monitors status of logical resources (e.g., virtual machine) of cloud 
+services. 
+– delivering request of cloud service control : it is recommended that a csn: cloud service broke r 
+deliver requests of control actions for a cloud service from a csc to a csp for managing status of the 
+cloud service. 
+– validation of result for request of cloud service control: it is recommended that a csn: cloud service 
+broker validate the status of c loud service whether the status is changed correctly or not in 
+accordance with the delivered request for a control action of a cloud service by a csc.  
+ note 3 – since changing status of cloud service takes time according to the circumstance of the csp, a csn: 
+cloud service broker does not know the result of the control request instantly. therefore, to validate the status 
+of cloud service, the csn: cloud service broker needs to check periodically the current status of cloud service 
+by communicating with the csp until the validation is finished.  
+– initiation of validation : it is recommended that a csn: cloud service broker initiate cloud service 
+control status validation only after the csn: cloud service broker receives an acknowledgement for 
+a cloud service control request from a csp.  
+ note 4 – the acknowledgement for a service control request is a message from a csp to inform receipt of a 
+request for a service control from a csn: cloud service broker.  
+– status checking period for validation: it is recommended that a csn: cloud service broker provide 
+checking periods in service control status validation by predicting the completion time of the cloud 
+service control to reduce communication overhead between the csn: cloud service broker and a csp. 
+ note 5 – service control checking period is the duration of time of one cycle for checking status of the service. 
+the checking period is determined probabilistically by statistically predicting the completion time of the cloud 
+service control. 
+ note 6 – to pr edict the completion time of a cloud service control, statistical methods, such as moving 
+average and variance, are applied to accumulated history of completion time of previous control requests for 
+the same or similar services. using the statistical methods, a csn: cloud service broker generates a probability 
+distribution for completion of service control at a given time. 
+ note 7 – the service control checking periods are determined by a normal probability distribution. the csn: 
+cloud service broker increases the frequency of checking status of service when the probability of service 
+control completion is high. the csn: cloud service broker decreases the frequency when the probability of 
+service control completion is low. 

@@ -1,0 +1,37 @@
+1 framework and requirements for cloud computing  
+ 
+168  
+table i.11 – a use case for cloud service migration in cloud service brokerage 
+figure 
+ 
+ 
+pre-conditions 
+(optional) 
+the csp is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csc is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csn: cloud service broker and the csc established a sla. 
+the csc is using a cloud service provided by the csp(a) though the csn: cloud servi ce broker. 
+post-conditions 
+(optional)  
+derived 
+requirements 
+– equivalent cloud service selection (see clause 7.2) 
+– prevention of service termination during migration (see clause 7.5) 
+ 
+table i.12 – a use case of cloud service substitution 
+title a use case of cloud service substitution. 
+description this use case describes a substitution of cloud service used as a member of an integrated cloud 
+service in cloud service brokerage to keep the sla between a csn: cloud service broker and a 
+csc.  
+various csps in the market can register their services with t he csn: cloud service broker. 
+different csps can register services, which provide the same functionalities to the csn: cloud 
+service broker. the csn: cloud service broker registers a catalogue which describes integrated 
+cloud service based on multiple clou d services from the different csps. the registered 
+catalogue is provided as a new integrated cloud service through the csn: cloud service broker. 
+the csc selects a cloud service from the csn: cloud service broker's product catalogue and use 
+that cloud service according to sla.   
+(1) the csn: cloud service broker monitors the integrated cloud service in real time to 
+check whether it satisfies the sla. in addition, real-time monitoring is performed on a 
+

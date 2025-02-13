@@ -1,0 +1,12 @@
+7 security  
+ 
+1042 
+summary 
+recommendation itu-t x.1631  | iso/iec 27017  provides guidelines for information security controls 
+applicable to the provision and use of cloud services by providing: 
+– additional implementation guidance for relevant controls specified in iso/iec 27002; 
+– additional controls with implementation guidance that specifically relate to cloud services. 
+this r ecommendation | international standard provides controls and implementation guidance for both 
+cloud service providers and cloud service customers. 
+ 
+  

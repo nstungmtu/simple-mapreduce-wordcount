@@ -1,0 +1,58 @@
+1 framework and requirements for cloud computing  
+ 
+206  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+27 circulation of air flow  – [b-ocp 1s] provides air flow set as 'the card level air baffle must be 
+designed to help maintain temperatures of all major components on the 
+server card by reducing bypass air and increasing airflow through key 
+components' in clause 6.6. 
+– [b-ocp 2s] provides airflow set as 'the unit of airflow (or volumetric flow) 
+used for this spec is cfm (cubic feet per minute).the maximum allowable 
+airflow per watt in the system must be 0.107' in clause 10.2.26. 
+– [b-ocp jbog] provides system airflow set as 'the unit of airflow 
+(or volumetric flow) used for this spec is cfm (cubic feet per minute). the 
+maximum allowable airflow per watt in the system must be 0.14 at sea 
+level' in clause 8.2.3. 
+– [b-ocp sj] provides cooling set as 'to meet thermal reliability requirement, 
+the thermal and cooling solution should dissipate heat from the 
+components when system operating at its maximum thermal power' in 
+clause 11. 
+– [b-ocp yose] provides airflow set as 'the unit of airflow (or volumetric flow) 
+used for this spec is cubic feet per minute (cfm)' in clause 8.2.5.  
+28 interconnect network 
+supports 
+– [b-etsi eve007] provide interconnect network supports as 'support links of 
+types other than ethernet' in clause 5.4.2. 
+– [b-ocp 1s] provides interconnect set as 'when the soc's integrated network 
+controller is used as a shared nic, its smbus is routed to connector a as the 
+sideband interface' in clause 7.9.1. 
+– [b-ocp 2s] provides interconnect set as 'high speed mid-plane is mid-plane 
+with power delivery, plus high speed interconnect on mid-plane' in 
+clause 12.3. 
+– [b-ocp jbog] provides interconnect set as 'for jbog with 8x gpus in sxm2 
+form factor, it shall support nvlink interconnection shown below' in 
+clause 4.3. 
+29 sharing process unit 
+component 
+– [b-ocp 2s] provides share spi bus set as 'a secondary identical bios chip is 
+designed in sharing the same spi bus with multiplexedcs pin' in clause 6.1.  
+ – [b-ocp obios] provides share io set as 'ata controllers running in native 
+mode use their pci interrupt for both channels and can share this interrupt 
+with other devices in the system, like any other pci device' in clause 7.3.1.2.  
+30 network topology – [b-ocp ocsb] provides topology set as 'cpu-to-tray backplane mezzanine 
+pcie link topology' in clause 7.1. 
+31 configuration of 
+multiple processing 
+units 
+– [b-ocp 1s] provides configuration set as 'set bridge ic configuration' in 
+clause 9.7.10, table 6. 
+– [b-ocp 2s] provides configuration set as 'vendor should provide utility 
+under centos to perform vr configuration change. configuration change 
+should take effect without ac cycling node' in clause 15.3.4. 
+– [b-ocp obios] provides multi process configuration set as 'the intel xeon  
+scalable processor is implemented with 1 or more cores with each core 
+capable of supporting intel ht technology. the result is multiple logical 
+processors in a physical package' in clause 4.13. 

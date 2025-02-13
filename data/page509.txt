@@ -1,0 +1,48 @@
+cloud computing management 2 
+ 
+  501 
+6.3 cloud service lifecycle management stages 
+a cloud service is managed differently in the various stages of its lifecycle. at a high level view, the lifecycle 
+of the cloud service includes four stages: design, deployment, op eration and retirement. the term stage is 
+used to designate the various steps in this overall process. particular tasks in each stage and how to control 
+the level of independence or interaction from one stage to another stage var y from one organization to 
+another.  
+the tasks in each stage depend on development process considerations (e.g., software development, testing, 
+deployment, etc.) and operational or business considerations (e.g. , how a software component becomes a 
+service in the organization and what  are the resulting constraints that are then imposed on the software). 
+such considerations are part of csp operational style. this clause presents the basic stages description below 
+but in reality, the involved roles and implementation will vary based on the actual conditions. 
+the cloud service lifecycle management stages are as follows: 
+1) stage 1: design 
+the service design metadata is built or the existing one is modified by creating new versions or variants in 
+order to capture at the service level the necessary artefacts to support the business considerations.  
+during the design stage, the necessary service process specification, template, rules, etc. are created and 
+developed for the operation stage. policies and their enforcement points are also defined for different service 
+conditions.  
+2) stage 2: deployment 
+the more specific service deployment metadata specialized from the same service design metadata is built. 
+it is typically done by associating specific values or value ranges for each invariant non -functional 
+characteristic. several sets of service deployment metadata associated with the same service design 
+metadata constitute in a sense a specific family of related service deployment metadata. th ese service 
+deployment metadata sets will be mapped to different product offerings and will be used as essential entry 
+points during the fulfilment process.  
+3) stage 3: operation 
+this stage covers all the activities related to the actual instantiation , monitoring, analysis and feedback to 
+design stage of each service. the management tasks of this stage actually involve two aspects:  
+a) the cloud service itself (seen as a coordinated set of resources in the execution environment 
+from one or several domains); 
+b) the cloud service operation metadata, which is the unique representation of the service in the 
+management infrastructure of the csp. 
+the o peration stage includes the service instantiation and delivery process, during which, the designed 
+templates and policies are distributed to the involved roles. the service is instantiated based on csc's request 
+and csp 's infrastructure condition. the monitoring control mechanism is set up along with the service 
+instantiation. 
+the automation of configuration is also provided in this stage, including the initial and subsequent changes. 
+to achieve automation, the inventory, monitoring and control functions are activated. 
+during the whole operation stage, the monitoring activities are performed via event listening; co mputing 
+analysis is enforced based on data collection. the event, requiring healing and/or scaling, is published, based 
+on pre -defined policies. the actions (healing and/or scaling) are preformed to implement the changed 
+demands. 
+based on the analytical data obtained during the operation stage, the patterns governing usage, thresholds, 
+events, policy effectiveness, etc., are discerned and the feedback necessary to effect changes in the design 
+stage is enabled. 

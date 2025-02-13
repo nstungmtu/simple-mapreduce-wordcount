@@ -1,0 +1,35 @@
+ framework and requirements for cloud computing 1 
+ 
+   337 
+table i.3 – e-commerce platform big data analysis 
+title e-commerce platform big data analysis 
+description consumers shop online using an e-commerce platform, including search and checking of 
+product information. the csc:bdsu (e-commerce platform providers) use big data applications 
+to implement backend supporting services, such as product recommendations, sales volume 
+prediction, user behaviour analysis, etc. customers get online shopping related services, such as 
+authentication, products searching, checking, ordering and shipping through the front -end 
+functions of the e-commerce platform. the e-commerce provider manages (creates, reads, 
+updates and deletes) the information about products and inventory information through back -
+end functions of the e-commerce platform. related big data application services are built upon 
+the private or public big data infrastructure provided by the csp:bdip. the operational data of 
+the e-commerce platform is collected, stored and pre-processed by the csp:bdip. in addition 
+the csp:bdap analyses the operational data to give the prediction information.  
+privacy rules are followed, if applicable. 
+roles/sub-roles – csn:dp 
+– csp:bdap 
+– csp:bdip 
+– csc:bdsu 
+figure 
+ 
+pre-conditions – the csn:dp can provide user consumption behaviour data such as shopping frequency, 
+often purchased items, payment capacity, etc. 
+post-conditions – the csp:bdap can have responsibility for providing analysis result of user consumption 
+behaviour data such as prediction information and user behaviour analysis. 
+– the csc:bdsu gives accurate and personalized sales and promotions such as product 
+recommendations, sales volume prediction and user behaviour analysis.  
+derived 
+requirements 
+– data collection (refer to clause 8.1, requirements, 3, 6) 
+– data analysis (refer to clause 8.4, requirements 8, 9, 12) 
+– data management (refer to clause 8.7, requirement 5) 
+

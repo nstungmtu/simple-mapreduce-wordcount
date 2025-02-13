@@ -1,0 +1,33 @@
+ framework and requirements for cloud computing 1 
+ 
+   275 
+bibliography 
+ 
+[b-itu-t e.107]   recommendation itu-t e.107 (2007), emergency telecommunications 
+service (ets) and interconnection framework for national implementations 
+of ets. 
+[b-itu-t m.60]   recommendation itu-t m.60 (1993), maintenance terminology and 
+definitions. 
+[b-itu-t q.1741.7]  recommendation itu-t q.1741.7 (2011), imt-2000 references to release 9 
+of gsm-evolved umts core network. 
+[b-itu-t y.1271]   recommendation itu-t y.1271 (2014), framework(s) on network 
+requirements and capabilities to support emergency telecommunications 
+over evolving circuit-switched and packet-switched networks. 
+[b-itu-t y.2201]   recommendation itu-t y.2201 (2009), requirements and capabilities for 
+itu-t ngn. 
+[b-itu-t y.2205]   recommendation itu-t y.2205 (2011), next generation networks – 
+emergency telecommunications – technical considerations. 
+[b-itu-t y.2701]   recommendation itu-t y.2701 (2007), security requirements for ngn 
+release 1. 
+[b-itu-t y.3011]   recommendation itu-t y.3011 (2012), framework of network 
+virtualization for future networks. 
+[b-ietf rfc 3530]   ietf rfc 3530 (2003), network file system (nfs) version 4 protocol. 
+[b-ietf rfc 3720]   ietf rfc 3270 (2004), internet small computer systems interface (iscsi). 
+[b-ietf rfc 5905]   ietf rfc 5905 (2010), network time protocol version 4: protocol and 
+algorithms specification. 
+[b-tohoku]    accj (2011), responding to the greater tohoku disaster: the role of the 
+internet and cloud computing in economic recovery and renewal. accj 
+internet economy task force. 
+ 
+ 
+ 

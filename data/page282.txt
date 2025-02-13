@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+274  
+appendix iv 
+ 
+considerations on supporting of ets 
+(this appendix does not form an integral part of this recommendation.) 
+[b-itu-t y.1271] specifies the network requirements and capabilities to support ets over both circuit -
+switched and packet -switched networks. annex a of [b-itu-t y.1271] contains the list of functional 
+requirements and categorizes them as essential and optional. support for these requirements is needed for 
+the scenario of when an ets is offered by the csp. 
+the requirements in [b-itu-t y.1271] can be separated into those relevant to the networking resources and 
+those relevant to core transport network(s). some requirem ents are applicable both for resources and for 
+transport network(s). this clause considers the requirements for the network ing resources category using 
+the general requirements in clauses 8.1 and 8.2. the requirements relevant for network ing resources from 
+[b-itu-t y.1271] include: enhanced priority treatment, location confidentiality, restorability, interoperability, 
+survivability/endurability, scalable bandwidth, reliability/availability and preferential treatment in 
+congestion control measurement. 
+a cloud supporting ets needs to be robust and able to support customers despite widespread damage. 
+another requirement is the restoration of access to cloud infrastructure resources including links connecting 
+to the cloud. the processing nodes (virtual or physical) are to be restored quickly if damage to infrastructure 
+resources occurs. 
+cloud infrastructure resources need to adapt quickly for emergency applications, an adaptation that equates 
+to application acceleration as noted in clause 8.1. because ets have requirements for different policies (qos, 
+security, traffic), the migration requirements in clause 8.1.5 are necessary to guarantee the slas among ets 
+customers and their csps. 
+the requirements, from [b-itu-t y.1271], specifically relevant to the support of ets in core networks include: 
+secure networks, restorability, network connectivity, mobility, coverage, survivability (connections), voice 
+and data transmission, scalable bandwidth and reliability. some of these requirements are applicable to both 
+networking resources and the core transport network. 
+the requirements of clause 8. 1, in relation to ets, apply to ubiquitous coverage and therefore have the 
+potential to preclude the need to establish special facilities after the occurrence of an emergency or disaster. 
+reliability considerations of clause 8. 1, in relation to ets, are necessary for the network infrastructure to 
+support survivability and endurability. 
+in support of ets, the network should be smart enough for high priority applications. some aspects of cloud 
+services may be applicable to the offerings of priority services to facilitate disaster recovery functions, such 
+as locating survivors and providing vital situational awareness information to government first respo nders 
+and relatives of survivors affected by a disaster. cloud computing can support complex modelling, analysis 
+and rendering images to the first responders of disasters. [b-tohoku] 
+rapid authentication of authorized users for ets implies awareness of the  user/terminal attributes 
+(subscriber profile data) and at the same time prevents unauthorized access, denial of service attacks and 
+protection from intrusion. 
+ 
+ 

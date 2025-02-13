@@ -1,0 +1,33 @@
+framework and requirements for cloud computing 1 
+ 
+   125 
+appendix i 
+ 
+use case of data storage federation 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 storing a user file dispersedly 
+title storing a user file dispersedly 
+description in this scenario, a data storage customer having two data storages on dsf local storage requests 
+a large file storing from a dsf service provider. the dsf service provider splits the file into 
+several parts in case that dsf local storage have not enough space (case 1) or needs to access it 
+in parallel for better performance (case 2) and stores the parts into different distributed dsf 
+local storages.  
+role/sub-role dsf service provider (csp:sfp) 
+dsf service customer (csc:csu) 
+figure (optional) case 1: limited capacity of data storage in dsf local storage  
+ 
+case 2: csc:csu's parallel access requirement 
+ 
+pre-conditions 
+(optional) 
+– csp:sfp is available to access dsf local storage. 
+– csc:csu requests a single virtual volume to csp:sfp. 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.1 requirement (2) 
+– clause 8.4 requirement (2) 
+– clause 8.1 requirement (4) 
+

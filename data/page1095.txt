@@ -1,0 +1,43 @@
+ assisting developing countries 8 
+ 
+   1087 
+table of contents 
+ 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this supplement 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview 
+6.1 key characteristics 
+6.2 deployment models 
+6.3 service categories 
+6.4 benefits of cloud computing 
+7 questionnaire findings 
+7.1 questionnaire respondents 
+7.2 deployment of cloud computing in developing countries 
+7.3 applications and services 
+7.4 infrastructure requirements 
+7.5 costs associated with cloud computing adoption 
+8 cloud computing requirements in developing countries 
+8.1 standardization requirements 
+8.2 human resources 
+8.3 data centres 
+8.4 electricity supply 
+8.5 network infrastructure 
+8.6 trust 
+9 challenges of cloud computing adoption 
+9.1 lack of regulatory framework for cloud computing services 
+9.2 security and privacy concerns 
+9.3 infrastructure needs 
+9.4 capacity building 
+9.5 quality of service 
+9.6 compliance limitations 
+9.7 high cost of broadband internet 
+10 general recommendations on adoption of cloud computing by developing countries 
+10.1 regulatory framework 
+10.2 standards adoption 
+10.3 basic broadband infrastructure 
+10.4 internet exchange points 

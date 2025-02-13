@@ -1,0 +1,39 @@
+2 cloud computing management  
+ 
+540  
+table i.6 – data policy language 
+figure (optional) 
+ 
+cppl: compact privacy policy language 
+pre-conditions (optional) the csp (naas), csps (paas) and csp (saas) form an inter-cloud relationship to optimize 
+their own resources and leverage area of service availability. 
+post-conditions 
+(optional) 
+the csp (naas) establishes service chaining (here vhgw) between the csc (paas ) and 
+csp (saas). 
+the csp (naas) uses data policy language. 
+the csp (naas) reallocates service (here access to internet) between csps in the 
+federation if kpis drop below threshold (e.g., energy efficiency, resource optimization).  
+derived requirements data policy language (see clause 7.1) 
+i.7 use case of csc data policy implementation in inter-cloud 
+this use case illustrates inter -cloud data policy processing and usage aspects between csc and csp or 
+between csps. the inter-cloud intermediary pattern used to illustrate the use case is an example only. 
+table i.7 – csc data policy implementation in inter-cloud 
+title csc data policy implementation in inter-cloud 
+description the csp (naas) offers access to internet (service) over virtual home gateway (vhgw) 
+facilities using network functions virtualization (nfv) and software-defined networking 
+(sdn) technologies. the csp (naas) is involved in an inter-cloud intermediary pattern 
+with two peer csps (paas), i.e., csp1 (paas) and csp2 (paas). the csp (naas) respects 
+data policy related to vhgw data in the inter-cloud environment. the csp (naas) uses 
+inter-cloud data policy management to process and use inter-cloud data. the csp (naas) 
+lets the csc provide data policy related to csc workloads passing into the inter-cloud 
+environment. the idpap acts as access control for csc data policies. the data policies 
+are stored at the idpip . the idpdp collects information about available resources and 
+corresponding policies of peer csps to be able to decide which csp can process and use 
+vhgw data. the idpep establishes the service (here vhgw) between the csp (naas) and 
+one of csp1 (paas) and csp2 (paas) selected by the dpdp . the idpep is responsible for 
+monitoring the inter-cloud environment and fulfilment of csc data policy. in the case of 
+violation, the idpep triggers the idpdp to establish the service (here vhgw) between 
+the csp (naas) and other csps, which fulfils the csc data policy. 
+roles csc, csp (naas), csp1 (paas), csp2 (paas) 
+

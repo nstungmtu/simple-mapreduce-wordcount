@@ -1,0 +1,48 @@
+7 security  
+ 
+1066 
+13 communications security 
+13.1 network security management 
+the objective specified in clause 13.1 of iso/iec 27002 applies. 
+13.1.1 network controls 
+control 13.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+13.1.2 security of network services 
+control 13.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+13.1.3 segregation in networks 
+control 13.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should define its 
+requirements for segregating networks to achieve 
+tenant isolation in the shared environment of a cloud 
+service and verify that the cloud service provider meets 
+those requirements. 
+the cloud service provider should enforce segregation 
+of network access for the following cases: 
+– segregation between tenants in a multi-tenant 
+environment; 
+– segregation between the cloud service provider's 
+internal administration environment and the cloud 
+service customer's cloud computing environment. 
+where appropriate, the cloud service provider should 
+help the cloud service customer verify the segregation 
+implemented by the cloud service provider. 
+other information for cloud services 
+laws and regulations can require the segregation of networks or the isolation of network traffic. 
+13.2 information transfer 
+the objective specified in clause 13.2 of iso/iec 27002 applies. 
+13.2.1 information transfer policies and procedures 
+control 13.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+13.2.2 agreements on information transfer 
+control 13.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+13.2.3 electronic messaging 
+control 13.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+13.2.4 confidentiality or non-disclosure agreements 
+control 13.2.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 

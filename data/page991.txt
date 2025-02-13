@@ -1,0 +1,132 @@
+ 
+  
+security 7 
+ 
+ 983 
+appendix i 
+ 
+mapping of cloud computing security threats and challenges to security capabilities 
+(this appendix does not form an integral part of this recommendation.) 
+table i.1 shows a mapping of cloud computing security threats and challenges to some of the possible security capabilities. 
+the letter 'y' in a cell formed by the intersection of the table's columns and rows designate that a particular security threat and challenge is addressed by a 
+corresponding security capability. 
+table i.1 – mapping of cloud computing security threats and challenges to security capabilities 
+ 
+clause 9 cloud computing security capabilities 
+clause9.1 
+trust model 
+clause 9.2 identity 
+and access 
+management 
+(iam), 
+authentication, 
+authorization and 
+transaction audit 
+clause 9.3 
+physical 
+security 
+clause 9.4 
+interface 
+security 
+clause 9.5 
+computing 
+virtualization 
+security 
+clause 9.6 
+network 
+security 
+clause 9.7 data 
+isolation, 
+protection and 
+confidentiality 
+protection 
+clause 9.8 
+security 
+coordination 
+clause 9.9 
+operational 
+security 
+clause 9.10 incident 
+management 
+clause 9.11 
+disaster 
+recovery 
+clause 9.12 
+service security 
+assessment and 
+audit 
+clause 9.13 
+interoperability, 
+portability and 
+reversibility 
+clause 9.14 
+supply chain 
+security 
+clause 7 
+security 
+threats 
+for cloud 
+compu-
+ting 
+clause 7.1 
+security 
+threats for 
+cloud 
+service 
+customers 
+(cscs) 
+clause 7.1.1 
+data loss 
+and leakage 
+y y y    y    y    
+clause 7.1.2 
+insecure 
+service 
+access 
+y y  y y y         
+clause 7.1.3 
+insider 
+threats 
+ y y         y   
+clause 7.2 
+security 
+threats for 
+cloud 
+service 
+providers 
+(csps) 
+clause 7.2.1 
+unautho-
+rized 
+administra-
+tion access 
+y y y y           
+clause 7.2.2 
+insider 
+threats 
+ y y         y   
+clause 8 
+security 
+challenge
+s for 
+cloud 
+compu-
+ting 
+clause 8.1 
+security 
+challenges 
+for cloud 
+service 
+customers 
+(cscs) 
+clause 8.1.1 
+ambiguity 
+in responsi-
+bility 
+ y       y      
+clause 8.1.2 
+loss of trust y           y   
+clause 8.1.3 
+loss of 
+governance 
+ y y    y  y y y y   

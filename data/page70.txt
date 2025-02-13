@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+62  
+the use cloud service activity typically involves: 
+1) the provision of user credentials to enable the cloud service provider to authenticate the user and 
+grant access to the cloud service; 
+2) the invocation of the cloud service, which then operates and delivers its specified outcomes. 
+8.2.2.2 perform service trial 
+the perform service trial activity involves using the services of a cloud service provider in order to ensure 
+that the cloud service is fit for the cloud service customer's business needs. the cloud services are used on 
+a trial basis, with mutual agreement an d understanding between the cloud service provider  and cloud 
+service customer. 
+the perform service trial activity involves: 
+1) the provision of the user credentials to enable the cloud service provider to authenticate the user 
+and grant access to the "trial" cloud service; 
+2)  the invocation of the "trial" cloud service, which can be tested by the cloud service customer for 
+business purposes. 
+8.2.2.3 monitor service 
+the monitor service activity monitors the delivered service quality with respect to service levels as defined 
+in the service level agreement  (sla) between cloud service customer  and cloud service provider . this 
+activity utilizes intrinsic monitoring functions of the cloud system. this activity involves: 
+• keeping track of how much use is being ma de of each cloud service , and by which users. this 
+includes assurance that the use is appropriate; 
+• monitoring the integration of the cloud services with customer's existing ict systems to ensure that 
+business goals are being met; 
+• defining measurement points and performance indicators related to the service in question (e.g., 
+service availability, service outage frequency, mean time to repair, responsiveness of the provider's 
+help desk, etc.); 
+• monitoring, analysing and archiving of these indicator data; 
+• comparing the actual service quality that is delivered with the agreed service quality.  
+8.2.2.4 administer service security 
+the administer service security activity involves: 
+• ensuring appropriate security for cloud service customer data that is placed into a cloud computing 
+environment  
+• putting in place plans for data backup and recovery, and potentially for data duplication and failover; 
+• administering security policies; 
+• defining encryption and integrity technologies to apply to the cloud service customer data both at 
+rest and also in motion;  
+• defining the handling of any personally identifiable information (pii) in the cloud service customer 
+data. 
+8.2.2.5 provide billing and usage reports 
+the provide billing and usage reports activity involves preparing reports of the usage of cloud services by the 
+customer organization and associated reports of the billing/invoice data which relate to that usage. these 
+reports are provided to the csc:business manager. 
+8.2.2.6 handle problem reports 
+the handle problem reports activity involves the customer -side handling of any reported problems 
+associated with the usage of cloud services. this includes: 
+• assessing the impact of each problem; 

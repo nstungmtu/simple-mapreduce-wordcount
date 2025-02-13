@@ -1,0 +1,48 @@
+cloud computing management 2 
+ 
+  523 
+provider edge (pe) devices. the service staff also collects configuration information such as port/frame/slot 
+of pe  and the  pe id, and then send s the collected information back to the management system.  the 
+management system then configures the network according to t his information, as well as the naas csc 's 
+information (e.g., bandwidth, sla). the problem with this approach is that the service staff needs to collect 
+the connection information and feed it back to the management system, and they must make sure that the 
+collected information matches the actual connection. this process is error prone. 
+new approaches should not count on the physical/ geographical information feedback by the service staff 
+and should minimize the operation al procedures. the ce should send an authentication request (with 
+credentials) to the pe, and the pe should forward the request to the management system, together with the 
+port/frame/slot on which the request is received, the pe id, etc. the goal is that naas csp configures a vpn 
+for an enterp rise naas csc to connect its enterprise network. the naas resource data model needs to be 
+used in this scenario for modelling the physical nodes and links. 
+the naas service data model, specifically for l3vpn, is needed to model the l3vpn attributes, including, but 
+not limited to: tenant id, vpn site ids, vpn type and access bandwidth. 
+here, the naas policy data model can be described as follows, using eca policy. 
+– event: service management system receives a ce request for vpn creation (forwarded by pe); 
+– condition: authentication and authorization results are acknowledged; 
+– action: configure a vpn based on received request s, including the naas csc 's grade and physical 
+information (port/slot/frame/route id, etc.) from which the request is received. 
+bibliography 
+ 
+[b-itu-t y.3300] recommendation itu-t y.3300 (2014), framework of software-defined networking. 
+[b-itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-bpel]   oasis bpel 2.0 (2007), web services business process execution language 
+version 2.0. 
+<http://docs.oasis-open.org/wsbpel/2.0/wsbpel-v2.0.html> (last accessed 28 june 
+2019) 
+[b-l2sm]   ietf rfc 8466 (2018), a yang data model for layer 2 virtual private network 
+(l2vpn) service delivery. 
+[b-l3sm]   ietf rfc 8299 (2018), yang data model for l3vpn service delivery. 
+[b-onap]   onap, open network automation platform. https://www.onap.org/ 
+(referenced 28 06 2019). 
+[b-supa]   ietf rfc 8328 (2018), policy-based management framework for the simplified use of 
+policy abstractions (supa). 
+[b-tocsa]   oasis tosca 1.0 (2013), topology and orchestration specification for cloud 
+applications version 1.0. 
+<http://docs.oasis-open.org/tosca/tosca/v1.0/tosca-v1.0.html> (last accessed 
+28 june 2019) 
+[b-yang]   ietf rfc 6020 (2010), yang – a data modeling language for the network 
+configuration protocol (netconf). 
+[b-zsm]   etsi isg zsm, industry specification group zero touch network and service 
+management. 
+<https://portal.etsi.org/tb.aspx?tbid=862&subtb=862,863> (last accessed 28 june 
+2019) 

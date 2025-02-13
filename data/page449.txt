@@ -1,0 +1,31 @@
+cloud computing management 2 
+ 
+  441 
+10.3.2.4  service test management 
+this set of functionalities allows a csp to test the quality of services. they allow collect and compare quality 
+and performance related indicators. the results can be optionally available to interested parties. this includes 
+the following functionalities: 
+1) service test strategy and policy management. this functionality manages the rules that define the 
+strategies for conducting various service tests; 
+2) service test lifecycle management. this functionality manages the e2e lifecycle of a service test; 
+3) service test command and control. this functionality provides access, commands, and controls the 
+service testing environment; 
+4) service test services. this functionality provides the means to access the testing capabilities. 
+10.3.3  service repositories functionalities 
+this set includes functionalities for service catalogue management and service inventory management. 
+the role of particular functionalities is described below. 
+10.3.3.1 service catalogue management 
+this set of functionalities allows the csp to list and manage available services. 
+10.3.3.2  service inventory management 
+this set of functionalities allows the csp to maintain information about already deployed and provided cloud 
+services. it may also store and manage service relationships: the mapping to other services and/or service 
+components as well as the mapping to resources used to implement a particular service. 
+10.4 functionalities for cloud computing resource management 
+this clause identifies functionalities related to resource management for the support of cloud services. these 
+include resource fulfilment, resource assurance, resource charging and accounting and resource repositories 
+functionalities. these functionalities related to resource management are presented in figure 10-5. 
+note – "resource order management" corresponds to the process of taking, organizing, tracking and satisfying resource 
+requests for the support of cloud services provided by a csp. 
+ 
+figure 10-5 – functionalities related to cloud computing resource management 
+

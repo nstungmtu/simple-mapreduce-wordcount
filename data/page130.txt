@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+122  
+8 functional requirements for data storage federation 
+this clause describes the requirements for data storage federation. 
+8.1 storage connection requirements 
+(1) it is required that csp:sfp provide an interface to connect dsf local storage. 
+note 1 – the interface to dsf local storage refers to the direct interfaces (i.e., object or block storage 
+interface), or a proxy interface to configure several types of storages interface with a software program.  
+note 2 – the software program includes software agent, daemon, web worker and restful api for an 
+interface to dsf local storage. 
+note 3 – the proxy interface connec ts dsf local storage by automatically detecting the interface with a 
+software program. 
+(2) it is required that csp:sfp provide a user interface for csc:csu to use a single virtual volume. 
+note 4 – user interface includes graphical user interface, web appli cation, or specific client for csc:csu  to 
+access a single virtual volume. 
+(3) it is recommended that csp:sfp support the change of csc:csu's access mechanism according to 
+the storage type of single virtual volume. 
+(4) it is required that csp:dmp provide translation between data operation and a corresponding 
+interface of dsf local storage. 
+note 5 – corresponding interface include api, i/o interface, etc. 
+(5) it is recommended that csp:sfp provide a secure access mechanism to use a single virtual volume 
+for csc:csu. 
+(6) it is required that csp:dmp provide the registration of the csc:csu's requirements. 
+note 6 – the requirements of csc:csu include data storage capacity, access mechanism, storage types of 
+single virtual volume, policy, etc. 
+(7) it is required that csp:sfp p rovide the seamless connection of dsf local storage interface to 
+communicate with dsf local storage. 
+8.2 data manipulation requirements 
+(1) it is required that csp:dmp provide the execution of csc:csu's create, read, update, delete (crud) 
+data operation. 
+note 1 – crud data operation includes create, read, update and delete data. 
+(2) it is required that csp:dmp provide a search data operation from csc:csu's data using query to a 
+global registry.  
+(3) it is recommended that csp:dmp provide a sharing data operation by updating of sharing status of 
+dsf data in a global registry after checking sharing status of dsf data. 
+note 2 – data sharing means that the same dsf data is shared during data operation.  
+note 3 – sharing status of dsf data is information about whether dsf data is shared or not. 
+(4) it is recommended that csp:dmp provide the capacity saving of data storage using de -duplication 
+of dsf data. 
+(5) it is recommended csp:dmp provide dsf data encryption/decryption for data transfer to dsf local 
+storage. 
+(6) it is required that csp:dmp provide data recovery of csc:csu from system failure. 
+note 4 – data recovery refers to restoring the most recently used csc:csu's data preventing data loss due to 
+errors from the storage and network connection failure. 
+(7) it is recommended that csp:dmp provide dsf data migration to available dsf local storage for 
+resilience and cost efficiency of the storage space. 
+note 5 – the data migration for the resilience and cost efficiency of the data storage space is automatically 
+performed without user intervention or recognition.  

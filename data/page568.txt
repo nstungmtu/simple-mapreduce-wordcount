@@ -1,0 +1,40 @@
+3 xaas  
+ 
+560  
+appendix i 
+ 
+relationship between daas logical components and the cloud computing 
+reference architecture 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides the relationship between daas logical components, which are described in clause 6.2, 
+and the cloud computing reference architecture [b-itu-t fgcc2].  
+y .3503(14)_fi.1
+access layer
+services layer
+resource and network layer
+user layer
+daas client
+connection
+manager
+virtual desktop
+delivery
+virtualization
+infrastructure
+resource
+pool
+ 
+figure i.1 – an example of location of daas logical components within the layers of the  
+cloud computing reference architecture 
+figure i.1 shows an example of the location of the daas logical components , which are related to layers in 
+the cloud computing reference architecture. 
+since the user layer provides the user interface between csc and csp, the daas client logical component can 
+be related to this layer in that a daas csc accesses the virtual desktop through this component.  
+the capability to provide the connection between d aas cscs and virtual desktops is the main role of the 
+connection manager. this daas logical component corresponds to the access layer of the cloud computing 
+reference architecture. 
+the virtual desktop delivery daas logical component facilitates the implementation of the virtual desktop by 
+employing a delivery protocol. therefore, this daas logical component is related to the services layer of the 
+cloud computing reference architecture. 
+the resource pool and the virtualization infrastructure as daas logical components provide an abstraction of 
+software and hardware resources. these two daas logical components are related with the resource and 
+network layer of the cloud computing reference architecture. 

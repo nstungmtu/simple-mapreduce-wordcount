@@ -1,0 +1,50 @@
+2 cloud computing management  
+ 
+530  
+5 conventions 
+in this recommendation: 
+the keywords ''is required to '' indicate a req uirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords ''is recommended'' indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+6 overview of inter-cloud data management 
+nowadays, one of the main challenges for cloud service providers (csps) is to ensure credibility of data storage 
+and transport in multi -cloud environments. inter-cloud data management functions need to consider and 
+reflect security and governance aspects of data handling uniformity and interoperability across different csps. 
+inter-cloud data categorization in aspects of identification qualifiers and dependency, a s well as inter-cloud 
+data annotation, processing and usage, is necessary to attain the data treatment required among multiple 
+csps. the appropriate security and access control mechanisms determine access control to inter-cloud data 
+under particular conditions (e.g., temporarily, a certain number of times or related to a particular community 
+and context). 
+with the development and wide usage of big data -related technologies, more and more data and d atasets 
+are stored in geographically distributed and heterog eneous computing environments, also known as inter -
+cloud environments (e.g., in a high -performance computing scenario). migrating an application from a 
+centralized or static place to the distributed computing environments may bring the following challenges: 
+1) transmission of intensive data among different csps may cause low data access efficiency; 
+2) heterogeneous dataset access and sharing may bring extra computation consumption; 
+3) the necessary  and unavoidable maintenance of extensive tracking of metada ta, data locations, 
+access control policies, etc. 
+ note – intensive data transmission and heterogeneous dataset access and sharing -related technologies lie 
+outside the scope of this recommendation. 
+[itu-t y.3601] specifies the big data exchange framework and requirements based on the big data ecosystem 
+and capabilities specified in [itu -t y.3600]. in [itu -t y.3601], data exchange is described as a process of 
+receiving source data under a source schema from data source, transforming it into target data under a target 
+schema without altering the representation of source data, and delivering the target data to the data target. 
+this recommendation focuses on the inter-cloud data management aspects and does not aim to specify any 
+concrete data exchange details. f or more information about big data exchange,  please refer to 
+[itu-t y.3601]. 
+6.1 inter-cloud data categorization 
+[b-iso/iec 19944] identifies the categories of data that flow across cloud service customer (csc) devices and 
+cloud services, and can be captured, processed, used and shared. it extends the definitions of csc data, cloud 
+service-derived data, csp data and account data. this  recommendation follows the taxonomy of data in 
+[b-iso/iec 19944] and focuses on the inter -cloud data aspect. similarly to [b -iso/iec 19944], this 
+recommendation is not intended to be exhaustive, but is intended to be extensible. it is recommended that 
+the hierarchical relationship based on the four topmost catego ries defined in [b -iso/iec 19944] be 
+maintained. 
+6.2 data policy language 
+the data policy language (dpl) allows csps to annotate, manage, process and use csc or csp data in an inter-
+cloud environment (who can do what and when) according to data policies in force. the main challenges for 
+dpl are related to small storage footprint, human readability, detection of conflicts at time of specification, 
+performance and adaptation to new policy statements that come up with emerging inter -cloud services. 
+the dpl expresses inter-cloud data policies for different cloud service categories [e.g., naas, saas, platform 
+as a service (paas)] provided by the csps in an inter-cloud environment. 

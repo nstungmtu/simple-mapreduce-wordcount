@@ -1,0 +1,47 @@
+8 assisting developing countries  
+ 
+1090  
+1 scope 
+the scope of this supplement to itu -t y.3500-series is to study and present the situation relating to the 
+application of cloud computing services in developing countries, the obstacles encountered and the facets 
+that would stimulate assimilation of cloud computing services based on experiences from these countries. 
+the supplement also highlights the current requirements for provision and deployment of cloud computing 
+services and to what extent cloud computing standards are applied in developing countries. 
+2 references 
+[itu-t x.1258]  recommendation itu-t x.1258 (2016), enhanced entity authentication based on 
+aggregated attributes. 
+[itu-t l.1300]  recommendation itu-t l.1300 (2014), best practices for green data centres. 
+[itu-t l.1301]  recommendation itu -t l.1301 (2015), minimum data set and communication 
+interface requirements for data centre energy management. 
+[itu-t l.1302]  recommendation itu -t l.1302 (2015), assessment of energy efficiency on 
+infrastructure in data centres and telecom centres. 
+[itu-t l.1320]  recommendation itu-t l.1320 (2014), energy efficiency metrics and measurement for 
+power and cooling equipment for telecommunications and data centres. 
+[itu-t x.1601]  recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t x.1602]  recommendation itu-t x.1602 (2016), security requirements for software as a service 
+application environments. 
+[itu-t x.1631]  recommendation itu-t x.1631 (2015), information technology – security techniques – 
+code of practice for information security controls based on iso/iec 27002 for cloud 
+services. 
+[itu-t x.1641]  recommendation itu-t x.1641 (2016), guidelines for cloud service customer data 
+security. 
+[itu-t x.1642]  recommendation itu-t x.1642 (2016), guidelines of operational security for cloud 
+computing. 
+[itu-t y.3051]  recommendation itu-t y.3051 (2017), the basic principles of trusted environment in 
+information and communication technology infrastructure. 
+[itu-t y.3052]   recommendation itu-t y.3052 (2017), overview of trust provisioning for information 
+and communication technology infrastructures and services. 
+[itu-t y.3500]  recommendation itu-t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[itu-t y.3502]  recommendation itu-t y.3502 (2014), information technology – cloud computing – 
+reference architecture. 
+[itu-t y.3503]   recommendation itu-t y.3503 (2014), requirements for desktop as a service. 
+[itu-t y.3510]  recommendation itu-t y.3510 (2016), cloud computing infrastructure requirements. 
+[itu-t y.3511]   recommendation itu-t y.3511 (2014), framework of inter-cloud computing. 
+[itu-t y.3514]  recommendation itu-t y.3514 (2014), cloud computing  – trusted inter -cloud 
+computing framework and requirements. 
+[itu-t y.3520]  recommendation itu-t y.3520 (2015), cloud computing framework for end to end 
+resource management. 
+[iso/iec 27002]  iso/iec 27002:2013, information technology – security techniques – code of practice 
+for information security controls. 
+[tia-942]   tia-942:2017, telecommunications infrastructure standard for data centers. 

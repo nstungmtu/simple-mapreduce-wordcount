@@ -1,0 +1,51 @@
+intercloud and interoperability 5 
+ 
+  899 
+table ii.18 – test case: storage resource reservation 
+storage resource reservation test description 
+test purpose to verify that the csc reserves available storage resource (e.g., storage space and lun)  
+for the vm. 
+reference [itu-t y.3513] clause 7.2.5 
+test sequence step type description result 
+1 stimulus the csc configures storage reservation for vm a, which has 
+guaranteed minimum allocation of storage space.  
+ 
+2 stimulus the csc runs an application to perform heavy consumption 
+of storage usage on vms hosting in the same host except for 
+vm a. the total consumption of storage is close to the 
+amount of the storage available for the host. 
+ 
+3 stimulus the csc performs heavy consumption of storage usage on 
+vm a. 
+ 
+4 check vm a can get the storage resource.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2.5 test case: i/o performance 
+table ii.19 shows the test case for i/o performance. 
+table ii.19 – test case: i/o performance 
+i/o performance test description 
+test purpose to verify that the csc constrains i/o traffic of a particular vm with a specified level. 
+reference [itu-t y.3513] clause 7.2.4 
+test sequence step type description result 
+1 stimulus the csc runs an application to perform heavy reading and 
+writing of storage on vm a. it records the actual iops 
+obtained by vm a. 
+ 
+2 stimulus the csc configures i/o performance limitation for vm a. the 
+iops limit configured is significantly lower than the iops 
+obtained in step 1. 
+ 
+3 stimulus the csc runs an application to perform heavy reading and 
+writing on vm a. 
+ 
+4 check the actual iops obtained by vm a does not exceed the 
+limitation. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2.6 test case: storage life cycle management 
+table ii.20 shows the test case for storage life cycle management. 
+  

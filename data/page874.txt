@@ -1,0 +1,19 @@
+5 intercloud and interoperability  
+ 
+866  
+• infrastructure capabilities type interoperability testing 
+• platform capabilities type interoperability testing 
+• application capabilities type interoperability testing. 
+as shown in figure 1, there are three different target areas of cloud computing interoperability testing as 
+follows: 
+• "csc – csp", dealing with interaction between csc and csp  
+• "csp – csp", dealing with collaboration among different csps 
+• "csp – management", dealing with csp management functions.  
+ 
+figure 1 – target areas of cloud computing interoperability testing 
+also, the cloud architecture in terms of the common set of cloud computing functional co mponents are 
+described in [itu -t y.3502]. figure 2 presents a high level overview of the ccra functional components 
+organized by means of the layering framework. 
+ 
+figure 2 – functional components of the ccra 
+

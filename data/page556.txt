@@ -1,0 +1,11 @@
+3 xaas  
+ 
+548  
+summary 
+as one of cloud computing service categories, desktop as a service (daas) provides cloud service customers 
+with desktop functions remotely delivered by cloud service providers. recommendation itu -t y.3503 
+introduces the concept of daas, and describe s general and functional requirements. to derive those 
+requirements relevant use cases are also presented. 
+keywords 
+desktop as a service, daas, virtual desktop, virtual desktop infrastructure. 
+  

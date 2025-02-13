@@ -1,0 +1,73 @@
+5 intercloud and interoperability  
+ 
+834  
+table i.1 – mapping of inter-cloud computing functional requirements  
+and inter-cloud functions 
+functional requirements specified in [itu-t y.3511] inter-cloud functions in this 
+recommendation 
+9.8 csc 
+information 
+exchange 
+be able to manage csc profiles and associated 
+information. 
+be able to exchange csc profiles and associated 
+information among multiple csps according to a pre-
+determined protocol and format, with the condition 
+that the csc is informed of and agrees to the exchange.  
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+– 7.4.1 authentication and identity 
+management 
+– 7.4.2 authorization and security policy 
+management 
+– 7.4.3 encryption management 
+9.9 primary 
+csp role 
+delegation 
+allow a csp to discover peer csps that are capable of 
+inheriting the primary csp role, and enable the csp to 
+negotiate with these peer csps as to whether they can 
+accept the inheritance. 
+– 7.3.1 peer csp management  
+– 7.3.7 inter-cloud capabilities adaptation 
+9.9 primary 
+csp role 
+delegation 
+allow a csp to transfer its management information 
+associated with the primary csp role in a reliable 
+manner (e.g., periodically) to the peer csps that have 
+accepted the permission transfer with that csp. 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+– 7.4.1 authentication and identity 
+management 
+– 7.4.2 authorization and security policy 
+management 
+– 7.4.3 encryption management 
+9.9 primary 
+csp role 
+delegation 
+allow the controllability of the information associated 
+with the primary csp role to be transferred to the 
+secondary csps with minimum  interruptions. 
+allow a csp to cancel the permission transfer 
+arrangements. 
+– 7.1.1 service subscription management 
+– 7.1.2 billing 
+– 7.3.1 peer csp management 
+– 7.2.5 service automation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.10 inter-
+cloud service 
+handling 
+support service intermediation, i.e., conditioning or 
+enhancing the cloud service of a peer csp. 
+support service aggregation, i.e., providing the 
+composition of a set of services provided by the csps. 
+support service arbitrage, i.e., selecting one service 
+offering from a group offered by the peer csps. 
+– 7.2.8 peer service management 
+– 7.2.1 service catalogue  
+– 7.2.5 service automation 
+– 7.3.7 inter-cloud capabilities adaptation 
+  

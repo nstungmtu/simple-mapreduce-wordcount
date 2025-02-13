@@ -1,0 +1,53 @@
+1 framework and requirements for cloud computing  
+ 
+368  
+[iso/iec 20547-4]  information technology – big data reference architecture – part 4: security 
+and privacy fabric 
+ this international standard (under development) specifies the underlying 
+security and privacy fabric that applies to all aspects of the big data reference 
+architecture including the big data roles, activities, and functional 
+components. 
+[iso/iec 20547-5]  information technology – big data reference architecture – part 5: standards 
+roadmap 
+ this technical report provides big data relevant standards, both in existence 
+and under development, along with priorities for future big data standards 
+development based on gap analysis. 
+[iso/iec 19944]   information technology – cloud computing – cloud services  and devices: 
+data flow, data categories and data use 
+ establish common and functional ways of understanding and describing the 
+breadth of the cloud service ecosystem. 
+ enumerate and define the types of connections that can exist between cloud 
+services and customers where their devices are mobile. 
+ provide foundational concepts necessary to enable others to provide 
+guidance concerning data locality, mobile ecosystem issues, and identity 
+issues. 
+ identify the types of data that flow across the customers and cloud services 
+ecosystem and that can help cloud customers' 
+ url: http://www.iso.org/iso/home/store/catalogue_tc/ 
+catalogue_detail.htm?csnumber=66674 
+[iso/iec 27000]    information technology – security techniques – information security manage 
+systems – overview and vocabulary 
+ this international standard provides the overview of information security 
+management systems, and terms and definitions commonly used in the isms 
+family of standards. this international standard is applicable to all types and 
+sizes of organization (e.g., commercial enterprises, government agencies, 
+not-for-profit organizations). 
+ url: http://www.iso.org/iso/catalogue_detail?csnumber=63411 
+[iso/iec 27001]   information technology – security techniques – information security manage 
+systems – requirements 
+ this internatio nal standard specifies the requirements for establishing, 
+implementing, maintaining and continually improving an information 
+security management system within the context of the organization. this 
+international standard also includes requirements for the a ssessment and 
+treatment of information security risks tailored to the needs of the 
+organization. the requirements set out in this international standard are 
+generic and are intended to be applicable to all organizations, regardless of 
+type, size or nature. 
+ url: https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en 
+[iso/iec 27002]   information technology – security techniques – code of practice for 
+information security controls 
+ this international standard gives guidelines for organizational information 
+security standards and information security management practices including 
+the selection, implementation and management of controls taking into 
+consideration the organization's information security risk environment(s). 
+ url: http://www.iso.org/iso/catalogue_detail?csnumber=54533 

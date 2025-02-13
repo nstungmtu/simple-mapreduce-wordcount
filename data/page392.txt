@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+384  
+7.2 analysis of deliverable to provide its category  
+for the analysis of deliverables from clause 7, this supplement provides an analysis template in the form of 
+a matrix table (see table 7-1). 
+table 7-1 – matrix for analysis of deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category       
+security       
+management       
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+the vertical axis describes the sub - or related technology. the horizontal axis describes the document 
+category which covers the following applicable subjects: 
+– general, definition: the standard which provides a general description or terms and definitions of  
+the technology; 
+– requirements, use cases: the standard which provides use cases and derived general/functional 
+requirements; 
+– architecture: the standard which provides reference architecture; 
+– api, interface, profile: the standard which provides a common interface, api and/or its profile; 
+– data model, format, schema: the standard which provides a data model or protocol including 
+scheme and/or its encoding format; 
+– others (e.g., guidelines, technical reports, etc.). 
+note 1 – the items on the horizontal axis are not subordinate to the different technologies.  
+note 2 – the items of vertical axis can be modified with technology changes. 
+note 3 – a standard has more than one location on a matrix. if a standard includes multiple document (horizontal axis) 
+categories or related technologies (vertical axis), it should be mapped multiple times.  
+8 itu-t sg13 
+8.1 q17 
+table 8-1 provides a list of itu-t q17/ sg13 deliverables associated with cloud computing. 

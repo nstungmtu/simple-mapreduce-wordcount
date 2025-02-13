@@ -1,0 +1,37 @@
+xaas 3 
+ 
+     683 
+the oss-ns functional components encompass the set of operational-related management capabilities that 
+are required in order to manage and control network services offered to customers as part of naas services. 
+see clause 7.8.2.1 for a description of oss-ns functionalities. 
+figure 8-4 shows the oss-ns functional components. 
+ 
+figure 8-4 – oss-ns functional components 
+the oss-ns functional components include: 
+– ns catalogue; 
+– ns provisioning; 
+– ns monitoring and reporting; 
+– ns policy management; 
+– ns automation; 
+– ns level management; 
+– ns incident and problem management; 
+– ns inventory. 
+8.3.2.1 ns catalogue 
+the ns catalogue functional component provides a listing of all network services of the naas csp. the ns 
+catalogue contains and /or references all relevant technic al information required to deploy, provision and 
+run a network service. 
+8.3.2.2 ns provisioning 
+the ns provisioning functional component provides the capabilities for provisioning network services, both 
+in terms of the provisioning of network service imple mentations and of network service access endpoints 
+and the workflow required to ensure that elements are provisioned in the correct sequence. 
+8.3.2.3 ns monitoring and reporting 
+the ns monitoring and reporting functional component provides capabilities for: 
+– monitoring the activities of other functional components throughout the naas csp's system. this 
+includes functional components involved in the support of network services, such as functional 
+components in the oss-ns itself like the ns automation functional component (e.g., the provisioning 
+of a network service instance for a particular customer). 
+– providing reports on the behaviour of the naas csp's system, which can take the form of alerts for 
+behaviour which has a time -sensitive aspect (e.g., the occurrence of a fault, the completion of a 
+task), or it can take the form of aggregated forms of historical data (e.g., service usage data). 
+– storage and retrieval of network service monitoring and event data as logging records. 
+

@@ -1,0 +1,49 @@
+7 security  
+ 
+1026 
+7.2.2.8 security activity documentation 
+csps can provide the security documents which show the efforts made to enhance the security of their cloud 
+service, such as the security measures implemented, the security management procedures, and so on. the 
+documents should be accessed conveniently and can be viewed or downloaded from their web portal. 
+8 guidelines of daily operational security 
+csps should implement security measures and security activities for administrators and tenants in their daily 
+security operation. the security clause of sla should be achieved and guaranteed by security measures and 
+activities implemented by csps. these security measures and activities include but are not limited to the 
+following: 
+1) security measures : csps are required to implement sets of security measures to provide basic 
+capabilities and facilities to enforce the operational security of cloud computing. 
+a) identity management and access control is specified in clause 8.1. 
+b) data encryption and key management is specified in clause 8.2. 
+c) system security monitoring is specified in clause 8.3. 
+d) disaster recovery is specified in clause 8.4. 
+e) security configuration management is specified in clause 8.5. 
+2) security activities : csps are required to perform routine security activities to address security 
+problems, securing the operation of cloud computing. 
+a) security events processing is specified in clause 8.6. 
+b) patch upgrade is specified in clause 8.7. 
+c) securing configuration management is specified in clause 8.8. 
+d) emergency response is specified in clause 8.9. 
+e) backup is specified in clause 8.10. 
+f) internal security audit is specified in clause 8.11. 
+8.1 identity management and access control 
+8.1.1 identity management 
+csps should provide unified identity management for internal administrators and external tenants , which 
+can furnish the raw data for unified access control, authorization and audit. 
+1) it should support identity federation, which can achieve account information sha ring, 
+synchronization between different cloud applications in the same trust zone. 
+2) it should support life cycle management of identity, which include the whole life cycle control of 
+identity, such as identity register, role and privileges assignment, pr ivileges modification, identity 
+deleting, etc. furthermore, the registration and modification of identity should have the procedure 
+of approval by administrators. 
+3) the policies of identity management include identity account naming policy, identity accou nt 
+application policy, etc. these sets of security policies should include: 
+• the name of the identity account should be unique in the same trust zone. 
+• the identity account should be locked when invalid passwords are input continuously. 
+• the identity account should be disabled when unused for a long time. 
+• the identity account should be forbidden when trying to log in repeatedly during a very short 
+time. 
+4) in the framework of unified user account management, the account should be accurate to be 
+associated with special individuals or a tenant. the users should be identified by the main account, 
+and each user (administrator or tenant) should have only one main account. the main account can 
+create a sub -account, and the sub -account can have the authorized privileges to manage the 
+network cells, database servers, application servers, etc. 

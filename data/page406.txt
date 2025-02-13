@@ -1,0 +1,50 @@
+1 framework and requirements for cloud computing  
+ 
+398  
+to 400 v to allow increased power consumption and equipment power density, in order to obtain 
+higher energy efficiency and reliability with less material usage than using a lower voltage such as –
+48 vdc or ac ups power feeding solutions. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=11638  
+• itu-t l.1 300: this recommendation specifies best practices aimed at developing green data 
+centres. a green data centre can be defined as a repository for the storage, management and 
+dissemination of data in which the mechanical, lighting, electrical and computer sy stems are 
+designed for maximum energy efficiency and minimum environmental impact. the construction and 
+operation of a green data centre includes advanced technologies and strategies. the 
+recommendation provides a set of rules to be referred to when undert aking improvement of 
+existing data centres, or when planning, designing or constructing new ones. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12204  
+• itu-t l.1410: recommendation itu-t l.1410 deals with environmental life cycle assessments (lcas) 
+of information and communication technology (ict) goods, networks and services. it is organized in 
+two parts: 
+– part i: ict life cycle assessment: framework and guidance 
+– part ii: comparative analysis between ict and reference product system (baseline scenario); 
+framework and guidance. 
+ part i deals with the life cycle assessment (lca) methodology applied to ict goods, networks and 
+services. part ii deals with comparative analysis based on lca results of an ict goods, networks and 
+services product system, and a reference product system. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12207  
+• itu-t l.1301: recommendation itu-t l.1301 establishes a minimum data set necessary to manage 
+data centres and telecommunication rooms in an environmentally responsible manner. 
+ the recommendation specifies the communication interface and defines the parameters to be 
+communicated depending on the equipment used in data centres, such as power systems 
+(alternating current (ac)/direct current (dc) and uninterruptible power supply (ups) and energy 
+distribution), cooling systems and information and communication technology (ict) equipment. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12428  
+• itu-t l.1201: recommendation itu-t l.1201 describes the architecture of power feeding systems 
+of up to 400 vdc for information and communication technology (ict) equipment in 
+telecommunication centres, data centres and customer premises. it describes aspects such as 
+configuration, redundancy, power distribution  and monitoring, in order to construct safe, reliable 
+and manageable power feeding systems. it can be used also as an architecture reference model for 
+further recommendations e.g., on the performance of dc power feeding systems. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12135  
+• itu-t l.1202 : recommendation itu -t l.1202 is provided as a complement to recommendation 
+itu-t l.1201, which describes the architecture of direct current (dc) power systems with an up to 
+400 vdc information and communication technology (ict) equipment interface. the up to 400 vdc 
+ict equipment interface is described in recommendation itu-t l.1200.  
+ recommendation itu-t l.1202 provides a framework for assessing performances of up to 400 vdc 
+power feeding systems and the savings incurred when compared to other power feeding systems 
+such as the −48 vdc power system and the ac uninterruptable power system (ups) commonly used 
+in information and communication technology (ict) sites.  
+ this recommendation deals with performance factors such as efficiency, reliability/availability and 
+environmental impact. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?id=12427  

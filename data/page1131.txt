@@ -1,0 +1,14 @@
+ assisting developing countries 8 
+ 
+   1123 
+3.2 in your view, what areas of standardization do you consider important for cloud computing? 
+ 
+figure ii.16 – priority areas of standardization 
+3.3 do you think standardization makes the adoption of the cloud easier and more flexible? 
+ 
+figure ii.17 – importance of standardization to cloud services uptake 
+3.4 do you consider that cloud data loss or leakage countermeasures should be carefully 
+standardized?  
+ 
+figure ii.18 – importance of data loss standardization 
+

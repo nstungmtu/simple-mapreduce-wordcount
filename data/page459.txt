@@ -1,0 +1,19 @@
+cloud computing management 2 
+ 
+  451 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 introduction 
+7 cloud-based network management functional architecture 
+7.1 basic concept 
+7.2 detailed structure of cloud-based network management functional architecture 
+7.3 the functions of each part in the architecture 
+7.4 the relationship between the components in the architecture 
+ 
+ 

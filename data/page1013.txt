@@ -1,0 +1,33 @@
+security 7 
+ 
+  1005 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+guidelines for cloud service customer data 
+security 
+recommendation itu-t x.1641 
+(09/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

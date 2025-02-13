@@ -1,0 +1,47 @@
+ framework and requirements for cloud computing 1 
+ 
+   295 
+– allow updating the resource information across multiple csps in synchronization with the  events 
+(e.g., reserve or release of resources) involving the csps; 
+– allow periodically, or on a request basis, collecting information about the usage and performance 
+status of the resources of multiple csps; 
+– allow periodically, or on a request basis, c ollecting information about the resource availability 
+(e.g., dead or alive status of machines) of multiple csps; 
+– allow exchange of monitoring information in commonly defined ways across multiple csps.  
+9.3 resource performance estimation and selection 
+the resource performance estimation and selection capability deals with the selection of resources from the 
+candidate resources that have already been reserved in peer csps. this capability estimates the achievable 
+performance of available reserved resources and assists the csp in the selection of resources to be effectively 
+used. 
+the resource performance estimation and selection capability is recommended to: 
+– allow estimating the achievable performance of available reserved resources (e.g.,  computing 
+resources, storage resources, input/output capacity between storage resources, network 
+bandwidth) in the secondary csps.  
+9.4 resource discovery and reservation 
+the resource discovery and reservation capability deals with search, discovery and reservation of available 
+resources in the peer csps. this capability also deals with reservation acknowledgement for the candidate 
+resources that have been tentatively reserved in the peer csps.  
+the resource discovery and reservation capability is recommended to: 
+– enable discovery of resources available in the peer csps;  
+– allow the reservation of discovered resources in the peer csps; 
+– allow provisional reservation of disc overed resources, i.e.,  to keep the resources to be used (as 
+candidates), for later acknowledgement (for some of them) or release (for others); 
+– allow finding available resources in the peer csps based on different priorities (e.g., in a different 
+order of searching);  
+note 1 – quality requirements may vary from service to service and each resource contribution to the service 
+quality may vary as well. for example, if latency is critical, it should be possible to first reserve resources in 
+the servers that are near to the user and then reserve the network resources. in contrast, if bandwidth is 
+critical, it should be possible to first reserve resources of the networks that can provide sufficient bandwidth 
+and then search for available resource in the servers that are connected to those networks. 
+– allow reservation of available resources in the peer csps on the basis of different priorities 
+(e.g., early recovery, required quality guarantee, service type, etc.).  
+note 2  – for example, a vast quantity of resour ces is required for recovery from a large -scale disaster . 
+however, all required resources may not necessarily be available. in that case, it should be possible to 
+forcefully reserve resources for lifeline services rather than for other services.  
+9.5 resource set-up and activation 
+the resource set-up and activation capability deals with the set up and activation of reserved resources in 
+the peer csps. this includes connecting to the peer csps via networks, remotely activating (i.e.,  invoking) 
+software and transferring or copying data to enable the use of resources in the peer csps. 
+the resource set-up and activation capability is recommended to: 
+– allow the establishment of reserved resources in a peer csp; 
+– allow accessing to the configuration and policy settings of reserved resources in the peer csps. 

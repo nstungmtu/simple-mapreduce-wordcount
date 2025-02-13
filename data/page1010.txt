@@ -1,0 +1,28 @@
+7 security  
+ 
+1002 
+10.7 security requirements for monitoring data destruction 
+the data security requirements for the monitoring data destruction include the following: 
+a) it is required that the csp provide appropriate destruction methods for monitoring data; 
+b) it is required that the csp prevent the unintended destruction of monitoring data; 
+c) it is required that the csp prevent the incomplete destruction of monitoring data; 
+d) it is required that the csp erase any csc specific keys for encrypted data; 
+e) it is required that the csp destroy copies of monitoring data; 
+f) it is required that the csp provide notification of monitoring data destruction to the csc. 
+table 10 -7 provides a summary mapping of monitoring data destruction security threats to security 
+requirements. 
+table 10-7 – monitoring data destruction: security threats mapping to security r equirements 
+security threats security requirements 
+spoofing a), b), c), d), e), f) 
+operating system vulnerability b), c), d), e), f) 
+10.8 security requirements for monitoring data backup 
+the data security requirements for the monitoring data backup include the following: 
+a) it is required that the csp provide backup methods to prevent monitoring data loss; 
+b) it is required that the csp maintain the integrity and accuracy of restored monitoring data; 
+c) it is required that the csp support logging and auditing of monitoring data restoration. 
+table 10-8 provides a summary mapping of monitoring data backup security threats to security requirements. 
+table 10-8 – monitoring data backup: security threats mapping to security requirements  
+security threats security requirements 
+operating system vulnerability a), b), c) 
+ 
+  

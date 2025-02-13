@@ -1,0 +1,37 @@
+ framework and requirements for cloud computing 1 
+ 
+   83 
+the layering framework is shown diagrammatically in figure 9-1. 
+ 
+figure 9-1 – cloud computing layering framework 
+each of the layers in the framework is described in the following subclauses. 
+9.1.1.1 user layer 
+the user layer is the user interface through which a cloud service customer  interacts with cloud service 
+provider and with cloud services, performs customer related administrative activities, and monitors cloud 
+services. it can also offer the output of cloud services to another resource layer instance. 
+9.1.1.2 access layer 
+the access layer provides a common interface for both manual and automated access to the capabilities 
+available in the services layer. these capabilities include both the capabilities of the services and also the 
+administration and business capabilities.  
+the access layer is responsible for presenting cloud service  capabilities over one or more access 
+mechanisms – for example, as a set of web pages accessed via a browser, or as a set of web services which 
+can be accessed programmatically, on secure communication. another responsibility of the access layer is to 
+apply appropriate security functionality to the acces s to cloud service  capabilities. the access layer is 
+responsible for authenticating the request through the use of user credentials and for validating the 
+authorization of the user to use particular capabilities. the access layer is also responsible for ha ndling 
+encryption and checking for request integrity, where required. 
+the access layer can also be responsible for enforcing qos policies on the traffic coming from the user layer 
+(e.g., service requests to the cloud service provider) and the traffic towar ds the user layer (e.g., output of 
+cloud services). 
+the access layer passes on validated requests to the components in the services layer. the access layer 
+accepts cloud service customer  or cloud service provider 's cloud service consumption requests to acc ess 
+csps' services and resources. 
+9.1.1.3 service layer 
+the service layer contains the implementation of the services provided by a cloud service provider . the 
+service layer contains and controls the software components that implement the services (but not  the 
+underlying hypervisors, host operating systems, device drivers, etc.), and arranges to offer the cloud services 
+to users via the access layer. 
+the service implementation software in the service layer in turn relies upon the capabilities available in t he 
+resource layer to provide the services that are offered and to ensure that the requirements of any sla 
+relating to the services are met, for example, through the use of sufficient resources. 
+

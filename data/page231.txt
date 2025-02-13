@@ -1,0 +1,35 @@
+framework and requirements for cloud computing 1 
+ 
+   223 
+table ii.10 – high reliability deployment – use case 
+title a use case for high reliability deployment 
+description this use case covers the situation where physical machine will be deployed with high 
+reliability. to achieve high reliability, physical machine needs to be deployed with redundant 
+main components, such as cpu, power supply and cooling component. in addition, physical 
+machine needs to support technology to reduce data errors and data loss at work, such as 
+memory error correction and raid. 
+trough raid technology, data of physical machine is distributed across multiple drives in 
+different ways, referred to as raid levels, depending on the required level of redundancy and 
+performance. take raid1 as an example, as shown in below figure, raid 1 consists of an 
+exact copy (or mirror) of a set of data on two or more disks. the data of physical machine will 
+not loss so long as at least one member drive is operational. 
+roles/sub-roles csp: cloud service operations manager 
+figure 
+ 
+pre-conditions 
+(optional) 
+csp wishes to deploy physical machines with high reliability. 
+post-conditions 
+(optional) 
+physical machines can still work when some components fail. the physical machine can 
+reduce data errors and losses due to memory and storage failures.  
+derived 
+requirements 
+– multiple cpus (see clause 7.1.1.1) 
+– memory reliability (see clause 7.1.1.2) 
+– storage redundancy hardware (see clause 7.1.1.3) 
+– supporting power redundancy (see clause 7.1.2) 
+– cooling component redundancy(see clause 7.1.3) 
+ 
+  
+

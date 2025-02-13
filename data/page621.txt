@@ -1,0 +1,41 @@
+xaas 3 
+ 
+  613 
+csu cloud service user 
+dns domain name system 
+dpi  deep packet inspection 
+epc evolved packet core 
+gw gateway 
+hq headquarter 
+iaas infrastructure as a service 
+ide integrated development environment 
+ims  ip multimedia subsystem 
+ip internet protocol 
+ips intrusion protection system 
+ipsec ip security 
+l2 layer 2 
+l3 layer 3 
+lan local area network 
+linp logically isolated network partition 
+mac medium access control 
+mef  metro ethernet forum  
+men metro ethernet network  
+mpls multi-protocol label switching 
+naas network as a service 
+nni network-to-network interface 
+nos network operating system 
+oss operations support system  
+qoe quality of experience 
+qos quality of service 
+p2p peer-to-peer 
+paas platform as a service 
+pop point of presence 
+saas software as a service 
+sal software abstraction layer 
+sdn software defined networking  
+sla service level agreement 
+ssl  secure socket layer 
+uni user-to-network interface 
+vcdn virtual content delivery network 
+vdpi virtual deep packet inspection 
+vepc virtualised evolved packet core  

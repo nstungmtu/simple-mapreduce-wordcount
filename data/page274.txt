@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+266  
+9.2 storage interface 
+the storage interface requirements include: 
+• the storage resource s are required to support either block storage interfaces or file system 
+interfaces. 
+• the storage resources are recommended to support object storage accessed via web service data 
+path interfaces. 
+• the storage resources are recommended to support structured data-sharing access interfaces. 
+• the storage resources can optionally support multiple types of interfaces. 
+9.3 storage management 
+the storage management requirements include: 
+• it is required to provide the capabilities for user authentication and authorization. 
+• it is required to provide management capabilities for storage resources. 
+• it is required to provide basic configuration capabilities, including storage domain configuration, file 
+system namespace configuration, storage resources configuration an d local file system 
+configuration. 
+• it is recommended to provide performance monitoring and statistics (e.g., disk i/o speed, disk space 
+usage, cpu utilization, memory utilization, job completion). 
+• it is recommended to support alert capabilities, e.g., for event and trouble reporting. 
+• it is recommended to provide replication, archive and retention capabilities. 
+9.4 storage availability 
+the storage availability requirements include: 
+• it is required to monitor data loss or failure. 
+• it is recommended to provide data backup and data recovery. 
+• it is recommended to provide data verification capabilities. 
+• it is recommended to support access through legitimate channels without time constraints, as well 
+as the geographical constraints. 
+• it is recommended to support data synchronization to keep data consistency. 
+9.5 data de-duplication 
+the data de-duplication is a method of reducing storage usage by eliminating redundant data. the data de -
+duplication can save resources of storage space and network bandwidth to transfer data.  
+the data de-duplication requirement includes: 
+• it is recommended for storage resources to support the data de-duplication capability.  
+10 requirements for resources abstraction and control 
+resources abstraction and control allows a csp to access physical resources through software abstraction. it 
+also provides composition, coordination, monitoring and scheduling of processing, storage and networking 
+resources. 
+resources abstraction and control directs the creation, modification, customization and release of abstracted 
+resources. resource abstraction and control is also responsible for controlling the interactions between 
+resource pools and cloud services. a resource template refers to a set of standardized formatted hardware 
+and software configuration settings for processing, storage and networking resources. 

@@ -1,0 +1,33 @@
+1 framework and requirements for cloud computing  
+ 
+212  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+52 support fault location – [b-etsi eve007] provide fault location support as 'hardware with fast failure 
+detection' in clause 5.11. 
+– [b-ocp 1s] provide fault location as 'these errors must include the date, 
+time and location information so that failing components can be easily 
+identified' in clause 9.6.10. 
+– [b-ocp 2s] provide fault location as 'a power failure detection circuit needs 
+to be implemented to initiate 3x actions related to data transferring' in 
+clause 5.3.3. 
+– [b-ocp 2s] provide fault location as 'all post errors, which are detected by 
+bios during post, should be logged into event log' in clause 9.11.1. 
+– [b-ocp yose] provide fault location as 'fan failure errors should be logged if 
+the fan speed reading is outside expected ranges between the lower and 
+upper critical thresholds. the error log should also identify which fan fails' in 
+clause 6.15.1.7. 
+53 hot-plug support – [b-etsi eve007] provide hot-plug support as 'supporting hot-plug for 
+vulnerable components, including hard drive and optical modules' in 
+clause 5.11. 
+– [b-ocp ocsps] provide hot-plug support as 'the power supply shall be hot 
+pluggable' in clause 1. 
+– [b-ocp ocsb] provide hot-plug support as 'the blade contains a nic 
+mezzanine card to provide small form-factor pluggable (sfp+) and quad sfp 
+(qsfp+) cable connectivity' in clause 7.2. 
+– [b-ocp 2s] provide hot-plug support as 'the x32 pcie in riser slot shall 
+support standard pcie signal hot swap' in clause 5.5.2. 
+– [b-ocp tp] provide hot-plug support as 'pcie hot plug' in clause 5.5.1. 
+  

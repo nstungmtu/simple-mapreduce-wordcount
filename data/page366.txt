@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+358  
+the data supplier provides data from different sources to the data broker, which can be accessed by the big 
+data service provider (bdsp). the data supplier's activities include: 
+− generate data; 
+− create metadata information describing the data source(s) and relevant attributes; 
+− publish metadata information to access it. 
+the data broker serves as the connection between the data supplier and the bdsp. the data broker can act 
+as a clearinghouse, open data mart, etc., and its activities include: 
+− providing a meta-information registry to data suppliers for publishing their data sources; 
+− finding on-line open-data sources and registering corresponding meta-information; 
+− providing a service catalogue to the bdsp for searching usable data. 
+the bdsp supports capabi lities for big data analytics and infrastructure. the bdsp can act as a form of big 
+data platform, extension of existing data analytics platform, etc. bdsp activities include: 
+− searching data sources (from data broker) and collecting data by requesting and crawling; 
+− storing data to a data repository; 
+− integrating data; 
+− providing tools for data analysis and visualization; 
+− supporting data management such as: data provenance, data privacy, data security, data retention 
+policy, data ownership. 
+the big data service customer (bdc) is the end -user or a system, that uses the results or services from a 
+bdsp. the bdc may produce new services or knowledge on consumer activities and furnish them outside 
+of the big data ecosystem. bdc activities include: 
+− requesting big data services to the bdsp; 
+− using the outputs of big data services. 
+9 big data sdo activities 
+this clause describes sdo's activities with big data in order to identify the current status of standardization. 
+note – a summary of each standard item is described in appendix i. 
+9.1 itu-t 
+itu-t study group 13 (sg13) has been studying requirements, capabilities and mechanisms of future 
+networks. 
+− q17/13 deals with cloud computing and big data. in november 2015, itu -t sg13 published 
+[itu-t y.3600], "big data – cloud computing based requirements and capabilities". 
+− q18/13 deals with cloud functional architecture, infrastructure and networking; the draft 
+recommendation [itu-t y.bdaas-arch] describes an architecture for bdaas. 
+− q7/13 has been studying dpi in support of service/application awareness in evolving networks, and 
+initiated draft recommendations about dpi and bddn for supporting big data. 
+itu-t sg 17 is responsible for building confidence and security in the use of icts, and deals with the security 
+and privacy issues of cloud computing. these activities on cloud computing can be applied to the area of big 
+data as well. 
+itu-t sg 20 is responsible for iot and its applications, with an initial focus on smart cities and communities 
+(sc&c). in november 2015, q2/20 initiated a draft recommendation [itu -t y.iot-bigdata-reqts], "specific 
+requirements and capabilities of the internet of things for big data " which describes the characteristics of 
+big data in the context of iot. table 9-1 lists the itu-t deliverables and work items related to big data. 

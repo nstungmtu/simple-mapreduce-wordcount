@@ -1,0 +1,51 @@
+framework and requirements for cloud computing 1 
+ 
+   185 
+7.1.1.4 i/o device requirements 
+– hardware-assisted i/o virtualization: it is recommended that a physical machine supports 
+hardware-assisted i/o virtualization to improve the performance of i/o virtualization. 
+– i/o devices direct accessing: it is recommended that a physical machine supports i/o devices direct 
+accessing so that a virtual machine can directly access hardware i/o devices. 
+note 1 – i/o devices direct accessing refers to technologies supporting vm's native accessing of physical i/o devices. 
+one example of i/o devices direct accessing is i/o devices pass-through. i/o devices pass -through is an i/o device 
+assigned directly to a vm. the vm can access the i/o devices without a hypervisor's participation.  
+– workload offload: it is recommended that a physical machine support offloading workload to i/o 
+devices to reduce the load of the cpu. 
+note 2 – in offloading workload, hardware i/o devices execute workload instead of software on a cpu in order to 
+relieve the cpu's overhead. an example of offloading workload is checking transmission control protocol (tcp)  
+checksum in a network interface card (nic) and not in a cpu. 
+– hardware acceleration: it is r ecommended that a physical machine  supports application-specific 
+hardware acceleration to perform specific applications more efficiently.  
+note 3 – application-specific hardware is customized for a particular use, rather than intended for general -purpose 
+use. an example of application-specific hardware is a graphics processing unit (gpu). 
+7.1.2 power supply requirements 
+– power supply replacement: it is recommended that a physical machine supports substitution with 
+other power supplies to allow power supply upgrade or replacement of a faulty power supply. 
+– supporting power redundancy : it is recommended that a physical machine supports redundant 
+power supply to keep powered on in case of main power supply failure. 
+note 1 – n+1 redundancy of power supply is widely used (n: number of power supplies based on total power budget). 
+– minimum energy consumption : it is recommended that a physical machine provides minimum 
+energy consumption. 
+– interface for monitoring power: it is recommended that a physical machine supports an interface 
+to a management component for monitoring status of the power supply.  
+note 2 – an example of the interface for monitoring power is a power management bus (pmbus).  
+7.1.3 cooling requirements 
+– cooling component replacement: it is recommended that a physical machine supports substitution 
+with other cooling components to allow substitution of a faulty cooling component. 
+– cooling component redundancy : it is recommended that a physical machine s upports cooling 
+component redundancy to maintain temperature in case of main cooling component failure. 
+– interface for controlling fan speed: it is recommended that a physical machine supports an interface 
+to a management component to control fan speed. 
+note – an example of an interface for controlling fan speed is a pulse width modulation (pwm) management 
+component.  
+7.1.4 enclosure requirements 
+– monitoring status of the physical machine: it is recommended that a physical machine provides a 
+status panel to check whether components of the physical machine  are installed and working 
+correctly. 
+– visual indications: it is recommended that a physical machine provides visual indications of working 
+state (e.g., starting, running, stopped, faulty), suitable for administrators of the physical machine to 
+understand. 
+– equipment for mounting and removal : it is recommended that a physical machine supports safe 
+mounting and easy removal of all components in the enclosure. 
+– circulation of air flow : it is recommended that a physical machine supports circulation of enough 
+air flow to minimize the heat generated inside the enclosure with cooling components.  

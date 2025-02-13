@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+42  
+use case 
+pre-conditions 
+(optional) 
+– ① a csp builds a cloud infrastructure with cloud resources including compute, storage and 
+network resources. 
+– ②,③ the csp allocates and configures related compute, storage and network resources in 
+the cloud infrastructure needed for deploying any kind of cloud services through resource 
+orchestration functions. 
+– ④ the csp publishes the deployed cloud services in the catalogue of the cloud service 
+portal. 
+– ⑤ a csc accesses the cloud services published by the csp through service portals or 
+service interfaces which are protected by appropriate security mechanisms.  
+– ⑥ related cloud resources and capabilities have been invoked to respond to the csc's 
+access and interaction. 
+post-conditions – ⑦ the csp manages and monitors pooled compute, storage and network resources in the 
+cloud infrastructure. 
+requirements – resource provisioning 
+– resource abstraction and control 
+i.11 trusted cloud service use case 
+use case 
+name trusted cloud service use case 
+abstract the csp provides trusted cloud service which satisfies a set of requirements and 
+transparency for governance, management and security to provide csc confidence in using 
+the cloud service. 
+roles csc, csp 
+figure 
+  
+ 
+pre-conditions 
+(optional) 
+– the csc requests a trusted cloud service: 
+• the csp1 offers the same cloud services as csp2, but csp2 does not meet trusted 
+cloud service requirements. 
+• the csc gets effective cloud service information from csp1. 
+• the csc does not have effective cloud service information from csp2.  
+– the csp1 negotiates a cloud service agreement with the csc before providing a cloud 
+service, while csp2 does not. 
+

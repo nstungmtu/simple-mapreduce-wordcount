@@ -1,0 +1,54 @@
+7 security  
+ 
+1062 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer's change management 
+process should take into account the impact of any 
+changes made by the cloud service provider. 
+the cloud service provider should provide the cloud 
+service customer with information regarding changes to 
+the cloud service that could adversely affect the cloud 
+service. the following will help the cloud service 
+customer determine the effect the changes can have on 
+information security: 
+– categories of changes; 
+– planned date and time of the changes; 
+– technical description of the changes to the cloud 
+service and underlying systems; 
+– notification of the start and the completion of the 
+changes. 
+when a cloud service provider offers a cloud service 
+that depends on a peer cloud service provider, then the 
+cloud service provider might need to inform the cloud 
+service customer of changes caused by the peer cloud 
+service provider.  
+other information for cloud services 
+the list of items that should be included in the notification can be identified in an agreement, e.g., a master 
+service agreement or a service level agreement (sla). 
+12.1.3 capacity management 
+control 12.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should ensure that the 
+agreed capacity provided by the cloud service meets the 
+cloud service customer's requirements. 
+the cloud service customer should monitor the use of 
+cloud services, and forecast their capacity needs, to 
+ensure performance of the cloud services over time. 
+the cloud service provider should monitor the total 
+resource capacity to prevent information security 
+incidents caused by resource shortages.  
+other information for cloud services 
+cloud services involve resources that are under the control of the cloud service provider and made available 
+to the cloud service customer under the terms of the master service agreement and a related sla.  these 
+resources include software, processing hardware, data storage, and network connectivity. 
+elastic, scalable and on -demand allocation of resources in a cloud service generally increases the total 
+capacity of the service. however, the cloud service customer should be aware that the resources provided 
+could have capacity constraints. examples of capacity constraints include the number of processor cores for 
+an application, the amount of storage available, or the network bandwidth available. 
+the constraints can vary depending on the particular cloud service or the particular subscription that the 
+cloud service customer purchases. if the cloud service customer has requirements that exceed the 
+constraints, the cloud service customer might need to change the cloud service or change the subscription. 
+  

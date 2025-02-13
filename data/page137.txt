@@ -1,0 +1,40 @@
+framework and requirements for cloud computing 1 
+ 
+   129 
+figure (optional) 
+  
+pre-conditions 
+(optional) 
+– policies for data storage are configured by csp:sfp and selected by csc:csu, or set to 
+default. 
+– csc:csu save files on a single virtual volume. 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.1 requirement (7) 
+– clause 8.2 requirement (2)  
+– clause 8.2 requirement (3)  
+i.6 data virtualization csp:sfp 
+title data virtualization by csp:sfp 
+description this scenario shows data virtualizations through the description of read and write data. dsf 
+service customer #1 writes a file through the dsf service. dsf service provider prepares to 
+write data because file a, shown in figure 1, is saved on a single virtual volume. as the 
+preparation information (e.g., owner, policies and corresponding apis of data storage, etc.), 
+data operation metadata for the file a is generated. the file a namely data a, is saved and 
+managed by the data operation metadata, such as number of data portioning, data location, 
+etc. in this procedure, the file a was abstracted for data provisioning and management by 
+policies.   
+dsf service customer #1 reads a file through the dsf service. dsf service provider gathers data 
+based on the data operation metadata. dsf service provider aggregates partitions of data and 
+then data is provided to dsf service customer #1. it is possible for the provided data to be 
+used again. therefore, the data is cached and reflected on data operation metadata. for t his 
+reason, dsf service customer #2 quickly reads the cached data. in this procedure, data a was 
+virtualized because the partitioned data a was aggregated as if originally single data a was and 
+then was used for multiple dsf service customers. that is, dsf service customer #1 and #2 
+read same data. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp) 
+dsf local storage provider (csp:csm) 
+

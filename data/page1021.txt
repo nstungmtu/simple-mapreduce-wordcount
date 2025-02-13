@@ -1,0 +1,48 @@
+security 7 
+ 
+  1013 
+7.5 security controls in migrate stage 
+guidelines for security controls in the migrate stage include the following: 
+a) network connectivity should be assessed prior to data migration to ensure the safety of the 
+migration process. 
+b) csps should ensure that data integrity and confidentiality is not affected during a migration. 
+c) csps should ensure that data migration does not affect the continuity of services and applications. 
+d) csps should conduct data backup and recovery-related work appropriately during data migration. 
+e) csps should establish a migration scheme, assess its feasibility and associated risk s, then develop 
+risk control measures accordingly as preparations for data migration. 
+7.6 security controls in destroy stage 
+guidelines for security controls in the destroy stage include the following: 
+a) csps should be able to erase all key material related to encrypted data. 
+b) csps should utilize physical destruction, such as degaussing of physical media when 
+decommissioning storage hardware. 
+c) csps should utilize data recovery techniques to confirm destruction processes. 
+d) csps should be  able to provide means to help clear legacy data caused by the migration of data 
+among different cloud platforms, the termination of service and contract, and natural disasters. 
+e) csps should provide means to remove all copies of the data. 
+f) csps should ensure that the storage space for user authentication information, such as the user 
+account and password, are not released or reallocated to other users until that information is fully 
+cleared. 
+g) csps should ensure that the storage space for resources, su ch as files, directories and database 
+records, are not released or reallocated to other users until those resources are fully cleared. 
+h) csps should provide means to prevent the recovery of destroyed data. 
+7.7 security controls in backup and restore stage 
+guidelines for security controls in the backup and restore stage include the following: 
+a) csps should utilize content recovery mechanisms, like those for data loss prevention, to assist in 
+identifying and auditing data that needs to be backed up. 
+b) csps should support an appropriate encryption algorithm for long -term (archival) storage media 
+backup, such as the use of long encryption keys and planning for replacement with an improved 
+encryption algorithm. 
+c) csps should provide local data backup and reco very functions. complete data backup should be 
+conducted at least once a week and the incremental backup at least once a day. 
+d) a remote disaster recovery centre should be established, with facilities such as communication lines, 
+network equipment and dat a processing equipment  that are needed for disaster recovery  
+integrated into them. 
+e) a redundancy disaster recovery centre could be established. it should provide a basic equivalent 
+capability for business operation and synchronize data in real time via a  high-speed link. it could 
+share the operations of the business and management systems simultaneously while maintaining 
+business continuity through an emergency switch in disaster situations. 
+f) for data that is categorized as either important or sensitive , the csps should provide remote data 
+backup functions together with the capability for timely data recovery. one approach to providing 
+this service would be via a network utilizing a disaster recovery centre. 
+ 
+  

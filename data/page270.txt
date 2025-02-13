@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+262  
+7.2.6 dynamic migration of virtual machine 
+the d ynamic migration of a virtual machine is designed to provide service continuity  and reliability 
+dynamically. 
+the dynamic migration of virtual machine requirements include: 
+• it is required that the network configuration of migrated virtual machines remain unchanged after 
+migration. 
+• it is recommended that cloud service providers ( csps) support the dynamic migration of a virtual 
+machine. 
+7.2.7 static migration of virtual machine 
+the static migration of a virtual machine means moving the virtual machine between different physical 
+machines which results in the operating system rebooting. 
+the static migration of a virtual machine requirement includes: 
+• it is required that csps support static migration. 
+7.2.8 management automation 
+the management system may perform operations such as starting or stopping a virtual machine, rebooting 
+a server and applying software updates automatically.  
+the management automation requirement with regard to virtual machines includes: 
+• it is recommended that csps automate provision, activation, deactivation and other operations over 
+the lifetime of virtual machines.  
+7.3 software resources provisioning requirements 
+the software resources include the software for building cloud infrastructure resource pools and the 
+software in support of service implementation. 
+7.3.1 automated provisioning and deployment 
+the automated provisioning and deployme nt of software resources can reduce provisioning time and the 
+workload for deployment.  
+the automated provisioning and deployment requirements include: 
+• it is recommended that software resources (e.g., executable files, drivers, libraries, documents, 
+icons, etc .) are packaged into encapsulated files, which can be provisioned and deployed 
+automatically. 
+• it is recommended that software resources be automatically provisioned and deployed to target 
+devices or platforms without operator intervention. 
+7.3.2 unified software resource management 
+unified software resource management includes capabilities for licence information registration, allocation, 
+recovery, expiration notification and metering. 
+the unified software resource management requirement includes: 
+• it is recommended that csps manage software licences in a unified manner. 
+7.4 time-sensitive services requirements 
+time-sensitive services (e.g., real-time communications using voice and video media) requirements include: 
+• it is required to prioritize resource allocation to time-sensitive processing. 
+• it is required to apply clock settings best practices (e.g., based on the network time protocol (ntp) 
+[b-ietf rfc 5905]). 

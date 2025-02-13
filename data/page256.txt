@@ -1,0 +1,42 @@
+1 framework and requirements for cloud computing  
+ 
+248  
+table ii.3 – distributed cloud infrastructure and service management 
+use case 
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+requirements – heterogeneous device access (see clause 7.1) 
+– global management (see clause 7.4) 
+– heterogeneous resource management (see clause 7.4) 
+– end device connectivity management (see clause 7.4) 
+– resource isolation and protection (see clause 7.5) 
+ii.4 distributed cloud infrastructure and service provisioning 
+table ii.4 – distributed cloud infrastructure and service provisioning 
+use case 
+name distributed cloud infrastructure and service provisioning. 
+description this use case describes the distributed cloud infrastructure and service provisioning.  
+distributed cloud can provision infrastructure and deliver service among core, regional and edge 
+cloud. 
+the distributed cloud infrastructure contains various  hardware and software, including servers, 
+storage, network devices and software. the edge cloud especially is resource-constrained due to 
+space and power. the infrastructure provision process includes hardware initiation, network 
+configuration and softwar e installation. after provisioning, the services including security 
+functions and suites can be provided based on the infrastructure. also, if a cloud service needs 
+to use an edge cloud resource, it is reconfigured or developed to run on the edge cloud with small 
+capacity and heterogeneous resources. 
+the distributed cloud infrastructure can be maintained and upgraded by distributed cloud 
+management. the provisioning is a policy -based process so it can be done automatically on 
+distributed cloud resources. 
+once the distributed cloud infrastructure has been provisioned, the cloud service should be 
+deployed and delivered rapidly to the suitable distributed cloud resource by high -speed and 
+reliable network connectivity based on service's sla, such as required res ources, maximum 
+latency, required or useful services, etc. the deployed service can be maintained and upgraded 
+based on global management. for accurate global management, status information of cloud 
+service and distributed cloud resource are synchronized from edge/regional cloud to core cloud.  
+

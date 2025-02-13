@@ -1,0 +1,59 @@
+framework and requirements for cloud computing 1 
+ 
+   209 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+– [b-ocp 2s] provides device driver support as 'all data network and 
+management network should have this capability. this includes, but not 
+limit to: dhcp and static ip setting, pxe booting capability, nic and bmc 
+firmware support, os driver and utility in both ipv4 and ipv6' in 
+clause 11.4.3. 
+– [b-ocp ambh] provides device driver support as 'the x4 connector can be 
+hot inserted and removed. a pci-e re-driver is used for pci-e external links 
+and supports a minisas cable up to 2 meters long' in clause 10.3.  
+– [b-ocp tp] provides device driver support as 'it is recommended that pcb is 
+planned with three vendors at evt. evt and dvt build plan should cover all 
+possible combinations of key components of dc-dc vr including output 
+inductor, mosfets and driver' in clause 18.9. 
+40 processing unit 
+operation 
+– [b-ocp 1s] provides power operation as 'server shall have the power 
+monitoring capability to read power consumption reliably and accurately 
+and can report a one-second average power reading with 3% accuracy' in 
+clause 8.4. 
+ – [b-ocp 2s] provides monitoring information as 'bmc should implement 
+thermal monitoring feature for pcie card on riser and mezzanine card. bmc 
+reads the temperature of key components of pcie and mezzanine cards 
+through its smbus ports in the format as tmp421 temperature sensor. bmc' 
+in clause 9.18. 
+– [b-ocp ambh] provides monitoring information as 'the odm needs to 
+provide a system access interface and application to retrieve hardware 
+monitoring sensor readings, including at minimum, lm_sensors, a linux 
+application for the centos operating system and its driver' in clause 6. 
+– [b-ocp ambh] provides power operation as 'the motherboard includes a 
+power switch, reset switch, power led, hdd activity led and beep error 
+led' in clause 10.9. 
+– [b-ocp yose] provides monitoring information as 'the bmc firmware shall 
+support platform power monitoring. the bmc firmware shall support 
+thermal monitoring' in clause 6.13. 
+– [b-ocp dsbs] provides monitoring information as 'the management 
+controller shall support the following ipmi features: sensor device and 
+sensor scanning/monitoring' in clause 8.11. 
+– [b-ocp nic] provides monitoring information as 'when the temperature 
+sensor reporting function is implemented, the ocp nic 3.0 card shall 
+support pldm for platform monitoring and control (dsp0248 1.1 compliant) 
+for temperature reporting' in table 49: temperature reporting 
+requirements. 
+41 remote management – [b-etsi eve007] provide remote management as 'the bmc/service 
+processor shall be accessible remotely via ethernet network' in clause 5.6.2. 
+– [b-ocp 1s] provides remote bios update as 'the bios can be updated 
+remotely under these scenarios' in clause 9.6.8. 
+– [b-ocp 2s] provides remote bios update as 'vendors should provide tool(s) to 
+implement remote bios update function' in clause 6.3.6. 
+– [b-ocp ambh] provides remote bios firmware update as 'the motherboard 
+has sp5100 interfaces on board, which support up to six sata ports' in 
+clause 7.6. 
+– [b-ocp ambh] provides remote power control as 'the bmc supports 
+remote system power on/off and reboot through lan or ipmb' in clause 7.4.  

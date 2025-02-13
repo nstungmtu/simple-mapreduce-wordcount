@@ -1,0 +1,45 @@
+3 xaas  
+ 
+686  
+– providing reports on the behaviour of the naas csp's system, which can take the form of alerts for 
+behaviour which has a time -sensitive aspect (e.g., the occurrence of a fault,  the completion of a 
+task), or it can take the form of aggregated forms of historical data (e.g.,  network function usage 
+data); 
+– storage and retrieval of network functions monitoring and event data as logging records. 
+there is a need to guarantee the avai lability, confidentiality and integrity of the logging records held by the 
+nf monitoring and reporting functional component. 
+8.3.3.4 nf policy management 
+the nf policy management functional component provides capabilities to define, store and retrieve policies 
+that apply to network functions. policies can include business, technical, security, privacy and certification 
+policies that apply to network functions and their usage by naas cscs. 
+some policies can be general and apply to a network function irrespective of the customer concerned. other 
+policies can be specific to a particular customer. 
+8.3.3.5 nf automation 
+the nf automation functional component provides capabilities for network functions' delivery including the 
+management and execution of network functions' templates and the orchestration of network functions. the 
+nf automation functional component holds the network functions templates which define the cloud 
+computing activities and workflows required to provision and deliver a specific entry in the nf catalogue. 
+network function provisioning can be automated in order to support scalable resource operations, including 
+configuration and charging. 
+network function administration activities of the naas csc can be capable of being automated and need not 
+require any intervention by the naas csp. 
+the nf automation functional component works with the nf provisioning functional component to achieve 
+its goals. 
+8.3.3.6 nf level management 
+the nf level management functional component provides capabilities for man aging the service levels of a 
+particular network function, aiming to ensure that the network function meets the requirements of the sla 
+which applies to the related network service. 
+the nf level management functional component manages the capacity and perf ormance relating to a 
+network function. this can involve the application of network function policies (e.g., a placement rule which 
+aims to avoid single points of failure). 
+the nf leve l management functional component obtains monitoring information from th e nf monitoring 
+and reporting functional component in order to measure and record kpis for the network function. capacity 
+of a network function can be allocated or de-allocated based on the basis of these kpis. 
+the nf level management functional component also keeps track of the overall state of allocated and 
+available resources. the comparison of allocated capacity against network function performance kpis can 
+assist in the identification of current or potential bottlenecks, in support of capacity planning. 
+8.3.3.7 nf incident and problem management 
+the nf incident and problem management functional component provides capabilities for the capture of 
+network function incident or problem reports and managing those reports through to resolution. 
+network function incidents and problems can be detected and reported by the naas csp's systems, or they 
+can be detected and reported by naas cscs. 

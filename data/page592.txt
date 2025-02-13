@@ -1,0 +1,48 @@
+3 xaas  
+ 
+584  
+– identifies the user profile managed by the user profile management function (see clause 7.3.2) if a 
+daas user has already been registered; 
+– coordinates with different virtualization infrastructures according to a delivery protocol, in some 
+cases the client connection needs to be customized according to dedicated infrastructure; 
+– sends virtual desktop access information and/or other formats like a customized access connector 
+software, access connection plugins in a browser to a daas client to proceed with client connection; 
+– performs connection monitoring for any type and reconnection with the connection monitoring if a 
+daas client is disconnected; it also guarantees both security and quality of service (qos) of the 
+delivered daas service based on the connection; 
+– validates the license of the user's applications of virtual desktops. 
+7.2.3 user access management 
+the user access management function: 
+– validates a daas user with csu's access information in logon procedure; 
+ note 1 – csu's access information is registered at the portal of a daas platform or a daas user's terminal. this 
+information includes id, password, and other check items for authority. this information can be used in login 
+procedure. 
+ note 2 – for a daas user who accesses daas for the first time, an administrator prepares csu 's access 
+information for the daas user 's logon procedure in advance in the user account and profile management 
+function (see clause 7.3.2). 
+– accesses the user account and profile management function (see clause 7.3.2) for each daas client 
+according to csc types, the information may be used to authorize access, establish connections with 
+daas-specific protocol/connection; 
+– notifies the result of a client connection to a daas client  to give guides to access a daas platform 
+and requests the client connection to the client connection management function (see clause 7.2.2) 
+after validating a daas user, the access can be achieved through a dedicated connector software or 
+through a web browser and plugin supporting daas-specific protocol; 
+– supports differentiated permissions according to csc types; 
+ note 3 – the permissions are classified into authority of administration, resource access, and service access.  
+– supports secure access through a security protocol (such as secure shell or transport layer security) 
+and technical access depending on the type of daas client such as the dedicated software, general-
+purpose web browser; 
+– maintains logs such as the date and time of the user log-on and log-off, the type of daas client, the 
+location of the daas client, and the service usage, etc. 
+7.2.4 provisioning and allocation of virtual desktop 
+the provisioning and allocation function: 
+– prepares hardware and software resources for a virtual desktop corresponding with csu's account 
+information, load-balancing or allocation policy; 
+– configures a daas platform with a virtual desktop delivery protocol and resource pool for virtual 
+desktop environments; 
+ note 1 – this function involves the following processes: 
+• the provision for a daas client configured to receive the allocation of a virtual desktop; 
+• the provision for  a connection manager to control a type of a virtual desktop to be allocated 
+according to csu's account and access information; 
+• the provision for a daas platform to be selected among platforms in the datacentre or server 
+farm on which the virtual desktop is allocated. 

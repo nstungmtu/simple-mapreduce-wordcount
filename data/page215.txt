@@ -1,0 +1,64 @@
+framework and requirements for cloud computing 1 
+ 
+   207 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+32 providing running 
+information 
+– [b-ocp 1s] provides temperature and power sensors set as 'each card must 
+provide following sensors: temperature sensors for soc, dimm, voltage 
+regulators and other critical chips' in clause 6.5. 
+– [b-ocp 2s] provides running monitor set as 'the vendor should implemen t 
+bmc fw to support thermal monitoring, including processor, memory, 
+chipset, vrs, pcie card, mezzanine cards, inlet/outlet air temperature and 
+airflow sensor' in clause 9.8. 
+– [b-ocp ambh] provides memory reliability as 'hardware health monitoring 
+display' in clause 5.5. 
+– [b-ocp jbog ] provides monitor set as 'the bmc implemented is to have 
+access to all analog sensors placed in the system and ensure that they are 
+displayed in a sensor data record repository' in clause 7.9.1.1. 
+– [b-ocp yose] provides monitor set as 'during the entire hot-service process, 
+the bmc shall monitor the thermal condition closely' in clause 5.2. 
+– [b-ocp ambh] provides monitor set as 'the bmc can be used to monitor 
+hardware and control fan speed' in clause 6. 
+– [b-ocp obios] provides multi process configuration set as 'bios 
+requirements for intel nm enabled firmware nm5 bios should implement 
+processor utilization notifications support in acpi tables' in clause 9.2.2.  
+33 automatically power 
+operation 
+– [b-ocp 1s] provides power operation set as 'the twin lakes 1s server can 
+throttle itself down to lowest possible power state as quickly as possible 
+when the platform asserts the fast_throttle_n signal or it receives 
+request from bmc, or over power event reported by on-card power 
+monitor' in clause 8.4，and 'the bmc controls power on, off and reset 
+directly via the signals defined in the pin-out' in clause 9.7.13. 
+– [b-ocp 2s] provides auto power on set as 'motherboard should be set to 
+restore last power state during ac on/off. this means that, when ac does 
+on/off cycle, motherboard should power on automatically without requiring 
+power button' in clause 15.9. 
+– [b-ocp jbog] provides power operation set as 'support power on policy to 
+be last-state, always-on and always-off upon recovery from an ac power 
+loss event. t' in clause 7.7. 
+– [b-ocp yose] provides auto power set as 'now the user can replace the 
+failed unit with a new one, bmc would automatically resume power and 
+boot the new card' in clause 5.2. 
+– [b-ocp obios] provides power controller set as 'the following actions are 
+available on expiration of the watchdog timer: • system reset• system 
+power off• system power cycle• pre-timeout interrupt (optional)' in 
+clause 9.2.2. 
+34  monitoring 
+environment condition 
+ 
+35 self-checking 
+mechanism 
+– [b-ocp 2s] provides get selftest result set as 'get selftest results (0x04) in 
+clause 9.13. 
+– [b-ocp tp] provides selftest set as 'during system boot-up, post (power-
+on-selftest ) codes will be send to port 80 and decoded by the bmc to drive 
+the led display as described in section 8.5. p' in clause 8.2. 
+– [b-ocp obios] provides selftest set as 'built-in self-test (bist) the 
+bist_enable can be controlled by a bmc, gpo, strap or other mechanism. 
+bios shall implement a platform policy to control bist execution' in 
+clause 4.12. 

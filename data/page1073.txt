@@ -1,0 +1,50 @@
+security 7 
+ 
+  1065 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should request information 
+about the clock synchronization used for the cloud 
+service provider's systems. 
+the cloud service provider should provide information 
+to the cloud service customer regarding the clock used 
+by the cloud service provider's systems, and information 
+about how the cloud service customer can synchronize 
+local clocks with the cloud service clock. 
+other information for cloud services 
+it is necessary to consider clock synchronization of the cloud service customer 's systems with cloud service 
+provider's systems , which  run the cloud services used by the cloud service customer. without such 
+synchronization, it can be difficult to reconcile events on the cloud service customer's systems with events 
+on the cloud service provider's systems. 
+12.5 control of operational software 
+the objective specified in clause 12.5 of iso/iec 27002 applies. 
+12.5.1 installation of software on operational systems 
+control 12.5.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.6 technical vulnerability management 
+the objective specified in clause 12.6 of iso/iec 27002 applies. 
+12.6.1 management of technical vulnerabilities 
+control 12.6.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should request information 
+from the cloud service provider about the management 
+of technical vulnerabilities that can affect the cloud 
+services provided. the cloud service customer should 
+identify the technical vulnerabilities it will be 
+responsible to manage, and clearly define a process for 
+managing them. 
+the cloud service provider should make available to the 
+cloud service customer information about the 
+management of technical vulnerabilities that can affect 
+the cloud services provided. 
+ 
+12.6.2 restrictions on software installation 
+control 12.6.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.7 information systems audit considerations 
+the objective specified in clause 12.7 of iso/iec 27002 applies. 
+12.7.1 information systems audit controls 
+control 12.7.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 

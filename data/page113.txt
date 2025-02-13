@@ -1,0 +1,24 @@
+ framework and requirements for cloud computing 1 
+ 
+   105 
+in figure a.7, the lines from the development environment show that the development environment and 
+build management system are used to create the software and related artefacts of the service 
+implementation which offers the service interface. the cloud service developer can also create the service 
+access implementation. 
+in order for the service implementation and service access to run in the target execution environment, the 
+correct enablement for security, monitoring, management and automation needs to be developed, as well 
+as enablement for integration into the service execution environment. the cloud service developer discovers 
+the appropriate enablement for monitoring integration, security integration and service integration by using 
+the development access capabilities. in addition, information and requirements for enabling authentication 
+and identity management, as well as authorization and security policy management, is retrieved via the 
+development access functional component. 
+the enablement of the cloud service implementation for deployment and provisioning is also done using the 
+development environment and build management system (e.g., via scripts and configuration metadata files). 
+the cloud se rvice developer uses the development access functional component  to discover what the 
+provisioning and deployment requirements are. 
+the service implementation is packaged with the deployment and provisioning information and passed to 
+the csp:cloud service manager to perform the deploy services activity resulting in the service being available 
+for use by customers in the provide services activity. 
+ 
+figure a.6 – provider–peer provider relationship for business interface 
+

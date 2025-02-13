@@ -1,0 +1,42 @@
+framework and requirements for cloud computing 1 
+ 
+   121 
+7.1.3 manage storage management metadata 
+this activity involves creating, updating and deleting metadata (see clause 6.3) for a virtual storage pool and 
+single virtual volume.  
+this activity involves: 
+– creating storage management metadata of dsf data; 
+– updating storage management metadata on changes; 
+– deleting storage management metadata.  
+7.1.4 manage data storage policy 
+this activity involves management of data storage policy. 
+this activity involves: 
+– creating data storage policy; 
+– triggering data storage policy; 
+– updating data storage policy; 
+– deleting data storage policy.  
+7.2 csp:data manipulation provider (csp:dmp) 
+csp:data manipulation provider (csp:dmp) is responsible fo r operation for dsf data and management of 
+data manipulation policy. csp:dmp's activities include: 
+– manipulate dsf data; 
+– manage data operation metadata; 
+– manage data manipulation policy.  
+7.2.1 manipulate dsf data 
+this activity involves dsf data operation for csc:csu by data virtualization. 
+this activity involves: 
+– performing data operation (see clause 6.1).  
+note 1 – data virtualization is an abstraction of multiple data resources into the logical data resource.  
+note 2 – multiple data resources include object storage, file storage and block storage.  
+7.2.2 manage data operation metadata 
+this activity involves creating, updating and deleting metadata (see clause 6.3) for dsf data. 
+this activity involves: 
+– creating data operation metadata of dsf data; 
+– updating data operation metadata on changes; 
+– deleting data operation metadata.  
+7.2.3 manage data manipulation policy 
+this activity involves management of data manipulation policy. 
+this activity involves: 
+– creating data manipulation policy; 
+– triggering data manipulation policy; 
+– updating data manipulation policy; 
+– deleting data manipulation policy. 

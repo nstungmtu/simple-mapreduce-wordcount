@@ -1,0 +1,45 @@
+6 monitoring  
+ 
+950  
+see table 7-1. 
+table 7-1 – parameters collected to monitor physical computing resources 
+metric name description  unit 
+central processing unit (cpu) frequency cpu frequency mhz 
+cpu util average cpu utilization  % 
+cpu idle time time of cpu is in idle status ns 
+cpu load  cpus have been loaded  process 
+cpu input/output (i/o) wait time cpu i/o wait time ns 
+cpu idle percent percent of cpu is in idle status % 
+cpu user percent percent of cpu is in using status % 
+cpu i/o wait percent percent of cpu i/o is in waiting status  % 
+memory volume of random access memory (ram)  mb 
+memory util average ram utilization  % 
+memory used used physical memory size kb 
+disk size total size of disk gb or tb 
+disk size used total size of disk used gb or tb 
+disk random/sequential read requests volume of read requests  request 
+disk random/sequential read request rate average rate of read requests  request/s 
+disk random/sequential read delay average delay of read request  ms 
+disk random/sequential read error  volume of read error  kb 
+disk random/sequential write requests volume of write requests  request 
+disk random/sequential write request rate average rate of write requests  request/s 
+disk random/sequential write delay average delay of write request ms 
+disk random/sequential write error  volume of write error  kb 
+disk random/sequential read bytes volume of reads  mb 
+disk random/sequential read byte rate average rate of reads  mb/s 
+disk random/sequential write bytes volume of writes  mb 
+disk random/sequential write byte rate average rate of writes  mb/s 
+graphics processing unit (gpu) util average gpu utilization % 
+gpu idle time time of gpu is in idle status ns 
+gpu load  gpus have been loaded  process 
+gpu i/o wait time gpu i/o wait time ns 
+gpu idle percent percent of gpu is in idle status % 
+gpu user percent percent of gpu is in using status % 
+gpu i/o wait percent percent of gpu i/o is in waiting status % 
+note – all metrics should be measured over different durations, e.g., 1  min, 5 min, 15 min or 30 min. 
+7.1.2 virtual computing resources 
+virtual computing resources include any virtual component within a virtual computer system for running an 
+operating system, software and applications. similarly to physical computing resources, running data and 
+status of resources from vms in which the applications are currently running re quire collection. these data 
+provide a picture of how much of the vm is being utilized and helps in analysis and determination of the 
+scaling requirement of applications. 

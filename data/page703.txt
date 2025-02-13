@@ -1,0 +1,32 @@
+xaas 3 
+ 
+     695 
+annex b 
+ 
+functional components on mapping between physical and virtualized networks 
+(this annex forms an integral part of this recommendation.) 
+this annex describes the functional components on mapping between physical and virtualized networks. 
+note – a virtualized network can be seen as a specific realization of a ns whose resources are provided on top of 
+physical resources that constitute a physical network. 
+in order to realize the functionality for mapping between physical and virtualized networks (refer to 
+clauses 7.7.1 and i.4), specialized mapping functional components are necessary. 
+the resource abstraction and control functional component [itu-t y.3502] is used by naas csps to: 
+– provide access to the physical computing resources through software abstraction; 
+– ensure efficient, secure, and reliable usage of the underlying infrastructure; 
+– enable a naas csp to offer qualities such as rapid elasticity, re source pooling and on-demand self-
+service. 
+the resource abstraction and control  functional component can include software elements such as 
+hypervisors, virtual machines, virtual data storage, and time-sharing. 
+the physical resources functional component [itu-t y.3502] includes hardware resources, such as computer, 
+networks (routers, firewall, switches, network links and network connectors), storage components and other 
+physical computing infrastructure elements. 
+the resource abstraction and control functional component  and the physical resources functional 
+component can be instantiated to realise the functionality described in clause 7.7.1, as shown in figure b.1. 
+ 
+figure b.1 – functional components on mapping between  
+physical and virtualized networks 
+b.1 physical network 
+physical network functional component provides physical agents of physical network elements, such as 
+physical nodes, ports, switches and links. 
+note – physical agents are the representations of actual physical network nodes, ports, switch es, links, etc. 
+

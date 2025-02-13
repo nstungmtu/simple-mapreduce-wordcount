@@ -1,0 +1,28 @@
+ framework and requirements for cloud computing 1 
+ 
+   99 
+annex a 
+ 
+further details regarding the user view and functional view 
+(this annex forms an informative part of this recommendation | international standard.) 
+this annex provides further details regarding the relationship of the user view and functional view. 
+a.1 the cloud service customer–cloud service provider relationship 
+there are three key elements in the cloud service customer–cloud service provider relationship: 
+1) the csc:cloud service user using provider cloud services to achieve their business goals; 
+2) the csc:business manager using cloud service provider business capabilities to subscribe to cloud 
+services and manage their use from a business perspective; 
+3) the csc:cloud service administrator using the cloud service provider administration capabilities to 
+administer the use of the cloud services from the cloud service customer perspective. 
+a.1.1 functional relationship 
+the cloud service is made available to csc:cloud service users via an end point and interface enabled by the 
+service access functional component. the functions of this interface and the associated information flows 
+are domain specific to the cloud service and are thus not in the scope of the reference architecture. however, 
+there are some broad aspects that should be reflected in the service interface, in particular the need to 
+identify and authenticate the csc:cloud service user. 
+the csc:cloud se rvice user performs the use cloud service activity through the user function functional 
+component, which then invokes the cloud service through the service access functional component. the 
+service access functional component  performs any authentication of the csc:cloud service user and 
+establishes authorization to use particular capabilities of the cloud service. if authorized, the service access 
+functional component invokes the cloud service implementation which performs the request. 
+figure a.1 illustrates the functional component relationships involved in the use cloud service activity of the 
+csc:cloud service user. 

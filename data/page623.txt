@@ -1,0 +1,51 @@
+xaas 3 
+ 
+  615 
+• on-demand reconfiguration 
+ cloud computing system allows for dynamic computing and storage resources reconfiguration or 
+migration to meet the changing requirements. it is  desirable that networks provide on -demand 
+reconfiguration to satisfy the requirements of cloud serv ices, e.g., change of bandwidth, 
+modification of network topology or addition of new network elements. 
+6.2 high-level concept of naas 
+as defined in [itu-t y.3500], network as a service (naas) is a category of cloud services in which the capability 
+provided to the cloud service customer ( csc) is transport connectivity and related network capabilities  in 
+order to solve the challenges mentioned above. naas services are divided into naas application service, naas 
+platform service and naas connectivity service. in particular, naas connectivity service is an "infrastructure 
+capabilities type" service limited to networking resources. 
+the high -level concept of naas us ing the layering framework defined in [itu -t y.3502] is illustrated on 
+figure 6-1. 
+naas can provide any of the three cloud capabilities identified in [itu-t y.3500] as follows: 
+• naas application : application capabilities type of service where naas csc can use network 
+applications provided by naas cloud service provider (csp). these ne twork applications are 
+considered and used as a virtual network functions provided by naas csp. this includes any network 
+function for either fixed or mobile or both core and access as well as for control and forwarding 
+planes network elements. examples of  naas applications include virtual router, virtual content 
+delivery network (vcdn), virtualised evolved packet core (vepc) and virtual firewall (vfw). 
+ in this category, csp offers a set of interfaces for network functionalities. 
+• naas platform: platform capabilities type of service where naas csc can use the network platform 
+provided by naas csp. the naas platform offers one or more software execution environments and 
+one or more programming languages to deploy, manage and run customer -created or customer -
+acquired network applications. such network applications can be created or acquired by csc as self-
+implemented network services. network applications can implement various ne twork 
+functionalities or services, e.g., router, firewall, load balancer, as well  as groups of network 
+functionalities. groups of network applications and functionalities can form an integrated network 
+solution. 
+ in this category, csp offers a programmable  environment for network functionalities that can be 
+employed by cloud service customer or cloud service partner software. 
+• naas connectivity: infrastructure capabilities type of service where naas csc can provision and use 
+networking connectivity resourc es provided by naas csp. this includes for example flexible and 
+extended virtual private network (vpn), bandwidth on demand ( bod), etc. naas can provide basic 
+networking functionalities such as connecti vity, using whatever physical, logical or virtual 
+networking capabilities the csp chooses to offer. there is often a desire to offer more than ip 
+networking. for example, a csc may wish for elastic, on -demand control of optical networks, or 
+even for access to dark fibre using photonic switching. 
+ in this cate gory, csp offers network connections between two or more endpoints, which may 
+include additional network functionalities. 
+ note 1 – the creation, control, management and removal of naas connectivity is performed as a cloud 
+service. 
+ note 2 – naas typically provides "bearer" connectivity of raw data without regard to the type of data carried 
+between endpoints. services that are specific to a type of carried data, such as telephony, voice over ip (voip), 
+video conferencing, and instant messaging, are typically categorised as communications as a service (caas). 
+ note 3 – the endpoints of naas connectivity can reside either within the naas service interface itself, in 
+another cloud service, in a non-cloud service or at a traditional network endpoint. 
+naas services can be utilized by both cloud and non-cloud services.  

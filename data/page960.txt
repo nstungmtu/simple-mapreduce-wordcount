@@ -1,0 +1,44 @@
+6 monitoring  
+ 
+952  
+7.1.3 virtual machine operation and control 
+vm operation and control are referred to the management of physical or virtual computing resources that 
+allow users to create, edit, start and stop vms. 
+the impetus behind cloud computing is the ever -increasing demand to manage growth and increase 
+computing flexibility by dynamic resource operation and control based on demand. an example of resource 
+control operation could be to horizontally scale a database server by migrating it from a small cpu resource 
+configuration to an extra -large cpu resource to improv e throughput. this basic requirement of cloud 
+computing is supported by the resource operation and control system. an inefficient resource operation and 
+control system has a direct negative effect on performance. it can also indirectly affect system functionality. 
+some system functions provided might become ineffective due to poor performance. 
+see table 7-3. 
+table 7-3 – parameters collected to monitor vm operation and control 
+metric name description unit 
+cpu of vm start time of cpu start s 
+cpu of vm stop time of cpu stop s 
+cpu of vm restart time of cpu restart s 
+cpu of vm select time of cpu select s 
+cpu of vm scale down time of cpu scale down s 
+cpu of vm scale up time of cpu scale up s 
+vm start time of vm start s 
+vm acquisition time of vm acquisition s 
+vm release time of vm release s 
+memory of vm scale down time of memory scale down s 
+memory of vm scale up time of memory scale up s 
+disk of vm scale down time of disk scale down s 
+disk of vm scale up time of disk scale up s 
+upload file time of upload file s 
+download file time of download file s 
+allocation internet protocol (ip) time of allocation ip s 
+allocation ports time of allocation ports s 
+allocation url time of allocation uniform resource locator (url) s 
+vm live migration time that is needed to move a vm from two 
+predefined resources s 
+migration interruption time maximum time in which a customer has no 
+access to migration to the resource s 
+vm cloning time of vm cloning s 
+vm backup time of vm backup s 
+vm imaging time of vm imaging s 
+recovery time time from the failure of a storage, to the 
+successful restore from an existing backup s 
+note – vm backup time interval varies according to backup type, e.g., full backup or incremental backup.  

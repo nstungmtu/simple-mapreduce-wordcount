@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   371 
+bibliography 
+ 
+[b-itu-t ddn] itu-t study group 13 work in progress y.bddn-req, requirements of big data-driven 
+networking. 
+ <http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10967> 
+[b-itu-t dpi] itu-t study group 13 work in progress y.dpi-reqfn, functional requirements of deep 
+packet inspection for future networks. 
+ <http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10546> 
+[b-itu-t tsag] itu-t telecommunication standardization advisory group, outcome of the workshop 
+session on big data in telecommunications sector. 
+ <http://www.itu.int/en/itu-t/workshops-and-
+seminars/bigdata/documents/workshop%20outcome.pdf> 
+[b-itu-t twr] itu-t technology watch report, november 2013, http://www.itu.int/dms_pub/itu-
+t/oth/23/01/t23010000220001pdfe.pdf big data: big today, normal tomorrow. 
+ <http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10546> 
+[b-chen] min chen, shiwen mao, ying zhang, et al. (2014), big data: related technologies, 
+challenges and future prospects, springer. 
+[b-cra] challenges and opportunities with big data (2012), computing research association, 
+november. 
+[b-csa] cloud security alliance (2012), top ten big data security and privacy challenges. 
+[b-ibm] ibm data security and protection, what are data security and data privacy? 
+ <http://www-01.ibm.com/software/data/security-privacy/> 
+[b-jtc 1] iso/iec jtc 1 n12395 (2014), resolution adopted at the 29th meeting of iso/iec jtc 1 
+15-20 november 2014 in abu dhabi. 
+[b-nec] nec (2015), software defined networking goes big: what big data means for sdn. 
+ <http://www.nec.com/en/global/ad/insite/article/bigdata02.html> 
+[b-oasis] oasis committee categories: big data. 
+ <https://www.oasis-open.org/committees/tc_cat.php?cat=bigdata> 
+[b-theguardian] the guardian, big data and open data: what's what and why does it matter? 
+ <http://www.theguardian.com/public-leaders-network/2014/apr/15/big-data-open-
+data-transform-government> 
+[b-w3c-bdcg] w3c, big data community group. 
+ <http://www.w3.org/community/bigdata/> 
+[b-w3c-ogcg] w3c, open government community group. 
+ <http://www.w3.org/community/opengov/> 
+ 
+ 
+ 

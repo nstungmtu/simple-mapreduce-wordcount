@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   323 
+– timeliness: the acquisition rate and timeliness, to effectively find elements in limited time that meet 
+a specified criterion in a large dataset, are new challenges faced by data processing. other new 
+challenges are related to the types of criteria specif ied and there is a need to devise new index 
+structures and responses to the queries having tight response time limits. 
+– privacy: data about human individuals, such as demographic information, internet activities, 
+commutation patterns, social interactions,  energy or water consumption, are being collected and 
+analysed for different purposes. big data technologies and services are challenged to protect 
+personal identities and sensitive attributes of data throughout the whole data processing cycle while 
+respecting applicable data retention policy. 
+positive resolving of the above challenges opens new opportunities to discover new data relationships, 
+hidden patterns or unknown dependencies. 
+6.2 big data ecosystem 
+this clause describes a n environment, called the big data ecosystem through roles and sub -roles. it also 
+defines necessary activities for roles  providing and consuming big data services as well as relationships 
+between roles. 
+the big data ecosystem includes the following roles: 
+– data provider; 
+– big data service provider; 
+– big data service customer. 
+the big data ecosystem is shown in figure 6-1. 
+y .3600(15)_f6-1
+big data service
+provider
+data service
+data request/ rawlingc service request
+metadata
+data provider
+publish
+metadata find
+data supplier
+data broker
+big data service
+customer
+search
+ 
+figure 6-1 – big data ecosystem 
+6.2.1 data provider (dp) 
+the data provider (dp) role consists of two sub-roles: 
+– data supplier; 
+– data broker. 
+6.2.1.1 data supplier 
+the data supplier provides data from different sources to the data broker, which can be accessed by the big 
+data service provider. the data supplier's activities include: 
+– generating data; 
+– creating metadata information describing the data source(s) and relevant attributes; 
+– publishing metadata information to access the metadata. 

@@ -1,0 +1,48 @@
+intercloud and interoperability 5 
+ 
+  883 
+5 conventions 
+in this recommendation , the keywords "is reco mmended" indicate a requirement which is recommended 
+but which is not absolutely required. thus this requirement need not be present to claim conformance. 
+6 overview of cloud computing infrastructure capabilities type interoperability testing between 
+the csc and csp 
+cloud interoperability is the ability of a csc's system to interact with a cloud service, or the ability of one 
+cloud service to interact with another cloud service, by exchanging information according to a prescribed 
+method to obtain predictabl e results [iso/iec 19941]. the goal for cloud infrastructure capabilities type 
+interoperability testing is to devise and implement testing methods and conduct a  basic set of functional 
+tests for infrastructure capabilities type interoperability in a hybrid cloud environment using both private and 
+public clouds [itu-t q.4040].  
+the cloud computing infrastructure capabilities type interoperability testing can be divided into two parts ; 
+the first part focuses on validating the infrastructure capabilities type functions provided by the csp to the 
+csc, and the second part focuses on validating the interaction between csps in the inter-cloud environment. 
+the scope of this recommendation is to validate the interaction between the csc and csp with infrastructure 
+capabilities. 
+infrastructure as a service (iaas) provides computing service functions, storage service functions and network 
+service functions to the csc [itu-t y.3513]. all the functional requirements specified in [itu-t y.3513] should 
+be validated. it is recommended to consider the following for  cloud computing infrastructure capabilities 
+type interoperability testing: 
+• computing service interoperability testing between the csc and csp 
+– it is recommended to verify that the csp provides a computing service to the csc, including 
+virtual machine ( vm) configuration, vm migration, vm snapshot, vm clone, vm time 
+synchronization, vm reservation, vm image, vm template, vm scaling and vm backup. 
+– it is recommended to verify that the csp provide s computing service related management 
+functions to the csc, including life cycle management of the vm and physical machine, and vm 
+and physical machine configuration inquiring. 
+• storage service interoperability testing between the csc and csp 
+– it is recommended to verify that the csp provides a storage service to the csc, including storage 
+migration, storage snapshot, storage backup, storage resource reservation and i/o 
+performance. 
+– it is recommended to verify that the csp provides storage service related management 
+functions to the csc, including storage life cycle management, storage utilization status 
+inquiring. 
+• network service interoperability testing between the csc and csp 
+– it is recommended to verify that the csp provides network service to the csc, including network 
+policy migration, network qos, network address translation (nat), network isolation, ip address 
+allocation, ip address reservation, load balance, firewall and multipath routing. 
+– it is recommended to verify that the csp  provides network service related management 
+function to the csc, including network information inquiring. 
+this recommendation describes cloud computing infrastructure capabilities type interoperability  testing 
+from the functional perspective without distinguish five facets (transport, syntactic, semantic data, 
+behavioural and policy) which were defines by [iso/iec 19941]. however, all the considerations described in 
+[iso/iec 19941] are taking into account for bette r understanding of the cloud computing infrastructure 
+capabilities type interoperability testing. 

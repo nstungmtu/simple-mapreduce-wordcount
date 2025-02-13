@@ -1,0 +1,15 @@
+5 intercloud and interoperability  
+ 
+822  
+ 
+figure 6-2 – primary csp using cloud services provided by secondary csps 
+figure 6-3 and figure 6-4 indicate primary csp use peer service management functional component to make 
+access to the  secondary csps' operational support systems and business support systems (bsss) through 
+business access functional component and business capabilities, administration access functional component 
+and business capabilities respectively.  
+this recommendation describes additional extensions to [itu-t y.3502] for the support of inter -cloud, in 
+particular extensions to functions and the definition of reference points necessary to support interactions 
+between relevant functional components. 
+ 
+figure 6-3 – primary csp using business capabilities provided by secondary csps 
+

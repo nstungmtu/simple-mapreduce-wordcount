@@ -1,0 +1,40 @@
+1 framework and requirements for cloud computing  
+ 
+148  
+6.4 configuration of cloud service brokerage 
+figure 6-5 shows logical components of csb. the logical components consist of workspace, product catalogue 
+management, contract management, service access management and service management. 
+ 
+figure 6-5 – configuration of cloud service brokerage  
+note – relationship between the logical components and the activities of the cloud service broker for csb is described 
+in appendix ii. 
+6.4.1 workspace 
+a workspace logical component manages user accounts in csb a nd provides user interfaces for csps and 
+cscs. this logical component handles authentication of users (i.e., csps and cscs) and grants authorization 
+for them to access other logical components in csb. csps and cscs perform requests and responses for all 
+their operations through the user interfaces provided by this logical component. 
+note 1 – csp's operations include registering and deregistering cloud service. csc's operations include delivering cloud 
+service requirements, requesting a cloud service launchi ng, checking status of launched cloud services and paying for 
+the usage cost.  
+note 2 – since there are csps who provide cloud services and cscs who use the cloud services, a market trading cloud 
+services is formed in a csb. whereas marketplace mentioned in [itu-t y.3502] is not a logical component of csb, a csb 
+itself becomes a marketplace in that csps provide cloud services and cscs use cloud services in the csp through csb 
+and the workspace is used as a user interface of marketplace. a csp registers cloud services to a product catalogue and 
+a csc use csp's cloud service by using workspace. 
+6.4.2 product catalogue management 
+a product catalogue management logical component provides registering, deregistering and searching cloud 
+services within a product catalogue in csb to select cloud service by cscs. cloud services from multiple csps 
+through workspace are registered and deregistered in the product catalogue.  this logical component 
+performs supporting the three service models of csb described in clause 6.3  by managing registration into 
+the product catalogue. 
+note – to support service models of csb, this logical component performs (i) aggregation of cloud services by 
+registering original cloud services from multiple csps into the product catalogue, (ii) inte gration of cloud services by 
+registering a new integrated cloud service that consists of multiple cloud services into the product catalogue and (iii) 
+customization of cloud services by registering a new customized cloud service into the product catalogue to comply with 
+csc's requirements. 
+this logical component also provides searching for the best matched cloud service. 
+6.4.3 contract management 
+a contract management logical component manages contracts between csps and cscs in terms of cloud sla. 
+note – cloud sla includes entire agreements regarding contracts such as specification of cloud services, service level 
+in terms of quality, price of cloud service, remedies for failures to meet the terms of the sla and so on.  
+

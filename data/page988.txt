@@ -1,0 +1,48 @@
+7 security  
+ 
+980 
+appropriate security criteria are implemented so as to provide a mutual understanding of the security level 
+between the csc and csp.  
+each csp and each of their services may have the security level regarding the csp's security controls and their 
+effectiveness. advertised security levels of the csps and their services will help facilitate the comparison and 
+selection of appropriate csps and cloud computing services. independent trusted third parties may be used 
+to provide reliable, independent and neutral security level assessments. 
+to avoid a csp conducting individual security audits for each csc, common service audit results will be 
+appropriately reused. for a csp covering a wide range of cloud computing services, security audits may be 
+conducted on each cloud computing service. the csp may provide the appropriate audit results of all or part 
+of the cloud computing services to an authorized csc (e.g., potential customer), and to certain other csps 
+and csns (e.g., third-party auditor). 
+for a cloud computing service chain, the security audit results of a downstream service provider will integrate 
+the relevant security audit results of upstream service providers. 
+9.13 interoperability, portability and reversibility 
+this capability enables the coexistence and cooperation of heterogeneous components (interoperability), it 
+enables cscs to replace one csp with another where appropriate (portability), and enables cscs to transfer 
+their ict system from a cloud computing environment back to a non -cloud computing ict infrastructure 
+(reversibility). this reversibility will also enable the "right to be forgotten" if this is required by local laws or 
+regulations. 
+note 1 – this capability is only responsible for the interoperability and portability of cloud computing security functions, 
+not of the actual data, metadata or message formats , which are the responsibility of other cloud computing platform 
+functions. for example, this capability might provide transitional encryption, key management and identity information 
+so that data and other content can be moved between two different encryption systems without exposing either the 
+system(s) or the data in transit. 
+note 2 – the "right to be forgotten" is not yet clearly defined and may in some cases be constr ained by regulatory 
+requirements to retain certain data for a minimum period, such as call records or connection information. it may 
+therefore also be necessary to retain the relevant keys or other security information for the same period.  
+9.14 supply chain security 
+a csp uses a number of suppliers to build their services. some of these will be cloud industry participants, 
+e.g., a csn, while others will be traditional information technology (it) equipment or service suppliers, e.g., 
+hardware manufacturers w ith no direct relationship with cloud computing. this capability enables the 
+establishment of a trust relationship between the csp and all participants in the supply chain by security 
+activities. these supply chain security activities involve identifying and gathering information about the csp's 
+acquired components and services that are used to provide cloud computing services, and enforcing supply 
+chain security policies. 
+for example, typical supply chain security activities in a csp may include: 
+• confirmation of background information about the participants in the supply chain; 
+• validation of hardware, software and services employed by the csp; 
+• inspection of the hardware and software purchased by the csp so as to  ensure that it was not 
+tampered with while in-transit; 
+• providing mechanisms to verify the provenance of cloud service software, for example,  code 
+provided by a csn. where applicable, csns and their host csps provide a process to verify the 
+integrity of the csn's software component to ensure that it is exactly as delivered and has not been 
+modified or compromised. some csns may demand the means to verify this directly by themselves. 
+this capability is continuous to cover ongoing system evolution and updates. 

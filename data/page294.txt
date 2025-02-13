@@ -1,0 +1,60 @@
+1 framework and requirements for cloud computing  
+ 
+286  
+y .3511(14)_f7-4
+csp a
+inter-cloud intermediary
+service xcsc 1
+service y
+csc 2
+api (c) or
+common api csp c
+csp b
+csp e csp d
+api (b) or
+common api
+api (e) or
+common api
+api (d) or
+common api
+ 
+    note – api (x): api provided by cloud service provider x 
+figure 7-4 – inter-cloud intermediary 
+8 overview of inter-cloud computing 
+8.1 relationship between intra-cloud and inter-cloud handling of resources 
+for collaboration among csps, two types of resources can be distinguished. one includes underlying physical 
+resources of a cloud infrastructure which are controlled and managed by the csp who owns these resources. 
+the othe r type includes resources which are abstracted from the underlying physical resources and are 
+offered as services to csps. during the collaboration of csps, such abstracted resources are also utilized 
+during interactions between these csps. 
+based on the ab straction, underlying physical resources will become abstracted resources. detailed 
+information of underlying physical resources, such as total central processing unit (cpu) cores and memories 
+available in the infrastructure, will be hidden. during the collaboration among csps, only the information of 
+abstracted resources, such as the cpu cores and memories dedicated to the given service, will be subject for 
+interactions. 
+figure 8-1 shows the relationship between intra-cloud and inter-cloud and their handling of resources.  
+y .3511(14)_f8-1
+csp a csp b
+negotiation between csp a and csp b
+for abstracted resources as services
+inter-cloud service
+and resource handling
+inter-cloud service
+and resource handling
+intra-cloud service
+and resource handling
+intra-cloud service
+and resource handling
+interaction between
+intra-cloud and inter-cloud
+management of underlying
+physical and abstracted
+resources
+physical and
+abstracted resources
+physical and
+abstracted resources
+intra-cloud
+inter-cloud
+ 
+figure 8-1 – intra-cloud and inter-cloud relationship and handling of resources 

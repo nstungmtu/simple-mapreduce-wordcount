@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   383 
+7.1.9 dmtf (distributed management task force) 
+the dmtf is an industry standards organization working to simplify the manageability of network-accessible 
+technologies through open and collaborative efforts by leading technology companies. dmtf creates and 
+drives the international adoption of interoperable management standards, supporting implementations that 
+enable the management of diverse traditional and emerging technologies including cloud, virtualization, 
+network and infrastructure [b-dmtf]. 
+the dmtf working groups that deliver standards used in cloud computing are [b-dmgf-wg]: 
+– cloud management working group (cmwg) 
+– cloud auditing data federation working group (cadf) 
+the dmtf working groups that deliver standards which may be used in cloud data centres are: 
+– cim profile for platforms and service working group (cppswg) 
+– open virtualization format working group (ovf) 
+– scalable platform management forum (spmf) 
+– virtualization management working group 
+7.1.10 tm forum 
+tm forum is the global member association for digital business. it provides a platform for hundreds of global 
+members across a wide range of industries: communications, technology, cities and municipal government, 
+finance, healthcare and so on, to collaborate and partner to co -create, prototype, deliver, and monetize 
+innovative digital services for their billions of customers [b-tmf]. 
+7.1.11 atis 
+atis is where leading ict companies come for solutions when seeking industry alignment to advance their 
+most critical priorities [b-atis]. 
+7.1.12 broadband forum 
+the broadband forum, a non -profit industry organization, is focused on engineering smarter and faster 
+broadband networks. their work defines best practices for global networks, enables service and content 
+delivery, establishes technology migration strategi es, engineers critical device  and service management 
+tools, and is key to redefining broadband. free technical reports and white papers can be found at 
+broadband-forum.org [b-broadband]. 
+the cloud-based central office (cloudco) project is the core of a number of bbf activities applying the design 
+principles of software -defined networking (sdn) and network functions virtualization (nfv) techniques 
+enabling the decentralization of what has traditionally been monolithic networking elements. cloudco 
+enables dramatically faster and more efficient provisioning of new, cloud-based services. 
+for management in an sdn&nfv architecture, netconf/yang is expected to play a key role. the cloudco 
+project is leveraging the work done by the broadband forum common yang work area, which defines the 
+yang models required for the management of ultrafast broadband networks based on copper and fibre 
+access. 
+the open broadband (ob) programme is a collaborative space for integration, interop, testing of open 
+source, vendor and s tandards-based implementations. the migration to cloud -based, programmed, 
+virtualized systems and coexistence with existing infrastructure drove ob. ob provides alignment with open 
+source techniques and focus on interoperability  to mitigate deployment risk s. it provides value to service 
+providers, integrators and suppliers.  
+open broadband laboratories (obl) is a collaborative resource for the integration, staging and testing of 
+open source, commercial software, standards -based and vendor implementations wh ere suppliers, 
+integrators and operators can work together on new and coexisting solutions for cloudco. obls are a 
+common hardware and software platform with regional laboratories in asia, europe and usa that are open 
+to members and non-members. 

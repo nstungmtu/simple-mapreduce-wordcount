@@ -1,0 +1,39 @@
+security 7 
+ 
+  967 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview 
+7 security threats for cloud computing 
+7.1 security threats for cloud service customers (cscs)  
+7.2 security threats for cloud service providers (csps)  
+8 security challenges for cloud computing 
+8.1 security challenges for cloud service customers (cscs)  
+8.2 security challenges for cloud service providers (csps)  
+8.3 security challenges for cloud service partners (csns)  
+9 cloud computing security capabilities 
+9.1 trust model 
+9.2 identity and access management (iam), authentication, authorization and 
+transaction audit 
+9.3 physical security 
+9.4 interface security 
+9.5 computing virtualization security 
+9.6 network security 
+9.7 data isolation, protection and confidentiality protection 
+9.8 security coordination 
+9.9 operational security 
+9.10 incident management 
+9.11 disaster recovery 
+9.12 service security assessment and audit 
+9.13 interoperability, portability and reversibility 
+9.14 supply chain security 
+10 framework methodology 
+appendix i – mapping of cloud computing security threats and challenges to security capabilities 
+bibliography 
+ 

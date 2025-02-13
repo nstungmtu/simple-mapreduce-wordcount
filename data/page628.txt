@@ -1,0 +1,13 @@
+3 xaas  
+ 
+620  
+9.17 connection to naas csp's network through public internet  
+– it is recommended t hat naas csp allows the csc to connect to the naas csp through the public 
+internet. 
+10 security considerations 
+security aspects for consideration within cloud computing environments, including naas, are addressed by 
+security challenges for the csps, as described in [itu-t x.1601]. in particular, [itu-t x.1601] analyses security 
+threats and challenges, and describes security capabilities that could mitigate these threats and meet security 
+challenges. 
+ 
+  

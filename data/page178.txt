@@ -1,0 +1,36 @@
+1 framework and requirements for cloud computing  
+ 
+170  
+appendix ii 
+ 
+relationship between the logical components and  
+the activities of cloud service broker for csb 
+(this appendix does not form an integral part of this recommendation.) 
+activities of cloud service broker for csb consist of (1) acquire and assess customers, (2) assess marketplace, 
+(3) set up legal agreement, (4) assist csc for accessing service and (5) check and control service status. 
+ 
+figure ii.1 – relationship between the logical components and the activities of 
+cloud service broker for csb  
+note – figure ii.1 identifies reused activities from [itu -t y.3502] as well as new activities needed to support cloud 
+service brokerage. 
+(1) logical components that can cover the acquire and assess customers activity:  the acquire and 
+assess customers activity includes the tasks required to market and sell cloud services up to the 
+point where a cloud service customer agrees a contract to use one or more services, see 
+clause 8.4.2.6 in [itu -t y.3502] . the workspace and the product catalogue management logical 
+components cover the acquire and assess customers activity. the workspace logical component 
+(clause 6.4.1) provides a user interface for cscs to help to  present service requirements and to 
+request a cloud service. also the product catalogue management logical component (clause 6.4.2) 
+provides information to potential cscs about available services and associated slas and contract 
+terms. so, both logical components support the marketing and selling of cloud services up to the 
+point where a cloud service customer agrees a contract to use one or more services. 
+(2) logical components that can cover the assess marketplace activity: the assess marketplace activity 
+focuses on assessing the current cloud services marketplace to find cloud service(s) that meet the 
+customers' requirements see clause 8.4.2.7 in [itu -t y.3502]. the workspace logical component 
+(clause 6.4.1) and the product catalogue management logical component ( clause 6.4.2) cover the 
+assess marketplace activity. the workspace logical component provides a user interface for csps. in 
+workspace, a csp can register, modify and remove a service list to be sold through a cloud service 
+broker. also the product catalogue management logical component gathers cloud services from 
+multiple csps through workspace, registers those cloud services  and, if needed, cancels the 
+registered cloud services. so, both logical components support assessing the current cloud services 
+marketplace to find cloud service(s) that meet the customers' requirements. 
+

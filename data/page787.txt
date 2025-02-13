@@ -1,0 +1,31 @@
+video processing and storage 4 
+ 
+  779 
+7.3.4 reference point cms: cmu-csmu 
+the reference point cms is located between the  cmu and the csmu. it is used for  the management signal 
+transmission between the cmu and the csmu. 
+7.3.5 reference point csm: csmu-csau 
+the reference point csm is located between the csmu and the csau. it is used by the csmu to manage the 
+service control function, the media control function and the configuration management function of the csau. 
+7.3.6 reference point csd: csmu-csdu 
+the reference point csd is located between the csmu and the csdu . it is used for the control signal 
+transmission between the csmu and the csdu. 
+7.3.7 reference point csd': csmu-csdu 
+the reference point csd' is located between the csmu and the csdu. it is used to support the storage space 
+management. the main functions are as follows. 
+– increase or decrease the storage space flexibly according to the users' demands; 
+– support data management in the csdu, including data addition, data deletion, data browsing and 
+data retrieval, etc. 
+7.3.8 reference point csc: csdu-csau 
+the reference point csc is located between the csdu and the csau. it is used for the media access control 
+signal transmission between the csau and the csdu. 
+7.3.9 reference point cc: csdu-csau 
+the reference point cc is located between the csau and the csdu. it is used for the media data transmission 
+between the csau and the csdu. 
+7.3.10 reference point csa: csmu-csau 
+the reference point csa is located between the csau and the csmu. it is used fo r the access control signal 
+transmission between the csmu and the csau. 
+7.4 service control flow 
+7.4.1 real-time media storage 
+when a user wants to store the real-time media obtained from the pu into the cloud storage system, the cu 
+initiates a storage request and sends it to the scu to start the media storage. 

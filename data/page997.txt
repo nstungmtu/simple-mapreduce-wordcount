@@ -1,0 +1,33 @@
+security 7 
+ 
+  989 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+data security requirements for the 
+monitoring service of cloud computing 
+recommendation itu-t x.1603 
+(03/2018) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

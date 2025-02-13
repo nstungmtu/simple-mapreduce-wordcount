@@ -1,0 +1,39 @@
+xaas 3 
+ 
+  623 
+figure 
+ 
+note – virtual router (vrouter) can also be applicable to naas connectivity.  
+pre-conditions 
+(optional) 
+– there is connectivity between xaas csc a and xaas csp y. 
+– there is connectivity between xaas csp x and xaas csp y. 
+– either the xaas csp or the csc requests a network application (vfw, vcdn, vdpi, 
+vrouter etc.) to be chained with the connectivity. 
+post-conditions 
+(optional) 
+– naas csp offers network applications for the xaas csc/csp over existing network 
+connectivity. 
+derived requirements – on-demand virtual network application 
+– scalable network application 
+– chain of network applications  
+– qos-guaranteed applications 
+– secure network applications 
+– resilient network applications 
+– multiple ip addresses (refer to clause 7.4) 
+note – the first six requirements belong to general requirements of naas which are 
+provided in [itu-t y.3501]. 
+ii.2.1.2 naas application use case for application provision 
+ 
+title naas application use case for application provision 
+description assume that company csc-b looks for naas application services to benefit from key 
+characteristics of the cloud computing services. as an example, the company wants to 
+accelerate network traffic saturated with business applications. wide area network (wan) 
+optimization is very crucial for the success of its business applications. csc-b wants usage-
+based deployment of wan optimizations and flexible feature support on -demand. 
+traditional wan optimization appliance devices cannot fulfil those requirements, in 
+particular, in terms of total cost of ownership and deployment elasticity. 
+naas csp needs to provide virtual wan acceleration solution to csc-b, coping with its 
+dynamic business needs.  
+roles csp, csc 
+

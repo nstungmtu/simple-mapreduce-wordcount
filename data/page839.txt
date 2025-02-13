@@ -1,0 +1,10 @@
+intercloud and interoperability 5 
+ 
+  831 
+• encryption management functional component is extended with encryption management 
+function for inter-cloud as described in clause 7.4.3. 
+9 security considerations 
+security aspects for cons ideration within the cloud computing environment are addressed by security 
+challenges for the csps, as described in [itu-t x.1601]. in particular, [itu-t x.1601] analyses security threats 
+and challenges, and describes security capabilities that could mitig ate these threats and meet the security 
+challenges. in addition, clause 7 of this recommendation identifies the inter-cloud security related functions. 

@@ -1,0 +1,50 @@
+5 intercloud and interoperability  
+ 
+932  
+enisa, csa, dmtf, nist, iso/iec jtc1/sc27, sc38, itu-t sg 17, oasis (identity in the cloud tc) are discussing 
+cloud security. 
+• csa    https://cloudsecurityalliance.org/  
+• dmtf    http://www.dmtf.org/  
+• enisa    http://www.enisa.europa.eu/  
+• iso/iec jtc1/sc27 and sc38 http://www.iso.org/iso/jtc1_home.html  
+• itu-t sg 17    http://www.itu.int/en/itu-t/studygroups/2013-
+2016/17/pages/default.aspx  
+• nist    http://www.nist.gov/itl/cloud/  
+• oasis    https://www.oasis-
+open.org/committees/tc_home.php?wg_abbrev=id-cloud  
+in itu-t, study group 17 (sg 17) has been designated the lead study group for "telecommunication security" 
+which includes developing and maintaining security outreach material; coordination of security-related work; 
+and identification of needs and assignment and prioritization of work to encourage timely development of 
+telecommunication security recommendations.  
+6 potential interoperability testing areas of cloud computing 
+cloud computing involves a wide variety of technologies, from distributed processing to virtualization. the 
+types of capabilities offered are also diverse: from iaas, in which the cloud capabilities type provided to the 
+csc is an infrastructure capabilities type, and paas, in which the cloud capabilities type provided to the csc 
+is a platform capabilities type, to saas, in which the cloud capabilities type provided to the csc is an 
+application capabilities type. 
+the targets of cloud computing standardizatio n are so diverse that many standards organizations are 
+studying cloud computing focusing on their respective areas of expertise. taking into consideration the 
+targets of interoperability testing in clause 5, it is possible to identify the targets for interoperability testing 
+as the follows: 
+• target area a: interaction between csc and csp (between user layer and access layer); 
+• target area b: collaboration among different cloud services (between service layers including inter-
+cloud); 
+• target area c: consi stent and interoperable of manage interface (between multi-layer functions 
+(e.g., bss/oss) and cloud services); 
+• target area d: collaboration with legacy network. 
+note – collaboration with legacy network is not defined in [itu-t y.3502]. target area d is not illustrated in figure 6-1. 
+ 
+figure 6-1 – potential cloud computing interoperability target areas 
+q suppl.65(14)_f6-1
+integration
+security
+operational supports systems
+business support systems
+development function
+user layer
+access layer
+services layer
+resources layer
+target area b target area c
+target area a
+multilayer functions

@@ -1,0 +1,10 @@
+5 intercloud and interoperability  
+ 
+792  
+summary 
+recommendation itu-t y.3515 specifies a framework of trusted inter -cloud computing and relevant use 
+cases. it provides general requirements for trusted inter -cloud and specific ones related to governance, 
+management, resiliency, security and confidentiality of trusted inter-cloud 
+keywords 
+cloud computing, confidentiality, governance, inter-cloud, management, resiliency, security, trust. 
+  

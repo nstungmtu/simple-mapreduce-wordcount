@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   81 
+the split of control means that both roles now share the responsibilities of providing adequate protections 
+to the cloud computing systems. security is a shared responsibility. security controls, i.e., measures used to 
+provide protections, need to be analysed to determine which role is in a better position to implement such 
+controls. this analysis needs to include considerations from a service category perspective, where different 
+cloud service categories  imply different degrees of control between cloud service providers  and cloud 
+service customers. it is important to provide a clear definition of the responsibilities of both the customer 
+and the provider and to ensure that all aspects of security are covered, to avoid responsibility ambiguity. 
+for example, account management controls for initial system privileged users for an iaas service are typically 
+performed by the iaas cloud service provider;  meanwhile, application user account management for the 
+application deployed to that iaas service is typically the responsibility of the cloud service customer  who 
+deploys the application using the iaas service. by contrast, for an saas application service, the account 
+management controls for all types of users are in the hands of the cloud service provider (although the cloud 
+service customer can provide capabilities such as third-party authentication). 
+8.5.12.3 cloud service category perspectives 
+a cloud service category defined in rec. itu-t y.3500 | iso/iec 17788 is a group of cloud services that possess 
+a common set of qualities. cloud service categories present cloud service customers with different types of 
+service management operations and expose different entry points into cloud computing systems, which in 
+turn also create different attack surfaces for adversaries. hence, it is importan t to consider the impact of 
+cloud service categories and their different issues in security design and implementation. 
+for example, saas provides users with accessibility of cloud computing offerings using a network connection, 
+possibly over the internet and through a web browser. there has been an emphasis on web browser security 
+in saas cloud computing system security considerations. csc:cloud service users of iaas services are typically 
+provided with virtual machines (vms) that are executed on hypervisor s on the hosts; therefore, hypervisor 
+security for achieving vm isolation has been studied extensively for iaas cloud service providers  that use 
+virtualization technologies. 
+8.5.12.4 implications of cloud deployment models 
+the different cloud deployment models have important security implications. one way to look at the security 
+implications from the deployment model perspective is the differing level of exclusivity of tenants in the 
+deployment model. a private cloud is dedicated to one cloud service custom er organization, whereas a 
+public cloud could have tenants from many different organizations co-existing with each other.  
+another way to analyse the security impact of cloud deployment models  is to use the concept of access 
+boundaries. for example, an on-site private cloud system can or cannot need additional boundary controllers 
+at the cloud service boundary when the private cloud system is hosted on site within the cloud service 
+customer organization's network boundary, whereas an outsourced private clou d tends to require the 
+establishment of such perimeter protection at the boundary of the cloud services. 
+8.5.12.5 data protection strategy and responsibility 
+protection of data assumes a new dimension in cloud computing. an organization can opt to store its data in 
+a cloud service  but then the data protection responsibility and accountability needs to be agreed upon 
+clearly. the first step that the cloud service customer takes is to properly catalogue the data and identify its 
+sensitivity and the risk to the business of its leakage, loss or corruption. (see iso/iec 27002 as a reference for 
+how to identify the sensitivity of data). 
+ideally, it should be the cloud service customer's responsibility to secure the data before it is moved to a 
+cloud computing system. however, the provider  would be accountable for any data tampering or theft. 
+encryption is a potential technique to use but then key management has to be given consideration where 
+the cloud service customer or any third party manages the keys. if the keys are managed by the cloud service 
+provider then they are responsible for the logical and physical control of the keys, as well as the data. 

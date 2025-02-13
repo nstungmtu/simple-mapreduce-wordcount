@@ -1,0 +1,33 @@
+framework and requirements for cloud computing 1 
+ 
+   215 
+table ii.2 – preparing a physical machine – use case 
+figure 
+ 
+pre-conditions 
+(optional) 
+csp: cloud service operations manager wants to modify or expand the resources in a physical 
+machine. 
+post-conditions 
+(optional) 
+a physical machine provides a cloud service. 
+derived 
+requirements 
+– hot-plug support (see clause 7.6) 
+– configuration of multiple processing units (see clause 7.1.5) 
+– monitoring status of physical machine (see clause 7.1.4) 
+ 
+table ii.3 – cold data storage resource – use case 
+title cold data storage resource use case 
+description cold data means data that is stored but almost never read again. the cloud storage service 
+for cold data provides almost no limit storage capacity at a very low cost and the physical 
+machine for cold data storage requires the highest capacity and the lowest cos t. the typical 
+use case is a series of sequential writes, but random reads. as the physical machine is 
+recommended to provide as much storage capacity as possible, it would have many large-
+capacity disks. to provide a highly durable storage service, the physical machine is 
+recommended to provide management function for the csp to manage and monitor the 
+physical machine cluster and then the csp can rebuild the data in time when some failures 
+happen, also the hot plug function is needed. physical machines usually support storage of 
+different media to balance between cost and performance for different situations.  
+roles/sub-roles csp: cloud service operations manager 
+

@@ -1,0 +1,37 @@
+iv 
+table of contents 
+cloud computing: from paradigm to operation 
+page 
+introduction i 
+1. framework and requirements for cloud computing 1 
+information technology – cloud computing – overview and vocabulary 3 
+cloud computing – framework and high-level requirements 19 
+information technology – cloud computing – reference architecture 47 
+cloud computing – overview and functional requirements for data storage 
+federation 109 
+cloud computing – functional requirements for cloud service brokerage 141 
+cloud computing – functional requirements of physical machine 173 
+cloud computing – overview and high-level requirements of distributed cloud 227 
+cloud computing infrastructure requirements 255 
+framework of inter-cloud computing 277 
+big data – cloud computing based requirements and capabilities 317 
+big data standardization roadmap 349 
+cloud computing standardization roadmap 373 
+itu technology watch report – distributed computing: utilities, grids & clouds 419 
+2. cloud computing management 421 
+overview of end-to-end cloud computing management 423 
+cloud-based network management functional architecture 449 
+requirements for service management in cloud-aware telecommunication 
+management system 459 
+cloud computing framework for end to end resource management 469 
+end-to-end cloud service lifecycle management requirements 489 
+metadata framework for naas service lifecycle management 507 
+cloud computing – functional requirements of inter-cloud data management 521 
+3. xaas 543 
+requirements for desktop as a service 545 
+functional architecture for desktop as a service 571 
+cloud computing – functional requirements of network as a service 603 
+cloud computing – functional requirements of infrastructure as a service 635 
+cloud computing – functional architecture of network as a service 657 
+cloud computing – functional architecture of big data as a service 705 
+security requirements for software as a service application environments 727 

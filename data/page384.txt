@@ -1,0 +1,40 @@
+1 framework and requirements for cloud computing  
+ 
+376  
+1 scope 
+this supplement provides a summary of cloud-computing-related deliverables in itu -t study groups (sgs) 
+and other standards development organisations (sdos). also, this supplement provides a common matrix for 
+mapping these deliverables to different cloud-related categories. with the common matrix, this supplement 
+provides analysis for cloud-computing-related deliverables in itu-t sgs and other sdos.  
+2 references 
+[itu-t y.3500] recommendation itu-t y.3500 (2014), cloud computing – overview and vocabulary. 
+[itu-t y.3501] recommendation itu-t y.3501 (2016), cloud computing – framework and high-level 
+requirements. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014), information technology – cloud computing – 
+reference architecture. 
+3 definitions 
+3.1 terms defined elsewhere 
+this supplement uses the following terms defined elsewhere: 
+3.1.1 cloud computing [itu-t y.3500]: paradigm for enabling network access to a scalable and elastic pool 
+of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+3.1.2 cloud service [itu-t y.3500]: one or more capabilities offered via cloud computing invoked using a 
+defined interface. 
+3.1.3 cloud service category [itu-t y.3500]: group of cloud services that possess some common set of 
+qualities. 
+3.1.4 cloud service customer [itu-t y.3500]: party which is engaged in support of, or auxiliary to, activities 
+of either the cloud service provider, or the cloud service customer, or both. 
+3.1.5 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.2 terms defined in this supplement 
+none. 
+4 abbreviations and acronyms 
+this supplement uses the following abbreviations and acronyms: 
+ac alternating current 
+api application programming interface 
+atis alliance for telecommunications industry solution 
+bbf broadband forum 
+c&i conformance and interoperability 
+cadf cloud auditing data federation 
+ccf cloud computing fundamentals 
+ccra cloud computing reference architecture 
+cdn content distribution network 
+cim cloud infrastructure management 

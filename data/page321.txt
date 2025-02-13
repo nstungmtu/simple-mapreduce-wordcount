@@ -1,0 +1,22 @@
+ framework and requirements for cloud computing 1 
+ 
+   313 
+the saas cscs expect an application service to be provided by the saas csp. in reality, the saas csp relies on 
+iaas csp resources and runs its application over the ia as-csp's resources. from the iaas csp's perspective, 
+the iaas csp should, at least: 
+1) provide vms, which are now distributed over multiple secondary iaas csps,  
+2) keep running the application over the distributed vms, and 
+3) allow continuous access to the distributed applications from the user (i.e., saas csc users).  
+in response to the expectations of 1), 2), and 3) above, specific requirements are derived. 
+the requirements on general resource handling in clauses 9.1, 9.2, 9.3, 9.4, and 9.7 relate to 1). 
+the requirements on resource set-up and activation in clause 9.5 relate to 2). 
+the requirements on switchover and switchback of the cloud service user access in clause 9.6 relate to 3). 
+in a simple implementation, these different networks are designed and  operated independently. such a 
+network configuration is straightforward and easy to operate. however, it may cause inefficient operation, 
+where the user traffic path traverses through an unnecessary route with longer delay. in more sophisticated 
+implementations, the locations of these users, providers and vms are taken into account and more efficient 
+operation will be achieved.  
+the capabilities of the networks shown in figure iii.5 may be further offered as naas. the detailed 
+requirements and functions for naas are under study. 
+ 
+  

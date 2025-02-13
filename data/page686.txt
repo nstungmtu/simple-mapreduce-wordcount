@@ -1,0 +1,35 @@
+3 xaas  
+ 
+678  
+in addition, the development functionalities include the building of generated and ready-to-deploy software 
+packages for naas services, nfs and nss which can be then passed on -boarded for deployment in a cloud 
+infrastructure. the software package consists of both the implementation software and also the 
+configuration metadata and scripts. 
+8 functional components 
+this clause presents naas functional components definition and description based on naas functionalities 
+identified in clause 7. naas func tional components include instantiated functional components defined in 
+[itu-t y.3502] and functional components defined in this recommendation. 
+the functional components in a functional architecture represent sets of functions that are re quired to 
+perform the cloud computing activities for various roles and sub -roles involved in cloud computing. the 
+functional architecture of naas complies with ccra [itu-t y.3502], where dependencies between functions 
+are defined in the functional architecture. 
+8.1 business support system functional components for naas products 
+the functional components for naas products (bss-naas products) are shown in figure 8-1. 
+ 
+figure 8-1 – functional components for bss-naas products 
+functional components for bss -naas products include the business support s ystem (bss) functional 
+components described in clause 9.2.5.4 of [itu -t y.3502], i.e. , product catalogue functional component, 
+account management functional component, subscription f unctional component, billing func tional 
+component and accounts functional component. 
+these components are used to support naas business related functionalities of the naas csp as described in 
+clause 7.1. in particular: 
+– the product catalogue functional component provides capabilities for naas cscs to browse the list 
+of available naas service offerings which they can purchase, plus a set of capabilities for the 
+management of the content of the catalogue which are available to the staff of the naas csp. 
+product catalogue entries consist of technical information about each of the naas service offerings 
+(capabilities provided by the naas service, interface definitions for the naas service), plus related 
+business information such as pricing or rating; 
+– the subs cription management  functional co mponent handles subscriptions from naas cscs to 
+particular naas services, aiming to record new or changed subscription information from the naas 
+csc and ensure the delivery of the subscribed naas service(s) to the naas csc; 
+

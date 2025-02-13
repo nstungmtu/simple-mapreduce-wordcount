@@ -1,0 +1,35 @@
+1 framework and requirements for cloud computing  
+ 
+338  
+table i.4 – internet social network services big data analysis 
+title internet social network services big data analysis 
+description social network service (sns) providers use big data application services to analyse the 
+relationships between social network service users. 
+social network service users register to sns services with parts of their background 
+information, such as education and working experience, professional skills, etc. the data 
+provider (sns platform provider) saves the registered users information in databases. the sns 
+platform provider uses big data services provided by the csp:bdip and csp:bdap who use cloud 
+computing systems and technologies, such as distributed databases, computing frameworks, 
+cache systems, etc. the sns platform provider could analyse the behaviour of the sns users 
+and their co-relationships between each other. the csc:bdsu (sns platform provider) could 
+push and promote the contact information to the sns users that the pushed persons may have 
+some relationship with receivers through pop messages or emails. privacy rules are followed, if 
+applicable. 
+roles/sub-roles – csn:dp 
+– csp:bdap 
+– csp:bdip 
+– csc:bdsu 
+name 
+ 
+pre-conditions – the csn:dp can provide the raw data reflecting the behaviours of the sns users.  
+post-conditions – the csp:bdap can have responsibility for providing analysis results of network user 
+behaviour to the csc:bdsu. it can have responsibility for providing the co -relationships 
+between the users of an sns. the csp:bdap should follow the privacy rules, if applicable. 
+– the csc:bdsu utilizes data of co-relationships between the users of an sns to give 
+recommendations of new services or new friends in an sns, etc., following privacy rules, if 
+applicable. 
+derived 
+requirements 
+– data storage (refer to clause 8.3, requirements 1, 2, 5, clause 8.7, requirement 1)  
+– data analysis (refer to clause 8.4, requirements 6, 7) 
+

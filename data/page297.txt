@@ -1,0 +1,68 @@
+ framework and requirements for cloud computing 1 
+ 
+   289 
+– connectivity between  cscs and csp. by means of this connectivity, cscs can use, operate, and 
+manage their cloud services provided by csps. cscs do not know on which csps their services 
+actually run, but network connectivity facilitates access of cscs to the appropriate csp. 
+figure 8-5 illustrates an example of configuration involving a software as a service (saas) csp and multiple 
+infrastructure as a service (iaas) csps forming an inter-cloud federation. the saas csp uses virtual machines 
+(vms) provided by iaas csps which are members of the inter -cloud federation in order to provide saas 
+services (e.g., applications such as e-commerce) to its saas cscs.  
+saas csp
+iaas csp
+(primary)
+iaas csp a
+(secondary)
+app
+vm
+iaas csp b
+app
+vm
+network y
+network x
+network z
+iaas csp c
+app
+vm
+vm
+vm
+vm
+vm
+app
+network q
+app
+4 vms
+network p
+saas
+csc 1
+saas
+csc 2
+saas
+csc 3
+saas
+csc 4
+end-to-end connectivity
+app: application
+vm:  virtual machine
+inter-cloud federation
+y .3511(14)_f8-5
+ 
+figure 8-5 – view highlighting actual running vm and application locations 
+for the sake of simplicity, figure 8 -5 also shows network connectivity between different cscs and csps 
+(illustrated with "network" boxes). these "network" boxes may be under the responsibility of third -party 
+providers different from the iaas csps and saas csps, or may be provided by the iaas and saas csps 
+themselves. these "networks" are involved in the support of end-to-end network connectivity (between the 
+saas csc and the "application" running in the ia as csps). network connectivity supported by these 
+"networks" may be provided as a cloud service of the naas service category. network capabilities for the 
+support of naas service category are for further study. 
+by means of the connectivity provided by these networks, the saas cscs can access the iaas csp on  which 
+the vms providing the service run. the saas cscs do not know on which iaas csps the vms exist, but the 
+networks facilitate each access from saas cscs to the appropriate iaas csp. 
+for the iaas primary csp, in order to achieve optimal resource use, it is desirable to handle information about 
+vm availability as well as their connectivity (including bandwidth, quality of service (qos) and cost). the iaas 
+csp may choose to provide both computing and network resources jointly. 
+multiple service offering sce narios including network contributions to the cloud services are described in 
+appendix iii. 
+8.2.4 interactions in the case of inter-cloud federation 
+figure 8-6 shows the interactions involving multiple csps in the case of the inter-cloud federation pattern. in 
+the inter-cloud federation, secondary csps provide their resources as one kind of service to the primary csp. 

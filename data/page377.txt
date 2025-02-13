@@ -1,0 +1,51 @@
+ framework and requirements for cloud computing 1 
+ 
+   369 
+[iso/iec 29100]   information technology – security techniques – privacy framework 
+ this international standard provides a privacy framework which: 
+– specifies a common privacy terminology; 
+– defines the actors and their roles in processing personally identifiable 
+information (pii); 
+– describes privacy safeguarding considerations; and 
+– provides references to known privacy principles for information 
+technology. 
+ url: http://www.iso.org/iso/iso_catalogue/catalogue_tc/ 
+catalogue_detail.htm?csnumber=45123 
+i.3 w3c references and associated summaries 
+[w3c dcat]    data catalog vocabulary (dcat) 
+ the dcat is an rdf vocabulary designed to facilitate interoperability 
+between data catalogs published on the web. this document defines the 
+schema and provides examples for its use. 
+ by using dcat to describe datasets in data cat alogs, publishers increase 
+discoverability and enable applications easily to consume metadata from 
+multiple catalogs. it further enables decentralized publishing of catalogs and 
+facilitates federated dataset search across sites. aggregated dcat metadata 
+can serve as a manifest file to facilitate digital preservation. 
+ url: http://www.w3.org/tr/vocab-dcat/ 
+[w3c ldp 1.0]   linked data platform 1.0 
+ ldp defines a set of rules for hypertext transfer protocol (htt p) operations 
+on web resources, some based on rdf, to provide an architecture for read -
+write linked data on the web. 
+ url: http://www.w3.org/tr/ldp/ 
+[w3c oo]    the organization ontology 
+ this document describes a core ontology for organizational structures, aimed 
+at supporting linked data publishing of organizational information across a 
+number of domains. it is designed to allow domain-specific extensions to add 
+classification of organizations and roles, as well a s extensions to support 
+neighboring information such as organizational activities. 
+ url: http://www.w3.org/tr/vocab-org/ 
+[w3c mvtd]    metadata vocabulary for tabular data 
+ validation, conversion, display, an d search of tabular data on the web 
+requires additional metadata that describes how the data should be 
+interpreted. this document defines a vocabulary for metadata that 
+annotates tabular data. this can be used to provide metadata at various 
+levels, from gr oups of tables and how they relate to each other down to 
+individual cells within a table. 
+ url: http://www.w3.org/tr/tabular-metadata/ 
+[w3c mtdm]   model for tabular data and metadata on the web 
+ this document outlines a data model, or infoset, for tabular data and 
+metadata about that tabular data that can be used as a basis for validation, 
+display, or creating other formats. it also contains some non -normative 
+guidance for publishing tabular data as cs v and how that maps into the 
+tabular data model. 
+ url: http://www.w3.org/tr/2015/rec-tabular-data-model-20151217/ 

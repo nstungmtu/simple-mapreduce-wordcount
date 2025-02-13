@@ -1,0 +1,47 @@
+security 7 
+ 
+  1029 
+2) abnormal behaviour detection: the abnormal behaviour includes illegal log-in, illegal access to cloud 
+management platform and violation access to other resources, the abnormal modifications of the 
+configurations of network equipment and virtual machines, or other penetration attacks, which can 
+be implemented by technical means, such as integrated auditing tools,  dlp software or other 
+security tools. 
+3) abnormal network traffic monitoring: csps should have the capability to detect and analyse 
+abnormal traffic in the physical network and the virtual network, especially intra -vms traffic. it is 
+necessary to keep awa reness of network traffic and performance status, which can help csps 
+improve the defence capability against worms, abnormal traffic attacks, and other potential security 
+threats in the cloud computing environment. 
+4) physical security monitoring: the obje cts of physical security monitoring include the temperature 
+and humidity control system, closed circuit television (cctv), entrance guard, a fire protection 
+system, air-conditioner, a power supply system, surveillance, protective cages, etc., which can be 
+inspected daily. 
+above all, csps should run a full range check of the cloud computing environment to get the health status of 
+the cloud computing services in the daily operation and maintenance. this can help csps quickly detect 
+various indications, such as network performance quality, vm performance and csc-oriented service quality, 
+etc. furthermore, the checking process can be customized to support threshold or even baseline value alerts. 
+based on the monitoring information gathered, csps should be able t o quickly find the problems in the 
+network, storage, physical machines and virtual platforms when failure happens. 
+csps should also have the capability to locate the other potentially affected cscs by correlation analysis on 
+each specific failure, based on the assumption that cscs have the same weaknesses, the same applications, 
+and the same specific version of os, etc. 
+8.4 disaster recovery 
+csps should implement security measures for disaster recovery with the same security level as the original 
+systems. the security measure technology includes server clusters, synchronous remote mirroring and 
+asynchronous remote mirroring to achieve a hot-standby capability for disaster recovery. 
+1) server clustering 
+ server clustering can coordinate and manage the errors and failures of the separated components, 
+and can add components to the cluster transparently, with elasticity and scalability to reach a 
+sufficient performance. 
+2) synchronous remote mirroring 
+ through remote mirroring software, the data of the pr imary site is synchronously replicated and 
+transmitted to a remote site. once the primary site fails, the running programs would switch to the 
+remote site. the synchronous remote mirroring can guarantee business to continue without loss of 
+data. the cost of this method is high as it depends on a delicately designed mirroring software and 
+sufficient bandwidth of network. synchronous remote mirroring is regularly implemented in 
+systems of high security level. 
+3) asynchronous remote mirroring 
+ this is another remote mirroring method which usually has a lower cost than the synchronous 
+remote mirroring. the data of the primary site is periodically replicated and transmitted to a remote 
+site. if things go well, it can ensure a complete copy in the remote site with out degrading the 
+performance of the primary site. but if something goes wrong during the mirroring period, loss of 
+data is inevitable. asynchronous remote mirroring could be chosen after a sufficient risk evaluation. 

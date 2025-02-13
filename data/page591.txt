@@ -1,0 +1,52 @@
+xaas 3 
+ 
+  583 
+7.2 virtual desktop connection and delivery 
+virtual desktop connection and delivery functions: 
+– perform a delivery protocol (see 7.2.1 delivery protocol processing function); 
+– connect virtual desktops for a daas user (see 7.2.2 client connection management function); 
+– validate a daas user with user authentication (7.2.3 user access management function); 
+– establish a virtual desktop for a daas user (7.2.4 provisioning and allocation function). 
+7.2.1 delivery protocol processing 
+the delivery protocol processing function: 
+– provides the communication channels thro ugh the network for exchanging information between 
+the daas client and the daas platform; 
+ note 1 – examples of exchanged information by the delivery protocol processing function are virtual 
+desktop's display, video and audio data, events of input devices (e.g., mouse, keyboard), and events of other 
+daas client peripherals. 
+– transmits virtual desktop environments to the daas client after the coordination process performed 
+by the client connection management function (see clause 7.2.2) and the connection to the virtual 
+desktop by the daas client with the virtual desktop access information; 
+ note 2 – virtual desktop access information includes the information for connecting virtual desktop such as 
+internet protocol (ip) address, u ri, port number of the daas platform , port number  of assigned virtual 
+desktop, and password for secure connection. 
+– redirects virtual desktop's graphic display to a daas client; 
+– provides the compressed display to decrease the network bandwidth for high resolution and 
+dimension display data; 
+– transmits video/audio data  encoded and decoded with standard codec for each applicable 
+video/audio content; 
+– determines connection negotiation results based on monitoring information received from the 
+connection ne gotiation function (see clause 7.4.2) and the monitoring and controlling virtual 
+desktop resource function (see clause 7.3.1); 
+ note 3 – connection negotiation result includes screen resolution, compression rate of video and audio, 
+transmission rate of display, and kind of video and audio codec. 
+– uses standard security protocols in order to protect the content exchanged between a daas client 
+and a daas platform. 
+7.2.2 client connection management 
+the client connection management function: 
+– establishes a  connection to a daas client after daas user's authentication related with the user 
+access management function (see clause 7.2.3); 
+– identifies csc types (e.g., allocated user, pooled user, multi-virtual machine (vm) user) which were 
+previously assigned from csu's account information; 
+ note 1 – the allocated user uses its own allocated virtual desktop persistently and has its  own permanent 
+virtual desktop by adopting a pre-set method and a manual method. 
+ note 2 – the pooled user has a non-persistent virtual desktop for one-time use only. when the user terminal, 
+divided as the pooled user is logged off from the operation serve r, the virtual desktop used by the user 
+terminal is deleted . when the user terminal accesses the operation server again, a new virtual desktop is 
+allocated to the user terminal. the operatio n server does not store a personal profile of the user when the 
+access of the user terminal of the pooled user is released. 
+ note 3 – the multi-vm user is allowed to use multiple virtual desktops. 
+ note 4  – csu's account information is registered by an administrator at the portal of a daas platform or the 
+administrator's terminal to approve a daas user's prior permission. this information includes csc type, user name, 
+e-mail, telephone number, social security number and employee identification (id), etc. this information can be 
+maintained and provided using database (db), active directory, or lightweight directory access protocol. 

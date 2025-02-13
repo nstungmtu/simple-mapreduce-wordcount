@@ -1,0 +1,32 @@
+intercloud and interoperability 5 
+ 
+  801 
+– sla analyser which is responsible for extracting and evaluating sla metrics;  
+– credential analyser which verifies chains of trust and evaluates the validity of credentials;  
+– trust requirement handler which parses and extracts trust requirements;  
+– trust analyser which encapsulates the policies used to compute trust; 
+– trust requests handler which orchestrates and coordinates the collaboration of the aforementioned 
+components. 
+for an overview of cloud sla, cloud sla metrics and the relationship between the cloud service agreement 
+and the cloud sla please refer to [b-iso/iec 19086-1]. 
+the relationships  between particular elements of trust management function alities are presented in 
+figure 6-2.  
+ 
+figure 6-2 – the relationship between particular elements of trust management functionalities 
+trust management relies on components for managing isolation and security mechanisms. the components 
+managing isolation ensure cross -layer trust, while components managing security mechanism establish a 
+chain of trust satisfying both horizontal (cross-provider) and vertical (cross-layer) dimensions.  
+6.3 resiliency of trusted inter-cloud 
+resiliency includes the set of monitoring, preventive and responsive processes that enable a cloud service to 
+provide near-continuous operations, or predictable and verifiable outages (such as scheduled maintenance), 
+through appropriate failure and recovery actions. these include hardware failures, communications and 
+software malfunctions, and can occur as isolated incident or in combination, including cascade of failures. 
+these processes might include both automated and manual actions, usually spanning multiple systems, and 
+thus their description and realisation are part of the overall cloud infrastructure,  and not an independent 
+function. inherent in resiliency is the realisation of risk management – since resiliency is determined by the 
+least resilient component in the system, performance or other factors may limit the extent to which resiliency 
+is achievable or effective. the association of risk to value is realised in the implementation choices to provide 
+resiliency. 
+inter-cloud resiliency is interpreted as persistence under uncertainty of performance among multiple csps in 
+the face of some set of disturbances that are likely to occur during a specified timeframe.  
+

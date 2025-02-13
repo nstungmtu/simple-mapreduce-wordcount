@@ -1,0 +1,58 @@
+1 framework and requirements for cloud computing  
+ 
+196  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+2 cpu replacement – [b-ocp 2s] provides cpu replacement as 'the motherboard supports all 
+intel xeon scalable processor family (aka skylake-sp) processors with tdp 
+up to 165w. the motherboard shall provision the support of all future cpus 
+in intel xeon scalable processor family platform and the next gen intel xeon  
+scalable processor family platform unless noted otherwise' in clause 5.3.1. 
+– [b-ocp hsas] provides cpu replacement as 'the motherboard is designed to 
+support dual intel xeon e5-2600 v3 and v4 series processors and up to 
+2048gb lrdimm 3ds/1024gb lrdimm/ 512gb rdimm ddr4 memory. 
+leveraging advanced technology from intel, the motherboard is capable of 
+offering scalable 32- and 64-bit computing, high-bandwidth memory design 
+and lightning-fast pci-e bus implementation' in clause 7. 
+– [b-ocp mb] provides cpu replacement as 'the motherboard uses intel xeon 
+e5-2600 v3 (lga2011-3) product family processors with tdp up to 145w. 
+the features listed below must be supported by the motherboard: support 
+two intel xeon e5-2600 v3 (lga2011-3) product family processors up to 
+145w tdp and vendors should engage with intel to ensure the design ready 
+for future processors; two full-width intel qpi links up to 9.6 gt/s/direction; 
+up to 18 cores per cpu (up to 36 threads with hyper-threading 
+technology). up to 45mb last level cache; single processor mode is 
+supported' in clause 5.3.1. 
+3 multiple cpus – [b-ocp 2s] provides multiple cpus as 'support two intel xeonscalable 
+processor family (aka skylake-sp) processors up to 165w tdp and vendors 
+should engage with intel to ensure the design ready for future processors' in 
+clause 5.3.1. 
+– [b- ocp ambh] provides multiple cpus as 'the motherboard supports two 
+amd g34 magny cours or interlagos cpus with a tdp (thermal design 
+power) of 115w' in clause 4.3. 
+– [b- ocp dsbs] provides multiple cpus as 'support up to two processors with 
+a thermal design point (tdp) of up to 135 w' in clause 4. 
+– [b- ocp dsbs] provides multiple cpus as 'support up to two processors 
+using lga2011-3 (socket type r3) and vrd 12.5 and a thermal design point 
+(tdp) of up to 145w' in clause 4. 
+– [b-ocp hsas] provides multiple cpus as 'the motherboard is designed to 
+support dual intel xeon e5-2600 v3 and v4 series processors and up to 
+2048gb lrdimm 3ds/1024gb lrdimm/ 512gb rdimm ddr4 memory. 
+leveraging advanced technology from intel, the motherboard is capable of 
+offering scalable 32- and 64- bit computing, high-bandwidth memory design 
+and lightning-fast pci-e bus implementation' in clause 7. 
+– [b-ocp imbh] provides multiple cpus as '2 intel xeon e5-2600 (lga2011) 
+series processors up to 115w' in clause 4.3. 
+– [b-ocp oapm] provides multiple cpus as 'sockets: dual socket operation' in 
+clause 5. 
+– [b-ocp mb] provides multiple cpus as 'the motherboard uses intel xeon e5-
+2600 v3 (lga2011-3) product family processors with tdp up to 145w. the 
+features listed below must be supported by the motherboard: support two 
+intel xeon e5-2600 v3 (lga2011-3) product family processors up to 145w 
+tdp and vendors should engage with intel to ensure the design ready for 
+future processors; two full-width intel qpi links up to 9.6 gt/s/direction; up 
+to 18 cores per cpu (up to 36 threads with hyper-threading technology). 
+up to 45mb last level cache; single processor mode is supported' in 
+clause 5.3.1. 

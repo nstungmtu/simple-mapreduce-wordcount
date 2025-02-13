@@ -1,0 +1,52 @@
+intercloud and interoperability 5 
+ 
+  895 
+ii.1.11 test case: vm life cycle management 
+table ii.11 shows the test case for vm life cycle management. 
+table ii.11 – test case: vm life cycle management 
+vm life cycle management test description  
+test purpose  to verify that the csc manages the vm with various operations including start, 
+shutdown, restart, suspend and resume vm. 
+reference  [itu-t y.3513] clause 7.1.2 
+test sequence step type description result 
+1 stimulus the csc shuts down a vm which has its power on.  
+2 check the state of the vm is power off.  
+3 stimulus the csc starts the vm.  
+4 check the state of the vm is power on.  
+5 stimulus the csc restarts the vm.  
+6 check the state of the vm is power on.  
+7 stimulus the csc suspends the vm, tries to log in vm's operating 
+system through ssh, vnc or other tools provided by the csp. 
+ 
+8 check the state of the vm is suspended and vm's activity is paused. 
+the csc cannot log in the vm's operating system through 
+ssh, vnc or other tools. 
+ 
+9 stimulus the csc resumes the vm, then checks the power states of 
+the vm, tries to log in vm's operating system through ssh, 
+vnc or other tools provided by the csp. 
+ 
+10 check the state of the vm is power on and the vm's activity is 
+consistent with the moment before suspend operation.  
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.12 test case: physical machine life cycle management 
+table ii.12 shows the test case for physical machine life cycle management. 
+table ii.12 – test case: physical machine life cycle management 
+physical machine life cycle management test description 
+test purpose to verify that the csc manages a physical machine with various operations including 
+start, shutdown, hibernate and wakeup. 
+reference [itu-t y.3513] clause 7.1.1 
+test sequence step type description result 
+1 stimulus the csc shuts down a physical machine which has its power 
+on. 
+ 
+2 check the state of the physical machine is power off.  
+3 stimulus the csc starts the physical machine.   
+4 check the state of the physical machine is power on.  
+5 stimulus the csc hibernates a physical machine which is in power on 
+state. 
+ 
+6 check the state of the physical machine is hibernate.  

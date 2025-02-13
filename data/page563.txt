@@ -1,0 +1,51 @@
+xaas 3 
+ 
+  555 
+• virtualization infrastructure 
+ the main role of the virtualization infrastructure is to support hardware and software resources and 
+create virtual resources (e.g., vms). the virtualization infrastructure can use a virtua lization 
+function, called a hypervisor, to manage hardware resource  efficiently. a hypervisor can abstract 
+physical hardware resources and assign them dynamically to a virtual desktop. in this case, the end 
+user's application runs on the virtual desktops p rovided by the virtualization infrastructure. the 
+virtualization infrastructure supports high availability features (e.g., multiple vms are created from 
+the same vm template) with pre-defined configuration parameters. 
+• virtual desktop delivery 
+ this compo nent is responsible for encapsulation and delivery of either access  to an entire 
+information system environment, or the environment itself to a remote daas client through the 
+network. a protocol for virtual desktop delivery provides the communication channels between the 
+daas client and the daas platform in order to transfer all the interaction information. the interaction 
+information includes display information, control and configuration information, monitoring 
+information, etc. 
+ daas can be serviced by either a personalized virtual desktop or by a virtual desktop from a shared 
+pool. in the case of a personal virtual desktop, there is a one -to-one mapping between a virtual 
+desktop and a cloud service user. each user is assigned a virtual desktop that can b e personalized 
+and customized. these changes are available to the u ser each time that user logs on to his or her 
+personal virtual desktop. for a shared virtual desktop pool, a single os image is replicated across 
+many vms and users can reuse a single vm ov er time. as users connect to the shared virtual pool, 
+they are dyna mically assigned a virtual desktop. a s hared virtual pool allows for uniformed 
+experience across all end users, while combined with simplified administration means. 
+6.3 interaction between daas components 
+to illustrate the daas operation concepts based on figure 6-3, the various steps of an example interaction 
+for daas are shown as follows:  
+• a daas client accesses a connection manager through a security protocol (such as secure shell or 
+transport layer security) and the connection manager  validates the us er with a user -id and 
+associated password. 
+• the connection manager identifies a corresponding user profile and, in order to assign appropriate 
+virtual resources in the virtualization infrastructure, a provisioning operation helps the connection 
+manager to allocate the virtual resources that satisfies the user's hardware configuration and is 
+optimal to the computing environment. 
+• if there are no proper virtual resources, the connection mana ger requests the virtualization 
+infrastructure to create such virtual resources according to the hardware configuration requested 
+by the user or a pre-defined hardware configuration. 
+• after such virtual resources are assigned or created, the connection ma nager applies the user 
+profile, including installation of os and applications, to construct a virtual desktop. 
+• a connection to deliver a corresponding virtual desktop is created in the virtualization infrastructure 
+and the information of the connection is dispatched to the connection manager. 
+• the connection manager sends the connection information to the daas client and the daas client 
+connects to the virtual desktop in the virtualization infrastructure. 
+• the daas client communicates with the virtual d esktop through the network using a delivery 
+protocol for the virtual desktop. 
+• when a daas user terminates a virtual desktop service, the daas client executes a log out operation 
+without loss of user data. 
+• during the log out operation, the connection ma nager updates the modified user profile in a user 
+profile pool to keep the most recent information, and releases the vm resources. 

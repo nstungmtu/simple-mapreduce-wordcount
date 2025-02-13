@@ -1,0 +1,39 @@
+cloud computing management 2 
+ 
+  519 
+9 naas service operational policy framework 
+this clause aims to present the naas service operational policy framework which  consists of elements and 
+functions provided by the csp and the corresponding procedure. 
+9.1 elements of naas service operational policy 
+naas service operational policy data models are operated from creation to execution in the naas service 
+operational pol icy framework. the main elements of the naas service operational policy framework are 
+described as follows. 
+9.1.1 naas service operational policy administration point 
+the naas service operational policy administration point (npap) is responsible for the creation, translation, 
+and validation of new naas service operational policy data models, and the modification of existing ones, 
+both during design time and runtime execution time. naas service operational policy data models are created 
+with the integration of naas service data models. 
+9.1.2 naas service operational policy decision point 
+the naas service operational policy decision point (npdp) is responsible for the distribution and decisions of 
+naas service operational policy data models. once the naas service operational policy data model is initially 
+created or an existing one is modified, the npdp sends it from the repository to the naas service operational 
+policy enforcement point  (npep) before it is actually needed. in this distributed manner, naas serv ice 
+operational policy data models will be available when needed in order to minimize the latency for real-time 
+requests or triggers to the npdp. in some required cases, naas service operational policy data models can be 
+subscribed and automatically updated on the npep. 
+9.1.3 naas service operational policy information point 
+the naas se rvice operational policy information point (npip) is responsible for storing new naas service 
+operational policy data models in the repository which ar e verified by the npap.  the existing ones can be 
+retrieved in the repository. 
+in the repository, naas ser vice operational policy data models are grouped by different dimensions, which 
+include, but are not limited to, the corresponding naas service data model, the type or category, the lifecycle, 
+the ownership or administrative domain, the geographic area or location, the technology type, the describing 
+language and version, and the security level. 
+9.1.4 naas service operational policy enforcement point 
+the npep is responsible for  the enforcement of naas service operational policy data models  during the 
+runtime execution time. 
+9.2 functions of naas service operational policy 
+table 9-1 provides descriptions of the main functions related to the naas service operational policy data 
+model. 
+ 
+  

@@ -1,0 +1,11 @@
+3 xaas  
+ 
+610  
+appendix i – development methodology of naas functional requirements and architecture 
+appendix ii – use cases of naas  
+ii.1 use case template 
+ii.2 naas applications related use cases 
+ii.3 naas platform related use cases 
+ii.4 naas connectivity related use cases 
+appendix iii – considerations on csp's network related activities 
+bibliography  

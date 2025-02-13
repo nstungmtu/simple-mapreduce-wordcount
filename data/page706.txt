@@ -1,0 +1,50 @@
+3 xaas  
+ 
+698  
+end-to-end naas connectivity given to a csc '', ''support logically centralized management and control view 
+of networking resources'', ''provide network connectivity services using unified sla for csc's management of 
+multiple optimized networks in order to simplify and unify the control and management of networks '', and 
+''leverage transport networks dynamically form multiple choices of physical and virtualized networks for the 
+purpose of providing network connectivity services '', which requires naas architecture to provide the 
+dedicated mechanism to present a panorama portal to the  naas csc, allowing a unified abs tract service 
+modelling repository to receive, parse, and transfer naas csc's requirement to the control function of specific 
+domain, which is implemented separately with other parallel control function of dedicated domains. using 
+this manner, it is feasible to realize the composite naas service, which can be decomposed automatically and 
+dispatched to the appropriated control function. 
+take the use case for dynamic transport network, specified in [itu -t y.3512], as an example, it is a typical 
+composite naas  service, which  requires the service management related function to separate the 
+requirement composition into independent service model and distribute them to the independent network 
+control functions. 
+i.3 mapping and derivation of functionalities for network analytics, policy, and autonomy 
+regarding the requirement ''optimized and fine-grained traffic engineering'' in [itu-t y.3512], whose detailed 
+description includes ''collect near real -time utilization metrics and topology data from its own network 
+equipment'', ''provide the csc with fine-grained view on usage of network resources'', ''control the network 
+resource allocation by reconfiguring network profiles as well as properties (e.g., topology, bandwidth) in 
+response to dynamically changing  traffic demands '', which r equires naas architecture provide analytical 
+mechanism to collect near real-time data from naas csp's network environment, maintain monitoring naas 
+service during its lifecycle, trigger the corresponding pre -defined action based on the matched specific 
+condition. 
+in order to perform the closed analysis and control loop in naas service lifecycle management mentioned 
+above, it is also needed for naas architecture to provide configurable policy mechanism, covering policy 
+creation, policy distribution, and policy decision and enforcement. 
+based on the analytical and policy mechanisms, autonomy at resource level of naas architecture can be 
+achieved accordingly. 
+i.4 mapping and derivation of functionality for mapping between physical and virtualized networks 
+on the one hand, the ''overlay network mechanism'', ''logically isolated network partition'', and ''overlapped 
+private ip addresses '' functional requirements, whose detailed description includes ''support virtualized 
+overlay networks on top of the physical underlay network'', ''implement linp'', and ''allows different cscs to 
+use their own private ip addresses even when the subnet addresses are overlapped '' can be satisfied by 
+virtualized overlay network mechanism, e.g. , virtual extensible local area n etwork (vxlan), vpn. on the 
+other hand, the ''optimized and fine-grained traffic engineering'' functional requirement asks for ''naas csp 
+provides the csc with fine-grained view on usage of network resource''. if the network resource mentioned 
+here consists of not o nly physical network, but also virtualized network, which are always implemented by 
+tunnelling overlay mechanism, the naas csc cannot obtain the near real -time utilization on physical 
+networks. because the virtualized network is overlaid over the physical networks, and shields the underlying 
+information to the naas csc, this results in possible underutilization/overutilization of resource. 
+hence, naas architecture needs  to provide the mapping between physical underlay network and virtual 
+overlay network in order to present fine-grained view on usage of physical network resource. 
+i.5 mapping and derivation of functionalities for an evolved real-time oss 
+the ''operation and management'', ''performance'' and ''service chain'' requirements for naas applications 
+described in clause 7 of [itu-t y.3512] imply that functionalities for performance management as well as for 
+flexible provisioning and configuration of naa s applications and their chaining h ave to be supported by 
+the oss. 

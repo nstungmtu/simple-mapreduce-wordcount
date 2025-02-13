@@ -1,0 +1,50 @@
+intercloud and interoperability 5 
+ 
+  827 
+7.3 peer service integration 
+7.3.1 peer csp management 
+the peer csp management function support s discovery of peer csps , negotiation with peer csps, primary 
+csp role delegation, primary csp switchover and switchback. 
+this function includes the following. 
+– peer csp discovery. this allows for exchanging of available inter -cloud service and resource 
+information between peer csps with peering, federation and intermediary patterns. 
+– negotiation with peer csps. this allows for performing of api negotiation, sla negotiation and policy 
+negotiation between peer csps. 
+note 1 – api negotiation mainly deals with the api format, protocol, and content.  
+note 2 – sla negotiation deals with the different inter-cloud service quality between peer csps. 
+note 3 – policy negotiation with peer csps deals with policies that apply to inter -cloud services. policies can include 
+business, technical, security, privacy and certification policies that apply to inter -cloud services and their usage by peer 
+csps. 
+– primary csp role delegation. this allows for identifying of peer csps that are capable of inheriting 
+the primary csp role with peering, federation and intermediary inter-cloud patterns. this allows 
+negotiating with the peer csps identified as to whether they can accept the inheritance and also 
+allows for delegating of one of the peer csps identified to take the role of primary csp. 
+– primary csp switchover and switchback. this allows for switchover of csc access to a  peer csp 
+(acting as primary csp) without service interruption for that csc. this allows the csc to use services 
+in a similar manner to the way they did before the access was switched over. this also allows for 
+switching back on csc access to the primary csp when this csp has recovered from the reasons that 
+led to the switchover (e.g., a fault or load distribution). 
+note 4 – switchover conditions include load distribution between csps, in which the primary csp role is maintained as 
+it is; and fault cases, in which the primary csp role is delegated to the peer csp (see clause 9.6 of [itu -t y.3511]). 
+note 5 – the mechanism of switchover and switchback of a primary csp can be a policy-based process.  
+7.3.2 inter-cloud service negotiation 
+the inter-cloud service negotiation function  negotiates inter-cloud service information, quality of service 
+(qos), and performance estimation and selection policy between peer csps. 
+this function includes the following. 
+– inter-cloud service information negoti ation. this allows for  negotiation of inter -cloud service 
+information between peer csps. inter -cloud inter-working can only start when inter -cloud service 
+information negotiation is finalized and the inter-cloud service is available. 
+note – the inter-cloud service information includes: inter -cloud service provider, inter -cloud service identifier, inter -
+cloud service type, inter-cloud service status (available, reserved, allocated, released), inter-cloud service priority (high, 
+medium, normal, low). 
+– inter-cloud service performance negotiation. this allows a primary csp to negotiate with peer csps 
+in order to guarantee inter-cloud service performance that satisfies inter-cloud service slas. 
+– inter-cloud service performance estimation and selection policy ne gotiation. this allows for 
+negotiating of inter -cloud service performance estimation and selection policies associated with 
+peer csps. 
+7.3.3 inter-cloud service discovery 
+the inter -cloud service discovery function discovers available particular inter -cloud services between 
+peer csps. 
+this function includes the following. 
+– inter-cloud service discovery. this allows for discovering of available particular inter-cloud services 
+provided by peer csps that meet the requirements of an inter-cloud service sla.  

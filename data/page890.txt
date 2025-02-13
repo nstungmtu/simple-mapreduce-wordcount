@@ -1,0 +1,42 @@
+5 intercloud and interoperability  
+ 
+882  
+3.1.3 cloud interoperability testing  [itu-t q.4040]: verifying functions and interaction that realize the 
+cloud interoperability. 
+3.1.4 cloud service [itu-t y.3500]: one or more capabilities offered via cloud computing invoked using a 
+defined interface. 
+3.1.5 cloud service customer [itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+3.1.6 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.7 cloud service user [itu-t y.3500]: natural person, or entity acting on their behalf, associated with a 
+cloud service customer that uses cloud services. 
+note – examples of such entities include devices and applications. 
+3.1.8 interoperability [itu-t y .101]: the ability of two or more systems or applications to exchange 
+information and to mutually use the information that has been exchanged． 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cpu  central processing unit 
+csc  cloud service customer 
+csp  cloud service provider 
+dhcp  dynamic host configuration protocol 
+ftp  file transfer protocol 
+http  hypertext transfer protocol 
+iaas  infrastructure as a service 
+iops  input/output operations per second 
+i/o  input/output 
+ip  internet protocol  
+lun  logical unit number 
+nat  network address translation 
+nic  network interface card 
+ovf  open virtualization format 
+qcow2  qemu copy on write version 2 
+qemu  quick emulator 
+qos  quality of service 
+sla  service level agreement 
+ssh  secure shell 
+vlan  virtual local area network 
+vm  virtual machine 
+vmdk  virtual machine disk 
+vnc  virtual network computing 

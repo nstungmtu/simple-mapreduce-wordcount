@@ -1,0 +1,27 @@
+1 framework and requirements for cloud computing  
+ 
+114  
+6 overview of data storage federation 
+6.1 introduction to data storage federation 
+increasing data services in many industries, which use big volumes of data with various data types has led to 
+a tremendous growth in storage capacity needs. a storage user may encounter difficulties utilizing various 
+storages due to the different access mechanisms and storage capabilities o f each storage type. in order to 
+resolve these difficulties, data storage federation (dsf) helps customers to utilize their data storages 
+efficiently by federating heterogeneous storages including cloud storage and on-premises storage.  
+dsf integrates dsf local storage into a virtual storage pool and provides a single virtual volume in the virtual 
+storage pool as shown in figure 6-1. 
+ 
+figure 6-1 – concept of data storage federation 
+dsf provides a single virtual volume for a customer with a single access point and also provides storage access 
+mechanisms to dsf local storage.  
+when a customer requests the single virtual volume, dsf creates a single virtual volume in the virtual storage 
+pool through storage operations. in accordance with customer requests to use the single virtual volume, 
+storage operations such as creating, deleting and scaling are performed by dsf. 
+examples of basic storage operations are described in detail as follows: 
+– creating: connecting dsf local storage, creating virtual storage pool and creating a single virtual 
+volume; 
+– deleting: deleting a single virtual volume, deleting a virtual storage pool and disconnecting dsf local 
+storage; 
+– scaling: extending a single virtual volu me, extending a virtual storage pool and attaching another 
+dsf local storage. 
+

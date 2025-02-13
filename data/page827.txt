@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  819 
+1 scope 
+this recommendation specifies inter-cloud computing functional architecture, including functions and 
+functional components, based on the inter -cloud computing framework specified in [itu -t y.3511]. the 
+recommendation builds upon the functional view of the cloud computin g reference arch itecture 
+[itu-t y.3502] and makes extensions to functional components with inter-cloud functions. 
+the scope of this recommendation consists of: 
+– overview of inter-cloud computing functional architecture; 
+– functions of inter-cloud computing; 
+– functional components of inter-cloud computing architecture. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stand -
+alone document, the status of a recommendation.  
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014) | iso/iec 17789: 2014, information 
+technology – cloud computing – reference architecture. 
+[itu-t y.3511] recommendation itu-t y.3511 (2014), framework of inter-cloud computing. 
+[itu-t y.3514] recommendation itu-t y.3514 (2017), cloud computing – trusted inter-cloud 
+computing framework and requirements. 
+[itu-t y.3522] recommendation itu-t y.3522 (2016), end-to-end cloud service lifecycle 
+management requirements. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 activity [itu-t y.3502]: a specified pursuit or set of tasks. 
+3.1.2 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.3 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements. 
+3.1.4 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.5 functional component [itu-t y.3502]: a functional building block needed to engage in an activity, 
+backed by an implementation. 
+3.1.6 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+note – inter-cloud computing is also referred as inter-cloud. 

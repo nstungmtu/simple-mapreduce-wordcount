@@ -1,0 +1,46 @@
+2 cloud computing management  
+ 
+514  
+1 scope 
+this recommendation provides the metadata framework for the closed-loop automation lifecycle 
+management of network as a service ( naas) service, specifically in the environments of development and 
+operations (devops) and continuous integration/continuous delivery (ci/cd). this recommendation covers 
+the following aspects: 
+– general description of metadata for naas service lifecycle management; 
+– metadata in naas service; 
+– metadata framework for naas service lifecycle management; 
+– naas service operational policy framework. 
+this recommendation also provides appendix i describing: 
+– metadata applicability in naas service lifecycle management. 
+note 1 – the objective in defining a metadata framework of naas service lifecycle management is not to invent new 
+metadata, but rather to make the existing metadata interoperable and integrated in the closed -loop automation 
+management of naas service, especially in the environments of devops  and ci/cd. 
+note 2 – "metadata" in this recommendation refers to naas service data model, naas service operational policy data 
+model and naas resource data model. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore enc ouraged to investigate the possibility of appl ying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recomme ndation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.3512] recommendation itu-t y.3512 (2014), cloud computing – functional requirements of 
+network as a service. 
+[itu-t y.3515] recommendation itu-t y.3515 (2017), cloud computing – functional architecture of 
+network as a service. 
+[itu-t y.3522] recommendation itu-t y.3522 (2016), end-to-end cloud service lifecycle 
+management requirements. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications and storage 
+equipment. 
+3.1.2 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.3 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements. 

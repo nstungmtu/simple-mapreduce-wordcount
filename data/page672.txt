@@ -1,0 +1,14 @@
+3 xaas  
+ 
+664  
+i.6 mapping and derivation of functionalities for naas products and naas services 
+development 
+i.7 mapping and derivation of functionalities related to naas business 
+appendix ii – modelling usage example of naas service, naas service operational policy and naas resource 
+model 
+ii.1 introduction 
+ii.2 modelling usage 
+appendix iii – relationship between naas functional architecture and sdn 
+appendix iv – example of nfv and sdn usage in support of naas architecture 
+bibliography 
+ 

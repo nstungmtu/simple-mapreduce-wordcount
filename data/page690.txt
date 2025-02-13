@@ -1,0 +1,53 @@
+3 xaas  
+ 
+682  
+resources, physical resources) described by the model. a naas resource model provides the 
+information model of naas resources, e.g., the topology attributes of a physical and virtualized 
+network such as bandwidth or latency of corresponding links, and the operational parameters 
+needed to support the deployment of these naas resources. 
+2) provisioning functional component (see clause 9.2.5.3 of [itu-t y.3502]). this component provides 
+the capabilities for provisioning naas services; 
+3) monitoring and reporting functional component (see clause 9.2.5.3 of [itu -t y.3502]) . 
+this component provides the capabilities for monitoring services including naas services provided 
+by the naas csp; 
+4) service policy management functional component (see clause 9.2.5.3 of [itu-t y.3502]). the service 
+policy management functional component provides capabilities to define, store and retrieve policies 
+that apply to cloud services including naas services; 
+5) service automation functional component (see clause 9.2.5.3 of [itu -t y.3502]) . the service 
+automation functional component provides capabilities for service delivery including the 
+management and execution of service t emplates and the orchestration of services , which include 
+naas services. the service automation functional component realizes the naas service orchestration 
+functionalities described in clause 7.3. 
+ in order to realize the functionalities for naas service orchestration, a unified abstract modelling of 
+naas services provided to the naas csc by the service layer is a must. with such modelling being 
+defined, the naas service automation functional component when receiving a composite naas 
+service request from the naas csc will be able to decompose the request into several independent 
+naas resources order requests and distribute each of these independent requests to the 
+appropriate control or oss functionalities of the naas csp specific domains, automatically. the oss-
+naas se rvice automation functional component provides coordination, aggregation and 
+composition of multiple services in order to deliver naas services. 
+ the oss-naas service automation functional component provides service orchestration according 
+to the naas serv ice model and naas service operational policy model. the service automation 
+functional component handles naas service requests received from the naas csc and decomposes 
+these naas service requests according to the naas service models and policy models, respectively. 
+6) service level management functional component (see clause 9.2.5.3 of [itu-t y.3502]). the service 
+level management functional component provides capabilities for managing the service levels of a 
+particular cloud service, aiming t o ensure that  the cloud service meets the requirements of the 
+service level agreement (sla) which applies to the service. this includes service level management 
+of naas services; 
+7) incident and problem management functional component (see clause 9.2.5.3 of [itu-t y.3502]). the 
+incident and problem management functional component provides capabilities for the capture of 
+incident or problem reports and managing those reports through to resolution. incidents and 
+problems can be detected and reported by the na as csp's systems, or they can be detected and 
+reported by naas cscs; 
+8) peer service management functional component (see clause 9.2.5.3 of [itu -t y.3502]). the  peer 
+service managemen t functional component provides capabilities for connecting the naas csp's 
+operational support systems and business support systems to the administration capabilities and 
+business capabilities of peer naas csps, in respect of peer cloud services that are used by the naas 
+csp; 
+9) service inventory functional component . the servi ce inventory functional component provides 
+contains and maintains information about the instances of naas services deployed by the naas csp . 
+note – this component may also apply to cloud service categories different from naas. 
+8.3.2 oss-ns functional components 
+note – the following description is based on  an adaptation of the oss functional components as described in 
+clause 9.2.5.3 of [itu-t y.3502]. 

@@ -1,0 +1,33 @@
+ framework and requirements for cloud computing 1 
+ 
+   171 
+(3) logical components that can cover the set up legal agreement activity: the set up legal agreement 
+activity concerns the service agreement between the cloud service customer and the chosen cloud 
+service provider(s) see clause 8.4.2.8 in [itu-t y.3502]. the contract management logical component 
+(clause 6.4.3) manages all contracts in csb in terms of sla. so, the contract management logical 
+component fully covers the set up legal agreement activity. 
+(4) logical components that can cover the assist csc for accessing service activity: the assist csc for 
+accessing service activity focuses on acquiring access information for a cloud service from a csp who 
+provides the cloud service and forwarding of the access information to the csc who requested the 
+cloud service so that the csc understands how to access to an d use the service. the service access 
+manager logical component ( clause 6.4.4) manages access information of cloud services brokered 
+by a cloud service broker by acquiring access information from the csp. also, the service access 
+management logical component is capable of forwarding access information to a proper csc.  so, 
+the service access management logical component fully supports the assist csc for accessing service 
+activity. 
+(5) logical components that can cover the check and control service status act ivity: the check and 
+control service status activity focuses on assisting cscs in cloud service controls such as stopping, 
+resuming and terminating cloud services. also, this activity involves checking status of running cloud 
+services by monitoring so that  a cloud service broker enforces service qualities agreed in a sla 
+instead of cscs. since the service management logical component ( clause 6.4.5) is a logical 
+component to manage controls and status of running cloud services  brokered by a cloud service 
+broker, the service management logical component fully supports the check and control service 
+status activity. 
+ 
+bibliography 
+ 
+[b-iso/iec 19086-1] iso/iec 19086-1:2016, information technology – cloud computing – service level 
+agreement (sla) framework – part 1:overview and concepts. 
+https://www.iso.org/standard/67545.html  
+ 
+ 

@@ -1,0 +1,48 @@
+2 cloud computing management  
+ 
+442  
+10.4.1  resource fulfilment functionalities 
+this covers a set of functionalities for the fulfilment management of resources for the support of cloud 
+services. this functionality includes resource order management. 
+10.4.1.1  resource order management 
+this set of functionalities manages the e2e lifecycle of a resource order request. this includes validating 
+resource availability as well as the resource order request. 
+note – resource order management functionality will typically communicate with service order management and 
+resource layer functionalities. notifications can be issued to the service order management functionalities during the 
+resource order orch estration proces s (especially upon completion). such notification can trigger other steps in the 
+service order management functionalities (e.g., resource order completion). 
+resource order management functionalities include: 
+1) resource order orchestration and distribution. this functionality provides workflow and 
+orchestration capability across resource order management. this functionality has the ability to 
+distribute the resource order. it also provides functionality to track and manage the overall resource 
+order as well as to track the overall order; 
+2) resource order validation. this functionality validates the resource order request based on contract, 
+catalogue, and provisioning rules; 
+3) resource order tracking and lifecycle management.  this functional ity issues valid and complete 
+resource orders, and stores the order into an appropriate repository; 
+4) resource assign. this functionality addresses resource configurations which are needed to support 
+a service order. 
+10.4.2 resource assurance functionalities 
+this set of functionalities covers the assurance management of resources in support of cloud services. these 
+functionalities include resource performance management, resource fault management and resource test 
+management. the role of particular functionalities is described below. 
+10.4.2.1  resource performance management 
+this set of functionalities monitors, analyses, and reports on the performance of the csp resources. this 
+includes the following functionalities: 
+1) resource performance monitoring. thi s fu nctionality supports data collection and performance 
+monitoring of the csp resources; 
+2) resource performance analysing. this functionality analyses the performance of the various csp 
+resources; 
+3) resource performance management reporting. this functi onality generates reports about the 
+performance of the csp resources. 
+10.4.2.2 resource fault management 
+this set of functionalities is responsible for the management of faults associated with the resources of csp. 
+this includes the following functionalities: 
+1) resource fault monitoring. this functionality collects and monitors the operational status of the 
+resource layer; 
+2) resource fault analysis. this functionality relates and analyses the various fault events in the 
+resource layer; 
+3) resource fault c orrection and restoration. this functionality is responsible for repairing or 
+replacement of faulty resources; 
+4) resource fault reporting. this functionality provides reports about the various faults within the 
+resource layer. 

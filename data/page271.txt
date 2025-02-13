@@ -1,0 +1,61 @@
+ framework and requirements for cloud computing 1 
+ 
+   263 
+8 requirements for networking resources 
+typically, there are several types of networks involved in cloud computing services delivery and composition, 
+such as the intra-datacentre network and inter-datacentre network, as well as the access and core transport 
+network, etc. 
+to illustrate the cloud computing network concepts described in this recommendation, a generic network 
+model, which supports cloud computing infrastructure, is shown in figure 8-1. 
+y.3510(13)_f8-1
+mobile user
+resource abstractor and controller
+remote user
+service access interface
+branch office
+leased 
+line
+vpn
+wireless
+access and core transport network 
+network management
+system 
+customer's datacentre
+leased
+line
+home user
+xdsl
+cloud infrastructure 2
+inter-datacentre network
+network management
+system 
+virtual
+datacentre
+virtual
+datacentre
+virtual
+datacentre
+intra-datacentre
+network
+cloud management
+system
+cloud infrastructure 1
+virtual machine cluster
+virtual
+datacentre
+virtual
+datacentre
+virtual
+datacentre
+intra-datacentre
+network
+cloud management
+system
+ 
+figure 8-1 – generic network model for cloud infrastructure 
+the generic network model shown in figure 8-1 consists of the following blocks: 
+1) intra-datacentre network : the network connecting local cloud infrastructures, such as the 
+datacentre local area network used to connect servers, storage arrays and l4 -l7 devices 
+(e.g., firewalls, load balancers, application acceleration devices). 
+2) access and core transport network : t he network used by cscs to access and consume cloud 
+services deployed by the csp. 

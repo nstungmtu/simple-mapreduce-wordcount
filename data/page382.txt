@@ -1,0 +1,13 @@
+1 framework and requirements for cloud computing  
+ 
+374  
+summary 
+supplement 49 to itu -t y-series recommendations is provides a summary of the cloud -computing-related 
+deliverables of itu-t study groups and other standards development organizations (sdos). for this purpose, 
+the supplement collects all the information from itu and other sdos on their work and understanding related 
+to cloud computing. 
+keywords 
+analysis matrix, cloud computing, recommendation, roadmap, standard. 
+ 
+ 
+  

@@ -1,0 +1,46 @@
+security 7 
+ 
+  973 
+7.2.2 insider threats 
+where humans are involved, there is always a risk of individuals acting in a malicious or careless manner that 
+puts the security of the service at risk. 
+csp employees sharing "administrator" passwords, or otherwise leaving credentials unsecure (e.g.,  written 
+on notes stuck to a screen), careless or inadequa tely trained users, or malicious actions by disgruntled 
+employees will always pose a significant threat to any business. 
+csps in particular need to seriously consider the trustworthiness of their own employees. even with good 
+screening of employees, there is always the risk of a skilled intruder successfully obtaining a position on the 
+csp's data centre staff. such an intruder might be seeking to undermine  the csp itself, or may be intending 
+to penetrate specific csc systems that are being supported, especially if the csc is a high-profile corporation 
+or government agency. 
+8 security challenges for cloud computing 
+security challenges comprise difficulties other than security threats arising from the nature and operating 
+environment of cloud services, includi ng "indirect" threats. an indirect threat is where a threat to one 
+participant of a cloud service may have adverse consequences for others. 
+the challenges identified in this recommendation are the ones that when not properly addressed, may leave 
+the door o pen to threats . these challenges need to be considered when considering cloud computing 
+services. 
+8.1 security challenges for cloud service customers (cscs) 
+this clause describes security challenges associated with environmental difficulties or indirect threats that 
+may give rise to more direct threats to the interests of the csc. 
+8.1.1 ambiguity in responsibility 
+cscs consume delivered resources through different service categories and deployment models. the 
+customer-built ict system thus relies on these services. any lack of a clear definition of responsibility among 
+cscs and csps may introduce conceptual and operational conflicts. any contractual inconsistency of provided 
+services could induce an anomaly or incidents. for example, the problem of which entity is the data controller 
+and which one is the data processor may be unclear at an international scale, even if the international aspect 
+is reduced to a minimal third party outside of a specific region such as the european union. 
+due to leg al and regulatory requirements, any related doubt (e.g., whether a given csc or csp is a "data 
+controller" or "data processor") may lead to ambiguity as to which set of regulations they are required to 
+adhere to. if this interpretation varies in different jurisdictions, a given csc or csp could find themselves 
+subject to conflicting regulations on the same service or portion of data. 
+8.1.2 loss of trust 
+sometimes, it is difficult for a csc to recognize their csp's trust level due to the black-box feature of the cloud 
+computing service. if there are no means of obtaining and sharing the provider's security level in a formalized 
+manner, cscs have no means to evaluate the security implementation level achieved by the provider. such 
+a lack of sharing at the security level with regard to csp could become a serious security threat for some cscs 
+in their use of cloud computing services. 
+8.1.3 loss of governance 
+the decision by cscs to migrate a part of their own ict system to a cloud computing infrastructure implies  
+giving partial control to a csp. this could be a serious threat to a csc's data, notably regarding the role and 
+privilege assignment to the provider. coupled with a lack of transparency regarding cloud computing provider 
+practices, this may lead to misconfiguration, or even enable a malicious insider attack. 

@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   7 
+the following term is defined in iso/iec 20000-1: 
+3.1.7 service level agreement (sla): documented agreement between the service provider and customer 
+that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal group or a 
+customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement. 
+3.2 terms defined in this recommendation | international standard 
+for the purposes of this recommendation | international standard, the following definitions apply: 
+3.2.1 application capabilities type: cloud capabilities type (3.2.4) in which the cloud service customer 
+(3.2.11) can use the cloud service provider's (3.2.15) applications. 
+3.2.2 cloud application portability : ability to migrate an application from one cloud service (3.2.8) to 
+another cloud service (3.2.8). 
+3.2.3 cloud auditor: cloud service partner  (3.2.14) with the responsibility to conduct an audit of the 
+provision and use of cloud services (3.2.8). 
+3.2.4 cloud capabilities type: classification of the functionality provided by a cloud service (3.2.8) to the 
+cloud service customer (3.2.11), based on resources used. 
+note – the cloud capabilities types  are application capabilities type  (3.2.1), infrastructure capabilities type  (3.2.25) and 
+platform capabilities type (3.2.31). 
+3.2.5 cloud computing: paradigm for enabling network access to a scalable and elastic pool of shareable 
+physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications, and storage equipment.  
+3.2.6 cloud data portability : data portability (3.2.21) from one cloud service (3.2.8) to another cloud 
+service (3.2.8). 
+3.2.7 cloud deployment model: way in which cloud computing (3.2.5) can be organized based on the 
+control and sharing of physical or virtual resources. 
+note – the cloud deployment models include community cloud (3.2.19), hybrid cloud (3.2.23), private cloud (3.2.32) and public 
+cloud (3.2.33).  
+3.2.8 cloud service: one or more capabilities offered via cloud computing (3.2.5) invoked using a defined 
+interface. 
+3.2.9 cloud service broker : cloud service partner  (3.2.14) that negotiates relationships between cloud 
+service customers (3.2.11) and cloud service providers (3.2.15). 
+3.2.10 cloud service category: group of cloud services (3.2.8) that possess some common set of qualities. 
+note – a cloud service category can include capabilities from one or more cloud capabilities types (3.2.4). 
+3.2.11 cloud service customer : party (3.1.6) which is in a business relationship for the purpose of using 
+cloud services (3.2.8). 
+note – a business relationship does not necessarily imply financial agreements. 
+3.2.12 cloud service customer data: class of data objects under the control, by legal or other reasons, of 
+the cloud service customer (3.2.11) that were input to the cloud service (3.2.8), or resulted from exercising 
+the capabilities of the cloud service (3.2.8) by or on be half of the cloud service customer  (3.2.11) via the 
+published interface of the cloud service (3.2.8). 
+note 1 – an example of legal controls is copyright. 
+note 2 – it may be that the cloud service (3.2.8) contains or operates on data that is not cloud service customer data; this might 
+be data made available by the cloud service providers (3.2.15), or obtained from another source, or it might be publicly available 
+data. however, any output data produced by the actions of the cloud service customer (3.2.11) using the capabilities of the cloud 
+service (3.2.8) on this data is likely to be cloud service customer data (3.2.12), following the general principles of copyright, unless 
+there are specific provisions in the cloud service (3.2.8) agreement to the contrary. 

@@ -1,0 +1,17 @@
+5 intercloud and interoperability  
+ 
+880  
+9.6 interoperability testing of ip address reservation between the csc and csp 
+9.7 interoperability testing of load balance between the csc and csp 
+9.8 interoperability testing of firewall between the csc and csp 
+9.9 interoperability testing of multipath routing between the csc and csp 
+9.10 interoperability testing of network information inquiring between the csc and csp 
+appendix i – test case template 
+appendix ii – test cases for cloud computing infrastructure capabilities interoperability testing 
+between the csc and csp 
+ii.1 test cases for computing service interoperability testing between the csc and csp 
+ii.2 test cases for storage service interoperability testing between the csc and csp 
+ii.3 test cases for network service interoperability testing between the csc and csp 
+appendix iii – alignment analysis with [itu-t y.3513]  
+bibliography 
+ 

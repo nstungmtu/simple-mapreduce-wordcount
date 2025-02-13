@@ -1,0 +1,29 @@
+cloud computing management 2 
+ 
+  437 
+10.2  functionalities for cloud product management 
+this clause identifies cloud product management functiona lities including product fulfilment, product 
+assurance and product repository functionalities. the detailed functionalities for cloud product management 
+are presented in figure 10-3. 
+ 
+figure 10-3 – functionalities related to cloud product management 
+10.2.1 product fulfilment functionalities 
+this covers a set of functionalities for the fulfilment management of cloud products. these functionalities 
+include product order management. 
+10.2.1.1 product order management 
+product order management is responsible for the e2e lifecycle management of a product orders. 
+product order management functionalities include the following: 
+1) product order establishment. this functionality is responsible for the acquisition of a product order 
+request; 
+2) product order distribut ion. this functionality decomposes the  product order into service order 
+requests and then distributes each service order request to appropriate service order management 
+functionalities; 
+3) product order publication. this functionality issues valid and comp lete product orders, and stores 
+the order into an appropriate inventory; 
+4) product order tracking and management. this provides the functionality necessary to track and 
+manage the distributed requests decomposed by product order distribution; 
+5) product o rder orchestration. this functionality  provides workflow and orchestration capability 
+across product order management. 
+10.2.2 product assurance functionalities 
+this covers a set of functionalities for the assurance management of cloud products. 
+

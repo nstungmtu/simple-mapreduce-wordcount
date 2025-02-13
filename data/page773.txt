@@ -1,0 +1,46 @@
+video processing and storage 4 
+ 
+  765 
+step 2: after receiving the human recognition request, the ivs system authenticates the user information, 
+requests the cloud computing platform to create the intelligent human recognition  function, and then 
+responds to the cu with the information from the intelligent human recognition function. 
+step 3: after receiving the response of the ivs system, the cu sends the request to the cloud computing 
+platform. 
+step 4: the cloud computing platform downloads the relevant video files from the media storage unit (msu), 
+processes the video files in parallel and then sends the human recognition results back to the cu. 
+step 5: when the intelligent human recognition task finishes, the cloud computing platform destroys the 
+intelligent human recognition function to release the corresponding resources. 
+6.4.2 case 2: video synopsis 
+the ivs system deployed by a public security department produces massive surveillance video continuously 
+and the cost of data storage is high. however, the public security department is usually interested in moving 
+objects in the surveillance video. therefore, to save storage space, surveillance video is usually processed to 
+generate synopsis video before long -term storage. the objective of video synopsis is to shorten the video 
+time by reorganizing moving video objects in temporal and spatial dimensions. for example, by using the 
+video synopsis operation, a 24 h surveillance video file is transformed into a 30  min video file that contains 
+all moving objects in the original video file. the intelligent video synopsis  function can be virtualized as 
+functional components in the cloud computing platform , and can be dynamically created according to user 
+demand. 
+step 1: users log into the ivs system through the cu, and set several functional parameters of the video 
+synopsis, such as the camera channel numbers, the time period of interest in the historical video and the 
+density of the objects. then users send an intelligent video synopsis request to the ivs system. 
+step 2: after receiving the video synopsis request, the ivs system authenticates the user information, 
+requests the cloud computing platform to c reate the intelligent video synopsis function and then responds 
+to the cu with the information from the intelligent video synopsis function. 
+step 3: after receiving the response of the ivs system, the cu sends the request to the cloud computing 
+platform. 
+step 4: the cloud computing platform downloads the relevant video files from the msu, processes the video 
+files in parallel and then uploads the video synopsis results back to the msu. 
+step 5: when the intelligent video synopsis  task finishes, the cloud co mputing platform destroys the 
+intelligent video synopsis function to release the corresponding resources. 
+7 requirements for cloud computing platform supporting visual surveillance 
+7.1 user requirements 
+there are two types of user: cloud computing service consumers and cloud computing service providers. 
+7.1.1 cloud computing service consumer requirements 
+– usr-01: a visual surveillance cloud computing  (vscc) platform is required to support registration 
+and de-registration of the end user through the interface provided by the system and the end user 
+can view and modify personal information. 
+– usr-02: a vscc platform is required to support convenient end -user login to and logout from the 
+system. a username and password are required when an end user logs into the system. 
+– usr-03: a vscc platform is recommended to support end-user view of the user access logs or other 
+system logs. 
+– usr-04: a vscc platform is recommended to support real-time surveillance video distribution. 

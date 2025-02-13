@@ -1,0 +1,28 @@
+ framework and requirements for cloud computing 1 
+ 
+   59 
+7.6 implementation view of cloud computing 
+while details of the user view and functional view are addressed within this recommendation | international 
+standard, the implementation view is out of the scope of this recommendation | international standard. 
+7.7 deployment view of cloud computing 
+while details of the user view and functional view are addressed within this recommendation | international 
+standard, the deployment view is out of the scope of this recommendation | international standard. 
+8 user view 
+8.1 introduction to roles, sub-roles and cloud computing activities 
+given that distributed services and their delivery a re at the core of cloud computing, all cloud computing 
+related activities can be categorized into three main groups:  activities that use services,  activities that 
+provide services and activities that support services. 
+this clause contains descriptions of s ome of the common roles and sub-roles associated with cloud 
+computing. 
+it is important to note that a party can play more than one role at any given point in time. when playing a 
+role, the party can restrict itself to playing one or more sub-roles. sub-roles are a subset of the cloud 
+computing activities of a given role. 
+as shown in figure 8-1, the roles of cloud computing are: 
+• cloud service customer (clause 8.2); 
+• cloud service provider (clause 8.3); 
+• cloud service partner (clause 8.4). 
+ 
+figure 8-1 – cloud computing roles 
+figure 8-2 shows the roles of cloud computing, with their associated sub-roles. each of the sub-roles shown 
+in the figure is described in more detail in the following clauses. 
+

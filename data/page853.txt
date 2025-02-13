@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  845 
+3.1.5 cloud service level objective [b-iso/iec 19086-1]: commitment a cloud service provider makes for 
+a specific, quantitative characteristic of a cloud service, where the value follows the interval scale or ratio 
+scale. 
+note – an slo commitment may be expressed as a range. 
+3.1.6 cloud service provider [b-itu-t y.3500]: party which makes cloud services available. 
+3.1.7 cloud service qualitative objective  [b-iso/iec 19086 -1]: commitment a cloud service provider 
+makes for a specific, qualitative characteristic of a cloud service, where the value follows the nominal scale 
+or ordinal scale. 
+note 1 – a cloud service qualitative objective may be expressed as an enumerated list.  
+note 2 – qualitative characteristics typically require human interpretation. 
+note 3 – the ordinal scale allows for existence/non-existence. 
+3.1.8 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+3.1.9 service level agreement  (sla) [b-itu-t y.3500]: documented agreement between the service 
+provider and customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of document ed agreement. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+bss business support system 
+csa cloud service agreement 
+csc cloud service customer 
+csp cloud service provider    
+dos denial-of-service 
+e2e end-to-end 
+iaas infrastructure as a service 
+naas network as a service 
+oss operations support system 
+saas software as a service 
+sdn software defined network 
+sla service level agreement 
+slo cloud service level objective 
+sqo cloud service qualitative objective 
+sso single sign-on 
+tls transport layer security 
+vm virtual machine 

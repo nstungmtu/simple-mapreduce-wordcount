@@ -1,0 +1,19 @@
+8 assisting developing countries  
+ 
+1126  
+4 opportunities and challenges for cloud computing deployment 
+4.1 what are the external barriers that you are encountering with cloud computing adoption? 
+ 
+figure ii.24 – external barriers to adoption of cloud computing 
+the following two options were also mentioned by responders:  
+• the best international editor are not flexible for the adoption of their offer 
+• security concerns 
+4.2 what are the internal barriers that you are encountering with cloud computing adoption? 
+ 
+figure ii.25 – internal barriers to adoption of cloud computing 
+other options: 
+• financing of infrastructure 
+• lack of education in the benefits of cloud computing 
+• lack of resources 
+• no need due to scale of operations 
+

@@ -1,0 +1,37 @@
+ framework and requirements for cloud computing 1 
+ 
+   375 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this supplement 
+4 abbreviations and acronyms 
+5 conventions 
+6 landscape of cloud computing from itu-t perspective 
+7 overview of cloud computing standard roadmap 
+7.1 introduction to standards development organizations (sdos) for cloud computing 
+7.2 analysis of deliverable to provide its category 
+8 itu-t sg13 
+8.1 q17 
+8.2 q18 
+8.3 q19 
+8.4 analysis of itu-t sg13 deliverables 
+9 itu-t jrg-ccm (joint rapporteur group on cloud computing management) of itu-t sg13 
+and itu-t sg2 
+10 itu-t sg17 
+11 itu-t sg5 
+12 itu-t sg11 
+13 itu-t sg16 
+14 itu-t sg2 
+15 iso/iec jtc 1 sc 38 
+16 dmtf 
+17 tm forum 
+18 atis 
+19 broadband forum 
+20 metro ethernet forum 
+bibliography 
+ 
+ 

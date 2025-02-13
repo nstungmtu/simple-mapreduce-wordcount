@@ -1,0 +1,35 @@
+5 intercloud and interoperability  
+ 
+800  
+appropriate policy language implemented in the trusted inter -cloud environment provides expressiveness 
+beyond th e boundary of access control. this should respect security mechanisms of trust management 
+systems to fulfil specified requirements. 
+trust management in inter-cloud environments (as an interaction enabler in situations of risk and uncertainty) 
+is considered in cross-provider and cross-layer dimensions. decisions of the trust management system are 
+typically taken based on the prediction of cloud computing actors ' behaviours and are based on the sla 
+established between csc and csp or between csps. according to particular needs, trust management can 
+either be csc-related or csp-related. 
+the trust management functionalities are supported by the "authorisation and security policy management" 
+functional component within the multi -layer functions of the cloud computin g reference architecture 
+[itu-t y.3502]. the positioning of trust management functionalities across the csps which provide inter -
+cloud services is presented in figure 6-1.  
+ 
+figure 6-1 – the positioning of trust management functionalities over csp in inter-cloud 
+the inter -cloud relation is realised over the particular service layers of csp -a a nd csp -b (dashed line in 
+figure 6-1). the trusted inter-cloud relation is realised over trust management functionalities of csp -a and 
+csp-b located in the "authorisation and security policy management" functional component, which is located 
+within functionalities of inter -cloud security among c sps (solid lines in figure 6 -1). the trust management 
+functionalities play an intermediary role between service layers of csp-a and csp-b in inter-cloud relations. 
+the operational model of trust management identifies four modes as follows: 
+– mode 1 – the trust management system produces simple answers (i.e., trust or no trust) that states 
+whether the credentials provided by the csp satisfy the policy; 
+– mode 2 – extended mode 1, with justification when the request is denied, that states which  
+conditions in the policy the provided credentials were unable to satisfy; 
+– mode 3 – the trust management system provides an answer with justifications and explanation 
+when the policy is satisfied. the explanation contains all credentials that satisfy the policy; 
+– mode 4 – extended mode 3, with detailed explanation. the detailed explanation is obtained by  
+providing all subsets of credentials that satisfy the policy. 
+the trust management functionalities are built upon elements as follows:  
+– feedback analyser which is responsible for the collection and analysis of feedbacks and opinions 
+from a csc or csp about another csc or csp; 
+

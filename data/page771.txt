@@ -1,0 +1,48 @@
+video processing and storage 4 
+ 
+  763 
+5 conventions 
+in this recommendation:  
+– the keywords "is required to" indicate a requirement which must be stri ctly followed and from 
+which no deviation is permitted if conformance to this recommendation is to be claimed. 
+– the keywords "is recommended" indicate a requirement which is recommended but which is not 
+absolutely required. thus this requirement need not be present to claim conformance.  
+6 scenarios 
+this clause describes typical scenarios illustrating the cloud computing platform supporting visual 
+surveillance and deriving its service requirements. 
+6.1 video distribution 
+the cloud computing platform in a visual surveillance (vs) system can support large -scale real-time video 
+forwarding. for example, many surveillance cameras are deployed in the great wall scenic area, and the 
+remote monitoring function of the cameras is open to the public. if users wants to see current images of the 
+great wall remotely, they can view the network video information on their local devices through the cloud-
+based real-time video distribution function. 
+step 1: users enter the customer unit (cu) which supports remote live video viewing of the great wall scenic 
+area, and submit their request to the vs system. 
+step 2: after receiving a video -viewing request, the vs system authenticates the user information, and 
+obtains the related information from a video -forwarding function unit th at is deployed on the cloud 
+computing platform. the cloud computing platform can dynamically create or destroy the video-forwarding 
+function according to current user requests. the vs system then responds to the cu with the information 
+about the video-forwarding function on the cloud computing platform. 
+step 3: after receiving the vs system response, the cu sends a video-viewing request to the cloud computing 
+platform. 
+step 4: the cloud computing platform obtains the video stream from the corresponding came ra, and then 
+forwards the video stream to the cu. 
+6.2 video transcoding 
+the cloud computing platform in a vs system can support video -transcoding functions, e.g., code rate 
+transformation and video format conversion. the traffic department of a city has deployed a large-scale vs 
+system in the city streets with high -definition network cameras. users want to view the current traffic 
+situation on their way home with their mobile phones. due to the limited bandwidth of mobile devices and 
+mobile data traffic limits, high-definition surveillance video needs to be transcoded to low -resolution video 
+before forwarding to the cu. the video -transcoding operation can be carried out on the cloud computing 
+platform. 
+step 1: users log into the vs system via their mobile customer unit (mcu), and select the appropriate network 
+camera. the mcu then sends a video-viewing request to the vs system with the video format description. 
+step 2: after receiving the video -viewing request, the vs system authenticates the user informati on, and 
+obtains the related information from a video -forwarding function unit that is deployed on the cloud 
+computing platform. the vs system then responds to the mcu with the information from the video -
+forwarding function in the cloud computing platform. 
+step 3: after receiving the response of the vs system, the mcu sends a video-viewing request to the cloud 
+computing platform. 
+step 4: the cloud computing platform obtains the video stream from the corresponding camera. then, 
+according to the video format d escription of the mcu, the surveillance video stream is transcoded by the 
+video-transcoding component deployed in the cloud computing platform. the cloud computing platform can 

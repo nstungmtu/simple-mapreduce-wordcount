@@ -1,0 +1,47 @@
+intercloud and interoperability 5 
+ 
+  871 
+• resource monitoring should be confirmed as follows: 
+– resource information is exchanged in a standard manner among multiple csps; 
+– updated resource information is exchanged among multiple csps in synchronization with the 
+events involving the csps; 
+– collecting information about the usage and performance status of the resources is exchanged 
+among multiple csps periodically or on a request basis; 
+– collecting information about the resource availability is exchanged among multiple csps 
+periodically or on a request basis; 
+– monitoring information in commonly defined ways is exchanged among multiple csps. 
+• resource performance estimation and selection should be confirmed as follows: 
+– the achievable resource performance that is available reserved resources in the secondary csps 
+is exchanged between secondary csps. 
+• resource discovery and reservation should be confirmed as follows: 
+– csp can discover available resources of the peer csps; 
+– discovered resources in the peer csps are reserved; 
+– discovered resources in the peer csps are reserved provisionally; 
+– available resources in the peer csps are found based on different priorities; 
+– available resources in the peer csps are reserved on the basis of different priorities. 
+• resource set-up and activation should be confirmed as follows: 
+– reserved resources in a peer csp are established; 
+– the configuration and policy settings of reserved resources in the peer csps are accessed. 
+• cloud services switchover and switchback should be confirmed as follows: 
+– the csc's end-user is switched over  access to a peer csp without manual operation from the 
+csc, in order to allow the csc's end user to use services in a similar manner to the way he/she 
+did before the access was switchover; 
+– the csc's end-user access is switched back to the primary csp when this csp has recovered from 
+the switchover 
+• resource release should be confirmed as follows: 
+– resources reserved, activated and/or set up in the peer csps are released by the csp; 
+– the peer csp's resource configuration information are updated; 
+– received cloud application data are erased and/or transferred back during the resource 
+reservation. 
+• csc information exchange should be confirmed as follows: 
+– csc information is activated only with the prior agreement of the csc; 
+– csc profiles and associated information can be managed; 
+– csc profiles and associated information can be exchanged among multiple csps according to a 
+pre-determined protocol and format, with the condition that the csc is informed of and agrees 
+to the exchange. 
+• primary csp role delegation should be confirmed as follows: 
+– a csp is activated only with the prior agreement of the csc; 
+– a csp is able to discover peer csps that are capable of inheriting the primary csp role, and to 
+negotiate with these peer csps as to whether they can accept the inheritance; 
+– a csp is able to transfer its management information associated with the primary csp role in a 
+reliable manner to the peer csps that have accepted the permission transfer with that csp; 

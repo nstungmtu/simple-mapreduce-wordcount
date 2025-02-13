@@ -1,0 +1,31 @@
+cloud computing management 2 
+ 
+  423 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+overview of end-to-end cloud computing 
+management 
+recommendation itu-t y.3521/m.3070 
+(03/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+ 
+series m: telecommunication management, including tmn  
+and network maintenance 
+ 
+  

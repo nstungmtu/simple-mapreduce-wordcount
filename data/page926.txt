@@ -1,0 +1,44 @@
+5 intercloud and interoperability  
+ 
+918  
+naas network as a service 
+nist national institute of standards and technology 
+oasis organization for the advancement of structured information standards 
+occ open cloud consortium 
+occi open cloud computing interface      
+occi-wg occi working group 
+odca open data center alliance 
+ogf open grid forum 
+ovf open virtualization format 
+paas platform as a service 
+poc proof of concept 
+rest representational state transfer  
+saas software as a service 
+sajacc standards acceleration to jumpstart the adoption of cloud computing 
+scim system for cross-domain identity management 
+sdo standards development organization 
+siif standard for inter-cloud interoperability and federation 
+sla service level agreement 
+smi simple management interface 
+snia storage networking industry association 
+soa service oriented architecture   
+spec standard performance evaluation corporation 
+vm virtual machine   
+note – abbreviations not described in this supplement can be found in [itu-t y.3500] and other reference documents 
+listed in clause 2. 
+4 introduction 
+the purpose of this supplement is to provide the list of existing cloud computing interoperability and testing 
+related activities. c lause 5  describes cloud computing interoperability activities  by different standards 
+development organizations (sdos) while clause 6 identifies  potential cloud computing  interoperability 
+testing areas. this supplement is intended to be of help for developing cloud computing interoperability 
+testing recommendations.  
+5 existing cloud computing interoperability activities 
+5.1 standards development organizations for cloud computing interoperability 
+many sdos are developing cloud standards. some of them are listed in itu-t fg-cloud technical reports. 
+from an interoperability testing perspective, some sdos do not conduct testing themselves but conduct 
+joint/collaborative/sponsored testing groups as described in clause 5.2. for example, distributed 
+management task force (dmtf), european telecommunications standards institute (etsi), organization for 
+the a dvancement of structured information s tandards (oasis), storage networking industry a ssociation 
+(snia) and some sdos sponsored cloud plugfest as part of the cloud interoperability week where, during 
+the testing of specifications, they improved such cloud standards as cloud data management i nterface 
+(cdmi), open cloud computing interface (occi), cloud infrastructure management interface (cimi) and open 

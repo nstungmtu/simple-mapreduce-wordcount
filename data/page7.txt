@@ -1,0 +1,36 @@
+ 
+   v 
+page 
+4. video processing and storage 743 
+requirements for cloud storage in visual surveillance 745 
+requirements for a cloud computing platform supporting a visual surveillance 
+system 757 
+architecture for cloud storage in visual surveillance 769 
+ 
+5. intercloud and interoperability 787 
+cloud computing – trusted inter-cloud computing framework and requirements 789 
+cloud computing – functional architecture of inter-cloud computing 815 
+cloud computing – overview of inter-cloud trust management 841 
+the framework and overview of cloud computing interoperability testing 861 
+cloud computing infrastructure capabilities interoperability testing – part 1: 
+interoperability testing between csc and csp 877 
+cloud computing interoperability activities 913 
+ 
+6. monitoring 941 
+set of parameters of cloud computing for monitoring 943 
+ 
+7. security 961 
+security framework for cloud computing 963 
+data security requirements for the monitoring service of cloud computing 985 
+guidelines for cloud service customer data security 1001 
+guidelines for the operational security of cloud computing 1013 
+information technology – security techniques – code of practice for information 
+security controls based on iso/iec 27002 for cloud services 1037 
+itu technology watch report: privacy in cloud computing 1079 
+ 
+8. assisting developing countries 1081 
+requirements and challenges regarding provision and consumption of cloud 
+computing services in developing countries 1083 
+itu report: cloud computing in africa – situation and perspectives 1127 
+ 
+ 

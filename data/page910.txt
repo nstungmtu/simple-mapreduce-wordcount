@@ -1,0 +1,50 @@
+5 intercloud and interoperability  
+ 
+902  
+ii.3.3 test case: network address translation 
+table ii.24 shows the test case for network address translation. 
+table ii.24 – test case: network address translation 
+network address translation test description 
+test purpose to verify that the csc configures the mapping between an internal ip address and 
+external ip address of a specific vm. 
+reference [itu-t y.3513] clause 7.3.3 
+test sequence step type description result 
+ 1 stimulus the csc configures nat to map the vm's private network 
+address to the public network address.  
+ 
+2 check the private ip address of the vm is translated to specify a 
+public address while accessing the internet. 
+ 
+3 stimulus the csc configures nat to map the public network address 
+to the vm's private network address. 
+ 
+4 check the public ip address of the vm is translated to the private 
+network address. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.3.4 test case: network isolation 
+table ii.25 shows the test case for network isolation. 
+table ii.25 – test case: network isolation 
+network isolation test description 
+test purpose to verify that the csc's tenant network is isolated even though the network address is 
+overlapped with another tenants' network. 
+reference [itu-t y.3513] clause 7.3.4 
+test sequence step type description result 
+1 stimulus the csc logs in as tenant a and creates a vm called vm a.   
+2 stimulus the csc creates a vm called vm c assigned with the network 
+address of the same subnet as vm a. 
+ 
+3 stimulus the csc logs in as tenant b and creates a vm called vm b 
+assigned with the network address of the same subnet as vm 
+a.  
+ 
+4 check vm a can communicate with vm c.   
+5 check vma and vm b cannot communicate with each other.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ 
+ 
+  

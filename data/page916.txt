@@ -1,0 +1,87 @@
+5 intercloud and interoperability  
+ 
+908  
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+17 7.1.6 vm 
+clone 
+– it is recommended that the iaas csp 
+provides a virtual machine with clone 
+functions. the cloned vm has identical 
+configuration and csp/csc data as the 
+original one. 
+– 7.4 interoperability testing of vm 
+clone between the csc and csp 
+18 7.1.7 vm 
+backup 
+– it is recommended that the iaas csp 
+provides a virtual machine with backup 
+functions. when the vm becomes faulty or 
+its data is lost, the vm can be restored using 
+its backup stored according to the csc 
+policy. 
+– 7.10 interoperability testing of vm 
+backup between the csc and csp 
+19 7.1.8 vm time 
+synchronizati
+on 
+– it is recommended that the iaas csp 
+provides time synchronization functions, 
+which allow the csc to control the vm time. 
+– 7.5 interoperability testing of vm 
+time synchronization between the 
+csc and csp 
+20 7.1.9 vm 
+reservation 
+– it is recommended that the iaas csp 
+provides processing resources reservation 
+(such as cpu, memory) functions. resources 
+reservation is used to reserve available 
+resources from iaas infrastructure before 
+vm is initiated. 
+– 7.6 interoperability testing of vm 
+reservation between the csc and 
+csp 
+21 7.1.10 vm 
+image 
+– it is recommended that the iaas csp offers 
+the ability for the csc to provide and use 
+virtual machine images. a vm image consists 
+of infrastructure configuration and csp data, 
+csc data or both. 
+– 7.7 interoperability testing of vm 
+image between the csc and csp 
+22 
+ 
+– it is recommended that the iaas csp 
+supports a different machine image format. 
+– 7.7 interoperability testing of vm 
+image between the csc and csp 
+23 
+ 
+– it is required that the iaas csp provides 
+operation handling mechanisms related to 
+image，including, but not limited to, add, 
+import, store, register, deregister, query, 
+update, delete and export. 
+– 7.7 interoperability testing of vm 
+image between the csc and csp 
+24 7.1.11 vm 
+template 
+– it is recommended that the iaas csp 
+supports the open virtualization format 
+(ovf) template, which is a packaging 
+standard designed to address the portability 
+and deployment of virtual appliances. 
+– 7.8 interoperability testing of vm 
+template between the csc and csp 
+25 
+ 
+– it is recommended that the iaas csp 
+provides operations handling mechanisms 
+related to machine templates, such as 
+upload, update, disable, enable, query and 
+delete to the csc. 
+– 7.8 interoperability testing of vm 
+template between the csc and csp 

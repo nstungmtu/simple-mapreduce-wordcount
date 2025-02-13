@@ -1,0 +1,154 @@
+5 intercloud and interoperability  
+ 
+930  
+specvirt_sc2010 measures the maximum number of workloads that a platform can simultaneously run while 
+maintaining specific quality of service metrics. eac h workload consists of a specific set of virtual machines. 
+the benchmark utilizes several spec workloads representing applications that are common targets of 
+virtualization and server consolidation. scaling is achieved by running additional sets of virtual  machines, 
+called "tiles", until overall throughput reaches a peak. 
+spec release specvirt_sc2013, the new version of specvirt, was issued in  may 2013. it utilizes heavier and 
+busier workload s and further stress the system's ability to meet the benchmark' s quality of service 
+requirements. 
+specvirt_sc2013 shares the general benchmark architecture from specvirt_sc2010, including the benchmark 
+harness and most of the application workloads and vm types. heavier and more bursty workloads that 
+require virtual machines with more memory and vcpus and further stress the system's ability to meet the 
+benchmark's quality of service requirements have been added in specvirt_sc2013. 
+many computer system vendors have submitted specvirt benchmark results to spec. 
+5.2.2 open sources 
+openstack 
+openstack is a global collaboration of developers and cloud computing technologists producing the 
+ubiquitous open source cloud computing platform for public and private clouds. the project aims to deliver 
+solutions for all types of clouds by being simple to implement, massively scalable, and feature rich. the 
+technology consists of a series of interrelated projects delivering various components for a cloud 
+infrastructure solution. 
+ 
+figure 5-6 – the openstack api 
+q suppl.65(14)_f5-6
+http://www.solinea.com
+solinea
+cc
+by sa
+cdmi occi
+openstack
+dashboard
+– openstack command line (nova-client, swift-client, etc.)
+– cloud management tools (rightscale, enstratius, etc.)
+– gui tools (cyberduck, iphone client, etc.)
+internet
+horizon
+http(s)
+openstack
+compute api
+amazon web
+servicese 2c
+api
+vnc/
+vmrc/spice
+openstack
+image api
+openstack
+identity api
+openstack
+object api
+http(s)
+openstack
+image api
+openstack
+identity api
+openstack
+compute api/
+admin api
+openstack
+block storage api
+openstack
+network api openstack
+network api
+openstack
+block storage api
+openstack
+block storage api
+openstack
+network api
+swift-proxy
+openstack
+object api
+account container object
+memcached
+account
+db
+token
+backend
+container
+db
+catalog
+backend
+object
+store
+policy
+backend
+identity
+backend
+openstack object store
+openstack identity service
+glance-api
+glance-registry
+glance
+database
+openstack
+identity api
+openstack
+image service
+keystone
+(service and admin apis)openstack
+identity api
+openstack
+image api
+nova-api
+(os, e 2, metadata, admin)c
+openstack
+image api
+nova
+database
+nova-compute
+hypervisor
+libvirt,
+xenapi, etc.
+openstack compute
+queue
+nova-consoleauth nova-scheduler
+nova-conductor
+nova-console
+nova-*proxy
+nova-cert/
+objectstore
+queue
+cinder-api
+cinder-volume cinder-backup
+openstack
+block storage
+volume
+provider
+cinder
+database
+cinder-scheduler
+openstack
+object api
+openstack
+identity api
+quantum-server
+queuequantum
+agent(s)
+quantum
+plugin(s)
+quantum
+database
+openstack network service
+openstack
+identity api
+network
+provider
+openstack
+identity api
+openstack
+object api
+snia

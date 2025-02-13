@@ -1,0 +1,42 @@
+1 framework and requirements for cloud computing  
+ 
+164  
+table i.9 – a use case for cloud service management in csb 
+to the sla, the csn: cloud service broker performs remedies (e.g., provides bonus 
+point to the csc or scales up the service)  
+  c. finally, if the failure to meet the sla is caused by the csp who operates the 
+service, the csn: cloud service broker and the csp settle the failure. 
+(7)  during the service period, the csc makes a request to the csn: cloud service broker to 
+control (e.g., pause, resume, or restart) the service. 
+  a. the csn: cloud service broker records the request information from the csc.  
+  b. the csn: cloud service broker makes a control request (e.g., pause, resume, or 
+restart) to the csp, who is operating the service. 
+  c. the csp controls the service according to the request from the csn: cloud service 
+broker and replies with a result of control to the csn: cloud service broker.  
+  d. the csn: cloud service broker verifies the control request is correctly performed.  
+  e. through the csb workspace, the csc is notified that the request has been 
+performed. 
+(8)  during the service period, the csc makes a request to the csn: cloud service broker to 
+stop and terminate the service. 
+  a. the csn: cloud service broker records the termination request information from 
+the csc. 
+  b. the csn: cloud service broker makes a termination request to the csp, who is 
+operating the service. 
+  c. the csp stops and terminates the service according to the request from csn: cloud 
+service broker and replies with a result of termination to the csn: cloud service 
+broker. 
+  d  the csn: cloud service broker verifies the service is correctly terminated.  
+  e through the csb workspace, the csc is notified the termination has been 
+performed and the cost of the service usage. 
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+  
+pre-conditions 
+(optional) 
+the csp is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csc is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csc selected a cloud service to utilize. 
+the csn: cloud service broker and the csc established a sla. 
+

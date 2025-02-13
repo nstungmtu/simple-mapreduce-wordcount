@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   71 
+• federation involves using the cloud services of a group of peer cloud service providers who mutually 
+combine their service capabilities in order to provide the set of cloud servi ces required by 
+customers; 
+• intermediation involves a cloud service provider  offering a cloud service  which is based on 
+conditioning or enhancing the cloud service  of a peer cloud service provider . examples of 
+enhancements include managing access to cloud services, providing a cloud service  application 
+programming interface (api) façade, identity management, performance reporting, enhanced 
+security, and so on; 
+• aggregation involves a cloud service provider  offering a cloud service  which is based on the 
+composition of a set of services provided by peer cloud service providers; 
+• arbitrage involves a cloud service provider offering a cloud service which is based on selecting one 
+service offering from a group offered by peer cloud service providers. 
+8.3.2.17 manage security and risks  
+the manage security and risks activity focuses on the management of security and risks associated with the 
+development, delivery, use and support of cloud services. this activity involves: 
+• defining information security policy – taking into consideration the service requirements, statutory 
+and regulatory requirements and contractual and sla obligations; 
+• defining information security risks relating to the cloud service and the approach to those risks that 
+meets the busi ness goals of the cloud service provider.  a significant point here is that managing 
+information security risks has an associated cost and that the provider can take a business position 
+of not handling some risks, instead passing over responsibility for tho se risks to the cloud service 
+customer via the service agreement, in order to address the cost requirements of some part of the 
+marketplace. 
+• selecting design point and associated information security  controls required to address risks 
+associated with the service and design point chosen. the controls typically cover a set of categories, 
+such as: 
+– identity and access management; 
+– discover, categorize, protect data and information assets; 
+– information systems acquisition, development and maintenance; 
+– secure infrastructure against threats and vulnerabilities; 
+– problem and information security incident management; 
+– security governance and compliance; 
+– physical and personnel security; 
+– security of networks and communications; 
+– isolation (between tenants in a multi-tenant situation). 
+• ensuring that the identified controls are in place for the deployed service and the underlying 
+infrastructure; 
+• designing, implementing and evaluating system and application security; 
+• managing, designing, implementing and evaluating the security of cloud services  of peer cloud 
+service providers; 
+• evaluating the effectiveness of the implemented controls and make changes based on experience; 
+• assuring that operating and business support systems provide data access to cloud service provider 
+staff based on the particular cloud service customers tenants they provide a service to. 

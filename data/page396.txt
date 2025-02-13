@@ -1,0 +1,52 @@
+1 framework and requirements for cloud computing  
+ 
+388  
+table 8-2 – itu-t q18/13 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3513, cloud computing – functional 
+requirements of infrastructure as a service 
+recommendation 02/2013 08/2014 
+itu-t y.3515, cloud computing – functional 
+architecture of network as a service 
+recommendation 07/2014 02/2017 
+itu-t y.3516, cloud computing – functional 
+architecture of inter-cloud computing 
+recommendation 05/2015 07/2017 
+itu-t y.3519, cloud computing – functional architecture 
+of big data as a service 
+recommendation 05/2015 11/2018 
+itu-t y.dsf-arch, cloud computing – functional 
+architecture for data storage federation 
+draft recommendation 05/2018 12/2019 
+• itu-t y.3502 | iso/iec 17789 : this recommendation | international standard specifies the cloud 
+computing reference architecture (ccra). the reference architecture includes the cloud computing 
+roles, cloud computing activities, as well as the cloud computing functional components and their 
+relationships. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12209  
+• itu-t y.3510: this recommendation identifies requirements for cloud infrastructure capabilities to 
+support cloud services. the scope of this recommendation includes: 
+– overview of cloud infrastructure; 
+– requirements for compute resources; 
+– requirements for network resources; 
+– requirements for storage resources; 
+– requirements for resource abstraction and control. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12713  
+• itu-t y.3511 : this recommendation describes the framework for interactions of multiple cloud 
+service providers (csps) that is referred to as inter-cloud computing. based on several use cases and 
+consideration of different types of service offerings, this recommendation describes the possible 
+relationship between multiple csps, which are peering, federation and intermediary. by introducing 
+the concept of the primary csp and /secondary csps, the recommendation further describes csp 
+interactions in the cases of federation and intermediary patterns. the recommendation also 
+considers the network significance and its issue s. finally, relevant functional requirements are 
+derived.  
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12078  
+• itu-t y.3512: this recommendation provides use cases and functional requirements of network as 
+a service (naas), one of the representative cloud service categories. this recommendation covers 
+the following: 
+– high-level concept of naas;  
+– functional requirements of naas; 
+– typical naas use cases. 
+– this re commendation provides use cases and functional requirements of naas application, 
+naas platform and naas connectivity. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12285  

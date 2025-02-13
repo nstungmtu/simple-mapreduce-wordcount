@@ -1,0 +1,73 @@
+xaas 3 
+ 
+  727 
+table i.1 – mapping between requirements, activities and functional components 
+requirements in [itu-t y.3600] activities in 
+[itu-t y.3600] 
+functional 
+components in this 
+recommendation 
+related layers 
+with 
+[itu-t y.3502] 
+<clause 8.3 requirement (1)> 
+it is required for the csp:bdip to support 
+different data types with sufficient storage 
+space, elastic storage capacity, and efficient 
+control methods. 
+perform data 
+storage (7.1.3.2) 
+resource orchestration 
+functional component 
+for big data (7.3.3.4) 
+oss 
+<clause 8.3 requirement (6)> 
+it is recommended that the csp:bdip fulfils 
+storage and database performance demands. 
+perform data 
+storage (7.1.3.2) 
+data storage functional 
+component (7.1.5) service layer 
+<clause 8.3 requirement (3)> 
+it is required that the csp:bdip provides 
+flexible licensing policy for the databases. 
+perform data 
+storage (7.1.3.2) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.4 requirement (5)> 
+it is required that the csp:bdap provides a 
+flexible licensing policy for the analytical 
+applications. 
+analyze data 
+(7.1.2.2) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+<clause 8.5 requirement (1)> 
+it is required that the csp:bdap provides a 
+flexible licensing policy for the reporting tool. 
+publish data 
+(7.1.1.2) 
+data policy management 
+functional component 
+(7.3.3.2) 
+oss 
+note – in table i.1, ''–'' means ''there is no specific activity related to the requirements in [itu-t y.3600]''. 
+bibliography 
+ 
+[b-itu-t x.509] recommendation itu-t x.509 (2016), information technology – open systems 
+interconnection – the directory: public-key and attribute certificate frameworks. 
+[b-itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[b-itu-t x.1631] recommendation itu-t x.1631 (2015) | iso/iec 27017:2015, information 
+technology – security techniques – code of practice for information security controls 
+based on iso/iec 27002 for cloud services. 
+[b-itu-t x.1641] recommendation itu-t x.1641 (2016), guidelines for cloud service customer data 
+security. 
+[b-itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-iso/iec 2382] iso/iec 2382:2015, information technology – vocabulary. 
+ 

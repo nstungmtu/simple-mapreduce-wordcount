@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+328  
+7.1.3.2 perform data storage activity 
+the perform data storage activity allows storing of the data collected and the pre -processing results using 
+storage resources and building of corresponding databases to manage and manipulate the data. 
+7.1.3.3 provide data pre-processing activity 
+the provide data pre-processing activity realizes extraction, transformation and de-noising of the collected 
+data. since there are many different data formats and data types of the collected data, the transformation 
+and extraction of complex da ta into simple structured data facilitates and speeds up the data analysis 
+process. 
+the data de-noising process filters out the defects in data to eliminate negative effects in the normal analysis 
+process. 
+7.1.3.4 provide data integration activity 
+the provide data integration activity is responsible for combining, forming, coordinating or blending data 
+from disparate sources and for solving the issues of bulk data movement, replication, synchronization, 
+virtualization, data quality and data services. 
+7.1.3.5 manage data protection activity 
+the manage data protection activity is responsible for protecting data so that the protected data may not be 
+collected, stored and disclosed to whom may not be appropriate. 
+7.1.3.6 manage data provenance activity 
+the manage data provenance activity manages information about the origin and generation process methods 
+of data. such information is useful for debugging, transformations, auditing, evaluating the quality of and 
+trust in data, modelling authenticity and implementing access control for derived data. 
+7.1.4 csc:big data service user (csc:bdsu) 
+csc:big data service user (csc:bdsu) is the sub-role of the csc performed by end-users or other systems in 
+order to use the services from the csp:bdap and csp:bdip. 
+types of csc:bdsu activities include: 
+– use big data service; 
+7.1.4.1 use big data service 
+the use big data service  involves using the services of a csp:bdap and a csp:bdip  in order to accomplish 
+tasks. 
+use big data service activity typically involves: 
+– provision of user credentials to enable the csp:bdap and csp:bdip to authenticate the user and 
+grant access to the big data service; 
+– invocation of the big data service. 
+7.2 benefits of cloud computing based big data 
+one of the main purposes of big data is to  extract deep information from  large volumes of data. large 
+volumes of data can be analysed using two key methods; the scale -up method and the scale-out method. 
+the scale -up method uses a large system with enough resources to analyse a huge amount of data. in 
+contrast, the scale-out method uses many separate processing nodes, where each processing node analyses 
+a portion of data. the scale-out method has the ability to scale just by adding more processing nodes. cloud 
+computing can provide big data with cost-effective elastic processing, storage and network resources. 
+the key benefits of cloud computing based big data are: 
+– scalability. big data needs to have capabilities to store and process large volumes of data. therefore, 
+scalability is very important for big data. however, the additional systems for big data require a lot 
+of time and cost management. cloud computing can provide flexible scalabilities to big data without 
+additional expansion of infrastructure. it allows the big data service user to easily upscale or 
+downscale the resources quickly. 

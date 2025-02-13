@@ -1,0 +1,34 @@
+3 xaas  
+ 
+670  
+resources offered by the naas csp to the naas csc depend on the type of naas  service 
+(e.g., naas connectivity, naas applications as described in [itu -t y.3512]) being provided by the naas csp. 
+these resources can be negotiated by the naas csc with the naas csp through the use of the service interface 
+provided by the naas csp. for example, subject of such negotiation can cover connectivity parameters for a 
+naas connectivity service provided by the naas csp. 
+service requests made by the naas csc via the service interface will trigger interactions with other naas 
+csp's functionalities such as evolved real -time oss functionalities (see clause 7.7) and naas csp 's resource 
+functionalities (e.g., network elements), for example for instantiating network services, network functions, 
+for allocating cloud comput ing resources and network connec tivity resources in naas  csp's infrastructure. 
+the service interface can also allow the naas csc to instantiate and operate flexible, scalable and functionally 
+expandable virtualized networks as well as provide unified control and management functionalitie s to the 
+naas csc for changing, moving, or removing resources associated to such virtualized networks being offered 
+by the naas csp. 
+6.3 virtualization of network functions 
+as described in [itu-t y.3512], naas services include: 
+– naas application and naas platform services such as virtual ip multimedia subsystem (vims), virtual 
+evolved packet core (vepc) and virtual content delivery network (vcdn); 
+– naas connectivity services such as virtual private network (vpn) services and bandwidth on demand. 
+these naa s services rely on network services (see clause 3.2. 3) and network functions (see clause  3.2.2) 
+provided on -demand by the naas csp to the naas csc. when deployable as software by the naas csp, 
+network functions are known as virtualized network functions (vnfs) (see clause 3.2.5). examples of such 
+vnfs are virtualized control network entities (see [itu-t y.2320]). when implemented via a tightly coupled 
+software and hardware system, network functions are considered as physical network funct ions (pnfs ) 
+(see clause 3.2.4). 
+figure 6-2 provides a representation of aspects that need to be controlled and managed by naas csp. 
+ 
+figure 6-2 – aspects managed by naas csp 
+naas services offered to naas cscs are based on nss and network functions (nfs) that need to be managed 
+by the naas csp. although not illustrated in figure 6-2, connectivity between nfs needs also to be managed 
+by the naas csp, including connectivity between nfs in a given ns and connectivity between different nss. 
+

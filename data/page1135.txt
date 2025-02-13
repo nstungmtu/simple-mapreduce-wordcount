@@ -1,0 +1,29 @@
+ assisting developing countries 8 
+ 
+   1127 
+4.3 what do you think are bottlenecks and weakness that need to be addressed for an effective 
+deployment of cloud services as perceived by cloud customers? 
+ 
+figure ii.26 – bottlenecks to adoption of cloud computing 
+automation of many components was also mentioned among bottlenecks that need to be addressed for an 
+effective deployment of cloud services as perceived by cloud customers. 
+4.4 what are the scenarios that can spur the adoption of cloud services in the country and in 
+developing countries? 
+received responses are the following: 
+• electricity supply, broadband connectivity, security and privacy issues 
+• access to finances for csps, more capacity building and training for end users 
+• white labelled solutions 
+• bandwidth cost 
+• cloudification of infrastructures is not a matter of choice any more 
+• government support and regulation, capacity and skilled manpower 
+• providing cloud services by telcos may increase the adoption of these services in the developing 
+countries because telcos are trusted parties in these countries 
+• economies of scale (shared resources, cost savings, cost reduction) 
+• centralised government services 
+• local data centres for sme's 
+• website hosting locally 
+• cloud computing awareness workshops 
+• developing countries are providing cloud services by telecom companies, but we do not have it by 
+telecom company 
+  
+

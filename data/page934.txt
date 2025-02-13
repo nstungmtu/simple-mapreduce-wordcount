@@ -1,0 +1,33 @@
+5 intercloud and interoperability  
+ 
+926  
+the poc outlines  testing criteria and procedures for documenting how hypervisor and vm solutions from 
+both odca members and non-members interoperated in real-world enterprise cloud scenarios. 
+5.1.11 ogf 
+the open grid forum (ogf) is a community of users, developers, and vendors leading the global 
+standardization effort for distributed computing (including clusters, grids and clouds). 
+ogf works on occi that resource management interface related aspects of cci. 
+the open cloud computing interface working grou p (occi-wg) of the ogf was established in 2009. the 
+purpose of this group is the creation of a practical solution to interface with cloud infrastructures exposed as 
+a service. it focuses on the creation of an api for interfacing infrastructure as a service (iaas) cloud computing 
+facilities, which is sufficiently complete to allow for the creation of interoperable implementations. 
+the occi developed by ogf occi -wg is a set of specifications for cloud computing service providers. occi 
+has a set of implementations that act as proofs of concept. it builds upon world wide web fundamentals by 
+using the representational state transfer (rest) approach for interacting with services. 
+ 
+figure 5-4 – occi's place in a provider's architecture (reference: gfd-p-r.183 
+occi-wg open cloud computing interface – core) 
+table 5-11 – ogf documents and work items related to cci 
+reference name/title status 
+ogf gfd.183 open cloud computing interface - core published 
+ogf gfd.184 open cloud computing interface - infrastructure published 
+ogf gfd.185 open cloud computing interface - restful http rendering published 
+ogf gfd.192 web services agreement specification (ws-agreement) published 
+ogf gfd.193 ws-agreement negotiation published 
+5.1.12 snia 
+snia is a sdo, published the cdmi as an snia architecture (april 2010) and also moving to standardization. 
+snia is also a trade association for storage industry promoting the cloud storage market overall and 
+promoting the adoption of the cdmi standard, and promotin g interoperability implementations (plugfest, 
+test suites, conformance programs). snia also produces open source software; cdmi reference 
+implementation is available under bsd license. 
+

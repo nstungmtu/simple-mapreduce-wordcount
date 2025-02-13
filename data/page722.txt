@@ -1,0 +1,15 @@
+3 xaas  
+ 
+714  
+ 
+figure 7-1 – functional architecture for bdaas 
+7.1 service layer functional components 
+the service layer functional components for bdaas (see figure 7-2) include: 
+– data collection functional component (see clause 7.1.1); 
+– data visualization functional component (see clause 7.1.2); 
+– data pre-processing functional component (see clause 7.1.3); 
+– data analysis functional component (see clause 7.1.4); 
+– data storage functional component (see clause 7.1.5). 
+ 
+figure 7-2 – service capabilities functional components extended for bdaas 
+

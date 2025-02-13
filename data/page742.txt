@@ -1,0 +1,23 @@
+xaas 3 
+ 
+734  
+7 maturity levels of saas application 
+in the industry , the maturity of saas is classified into four levels which could be shortly named as custom 
+level, configurable level, multi -tenant level, and scalable level. each level covers  characteristics of the 
+previous one and provides extended characteristics. the diagram that represents the characteristics of the 
+different saas maturity models is shown in table 1. 
+table 1 – diagram of saas application maturity level 
+ 
+different maturity levels of the saas application have different security requirements to saas application 
+environments, and the requirements will be illustrated from the viewpoint of csps and csns in clause 8. 
+7.1 level 1: custom saas application 
+custom saas application is similar to the traditional application service provider  (asp) model of software 
+delivery. each customer has its own customized solution for saas application and run s its indivi dual 
+application instance on the cloud server. as illustrated in figure 2, the custom application instance comprises 
+the whole execution environment including the operating system (os), the data management system and 
+the middleware that are specific to each tenant, and the saas environment provider has to maintain multiple 
+instances. this model is difficult to scale in order to satisfy the increasing requirement demands of customers, 
+and it can be costly to operate. 
+ 
+figure 2 – architecture of custom saas application 
+

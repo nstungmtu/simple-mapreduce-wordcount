@@ -1,0 +1,41 @@
+2 cloud computing management  
+ 
+516  
+oss  operation support system 
+pe  provider edge 
+sdn  software-defined networking 
+vm  virtual machine 
+vpc  virtual private cloud 
+vpn  virtual private network 
+5 conventions 
+the keywords "is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this recommendation is to be claimed. 
+in the body of this recommendation and its annexes, the words shall, shall not, should, and may sometimes 
+appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, is 
+recommended, and can optionally. the appearance of such phrases or keywords in an appendix or in material 
+explicitly marked as informative is to be interpreted as having no normative intent. 
+6 general description 
+the increasing demands on the closed -loop automation management of cloud service ca uses methods and 
+technology widely used in information technology (it) like devops and ci/cd to be considered and adopted 
+by the telecommunications industry. 
+the existing initiative aims to enable operational processes and tasks (e.g., delivery, deployment , 
+configuration, assurance and optimization) to be executed automatically, such as etsi zsm isg  [b-zsm], or 
+to provide a comprehensive platform for real -time, policy-driven orchestration and automation of physical 
+and virtual network functions (nfs), like open source open network automation platform (onap) [b-onap]. 
+according to [itu-t y.3522], the complexity of re-design, re-configuration and re-deployment problems can 
+be addressed through cloud service lifecycle management metadata. a new service can be c reated with 
+changes only in metadata , which can be regarded as the linkage between design time and executio n time. 
+taking naas service as an example, whose functional requirements and architecture are well defined in [itu-
+t y.3512] and [itu -t y.3515] , the related metadata has been defined in several different standards 
+developing organizations (sdos) and used in many network areas. 
+however, there is no specification to address the detailed position and function of metadata in the context 
+of the entire closed-loop automation lifecycle management of the naas service, whose dependencies and 
+constraints vary unavoidably. 
+this recommendation specifies the interoperability and integration of the existing naas-related data models 
+as a typical kind of anything as a service (xaas) . although, there are other activities on data models ' 
+development on naas service aspect (e.g., oasis tosca  [b-tocsa], ietf yang [b-yang], oasis  bpel 
+[b-bpel]), this recommendation is focused on specifying the framework  with attention on pol icy aspects, 
+and applicability of data models in closed-loop automation management of naas service. 
+7 metadata in naas service 
+this clause aims to specify the positions and functions of naas service metadata for the entire lifecycle 
+management. the positions of naas-related data models are illustrated as shown in figure 7-1. 

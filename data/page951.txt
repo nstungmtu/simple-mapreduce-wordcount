@@ -1,0 +1,31 @@
+monitoring 6 
+ 
+  943 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+set of parameters of cloud computing for 
+monitoring 
+recommendation itu-t q.3914 
+(01/2018) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series q: switching and signalling, and associated  
+measurements and tests 
+  

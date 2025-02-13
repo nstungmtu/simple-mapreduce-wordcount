@@ -1,0 +1,51 @@
+5 intercloud and interoperability  
+ 
+888  
+appendix i 
+ 
+test case template 
+(this appendix does not form an integral part of this recommendation.) 
+table i.1 provides a test case template to describe cloud computing infrastructure capability type 
+interoperability testing between the csc  and csp. the test case template is designed with reference to 
+relevant technical specifications. as shown in the table, an interoperability test case consists of test purpose, 
+reference, test sequence and test verdict.  
+– test purpose is a statement that specifies which test case to verify.  
+– reference of the test case provides list of references to the base specification clause(s), use case(s), 
+requirement(s), etc. which are either used in the test or define the functionality being tested.  
+– the test sequences provide the steps required to perform the test. there are two types of test step. 
+a stimulus corresponds to an event that triggers a specific action on the object under test. there is 
+no need to provide result for a stimulus step. a check consists of observing that the object under 
+test behaves as described. a result must be provided for every check step. if the object under test 
+behaves as described in the description of the check step, the result should be recorded as ok, 
+otherwise the result should be recorded as fail.  
+– for every test case, test verdict should be provided to indicate whether the test is passed. 
+table i.1 – test case template 
+interoperability test description 
+test purpose a concise summary of the test reflecting its purpose and allowing readers to easily 
+distinguish this test from any other test in the document. 
+reference list of references to the base specification clause(s), use case(s), requirement(s), etc. , 
+which are either used in the test or define the functionality being tested. 
+test 
+sequences 
+step type description result 
+1 stimulus a stimulus corresponds to an event that 
+triggers a specific action on the object under 
+test. there is no need to provide 'result' for a 
+stimulus step. 
+there is no need to 
+provide 'result' for a 
+stimulus step. 
+2 check a check consists of observing that the object 
+under test behaves as described. a result must 
+be provided for every check step. if the object 
+under test behaves as described in the 
+description of the check step, the result 
+should be recorded as ok, otherwise the 
+result should be recorded as fail. 
+a result must be 
+provided for every 
+check step. 
+test verdict it is deemed as successfully terminated if all/or one check(s) is (are) 
+successful, otherwise it is deemed as failed. 
+ 
+  

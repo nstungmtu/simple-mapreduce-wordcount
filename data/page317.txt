@@ -1,0 +1,40 @@
+ framework and requirements for cloud computing 1 
+ 
+   309 
+appendix iii 
+ 
+abstract service offering models for inter-cloud computing 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes several abstract service offering models relevant to inter -cloud computing and 
+provides supplementary information to the description provided in the main body of the recommendation. 
+inter-cloud computing performed over multiple csps allows a csp (i.e., the primary csp) to offer new services 
+with respect to expanded service items (cf. clause iii.1) and enhanced service operations (cf. clause iii.2).  
+iii.1 service item expansion 
+in terms of service variety, there are roughly two types of cloud expansions; one refers to adding more of the 
+same resources that the primary csp already has, and the other refers to adding features based on the 
+resources that differ from those the primary csp has.  
+figure iii.1 shows these two expansions.  
+csp
+csc
+secondary csp b
+secondary csp a
+secondary csp a
+secondary csp b
+y .3511(14)_fiii.1
+primary csp
+primary csp
+csc
+csc
+b) v olume expansion –
+more than two units are offered beyond primary capacity.
+a) basic model –
+two units are offered to a user.
+c) service variety expansion –
+v arious units are offered beyond primary capability.
+ 
+figure iii.1 – service item expansion – volume and variety expansions in inter-cloud computing 
+in the basic model shown in figure iii.1 -a, a single csp offers a service consisting of two resource units. a 
+typical example of such a resource is a virtual machine (vm). the csp by itself offers two vms to a given csc.  
+in the volume expansion shown in f igure iii.1-b, two additional vms are provided by the secondary csps a 
+and b. with their support, the primary csp can offer a volume-expanded service, which now consists of four 
+vms.  

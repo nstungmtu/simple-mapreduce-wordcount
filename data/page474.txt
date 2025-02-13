@@ -1,0 +1,34 @@
+2 cloud computing management  
+ 
+466  
+with the convergence of information technology (it) and communications technology (ct) industries, cloud 
+computing is being adopted in telecommunication infrastructures. telecom munication operators deliver 
+cloud services, and also apply cloud computing technologies for the optimization of their telecommunication 
+service platforms and telecommunication support systems. 
+[itu-t m.3070] has defined a service management interface (smi) -based common model for end-to-end 
+(e2e) cloud computing management, which is described in figure 6 -1. in this model, a cloud -aware 
+telecommunication management system can manage cloud -based fa cilities through the management 
+interface "i1" which can correspond to a set of smis. 
+ 
+figure 6-1 – common model for e2e cloud computing management, with  
+telecommunication operator acting as a csp (after [itu-t m.3070]) 
+a cloud-aware telecommunication management system can manage both telecommunication services and 
+cloud services in a consistent manner. although the management layering could be the same as the 
+traditional telecommunication management layering, with the introduction of cloud computing, there are 
+still new requirements for cloud -aware telecommunication management. this recommendation addresses 
+the requirements of comprehensive service management in a cloud-aware telecommunication management 
+system. 
+the relationship betwee n cloud servi ce management and service management in a cloud-aware 
+telecommunication management system is also illustrated in figure 6 -1. the cloud service management is 
+located in business support system(bss)/operations support system (oss) (marked by the  red rectangle in 
+figure 6-1) which belongs to the cloud service provider (csp), and the service management in the cloud -
+aware telecommunication management system (marked by the yellow rectangle in figure 6-1) which belongs 
+to telecommunication operator. as an important aspect of cloud service management, cloud service lifecycle 
+management (see [itu-t y.3522]) is also located in bss/oss which belongs to csp. 
+7 general requirements for service management in cloud-aware telecommunication management 
+system 
+as a cloud -aware telecommunication management system, the difference with a traditional 
+telecommunication management system is it could support comprehensive management for 
+telecommunication services, cloud services and tc-hybrid services which consist of both telecommunication 
+and cloud service components. 
+

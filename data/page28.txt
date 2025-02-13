@@ -1,0 +1,8 @@
+1 framework and requirements for cloud computing 
+20 
+summary 
+recommendation itu -t y.3501 provides a cloud computing framework by identifying high -level 
+requirements for cloud computing. it specifies the requirements which are derived from an analysis of several 
+use cases. 
+keywords 
+cloud computing, cloud service, framework, requirement, use case. 

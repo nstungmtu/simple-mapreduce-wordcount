@@ -1,0 +1,46 @@
+1 framework and requirements for cloud computing  
+ 
+64  
+8.2.2.11 connect ict systems to cloud services 
+the connect ict systems to cloud services activity includes the integration between existing ict systems and 
+cloud services and involves the connection of existing ict component(s) and applications with the target 
+cloud service(s) and also the connection of the cu stomer monitoring and management systems with the 
+cloud service provider 's monitoring and control of cloud services. 
+the connection of existing ict components and applications with the target cloud service(s) involves: 
+• assessing the impact of cloud service(s) on existing processes, systems and services; 
+• mapping business data between cloud service customer's existing ict systems and cloud services; 
+• invoking cloud service operations from existing ict components and applications, with the supply 
+of input data and the handling of output data; 
+• provisioning of access rights for csc:cloud service users; 
+• defining and implementing security related requirements, including the confidentiality and 
+integrity of data flows; 
+• integrating customer facilities for the administration of user accounts, security roles, identities and 
+permissions with the equivalent facilities for the cloud services; 
+• creating and monitoring specific user accounts and identities for the use of management interfaces 
+for cloud services; 
+• integrating logging and security incident management between cloud services and cloud service 
+customer monitoring and management infrastructure. 
+8.3 cloud service provider  
+8.3.1 role 
+a cloud service provider (csp) makes cloud services available to cloud service customers. this role (and all 
+of its sub-roles) focuses on the cloud computing activities necessary to provide a cloud service and the cloud 
+computing activities necessary to ensure its delivery to the cloud service customer, as well as cloud service 
+maintenance. 
+the cloud service provider  is responsible for dealing with the business relationship with cloud service 
+customers. 
+a cloud service provider's  activities are included beneath the sub-roles described in clauses 8.3.1.1 to 
+8.3.1.8. 
+8.3.1.1 csp:cloud service operations manager 
+the csp:cloud service operations manager is a sub-role of cloud service provider  which is responsible for 
+performing all operational processes and procedures of the cloud service provider, ensuring that all services 
+and associated infrastructure meet operational targets. 
+the csp:cloud operations manager's cloud computing activities include: 
+• prepare systems (clause 8.3.2.1); 
+• monitor and administer services (clause 8.3.2.2); 
+• manage assets and inventory (clause 8.3.2.3); 
+• provide audit data (clause 8.3.2.4). 
+8.3.1.2 csp:cloud service deployment manager 
+the csp:cloud service deployment manager is a sub-role of cloud service provider which has responsibility 
+for the planning of the deployment of a service into production. this includes defining the operational 
+environment for the service, the initial steps for deployment of the service and its dependencies, and the 
+enablement of operations processes which are used during the running of the service. 

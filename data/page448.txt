@@ -1,0 +1,49 @@
+2 cloud computing management  
+ 
+440  
+5) service activation. this functionality is responsible for the activation of a cloud service based on the 
+specific service configuration. 
+10.3.2 service assurance functionalities 
+this covers a set of functionalities for the assurance management of cloud servi ces. these functionalities 
+include service problem management, service performance management, service quality management and 
+service test management. 
+10.3.2.1 service problem management 
+this set of functionalities is responsible for receiving service affecting csc problems as well as csp 
+infrastructure faults. these functionalities analyse and resolve service problems in an efficient manne r, 
+tracking these problems and reporting them. this includes: 
+1) service problem reception. this functionality receives problems that are perceived to be service 
+affecting; 
+2) service problem monitoring. this functionality monitors the operational status of cloud services; 
+3) service problem analysis. this functionality diagnoses service problems. it correlates csc problems 
+with resource faults, and prioritize service problems appropriately; 
+4) service problem correction and resolution this functionality resolves the service problem back to a 
+normal operational state as efficiently as possible; 
+5) service problem tracking and management. this functionality assures that service problems are 
+assigned, coordinated, and restored efficiently, escalating as needed; 
+6) service problem reporting. this functionality  reports the status of service prob lems. this includes 
+operational reports, management reports, reports against various metrics, as well as information 
+needed by other related management and operations functionalities. 
+10.3.2.2 service performance management 
+this set of functionalities is responsible for monitoring, analysing and reporting on the e2e service 
+performance. this includes the following functionalities: 
+1) performance monitoring. this functionality collects and monitors service performance parameters; 
+2) performance analysing. this functionality is responsible for the analysis and evaluation of services ' 
+performance (analysing data received from service performance monitoring, determining the 
+causes of changes, providing operations for adapting the performance); 
+3) performance reporting. this functionality creates service performance reports on a periodic basis 
+or on-demand. 
+10.3.2.3  service quality management 
+this set of functionalities is responsible for monitoring and managing the e2e quality of services. they allow, 
+collect and compare quality related measurements against established services. the results can be optionally 
+available to interested parties. this includes the following functionalities: 
+1) service quality modelling. this f unctionality establishes what will be monitored and how it will be 
+monitored in terms of service quality. this includes the definition of the service quality model and 
+its dependencies as establishment of key quality indicators (kqis) and service level objectives (slos), 
+accepting input from csc contracts or service definitions, establishment of data sources for 
+monitoring; 
+2) service quality monitoring. this functionality collects and monitors service quality as determined by 
+the established service quality model; 
+3) service quality analysing. this functionality analyses and evaluates the quality of services being 
+delivered by the csp; 
+4) service quality reporting. this functionality generates various reports on service quality and makes 
+them available on a periodic basis or on-demand. 

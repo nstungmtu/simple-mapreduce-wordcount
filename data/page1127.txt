@@ -1,0 +1,16 @@
+ assisting developing countries 8 
+ 
+   1119 
+in addition to the proposed options, the developing of the sales of growth drivers was mentioned as a reason 
+behind the engagement in the cloud computing area. 
+1.6 what kind of cloud service support are you more likely to use? 
+ 
+figure ii.6 – popular cloud computing services 
+in addition to the proposed options, the following two responses were mentioned: 
+• saas business application (accounting, human resources management…) website management tool 
+• hpc for cdta's researchers 
+2 cloud computing deployment 
+2.1 what cloud computing deployment models are you implementing? 
+ 
+figure ii.7 – popular cloud computing models 
+

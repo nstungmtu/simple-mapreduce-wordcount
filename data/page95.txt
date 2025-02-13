@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   87 
+9.2.2.6 connection management 
+the co nnection management functional component provides enforcement of qos policies regarding the 
+traffic from and/or to the user layer functional components . the connection management functional 
+component interacts with the multi-layer functions to retrieve policies stored there and enforces them locally 
+in the access layer. 
+9.2.3 services layer functional components 
+the services layer functional components include: 
+• service capabilities; 
+• business capabilities; 
+• administration capabilities; 
+• service orchestration. 
+9.2.3.1 service capabilities 
+the service capabilities functional component consists of the necessary software required to implement the 
+service offered to cloud service customers. it implements the functionality defined by the service interface, 
+i.e., the interface offered to cloud service customers, independent of the service implementation. 
+9.2.3.2 business capabilities 
+the business capabilities functional component provides a set of capabilities for accessing the business 
+function related to the provision of cloud services . the business function itself is contained within the 
+business support systems functional components. 
+9.2.3.3 administration capabilities 
+the administration capabilities functional component  provides a set of capabilities  for accessing the 
+administration function related to the provision of cloud services. 
+the administration function itself is contained within the operations support systems and business support 
+systems functional components. 
+9.2.3.4 service orchestration 
+the service orchestration functional component  provides coordination, aggregation and composition of 
+multiple service components in order to deliver the cloud service. 
+9.2.4 resource layer functional components 
+the resource layer functional components include: 
+• resource abstraction and control; 
+• physical resources. 
+9.2.4.1 resource abstraction and control 
+the resource abstraction and control functional component is used by cloud service providers to provide 
+access to the physical computing resources throug h software abstraction. resource abstraction needs to 
+ensure efficient, secure and reliable usage of the underlying infrastructure. the control feature of the 
+functional component enables the management of the resource abstraction features. 
+the resource ab straction and control functional component  enables a cloud service provider  to offer 
+qualities such as rapid elasticity, resource pooling and on-demand self-service. the resource abstraction and 
+control functional component can include software elements such as hypervisors, virtual machines, virtual 
+data storage, and time-sharing.  
+the resource abstraction and control functional component  enables control functionality, enabling 
+monitoring and management capabilities implemented in the operational support sy stems functional 
+component (see clause 9.2.5.3). for example, there can be a centralized algorithm to control, correlate and 

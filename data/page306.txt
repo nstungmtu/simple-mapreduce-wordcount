@@ -1,0 +1,54 @@
+1 framework and requirements for cloud computing  
+ 
+298  
+appendix i 
+ 
+use cases from the inter-cloud perspective 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes use cases in which multiple cloud computing sys tems interact with each other to 
+satisfy the specified requirements and how cloud systems work in each use case. 
+i.1 sla mapping in intermediary pattern 
+this use case illustrates the sla mapping between the primary csp in inter-cloud intermediary pattern (called 
+csp-intermediary) and other secondary csps. 
+multiple csps contribute to, or impact concurrently, the sla between the csp-intermediary and the csc 
+when an orchestrated service is provided. 
+table i.1 shows sla mapping in an inter-cloud intermediary pattern. 
+table i.1 – sla mapping in an inter-cloud intermediary pattern 
+use case 
+use case title sla mapping in an inter-cloud intermediary pattern  
+relevant roles csc and csp 
+use case description – the primary csp in an inter-cloud intermediary pattern (csp-
+intermediary) is the contact point for csc and there is sla (sla0) 
+between them. 
+– the csp-intermediary integrates services from multiple csps, for 
+instance, storage service from csp-1 and computing service from csp-2. 
+there are business-to-business (b2b) level slas between csp-
+intermediary and csp-1, csp-2 respectively (sla1, sla2).  
+– for the csp-intermediary, in order to guarantee sla0 for csc, it is 
+necessary to map sla0 to sla1 and sla2, because sla0 is actually 
+implemented by sla1 and sla2. 
+information flow  sla mapping may be performed via explicit information exchange or off -line 
+negotiation. 
+high-level figure describing the 
+use case 
+y .3511(14)_fi.tab1
+csp
+(intermediary)
+csp-1 with
+storage service
+csp- 2 with
+computing service
+csc sla 0
+sla 1
+sla 2
+ 
+derived requirements for cloud 
+capability 
+– the capability to support sla negotiation between csp-intermediary 
+and other csps is recommended.  
+– the capability to support coordination of the slas from multiple csps 
+(which is related to a business decision) is recommended. 
+i.2 performance guarantee against an abrupt increase in load (offloading) 
+table i.2 shows an inter-cloud use case where performance is guaranteed in case of an abrupt increase in 
+load. 
+note – the following legend applies to the figures in tables i.2 to i.5: 

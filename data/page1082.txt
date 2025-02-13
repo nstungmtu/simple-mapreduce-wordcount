@@ -1,0 +1,42 @@
+7 security  
+ 
+1074 
+18.2 information security reviews 
+the objective specified in clause 18.2 of iso/iec 27002 applies. 
+18.2.1 independent review of information security 
+control 18.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should request documented 
+evidence that the implementation of information 
+security controls and guidelines for the cloud service is 
+in line with any claims made by the cloud service 
+provider. such evidence could include certifications 
+against relevant standards. 
+the cloud service provider should provide documented 
+evidence to the cloud service customer to substantiate 
+its claim of implementing information security controls. 
+where individual cloud service customer audits are 
+impractical or can increase risks to information security, 
+the cloud service provider should provide independent 
+evidence that information security is implemented and 
+operated in accordance with the cloud service 
+provider's policies and procedures. this should be made 
+available to prospective cloud service customers prior 
+to entering a contract. a relevant independent audit as 
+selected by the cloud service provider should normally 
+be an acceptable method for fulfilling the cloud service 
+customer's interest in reviewing the cloud service 
+provider's operations, provided sufficient transparency 
+is provided. when the independent audit is impractical, 
+the cloud service provider should conduct a self-
+assessment, and disclose its process and results to the 
+cloud service customer. 
+18.2.2 compliance with security policies and standards 
+control 18.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+18.2.3 technical compliance review 
+control 18.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+  

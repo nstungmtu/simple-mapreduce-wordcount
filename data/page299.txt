@@ -1,0 +1,29 @@
+ framework and requirements for cloud computing 1 
+ 
+   291 
+8.3 overview of inter-cloud intermediary 
+8.3.1 introduction 
+the inter-cloud intermediary pattern provides the capability for csps to offer additional services to the cscs 
+and to other csps. 
+as shown in figure 8 -7, one of the central components of the inter -cloud intermediary pattern is the 
+catalogue of service offerings. this csp's catalogue is a registry that includes the services that the csp offers 
+to cscs and to other csps. the catalogue provides the capability for cscs and csps to obtain services from 
+the csp offering the services. this catalogue may be accessible through a portal and/or via a well -defined 
+interface or api. 
+y .3511(14)_f8-7
+cloud service customers (cscs)
+cloud service provider csc 1 csc 2 csc 3
+catalogue of
+service offerings
+cloud service provider
+ 
+figure 8-7 – cscs and csps accessing cloud services offerings through a catalogue 
+in addition to the catalogue of service offerings, the csp can include functions for the support of service 
+intermediation, service aggregation and service arbitrage as described in clause 7.3. 
+8.3.2 primary csp and secondary csp 
+the csp that is responsible for offering the service to the csc is the primary csp. the csps that support the 
+primary csp by offering their services are the secondary csps. 
+in an inter-cloud intermediary pattern (see figure 8-8), services listed in the primary csp catalogue of service 
+offerings may include the services hosted by the primary csp itself or services that are provided by secondary 
+csps. in most cases, the primary csp catalogue of service offerings will be a combination of services hosted 
+by the primary csp and services offered by the secondary csps. 

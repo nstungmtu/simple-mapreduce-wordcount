@@ -1,0 +1,39 @@
+ framework and requirements for cloud computing 1 
+ 
+   321 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 big data: a paradigm for enabling the collection, storage, management, analysis and visualization, 
+potentially under real-time constraints, of extensive datasets with heterogeneous characteristics. 
+note – examples of datasets characteristics include high-volume, high-velocity, high-variety, etc. 
+3.2.2 big data as a service (bdaas) : a cloud service category in which the capabilities provided to the 
+cloud service customer are the ability to collect, store, analyse, visualize and manage data using big data. 
+3.2.3 party: natural person or legal person, whether or not incorporated, or a group of either. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bdaas big data as a service 
+bdap big data application provider 
+bdc big data service customer 
+bdip big data infrastructure provider 
+bdsp big data service provider 
+bdsu big data service user 
+ccra cloud computing reference architecture 
+cdr charging detailed record 
+cgf charging gateway function 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+dp data provider 
+dpi deep packet inspection 
+html hyper text mark-up language  
+iaas infrastructure as a service 
+iot internet of things 
+pda personal digital assistant 
+pdsn packet data serving node 
+sns  social network service 
+sql structured query language 
+xml extensible markup language 
+5 conventions 
+the keywords " is required to" indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed.  

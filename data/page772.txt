@@ -1,0 +1,49 @@
+4 video processing and storage  
+ 
+764  
+dynamically create and destroy the video-forwarding function according to the current requests of the mcu. 
+after that, the transcoded video stream is sent to the mcu. 
+6.3 online intelligent video processing 
+6.3.1 case 1: traffic flow analysis 
+the traffic department of a city has deployed an intelligent visual surveillance (ivs) system for city roads. the 
+system administrator is responsible for operating the ivs system to carry out traffic management tasks. the 
+work of the administrator is to monitor real -time traffic flow of key road sections in the traffic rush hour. a 
+traffic flow analysis function can be developed based on computer vision technology, and is virtualized as 
+functional components in the cloud computing platform. when a user needs to obtain the traffic flow 
+situation of certain road sections, the system can call the traffic flow analysis function to process the relevant 
+surveillance video streams. 
+step 1: users log into the ivs system through the cu. they choose certain surveillance cameras that are 
+deployed on key road sections of interest and set the traffic flow analy sis function. they then submit traffic 
+flow analysis requests to the ivs system.  
+step 2: after receiving the traffic flow analysis request, the ivs system authenticates the user information, 
+and obtains the relevant information from the traffic flow analy sis function that is deployed on the cloud 
+computing platform. the cloud computing platform can dynamically create and destroy the traffic flow 
+analysis function components according to current user requests. the ivs system then responds to the cu 
+with the information from the traffic flow analysis function. 
+step 3: after receiving the response of the ivs system, the cu sends the request to the cloud computing 
+platform. 
+step 4: the cloud computing platform obtains the relevant video streams from the corresp onding cameras, 
+online processes the video streams and then sends the real-time traffic flow analysis results back to the cu. 
+6.3.2 case 2: perimeter prevention 
+an electricity company uses an ivs system to monitor key power transmission equipment deployed in a city. 
+surveillance cameras are deployed around the power transmission equipment and the ivs system online 
+analyses the captured surveillance video by calling the perimeter prevention function. once someone 
+approaches the power transmission equipment, the ivs system generates an alarm message to alert the user 
+to the exception. the perimeter prevention function is virtualized as functional components in the cloud 
+computing platform, and can be dynamically created and destroyed according to current user requests. the 
+working step of the online perimeter prevention scenario is similar to that of the online traffic flow analysis 
+scenario. 
+6.4 offline intelligent video processing 
+6.4.1 case 1: human recognition 
+a public security department has deployed an iv s system in a city street. the system administrator is 
+responsible for operating the ivs system to carry out public security tasks.  when there is a robbery in front 
+of a bank, t he administrator reviews the relevant surveillance video captured by the camera s deployed 
+around the bank and obtains a picture of the robber. to find the escape route of the robber as soon as 
+possible, the administrator uses the intelligent human recognition function of the ivs system to process the 
+massive related historical surveillance video. the intelligent human recognition function can be virtualized as 
+functional components in the cloud computing platform and can be dynamically created according to user 
+demand. 
+step 1: users log into the ivs system through the cu. to quickly f ind robber information in the massive 
+surveillance video data, the user needs to set several functional parameters, such as the camera channel 
+numbers, the time period of interest in the historical video and the picture of the robber, and then sends an 
+intelligent human recognition request to the ivs system. 

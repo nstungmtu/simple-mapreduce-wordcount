@@ -1,0 +1,30 @@
+2 cloud computing management  
+ 
+434  
+figure 9-1 is based on service and resource management chains including the csc, one or more csps, and a 
+telecommunication operator. the squared boxes with a black outline represent different parties involved in 
+the common model for e2e cloud computing management. 
+the term "inter-cloud" is used in accordance with [itu-t y.3511] and covers the integration of cloud services 
+from two or more csps. 
+the term "multi-cloud", as used in this recommendation, includes holistic e2e management of one or more 
+cloud service providers providing a given cloud service (see [itu-t y.3502], [itu-t y.3520], [itu-t x.1601]). 
+the term "cloud-aware" is used here to describe the requirement of telecommunication management that 
+are able to manage cloud -based facilities. this ability could be realized through the use of m anagement 
+interface "i1" which provides necessary i nformation from the csp 's bss/oss to the cloud-aware 
+telecommunication management system. the management interface "i1" can correspond to a set of smis as 
+described in this recommendation. 
+note that the telecommunication operator may also act as a cloud service provider, see figure 9-2. 
+ 
+figure 9-2 – common model for e2e cloud computing management, with telecommunication  
+operator acting as a csp 
+in this case, the "i1" interface resides within the telecommunication operator. 
+the common model for e2e cloud computing management does not impl y any particular arrangement of 
+inter-cloud connectivity. for example, the telecommunication operator acting as a csp could be acting as an 
+intermediary csp between the csc and other cloud services, or in any other inter -cloud role described in 
+[itu-t y.3511]. the management architecture is unaffected by this. 
+10 cloud computing management functionalities 
+this clause identifies functionalities for cloud computing management. the high-level organization of cloud 
+computing m anagement functionalities presented  in figure 10 -1 is based on the management layering 
+described in clause 8.1 covering customer management, product management, service management, and 
+resource management. 
+

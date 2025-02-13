@@ -1,0 +1,47 @@
+5 intercloud and interoperability  
+ 
+846  
+5 conventions 
+in this recommendation: 
+the keywords ''is required to '' indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords ''is recommended'' indicate a requirement which is recommended but which is not absolutely 
+required. thus, this requirement need not be present to claim conformance. 
+6 overview of inter-cloud trust management 
+the inter -cloud computing concept is based on the relationship (pattern) among multiple cloud service 
+providers (csps). this pattern (peering, federation or intermediary) allows a csp to interwork wi th one or 
+more peer csps to assure intermediation and security of services provided by these csps. the trusted inter-
+cloud relationship among multiple csps relies on confidence between csps, or between a cloud service 
+customer (csc) and a csp, as one of th em has to delegate physical control over application s, service s, 
+resources and data to the others. therefore, trust management is a key point between csps, or between a 
+csc and a csp in inter-cloud. 
+the trust management of inter -cloud uses a two-dimensional (vertical and horizontal) model, where the 
+vertical axis is based on the layers of the cloud computing reference architecture [itu -t y.3502], and the 
+horizontal ones is based on the interconnection of csps based on the inter-cloud framework [itu-t y.3511]. 
+the inter -cloud trust management framework rel ies on components for managing isolation and security 
+mechanisms, which handl e cross-layer trust and establish chain of trust, respectively [itu -t y.3514]. 
+according to particular needs, inter-cloud trust management may either be csc-related or csp-related. 
+from a csc -related perspective, major threats concern data security and privacy. even assuming a trusted 
+cloud service provider, a malicious administrator has sufficient permissions to affect unauthorised use and 
+to modify customer information. thus, csp control over the infrastructure should be limited to avoid 
+inspection or analysis of user data and virtual machine (vm) instances without explicit csc consent. 
+moreover, security should be self-service, so that a csc can exercise fine-grained control over protection of 
+their cloud resources according to a given security service level agreement (sla). this means the csc should 
+be able to actively monitor its allocated resources, while enabling a high le vel of customizability of the 
+architecture and its services. 
+from a csp -related perspective, major threats are malicious customers issuing attacks against the 
+virtualization layer, to break isolation or perform denial-of-service (dos). an attacker is a non -privileged 
+malicious cloud tenant. mitigation of such threats implies first isolation: tenants should not be authorized to 
+monitor or modify vm state or data from other tenants. it also means a small trusted computing base: the 
+number of vulnerabilities and failures in the platform is directly linked with the code size run at the highest 
+privilege level and the set of primitives exported. 
+many different classes of mechanisms and architectures have been proposed to address this issue, where 
+trust management and isolation are intimately linked. representative isolation architectures include modular 
+hypervisors partly controlled by the csc or secure enclave s based on hardware security mechanisms. side -
+channel attacks also introduce major isolation issues for i nter-cloud systems. although many cryptographic 
+solutions protect user confidentiality in the cloud, it is not possible to perform efficient and fast enough 
+arbitrary computations on the data while they are encrypted. 
+in an inter-cloud environment, reputat ion is a key factor for selecting the csp to transact with. there are 
+different approaches to implement reputation -based trust management in inter-cloud environments, all of 
+them are based on a uniform cloud sla framework which could make csp and csc avoid confusion and have 
+a common understanding about the cloud service quality commitment. 

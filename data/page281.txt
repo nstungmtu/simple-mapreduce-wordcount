@@ -1,0 +1,24 @@
+ framework and requirements for cloud computing 1 
+ 
+   273 
+appendix iii  
+ 
+power management in cloud infrastructure 
+(this appendix does not form an integral part of this recommendation.) 
+datacentres are amongst the highest consumers of electricity all over the world. one distinct advantage of 
+cloud computing is it is also able to power-manage hardware and devices. therefore, the resources in a cloud 
+infrastructure are recommended to be dynamically power-managed. the resources in cloud infrastructure 
+are often arranged in trees. as some resources of a cloud infrastructure become idle, it can decrease power 
+twigs or branches on trees. as the resource usage trends of cloud infrastructure are measured and controlled, 
+it would be possible for these networks to put energy back into the grid by providing the grid with accurate 
+time-based predictions of energy use. the gri d can use this information to redirect energy to other 
+destinations, or make other intelligent decisions. 
+power management in cloud infrastructure represents a collection of processes and supporting technologies 
+geared towards optimizing datacentre perform ance against cost and structural constraints. this includes 
+increasing the deployable number of servers per rack when racks are subject to power or thermal limitations 
+and making power consumption more predictable and easier to plan for. 
+power management i n cloud infrastructure comes in two categories: static and dynamic. static power 
+management deals with fixed power caps to manage aggregate power, while policies under dynamic power 
+management take advantage of additional degrees of freedom inherent in vir tualized cloud datacentres, as 
+well as the dynamic behaviours supported by advanced platform power management technologies. 
+  

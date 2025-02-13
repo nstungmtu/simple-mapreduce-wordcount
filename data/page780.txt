@@ -1,0 +1,14 @@
+4 video processing and storage  
+ 
+772  
+summary 
+recommendation itu-t h.626.2 defines a cloud storage architecture in visual surveillance. cloud storage 
+enables the service users to have ubiquitous, convenient and on-demand network access to a shared pool of 
+the configurable storage resources, which can be rapidly provisioned and released with the minimal 
+management effort or service -provider interaction. cloud storage can realize flexible and reliable data 
+storage for large -scale visual surveillance and its components are modularized and allocated dynami cally 
+based on the real usage. this recommendation provides the architecture, entities, reference points and 
+service control flow for cloud storage in visual surveillance. 
+keywords 
+architecture, cloud storage, entity, reference point, service control flow, visual surveillance. 
+  

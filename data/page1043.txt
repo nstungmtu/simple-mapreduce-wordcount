@@ -1,0 +1,48 @@
+security 7 
+ 
+  1035 
+furthermore, some details are essential, including: 
+1) the emergency response team members, the specific responsibilities and the contact information 
+of each team member. generally speaking, the emergency response team consists of management, 
+business, technical, and administrative staff. 
+2) the bia results involving the relationship between the various parts of the cloud computing system, 
+the priority level of key components, etc. 
+3) the criterion procedures and checklists of the cloud computing system recovery. 
+4) the inventory of hardware, software, firmware, and other resources to support csps' daily 
+operation, with each entry containing specifications like versions, quantities, etc. 
+5) the contact information of cscs and the response procedures negot iated by the csps and cscs 
+according to the security clause of sla to minimize cscs' loss in a security accident. 
+6) generally csp could not have the privilege to access csc's private data unless csp have obtained the 
+authorization of csc. in the case of emergency launched by csc, csc might need csp's help to make 
+response more effectively and would give csp the authorization for the data. as a part of 
+compliance, csp should not abuse the authorization to access csc's data. 
+8.9.2 testing and implementation phase 
+in order to test the effectiveness of the emergency response plan, csps should organize testing and drills of 
+the emergency response plan, with the help of related personnel familiar with the response procedures. the 
+testing and drills should meet the following requirements: 
+1) the programmes of testing, training and drills should be pre-established. 
+2) the detailed process of testing, training and drills should be recorded and reports should be written 
+to this effect. 
+3) csps and cscs are recommended  to corporately complete a planned testing whenever significant 
+changes occur inside or outside the cloud computing condition. 
+when security incidents or business interruption occurs, the emergency response plan should be strictly 
+enforced once the conditi ons for the launch are met, and all operation logs should be recorded during the 
+whole emergency process. afterwards, according to the security  clause of sla, csp should submit the 
+response reports to cscs. 
+based on the testing, drills and implementation r esults, the emergency response plan should be revised to 
+improve its effectiveness and feasibility. 
+8.9.3 maintenance phase 
+to remain effective, the emergency response plan should always be maintained in a ready state that could 
+reflect the requirements of the cloud computing systems, the sla modification, configuration changes, and 
+personnel changes. generally, the plan should be reviewed annually to accommodate the changes of the 
+actual cloud computing environment. the  modification of the plan is based on the following elements: 
+1) the changes of premises, facilities, resources and services. 
+2) the changes of the security  clause of sla requirements, critical security configuration, significant 
+patch upgrading and backbone team members. 
+3) the assessment of the plan's effectiveness upon the detailed records of the actual implementation 
+of the plan during the testing and security accidents. 
+8.10 backup 
+backup capability is an important issue for cscs and csps in the cloud computing environment. before 
+running the backup activities, csps need to address some specifications such as: 
+− the backup strategy for each csc or a specific cloud service; 
+− the storage method including encryption or not; 

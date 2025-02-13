@@ -1,0 +1,61 @@
+7 security  
+ 
+1050 
+when an objective with controls, or a control under an objective from iso/iec 27002, is needed in addition 
+to those of iso/iec 27002, they are given in normative annex a: cloud service extended control set. when a 
+control of iso/iec 27002 or annex a of this recommendation | international standard needs additional cloud 
+service specific implementation guidance related to the control, it is given under the subtitle 
+"implementation guidance for cloud services". the guidance is provided in one of the following two types: 
+type 1 is used when there is separate guidance for the cloud service customer and the cloud service provider. 
+type 2 is used when the guidance is the same for b oth the cloud service customer and the cloud service 
+provider. 
+type 1 
+cloud service customer cloud service provider 
+  
+type 2 
+cloud service customer cloud service provider 
+ 
+additional information that might need to be considered is provided under the subtitle "other information 
+for cloud services". 
+5 information security policies 
+5.1 management direction for information security 
+the objective specified in clause 5.1 of iso/iec 27002 applies. 
+5.1.1 policies for information security 
+control 5.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+an information security policy for cloud computing 
+should be defined as a topic-specific policy of the cloud 
+service customer. the cloud service customer's 
+information security policy for cloud computing should 
+be consistent with the organization's acceptable levels 
+of information security risks for its information and 
+other assets. 
+when defining the information security policy for cloud 
+computing, the cloud service customer should take the 
+following into account: 
+– information stored in the cloud computing 
+environment can be subject to access and 
+management by the cloud service provider; 
+– assets can be maintained in the cloud computing 
+environment, e.g., application programs; 
+– processes can run on a multi-tenant, virtualized cloud 
+service; 
+the cloud service provider should augment its 
+information security policy to address the provision and 
+use of its cloud services, taking the following into 
+account: 
+– the baseline information security requirements 
+applicable to the design and implementation of the 
+cloud service; 
+– risks from authorized insiders; 
+– multi-tenancy and cloud service customer isolation 
+(including virtualization); 
+– access to cloud service customer assets by staff of 
+the cloud service provider; 
+– access control procedures, e.g., strong 
+authentication for administrative access to cloud 
+services; 
+– communications to cloud service customers during 
+change management; 

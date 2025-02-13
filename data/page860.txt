@@ -1,0 +1,36 @@
+5 intercloud and interoperability  
+ 
+852  
+appendix i 
+ 
+use case of inter-cloud trust management 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 use case template 
+the use cases developed in this appendix should adopt the following unified format for better readability and 
+convenient material organization. 
+table i.1 – use case template 
+title the title of the use case 
+description scenario description of the use case 
+roles roles involved in the use case 
+figure (optional) figure to explain the use case, optional not mandatory 
+pre-conditions (optional) the necessary pre-conditions that should be achieved before starting 
+the use case  
+post-conditions (optional) the post-conditions that will be carried out after the termination of 
+current use case 
+derived requirements requirements derived from the use cases, whose detailed description 
+is presented in the dedicated chapter 
+i.2 use case of trusted network function virtualization 
+this use case illustrates trust management aspect in inter-cloud. the federation pattern of inter-cloud used 
+to illustrate the use case is an example only. 
+table i.2 – trusted network function virtualization 
+title trusted network function virtualization  
+description a csc requests ''premium aoftware'' as a service (software as a service (saas)), respecting 
+network quality of service (qos). the csp (saas) forms inter-cloud federation pattern 
+among csp(paas) and csps (network as a service (naas)). the csp(saas) becomes contact 
+point for csc. the csp-a(naas) and csp-b(naas) uses network function virtualization (nfv) 
+and sdn technologies to serve naas service. the csp(saas) uses a trust management 
+system to keep track of csp(naas) service. in case csp-a(naas) performed out of schemes 
+used to compute trust, the saas service is automatically established between the csp(saas) 
+and csp-b(naas). additionally, the csp(saas) updates information on reputation of 
+csps(naas). 
+roles csc, csp(saas), csp(paas), csp(naas). 

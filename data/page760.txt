@@ -1,0 +1,28 @@
+4 video processing and storage  
+ 
+752  
+ 
+figure 1 – cloud storage model for visual surveillance 
+cloud storage is a new model for enabling service users to have ubiquitous, convenient and on -demand 
+network access to a shared poo l of configurable storage resources, which can be rapidly provisioned and 
+released with minimal management effort or service -provider interaction. from a telecommunication 
+perspective, users do not buy resources but rather purchase cloud services provided by cloud environments. 
+this can improve the system flexibility and reduce the expenditure of users' systems. 
+cloud storage is used for aggregating and managing a particular data set. figure 1 shows a cloud storage 
+model for a visual surveillance system. a cloud storage system is a scalable, flexible and reliable video 
+recording system that can optimize the storage resources for massive video sources. in a cloud storage 
+system, each component is modularized and allocated dynamically based on actual usage, an d data 
+protection mechanisms are supported to improve system reliability. a cloud storage system enables 
+convenient and fast access to a wealth of data across distributed and heterogeneous data sources in the 
+cloud. furthermore, this data storage system ca n be easily integrated with cloud computing frameworks 
+which support efficient intelligent video analysis tasks. for the premises unit (pu) devices, video data can be 
+uploaded to a cloud storage system by online/offline modes using streaming or other network data transfer 
+protocols. the data sources can be ip cameras, mobile devices or other media storage units (msus), such as 
+dvrs with networking capability, nvrs, and vehicle dvrs installed on cars. the visual surveillance  (vs) 
+platform can call the cloud storage service through standard interfaces provided by the cloud storage system. 
+all types of authorized customer units (cus) or authorized third-party application systems (ass) can access 
+the data stored in the cloud storage system. 
+7 scenarios 
+this clause describes typical service scenario examples illustrating the cloud storage in visual surveillance and 
+deriving its service requirements. 
+

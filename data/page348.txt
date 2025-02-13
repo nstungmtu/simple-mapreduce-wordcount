@@ -1,0 +1,29 @@
+1 framework and requirements for cloud computing  
+ 
+340  
+table i.6 – big data based mobile network (3g/4g) billing detail query 
+title big data based mobile network (3g/4g) billing detail query 
+description telecom operators use big data application services to provide detailed billing information of 
+mobile network users. telecom mobile network users use 3g/4g networks to access mobile 
+internet services using mobile devices such as mobile phones and tablet computers .the access 
+network devices, such as pdsn or combined gprs service node (sgsn/cgsn) devices, record all 
+kinds of billing information of each of the mobile network users into a standardized format, 
+such as a charging detail record (cdr). a charging gateway function (c gf) modular collects 
+different charging records and forwards these charging records to the billing system. the billing 
+system keeps and processes all the cdrs from different cgfs and finally generates the charging 
+bill for each mobile user. telecom operators set up big data infras tructure and store huge 
+amounts of user billing detail information. 
+mobile network users could quickly query the detailed billing information based on the big data 
+infrastructure and big data applications. a mobile network user could get the statistics and 
+analytics information for instance in terms of time, type of website and applications accessed 
+through a 3g/4g mobile network for his/her internet access actions  through 3g/4g mobile 
+networks. 
+privacy rules are followed, if applicable. 
+roles/sub-roles – csn:dp  
+– csp:bdap  
+– csp:bdip 
+– csc:bdsu 
+figure 
+ 
+pre-conditions – csn:dp can provide cdr data of network users 
+

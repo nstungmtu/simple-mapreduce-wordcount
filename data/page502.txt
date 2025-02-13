@@ -1,0 +1,12 @@
+2 cloud computing management  
+ 
+494  
+summary 
+recommendation itu-t y.3522 provides an overview of end-to-end (e2e) cloud service lifecycle management 
+by specifying cloud service lifecycle metadata, the cloud service lifecycle management framework, cloud 
+service lifecycle management stages and the relationship with cloud computing reference architecture. this 
+recommendation also provides e2e cloud service l ifecycle management functional requirements derived 
+from the corresponding typical use cases. 
+keywords 
+cloud service lifecycle management, end-to-end, functional requirements, metadata, model, stage. 
+  

@@ -1,0 +1,47 @@
+5 intercloud and interoperability  
+ 
+828  
+7.3.4 inter-cloud service selection 
+the inter-cloud service selection function allows a primary csp to match and identify a specified inter-cloud 
+service. 
+this function includes the following. 
+– inter-cloud service matching. this allows a primary csp to find out about available inter -cloud 
+services by matching inter-cloud service slas and inter-cloud service monitoring information. 
+– inter-cloud service identification. this allows for selecting of appropriate inter-cloud services based 
+on the matching result. the identification of the inter -cloud service  selected, as the 
+acknowledgement of the inter -cloud selection, is used to reserve an inter-cloud service by a 
+primary csp. 
+7.3.5 inter-cloud service reservation 
+the inter-cloud service reservation function allows a primary csp to create, update and release reserved 
+inter-cloud service and its attached resource. 
+this function includes the following. 
+– inter-cloud reserved service creation. this allows a primary csp to reserve an inter-cloud service and 
+its attached resources from other peer csps. the acknowledgement is sent between peer csps as 
+confirmation of the creation. 
+– inter-cloud reserved service updated. this allows a primary csp to update the inter-cloud reserved 
+service and its attached resource s from other peer csps. the acknowledgement is sent between 
+peer csps as confirmation of the update. 
+– inter-cloud reserved service released. this allows a primary csp to release an inter-cloud reserved 
+service and its attached resource s from other peer csps. the acknowledgement is sent between 
+peer csps as confirmation of the release. 
+7.3.6 inter-cloud service release 
+the inter-cloud service release function allows for releasing of a reserved and allocated inter-cloud service 
+and return of its attached resources to peer csps.  
+this function includes the following. 
+– inter-cloud reserved service release. this allows for releasing of an issued inter-cloud service 
+reservation and return of its attached resources to peer csps. 
+– inter-cloud allocated service release. this allows for de-allocating and terminating of the allocated 
+inter-cloud service and return of its attached resources to peer csps. 
+7.3.7 inter-cloud capabilities adaptation 
+the inter-cloud capabilities adaptation function allows for adapting inter-cloud service api from peer csps. 
+this function includes the following. 
+– inter-cloud service api adaptation. this allows for adapting of an inter-cloud service api from peer 
+csps. the format of an inter-cloud service api provided by peer csps is transformed into a primary 
+csp's own api by utilizing inter-cloud capabilities adaptation.  
+7.4 security systems 
+7.4.1 authentication and identity management 
+the authentication and identity management function provides authentication of and identities for peer 
+csps.  
+this function includes the following. 
+– federated identity management. this allows for using of federated identity management to permit 
+peer csps to employ the same identity and credentials to access inter-cloud services. 

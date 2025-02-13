@@ -1,0 +1,22 @@
+3 xaas  
+ 
+702  
+appendix iii 
+ 
+relationship between naas functional architecture and sdn 
+(this appendix does not form an integral part of this recommendation.) 
+as categorized by [itu -t y.3512], naas services are divided into naas application services, naas platform 
+services, and naas connectivity services. as a kind of cloud service, based on its use cases and derived 
+functional requirements specified in [itu-t y.3512], network connectivity service can be implemented by the 
+traditional technologies and/or emerging technologies, such as sdn. 
+both cloud computing and sdn have their own reference architectures, whose mapping is presented in figure 
+iii.1. naas connectivity is a kind of cloud service, which is located in the services layer of the cloud reference 
+architecture. if it is supported and implemented by sdn, a naas connectivity service can be regarded as one 
+kind of sdn application in sdn architecture and seen as a bridge between the cloud computing and sdn 
+architectures. 
+ 
+figure iii.1 – mapping of architectures of cloud computing and sdn 
+figure iii.2 presents the positioning of a naas connectivity service as an application in the sdn architecture. 
+such naas connectivity service interacts with sdn management functionalities and sdn control layer 
+functionalities including application support entity, orchestration entity, abstraction entity. 
+

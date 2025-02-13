@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+54  
+table 7-1 – ccra views 
+ccra view description of the ccra view scope 
+deployment view how the functions of a cloud service are technically 
+implemented within already existing infrastructure 
+elements or within new elements to be introduced in 
+this infrastructure 
+out of scope 
+note – while details of the user view and functional view are addressed within this recommendation | 
+international standard, the implementation and deployment views are related to technology and vendor -specific 
+cloud computing implementations and actual deployments, and are therefore out of the scope of this 
+recommendation | international standard. 
+figure 7-2 shows the transition from the user view to the functional view. details are presented in clause 7.4. 
+y .3502(14)_f7-2
+functional
+component
+party
+role
+aspect
+role
+sub-role sub-role
+activity activity
+activityactivity
+user view functional view
+functional
+component
+functional
+component
+functional
+component
+layer
+layer
+layer
+multi-layer
+functions
+ 
+figure 7-2 – transition from user view to functional view 
+7.2 user view of cloud computing 
+the user view addresses the following cloud computing concepts: 
+• cloud computing activities; 
+• roles and sub-roles; 
+• parties; 
+• cloud services; 
+• cloud deployment models; 
+• cross-cutting aspects. 

@@ -1,0 +1,39 @@
+2 cloud computing management  
+ 
+542  
+table i.8 – data placement policies for data-intensive applications in the inter-cloud environment 
+title data placement policies for data-intensive applications in the inter-cloud 
+environment 
+description data-intensive applications are widely used in an increasing number of fields, 
+e.g., high-energy physics, bioinformatics and astronomy. there are several 
+challenges if the datasets required by this kind of application, including already 
+existing data, intermediate data and final data, should be placed in the inter -
+cloud environment. therefore, it is essential for federated csps to negotiate an 
+appropriate placement policy for the different datasets. the placement policy 
+conditions include, but are not limited to, the time cost of data transmission, 
+storage space, network performance and data dependencies. the following 
+aspects are described as the illustrations. 
+– the transmission of data among different csps is inevitable. on one hand, 
+the data scale is huge and the bandwidth limited; on the other, sometimes, 
+there are several datasets limited to location in some specific csp based on 
+application logic. consideration of how to reduce the time cost of data 
+movements is required. 
+– there are dependencies among these different datasets placed in different 
+csps. consideration of how to maintain these dependencies is required in 
+order to improve calculation efficiency. 
+roles csc, csp (saas), csp (naas, saas) 
+figure (optional) 
+ 
+pre-conditions (optional) the csps form an inter-cloud federation pattern. 
+the datasets need placement in different csps. 
+there are dependencies among these datasets. 
+post-conditions (optional) 
+ 
+derived requirements dataset placement policies among different csps (see clause 8.1)  
+i.9 use case of data regulation across different countries in the inter-cloud environment  
+this use case illustrates data regulation across different countries in the inter-cloud. the inter-cloud peering 
+pattern used to illustrate the use case is an example only. 
+ 
+ 
+  
+

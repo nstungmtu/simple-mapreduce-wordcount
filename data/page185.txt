@@ -1,0 +1,40 @@
+framework and requirements for cloud computing 1 
+ 
+   177 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+ac alternating current  
+ai artificial intelligence 
+api application programming interface 
+ata at attachment 
+cd compact disc 
+cpu central processing unit  
+csc cloud service customer 
+csp cloud service provider 
+dc direct current 
+dram dynamic random access memory 
+ecc error correcting code 
+fsc fan speed control 
+gpu graphics processing unit 
+hdd hard disk drive 
+i2c inter-integrated circuit 
+ide integrated development environment 
+iaas infrastructure as a service 
+ipmi intelligent platform management interface 
+it information technology 
+i/o input/output 
+iscsi internet small computer system interface 
+nic network interface card 
+nfv network function virtualization 
+ngff next generation form factor 
+msata mini-serial at attachment 
+opex operational expenditure 
+os operating system 
+pci peripheral component interconnect 
+pci-e peripheral component interconnect express 
+pdu power distribution unit 
+pmbus  power management bus 
+pwm pulse width modulation  
+raid redundant array of independent disks 
+rpm revolutions per minute 
+rom read-only memory 

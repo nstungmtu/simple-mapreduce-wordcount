@@ -1,0 +1,30 @@
+3 xaas  
+ 
+596  
+uses i_ccm_uapm to refer to csc types and profiles from the uapm-f. a resource request/cancellation is 
+delivered by i_sc_ccm and transferred to pa -f thorough i_ccm_pa. additionally, the ccm-f receives the 
+client connection state from the sc -f through i_sc_ccm to monitor virtual desktop connection and 
+reconnection requests from the scue-f through i_scue_ccm against network failure. a detailed functional 
+description for the ccm-f is specified in clause 7.2.2. 
+9.2.4 provisioning and allocation of virtual desktop function 
+in order to configure the pre-configured virtual desktop environment or create new virtual desktops, the pa-
+f uses i_pa_pm, i_pa_opm, and i_pa_uapm to get power performance information, policies, and csu's 
+account information, respectively. after configuration of a virtual desktop, the pa -f allocat es the virtual 
+desktop using vi-fs through i_pa_iam. the pa -f also synchronizes the daas user's state with the scue -f 
+through i_scue_pa. detailed functional description for the pa-f is specified in clause 7.2.4. 
+9.3 virtual desktop resource management functions 
+the vdrm-fs are composed of monitoring and controlling virtual desktop resource function (mc-f), uapm-
+f, virtual desktop resource allocation and distribution function (rad-f) and operational policy management 
+for daas function (opm -f). vdrm -fs also i ncludes high availability for daas function (ha -f) and power 
+management of virtual desktop resource function (pm-f) for more effective management. figure 9-3 shows 
+vdrm-fs with two interconnections of vdcd-fs and vi-fs. 
+ 
+figure 9-3 – functions and reference points in vdrm-fs 
+9.3.1 monitoring and controlling virtual desktop resource 
+the mc -f has the connection with virtualization infrastructure through i_iam_mc to receive monitoring 
+information or send the control commands from or to the infrastructure access management function (iam-
+f). the mc-f is connected with the ha-f through i_mc_ha and with the opm-f through i_opm_pm for the 
+resource state. the mc-f also sends monitoring information of resources and resource usages to the pm-f 
+and rad -f with i_mc_pm and i_opm_mc , r espectively. detailed functional description for the mc -f is 
+specified in clause 7.3.1. 
+

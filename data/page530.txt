@@ -1,0 +1,37 @@
+2 cloud computing management  
+ 
+522  
+appendix i 
+ 
+metadata applicability in naas service lifecycle management 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix aims to provide applicability examples of naas service lifecycle management metadata. 
+i.1 virtual private cloud 
+the manipulation of the virtual private cloud (vpc) network may also affect the configurati on of physical 
+networks. for example, when two new virtual machines (vms) associated to a given vpc are deployed in two 
+different data centres (dcs), the vpc control mechanism needs to generate a  virtual private network (vpn) 
+between these two data centres for the internal vpc communications. therefore, the control mechanism for 
+a vpc should be able to adjust the underlying network at run time when a csc requests changes to the vpc 
+network or service deployment. 
+when a csc moves from one location to another, which is near to another csp's data centre, and in the case 
+where the network load between these two data centres is low, the csc 's vm(s) should be migrated to the 
+new data centre to allow for a better user experience. 
+as illustrated by figure i.1, a vpc  corresponds to a combination of cloud computing resources with a vpn 
+infrastructure to give naas service cscs the abstraction of a private set of cloud resources that are 
+transparently and securely connected to their own inf rastructure. vpcs are created b y taking dynamically 
+configurable pools of cloud resources and connecting them to enterprise sites with vpns. 
+ 
+figure i.1 – illustration of virtual private cloud 
+the naas resource data model needs to be used in this scenario for modelling the physical nodes and links. 
+the naas service data model, specifically for l3vpn, is needed to model the l3vpn attributes, including, but 
+not limited to: tenant id, vpn site ids, vpn type, access bandwidth. 
+here, the naas policy data model can be described as follows, using event, condition and action (eca) policy. 
+– event: a vpc user's location is changed (near to another dc) 
+– condition: network_load(dc_old, dc_new) < threshold 
+– action: 
+1) migrate the vm to the new data center (dc_new); 
+2) update the vpns connecting the csc's services. 
+i.2 instant vpn 
+traditionally, when a naas csp needs to deploy vpn services for an enterprise naas csc, the naas csp will 
+send service staff to the naas csc site to make the wired connection between the customer edge (ce) and 
+

@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+156  
+table i.3 – a general use case of cloud service integration 
+title a general use case of cloud service integration. 
+description the csn: cloud service broker collects multiple cloud services  provided by different csps, 
+orchestrates the multiple cloud services and provides value-added cloud services to cscs  
+through the csn: cloud service broker's cloud product catalogue.  
+the csps register cloud services to the csn: cloud service broker  in product catalogue, which 
+is the unique one provided to the csc by the csn: cloud service broker  with all csps cloud 
+services. the synchronization of the product catalogue can be triggered by the registered csps 
+or the csn: cloud service broker itself in case of modification in the cloud services.  
+the csn: cloud service broker integrates the cloud services from csps by an integration logic 
+and provides the value-added services in the product catalogue. 
+note – the integration logic describes interactions among the cloud services and specifies the 
+method to enable the interactions. 
+after the csc selects and orders the integrated cloud service from the product catalogue, the 
+csn: cloud service broker makes requests for service creation to csps f or all cloud services 
+which are subservices of integrated cloud service. after all cloud services are created, the csn: 
+cloud service broker enables interactions among cloud services by utilizing the integration 
+logic. once the integration procedure has be en finished, the csn: cloud service broker sends 
+service access information to the csc so that the csc can accesses to the integrated cloud 
+services. 
+the csn: cloud service broker manages controls and status of the integrated cloud service and 
+each subservice is managed simultaneously. 
+the c loud services on multiple csps  are interacted with each other based on the service 
+integration logic. 
+all monitor information can be collected by the csn: cloud service broker to provide the csc 
+with an overall view of cloud services together. the unified charges can be proved to the csc 
+by the csn: cloud service broker. 
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+ 
+pre-conditions 
+(optional) 
+the csn: cloud service broker  and multiple csps achieve a cooperation agreement and the 
+csn: cloud service broker can sell these csps' cloud services. 
+the csn: cloud service broker adapts the different cloud apis of multiple csps. 
+post-conditions 
+(optional) 
+the cscs can build application systems upon integrated cloud environment upon multiple csps 
+based on the brokerage capabilities provided by the csn: cloud service broker. 
+

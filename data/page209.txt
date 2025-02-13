@@ -1,0 +1,59 @@
+framework and requirements for cloud computing 1 
+ 
+   201 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+– [b-ocp bs] provides multiple interfaces for storage as 'pcie expansion slot; 
+sata hot-plug drives' in clause 2, table 2-1. 
+– [b-ocp dsbs] provides multiple interfaces for storage as 'storage: two 
+single port ahci sata connectors capable of supporting up to 6 gb/sec; two 
+scu 4-port mini-sas connectors capable of supporting up to 3 gb/sec 
+sata/sas; two 4-port mini hd connectors capable of supporting up to 6 
+gb/sec sata' and 'support for pci express* 225w/300w high power card 
+electromechanical specification 1.0' in clause 4, tables 1 and 2. 
+– [b-ocp g1] provides multiple interfaces for storage as '15x 12gb/s sas or 
+6gb/s sata 2.5' drive slots, up to 15mm thickness, connected via seb, to an 
+onboard hba. one m.2 sata slot, also on board.' and '1 x 16 gen3 fh/fl, 2 x8 
+gen3 lp/hl, 1 x8 ocp mez with front panel access, 1 x8 pcie ocp mez in a 
+non-front-accessible internal slot to support sas hba or raid-on-chip with 
+supercap' in clause 6.1. 
+– [b-ocp hsas] provides multiple interfaces for storage as '▪ intel c612 
+controller;▪ (2) discrete sata 7pin for sata4 and sata5;▪ (2) minisas sff-
+8087 for sata0~sata3, ssata0~ssata3;▪ 6.0gb/s speed;▪ sata sgpio 
+supported;▪ raid 0/1/10/5 (intel rst);▪ (4) internal minisashd sff-8643 
+connectors (optional)' in clause 8. 
+– [b- ocp hsch] provides multiple interfaces for storage as 'the sata 
+connections are a minimum of sata2.0 (3gb/s) and may be sata3.0 
+(6gb/s).the pcie connection is a minimum of pcie 2.0 and may be pcie 3.0' 
+in clauses 6.4 and 6.5. 
+– [b-ocp oapm] provides multiple interfaces for storage as 'sata, and pci-
+express expansion' in clause 5. 
+– [b-ocp mb] provides multiple interfaces for storage as 'the motherboard 
+uses intel c610 series chipset, which supports following features: 3x usb 
+3.0/2.0 ports: one for front connector; one for optional vertical on board 
+connector; one for bmc in-band firmware update; 1x msata connector 
+from sata port 4 co-layout with m.2 connector; 1x individual sata 6gps 
+ports from sata port 5; 1x minisas port from sata port 0/1/2/3, 1x 
+minisas port from ssata0/1/2/3; 1x pcie x4 ports to m.2 connector; spi 
+interface, connect to bmc to enable bmc the capability to perform bios 
+upgrade and recovery; smbus interface (master and slave); intel server 
+platform services (sps) 3.0 firmware with intel node manager' in clause 5.4. 
+10 storage replacement – [b-ocp 1s] provides storage replacement as 'the carrier assembly includes 
+2x ejectors which are used for card injection/ejection into the pcie 
+connectors' in clause 5.1. 
+– [b-ocp 1s] provides storage replacement as 'the twin lakes 1s server 
+supports three m.2 solid-state drives in 2280 or 22110 form factors. boot 
+m.2 slot is only available in 2280 form factor and it can be configured as 
+either sata or pcie interface through bom options, but not both. a 
+minimum 256gb m.2 sata or nvme ssd is required as a boot device and 
+for logging purpose. two additional ssd drives are designed in to support 
+applications that require high disk performance. these two m.2 slots only 
+support pcie x4 links but both support ssd drives in 2280 or 22110 form 
+factors' in clause 9.4. 
+– [b-ocp 2s] provides storage replacement as 'the motherboard uses intel 
+pch chipset, which supports following features: 4x usb 3.0/2.0 ports: one 
+type a for front connector; one type c for front connector; one for bmc in-
+band firmware update; one to x32 riser connector; 1x m.2 connector; 1x 
+individual sata 6gps port; 1x minisas hd x8 port or 1x minisas hd x4 port; 

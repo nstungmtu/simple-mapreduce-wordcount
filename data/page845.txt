@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  837 
+ii.17 reference point: i-sc-psi 
+the service catalogue functional component interacts with peer service integration functional component 
+through i-sc-psi to provide inter-cloud service integration information. 
+ii.18 reference point: i-spm-sp 
+the service p rovisioning functional component interacts with service policy management functional 
+component through i-spm-sp to get inter-cloud service provisioning policy information. 
+ii.19 reference point: i-sp-sa 
+the provisioning functional component interacts with service aut omation functional component through 
+i-sp-sa to provision inter-cloud service automatically. 
+ii.20 reference point: i-psm-sp 
+the provisioning functional component interacts with peer service management functional component 
+through i-psm-sp to access the oss of a peer csp in order to provision inter-cloud service among peer csps. 
+ii.21 reference point: i-mr-sp 
+the provisioning functional component interacts with monitoring and reporting functional component 
+through i-mr-sp to exchange inter-cloud monitoring and provision information. 
+ii.22 reference point: i-psm-sa 
+the service automation functional component interacts with peer service management functional 
+component through i-psm-sa to access peer csp's oss in order to delivers inter-cloud service automatically. 
+ii.23 reference point: i-sa-spm 
+the service automation functional component interacts with service policy management functional 
+component through i-sa-spm to get inter-cloud service provisioning policies and configuration policies. 
+ii.24 reference point: i-sa-psi 
+the service automation functional component interacts with peer service integration functional component 
+through i-sa-psi to provide automation processing of primary csp switchover and switchback. 
+ii.25 reference point: i-psm-spm 
+the service policy management functional component interacts with peer service management functional 
+component through i -psm-spm to access the oss of a peer csp to manage inter -cloud service policy and 
+negotiated provisioning policy. 
+ii.26 reference point: i-spm-psi 
+the service policy management functional component interacts with peer service integration functional 
+component through i-spm-psi to negotiate inter-cloud service policy with peer csps. 
+ii.27 reference point: i-spm-aspm 
+the service policy manage ment functional component interacts with authorization and security policy 
+management functional component through i -spm-aspm to exchange inter -cloud security policy 
+information. 
+ii.28 reference point: i-slm-ipm 
+the service level management functional comp onent interacts with incident and problem management 
+functional component through i-slm-ipm to get inter-cloud incident and problem information for inter-cloud 
+service level tracking, performance and capacity management. 

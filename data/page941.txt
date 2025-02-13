@@ -1,0 +1,37 @@
+intercloud and interoperability 5 
+ 
+  933 
+there are three different cloud computing capabilities types:  
+• infrastructure capabilities type ; 
+• platform capabilities type ; 
+• application capabilities type. 
+different cloud capabilities types have different interoperability testing.  
+table 6-1 shows the potential interoperability testing target areas of cloud computing  with different cloud 
+computing capabilities types . it is useful to identify the target areas . each target area should include 
+functional testing as well as performance testing. 
+table 6-1 potential cloud computing interoperability testing areas 
+capability  
+type 
+target areas 
+infrastructure capabilities 
+type 
+platform capabilities type application capabilities 
+type 
+target area a: 
+csc – csp 
+   
+target area b: 
+csp – csp 
+   
+target area c: 
+csp – management 
+interface 
+   
+target area d:csp – 
+legacy network 
+   
+"csc – csp" means interaction between csc and csp. 
+"csp – csp" means collaboration among different cloud services. 
+"csp – management interface" means consistent and interoperable management interface. 
+"csp – legacy network" means collaboration with legacy network. 
+  

@@ -1,0 +1,14 @@
+7 security  
+ 
+966  
+summary 
+recommendation itu-t x.1601 describes the security framework for cloud computing. the recommendation 
+analyses security threats and challenges in the cloud computing environment, and describes security 
+capabilities that could mitigate these threats and addr ess security challenges. a framework methodology is 
+provided for determining which of these security capabilities will require specification for mitigating security 
+threats and addressing security challenges for cloud computing. appendix i provides a mapping table on how 
+a particular security threat or challenge is addressed by one or more corresponding security capabilities. 
+keywords 
+cloud computing, confidentiality, data protection, security capabilities, security challenges, security 
+framework, security threats. 
+  

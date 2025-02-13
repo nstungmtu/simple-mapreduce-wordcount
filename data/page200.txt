@@ -1,0 +1,83 @@
+1 framework and requirements for cloud computing  
+ 
+192  
+table i.1 – ocp related specifications  
+family specification summary published  
+ocp mezzanine mezzanine card 2.0 design 
+specification v1.0 
+[b-ocp mezz] 
+mezzanine card 2.0 specification is developed 
+based on original ocp mezzanine card. it extends 
+the card mechanical and electrical interface to 
+enable new uses cases for facebook and other 
+users in ocp community. the extension takes 
+backward compatibility to existing ocp platforms 
+designed for original ocp mezzanine card 
+specification v0.5 into consideration and some 
+tradeoffs are made between backward 
+compatibility and new requirements. 
+2016 
+mezzanine card for intel 
+v2.0 motherboard  
+[b-ocp mezzmb] 
+this document describes the mezzanine card 
+design for use with open compute project intel 
+v2.0 motherboards. the mezzanine card is installed 
+on an intel v2.0 ocp motherboard to provide 
+extended functionality, such as support for 10gbe 
+pci-e devices. 
+2012 
+19" server qct big sur product 
+architecture following big 
+sur specification v1.0  
+[b-ocp bs] 
+the qct big suris 4ou/21 "chassis which using ia-
+64 based dual-socket servers that support the 
+grantley–ep processors in combination with the 
+wellsburg pch to provide a balanced feature set 
+between technology leadership and cost. qct 
+grantley platform will be 16dimmsand supports 8 
+gpgpu cards and max. 8x2.5" hdds. 
+2017 
+hyve solutions ambient 
+series-e v1.2 
+[b-ocp hsas] 
+this document defines the technical specifications 
+for the hyve solutions ambient series-e server, 
+including motherboard, chassis and power supply. 
+2017 
+quantagrid d51b-1u v1.1 
+[b-ocp qgd] 
+the quanta grid d51b-1uwill be ia-64 based dual-
+socket servers that support the grantley–ep 
+processors in combination with the wellsburg pch 
+(pch) to provide a balanced feature set between 
+technology leadership and cost. 
+2015 
+decathlete server board 
+standard v2.1 
+[b-ocp dsbs] 
+this standard provides board-specific information 
+detailing the features and functionality of a general 
+purpose 2-socket server board for adoption by the 
+open compute project community. the purpose of 
+this document is to define a dual socket server 
+board that is capable of deployment in scale out 
+data centres as well as traditional data centres 
+with 19” rack enclosures. 
+2013 
+soc boards panther+ micro-server 
+card hardware v0.8 
+[b-ocp pmsch] 
+this document describes the technical 
+specifications used in the design of an intel avoton 
+soc based micro-server card for open compute 
+project, known as the panther+. 
+2016 
+micro-server card 
+hardware v1.0 
+[b-ocp hsch] 
+this specification provides a common form factor 
+for emerging micro-server and soc 
+(system-on-chip) server designs. 
+2016 

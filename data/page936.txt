@@ -1,0 +1,43 @@
+5 intercloud and interoperability  
+ 
+928  
+table 5-13 – tm forum documents and work items related to cci 
+reference name/title status 
+tmf gb917 sla management handbook published 
+tmf gb960 quick start pack for cloud: trouble to resolve published 
+tmf gb963 cloud sla application note published 
+tmf tr174 enterprise-grade external compute iaas requirements published 
+tmf tr178 enabling end-to-end cloud sla management published 
+tmf tr194 muli-cloud service management accelerator pack-introduction published 
+5.2 testing groups, open sources and tools for cloud computing testing 
+5.2.1 testing groups 
+3cpp 
+china cloud computing promotion and policy forum (3cpp) is a non-profit organization initiated by the cloud 
+industry. the objectives of 3cpp include facilitating the communication between government and the 
+industry, and promoting the research on the standards, policies, plans and laws in cl oud computing area in 
+china. 3cpp has more than 60 members including chinese cloud service and infrastructure providers. 
+3cpp works on cloud computing testing methodology related aspects of cci. 
+3cpp initiated "trusted cloud service certification" in 2013,  and established related documents including 
+"assessment method for trusted cloud service certification" and "cloud computing service level agreement 
+reference framework", etc. in these documents, some evaluation indexes and evaluation methods are 
+defined. 
+table 5-14 – 3cpp documents and work items related to cci 
+reference name/title status 
+3cpp tcsa operation method operation method of trusted cloud service assessment published 
+3cpp tcsc assessment method assessment method for trusted cloud service certification published 
+ydb144-2014 cloud service agreement reference framework published 
+http://www.3cpp.org/lab/cloud/trustedcloudev/index.shtml 
+cloud plugfests 
+the cloud interoperability plugfest series (or "cloud plugfests" for short)  was originated out of 
+community-based interoperability efforts started by ogf and snia in 2011, and expanded to include a variety 
+of support tools provided by these organizations and etsi to support the community. etsi joined the cloud 
+plugfest series as a full supporting partner in 2012. furthermore, cloud plugfests developed into a 
+cooperative venue to encour age interoperability on implementations of several relevant cloud software 
+stacks, products and multiple cloud-related standards. 
+cloud plugfests works on cloud computing testing methodology related aspects of cci. test descriptions for 
+cloud interoperability delivered by cloud plugfest  specifies interoperability test descriptions for occi and 
+cdmi standards. the test descriptions cover the occi and cdmi protocol specifications where relevant and 
+more specifically: 1) occi interoperability testing, to prove that end-to-end functionality is as required by the 
+standard. 2) cdmi interoperability testing, to prove that end -to-end functionality is as required by the 
+standard. 3) occi + cdmi interworking testing, to prove t hat end-to-end functionality is as required by the 
+standards. cloud plugfests works on cloud computing testing methodology related aspects of cci. 

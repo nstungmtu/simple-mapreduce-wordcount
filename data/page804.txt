@@ -1,0 +1,48 @@
+5 intercloud and interoperability  
+ 
+796  
+3.1.4 cloud service [itu-t y.3500]: one or more capabilities offered via cloud computing invoked using a 
+defined interface. 
+3.1.5 cloud service customer [itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements.  
+3.1.6 cloud service partner [itu-t y.3500]: party which is engaged in support of, or auxiliary to, activities 
+of either the cloud service provider or the cloud service customer, or both. 
+3.1.7 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.8 governance [b-iso/iec 38500:2015]: system of directing and controlling.  
+3.1.9 information security [b-iso/iec 27000:2016] : preservation of confidentiality, integrity and 
+availability of information.  
+note – in addition, other properties, such as authenticity, accountability, non -repudiation, and reliability can also be 
+involved. 
+3.1.10 integrity [itu-t y.3500]: property of accuracy and completeness. 
+3.1.11 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+note – inter-cloud computing is also referred as inter-cloud. 
+3.1.12 service level agreement [itu-t y.3500]: documented agreement between the service provider and 
+customer that identifies services and service targets. 
+note 1 – a service level agreement can  also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement.  
+3.1.13 service management inte rface [itu-t y.3521]: interface that provides a set of management 
+capabilities exposed by a cloud service through which the cloud service can be managed. 
+note – for additional details of smi concepts, see [itu-t y.3520] and [b-tmf tr198]. 
+3.1.14 trusted cloud service [itu-t y.3501]: a cloud service that satisfies a set of requirements such as 
+transparency for governance, management and security so that a cloud service customer (csc) can be 
+confident in using the cloud service. 
+note 1 – the set of requirements will vary depending on the involved cloud service customer, the nature of the cloud 
+service and the governing jurisdiction. 
+note 2 – the set of requirements could also be related to additional cross -cutting aspects [itu -t y.3502] such as 
+performance, resiliency, reversibility, slas, etc. 
+note 3 – transparency means that the cloud service provider (csp) should commit to the csc that they have 
+appropriate and clear control and reporting mechanisms for governance, management and security, suc h as sla 
+commitments, online announcements, data handling policies, etc. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 dependability: the availability performance and its influencing factors on reliability performance, 
+maintainability performance and maintenance support performance. 
+3.2.2 inter-cloud governance: system by which the use of inter-cloud is directed and controlled.  
+3.2.3 reliability: the ability of a system, product or component  to perform and maintain under stated 
+conditions as required for a specified period of time. 
+3.2.4 resiliency: the ability of a system, product or component  to provide, maintain, or return to an 
+acceptable level of service in the face of faults (unintentional,  intentional or naturally caused) affecting 
+normal operation. 

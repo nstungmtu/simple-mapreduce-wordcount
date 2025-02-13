@@ -1,0 +1,27 @@
+1 framework and requirements for cloud computing  
+ 
+216  
+table ii.3 – cold data storage resource – use case 
+figure 
+ 
+pre-conditions 
+(optional) 
+the cloud storage service resides on the physical machine. 
+post-conditions 
+(optional) 
+csp: cloud service operations manager wants to build or expand a resource pool to provide 
+cloud storage service for cold data. 
+derived 
+requirements 
+– hot-plug support (see clause 7.6) 
+– low power consumption of cpu (see clause 7.1.1.1) 
+– supporting various types of memory (see clause 7.1.1.2) 
+– provide i/o interface to administrator (see clause 7.2) 
+– provide i/o interface to external storage device (see clause 7.2) 
+– storage hibernation (see clause 7.1.1.3 ) 
+– remote management (see clause 7.3) 
+– diagnostic of physical machine (see clause 7.3) 
+– multiple interfaces for storage (see clause 7.1.1.3) 
+– i/o interface for device extensions  
+ 
+

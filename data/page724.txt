@@ -1,0 +1,43 @@
+3 xaas  
+ 
+716  
+ note 3 – association analysis: this supports some spe cific algorithms to fin d associations between stored 
+data. examples of association algorithms include apriori algorithm and frequent pattern growth algorithm. 
+apriori algorithm and frequent pattern grow th algorithm are two classical association analysis al gorithms 
+which can mine the associations through the frequency of data appearing together in the dataset. 
+ note 4 – regression analysis: this supports linear regression and logistic regression and other algorithms, for 
+estimating the relationships among data. 
+ note 5 – customization of analysis supports the customization of detail data analysis methods according to a 
+customer's specific requirements. 
+– setting up procedures which enable the analysis using registered analysis methods in the analysis 
+function registry; 
+– executing analysis process according to the procedures. 
+7.1.5 data storage functional component  
+the d ata storage functional component is responsible for storing data. this functional component also 
+provides different types of storage for different data types and different database types while storing data. 
+this functional component provides: 
+– provisioning storage considering the various types of data storage, database, and different types of 
+data such as structured data, unstructured data, and semi-structured data; 
+ note 1 – data storage types include block storage, file storage and object storage.  
+ note 2 – databases include relation database, no sql database. 
+ note 3 – unstructured data can include mass data, such as log files, video, audio data, email, web pages, data 
+generated on social-media sites. semi-structured data can include data stored in xml, html and other format 
+documents. structured data can include record data persistent in databases (see [itu-t y.3600]). 
+– allocating the appropriate storage when a storage usage request is initiated; 
+– releasing storage when the storage usage is terminated; 
+ note 4 – the data storage functional component interworks with the data collection functional  component 
+(see clause 7.1.1) to identify the characteristics of the data such as data type, data volume and so on. 
+– storing data on various storage  systems. it supports storage mirroring and provides data 
+fragmentation to distribute and store data on distributed storage systems. this provides the ability 
+to update data; 
+ note 5 – distributed storage system stores data on multiple independent storages. it adopts the 
+ scalable system structure, and uses multiple storage servers which are use d to share the storage load.   
+ note 6 – storage mirroring is the replication of logical storage volumes onto separate physical disks.  
+– data indexing, stored together with data, to improve the speed of data retrieval operations. 
+7.2 resource layer functional components 
+the resource abstraction and control functional component, in the resource layer functional components, is 
+extended for bdaas (see figure 7-3) with the following functional components: 
+– distributed processing functional component (see clause 7.2.1). 
+ 
+figure 7-3 – resource abstraction and control functional component extended for bdaas 
+

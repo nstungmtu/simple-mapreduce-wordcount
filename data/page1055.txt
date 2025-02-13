@@ -1,0 +1,45 @@
+security 7 
+ 
+  1047 
+1 scope 
+this recommendation | international standard gives guidelines for information security controls applicable 
+to the provision and use of cloud services by providing: 
+– additional implementation guidance for relevant controls specified in iso/iec 27002; 
+– additional controls with implementation guidance that specifically relate to cloud services. 
+this recommendation | international standard provides controls and implementation guidance for both 
+cloud service providers and cloud service customers. 
+2 normative references 
+the following recommendations and international standards contain provisions which, through reference in 
+this text, constitute provisions of this recommendation | international standard. at the time of publication, 
+the editions indicated were valid. all recommendations and standards are subject to revision, and parties to 
+agreements based on this recommendation | international standard are encouraged to investigate the 
+possibility of applying the most recent edition of the recommendations and standards listed below. 
+members of iec and iso maintain registers of currently valid international standards. the 
+telecommunication standardization bureau of the itu maintains a list of curre ntly valid itu -t 
+recommendations. 
+2.1 identical recommendations | international standards 
+– recommendation itu-t y.3500 (in force) | iso/iec 17788: (in force), information technology – cloud 
+computing – overview and vocabulary. 
+– recommendation itu-t y.3502 (in force) | iso/iec 17789: (in force), information technology – cloud 
+computing – reference architecture. 
+2.2 additional references 
+– iso/iec 27000 : (in force) , information technology – security techniques – information security 
+management systems – overview and vocabulary. 
+– iso/iec 27002:2013, information technology – security techniques – code of practice for information 
+security controls. 
+3 definitions and abbreviations 
+3.1 terms defined elsewhere 
+for the purposes of this recommendation | international standard, the terms and definitions given in iso/iec 
+27000, rec. itu-t y.3500 | iso/iec 17788 , rec. itu-t y.3502 | iso/iec 17789  and the following definitions 
+apply: 
+3.1.1 the following term is defined in iso 19440: 
+– capability: quality of being able to perform a given activity. 
+3.1.2 the following terms are defined in iso/iec 27040: 
+–  data breach : compromise of security that leads to the accidental or unlawful destruction, loss, 
+alteration, unauthorized disclosure of, or access to protected data transmitted, stored, or otherwise 
+processed. 
+–  secure multi -tenancy: type of multi -tenancy that employs security controls to explicitly guard 
+against data breaches and provides validation of these controls for proper governance. 
+note 1 – secure multi-tenancy exists when the risk profile of an individual tenant is no greater than it would be in a 
+dedicated, single-tenant environment. 
+note 2 – in very secure environments, even the identity of the tenants is kept secret. 

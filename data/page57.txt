@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   49 
+table of contents 
+  
+1 scope 
+2 normative references 
+2.1 identical recommendations | international standards 
+2.2 additional references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation | international standard 
+4 abbreviations 
+5 conventions 
+6 cloud computing reference architecture goals and objectives 
+7 reference architecture concepts 
+7.1 ccra architectural views 
+7.2 user view of cloud computing 
+7.3 functional view of cloud computing 
+7.4 relationship between the user view and the functional view 
+7.5 relationship of the user view and functional view to cross-cutting aspects 
+7.6 implementation view of cloud computing 
+7.7 deployment view of cloud computing 
+8 user view 
+8.1 introduction to roles, sub-roles and cloud computing activities 
+8.2 cloud service customer 
+8.3 cloud service provider 
+8.4 cloud service partner 
+8.5 cross-cutting aspects 
+9 functional view 
+9.1 functional architecture 
+9.2 functional components 
+10 relationship between the user view and the functional view 
+10.1 general 
+10.2 overview 
+annex a – further details regarding the user view and functional view 
+a.1 the cloud service customer–cloud service provider relationship 
+a.2 the provider–peer provider (or "inter-cloud") relationship 
+a.3 the cloud service developer–cloud service provider relationship 
+a.4 the cloud service provider–auditor relationship 
+bibliography 
+ 

@@ -1,0 +1,42 @@
+5 intercloud and interoperability  
+ 
+938  
+i.13 snia references and associated summaries 
+[iso 17826:2012] – cloud data management interface 
+cdmi specifies the interface to access cloud storage and to manage the data stored therein. it is applicable 
+to developers who are implementing or using cloud storage. 
+i.14 tmf references and associated summaries 
+[tmf gb917] – sla management handbook 
+this document provides a full set of definitions, rules and methodology for the specification, deployment and 
+management of slas, as well as useful tools and best practices, for use by both customers and service 
+providers. 
+[tmf gb963] – cloud sla application note 
+this document is intended for enterprise csps desiring to offer a commercially credible sla based on eclc 
+"enterprise-grade external compute iaas v1.0", and for an enterprise customer seeking enterprise -grade 
+slas. 
+[tmf tr174] – enterprise-grade iaas requirements 
+this document describes the requirements for enterprise-grade external compute iaas from the perspective 
+of the enterprise consumer. sla clarity and cross -service provider commonality of service level definitions 
+are specified in this document as one of the key requirements of enterprise-grade iaas. 
+[tmf tr178] – enabling end-to-end cloud sla management 
+this documents describes the requirements for enabling end-to-end cloud sla management, which 
+recommends a set of business considerations and architecture design principles that are required to support 
+end-to-end cloud sla management with the aim to facilitate discussion regarding sla consistency across 
+cloud deployment models and services models. 
+[tmf tr194] – muli-cloud service management accelerator pack-introduction 
+overview of multi-cloud management business challenges and how tm forum is addressing them. 
+i.15 itu-t draft recommendation 
+[itu-t y.3512] – cloud computing – functional requirements of network as a service 
+this recommendation provides use cases and functional requirements of network as a service (naas), one 
+of the representative cloud service categories. this recommendation covers the following: 
+• high level concept of naas;  
+• functional requirements for naas; 
+• typical use cases for naas. 
+this recommendation provides use cases and requirements of naas application, naas platform and naas 
+connectivity services. general requirements on naas can be found at [itu-t y.3501]. 
+[itu-t y.3513] – cloud computing – functional requirements of infrastructure as a service  
+this recommendation provides use cases and functional requirements of iaas, one of the representative 
+cloud service categories. this recommendation covers the following: 
+• general description of iaas;  
+• functional requirements for iaas; 
+• typical use cases for iaas. 

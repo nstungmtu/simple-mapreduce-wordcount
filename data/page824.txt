@@ -1,0 +1,14 @@
+5 intercloud and interoperability  
+ 
+816  
+summary 
+recommendation itu-t y.3516 specifies inter -cloud computing functional architecture, including functions 
+and functional components, based on the inter -cloud computing framework specified in recommendation 
+itu-t y.3511. the recommendation builds upon the functional view of the cloud computing reference 
+architecture (recommendation itu -t y.3502) and m akes extensions to functional components with inter -
+cloud functions. 
+recommendation itu-t y.3516 also describes the mapping between functions and functional requirements 
+of inter-cloud computing and examples of inter-cloud related reference points. 
+keywords 
+inter-cloud computing, functions, functional architecture, functional component. 
+  

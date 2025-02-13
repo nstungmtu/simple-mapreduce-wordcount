@@ -1,0 +1,44 @@
+cloud computing management 2 
+ 
+  445 
+appendix i 
+ 
+illustration on e2e cloud computing management in practice 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 introduction 
+this appendix provides an illustration of how a cloud compu ting management system ca n function in 
+practice, following the conceptual view and common model described in clauses 8 and 9. 
+i.2 vertical vs horizontal management 
+this recommendation describes both vertical relationships within a bss/oss, as shown in figure 8-1, as well 
+as horizontal relationships between csps within each managed layer, as shown in clause 9. 
+both vertical and horizontal interfaces are implemented as smis, however those vertical interfaces between 
+management layers within a single csp's system are likely to be implementation-specific. 
+i.3 orchestrated management actions 
+for realising e2e cloud computing management, orchestration is required at multiple levels. in each case, 
+this comprises the creation or management of multiple managed objects as a means to implement a higher 
+layer construct. while orchestration can occur directly in the service layer (for example, the creation of a 
+virtual machine (vm) within an infrastructure as a service (iaas) service may automatically cause the creation 
+of associated storage obje cts required to support the vm), this can also occur at higher layers of the 
+management system. the following example (see clause i.5) is an illustration of such a case. 
+i.4 monitoring and diagnostics 
+smi interfaces can also be used for monitoring and diagnostics within a single cloud computing system and 
+this can then be extended into a multi -cloud scenario (as described in [itu -t y.3520]). this allows for 
+aggregated performance measurement, reporting, fault detection, and root cause analysis across multip le 
+cloud services. 
+i.5 example of e2e cloud computing management 
+for this example, consider the creation of a video streaming service, designed to deliver training content to 
+a number of enterprise customers. 
+a cloud service pro vider is offering a product "video streaming platform" to its customers. this product 
+provides: 
+1) a storage platform (library) for holding video content, including content management, cataloguing, 
+metadata management; 
+2) a video-ingestion service, where content in various video formats can be uploaded for transcoding 
+before being placed in the library; 
+3) a subscription management system, including digital rights management, subscription, payment, 
+authorization, and billing; 
+4) service usage monitoring, including statistics, trends, and user behaviour; 
+5) managed network connectivity, both for uploading content to the cloud, and for efficient streaming 
+of the content through a content delivery network and thus to end users. 
+the enterprise wishing to buy thi s bundle of services needs o nly to place a single product order, which will 
+include various choices for capacity, throughput, etc. 
+figure i.1 illustrates e2e cloud computing management in practice. 

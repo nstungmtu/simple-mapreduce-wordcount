@@ -1,0 +1,43 @@
+6 monitoring  
+ 
+958  
+see table 7-11. 
+table 7-11 – parameters collected for monitoring the transaction process 
+metric name description unit 
+transactions number of transactions during a period (1 min, 5 min, 15 min) transaction 
+transaction rate transaction rate at which service requests are executed per second transaction/s 
+errors number of error transactions transaction 
+concurrent transactions average number of new transactions processed simultaneously transaction 
+time per transactions average time necessary to process a single transactions item ms 
+disk throughput rate throughput rate (input and output) for a specific service kb/s 
+memory throughput rate throughput rate (input and output) for a specific service kb/s 
+delay delay of message passing between processes ms 
+time of task duration of specific predefined tasks ms 
+7.2.3.2 load balance 
+load balancing of cloud computing is the process of distributing workloads across multiple computing 
+resources, which provides an efficient solution to various issues residing in cloud computing environment 
+usage. 
+see table 7-12. 
+table 7-12 – parameters collected for monitoring the efficiency and  
+effectiveness of load balancing 
+metric name description unit 
+load balance pool number of load balance pools pool 
+load balance vips number of virtual internet protocol (vip) 
+addresses member 
+load balance member  number of load balance member member 
+load balance health monitor number of load balance health monitor monitor 
+load balance connections volume of load balance connections connection 
+load balance active connections volume of load balance active connections connection 
+load balance incoming bytes volume of load balance incoming bytes mb 
+load balance outgoing bytes volume of load balance outgoing bytes mb 
+7.2.3.3 database 
+a cloud database is a database that typically runs on a cloud computing platform. poor database performance 
+can dramatically degrade qos. cloud providers who offer database as a service, without physically launching 
+a vm instance for the database, should have a clear picture of how a database is running and what is needed 
+by consumers.  
+a relational database is organized based on the relational model of the data. a non -relational database 
+provides a mechanism for storage and retrieval of data that is modell ed by means other than the tabular 
+relations used in relational databases. non -relational databases are increasingly used in big data and real -
+time web applications. the operation mechanisms of the two types of databases are entirely different. so 
+relational and non-relational databases should be monitored separately. 
+  

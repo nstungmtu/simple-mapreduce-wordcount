@@ -1,0 +1,44 @@
+xaas 3 
+ 
+    663 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions  
+6 overview of naas functional architecture 
+6.1 key naas characteristics 
+6.2 naas csc activities 
+6.3 virtualization of network functions 
+7 functionalities for naas 
+7.1 naas business related functionalities 
+7.2 functionalities for naas service instantiation 
+7.3 functionalities for naas service orchestration 
+7.4 functionalities for network analytics 
+7.5 autonomic functionalities 
+7.6 policy related functionalities 
+7.7 naas resource functionalities 
+7.8 functionalities for an evolved real-time oss 
+7.9 functionalities for the development of naas products and naas services 
+8 functional components 
+8.1 business support system functional components for naas products 
+8.2 service layer functional components for naas 
+8.3 oss functional components 
+8.4 functional components for naas development support 
+9 security considerations  
+annex a – oss reference points  
+annex b – functional components on mapping between physical and virtualized networks 
+b.1 physical network 
+b.2 virtualized network 
+b.3 physical-virtualized-networks mapping 
+appendix i – mapping among naas functional requirements and functionalities 
+i.1 mapping and derivation of functionality for naas service instantiation 
+i.2 mapping and derivation of functionality for service orchestration 
+i.3 mapping and derivation of functionalities for network analytics, policy, and 
+autonomy 
+i.4 mapping and derivation of functionality for mapping between physical and 
+virtualized networks 
+i.5 mapping and derivation of functionalities for an evolved real-time oss 

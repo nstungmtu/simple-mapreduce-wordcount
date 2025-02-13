@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+232  
+6 overview of distributed cloud 
+6.1 concept of distributed cloud 
+cloud computing is a paradigm for enabling network access to a scalable and elastic pool of shareable physical 
+or virtual resources with self-service provisioning and administration on-demand [itu-t y.3500]. services in 
+internet of things ( iot), augmented reality  (ar)/virtual reality  (vr), artificial intelligence (ai) and 5g  
+application domains requiring cloud infrastructure are gradually increasing and real -time services in the 
+above domains are also demanding especially for safety and surveillance applications. 
+cloud computing has challenges to support the real -time services due to (i) the network latency between 
+cloud service provider (csp) and cloud service customer (csc), and (ii) the load congestion on the data centre. 
+for these challenges, what is needed is the delivery of cloud services to nearby cscs in order to meet real-
+time service delivery. also, the distribution of cloud capabilities types to the edge of the network accessed 
+by cscs are needed for load congestion. 
+this recommendation introduces the distributed cloud, which is distribution of cloud capabilities typ es to 
+the edge of the network for enabling cloud service with low latency and real -time processing on limited 
+bandwidth by interworking among a pool of physical or virtual resources. 
+figure 6 -1 shows a concept of distributed cloud. the distributed cloud in cludes core, regional and edge 
+clouds, which meet the cloud capabilities types described in [itu -t y.3500]. cloud services are deployed to 
+the core, regional and edge clouds, interwork with one another, and provide a single system view to the cscs 
+for location transparency. thus, the distributed cloud provides low latency and fast response to access cloud 
+services by cscs to satisfy their need for real-time services in various areas. 
+global management manipulates both distributed cloud resources and cloud s ervice distribution 
+appropriately for csc's demands. the distributed cloud resource is the aggregated infrastructure from core, 
+regional and edge clouds, such as physical or virtual resources of compute, storage and network. 
+ 
+figure 6-1 – concept of distributed cloud 
+– core cloud (cc): the cc has large resource capacity and global management point to control cloud 
+resources in the distributed cloud. the core cloud supports cloud services with high computing 
+intensive and geographic independence; 
+– regional cloud (rc): the rc is optionally deployed in particular regions from the core cloud for load 
+sharing and service quality enhancement. the regional cloud handles cloud service requests from 
+the region controlled by global management of the core cloud; 
+ note 1 – the regional cloud supports lower latency than the core cloud by executing customized cloud 
+services for cscs in a particular region. it is assumed that the network latency from the csc to the regional 
+cloud is lower than from the csc to the cor e cloud and that the difference of cloud service execution time 
+between the core and regional cloud is negligible. 
+ note 2 – the regional cloud performs buffering load of cloud service and caching data from the core cloud 
+and provides them to cscs in the region. 
+

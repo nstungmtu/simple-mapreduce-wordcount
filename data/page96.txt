@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+88  
+connect various processing, storage and networking units in the physical resources so that together they 
+deliver an environment whe re naas, iaas, paas or saas cloud service  categories can be offered. the 
+controller might decide which cpus and/or racks contain which virtual machines executing which parts of a 
+given cloud service's workload, and how such processing units are connected to each other, and when to 
+dynamically and transparently reassign parts of the workload to new units as conditions change. 
+the decision as to whether the physical resources are virtualized or not depends on the workload 
+characteristics to be run. for many cloud services' workloads (e.g., related to compute as a service and data 
+storage as a service ), it is convenient to virtualize the underlying physical resources, especially since 
+virtualization enables some scenarios which basically cannot be realized with a physical infrastructure (e.g., 
+scenarios related to image management or dynamic scaling of cpu capacity as needed). for other workloads 
+(e.g., analytics and/or search) it is required to have maximum compute capacity and use hundreds or 
+thousands of nodes to run a single specialized workload. in such cases non-virtualized physical resources can 
+be more appropriate. 
+9.2.4.2 physical resources 
+the physical resources functional component represents the elements needed by the cloud service provider 
+to run and manage the cloud services that they offer. 
+physical resources include hardware resources, such as computers (cpu and memory), networks (routers, 
+firewalls, switches, network links and network connectors, storage components (hard disks) and othe r 
+physical computing infrastructure elements. these resources can include those that reside inside cloud data 
+centres (e.g., computing servers, storage servers, and intra -data centre networks), and those that reside 
+outside of data centres, typically netwo rking resources, such as inter -data centre networks and core 
+transport networks. 
+all the elements of the physical resources are managed from the operational support systems functional 
+component, with the capability to place instances of each cloud service onto the resources as required to 
+satisfy customer requirements. note that typically, the operational support systems functional component 
+itself runs on some part of the physical resources. 
+9.2.5 multi-layer functions 
+9.2.5.1 integration functional components 
+the integration functional components  are responsible for connecting functional components  in the 
+architecture to create a unified architecture. the integration functional components  provide message 
+routing and message exchange mechanisms within the cloud architecture and its functional components as 
+well as with external functional components. message routing can be based on various criteria, e.g., context, 
+policies.  
+the integration functional components include: 
+• security integration; 
+• monitoring integration; 
+• service integration; 
+• peer service integration. 
+9.2.5.1.1 security integration 
+the security integration functional component  provides integration to security capabilities including 
+authentication, authorization, encryption and integrity verification and to policy mechanisms that relate to 
+security capabilities. 
+9.2.5.1.2 monitoring integration 
+the monitoring integration functional component provides connection from functional components in the 
+access layer, services layer and resource layer to the monitoring and reporting capabilities of the operational 
+support systems. 

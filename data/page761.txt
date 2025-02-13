@@ -1,0 +1,49 @@
+video processing and storage 4 
+ 
+  753 
+7.1 video stream storage 
+surveillance cameras capture video data continuously. user bob has subscribed to the vi sual surveillance 
+cloud storage (vscs) service from the vs service provider, and wants to store streaming video data in the 
+cloud directly. 
+step 1: bob logs into the vs system via his pc. he clicks a cloud storage menu function and goes to a video 
+stream storage plan form. a camera list appears on the screen, which displays detailed information for each 
+camera that bob can access. bob chooses the cameras whose captured video data needs to be stored in the 
+cloud, and then sets the time interval during which the data should be recorded. the vs management system 
+receives bob's submitted video stream cloud storage plan, and forwards the plan to the cloud storage system. 
+step 2: according to the video stream storage plan, the cloud storage system gets the video stream directly 
+from the monitoring cameras, and then writes the video data to the cloud storage resource pool built on the 
+storage device clusters. 
+step 3: bob can browse the camera's video data recorded in the cloud; he can also choose the camera name 
+and the video starting time, and replay the video of interest stored in the cloud. 
+7.2 video file uploading 
+case 1: video file uploading from nvr 
+an nvr is usually used as the local storage devices for continuously recording surveillance video from 
+network cameras. nvr has a maximum storage capacity or throughput limitation due to predefined resource 
+limitations. for example, an nvr can receive video streams from 16 cameras simultaneously, and can record 
+the video data from those cameras for one month. in addition, the data reliability is difficult to guarantee 
+when the nvr fails. 
+the public security department of a city has deployed a vs system in the city. tom is the system administrator 
+and is responsible for operating the visual surveillance system t o carry out public security tasks. currently, 
+the surveillance video is recorded on the local nvrs. however, tom's supervisor lets him retain the video 
+data from some cameras for at least six months. 
+step 1: tom logs into the vs system. he chooses the surveillance cameras, sets the time interval to 12 months 
+and sets the video file uploading period to 12 hours. tom submits the video file uploading plan to the visual 
+surveillance management system. this plan is then forwarded to the cloud storage system. 
+step 2: according to the video file uploading plan, the cloud storage system retrieves the video files from the 
+corresponding nvrs every 12 hours, and then writes this video data to the cloud storage resource pool built 
+on the storage device clusters. the storage space assigned to this plan is large enough to store the video data 
+for 12 months. 
+step 3: tom can download the video files from the cloud; he can also replay the videos stored in the cloud 
+on demand. 
+case 2: video file uploading from mobile devices 
+mobile visual surveillance devices are widely used today. the storage capacity of a mobile device is limited, 
+and the user wants to access the video captured by a mobile device using any terminals, e.g., pc, anywhere. 
+the user can then upload the captured video files from the mobile device to the cloud. 
+step 1: bob logs into the vs system through a mobile device. he often uses the camera of the mobile device 
+to capture videos; these video files are stored in the mobile device. 
+step 2: since the storage space of the mobile device is limited, bob applies for video cloud storage space in 
+order to save more surveillance video data. he chooses the video files from his mobile device, and then 
+uploads the files to the cloud through wireless channels. 
+step 3: bob logs into the visual surveillance system using a pc, and can download the video files (which were 
+uploaded from his mobile device) from the cloud. he can also replay the videos, stored in the cloud, on 
+demand. 

@@ -1,0 +1,37 @@
+xaas 3 
+ 
+     685 
+8.3.3 oss-nf functional components 
+note – the following description is bas ed on an adaptation of the oss functional components as described in clause 
+9.2.5.3 of [itu-t y.3502]. 
+the oss-nf functional components encompass the set of operational related management capabilities that 
+are required in order to manage and control the network functions offered to customers as part of network 
+services. refer to clause 7.8.2.2 for a description of oss-nf functionalities. 
+figure 8-5 shows the oss-nf functional components. 
+ 
+figure 8-5 – oss-nf functional components 
+the oss-nf functional components include: 
+– nf catalogue; 
+– nf provisioning; 
+– nf monitoring and reporting; 
+– nf policy management; 
+– nf automation; 
+– nf level management; 
+– nf incident and problem management; 
+– nf inventory. 
+8.3.3.1 nf catalogue 
+the nf catalogue functional component provides a listing of all network functions of the naas csp. the nf 
+catalogue functional component contains and/or references all relevant technical information required to 
+deploy, provision and run a network function. 
+8.3.3.2 nf provisioning 
+the nf provisioning functional component provides the capabilities for provisioning network functions, both 
+in terms of the p rovisioning of network functions implementations and of network functions access 
+endpoints and the workflow required to ensure that necessary nf elements are provisioned in the correct 
+sequence. 
+8.3.3.3 nf monitoring and reporting 
+the nf monitoring and reporting functional component provides capabilities for: 
+– monitoring the activities of other functional components throughout the naas csp's system. this 
+also includes functional components involved in the support of network functions, such as other 
+oss-nf functional components like the nf automation functional component (e.g., the provisioning 
+of a network functions instance for a particular customer); 
+

@@ -1,0 +1,42 @@
+cloud computing management 2 
+ 
+  503 
+7 e2e cloud service lifecycle management functional requirements 
+this clause provides requirements of e2e cloud service lifecycle management derived from the use cases 
+described in appendix i. 
+7.1 service management interface 
+it is recommended that the csp provides smi between cloud services and an e2e cloud service lifecycle 
+management system. 
+it is recommended that the csp provides management functionalities of its own cloud service to others csps 
+through smi between csps. 
+7.2 self-service 
+it is recommended that the csp provides an easy method ( web portal or other automated approaches ) to 
+discover, purchase, configure, deploy, activate and d eactivate a s ervice and to check service status to 
+the csc. 
+7.3 service maintenance 
+it is recommended that the csp provides automated software enabled cloud services for continuous service 
+maintenance to manage stability and availability of its service.  
+7.4 reporting 
+it is recommended that the csp provides functions to report (according to local laws and regulations) service 
+health condition, performance, security, geo -location of services, events and other related activities which 
+affect e2e cloud service performance. 
+7.5 composite applications or mash-ups 
+it is recommended that the csp provides functions to support the rapid delivery of cloud services that are 
+delivered as composite apps, or mash -ups built from multiple services implemented by multiple cloud 
+providers residing in different domains. 
+7.6 traditional business processes 
+it is recommended that the csp provides functions to  support the application of traditional business 
+processes associated with administration, provisioning/configuration, service assurance and charging 
+/billing/settlement involved across inter-clouds residing in different domains. 
+7.7 decommissioning 
+it is recommended that the csp provides automatic de-commissioning of service resources either based on 
+original service request expiration date or csc decommission request initiated while the service is running. 
+7.8 policy 
+it is recommended that the csp provides a set of policies for cloud service access and control.  
+7.9 lifecycle stage management 
+it is required that the csp provides the ability to run the given service through its lifecycle stages and offers 
+the needed functionality at every step of the process. 
+7.10 service automation and continuous delivery 
+it is required for the csp to enable automated response to deal with the de mand variat ions and offer 
+necessary feedback to effect changes in the iterative design, by monitoring the service during its operation 
+in order to provide the necessary service automation and continuous delivery without human intervention. 

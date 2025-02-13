@@ -1,0 +1,52 @@
+ framework and requirements for cloud computing 1 
+ 
+   57 
+figure 7-4 illustrates the concepts of functions, layers and functional components. 
+y .3502(14)_f7-4
+functional
+component
+functional
+component
+functional
+component
+functional
+component
+layer
+layer
+layer
+multi-layer
+functions
+ 
+figure 7-4 – functional layering 
+the cloud computing functional architecture is described in clause 9.1. 
+7.3.1 functional components 
+a functional component  is a functional building block needed to engage in an activity, backed by an 
+implementation. 
+the capabilities of a cloud computing  system are fully defined by the set of implemented functional 
+components. 
+functional components are further described in clause 9.2. 
+7.3.2 functional layers 
+a layer is a set of functional components that provide similar capabilities or serve a common purpose. 
+the functional architecture is partially layered (i.e., has layers and a set of multi-layer functions). 
+there are four distinct layers defined in the ccra: 
+• user layer, which includes functional components that support the cloud computing activities of 
+cloud service customers and cloud service partners; 
+• access layer, which includes functional components  that facilitate function distribution and 
+interconnection; 
+• service layer, which includes functional components that provide the cloud services themselves 
+plus related administration and business capabilities, and the orchestration capabilities necessary 
+to realize them; 
+• resource layer, which includes the functional components that represent the resources needed to 
+implement the cloud computing system. 
+note that not all layers or functional components are necessarily instantiated in a specific cloud computing 
+system. 
+7.3.3 multi-layer functions 
+the multi -layer functions include functional components  that provide capabilities that are used across 
+multiple functional layers. 
+multi-layer functions are grouped into subsets. 
+the following subsets of multi-layer functions are defined: 
+• development support; 
+• integration; 
+• security systems; 
+• operational support systems; 
+• business support systems. 

@@ -1,0 +1,32 @@
+ framework and requirements for cloud computing 1 
+ 
+   277 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+framework of inter-cloud computing 
+recommendation itu-t y.3511 
+(03/2014) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

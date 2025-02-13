@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   153 
+appendix i 
+ 
+use cases of cloud service brokerage 
+(this appendix does not form an integral part of this recommendation.) 
+table i.1 – a general use case for cloud service brokerage 
+title a general use case for cloud service brokerage. 
+description (1) a csp determines to sell cloud services though a csn: cloud service broker and accesses 
+a workspace operated by the csn: cloud service broker such as a web portal by using 
+an authorized account. 
+(2) the csp registers cloud service list to a product catalogue of the csn: cloud service 
+broker though a user interface of the workspace. 
+(3) a csc accesses the workspace by using an authorized account to find and use a cloud 
+service through the csn: cloud service broker. 
+(4) the csc requests a cloud service with service requirements to the csn: cloud service 
+broker. then, the csn: cloud service broker searches the best -matched cloud service 
+out of the csn: cloud service broker's product catalogue. 
+(5) the csn: cloud service broker notifies the searched result and suggests detailed cloud 
+service conditions to the csc. once the csc agrees with the suggested condition, the 
+csn: cloud service broker makes a contract with the csc for brokering a cloud service. 
+(6) on behalf of the csc, the csn: cloud service broker requests to launch a cloud service 
+to the csp who can accommodate the service requirements. 
+(7) the requested csp launches a cloud service according to the service requirements 
+(8) the csp informs on a launch of the cloud service and provides information for accessing 
+the cloud service such as service access point, id and password to the csn: cloud service 
+broker. 
+(9) the csn: cloud service broker forwards the access information to the authorized csc. 
+(10) using the access information, the csc accesses and utilizes the launched cloud service.  
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+   
+pre-conditions 
+(optional) 
+the csp is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csc is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+post-conditions 
+(optional) 
+the csn: cloud service broker monitors status of the brokered service to comply with the 
+contracted service agreement. 
+

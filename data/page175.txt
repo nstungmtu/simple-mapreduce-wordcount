@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   167 
+table i.10 – a use case of cloud service control status validation 
+post-conditions 
+(optional)  
+derived 
+requirements 
+– initiation of validation (see clause 7.5) 
+– validation of result for request of cloud service control (see clause 7.5)  
+– history of cloud service control status validation (see clause 7.5) 
+– status checking period for validation (see clause 7.5) 
+– notification of result for request of cloud service control (see clause 7.5)  
+ 
+table i.11 – a use case for cloud service migration in cloud service brokerage 
+title a use case for cloud service migration in cloud service brokerage.  
+description this use case describes cloud service migration in cloud service brokerage during the service 
+period. 
+the csc is using a cloud service provided by the csp(a) under a contract with a csn: cloud 
+service broker.  
+the csc determines to change the physical location of the service according to some usage 
+requirements. for instance, the csc, who operates a busine ss using the cloud service, may 
+determine to move business location to another country. 
+the csc makes a request to migrate the cloud service to the csn: cloud service broker.  
+the csn: cloud service broker searches product catalogue to select a csp candidat e (csp(b)) 
+who provides an equivalent service with the existing service. the csn: cloud service broker 
+and the csc negotiate to determine the most appropriate service for the migration. after the 
+csn: cloud service broker reaches an agreement, the csn: clo ud service broker notifies the 
+updated service information due to the service migration. 
+on behalf of the csc, the csn: cloud service broker requests to create a service to the csp(b) 
+that can accommodate the service requirements. 
+the requested csp(b) creates a service according to the service requirements. 
+the csn: cloud service broker makes a request for service migration to the csp(a) so that the 
+csp(a) migrates data and the status of the existing service to the service created by the csp(b). 
+after the c sn: cloud service broker confirms that the migration of status and data was 
+accomplished, the csp(b) initiates the created service using the transferred data and status.  
+the csp(b) informs on a creation of the service and provides information for accessing  the 
+service such as service access point, id and password to the csn: cloud service broker.  
+using the access information, the csc accesses and utilizes the created service.  
+finally, the csn: cloud service broker requests termination of the existing service to the csp(a) 
+and ends their contract. 
+roles/sub-roles csp, csn: cloud service broker, csc 

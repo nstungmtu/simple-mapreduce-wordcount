@@ -1,0 +1,48 @@
+ framework and requirements for cloud computing 1 
+ 
+   31 
+appendix  i 
+ 
+use cases of cloud computing  
+(this appendix does not form an integral part of this recommendation.) 
+this appendix identifies use cases of cloud computing. table i.1 shows the template used for the description 
+of the use cases. 
+table i.1 – template for the description of a use case 
+use case 
+name title of the use case  
+abstract overview and features of the use case 
+roles roles relating to/appearing in the use case 
+figure figure to present the use case.  
+(a uml-like diagram is suggested for clarifying relations between roles)  
+pre-conditions 
+(optional) 
+pre-conditions represent the necessary conditions or use cases that should be achieved 
+before starting the described use case.  
+note – as dependency may exist among different use cases, pre-conditions and post-
+conditions are introduced to help understand the relationships among use cases. 
+post-conditions 
+(optional) 
+as for pre-conditions, the post-condition describes conditions or use cases that will be 
+carried out after the termination of a currently described use case.  
+requirements the title of requirements derived from the use case. for example: 
+– large-scale migration 
+table i.2 lists the use cases described in this appendix. 
+table i.2 – list of use cases 
+domains use cases 
+generic use case – general csc-csp-csn use case  
+– use case publish service 
+– use case consult service 
+– use case use service 
+iaas – iaas general use case 
+naas – naas general use case 
+daas – daas general use case 
+paas – paas general use case 
+caas – caas general use case 
+bdaas – bdaas general use case 
+inter-cloud computing – inter-cloud computing use case for federation 
+– inter-cloud computing use case for intermediation 
+cloud resource 
+management 
+– end-to-end cloud resource management use case 
+cloud infrastructure – cloud infrastructure use case 
+trusted cloud service – trusted cloud service use case 

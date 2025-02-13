@@ -1,0 +1,82 @@
+1 framework and requirements for cloud computing  
+ 
+410  
+table 15-2 provides an analysis of jtc 1 sc 38 deliverables. 
+table 15-2 – analysis of jtc 1 sc 38 deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental iso/iec 
+17788, 
+iso/iec 
+22123 
+ iso/iec 17789    
+cloud service 
+category 
+      
+security iso/iec 
+19086-4 
+     
+management       
+inter-cloud, csb iso/iec tr 
+23187 
+     
+sla, metering iso/iec 
+19086-1 
+iso/iec 19086-3    iso/iec 
+19086-2 
+testing       
+others iso/iec 
+19941, 
+iso/iec 
+19944 
+ iso/iec 22624 
+iso/iec tr 
+23186 
+  iso/iec tr 
+23188 
+iso/iec ts 
+23167 
+16 dmtf 
+table 16-1 provides a list of dmtf deliverables associated with cloud computing. 
+table 16-1 – dmtf deliverables 
+title of deliverable current status starting 
+date target date 
+dsp0217, system management architecture for 
+server hardware (smash) implementation 
+requirements version 2.1.0 
+dmtf standard 
+ 
+12/2014 
+dsp0243, open virtualization format 
+specification – version 1.1.0 
+dmtf standard 
+(incits & iso) 
+ 08/2015 
+dsp0243, open virtualization format 
+specification – version 2.1.1 
+dmtf standard 
+(incits) 
+ 08/2015 
+dsp0262, cloud auditing data federation (cadf) 
+data format and interface definitions 
+specification version 1.0.0 
+dmtf standard 
+ 
+07/2014 
+dsp0263, cloud infrastructure management 
+interface (cimi) model and rest interface over 
+http e version 2.0.0 
+dmtf standard 
+(iso) 
+[chinese] 
+ 
+08/2016 

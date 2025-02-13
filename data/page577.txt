@@ -1,0 +1,62 @@
+xaas 3 
+ 
+  569 
+appendix iv 
+ 
+value for response time limit 
+(this appendix does not form an integral part of this recommendation.) 
+the response time is specified in clause 7 as a general requirement for daas. the value of the response time-
+limit is needed in order to meet the csc’s acceptable qoe.  
+this a ppendix only provides general information relevant to response time. however, the response time 
+described in here is not specific to cloud computing and daas. 
+figure iv.1 shows a response time model [b-shneiderman]. 
+y .3503(14)_fiv .1
+user
+initiates
+request
+arrival
+of user's
+request
+server begins
+to process
+user's request
+server completes
+processing
+user’s request
+event
+result
+delivered
+user's device
+begins
+response
+1) response time
+2) interaction time 
+4) t ransport delay4) t ransport delay 3) server processing time
+user's device
+completes
+response
+5) render time
+ 
+figure iv.1 – model of response time 
+as shown in figure iv.1, the response time includes transport delays, server processing time and render ing 
+time on a client as defined hereafter: 
+• response time: an interval from the moment when user initiates an activity until that user's device 
+begins to present its result on the display; 
+• interaction time: the same as response time; 
+• transport delay: an interval from the moment when user's request is sent until it is received by a 
+server or the time from the moment a server sends; 
+• server processing time: operation time used by a server to process the user's request; 
+• rendering time: duration for gene rating an image with the received event result s screen on the 
+user's device. 
+values for acceptable response times may differ depending on the use case, but experimental studies show 
+that a user starts to be bored or interrup ts if there is no response withi n one second [b -tolia]. it seems 
+common that users are intolerable if the reaction time takes more than one second.  
+as shown in table iv.1 [b-tolia], in the range from 150 ms to one second users become increasingly aware of 
+the response time, and unhappy after one second. 
+table iv.1 – impact of interactive response time [b-tolia] 
+response time subjective impression 
+< 150 ms crisp 
+150 ms to one second noticeable to annoying 
+one to two seconds annoying 
+two to five seconds unacceptable 
+longer than five seconds unusable 

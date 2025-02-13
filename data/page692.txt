@@ -1,0 +1,46 @@
+3 xaas  
+ 
+684  
+there is a need to guarantee the availability, confidentiality and integrity of the logging records held by the 
+ns monitoring and reporting functional component. for multi-tenant cloud services, there is also a need to 
+design access to the records so that particular t enants can only gain access to information about their own 
+tenancy and about no other tenancy. 
+8.3.2.4 ns policy management 
+the ns policy management functional component provides capabilities to define, store and retrieve policies 
+that apply to network ser vices. policies can include business, technical, security, privacy and certification 
+policies that apply to network services and their usage by naas cscs. 
+some policies can be general and apply to a network service irrespective of the customer concerned. o ther 
+policies can be specific to a particular customer. 
+8.3.2.5 ns automation 
+the ns automation functional compo nent provides capabilities for network service delivery including the 
+management and execution of network service templates and the orchestration of network services. the ns 
+automation functional component holds the network service templates which define t he cloud computing 
+activities and workflows required to provision and deliver a specific entry in the ns catalogue. 
+network service provisioning can be automated in order to support scalable resource operations, including 
+configuration and charging. 
+network service administration activities of naas csc can be capable of being automated and need not 
+require any intervention by naas csp. 
+the ns automation functional component works with the ns provisioning functional component and the 
+service integration functional component to achieve its goals. 
+8.3.2.6 ns level management 
+the ns level management functional component provides capabilities for ma naging the service levels of a 
+particular network service, aiming to ensure that the network service meets the requi rements of the sla 
+which applies to the network service. 
+the ns level management functional component manages the capacity and performance r elating to a 
+network service. this can involve the application of network service policies (e.g., a placement rule w hich 
+aims to avoid single points of failure). 
+the ns level management functional component obtains monitoring information from the ns  monitoring 
+and reporting functional component in order to measure and record key performance indicators (kpis) for 
+the network service. capacity of network service is allocated or de-allocated based on the basis of these kpis. 
+the ns level management functional component also keeps track of the overall state of allocated and 
+available resources. the comparison of allocated ca pacity against network service  performance kpis  can 
+assist in the identification of current or potential bottlenecks, in support of capacity planning. 
+8.3.2.7 ns incident and problem management 
+the ns incident and problem management functional component pr ovides capabilities for the capture of 
+network service incident or problem reports and managing those reports through to resolution. 
+network service incidents and problems can be detected and reported by the naas csp's systems, or they 
+can be detected and reported by naas cscs. 
+8.3.2.8 ns inventory 
+the ns inventory functional component holds information of all network service instances. this information 
+is updated during the lifecycle of the network service instances, reflecting changes resulting from execution 
+of management operations on these network service instances. 

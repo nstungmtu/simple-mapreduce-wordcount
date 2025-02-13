@@ -1,0 +1,35 @@
+intercloud and interoperability 5 
+ 
+  821 
+ 
+figure 6-1 – illustration of bidirectional relationship in inter-cloud computing 
+the inter-cloud computing concept is based on the relationship (pattern) among multiple csps as follows: 
+peering, federation, and inter -cloud intermediary [itu -t y.3511]. these patterns are different in terms of 
+business models and relationships between csps. however, these patterns are convergent from the 
+viewpoint of inter-cloud computing functions and architecture. 
+the inter-cloud peering pattern contains only two csps and is the fundamental pattern, which may exist on 
+its own or can be used in the other two patterns. the inter-cloud federation pattern involves a group of peer 
+csps who mutually combine their service capabilities in order to provide the set of cloud services required 
+by cscs. the involved peer csps forming the inter-cloud federation establish and share common agreement 
+which may range from service related policies, service level agreements (slas). the inter-cloud intermediary 
+pattern refers to one and provides intermediation, aggregation and arbitrage of services provided by these 
+peer csps. 
+the roles of the three patterns are also the same, the csc, the primary csp, and the secondary csp. among 
+the multiple peer csps, the one that directly provides cloud services to its cscs is called the primary csp, 
+while the one which indirectly provides its cloud service is called the secondary csp. the secondary csp treats 
+the primary csp as a csc. cloud services provided by the secondary csp to the primary csp are used by the 
+primary csp to offer services to its own customers (cf. the "perform peering, federation, intermediation, 
+aggregation, arbitrage"  activity defined in clause  8.3.2.16 of [itu -t y.3502]). for resource handling, the 
+primary csp negotiates to use the resources of secondary csps as an inter-cloud service. 
+note – this recommendation uses the term  inter-cloud service  instead of abstracted resources employed in 
+[itu-t y.3511]. 
+from the architecture point of view, the functions and functional components, as well as reference points 
+for inter-cloud are the same, no matter which inter-cloud patterns are used.  
+6.2 relationship with cloud computing reference architecture 
+the high-level interaction between csps for an inter -cloud relationship is described in the cloud computing 
+reference architecture [itu-t y. 3502]. t wo functional components are defined to support inter -cloud 
+computing [itu-t y.35 02]: peer service integration  (shown in figure 6 -2) and peer service management  
+(shown in figure 6-3 and figure 6-4). as shown in figure 6-2, a peer service integration functional component 
+is used by a primary csp to integrate services from peer csp(s) (a vailable through service access functional 
+component in access layer) with its own services. 
+

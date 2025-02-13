@@ -1,0 +1,20 @@
+ assisting developing countries 8 
+ 
+   1099 
+ 
+figure 7-4 – popular cloud computing services 
+7.4 infrastructure requirements 
+cloud related infrastructure that facilitate the access to or the transmission of cloud data include broadband 
+infrastructure, internet exchange points (ixps) and reliable electr icity supply. broadband connectivity is the 
+prominent requirement that will enable access to cloud computing services. 
+ 
+figure 7-5 – infrastructure requirements 
+7.5 costs associated with cloud computing adoption 
+cloud computing enables access to a multitude of services on the internet. thus, costs associated with cloud 
+computing adoption depend on the context such as the deployment model, the service category and many 
+others parameters including: 
+• licence fees; 
+• training on how to access cloud services; 
+• set up configurations; and  
+• internet connection. 
+

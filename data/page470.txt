@@ -1,0 +1,12 @@
+2 cloud computing management  
+ 
+462  
+summary 
+recommendation itu-t m.3371 defines the general and functional management requirements that support 
+service management in a cloud-aware telecommunication management system (see recommendation itu-t 
+m.3070) and provides a functional framework for service management in a cloud-aware telecommunication 
+management system. 
+keywords 
+cloud-aware telecommunication management system, cloud computing, functional framework, functional 
+requirement, service management. 
+  

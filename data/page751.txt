@@ -1,0 +1,9 @@
+xaas 3 
+ 
+  743 
+bibliography 
+ 
+[b-itu-t x.1601] recommendation itu-t x.1601 (2014), security framework for cloud computing. 
+[b-itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary.  
+ 

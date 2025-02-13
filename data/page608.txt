@@ -1,0 +1,38 @@
+3 xaas  
+ 
+600  
+9.5.6 reference points within vdrm-fs 
+i_uapm_opm reference point bet ween uapm -f and opm -f. csu's account information is 
+communicated through this reference point. 
+i_uapm_rad reference point between uapm -f and rad -f. csu's account information is sent from 
+uapm-f to rad-f though this reference point. 
+i_opm_pm reference point between opm-f and pm-f. the pm-f delivers the power performance 
+to opm-f to establish a policy through this reference point. 
+i_opm_rad reference point between opm-f and rad-f. operational policy information is delivered 
+from the opm-f to the rad-f through this reference point. 
+i_opm_mc reference point between opm -f and mc -f. the mc -f sends resource states to the 
+opm-f through this reference point. 
+i_rad_mc reference point between rad-f and mc-f. the mc-f sends resource usage to the rad-f 
+through this reference point. 
+i_mc_ha reference point between mc -f and ha -f. the mc -f sends resource states to the ha -f 
+through this reference point. 
+i_mc_pm reference point between mc-f and pm-f. the mc-f sends monitoring information to the 
+pm-f through this reference point. 
+9.5.7 reference points within vi-fs 
+i_iam_ra reference point between iam -f and ra -f. the resource allocation and distribution is 
+forwarded to the ra-f through this reference point. 
+i_pe_pv reference point between pe-f and pv-f. the configuration to enhance the performance 
+of virtualization platform is sent to the pv-f through this reference point. 
+i_ra_pv reference point between ra -f and pv -f. the resource assig nment is sent to the pv -f 
+through this reference point. 
+i_iam_pv reference point between iam-f and pv-f. the monitoring information and controls are 
+transmitted through this reference point. 
+10 security considerations 
+security aspects for consideration within daas are addressed by security challenges for csp s and cscs , as 
+described in [itu -t x.1601 ]. in particular, [itu -t x.1601] analyses security threats and challenges, and 
+describes security capabilities that could mitigate these threats and meet security challenges. 
+it is recommended that relevant security requirements of [b-itu-t y.2201], [b-itu-t y.2701] and applicable 
+itu-t x-series, itu-t y-series and itu-t m-series of recommendations be taken into consideration, including 
+access control, authentication, data confidentiality, data retention policy , network security, data integrity, 
+availability and privacy. 
+  

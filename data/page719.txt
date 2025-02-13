@@ -1,0 +1,41 @@
+xaas 3 
+ 
+  711 
+3.1.11 party [b-itu-t y.3500]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.12 role [itu-t y.3502]: a set of activities that serves a common purpose. 
+3.1.13 sub-role [itu-t y.3502]: a subset of the activities of a given role. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+bdaas big data as a service 
+bdap big data application provider 
+bdip big data infrastructure provider 
+bdsu big data service user 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+dp data provider 
+oss operations support systems 
+5 conventions 
+this recommendation follows the conventions regarding the diagrams shown in figure 5-1 of [itu-t y.3502]. 
+6 overview of bdaas functional architecture 
+big data as a service (bdaas) is a cloud servic e category, which provides cloud service customers (cscs) the 
+ability to collect, store, analyze, visualize and manage data using a big data paradigm. bdaas services utilize 
+capabilities of the cloud computing infrastructure, platform and applications, which are necessary to build a 
+big data ecosystem. 
+6.1 framework of bdaas functional architecture 
+bdaas provides big data services based on a cloud service environment. the bdaas functional architecture 
+defined in this recommendation follows the concept of constructing the user view, the functional view and 
+aspects defined in [itu-t y.3502]. the user view and functional view are specified as follows: 
+– user view: the system context, parties, roles, sub-roles and cloud computing activities; 
+– functional view: the functions necessary for the support of cloud computing activities. 
+the user view and requirements of bdaas are defined in [itu-t y.3600]. 
+this recommendation defines: 
+– functional components required f or the functional view based on the requirements 
+in [itu-t y.3600]; 
+– cross-cutting aspects for bdaas. 
+6.1.1 user view for bdaas architecture 
+the user view of bdaas  (see [itu -t y.3600]) identifies the system c ontext including roles, sub -roles and 
+activities as well as data and service flows as shown in figure 6-1. 

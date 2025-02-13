@@ -1,0 +1,43 @@
+cloud computing management 2 
+ 
+  477 
+3.1.6 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.7 cloud service user [itu-t y.3500]: natural person, or entity acting on their behalf, associated with a 
+cloud service customer that uses cloud services. 
+note – examples of such entities include devices and applications. 
+3.1.8 emergency telecommunications (et) [ b-itu-t y.2205]: et means any emergency related service 
+that requires special handling from the ngn relative to other services. this includes government authorized 
+emergency services and public safety services. 
+3.1.9 emergency telecommunication service (ets) [b-itu-t e.107]: a national service providing priori ty 
+telecommunications to the ets authorized users in times of disaster and emergencies. 
+3.1.10 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+3.1.11 management system [b-itu-t m.60]: a system with the capability and authority to exercise control 
+over and/or collect management information from another system. 
+3.1.12 service level agreement [itu-t y.3500]: documented agreement between the service provider and 
+customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an i nternal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type  of documented agreement. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 resource management: the most efficient and effective  way to access, control, manage, deploy, 
+schedule and bind resources when they are provided by service providers and requested by customers. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+3g  third generation 
+4g  fourth generation 
+bss  business support system 
+cdn  content delivery network 
+crm  customer relationship management 
+csc  cloud service customer 
+csp  cloud service provider 
+et  emergency telecommunications 
+ets  emergency telecommunication service 
+fi  functional interface 
+ip  internet protocol 
+it  information technology 
+lan  local area network 
+lte  long term evolution  
+mpls  multi-protocol label switching 
+ngn  next generation network 

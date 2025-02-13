@@ -1,0 +1,31 @@
+framework and requirements for cloud computing 1 
+ 
+   127 
+figure (optional) 
+   
+pre-conditions 
+(optional) 
+– csc:csu use its own storage types 
+– csc:csu can be general users (which own storage individually), some application programs, 
+application servers and another cloud system. 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.4 requirement (3) 
+– clause 8.1 requirement (3) 
+i.4 policy-driven provision and management of dsf local storage 
+title policy-driven provision and management of dsf local storage 
+description a dsf service provider manages and provides a single virtual volume based on dsf local 
+storage policies. the dsf service provider organizes dsf local storage policies by using default 
+policies configured by dsf service provider and re-configured by dsf service provider from 
+multiple data storages. that is, the dsf service provider's policies are dependent on storage 
+provider storage policies in dsf local storage. 
+dsf service provider provides the default policies as multiple options (e.g., backup, replication, 
+snapshot, auto-scaling and storage type). dsf service customer selects options and dsf service 
+provider applies options onto metadata. the options are matched onto corresponding storage 
+policies in dsf local storage. the dsf service provider manages the dsf local storage by 
+matched functions onto storage policies. all communications with dsf local storage between  
+the dsf service provider and dsf local storage provider are performed by storage apis.  
+

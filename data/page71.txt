@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   63 
+• troubleshooting to determine the cause(s) of the problem; 
+• opening a problem report(s) with the cloud service provider and tracking to resolution; 
+• developing workarounds to address the problem; 
+• escalating problems that are not fixed within agreed timescales or whi ch have serious business 
+impacts. 
+8.2.2.7 administer tenancies 
+the administer tenancies activity involves administering the tenancies of the cloud service customer with 
+the cloud service provider. this activity involves: 
+• configuring and controlling secur ity aspects including user accounts, security roles, identities and 
+permissions; 
+• identifying and controlling data that is shared between users within the tenancy; 
+• creating and removing tenants; 
+• managing users and allocated resources of tenants; 
+• defining enforcement policies for each tenant. 
+8.2.2.8 perform business administration 
+the perform business administration activity involves the management of the business aspects of the use of 
+cloud services including accounting and financial management. this activity includes: 
+• adjusting business plan to accommodate the use of cloud services; 
+• tracking the use of the services and dealing with accounting and financial management; 
+• handling billing/invoices received from the cloud service provider  for the use made of cloud 
+services; 
+• ensuring that billing matches the actual usage of cloud services  made by the cloud service 
+customer; 
+• making payments to the cloud service provider; 
+• keeping accounts in relation to the use of cloud services. 
+8.2.2.9 select and purchase service 
+the select and purchase service activity involves: 
+• examining the cloud service offerings of (one or more) cloud service providers to determine if the 
+service offered meets the business and technical requirements of the cloud service customer. this 
+typically involves the reading of a product catalogue and the documentation for each service, which 
+can include technical information about the service and its slas, plus business information including 
+pricing; 
+• negotiating the terms for the cloud service (if the cloud service provider permits variable terms for 
+the service); 
+• accepting the contract for the cloud service and performing registration with the cloud ser vice 
+provider. 
+8.2.2.10 request audit report 
+the request audit report activity involves the cloud service customer requesting the report of an audit of the 
+cloud service, typically conforming to a particular audit standard or scheme. the cloud service customer can 
+request the report from a cloud auditor, or possibly from the cloud service provider, although it is expected 
+that the audit report is prepared by an entity independent of the cloud service provider  both before a 
+purchase is completed and also periodically once the service is in use. 

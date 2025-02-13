@@ -1,0 +1,27 @@
+video processing and storage 4 
+ 
+  761 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 scenarios 
+6.1 video distribution 
+6.2 video transcoding 
+6.3 online intelligent video processing 
+6.4 offline intelligent video processing 
+7 requirements for cloud computing platform supporting visual surveillance 
+7.1 user requirements 
+7.2 service requirements 
+7.3 security requirements 
+7.4 management requirements 
+7.5 scalability requirements 
+7.6 reliability requirements 
+7.7 performance requirements 
+bibliography 
+ 
+ 

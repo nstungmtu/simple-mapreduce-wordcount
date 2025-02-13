@@ -1,0 +1,124 @@
+ 
+ 
+7 security  
+ 
+ 984 
+table i.1 – mapping of cloud computing security threats and challenges to security capabilities 
+ 
+clause 9 cloud computing security capabilities 
+clause9.1 
+trust model 
+clause 9.2 identity 
+and access 
+management 
+(iam), 
+authentication, 
+authorization and 
+transaction audit 
+clause 9.3 
+physical 
+security 
+clause 9.4 
+interface 
+security 
+clause 9.5 
+computing 
+virtualization 
+security 
+clause 9.6 
+network 
+security 
+clause 9.7 data 
+isolation, 
+protection and 
+confidentiality 
+protection 
+clause 9.8 
+security 
+coordination 
+clause 9.9 
+operational 
+security 
+clause 9.10 incident 
+management 
+clause 9.11 
+disaster 
+recovery 
+clause 9.12 
+service security 
+assessment and 
+audit 
+clause 9.13 
+interoperability, 
+portability and 
+reversibility 
+clause 9.14 
+supply chain 
+security 
+clause 8.1.4 
+loss of 
+confidentiali
+ty 
+ y     y     y   
+clause 8.1.5 
+service 
+unavailab-
+ility 
+       y y y y   y 
+clause 8.1.6 
+cloud 
+service 
+provider 
+lock-in 
+            y  
+clause 8.1.7 
+misappropri
+ation of 
+intellectual 
+property 
+ y y    y  y      
+clause 8.1.8 
+loss of 
+software 
+integrity 
+ y   y  y        
+clause 8 
+security 
+challenge
+s for 
+cloud 
+compu-
+ting 
+clause 8.2 
+security 
+challenges 
+for cloud 
+service 
+providers 
+(csps) 
+clause 8.2.1 
+ambiguity 
+in responsi-
+bility 
+ y       y      
+clause 8.2.2 
+shared 
+environmen
+t 
+    y y y        
+clause 8.2.3 
+inconsis-
+tency and 
+conflict of 
+protection 
+mechanisms 
+       y     y  
+clause 8.2.4 
+jurisdic-
+tional 
+conflict 
+      y  y      
+clause 8.2.5 
+evolution-
+ary risks 
+        y    y y 

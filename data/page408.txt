@@ -1,0 +1,51 @@
+1 framework and requirements for cloud computing  
+ 
+400  
+• itu-t l.1320 : recommendation itu -t l.1320 contains the general definition of metrics, tes t 
+procedures, methodologies and measurement profiles required to assess the energy efficiency of 
+power and cooling equipment for telecommunication and data centres. more detailed 
+measurement procedures and specifications can be developed in future related itu-t 
+recommendations.  
+ metrics and measurement methods are defined for power equipment, alternating current (ac) 
+power feeding equipment (such as ac uninterruptible power supply (ups), direct current (dc/ac) 
+inverters), dc power feeding equipment (such a s ac/dc rectifiers, dc/dc converters), solar 
+equipment, wind turbine equipment and fuel cell equipment. 
+ in addition, metrics and measurement methods are defined for cooling equipment such as air 
+conditioning equipment, outdoor air cooling equipment and heat exchanging cooling equipment. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?id=12136 
+• itu-t l.renewable : this draft document defines the interface and architecture for injecting 
+renewable energy and distributed power sources into an up to 400 v power system as defined in 
+recommendation itu-t l.1201. 
+ url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10018 
+• itu-t l.green_mgm_dc : this recommendation describes the functionality requirements and 
+framework of green data centre energy -saving management systems. the energy saving will be 
+realized through performance to increase the energy efficiency of data centres. the scope of this 
+recommendation includes: 
+– characteristics and operation flow of green data centre energy-saving management systems; 
+– functionality requirements of green data centre energy-saving management systems (e.g., real-
+time energy consumption data acquisition; energy consumption data analysis and chart show; 
+energy consumption data query; energy consumption monitorin g and early warning; strategy 
+optimization, etc.); 
+– capability needs of green data centre energy -saving management systems (e.g., collect data 
+from different communication interfaces; secure storage; control management, etc.) 
+– framework of green data centre energy-saving management systems. 
+ sensor definition, interface and protocol are not included in the scope of this recommendation. 
+ url: http://web.itu.int/itu-t/workprog/wp_item.aspx?isn=10367 
+• itu-t l.1440: recommendation itu -t l.1440 gives general guidance for city -level environmental 
+assessments related to icts, and provides a description of methodologies to be used for the 
+assessment of the environmental impact of icts in cities. 
+ in this first edition of this recommendation, the assessment is limited to energy consumption and 
+ghg emissions. 
+ the recommendation is divided in two parts.  
+– part i relates to the first order effects from the use of ict goods and networks in a cit y's 
+organizations and households.  
+– part ii relates to the first and second order effects from ict projects and services applied in the 
+city. 
+ this recommendation provides specific guidance in setting the city boundaries, preparing and 
+performing the assessment of ict-related ghg emissions and energy consumption at the city level. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?id=12431  
+• itu-t l.1204: recommendation itu-t l.1204 describes the extended architecture of power feeding 
+systems of up to 400 volts dc (vdc) for information and communication technology (ict) equipment 
+in telecommunication centres, data centres and customer premises. it describes aspects such as 
+configuration, redundancy, power distribution and monitoring, in order to construct safe, reliable 
+and manageable power feeding systems. this recommendation can be used also as an architecture 

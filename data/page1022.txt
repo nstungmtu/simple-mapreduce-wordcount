@@ -1,0 +1,74 @@
+7 security  
+ 
+1014 
+appendix i 
+ 
+guidelines for using security controls 
+(this appendix does not form an integral part of this recommendation.) 
+table i.1 provides example sets of controls that could be used to meet the guidelines for some example data 
+scenarios based on data classification and lifecycle stage. 
+table i.1 – example sets of controls 
+type 
+data lifecycle 
+creation transmission storage use migration destruction 
+backup 
+and 
+restoration 
+iaas 
+7.1 
+a), b), c) 
+7.2 
+a), b), c) 
+7.3 
+a), b), c), d), 
+e), h), i) 
+7.4 
+a), b), c) 
+7.5 
+a), b), c), 
+d), e) 
+7.6 
+a), b), c), d), 
+e), f), g), h) 
+7.7 
+a), c), d), 
+e), f) 
+paas 
+7.1 
+a), b), c) 
+7.2 
+a), b), c) 
+7.3 
+a), b), c), d), 
+e), f), i) 
+7.4 
+a), b), c) 
+7.5 
+a), b), c), 
+d), e) 
+7.6 
+a), b), c), d), 
+e), f), g), h) 
+7.7 
+a), b), c), 
+d), e), f) 
+saas 
+7.1 
+a), b), c) 
+7.2 
+a), b), c) 
+7.3 
+a), b), c), d), 
+e),f), g), h), i) 
+7.4 
+a), b), c) 
+7.5 
+a), b), c), 
+d), e) 
+7.6 
+a), b), c), d), 
+e), f), g), h) 
+7.7 
+a), b), c), 
+d), e), f) 
+  

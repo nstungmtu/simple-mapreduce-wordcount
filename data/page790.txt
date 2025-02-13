@@ -1,0 +1,34 @@
+4 video processing and storage  
+ 
+782  
+figure 7-4 shows the procedural flows of video file uploading from the nvr to the cloud storage system: 
+(1) the cu initiates a video file uploading plan request and sends this request to the scu. 
+(2) the scu forwards this uploading plan request to the cmu. 
+(3) the cmu authenticates the uploading access permission and then sends this uploading plan request 
+to the csmu. 
+(4) the csmu authenticates the uploading access permission and then sends this uploading plan 
+request to the csau. 
+(5) the csau returns a response to the csmu when it is ready for this video file uploading plan. 
+(6) the csmu returns the csau information to the cmu. 
+(7) the cmu sends a response to the scu. 
+(8) the scu forwards this response to the cu. 
+(9) when the cu receives the csau information, it sends the video file uploading request to the csau. 
+(10) when the csau receives the uploading request, it sends a request to the scu for the data source 
+address. 
+(11) the scu forwards the request to the mdu. 
+(12) the mdu returns the file address to the scu. 
+(13) the scu transfers the file address to the csau. 
+(14) after receiving the file address, the csau requests the mdu to start video file uploading from the 
+nvr. 
+(15) the mdu sends a request to the nvr for obtaining the video files. 
+(16) the nvr creates a video transmission channel with the mdu and sends the video files to the mdu. 
+(17) then mdu transfers the video files to the csau. 
+(18) the csau transfers the video files to the csdu to store them in the cloud data nodes. 
+(19) when the storage plan is completed, the cu sends a stop request to the csau. 
+(20) the csau transfers this stop-media request to the mdu. 
+(21) then mdu returns a response to the csau. 
+(22) the csau requests the scu to disconnect. 
+(23) the scu returns a response to end this video file uploading. 
+7.4.3 image storage 
+the network cameras continuously capture images . when a user wants to store these images directly into 
+the cloud storage system, the cu initiates a request to the scu to start the image storage. 

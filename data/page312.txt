@@ -1,0 +1,73 @@
+1 framework and requirements for cloud computing  
+ 
+304  
+table i.5 – inter-cloud use case: service continuity 
+use case 
+use case title inter-cloud use case: service continuity 
+relevant roles csp and csc 
+use case description – the cloud service offering continues through the collaboration with other 
+csps, even when the original csp terminates its business. 
+– available resources in the csps other than the service-terminating csp are 
+discovered and reserved in advance. 
+– network connections among the interworking csps are established or 
+reconfigured. then service-related data including user identifier (id), user 
+data and application data are transferred from the original csp to the new 
+csps. 
+– access from cscs is appropriately changed to the interworking csps so that 
+the same service is continuously offered.  
+– if the capabilities (vm and applications) at the original csp migrate to other 
+csps, the csc, who keeps the same user id, can continuously access the 
+service at the same level of performance as before. 
+information flow  – the relevant csps are supposed to join a common trusted alliance in 
+advance and set up the service level agreements (slas). 
+– the terminating csp inquires about the resource availability of other csps 
+in the alliance and requests a reservation of the available resources to 
+continue the services. 
+– the cloud resource management (e.g., crud: create, read, update and 
+delete) are operated across multiple csps. the management is to enable 
+leasing of the cloud resources from different csps in the federation.  
+high-level figure describing the 
+use case 
+csc
+n
+n
+y .3511(14)_fi.tab5
+o
+pre-processes
+• csps form a group with service level agreement (i.e., policy negotiation).
+• p-csp replicates its data to other s-csps in advance.
+primary-
+csp
+secondary-
+csp
+s-csp
+s-csp
+4. p-csp changes the
+csc access to the s-csp.
+group
+1. a csc accesses
+p-csp services.
+2. the p-csp initiates
+service closure.
+3. the p-csp chooses s-csps and reserves the resources.
+3a. when some cscs are in service, the p-csp performs
+migration to continue the service to the cscs.
+3b. when no csc is in service, the s-csp invokes
+application to offer the same service.
+note – when all services and their users are moved to other s-csps, p-csp will close the service.
+ 
+derived requirements for cloud 
+capability 
+the system is required to support: 
+– policy negotiation including sla management among the multiple csps 
+within a pre-established group (federation); 
+– discovery, reservation, use and release of the cloud resources in a dynamic 
+manner (i.e., not relying on the pre-configuration) across the multiple csps 
+within the federation; 
+– capability migration (e.g., vm and applications) among multiple csps within 
+the federation; 
+– alteration (i.e., switchover) of the csc access, in a dynamic manner (i.e., not 
+relying on the pre-configuration), from one csp to another csp within the 
+federation; 
+– exchange of authentication information about csc (user/enterprise) 
+authentication status among the multiple csps within the federation. 

@@ -1,0 +1,50 @@
+1 framework and requirements for cloud computing  
+ 
+380  
+− accounting and charging : it is recommended that the cloud services provided by a csp support 
+various accounting and charging models and policies. 
+− efficient service deployment: it is recommended that the cloud services provided by a csp enable 
+the efficient use of resources for service deployment. 
+− interoperability: it is recommended that the cloud services provided by a csp  comply with 
+appropriate specifications and/or standards for allowing these systems to work together. 
+− portability: it is recommended that the cloud services provided by a csp s upport the portability of 
+software assets and data of cloud service customers (cscs) with minimum disruption. 
+− service access: a csp is recommended to provide cscs with access to cloud services from a variety 
+of user device s. it is recommended that cs cs be provided with a consistent experience when 
+accessing cloud services from different devices. 
+− service availability, service reliability and quality assurance : it is recommended that the csp 
+provides end-to-end quality of service assurance, high levels of reliability and continued availability 
+of cloud services according to the service level agreement (sla) with the csc. 
+7 overview of cloud computing standard roadmap 
+7.1 introduction to standards development organizations (sdos) for cloud computing 
+7.1.1 itu-t sg13 
+study group 13 is responsible for studies relating to the requirements, architectures, capabilities and 
+mechanisms of future networks including studies relating to service awareness, data awareness, 
+environmental awareness and socio -economic awareness of future networks. it is responsible for studies 
+relating to cloud -computing technologies, big data, virtualization, resource management, reliability and 
+security aspects of the considered network architectures. 
+– q17/13 (requirements, ecosystem, and general capabilities for cloud computing and big data) 
+ the primary focus of this question is to provide the necessary overall frameworks, definitions and 
+ecosystems, including requirements and capabilities, related to the integration or support of cloud 
+computing and big data models and technologies in telecommunication ecosystems. also the 
+relationship between cloud computing and big data is developed. this question is intended to 
+develop new recommendations for: 
+• cloud computing and big data definitions, overview, ecosystem and use cases; 
+• cloud computing and big data requirements and capabilities; 
+• requirements for interoperability data portability and exchange information in cloud computing 
+and big data; 
+• relationship between cloud computing and big data; 
+– q18/13 (cloud functional architecture, infrastructure and networking) 
+ the main focus  of this question is to provide cloud computing architectures, cloud computing 
+infrastructure and cloud networking views related to the integration and support of the cloud 
+computing paradigm and technologies in telecommunication ecosystems. another focus of this 
+question is to provide big data architectures related to the integration and support of the big data 
+paradigm and technologies in telecommunication ecosystems. 
+ this question is intended to develop new recommendations for: 
+• cloud computing functional architectures supporting cloud service categories (e.g., naas, iaas, 
+paas, bdaas and xaas);  
+• cloud computing functional architectures of inter-cloud; 
+• cloud computing infrastructure including cloud networking aspects (e.g., for the support of 
+network slicing); 
+• big data functional architectures including big data exchange functional architecture and cloud-
+computing-based big data architecture. 

@@ -1,0 +1,46 @@
+1 framework and requirements for cloud computing  
+ 
+76  
+8.4.2.8 set up legal agreement  
+the set up legal agreement activity concerns the service agreement between the cloud service customer 
+and the chosen cloud service provider(s). this involves negotiating the service agreement between the cloud 
+service customer and the chosen cloud service provider(s), aiming to meet the customer's needs. 
+8.5 cross-cutting aspects 
+8.5.1 general 
+cross-cutting aspects include both architectural and operational considerations. cross-cutting aspects apply 
+to multiple elements within the description of the ccra or in connection with its operation as an instantiated 
+system. these cross-cutting aspects are shared issues across the roles, activities and functional components. 
+for example, security is a cross -cutting aspect because it applies to infrastructure, services, cloud service 
+providers, cloud service customers  and cloud service partners  (cloud auditors, cloud service developers 
+etc.). all of these need to be secured, but how they are secured is different based on what is being secured. 
+so, securing infrastructure and infrastructure services is very different from securing software services.  
+some cross -cutting aspects can apply to other cross -cutting aspects, for example, governance applies to 
+functional elements as well as to the cross-cutting aspects of performance and security. 
+cross-cutting aspects often affect the cloud computing activities performed by roles. roles can coordinate 
+supporting a cross -cutting aspect amongst themselves and their cloud computi ng activities . supporting 
+cross-cutting aspects also needs functional components to provide support for cloud computing activities, 
+technical capabilities and implementations. 
+for each cross-cutting aspect, a set of cloud computing activities and functional components are defined to 
+support them. different roles and solutions can use different subsets of these. 
+cross-cutting aspects include: 
+• auditability (clause 8.5.2); 
+• availability (clause 8.5.3); 
+• governance (clause 8.5.4); 
+• interoperability (clause 8.5.5); 
+• maintenance and versioning (clause 8.5.6); 
+• performance (clause 8.5.7); 
+• portability (clause 8.5.8); 
+• protection of personally identifiable information (clause 8.5.9); 
+• regulatory; 
+• resiliency (clause 8.5.10); 
+• reversibility (clause 8.5.11); 
+• security (clause 8.5.12); 
+• service levels and service level agreement (clause 8.5.13). 
+8.5.2 auditability 
+auditability is the capability of collecting and making available necessary evidential information related to 
+the operation and use of a cloud service, for the purpose of conducting an audit. related to the governance 
+of cloud services  is the assurance that those services are provided and used in consistency with the 
+associated service agreements between the cloud service customers, cloud se rvice providers and cloud 
+service partners. this assurance is most often achieved by means of independent audits of services. an audit 
+typically consists of an audit report or audit certification made available to the parties of the associated 
+service agreements: the cloud service customers, the cloud service providers and the cloud service partners. 

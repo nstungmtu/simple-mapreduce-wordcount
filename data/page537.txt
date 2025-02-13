@@ -1,0 +1,41 @@
+cloud computing management 2 
+ 
+  529 
+3.1.6 network as a service (naas)  [b-itu-t y .3500]: cloud service catego ry in which the capability 
+provided to the cloud service customer is transport connectivity and related network capabilities. 
+3.1.7 platform as a service (paas) [b-itu-t y .3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is a platform capabilities type. 
+3.1.8 software as a service (saas) [b-itu-t y .3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is an application capabilities type. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 inter-cloud data policy decision point (idpdp) : an inter -cloud environment entity that makes 
+authorization decision and negotiation of inter-cloud data processes and usage. 
+3.2.2 inter-cloud data policy enforcement point (idpep) : an inter -cloud environment entity  that 
+implements data policy decision of an inter-cloud data policy decision point (idpdp) (see clause 3.2.1). 
+3.2.3 inter-cloud data policy information point (idpip): an inter-cloud environment entity that stores the 
+data policy. 
+3.2.4 inter-cloud data policy administration point (idpap) : an inter -cloud environment entity that 
+administrates data policies. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application program interface 
+bss business support system 
+cppl compact privacy policy language 
+csc cloud service customer 
+csp cloud service provider 
+dpl data policy language 
+idpap inter-cloud data policy administration point 
+idpdp inter-cloud data policy decision point 
+idpep inter-cloud data policy enforcement point 
+idpip inter-cloud data policy information point 
+kpi key performance indicator 
+naas network as a service  
+nfv network function virtualization 
+oss operational support system 
+paas platform as a service  
+saas software as a service 
+sdn software-defined networking 
+sw software 
+vhgw virtual home gateway 
+xml extensible markup language 

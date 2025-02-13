@@ -1,0 +1,49 @@
+cloud computing management 2 
+ 
+  489 
+appendix iii 
+ 
+summary of ses and smi concepts 
+(this appendix does not form an integral part of this recommendation.) 
+this recommendation makes reference to various software enabled service (ses) and service manageme nt 
+interface (smi) c oncepts as developed in the tm forum. this appendix is intended to provide a further 
+informative introduction to these concepts; however reference should be made to the relevant tm forum 
+specifications for all technical details. 
+iii.1 software enabled service (ses) 
+a software enabled service is a service that exposes a management interface in addition to its functional 
+interface (fi). just like a router or switch exposes a simple network management protocol (snmp) or other 
+style management interface here we are referring to a digital service. however, since a digital service, such 
+as represented by a platform as a service (paas) workload, is hosted on a virtualized cloud infrastructure, the 
+cloud platform must enable the smi for each instance of a given service/role at a given point in time. an ses 
+may represent a physical device, a "software" instance, or indeed a distributed function that has no single 
+location or instance. 
+the tm forum developed the concept of ses to provide a means to allow consistent end to end management 
+and metering of services exposed by and across different service provider's domains and technologies, such 
+as communication or web 2.0 services. the tm forum specifications are intended to support business 
+practices a ssociated with multi -provider cooperation throughout the lifecycle of the service and this by 
+means of lightweight design to foster wide adoption of the standard artefacts in any architecture, technology 
+environment and service domain. 
+management interfaces today are siloed p er technology, standardized by specific sdos or implemented by 
+vendors as proprietary implementations. this renders the consistent management of services sourced from 
+different domains as challenging. 
+the ses management approach proposes a way to allow con sistent access to the software components for 
+operations, administration and maintenance (oam) tasks. this consistent access is achieved by incorporating 
+the service management interface (smi) in addition to the functional interface (fi ) definition that is part of 
+software component creation.  
+iii.2 service management interface (smi) 
+in the context of managing an ses, the smi concept delivers the ability to configure, activate or suspend a 
+service instance and to receive or be notified o f any kind of metric s, health state and detailed information 
+about eventual failures, independent of the underlying technology or architecture. 
+perhaps the best way to think of the smi is as a simple "base class" in object oriented software development 
+that defines the core management interface that can then be inherited by specific interface classes for 
+specific purposes. the base smi provides the set of operations supported by management objects, which can 
+then be implemented using various management protocols. 
+the following operations are exposed on the smi: 
+• activation of an ses: making the ses available for a particular context (deploying the ses) 
+• provisioning of an ses: configuring the settings of an ses or an ses instance 
+• state monitoring of an s es: querying t he history and current status in terms of life cycle 
+management (for a specific instance of the ses) and listening for status updates 
+• usage monitoring of an ses: querying for usage metrics from the ses instance or listening for usage 
+metrics reports or alarms (e.g., if metrics conditions imply notifications) 
+• health monitoring of an ses: querying for health metrics from the ses instance or listening to alarms 
+from the resource 

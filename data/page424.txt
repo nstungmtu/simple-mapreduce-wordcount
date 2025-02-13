@@ -1,0 +1,57 @@
+1 framework and requirements for cloud computing  
+ 
+416  
+• wt-411: definition of interfaces between cloud co functional modules. it defines the interfaces 
+between the functional modules in the cloud co architectural framework, as well as the cloud co 
+northbound api. network transport protocols, the data models, schemas or apis that are signalled 
+across them will be defined as well. existing open interface works, as described in  standards and 
+open source work is being leveraged as much as possible.  
+• wt-412: test cases for cloud co applications. this work defines test cases for cloud co 
+applications. cloud co scenarios are described in cloud co application notes. the cloud co 
+application notes will detail how a certain service is instantiated, maintained and consumed across 
+the cloud co architecture. the test cases will be consumed by the open broadband labs, effectively 
+validating the cloud co application note. 
+• wt-413: sdn man agement and control interfaces for cloudco network functions. this work 
+primarily enables the migration from snmp/mib towards netconf/yang interfaces and potentially 
+other protocols to exercise not only traditional fcaps management functions but also fine grained 
+flow control across vnfs and physical network functions (pnfs) network service graphs. this is an 
+essential step towards software networking introduction, automation and orchestration of pnfs and 
+vnfs in a cloud co type of architecture. the development of this working text shall also shape the 
+thinking on the way cloud co interfaces, especially for vnfs, are modelled and the opportunity to 
+reuse/extend existing yang work for that. 
+• wt-416: cloudco use cases and scenarios. this working text compleme nts the cloudco 
+architectural framework specified in tr -384 by describing existing broadband service scenarios 
+supported by the cloudco architectural framework as well the use cases that can be established 
+using this cloudco architectural framework.  
+table 19-2 provides an analysis of broadband forum deliverables. 
+table 19-2 – analysis of broadband forum deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental tr-359 tr-317, tr-328     
+cloud service 
+category 
+ wt-416 tr-384 wt-411   
+security       
+management    wt-413   
+inter-cloud, csb       
+sla, metering       
+testing  wt-412     
+others   tr-345    
+20 metro ethernet forum 
+table 20-1 provides a list of metro ethernet forum deliverables associated with cloud computing. 
+table 20-1 – metro ethernet forum deliverables 
+title of deliverable current status starting 
+date target date 
+carrier ethernet services for cloud use cases working drafts 03/2012 04/2014 
+carrier ethernet services for cloud management 
+interface profile 
+working drafts 03/2012 04/2014 

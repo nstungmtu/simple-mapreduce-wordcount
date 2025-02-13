@@ -1,0 +1,40 @@
+ assisting developing countries 8 
+ 
+   1095 
+allows businesses and governm ents to become more flexible and agile by allowing them to build new 
+products and services much faster. this also gives an opportunity to small start -ups to participate in the 
+industry with their innovations. 
+7 questionnaire findings 
+an itu -t survey was commissioned to assess the current profile of cloud computing deployment in 
+developing countries. to this effect two questionnaires on cloud computing status in developing countries 
+were formulated. the first questionnaire was designed for cloud service customers (csc) and the second one 
+for cloud service providers (csp). the questionnaires were made available in word document format and 
+online to facilitate a wide range of feedback methods for the respondents. in may 2016 they were 
+disseminated to itu members from developing countries with a request to share the questionnaires with the 
+cscs and csps in their countries, including entities which were not itu-t members. 
+eight (8) responses were received for the csc questionnaire and eighteen (18) for the csp questionnaire from 
+seventeen (17) countries. the majority of responses were from africa as highlighted in the appendices and 
+table 7-1. 
+table 7-1 – list of countries and responses obtained 
+no. country number of csp 
+respondents 
+number of csc 
+respondents total 
+1 afghanistan 1 0 1 
+2 algeria 1 0 1 
+3 bosnia and herzegovina 1 0 1 
+4 botswana 1 0 1 
+5 burkina faso 1 0 1 
+6 cote d'ivoire 1 0 1 
+7 gambia 1 0 1 
+8 ghana 1 1 2 
+9 malawi 1 1 2 
+10 nigeria 1 0 1 
+11 senegal 1 0 1 
+12 sudan 1 1 2 
+13 trinidad and tobago 0 1 1 
+14 tunisia 1 0 1 
+15 uganda 0 1 1 
+16 zambia 2 1 3 
+17 zimbabwe 3 2 5 
+ total 18 8 26 

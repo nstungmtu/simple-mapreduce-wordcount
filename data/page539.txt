@@ -1,0 +1,33 @@
+cloud computing management 2 
+ 
+  531 
+6.3 inter-cloud data policy-based management 
+inter-cloud data policy-based management enables peer csps to control and evaluate who can access which 
+inter-cloud data, how to manage inter-cloud data, how to process and use inter-cloud data. 
+the main elements of data policy-based management in inter-cloud are as follows. 
+– an idpdp collects information about available resources and corresponding properti es of the peer 
+csps to decide which of these csp can process and use the inter -cloud data from peer csps. the 
+functionalities of idpdp depend on role-based, rule-based and context-based data policies applied 
+in inter-cloud computing. 
+– an idpep is responsible for enforcing the terms of a csc or csp access. this enforcement is run-time 
+based on the capabilities of the idpep. 
+– an idpip is a repository of information to support the access decision. 
+– an idpap provides inter-cloud administration, management and monitoring of entitlement policies, 
+as well as delegation and integration with inter-cloud information repositories. 
+figure 6 -1 illustrates how an idpap and idpip are related with each oth er to operate data management 
+policies for a data supplier, and sh ows that an idpep, idpdp and idpip cooperate for a data customer to 
+access data based on policies set by the data supplier. 
+ 
+figure 6-1 – relationship of main elements in inter-cloud data policy-based management 
+in figure 6 -1, the data supplier generates  and provides data, and also sets the data policies. the data 
+customer uses the data that is provided by the data supplier and processed by policy-based management. 
+the data supplier side-related operations can be described as the following procedure. 
+1) the data supplier provides the data to the data repository. 
+2) the data repository sends an acknowledgement to the data supplier. 
+3) the data supplier sets the corresponding data policies, which are managed by the idpap. 
+4) the idpap requests the idpip to store the data policies. 
+5) the idpip stores the data policies in the data policies repository. 
+6) the data policies repository sends an acknowledgement to the idpip. 
+7) the idpip sends an acknowledgement to the idpap. 
+8) the idpip sends an acknowledgement to the data supplier. 
+

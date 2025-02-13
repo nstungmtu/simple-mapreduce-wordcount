@@ -1,0 +1,41 @@
+3 xaas  
+ 
+644  
+ovf   open virtualization format  
+qos  quality of service 
+sla  service level agreement 
+uml  unified modelling language 
+vlan  virtual local area network 
+vm   virtual machine 
+5 conventions 
+the keywords " is required to " indicate a require ment which must be strictly followed and from which no 
+deviation is permitted if conformance to this recommendation is to be claimed.  
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the ven dor's implementation must 
+provide the option and the feature can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the feature and still claim conformance with the 
+specification. 
+in the body of this recommendation and its annexes, the words shall, shall not, should, and may sometimes 
+appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, is 
+recommended, and can optionally. the appearance of such phrases or keywords in an appendix or in material 
+explicitly marked as informative are to be interpreted as having no normative intent. 
+6 general description 
+infrastructure as a service (iaas) is one of the representative categories of cloud services, in which the cloud 
+capabilities type provided to the cloud service customer (csc) is an infrastructure capabilities type. iaas 
+allows the csc to use cloud infrastructure resources (processing, storage or networking). use of cloud 
+infrastructure resources is supported by service functions, which can include the relevant operations. 
+iaas provides to the csc the following service functions: 
+– computing service functions  allow the csc to provision and use processing resources. csc can 
+perform operations relevant to processing resources including machine (physical or virtual machine) 
+lifecycle operations and functions such as virtual machine (vm) migration, backup, snapshot, clone 
+and reservation; 
+– storage service functions allow the csc to use storage resources. the csc can perform operations 
+relevant to storage resources including lifecycle operations and functions such as snapshot, backup, 
+input/output (i/o) performance, load balance and reservation; 
+– network service functions  allow the csc to use networking resources. the csc can integrate 
+infrastructure resources using network relevant functions such as ip address, network isolation (e.g., 
+virtual local area network (vlan)), virtual networking (e.g., virtual switch), load balance and firewall. 
+the high level concept of iaas using t he layering framework defined in [itu -t y.3502] is illustrated in 
+figure 6-1. 

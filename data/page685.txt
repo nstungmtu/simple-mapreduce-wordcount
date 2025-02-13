@@ -1,0 +1,49 @@
+xaas 3 
+ 
+     677 
+virtual p artitioning, traffic isolation, reachability, traffic engineering  and path computation, flow 
+management, failure detection, path convergence, qos control and management, as well as policy control  
+and management. the configuration of virtualized networks requires interfaces to all relevant components, 
+including network elements (physical switches and physical routers) in the infrastructure network domains, 
+virtual switches (vswitchs) as well as virtual routers ( vrouters) in hypervisors, and embedded switches  as 
+well as routers in computing platforms. 
+the oss-nc functionalities are basically responsible to manage network connectivity in a given infrastructure 
+network domain (e.g. , access, core). this  functionality provides on -demand netwo rk service through 
+northbound interfaces to the higher layer functions, abstracts the various southbound interfaces, and 
+invokes the underlying infrastructure network interfaces. several oss-nc functionalities may exist in a given 
+naas csp each responsible  for a particular network domain with overall end -to-end network connectivity 
+through multiple network domains being handled by e.g. , the functionalities for naas service orchestration 
+(see clause 7.3) and/or oss-naas functionalities (see clause 7.8.1). 
+7.8.2.5 oss-physical resources 
+the oss -physical resources (oss -pr) are functionalities responsible for the management of physical 
+resources such as compute, storage and networking physical resources. the functionalities  provided by the 
+oss-pr can be used by other oss functionalities such as the oss-ccs (see clause 7.8.2.3) or the oss-nc (see 
+clause 7.8.2.4). 
+functionalities provided by the oss-pr include: 
+– catalogue management of physical resources (compute, storage, networking); 
+– resource order management of physical resources; 
+– resource assurance functionalities such as performance management and fault management of 
+physical resources; 
+– inventory management of available physical resources. 
+7.9 functionalities for the development of naas products and naas services 
+development functionalities for naas enable the design, building and testing of naas products, naas services 
+(offered by naas products) as well as the design, building and testing of resources including nss and nfs that 
+are used for the support of the designed naas services. the design of naas products, naas services and naas 
+resources is realized using model-driven engineering techniques providing the ability to create and manage 
+naas products, naas services  and naas resources in terms of models (refer to naas service models, naas 
+resource models, naas service operational policy models as described in clause 7.2.2). 
+once designed, built and tested, the resulting models for naas products, respectively for naas services, will 
+be made available in th e product catalogue, respectively service catalogue, by the naas csp. similarly 
+network service models and network function models will also made available in naas resource catalogues 
+for further instantiation as needed by the relevant oss functionalities. 
+development functionalities for nfs allow for the design and build of nfs according to the following cases: 
+− features and capability required by the nfs are provided by elementary nfs; 
+− composite nf provided by mixing nfs. 
+development functionalities for nss allow for the design and build of nss taking into account the following 
+cases: 
+− ns that includes nfs and/or composite nfs; 
+− composite ns provided by mixing nss. 
+according to [itu -t y.3502], the design includes  the creation of configuration metadata relating to naas 
+services, nfs and nss being developed and also supports the creation of scripts and related artefacts that are 
+then used by the provider's operational support systems to provision and configure the n aas services, nfs 
+or nss. 

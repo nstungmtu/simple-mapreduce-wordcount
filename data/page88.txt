@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+80  
+8.5.11 reversibility 
+reversibility is a term which applies to the process for cloud service customers to retrieve their cloud service 
+customer data  and application artefacts and for the cloud service provider  to delete all cloud service 
+customer data, as well as contractually specified cloud service derived data after an agreed period. the 
+principle is the "right to be forgotten", in that the cloud service customer has a right to expect that once they 
+indicate to the cloud service provider  that their use of the service(s) will cease, there will be an orderly 
+process for the cloud service customer  to retrieve cloud service customer data  and their application 
+artefacts and that the cloud service provider will delete all copies and not retain any materials belonging to 
+the cloud service customer after an agreed period. 
+the activity related to reversibility will in most cases involve a series of steps, typically requiring the cloud 
+service customer to retrieve their data and inform the cloud service provider that the cloud service provider 
+can delete their copies of the cloud service customer data – safeguarding backup copies until that point in 
+case of failures in the exit process. these steps would also necessarily apply to any peer services that are 
+used by the cloud service provider to support the cloud service provider's services. 
+8.5.12 security 
+8.5.12.1 general 
+it is critical to recognize that security is a cross-cutting aspect of the architecture that spans across all views 
+of the reference model, ranging from physical security to application security. therefore, se curity in cloud 
+computing architecture is not solely a cross-cutting aspect under the control of cloud service providers, but 
+also affects cloud service customers, cloud service partners and their sub-roles. 
+cloud computing  systems can address security req uirements such as authentication, authorization, 
+availability, confidentiality, non -repudiation, identity management, integrity, audit, security monitoring, 
+incident response, and security policy management. this clause describes cloud computing  specific 
+perspectives to help analyse and implement security in a cloud computing system. 
+security capabilities for cloud services  include: access control, confidentiality, integrity and availability. 
+security for cloud computing is described in detail in other specifications. 
+security capabilities also include the management and administration functions which are used to control 
+cloud services, underlying resources and the use of cloud services, with particular attention applied to access 
+control for users of these functions. this is in addition to: 
+• facilities to enable early detection, diagnosis and fixing of cloud service  and resource related 
+problems; 
+• secure logging of access records, activity reports, session monitoring and packet inspections on the 
+network; 
+• provision of firewalling, and malicious attack detection and prevention for the cloud service 
+providers' systems. one user should not be able to disrupt other users' use of cloud services. 
+intranet level security should be provided on the network connecting the cloud service customer to the cloud 
+service provider (for example, through the use of vpn capabilities). 
+security measures in cloud computing exist to address a series of threats that relate to the use of cloud 
+services by cloud service customers, which affect both cloud service customers and cloud service providers. 
+these threats are more fully described in other specifications, such as iso/iec 27018. 
+8.5.12.2 distribution of security responsibilities  
+a cloud service provider and a cloud service customer have differing degrees of control over the computing 
+resources in a cloud computing system. compared to traditional information technology systems, where one 
+organization has control over the whole stack of computing resources and the entire life cycle of the systems, 
+cloud service providers and cloud service customers collaboratively design, build, deploy and operate cloud 
+computing systems. 

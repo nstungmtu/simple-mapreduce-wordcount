@@ -1,0 +1,25 @@
+1 framework and requirements for cloud computing  
+ 
+120  
+ 
+figure 7-1 – cloud computing based dsf context and its relationship with dsf ecosystem 
+7.1 csp:storage federation provider (csp:sfp) 
+csp:storage federation provider (csp:sfp) is responsible for the federation of dsf local storage. csp:sfp's 
+activities include: 
+– provide virtual storage pool;  
+– provide single virtual volume; 
+– manage storage management metadata; 
+– manage data storage policy. 
+7.1.1 provide virtual storage pool 
+this activity involves integrating and managing dsf local storage to make a logical storage. 
+this activity involves: 
+– performing storage operation (see clause 6.1); 
+– managing virtual storage pool; 
+– delegating customer credentials of dsf local storage.  
+7.1.2 provide single virtual volume 
+this activity involves providing and processing a way to use a single virtual volume for a csc:csu.  
+this activity involves: 
+– managing single virtual volume; 
+– providing a user access mechanism for csc:csus; 
+– performing storage operation (see clause 6.1).  
+

@@ -1,0 +1,47 @@
+security 7 
+ 
+  1051 
+cloud service customer cloud service provider 
+– the cloud service users and the context in which they 
+use the cloud service; 
+– the cloud service administrators of the cloud service 
+customer who have privileged access; 
+– the geographical locations of the cloud service 
+provider's organization and the countries where the 
+cloud service provider can store the cloud service 
+customer data (even temporarily). 
+– virtualization security; 
+– access to and protection of cloud service customer 
+data; 
+– lifecycle management of cloud service customer 
+accounts; 
+– communication of breaches and information sharing 
+guidelines to aid investigations and forensics. 
+other information for cloud services 
+the cloud service customer 's information security policy for cloud computing is one o f the topic -specific 
+policies described in iso/iec 27002 5.1.1. the information security policy of an organization deals with its 
+information and business processes. when an organization uses cloud services, it can have a policy for cloud 
+computing as a cloud service customer. an organization's information can be stored and maintained in the 
+cloud computing environment, and the business processes can be operated  in the cloud computing 
+environment. general information security requirements stated in the information security policy at the top 
+level are followed by the policy for cloud computing. 
+in contrast to this, the information security policy for providing cloud services deals with the cloud service 
+customers' information and business p rocesses, not with the cloud service provider's information and 
+business processes. information security requirements for the provision of  the cloud service should meet 
+those of the prospective cloud service customers. as a result, they might not be consistent with information 
+security requirements of the information and business processes of the cloud service provider. the scope of 
+the information security policy is often defined in terms of the service, but not solely by organizational 
+structure or physical locations. 
+there are several virtualization security aspects for cloud computing, including lifecycle management of 
+virtual instances, storage and access controls for virtualized images, handling of dormant or offline virtual 
+instances, snapshots, protection of hypervisors and security controls governing use of self-service portals. 
+5.1.2 review of the policies for information security 
+control 5.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+6 organization of information security 
+6.1 internal organization 
+the objective specified in clause 6.1 of iso/iec 27002 applies. 
+6.1.1 information security roles and responsibilities 
+control 6.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+  

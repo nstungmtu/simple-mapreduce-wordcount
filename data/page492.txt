@@ -1,0 +1,85 @@
+2 cloud computing management  
+ 
+484  
+y.3520(13)_f04
+composite multi-cloud applications [1]
+fi smi + fi fi + smi
+oss
+fi performs
+management
+oss
+fi performs
+management
+app or
+component
+c
+app or
+component
+d
+application/component layer
+runtime/
+application
+server xxx
+runtime/
+application
+server yyy
+middleware layer(s) of choice
+vm instances
+public or
+private cloud
+inter-cloud
+service provider
+b2b interfaces
+operations experience
+of service mashup
+public or
+private clouds
+vm instances
+middleware layer(s) of choice
+runtime/
+application
+server xxx
+runtime/
+application
+server yyy
+application/component layer
+app or
+component
+a
+app or
+component
+b
+fifi + smifi + smi
+composite multi-cloud applications [1]
+telecom operated cloud
+public cloud
+telco data centre
+(data centre, network, racks, switches, etc.)
+ 
+note – composite multi -cloud applications can be written in a runtime and programming env ironment of choice, 
+independent of the choice of cloud provider or cloud-deployment model. for example, use of java, node.js, php or .net 
+in both private and public clouds. 
+figure 4 – architectural vision for multi-cloud, multi-platform cloud management 
+in figure 4, the applications executing in the virtual machines (vms) could be a composite, distributed 
+application built from various software components. a vm instance could contain all software components 
+that belong to such an application, or only some of them in the case where the application is distributed and 
+executing in more than one vm (hence the references to applications or components in figure 4). 
+the architectural vision shown in figure 4 enables interoperable applications to support cloud burst or hybrid 
+cloud computing scenarios. 
+7.2 functional requirements for end to end cloud resource management 
+to meet the high level architecture of end to end cloud resource management described in this 
+recommendation, a cloud computing platform should conform to the following requirements:  
+• it is required that the csp supports the architectural and functional capabilities offered by the ses 
+management approach in order to realize end to end cloud resource management. 
+• it is recommended that the cloud comp uting platform offers the cloud deployment model 
+[itu-t y.3500] choice and workload portability across multiple csps in order to share workloads. 
+• it is recommended that the cloud computing platform provide the ability to support hybrid cloud 
+applications, where the com ponents of the cloud application run on various cloud data centres 
+managed by different csps. 
+• it is recommended that cloud service provider, irrespective of t he cloud deployment model they 
+use, provide the support for multiple application frameworks, pro gramming languages, tools and 
+technology platforms, thereby lowering the potential for lock-in into specific solution or middleware 
+technology. 
+• it is recommen ded that the cloud computing platform provides an architecture enabling 
+telecommunications-grade capabilities including reliability, fail -over and monitoring inclusive of 
+choice of middleware, programming language and runtime. 

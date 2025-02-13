@@ -1,0 +1,12 @@
+7 security  
+ 
+1018 
+summary 
+recommendation itu-t x.1642 provides generic operational security guidelines for cloud computing from 
+the perspective of cloud service providers (csps). it analyses the security requirements and metrics for the 
+operation of cloud computing. a set of security measures and detailed security activities for the daily 
+operation and maintenance are provided to help csps mitigate security risks and address security challenges 
+for the operation of cloud computing. 
+keywords 
+cloud computing, operational security, security clause of the service level agreement (sla). 
+  

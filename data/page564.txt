@@ -1,0 +1,46 @@
+3 xaas  
+ 
+556  
+7 daas general requirements  
+the daas general requirements are described in [itu-t y.3501] as follows: 
+• quality of experience (qoe); 
+• fast boot-up time; 
+• configurability of the virtual environment; 
+• single sign-on access control. 
+additional general requirements of daas derived from use cases (cf. appendix ii i) include (but are not 
+limited to): 
+• support for high -definition ( hd) and three-dimensional (3d) applications : daas can optionally 
+support execution of hd applications on virtual desktops for cscs. 
+ note 1 – hd and/or 3d applications (e.g., high-definition 3d videos or games) are becoming one of the major 
+user demands in the personal computing device market.  
+• extensible storage: it is recommended that a csp support the storage extension requested by a csc. 
+• response time: it is recommended that daas provide cscs with acceptable qoe. 
+ note 2 – detailed relevant information on acceptable response time is described in appendix iv. 
+• high availability: it is recommended that high availability in terms of delivery and operation of daas 
+be assured by a csp. 
+• resiliency to disaster : in a case of a disaster, daas is recommende d to provide and maintain an 
+acceptable level of service. 
+ note 3 – this includes preserving the system information and the users' data including their virtual desktop 
+state such as power-on, power-off, suspend, etc.  
+• service continuity: it is recommended that in case of temporarily unavailable resource access, a csp 
+provides the capability to preserve the state of the user session. 
+• system scalability: it is recommended that daas supports elastic scalability of: 
+– storage for daas user account informati on, virtual desktop environment settings, an d active 
+and inactive virtual desktop environments; 
+– processing and network capacity for the number of concurrent daas user connections and total 
+daas users; 
+– underlying daas resources. 
+• daas developer environ ments: it is recommended to provide a developer environment for the 
+service and contents regarding daas. 
+• diversity of daas client: it is recommended that the csp support a wide selection of daas clients. 
+ note 4 – examples of such daas clients are described in appendix ii.  
+8 daas functional requirements 
+8.1 operation and management requirements 
+operation and management requirements include: 
+• unified management interface : it is recommended that the csc be capable of deploying, 
+configuring, managing and monitoring the daas through a unified management interface. 
+• user account provisioning: it is recommended that the csp provide the method of operating and 
+provisioning various types of accounts in accordance with csc's characteristics based on the service 
+level such as one -time usage and permanent account, types of virtual desktop environments, and 
+allocating options for the virtual desktop environments. 
+ note 1 – user account provisioning depending on the csc types is described in appendix v.  

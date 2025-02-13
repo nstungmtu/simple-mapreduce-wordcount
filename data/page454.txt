@@ -1,0 +1,32 @@
+2 cloud computing management  
+ 
+446  
+ 
+figure i.1 – example of e2e cloud computing management in practice 
+note – this figure is based on the comprehensive view of cloud computing management. see clause 8 . 
+the stages shown in figure i.1 are as follows: 
+1) the csc places the order for the entire package; 
+2) customer management assesses the validity of the order, determines the appropriate sla to apply 
+to the overall package, and invokes the individual product objects in the product management layer. 
+there are two of these, a network product and a cloud service product; 
+3) the network product management creates a network as a service (naas) within the csp service layer, 
+identifying endpoint and network characteristics needed for the overall service. it also requests the 
+creation of a naas service from another cs p which includes wide -area telecommunications 
+connectivity. this is done by making smi-based requests to instantiate the naas service at the other 
+csp. the internal and external naas instances are then interconnected with agreed endpoints and 
+slas suitable to meet the overall objective; 
+4) the video cloud product orchestrate s a set of cloud services including video processing, storage, 
+content management, a software as a service (saas) for the billing and subscription, etc; 
+5) because the video processing s ervice does not have the capability to directly handle some of the 
+video formats the customer has requested, the video processing service requests this capability as 
+a specialist platform as a service (paas) from a third csp. the paas is provided with the code 
+necessary to work with the content platform; 
+6) each of the invok ed services is responsible for creating and managing the underlying cloud 
+computing resources, including compute, storage, and networking. each of them is also responsible 
+for monitoring the functions of those resources, and reporting usage, performance, f aults and sla 
+breaches up to their "parent" management layer for aggregation and analysis. 
+in this way, a very large and complex cloud -based solution is requested, instantiated, and mana ged as a 
+whole, both for business and operational purposes. within each csp, the logic of orchestration is a key point 
+of differentiation, but the individual management interfaces follow the general smi approach, making for a 
+relatively straightforward management architecture. 
+

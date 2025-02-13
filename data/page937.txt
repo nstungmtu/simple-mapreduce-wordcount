@@ -1,0 +1,46 @@
+intercloud and interoperability 5 
+ 
+  929 
+table 5-15 – cloud plugfests documents and work items related to cci 
+reference name/title status 
+etsi ts 103 142 cloud; test descriptions for cloud interoperability  published 
+csmic 
+cloud services measurement initiative consortium (csmic) is a consortium formed in may 2010 led by 
+carnegie mellon university to address the need for industry-wide, globally accepted measures for calculating 
+the benefits and risks of cloud-computing services. 
+csmic works on cloud computing testing methodology related aspects of cci. 
+csmic defined service management index (smi) for measuring any type of cloud services (iaas, paas, saas, 
+business p rocess as a s ervice (bpaas) and big data). service measurement index framework released in 
+november 2012 and has been updated to version 2 in january 2014 by csmic. 
+the smi is a hierarchical framework. the top level divides the measurement space into seven categories. each 
+category is further refined by three or more attributes. then within each attribute a set of kpis are defined that 
+describe the data to be collected for each measure/metric. 
+table 5-16 – csmic documents and work items related to cci 
+reference name/title status 
+smi framework version 2.0 draft service measurement index framework version 
+2.0 draft 
+published 
+occ 
+the open cloud consortium (occ) is a non-profit organization that manages and operates cloud computing 
+infrastructure to support scientific, medical, health care and environmental research. 
+the occ is organized into different working groups. the open cloud testbed  (oct) working group (octwg) 
+of occ manages and operates the oct. the oct is a geographically distributed cloud testbed spanning four 
+data centres and connected with 10 g and 100 g network connections. the oct is used to develop new cloud 
+computing software and infrastructure. 
+a current focus of the occ octwg  is on developing an openflow enabled version of hadoop, a project 
+support by the national science foundation (nsf). 
+reports and tools: http://etics.res.eng.it/tools/etics-gui/ 
+ocean 
+open cloud for europe, japan and beyond (ocean), a fp7 -ict support action project was established in 
+august 2011 to foster the emergence of sustainable open source cloud offering and boost market innovation 
+in europe, by generating greater efficiency and economics of scale among european fp7 collaborative 
+research projects on open source cloud computing, and to support collaboration between japanese and 
+european research and open source projects on cloud computing. 
+spec 
+the standard performance evaluation corporation (spec) is a non -profit corporation formed to establish, 
+maintain and endorse a standardized set of relevant benchmarks. 
+spec released specvirt_sc2010 in july 2010. the specvirt_sc2010 addresses performance evaluation of data 
+centre servers used in virtualized server consolidation. it measures the end-to-end performance of all system 
+components including the hardware, virtualization platform, and the virtualized guest operating system and 
+application software. specvirt_sc2010 enables comparing of system performance across multiple hardware, 
+virtualization platforms and applications. 

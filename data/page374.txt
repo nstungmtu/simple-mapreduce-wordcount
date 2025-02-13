@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+366  
+[itu-t y.3600]   big data – cloud computing based requirements and capabilities 
+ this proposed recommendation provides an approach to use cloud 
+computing to meet existing challenges in the use of big data. 
+ the scope of this proposed recommendation includes: 
+ overview of big data: 
+– cloud computing based big data system context and benefits; 
+– cloud computing based big data requirements; 
+– cloud computing based big data capabilities. 
+ overview of cloud computing based big data: 
+– big data system context and its activities; 
+– cloud computing based big data requirements; 
+– cloud computing based big data capabilities; 
+– cloud computing based big data use cases and scenarios. 
+url: https://www.itu.int/rec/t-rec-y.3600-201511-i/en 
+[itu-t y.bigdataex-reqts] big data exchange framework and requirements 
+ this proposed recommendation specifies the big data exchange framework 
+and requirements, which is based on the collection of use cases and 
+scenarios, analyses of gaps with different application areas and identification 
+of functional requirements within telecommunication ecosystem. 
+ the scope of this proposed recommendation consists of: 
+– overview of big data exchange; 
+– framework of big data exchange; 
+– functional requirements of big data exchange. 
+url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10542 
+[itu-t y.bdaas-arch]  cloud computing - functional architecture of big data as a service 
+ this proposed recommendation specifies the functionalities, functional 
+components, functional architecture, and reference points of bdaas. 
+ the scope of this proposed recommendation includes: 
+– overview of bdaas functional architecture; 
+– functional components of bdaas; 
+– functional architecture of bdaas; 
+– reference points of bdaas functional architecture. 
+url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10548 
+[itu-t x.1601]   security framework for cloud computing 
+ this recommendation analyses security threats and challenges in the cloud 
+computing environment, and describes security capabilities that could 
+mitigate these threats and address security challenges. a framework 
+methodology is provided for determining which of these security capabilities 
+will require specification for mitigating security threats and addressing 
+security challenges for cloud computing. 
+url: https://www.itu.int/rec/t-rec-x.1601-201510-i 
+[itu-t x.cscdatasec]  guidelines for cloud service customer data security 
+ this proposed recommendation provides guidelines for cloud service 
+customer data security in cloud computing, for those cases where the cloud 
+service provider (csp)  is responsible for ensuring that the data is handled 
+with proper security. 

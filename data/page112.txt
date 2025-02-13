@@ -1,0 +1,24 @@
+1 framework and requirements for cloud computing  
+ 
+104  
+ 
+figure a.5 – provider–peer provider relationship for use service activity 
+a.3 the cloud service developer–cloud service provider relationship 
+cloud service developers create and package service implementations and hand them to cloud service 
+providers for deployment and operation. therefore, the cloud service developer interacts with the cloud 
+service provider to:  
+1) inspect the cloud service provider's environment for service execution; 
+2) test service implementations; 
+3) hand over service implementation packages. 
+the development support functional components  support the cloud computing activities  of the cloud 
+service developer, including the develop service, test service and maintain service cloud computing 
+activities. these cloud computing activities depend on the development environment, build management 
+and test management functional components. 
+the lines in radiating from the developer environment component in figure a.7 show that the cloud service 
+developer develops the implementation of a cloud service and composes the service using the development 
+environment functional component and then uses the build management system to build the service and its 
+related artefacts into a deployable package. the arrows to/from the test management functional component 
+indicate that the test management system performs appropriate testing against the built package, fetching 
+the package from the build management system and interacting with the provider's environment via the 
+development access functional component to deploy a test version of the service and execute the tests. 
+

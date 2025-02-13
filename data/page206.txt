@@ -1,0 +1,54 @@
+1 framework and requirements for cloud computing  
+ 
+198  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+5 hardware-assisted 
+memory virtualization 
+– [b-ocp 2s] provides hardware-assisted memory virtualization as 'setting for 
+the watchdog timer: the default setting for evt/dvt/pvt is disabled. the 
+default setting for mp is enabled. the timeout value is 15 minutes and reset 
+the system after the timer expires. the watchdog timer is always disabled 
+after post' in clause 6.3.2. 
+– [b-ocp hsas] provides hardware-assisted memory virtualization as 'the 
+motherboard is designed to support dual intel xeon e5-2600 v3 and v4 
+series processors and up to 2048gb lrdimm 3ds/1024gb lrdimm/ 512gb 
+rdimm ddr4 memory. leveraging advanced technology from intel, the 
+motherboard is capable of offering scalable 32- and 64- bit computing, high-
+bandwidth memory design and lightning-fast pci-e bus implementation' in 
+clause 7. 
+– [b-ocp imbh] provides hardware-assisted memory virtualization as 'the 
+efficiency performance motherboard, built with the intel xeon e5-2600 
+processor, was originally was code-named the sandy bridge-ep 
+motherboard' in clause 4. 
+– [b-ocp oapm] provides hardware-assisted memory virtualization as 'amd 
+epyc platform' in clause 5. 
+– [b-ocp mb] provides hardware-assisted memory virtualization as 'intel 
+motherboard v3.1 (also referred to "motherboard" or "the motherboard" in 
+this document, unless noted otherwise) is based on intel xeon processor e5 -
+2600 v3 (formerly code-named haswell-ep processor) product family cpu 
+architecture' in clause 4.1. 
+6 memory replacement – [b-ocp 2s] provides memory replacement as 'besides traditional ddr4 
+dimm, the motherboard shall support non-volatile dimm (nvdimm) on all 
+dimm slots' in clause 5.3.3. 
+– [b-ocp dsbs] provides memory replacement as 'memory expansion :16 
+sockets for un-buffered ddr3 and registered ddr3 dimms' and 'provide 16 
+sockets for ddr4 dimms' in clause 4. 
+– [b-ocp g1] provides memory replacement as '4 ddr3 memory channels per 
+memory buffer; total 32 ddr3 rdimms, 1333 mhz (1dpc), 8/16/32gb' in 
+clause 6.1. 
+– [b-ocp hsas] provides memory replacement as 'the motherboard is 
+designed to support dual intel xeon e5-2600 v3 and v4 series processors 
+and up to 2048gb lrdimm 3ds/1024gb lrdimm/ 512gb rdimm ddr4 
+memory. leveraging advanced technology from intel, the motherboard is 
+capable of offering scalable 32- and 64- bit computing, high-bandwidth 
+memory design and lightning-fast pci-e bus implementation' in clause 7. 
+– [b-ocp mb] provides memory replacement as 'the motherboard has dimm 
+subsystem designed as below: ddr4 direct attach memory support on cpu0 
+and cpu1; 4x channels ddr4 registered memory interface on each cpu; 2x 
+ddr4 slots per channel (total 16 dimm); support rdimm, lrdimm; support 
+sr, dr and qr dimm; support ddr4 speeds of 1600/1866/2133; up to 
+maximum 1024 gb with 64gb dimms; follow updated jedec ddr4 
+specification with 288 pin dimm socket' in clause 5.3.2.  

@@ -1,0 +1,48 @@
+security 7 
+ 
+  1023 
+7 requirements of the security clause of the service level agreement 
+the security clause of the service level agreement (sla) is the critical factor for csp to obtain the user's trust. 
+the relationship between cscs and csps,  such as security responsibility, should be described clearly by the 
+security clause of sla. csps should focus their operational security measures on fulfilling the requirements 
+defined by the security clause of sla. 
+7.1 security responsibility between csps and cscs  
+the responsibilities of both csps and cscs should be delineated in as far as the security of cloud computing 
+is concerned in accordance with the various control abilities over the infrastructure and resources of cloud 
+computing. 
+the security responsibilities are closely re lated with the cloud service mode, as the cloud service mode 
+reflects the resource control capability in the cloud environment for csps and cscs. for instance, compared 
+to platform as a service (paas) or infrastructure as a service (iaas), csps in software as a service (saas) should 
+undertake more security responsibilities as with a stronger resource control capability on hand.  
+for the service mode of iaas, csps provide the infrastructure services, such as the virtual data centre (vdc) 
+which includes hosted servers, storage resource, network and management tools. the fundamental security 
+responsibilities of csps include physical security, network security, underlying system security and the 
+reliability of the whole cloud infrastructure. cscs should be in charge of all the security issues above the level 
+of the cloud infrastructure which they purchase, such as the security of the guest o perating system (os), 
+application software, etc. 
+for the service mode of paas, csps provide simplified, distributed software  development, testing and 
+deployment environment. csps should be responsible for the security of the application programming 
+interface (api) of the application environment, the security of middleware, the availability of cloud platform, 
+etc., as well as the security of the underlying infrastructure. on the other hand, cscs should be responsible 
+for the security of the application services running over the cloud platform environment. 
+for the service mode of saas, csps should guarantee the overall security from the infrastructure layer to the 
+application layer, and cscs should maintain the information security related to them, such as the security of 
+identity management (idm), password leakage proofing and so on. 
+furthermore, cscs should consider the security issues of the terminals that they use to access the cloud. 
+7.2 requirements of the security clause of sla 
+7.2.1 general requirements 
+the security clause of sla should explicitly specify the security terms of the cloud services, as well as the 
+responsibilities and liabilities of csps and cscs. 
+from the csc's perspective, cscs should be able to stipulate their requirements concerning the security 
+clause of sla. the security clause of sla can help them ensure that their csps have adequate protection for 
+their information assets, resources and services customized  while at res t, in use and in motion , and that 
+corrective mechanisms have been implemented to comply with the regulations on data privacy associated 
+with their governing jurisdiction. 
+from the csp's perspective, the security clause of sla  stipulates the requirements and measureable terms 
+of the security of the cloud service provided, which can be assessed, compared and customized by cscs. csps 
+should implement a series of appropriate technological and management mechanisms to improve the 
+reliability and security of the cloud services, and fulfil the requirements of the security clause of sla, which 
+can ultimately obtain the trust of cscs. cloud services may have different types of slas due to the content 
+of the services, the service grade, and even the reg ion where the services are provided, but the minimal 
+requirements of the security clause of sla should meet the legal and regulatory requirements as well as those 
+of related public industry standards. 

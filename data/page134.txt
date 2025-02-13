@@ -1,0 +1,35 @@
+1 framework and requirements for cloud computing  
+ 
+126  
+i.2 data sharing between customers 
+title data sharing between customers 
+description in this scenario, the dsf service customer #1 stored file a~d with data sharing mode policy 
+setting. the file a is non-sharing mode, the file b is read-only data sharing mode, the file c is 
+over-writable data sharing mode and the file d is replicable data sharing mode. the other dsf 
+service customer #2 uses file a~d with data sharing policy set by dsf service customer #1. 
+dsf service customer #2 cannot access file a because of non-sharing mode policy setting and 
+dsf service customer #2 can read file b but it is not writable. in file c case, dsf service 
+customer #2 can overwrite it and store it with changes. in file d case, by a replication request 
+by dsf service customer #2, the original file d is preserved and a new file e is generated and 
+stored to dsf service customer #2's single virtual volume.  
+role/sub-role dsf service provider (csp:dmp) 
+dsf service customer (csc:csu) 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.1 requirement (2) 
+i.3 multiple storage types and access mechanisms for data access 
+title multiple storage types and access mechanisms for data access   
+description in this scenario, a dsf service customer requests a variety of service interfaces and storage 
+types from a dsf service provider. also, the dsf service provider provides service interfaces to 
+the dsf service customer with the corresponding access mechanisms .   
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp, csp:dmp) 
+

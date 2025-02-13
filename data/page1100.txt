@@ -1,0 +1,43 @@
+8 assisting developing countries  
+ 
+1092  
+3.1.16 network as a service (naas) [itu-t y.3500]: cloud service category in which the capability provided 
+to the cloud service customer is transport connectivity and related network capabilities. 
+3.1.17 party [itu-t y.3500]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.18 platform as a service (paas)  [itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is a platform capabilities type. 
+3.1.19 private cloud [itu-t y.3500]: cloud deployment model where cloud services are used exclusively by 
+a single cloud service customer and resources are controlled by that cloud service customer. 
+3.1.20 public cloud [itu-t y.3500]: cloud deployment model where cloud services are potentially available 
+to any cloud service customer and resources are controlled by the cloud service provider. 
+3.1.21 resource management  [itu-t y. 3520]: the most efficient and effective way to access, control, 
+manage, deploy, schedule and bind resources when they are provided by service providers and requested by 
+customers. 
+3.1.22 role [itu-t y.3502]: a set of activities that serves a common purpose. 
+3.1.23 service level agreement (sla) [itu-t y.3500]: documented agreement between the service provider 
+and customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement.  
+3.1.24 software as a service (saas) [itu-t y.3500]: cloud service category in which the cloud capabilities 
+type provided to the cloud service customer is an application capabilities type. 
+3.2 terms defined in this supplement 
+none. 
+4 abbreviations and acronyms 
+this supplement uses the following abbreviations and acronyms: 
+ac alternating current 
+baas back-up as a service 
+caas communications as a service 
+capex capital expenditure 
+compaas compute as a service 
+csc cloud service customer 
+csp cloud service provider 
+daas desktop as a service 
+dc direct current 
+draas disaster recovery as a service 
+dsaas data storage as a service 
+iaas infrastructure as a service 
+ict information and communication technology 
+it information technology 
+ixp internet exchange point 

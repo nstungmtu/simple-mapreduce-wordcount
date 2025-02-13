@@ -1,0 +1,41 @@
+4 video processing and storage  
+ 
+762  
+1 scope 
+this recommendation specifies the application scenarios and requirements for a cloud computing platform 
+supporting a visual surveillance system. 
+2 references 
+none. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 application [b-itu-t y.101]: a structured set of capabilities, which provide value-added functionality 
+supported by one or more services. 
+3.1.2 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications and 
+storage equipment. 
+3.1.3 customer [b-itu-t m.60]: an entity which receives services offered by a service provider based on 
+a contractual relationship. it may include the role of a network user. 
+3.1.4 customer unit [b-itu-t h.626]: a device located at the customer part of a visual surveillance system 
+and used to present multimedia information (such as audio, video, image, alarm signal, etc.) to the end user. 
+3.1.5 mobile customer unit (m_cu) [b-itu-t h.626.1]: mobile client software installed in a customer's 
+mobile devices. the m_cu is used to initiate the service and provide customers with video viewing. 
+3.1.6 premises unit [b-itu-t h.626]: a device located at the remote part of a visual surveillance system 
+and used to capture multimedia information (such as audio, video, image, alarm signal, etc.) from a surveilled 
+object. 
+3.1.7 visual surveillance [b-itu-t h.626]: a telecommunication service focusing on video (but including 
+audio) application technology, which is used to remotely capture multimedia (such as audio, video, image,  
+alarm signals, etc.) and present them to the end user in a user -friendly manner, based on a  managed 
+broadband network with ensured quality, security and reliability. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cu customer unit 
+ivs intelligent visual surveillance 
+mcu mobile customer unit 
+msu media storage unit 
+pu premises unit 
+vs visual surveillance 
+vscc visual surveillance cloud computing 

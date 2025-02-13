@@ -1,0 +1,38 @@
+7 security  
+ 
+1068 
+14.2.3 technical review of applications after operating platform changes 
+control 14.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.4 restrictions on changes to software packages 
+control 14.2.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.5 secure system engineering principles 
+control 14.2.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.6 secure development environment 
+control 14.2.6 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.7 outsourced development 
+control 14.2.7 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.8 system security testing 
+control 14.2.8 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2.9 system acceptance testing 
+control 14.2.9 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+other information for cloud services 
+in cloud computing, guidance for system acceptance testing applies to the use of a cloud service by the cloud 
+service customer. 
+14.3 test data 
+the objective specified in clause 14.3 of iso/iec 27002 applies. 
+14.3.1 protection of test data 
+control 14.3.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+15 supplier relationships 
+15.1 information security in supplier relationships 
+the objective specified in clause 15.1 of iso/iec 27002 applies. 
+15.1.1 information security policy for supplier relationships 
+control 15.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 

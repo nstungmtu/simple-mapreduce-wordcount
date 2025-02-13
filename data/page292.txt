@@ -1,0 +1,67 @@
+1 framework and requirements for cloud computing  
+ 
+284  
+7 patterns of inter-cloud  
+this clause introduces three patterns of inter -cloud for describing relations and interactions involving 
+multiple csps, i.e.,: 
+– the inter-cloud peering;  
+– the inter-cloud federation; 
+– the inter-cloud intermediary. 
+7.1 inter-cloud peering  
+in inter-cloud peering, two csps interwork directly with each other in order to use the services provided by 
+the peer csp.  
+note 1 – inter-cloud peering does not necessarily imply reciprocal relationships in terms of service use and service 
+providing between the two csps. 
+note 2 – inter-cloud peering is a fundamental pattern, which may exist on its own or can be used in the two patterns 
+described in clauses 7.2 (inter-cloud federation) and 7.3 (inter-cloud intermediary). 
+in inter-cloud peering, each csp exposes its own api for cloud interworking and the csps interwork with each 
+other directly by using the other csp's api. as shown in figure 7-1, csp a interworks with csp b using the api 
+provided by csp b and vice versa. since the inter -cloud peering pattern can be used in  the other pattern 
+described in clauses 7.2 and 7.3, use of a common api between csp a and csp  b is not precluded 
+(see figure 7-2). 
+y .3511(14)_f7-1
+s
+p
+p
+s
+csp a csp b
+inter-cloud peering
+p
+s
+api (x):
+primary csp
+secondary csp
+api provided by csp x
+api (b)
+api (a)
+service x
+csc 1
+service y
+csc 2
+ 
+figure 7-1 – inter-cloud peering  
+as shown in figure 7-1, the inter-cloud peering pattern consists of two inter-cloud relationships, csp a to csp 
+b relationship and csp b to csp a relationship. csp a is a primary csp when using the services of csp b 
+provided by api (b) for providing services to its own customers (csc1 and csc2) and is also a secondary csp 
+when providing services to csp b through its own api (a).  
+y .3511(14)_f7-2
+s
+p
+p
+s
+csp a csp b
+inter-cloud peering
+p
+s
+primary csp
+secondary csp
+common api
+service x
+csc 1
+service y
+csc 2
+ 
+ 
+figure 7-2 – common api in the peering pattern 
+figure 7-2 illustrates the case where a common api is used between csp a and csp b, i.e., api (a) and api (b) 
+in figure 7-1 are the same. 

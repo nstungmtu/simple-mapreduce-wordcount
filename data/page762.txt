@@ -1,0 +1,44 @@
+4 video processing and storage  
+ 
+754  
+7.3 video metadata management 
+the vs system can p rovide various intelligent services by using video/image analysis technologies. the 
+intelligent traffic service is an example. for realizing these intelligent services, some video/image analysis 
+algorithms are embedded in the traffic surveillance cameras, and these cameras can directly output video 
+content metadata, such as: vehicle plate number, vehicle type, speed of vehicle, colour of vehicle. in addition, 
+video analysis servers can be deployed in the data centre, and the surveillance video stream or the recorded 
+video files can be processed to obtain the video content metadata on these servers. 
+step 1: model the surveillance video metadata, and design and implement the video metadata management 
+system in cloud. 
+step 2: the surveillance video metadata is obtained from the intelligent video/image analysis devices, and is 
+sent to the cloud. 
+step 3: an authorized user can browse and retrieve the surveillance video metadata stored in the cloud. 
+likewise, authorized application systems can access the video metadata in the cloud, and provide the various 
+intelligent services based on the video metadata. 
+7.4 picture storage 
+case 1: picture upload from surveillance camera 
+high-definition cameras are widely deployed on streets to capture high -resolution pictures. these pictures 
+may contain useful information and can be processed further. for example, vehicle plate numbers can be 
+extracted accurately from a picture by using a vehicle plate recognition algorithm. 
+step 1: network cameras continuously capture pictures, and send these pictures directly to the cloud. 
+step 2: the cloud storage system receives the pictures, and writes the pictures to the cloud storage resource 
+pool built on the storage device clusters. 
+step 3: an authorized user or application system can access the pictures stored in the cloud. 
+case 2: picture uploading from mobile device 
+john is a traffic police officer, and one of his routine tasks is to find illegally parked vehicles and record the 
+infraction. 
+step 1: john logs into the surveillance system through a mobile device. he captures the picture of an illegally 
+parked vehicle using the camera of the mobile device. 
+step 2: the captured picture is then sent to the cloud through wireless channels. 
+step 3: an authorized user or application system can access the pictures stored in the cloud. 
+8 requirements for cloud storage in visual surveillance 
+8.1 user requirements 
+there are two types of cloud storage service users : the service consumer and the service provider. 
+8.1.1 cloud storage service consumer requirements 
+– usr-001: a vscs system is required to support registration and de -registration of the end user 
+through the interface provided by the system, and the end user can view and modify personal 
+information. 
+– usr-002: a vscs system is requ ired to support end -user login and logout from the system 
+conveniently. the user name and password are required when an end user logs into the system. 
+– usr-003: a vscs system is recommended to support end-user view of the user access logs or other 
+system logs. 

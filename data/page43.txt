@@ -1,0 +1,35 @@
+ framework and requirements for cloud computing 1 
+ 
+   35 
+use case 
+requirements – on-demand network configuration 
+– heterogeneous networks compatibility 
+– qos-guaranteed connectivity 
+– secured connectivity 
+i.4 daas general use case 
+use case 
+name daas general use case 
+abstract – between a consumer and a csp: in this scenario, a consumer accesses and uses data or 
+applications in a csp which offers a virtual desktop service. a consumer can enjoy the 
+environment with all programs and applications which are identical with those of 
+traditional pcs. the consumer can choose the virtual hardware specification of its virtual 
+desktops. if necessary, the environment (i.e., operating system) can be changed to 
+another one immediately. since all data is totally stored with password protection and 
+managed in the csp, all the consumer has to do is keep up with a password.  
+– between an enterprise and a csp: an enterprise using a virtual desktop service from a 
+csp for its internal processes is included in this use case. in this scenario, the enterpri se 
+can select applications or os in the daas service for certain enterprise functions. unlike 
+the use case between a consumer and a csp, the enterprise normally uses storage for 
+backups. also, the enterprise can overcome peak loads and save energy by reque sting 
+the csp online to increase or decrease the number of virtual desktops, respectively.  
+– between an enterprise, a consumer and a csp: in this scenario, the enterprise makes 
+the consumer work with its internal processes outside of the enterprise by tran sferring 
+virtual desktops and related data through the csp. contrary to the above two scenarios, 
+the consumer cannot select applications freely and more limitations to access data in 
+the enterprise may exist than within the enterprise. whenever the consumer connects 
+with the csp, the csp sends data to the consumer by accessing the enterprise to handle 
+or bypass corresponding data. 
+roles csp, csc 
+figure 
+ 
+

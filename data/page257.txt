@@ -1,0 +1,38 @@
+ framework and requirements for cloud computing 1 
+ 
+   249 
+table ii.4 – distributed cloud infrastructure and service provisioning 
+use case 
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+requirements – automatic infrastructure provision (see clause 7.1) 
+– high speed network connectivity (see clause 7.2) 
+– reliable network connectivity (see clause 7.2) 
+– network virtualization (see clause 7.2) 
+– network services delivery (see clause 7.2) 
+– agile service (see clause 7.3) 
+– lightweight service (see clause 7.3) 
+– automatic service displacement (see clause 7.3) 
+– synchronization management (see clause 7.4) 
+– adaptive security function control (see clause 7.5) 
+– adaptive security suites control (see clause 7.5) 
+ii.5 hierarchical caching of cloud service images 
+table ii.5 – hierarchical caching of cloud service images 
+use case 
+name hierarchical caching of cloud service images. 
+abstract this use case shows an example of hierarchical caching of cloud service images.  
+the core cloud mainly manages cloud service images; the size of a cloud service image varies 
+from tens of megabytes to hundreds of gigabytes. a cloud service image is needed to run a cloud 
+service. for example, when a cloud service is run on the edge cloud, the image is copied from the 
+core cloud by request. thus, depending on the num ber of requests, the core cloud can be 
+overloaded. in addition, copying a cloud service image from the core cloud to the edge cloud is 
+inefficient. 
+also, the edge cloud has relatively lower storage capacity than the core cloud or the regional 
+cloud. it is inefficient for the edge cloud to maintain all cloud service images. 
+

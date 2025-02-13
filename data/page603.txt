@@ -1,0 +1,23 @@
+xaas 3 
+ 
+  595 
+9.2 virtual desktop connection and delivery functions 
+the vdcd-fs comprise dpp-f, uam-f, ccm-f, and pa -f as shown in figure 9 -2. the vdcd -fs have three 
+interfaces with other functional groups  such as  cs-fs, virtual desk top resource management functions 
+(vdrm-fs), and virtualization infrastructure functions (vi-fs). 
+ 
+figure 9-2 – functions and reference points in vdcd-fs 
+9.2.1 delivery protocol processing function 
+the dpp-f delivers the exchanged information to the sc -f through i_sc_dpp. the dpp -f communicates to 
+the cn-f and the cpc -f to perform the connection negotiation and per ipheral event through i_cn_dp and 
+icp_dp, respectively. virtual desktop access information from the ccm_f on i_dp_ccm is forwarded to vi-fs 
+through i_dpp_iam. a detailed functional description for the dpp-f is specified in clause 7.2.1. 
+9.2.2 user access management function 
+for user authentication, the uam-f validates a daas user with csu's access information through i_sc_uam 
+and connects the user account and profile management function  (uapm-f) through i_uam_uapm with 
+csu's access information and csu's account information. a detailed functional description for the uam-f is 
+specified in clause 7.2.3. 
+9.2.3 client connection management function 
+the ccm-f delivers and verifies virtual desktop access information to cs -fs through i_sc_ccm.  virtual 
+desktop access information from the sc -f is transferred to the dpp -f through i_dp_ccm. t he ccm-f also 
+

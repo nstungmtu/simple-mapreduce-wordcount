@@ -1,0 +1,36 @@
+3 xaas  
+ 
+704  
+appendix iv 
+ 
+example of nfv and sdn usage in support of naas architecture 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides a n example of how nfv and sdn can be used in realizing the naas functional 
+architecture. 
+the nfv architectu ral framework as defined in [b -etsi nfv-arch] and [b -etsi nfv-mano] provides a high -
+level functional architectural framework and design philosophy of virtualized network functions and of the 
+supporting infrastructure. it identifies functional blocks and the main reference points between such blocks. 
+in particular, the following functional blocks are described: 
+– vnf; 
+– nfv infrastructure (nfvi), including: 
+• hardware and virtualized resources; and 
+• virtualization layer. 
+– virtualized infrastructure manager (vim); 
+– nfv orchestrator (nfvo); 
+– vnf manager (vnfm); 
+– wan infrastructure manager (wim). 
+[itu-t y.3300] describes the framework of sdn specifying fundamental aspects of sdn and providing a high-
+level architecture consisting of the following layers: 
+– sdn application layer; 
+– sdn control layer; 
+– sdn resource layer. 
+figure iv.1 shows how elements of the nfv and sdn architectures (represented using dotted boxes) can be 
+mapped to the functional components of the naas architecture defined in clause 8 of this recommendation. 
+regarding the use of sdn, the scenario illustrated in figure iv.1 assumes that sdn is used to control network 
+connectivity between nfvi pops. the resources controlled by sdn are also assumed to be physical resources 
+in a wide area network (e.g., physical switches or routers) and therefore does not cover the case where the 
+sdn resource layer can itself be virtualized (e.g., virtual switches or routers supported as virtualized network 
+functions). the potential use of sdn in the nfvi is not s hown in figure iv.1. the sdn control layer (e.g., the 
+sdn controller) and the sdn resource layer (e.g., switches an d routers) can also be virtualized as well 
+elements of the nfv architecture (e.g., vnfm). 
+ 

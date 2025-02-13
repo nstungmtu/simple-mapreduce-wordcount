@@ -1,0 +1,29 @@
+2 cloud computing management  
+ 
+520  
+table 9-1 – functions related with naas service operational policy data model 
+no. function description 
+1 create policy the csp creates a naas service operational policy data model on the npap based on 
+the required policy parameters and the npip stores it with the allocated labels which 
+indicates its dimensions. 
+2 delete policy the csp deletes the specified naas service operational policy data model on the npap 
+and the npip removes it from the repository. 
+3 update policy the csp updates a naas service operational policy data model on the npap based on 
+the new policy parameters and the npip re-stores it and the original one is 
+overwritten accordingly. 
+4 get policy the npdp requests the specified naas service operational policy data model from the 
+npip and gets it from the repository. 
+5 distribute policy the npdp distributes the specified naas service operational policy data model to the 
+npep and the npep makes the subscription on the npdp for its update.  
+6 list policy the npip lists all the naas service operational policy data models on demand. 
+7 retrieve policy the npip provides the retrieved naas service operational policy data models on 
+demand based on the specified retrieval conditions. 
+8 enforce policy the npep enforces the naas service operational policy data models based on the 
+trigger condition or request. 
+9.3 procedure of naas service operational policy from creation to enforcement 
+the interactions among the main elements of naas service operational policy framework from creation to 
+enforcement of the policy data model are described as follows in figure 9-1. 
+ 
+figure 9-1 – procedure from creation to enforcement of the 
+naas service operational policy data model 
+

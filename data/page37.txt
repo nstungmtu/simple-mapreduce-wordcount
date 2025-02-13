@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   29 
+14 general requirements for end-to-end cloud resource management 
+the general requirements  for end -to-end cloud resource management  derived from the use cases in 
+clause i.9 are as follows: 
+– manageability for a single cloud service: it is required that the csp be able to collect management, 
+telemetry and diagnostics and/or status information from the cloud computing systems used for 
+providing cloud services and report the information to the csc; 
+– manageability for multiple cloud services: it is recommended that multiple csps work together to 
+offer comprehensive status awareness and management info rmation to expand across multiple 
+cloud data centres as composite cloud services are built from multiple services implemented by 
+multiple cloud service providers, requiring the need for multi-cloud, end-to-end management data. 
+ note – for more information on end -to-end cloud computing  management, refer to [ itu-t y.3520] and 
+[itu-t y.3521]. 
+15 general requirements for cloud infrastructure 
+the general requirements for cloud infrastructure derived from the use cases in clause i.10 are as follows: 
+– resource abstraction and control : it is required for cloud infrastructure to provide resource 
+abstraction and control capability to cloud services; 
+– resource provisioning: it is required for cloud infrastructure to provide collaboratively processing, 
+storage and network resources to cloud services and supporting functions. 
+ note – functional requirements for cloud computing infrastructure are provided in [itu -t y.3510]. 
+16 general requirements for trusted cloud services 
+the general requirements for trusted cloud services  are derived from the use case in clause i. 11. the 
+following requirements are important for cscs in order to be able to select a trusted cloud service. these 
+requirements do not specify the levels and abilities of the cloud services, but require that the cloud services 
+which are treated as trusted cloud services should satisfy the following:  
+– governance for trusted cloud service: it is recommended for trusted cloud services to comply with 
+appropriate or local standards and best practices of corporate governance and include appropriate 
+mechanisms by which policies affecting the provision and use of cloud services are directed and 
+controlled; 
+ note 1 – part of this requirement refers to [itu-t y.3502]. 
+– management for trusted cloud service : it is recommended for trusted cloud services to include 
+appropriate mechanisms for administration, reporting, location of stored data, privacy, de -
+identification of data, etc. 
+– resiliency for trusted cloud service : it is  recommended for trusted cloud services to include 
+appropriate mechanisms by which an acceptable level of service can be maintained in the face of 
+faults (unintentional, intentional or naturally caused) affecting normal operation; 
+ note 2 – part of this requirement refers to [itu-t y.3502]. 
+– security for trusted cloud service : it is recommended for trusted cloud services to include 
+appropriate mechanisms for cryptography, attack resistance, intrusion detection, security incident 
+handling and reporting, etc. 
+ note 3 – part of this requirement refers to [itu-t x.1601]. 
+– availability for trusted cloud service : it is recommended for trusted cloud services to include 
+appropriate mechanisms for ensuring the appropriate level of access to the service and usability by 
+the csc; 

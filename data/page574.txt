@@ -1,0 +1,59 @@
+3 xaas  
+ 
+566  
+table iii.5 – service continuation for daas 
+legend use case 
+high-level figure 
+describing the use 
+case  
+ 
+derived 
+requirements  
+ 
+– resiliency to disaster 
+– service continuity 
+– monitoring and controlling daas 
+– maintaining daas user status 
+– csc environment backup 
+– daas client reconnection 
+– display redirection  
+ 
+table iii.6 – home application using daas 
+legend use case 
+use case title home application using daas 
+use case 
+description 
+ 
+cscs access the home applications and data hosted in virtual desktops which are created 
+within a daas platform in home. this type of service can support a computer for multi-users 
+with own virtual desktops in small area. cscs can access their own virtual machine with any 
+daas clients through a delivery protocol for virtual desktops in home. since csc's access is 
+taken in local area in this application, a certain access protocol can be adopted for the 
+dedicated network or the dedicated daas client. csp can distribute the package  for server 
+management and installation to support configuration functions by on -line or off-line ways. 
+high-level figure 
+describing the use 
+case  
+y .3503(14)_fiii.6
+virtual
+desktop
+delivery
+protocol
+protocol
+client
+client
+wan
+client
+csp: distribute on/offline
+and install daas server and
+management function.
+virtual desktop server
+v1m v4m
+connection manager system manager
+hypervisor
+network card protocol transfer
+module
+wan
+protocol
+ 
+

@@ -1,0 +1,18 @@
+xaas 3 
+ 
+  635 
+ 
+figure 3 – case iii: on-demand network support for the distributed end points 
+pre-conditions 
+(optional) 
+it is assumed that multi-tenant vpn gw in public cloud site is provided by the naas csp. 
+post-conditions 
+(optional) 
+ 
+derived requirement – overlapped private ip addresses (refer to clause 9.14) 
+– interworking among different vpn solutions (refer to clause 9.15) 
+– vpn connection in mobile environment (refer to clause 9.16) 
+– connection to naas csp's network through public internet (refer to clause 9.17) 
+ 
+  
+

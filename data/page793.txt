@@ -1,0 +1,22 @@
+video processing and storage 4 
+ 
+  785 
+ 
+figure 7-6 – high-level procedural flows for video metadata or image metadata storage 
+figure 7-6 shows the procedural flows of the video metadata or image metadata storage in cloud storage 
+system: 
+(1) the cu initiates a storage plan request and sends this request to the scu. 
+(2) the scu forwards this storage plan request to the cmu. 
+(3) the cmu authenticates the storage access permission and then sends this storage plan request  to 
+the csmu. 
+(4) the csmu authenticates the storage access permission and then sends this storage plan request to 
+the csau. 
+(5) the csau returns a response to the csmu when it is ready for this storage plan. 
+(6) the csmu returns the csau information to the cmu. 
+(7) the cmu sends a response to the scu. 
+(8) the scu forwards this response to the cu. 
+(9) when the cu receives the csau information, it sends the video metadata or image metadata 
+storage request to the csau. 
+(10) when the csau receives the storage request, it sends a request to the scu for the metadata 
+address. 
+

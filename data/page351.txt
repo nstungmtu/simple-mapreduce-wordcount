@@ -1,0 +1,53 @@
+ framework and requirements for cloud computing 1 
+ 
+   343 
+appendix ii 
+ 
+use cases of cloud computing based big data as analysis services 
+(this appendix does not form an integral part of this recommendation.) 
+table ii.1 – continuous product improvement 
+title continuous product improvement 
+description a software game manufacturing company would like to concentrate on application 
+development as a basic activity and the area of investment. in order to continuously 
+improve its products, the company needs an analytics solution to collect and analyse the 
+associated market and users' feedback. the company embedded monitoring functions in 
+the software games to observe users' behaviours, activities and preferences of available 
+game options. in addition a questionnaire is included in the game application for obtaining 
+offline users' feedback. other sources of information about the game perception are 
+internet forums, discussion lists and social communities, as well as press and television 
+publications. given the large number of game users, the company has a lot of information 
+to sift through every month. but the amount of data can change depending on the schedule 
+of new games publication, so proper planning and smart organization of feedba ck data 
+analysis would help the company's it team in their use of big data analytics to improve 
+business success.  
+the game company builds an analytical solution based on big data as a service (bdaas) by 
+defining: 
+– the schedule of bdaas activity depending on games publication time; 
+– requirements for data collection directly from the application using embedded 
+monitoring functions; 
+– requirements for collection of internet and press data related to the game in order to 
+analyse users' and market opinions and its evolution; 
+– requirements for social media data analysis of game users' opinions and direct exchange 
+between users; 
+– the access method to the user generated questionnaire data about the game;  
+– database selection for all data collected about the game; 
+– requirements for analytics and reporting to emphasize the opinions about the 
+application, identify strong and weak points, gaps and spare elements;  
+– monitoring criteria to analyse the intensity of new opinions on appearance generated 
+by users to identify the application maturity level, which allows decisions to be made 
+about ending involvement in the product; 
+– performance objectives to be reached by the bdaas system. 
+the game company orders a bdaas including the following elements:  
+– specification of data sources, which need to be serviced; 
+– data integration goals for overall analytics; 
+– database functionalities; 
+– data storage functionalities (data types, variety, lifetime); 
+– analytical tool functionalities; 
+– access to analytical tool configuration and customization; 
+– reporting schemes and integration with the company internal systems;  
+– data collected and results of analysis available only for the company, even if publicly 
+available data are used. 
+roles/sub-roles – the cloud service provider should support the csp:bdip role to collect, process, store 
+and delete data according to the csc (i.e., the game manufacturing company) 
+specifications. in addition, the csp should support the csp:bdap role to provide 
+analytical applications with integration of csc systems, as well as reporting solutions. 

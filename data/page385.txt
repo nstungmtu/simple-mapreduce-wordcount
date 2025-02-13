@@ -1,0 +1,40 @@
+ framework and requirements for cloud computing 1 
+ 
+   377 
+cimi cloud infrastructure management interface 
+cmp cloud management platform 
+co central office 
+cp cloud provider 
+csa cloud service agreement 
+csb cloud services brokerage 
+csc cloud service customer 
+csdl common schema description language 
+csn cloud service partner 
+csp cloud service provider 
+csu cloud service user 
+daas desktop as a service 
+dc direct current 
+dmtf distributed management task force 
+dsf data storage federation 
+emf metro ethernet forum 
+etsi european telecommunications standards institute 
+fcaps fault, configuration, accounting, performance, security 
+fn future network 
+ghg greenhouse gas 
+gns goods, networks and services 
+http hypertext transfer protocol 
+iaas infrastructure as a service 
+icp internet content provider 
+ict information and communication technology 
+iec international electrotechnical commission 
+iot internet of things 
+iptv internet protocol television 
+iso international organization for standardization 
+isp internet service provider 
+it information technology 
+lca life cycle assessment 
+mib management information base 
+naas network as a service 
+nerg network enhanced residential gateway 
+nfv network function virtualization 
+nfvi network function virtualization infrastructure 

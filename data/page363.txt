@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   355 
+big data technology reduces cost by: 
+− scale-out of data storage; 
+− identifying and reducing inefficiencies. 
+7 related technical areas of big data 
+7.1 cloud computing 
+cloud computing is a paradigm for enabling network access to a scalable and elastic pool of shareable physical 
+or virtual resources with self-service provisioning and administration on-demand. key characteristics of cloud 
+computing are [itu-t y.3500]: 
+− broad network access: a feature where physical and virtual resources are available over a network 
+and accessed through standard mechanisms that promote use by heterogeneous client platforms; 
+− measured service: a feature where the metered delivery of cloud services is such that usage can be 
+monitored, controlled, reported, and billed. this is an important feature needed to optimize and 
+validate the delivered cloud service; 
+− multi-tenancy: a feature where physical or virtua l resources are allocated in such a way that 
+multiple tenants and their computations and data are isolated from, and inaccessible to, one 
+another; 
+− on-demand self -service: a feature where a cloud service customer can provision computing 
+capabilities, as needed, automatically or with minimal interaction with the cloud service provider; 
+− rapid elasticity and scalability : a feature where physical or virtual resources can be rapidly and 
+elastically adjusted, in some cases automatically, to quickly increase or decrease resources; 
+− resource pooling: a feature where a cloud service provider's physical or virtual resources can be 
+aggregated in order to serve one or more cloud service customers. 
+big data needs on-demand high-performance data processing and distributed storage as well as a variety of 
+tools required to accomplish activities of the big data ecosystem. the burst nature of workloads makes cloud 
+computing more appropriate for big data challenges such as scalability and timeliness [itu-t y .3600]. 
+the relationship of cloud computing and big data mainly concerns two aspects: 
+1) cloud computing can support big data using cloud infrastructure and services; 
+2) big data services can provide public cloud analysis services, such as big data as a service (bdaas). 
+7.2 internet of things 
+the internet of things (iot) is a global infrastructure for the information society, enabling advanced services 
+by interconnecting (physical and virtual) things based on existing and evolving interoperable information and 
+communication technologies [itu-t y.2060]. 
+the iot can be perceived as a far -reaching vision with technological and societal implications. from the 
+perspective of technical standardization, the iot can be viewed as a global infrastructure for the information 
+society, enabling advanced services by interconnecting (physical and virtual) things based on existing and 
+evolving interoperable ict. through the exploitation of identification, data capture, processing and 
+communication capabilities, the iot makes ful l use of "things" to offer services to all kinds of applications, 
+while ensuring that security and privacy requirements are fulfilled. 
+big data in the context of iot has some specific characteristics which do not necessarily pertain to big data in 
+other te chnical areas. the prominent characteristics of big data in the context of iot are: high variety 
+(heterogeneity of data types and sources), high velocity (high frequency of data generation) and high 
+volatility (data generated in a non-persistent stateless manner). 

@@ -1,0 +1,32 @@
+security 7 
+ 
+  1041 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+information technology – security 
+techniques – code of practice for 
+information security controls based on 
+iso/iec 27002 for cloud services 
+recommendation itu-t x.1631 
+(07/2015) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

@@ -1,0 +1,25 @@
+framework and requirements for cloud computing 1 
+ 
+   179 
+for the physical machine, [itu-t y.3510] defines three requirements as follows. 
+– it is recommended to support hardware resource virtualization. 
+– it is recommended to support horizontal scalability (e.g. , adding more computing machines) and 
+vertical scalability (e.g., adding more resources with a computing machine). 
+– it is recommended to use power optimization solutions to reduce energy consumption. 
+it is inferred from the requirements that the physical machine supports scalable resources with consideration 
+of energy consumption.  
+figure 6-1 shows the conceptual diagram of a computing machine in [itu-t y.3510]. 
+ 
+figure 6-1 – concept of a computing machine in [itu-t y.3510] 
+a virtual machine provides virtualized resource pools using virtualization technologies specific to physical 
+resource types like cpu, memory, i/o and network from a physical machine. the virtual machine also covers 
+management issues. 
+since all cloud services have to reside and operate on physical machines, it is important for the cloud service 
+providers and especially for the infrastructure as a service (iaas) cloud service provider (csp) who will build 
+the cloud infrastructure, as well as for the manufacturer who will sell the cloud infrastructure, to identify 
+specific requirements of the physical machine. 
+6.2 introduction to the physical machine 
+the physical machine is a type of computing machine in which the c loud services must reside and operate  
+and that provides physical resources, such as processing, storage, networking, etc. 
+  
+

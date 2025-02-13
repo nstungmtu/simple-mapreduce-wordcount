@@ -1,0 +1,49 @@
+7 security  
+ 
+1078 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should request information 
+from the cloud service provider of the service 
+monitoring capabilities available for each cloud service. 
+ 
+the cloud service provider should provide capabilities 
+that enable the cloud service customer to monitor 
+specified aspects, relevant to the cloud service 
+customer, of the operation of the cloud services. for 
+example, to monitor and detect if the cloud service is 
+being used as a platform to attack others, or if sensitive 
+data is being leaked from the cloud service. appropriate 
+access controls should secure the use of the monitoring 
+capabilities. the capabilities should provide access only 
+to information about the cloud service customer's own 
+cloud service instances. 
+the cloud service provider should provide 
+documentation of the service monitoring capabilities to 
+the cloud service customer. 
+monitoring should provide data consistent with the 
+event logs described in clause 12.4.1 and assist with sla 
+terms. 
+cld.13.1 network security management 
+the objective specified in clause 13.1 of iso/iec 27002 applies. 
+cld.13.1.4 alignment of security management for virtual and physical networks 
+control 
+upon configuration of virtual networks, consistency of configurations between virtual and physical networks 
+should be verified based on the cloud service provider's network security policy. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+(no additional implementation guidance) the cloud service provider should define and document 
+an information security policy for the configuration of 
+the virtual network consistent with the information 
+security policy for the physical network. the cloud 
+service provider should ensure that the virtual network 
+configuration matches the information security policy 
+regardless of the means used to create the 
+configuration. 
+other information for cloud services 
+in a cloud computing environment built on virtualization technology, a virtual network is configured on virtual 
+infrastructure on a physical network. in such environments, inconsistency of network policies can cause 
+system outages or defective access control. 
+note – depending on the type of cloud service, the responsibilities for configuring a virtual network can vary between 
+a cloud service customer and a cloud service provider. 
+  

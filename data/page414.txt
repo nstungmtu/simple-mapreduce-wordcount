@@ -1,0 +1,55 @@
+1 framework and requirements for cloud computing  
+ 
+406  
+table 15-1 – iso/iec jtc 1 sc 38 deliverables 
+title of deliverable current status starting 
+date target date 
+iso/iec 22624, information technology – cloud 
+computing - taxonomy based data handling for cloud 
+services 
+wd 10/2017 ongoing 
+iso/iec tr 22678, information technologies – cloud 
+computing – guidance for policy development 
+wd 04/2017 ongoing 
+iso/iec tr 23186, information technologies – cloud 
+computing – framework of trust for processing of multi-
+sourced data 
+wd 04/2017 ongoing 
+iso/iec tr 23187, information technology – cloud 
+computing – interacting with cloud service partners 
+(csns) 
+wd 10/2017 ongoing 
+iso/iec tr 23188, information technology – cloud 
+computing – edge computing landscape 
+wd 10/2017 ongoing 
+iso/iec ts 23167, information technology – cloud 
+computing – common technologies and techniques 
+wd 12/2017 ongoing 
+• itu-t y.3500|iso/iec 17788: this recommendation | international standard provides an overview 
+of cloud computing along with a set of terms, definitions and concepts. it is a terminology 
+foundation for the cloud computing standardization work. 
+ this recommendation | international standard is applicable to all types of organizations 
+(e.g., commercial enterprises, government agencies, not-for-profit organizations). 
+ uri: https://www.iso.org/standard/60544.html 
+• itu-t y.3502|iso/iec 17789 : this recommendation | international standard specifies the cloud 
+computing reference architecture (ccra). the reference architecture includes the cloud computing 
+roles, cloud computing activities, as well as the cloud computing functional components and their 
+relationships. 
+ uri: https://www.iso.org/standard/60545.html  
+• iso/iec 19086 -1: this document seeks to establish a set of common cloud sla building blocks 
+(concepts, terms, definitions, contexts) that can be used to create cloud service level agreements 
+(slas). this document specifies: a) an overview of cloud slas; b) identification of the relationship 
+between the cloud service agreement and the cloud sla; c) concepts that can be used to build cloud 
+slas; and d) terms commonly used in cloud slas. this document is for the benefit and use of both 
+cloud service providers and cloud service customers. the aim is to avoid confusion and facilitate a 
+common understanding between cloud service providers and cloud service customers. cloud service 
+agreements and their associated cloud slas vary between cloud service providers, and in some 
+cases different cloud service customers can negotiate different contract terms with the same cloud 
+service provider for the same cloud service. this document aims to assist cloud service customers 
+when they compare cloud services from different cloud service providers. this document does not 
+provide a standard structure that can be used for a cloud sla or a standard set of cloud service level 
+objectives (slos) and cloud service qualitative objectives (sqos) that will apply to all cloud services 
+or all cloud service providers. this approach provides flexibility for cloud service providers in 
+tailoring their cloud slas to the particular characteristics of the offered cloud services. this 
+document does not supersede any legal requirement. 
+ uri: https://www.iso.org/standard/67545.html 

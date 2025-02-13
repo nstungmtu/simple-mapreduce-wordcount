@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+382  
+7.1.4 itu-t sg11 
+study group 11 is responsible for developing test specifications for testing conformance and interoperability 
+(c&i) for all types of networks, technologies and services, a testing met hodology and test suites for 
+standardized network parameters in relation to the framework for internet -related performance 
+measurement, as well as for existing technologies (e.g., ngn) and emerging technologies (e.g., fn, cloud, 
+sdn, nfv, iot, volte/vilte,  imt-2020 technologies, flying ad hoc networks, tactile internet, augmented 
+reality, etc.).  
+sg11 has been designated lead study group for establishing test specifications, conformance and 
+interoperability testing for all types of networks, technologies and services that are the subject of study and 
+standardization by all itu‑t study groups. 
+7.1.5 itu-t sg16 
+itu-t sg16 is advancing in its iptv recommendations, which have been successfully deployed in various 
+countries. however, bearing in mind that the busi ness ecosystem is continuously changing and video -
+oriented services became prosperous also out of an iptv domain, sg16 pursues more dynamic and adaptable 
+features for iptv specifications. 
+7.1.6 itu-t sg20 
+itu-t sg20 does not have any ongoing work item dire ctly related to "cloud computing" at this stage. 
+however, sg20’s activities may be linked to the activities in the area of cloud computing in the context of iot 
+and smart cities and communities. as an example, q4/20 " e/smart services, applications and supp orting 
+platforms" activities on supporting platform technologies for e/smart services, applications are related to 
+cloud computing. 
+7.1.7 itu-t sg2 
+one of the mandates of itu-t sg2 is "operational and management aspects of networks, including network 
+traffic management, designations and transport-related operations procedures". itu-t sg2 is also developing 
+cloud-computing-management-related recommendations. itu -t sg2 has developed "overview of end -to-
+end cloud computing management" and "require ments for service management in cloud -aware 
+telecommunication management system" recommendations. currently itu -t sg2 is developing 
+"requirements for resource management in cloud -aware telecommunication management system" and 
+"cloud-based network management functional architecture". 
+7.1.8 jtc 1 sc 38 (cloud computing and distributed platforms) 
+sc 38 is a standardization subcommittee in iso/iec jtc 1 of the international organization for standardization 
+(iso) and the international electrotechnical commission (iec). currently, there are two working groups under 
+sc 38, listed below [b-jtc 1 sc 38]. 
+– wg 3 (cloud computing fundamentals (ccf)) 
+• projects related to cloud computing service agreements; 
+• projects related to fundamental concepts, terminology and definitions for cloud computing; 
+• projects related to guidance on use of international standards in the development of policies 
+that govern or regulate cloud service providers and cloud services, and policies that govern the 
+use of cloud services in enterprise organizations; 
+• establish liaisons  and collaborate with other entities within jtc 1, sdos and consortia 
+performing work related to cloud computing. 
+– wg 5 (data in cloud computing and related technologies) 
+• standardization i n the area of data in cloud computing, distributed platforms, connected 
+devices and related technologies; 
+• establish liaisons and collaborate with other entities within and external to jtc 1 as appropriate. 

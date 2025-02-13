@@ -1,0 +1,24 @@
+1 framework and requirements for cloud computing  
+ 
+152  
+– history of cloud service co ntrol status validation : it is recommended that a csn: cloud service 
+broker manage history of validation results as well as required time for completing cloud service 
+controls. 
+– notification of result for request of cloud service control : it is recommende d that a csn: cloud 
+service broker provide notification of the result of cloud service control to a csc. 
+– detection of failures to meet the terms of the sla : it is required that a csn: cloud service broker 
+detect failures to meet the terms of the sla through monitoring and to verify the service level. 
+ note 8 – to detect failures to meet the terms of the sla, monitoring includes one or more measurable 
+information such as storage speeds, memory capacity and performance, computing speeds, network speeds, 
+service response time, etc. 
+ note 9 – if a failure to meet the terms of the sla is found in the integrated cloud service, a csn: cloud service 
+broker identifies the cloud service that caused the failure. 
+– prevention of service termination during m igration: it is recommended that a csn: cloud service 
+broker provide postponing of the termination of a running cloud service until the csn: cloud service 
+broker verifies ready status of a new service to prevent loss of data during migration process. 
+8 security considerations  
+security aspects for consideration within the cloud computing environment, are addressed by security 
+challenges for the csps as described in [itu-t x.1601]. in particular, [itu-t x.1601] analyses security threats 
+and challenges and de scribes security capabilities that could mitigate these threats and meet the security 
+challenges. 
+  

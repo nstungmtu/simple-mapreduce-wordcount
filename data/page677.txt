@@ -1,0 +1,23 @@
+xaas 3 
+ 
+     669 
+6.2 naas csc activities 
+activities of the naas csc role are described in clause 8.2 of [itu-t y.3502]. these activities are applicable to 
+the case of a naas csc involved in a relationship with a naas csp. taking the use cloud service activity  in 
+csc-csp relationship (see annex a of [ itu-t y.3502]), figure 6-1 illustrates the relationships between 
+functional components involved in the use cloud service activity of the csc:cloud service user sub-role.  
+ 
+figure 6-1 – use of a naas service 
+as for any cloud service, naas service capabilities (together with naas administration and business 
+capabilities) are positioned in the service layer of the cloud computing layering framework (see clause 9.2 in 
+[itu-t y.3502]). 
+naas services are made available to the csc:cloud service users via an endpoint and interface enabled by the 
+service access functional component. the  csc:cloud service user performs the use cloud service activity 
+through the user function functional component, which then invokes naas through the service access 
+functional component. the service access functional component performs any authentication of the 
+csc:cloud service us er and establishes authorization to use particular naas s ervice capabilities of naas. 
+if authorized, the service access functional component invokes the naas service's software implementation 
+which then handles the request. 
+naas ser vices provide self -service capabilities allowing the naas csc to control, manage, monitor and 
+optimize the resources offered as a service by the naas csp in a programmable manner. 
+

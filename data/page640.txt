@@ -1,0 +1,42 @@
+3 xaas  
+ 
+632  
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– centralized control view and abstraction view of resources (refer to clause 9.10) 
+– csc limited control of services (refer to clause 9.11) 
+ii.4.2.6 naas connectivity use case for virtual router 
+ 
+title naas connectivity use case for virtual router 
+description according to [itu-t y.3500], multi-tenancy is a key characteristic of the cloud service, 
+which requires the csp to provide the csc either shared physical or virtual resources or 
+both, such that multiple tenants and their resources and data are isolated fro m and 
+inaccessible to each other. these tenants share the same underlay physical resources, 
+including physical servers, physical storage and physical networks and each tenant is 
+assigned its own logical resources, including vms, virtual storage and virtual  networks. 
+these logical resources need to be isolated from each other and the virtual compute, 
+storage and network resources need to be integrated and matched in a fine granularity.  
+however, the legacy underlay physical routers and switches of csp's tran sport network 
+don't contain each tenant's state, including tenant's medium access control (mac) and ip 
+addresses and the network policies attached to the vm that belongs to the tenant. in other 
+words, the forwarding tables of the underlay physical routers and switches only contain the 
+ip prefixes or mac addresses of the physical servers. 
+the virtual router is software implemented router and can be implemented within the 
+virtualization infrastructure. the virtual router provides connectivity among virtual 
+machines, virtual switches, etc., and contains per tenant state and a separate forwarding 
+table for a virtual network. the forwarding table includes the ip prefixes (in the case of a 
+layer 3 overlay network) or the mac addresses (in the case of a layer 2 ove rlay network) of 
+vms. in addition, no single virtual router needs to contain all ip prefixes or all mac 
+addresses for all virtual machines in the csp's data centre. a given virtual router only needs 
+to contain those routing instances that are locally installed on the same server. 
+roles csc, csp 
+

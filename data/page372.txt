@@ -1,0 +1,39 @@
+1 framework and requirements for cloud computing  
+ 
+364  
+table 10-1 – standardization matrix of big data 
+ general/ 
+definition 
+common 
+requirement/ 
+use case 
+architecture 
+api, interface 
+and its 
+profile 
+data model, 
+format, 
+schema 
+others 
+(e.g., guideline) 
+others itu-t y.bdpi-mec 
+itu-t y.bddn-fr 
+itu-t y.iot-
+bigdata-reqts 
+itu-t y.dsf-reqts 
+itu-t y.bddn-req 
+iso/iec 20547-2 
+itu-t y.sdn-
+arch   iso/iec 19944 
+iso/iec 20547-5 
+note 4 – the bold letter items in table 10-1 are itu-t work in progress activities. 
+according to the gap analysis in table 10-1: 
+− itu-t has been focusing on 'general/definition', 'common requirement/use cases' with each 
+technical area described in vertical axis; 
+− it is expected that standardization efforts of itu-t will be moved to 'architecture' of each technical 
+areas; 
+− consideration on standardizing 'analysis/visualization' is needed; 
+− the entries under the column 'api, interface and its profile' of each of technical standardization 
+areas are empty. these areas are being developed by open source projects, so itu-t has to consider 
+establishing relationships with them. 
+  

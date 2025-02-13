@@ -1,0 +1,57 @@
+1 framework and requirements for cloud computing  
+ 
+288  
+y .3511(14)_f8-3
+p
+p
+s
+s
+p
+csp a
+inter-cloud federation
+service x
+csc 1
+service y
+csc 2
+csc 3 service z
+csp c
+csp b
+csp e csp d
+p
+s
+primary csp
+secondary csp
+s
+  
+figure 8-3 – csp a offering services as the primary csp  
+with the help of secondary csps  
+y .3511(14)_f8-4
+s
+p s
+p
+csp a
+inter-cloud federation
+service x
+csc 1
+service y
+csc 2
+csc 3 service z
+csp c
+csp b
+csp e csp d
+p
+s
+primary csp
+secondary csp
+ 
+figure 8-4 – csp e offering services as the primary csp 
+with the help of secondary csps 
+a given csp can act as a primary csp and secondary csp, i.e., using the services of secondary csps (e.g., csp 
+a in figure 8-3) and providing services to a primary csp (e.g., csp a in figure 8-4).  
+8.2.3 network connectivity  
+in order to deliver cloud services based on the use of inter-cloud computing, network connectivity is required 
+among the involved cscs, primary csps and secondary csps. specifically, this includes: 
+– connectivity between peer csps. by means of this connectivity, a primary csp can interwork with 
+the secondary csps to request a service (e.g., backup of data or transfer of virtual machines between 
+connected csps). in some cases, this connectivity is provided on -demand; the connectivity is 
+established instantaneously as the need arises and removed after the need disappears; 

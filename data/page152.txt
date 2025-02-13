@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+144  
+1 scope 
+this recommendation provides functional requirements for cloud service brokerage (csb). it addresses the 
+following subjects: 
+– overview of cloud service brokerage; 
+– functional requirements of cloud service brokerage; 
+– use cases of cloud service brokerage. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate the possibil ity of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stan d-
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t y.3500] recommendation itu-t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[itu-t y.3502]  recommendation itu-t y.3502 (2014), information technology – cloud computing – 
+reference architecture. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud service customer [itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services.  
+3.1.2 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.3 cloud service broker [itu-t y.3500]: cloud service partner that negotiates relationships between 
+cloud service customers and cloud service providers. 
+3.1.4 inter-cloud provider [itu-t y.3502]: a sub-role of cloud service provider that relies on one or more 
+peer cloud service providers to provide part or all of the cloud services offered to cloud service customers. 
+3.1.5 product catalogue [itu-t y.3502]: a listing of all the cloud service products which cloud service 
+providers make available to cloud service customers. 
+3.1.6 service level agreement [b-iso/iec 19086-1]: documented agreement between the cloud service 
+provider and cloud service customer that governs the covered service(s). 
+note – a cloud service agreement can consist of one or more parts recorded in one or more documents . 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 cloud service brokerage: a service that arbitrates, delivers, and manages cloud services provided by 
+csps for cscs. 
+note – cloud service brokerage is realized by cloud service broker w ith new activities. the new activities are (i) assist 
+csc for accessing service and (ii) check and control service status.   

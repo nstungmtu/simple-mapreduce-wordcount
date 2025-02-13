@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+306  
+appendix ii 
+ 
+use cases from cloud service providers' views 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes nine inter-cloud related use cases from the perspective of the cloud service provider.  
+introduction to participants 
+for the purpose of this analysis, the following participants are considered. each of the boxes in figure  ii.1 
+represents a cloud service provider (csp).  
+y .3511(14)_fii.1
+csc
+enterprise
+private
+cloud
+i4c csp d
+csp a
+csp c
+csp b
+i5c
+i1c
+i2c i2c
+i3c i2ci2c
+ 
+figure ii.1 – inter-cloud participants and relationships  
+participant description 
+user the human or machine end-user of the overall cloud computing service. 
+csp cloud service provider: party (e.g., information technology (it) or telecom 
+organization) which makes cloud services available. this may include any of 
+the cloud services (saas, caas, paas, iaas, and naas).  
+enterprise private cloud it resources within an enterprise that are constructed using cloud computing 
+technologies, but which are owned and operated by the enterprise for their 
+own internal use. 
+not included for inter-cloud – hosting services using non-cloud technologies. 
+– connectivity services not employing cloud technologies. 
+the above categorization of participants is for the purpose of use case analysis only and does not imply 
+specific business or regulatory situations. not all participants identified will be present in all situations. 
+some organizations may fulfil multiple participant roles.  
+ 
+relationship description 
+icn inter-cloud relationship (focus of study) 
+the relationships labelled on the diagram are used to clarify the use cases and do not necessarily indicate 
+information flows or interfaces that require standardization by itu. the relationships shown as dashed lines 
+(- - - -) in figure ii.1 are included for completeness and are outside the scope of inter-cloud. 

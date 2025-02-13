@@ -1,0 +1,23 @@
+ framework and requirements for cloud computing 1 
+ 
+   235 
+ 
+figure 6-3 – edge, regional, core cloud configuration in distributed cloud 
+table 6-1 describes the generic model of distributed cloud by composing two or more clouds among core, 
+regional and edge cloud. the end device in the figure represents cscs' devices  such as mobile phones, 
+personal computers (pcs), laptops, etc. 
+table 6-1 – distributed cloud configuration model 
+model description 
+model 0 
+ 
+model 0 is a shape of cloud computing. 
+model 1 
+(regional – core) 
+ 
+model 1 is a shape of a distributed cloud in which the core cloud and the regional 
+cloud are configured together. cloud services are provided from one or more 
+clouds among the regional cloud and the core cloud. 
+the regional cloud is hosted for a cloud service from the core cloud to a particular 
+region to support localization of cloud services. the regional cloud assists the core 
+cloud by mitigating traffic of cloud service. 
+

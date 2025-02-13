@@ -1,0 +1,48 @@
+ framework and requirements for cloud computing 1 
+ 
+   69 
+8.3.2.7 define deployment steps 
+the define deployment steps activity focuses on defining the steps for the deployment of  services. this 
+activity involves describing each of the steps that need to be taken by the operations and support teams in 
+order to get the service implementation deployed and ready for use by cloud service customers. 
+8.3.2.8 provide services 
+the provide services activity involves all steps required to deliver a cloud service  to its cloud service 
+customers. the provide services activity includes accepting and processing service invocations from the user 
+with associated authentication and authorization of the user identity. the processing of a service invocation 
+is done by means of an instance of the service implementation, which can in turn involve the composition 
+and calling of other services as determined by the design and configuration of the service implementation. 
+the provide services activity also involves the following: 
+• managing the service fault handling process; 
+• managing the business support system and the operational support system; 
+• maintaining the service and underlying infrastructure; 
+• automating system processes; 
+• managing long term capacity and performance trends; 
+• installing, configuring and performing maintenance updates on required hardware for compute, 
+storage and network capabilities for the cloud service provider's data centre; 
+• installing and configuring the software required to run the cloud provider's data centre and support 
+cloud service implementations. this includes applying fixes, updates and upgrades to that software, 
+as required. 
+8.3.2.9 deploy and provision services 
+the deploy and provision services activity involves getting a service implementation r unning and making it 
+available at a network end point accessible to the csc:cloud service users and making it able to handle service 
+requests from users. this activity includes: 
+• following the deployment processes defined for the service. 
+note – this activity also covers the processes required to un-deploy and de-provision a cloud service. 
+8.3.2.10 perform service level management 
+the perform service level management activity focuses on managing compliance with sla targets. this 
+activity involves:  
+• monitoring the metrics for each service and comparing them with the service targets required by 
+the sla for the service; 
+• taking action when the metrics do not meet the values required by the sla, to bring the service back 
+into compliance with the sla, for example, by following procedures laid down by the csp:cloud 
+service deployment manager; 
+• reporting a problem if compliance cannot be maintained. 
+8.3.2.11 manage business plan 
+the manage business plan activity involves: 
+• defining a service offering,  describing the technical aspects of the offering (functional interfaces, 
+slas,…) and the business aspects of the offering; 
+note – when establishing the service offering, the cloud service provider can take into account aspects related 
+to the interaction with peer cloud service providers. 
+• creating a business plan which covers the offering of one or more cloud services to customers, 
+handling both financial and technical aspects of the services, the target customer set, contracts and 
+slas, channels to market, sales targets; 

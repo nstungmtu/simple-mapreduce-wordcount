@@ -1,0 +1,39 @@
+ framework and requirements for cloud computing 1 
+ 
+   21 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 general requirements for cloud computing 
+7 general requirements for iaas 
+8 general requirements for naas 
+9 general requirements for daas 
+10 general requirements for paas 
+11 general requirements for caas 
+12 general requirements for bdaas 
+13 general requirements for inter-cloud computing 
+14 general requirements for end-to-end cloud resource management 
+15 general requirements for cloud infrastructure 
+16 general requirements for trusted cloud services 
+17 security considerations 
+appendix i – use cases of cloud computing 
+i.1 generic use case 
+i.2 iaas general use case 
+i.3 naas general use case 
+i.4 daas general use case 
+i.5 paas general use case 
+i.6 caas general use case 
+i.7 bdaas general use case 
+i.8 inter-cloud computing use case 
+i.9 end-to-end cloud resource management use case 
+i.10 cloud infrastructure use case 
+i.11 trusted cloud service use case 
+appendix ii – methodology and edition plan of this recommendation 
+ 
+ 

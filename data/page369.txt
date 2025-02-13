@@ -1,0 +1,51 @@
+ framework and requirements for cloud computing 1 
+ 
+   361 
+furthermore, w3c has the following data activities related to big data: 
+− rdf wg; 
+− linked data platform (ldp) wg; 
+− data on the web best practices wg; 
+− csv (comma-separated values) on the web wg. 
+table 9-3 lists the w3c deliverables and work items related to big data. 
+table 9-3 – w3c deliverables and work items related to big data 
+sub  
+group 
+reference 
+(note) 
+name/title status 
+csv on the web wg [w3c mvtd] metadata vocabulary for tabular data published 
+2015 
+csv on the web wg [w3c 
+mtdm] model for tabular data and metadata on the web published 
+2015 
+government linked 
+data wg [w3c dcat] data catalog vocabulary (dcat) published 
+2014 
+government linked 
+data wg [w3c oo] the organization ontology published 
+2014 
+linked data platform 
+wg 
+[w3c ldp 
+1.0] linked data platform 1.0 published 
+2015 
+rdf wg json-ld 1.0 a json-based serialization for linked data published 
+2014 
+rdf wg rdf 1.1 rdf 1.1 concepts and abstract syntax published 
+2014 
+note – clause i.3 contains a description of each cited reference. 
+9.4 oasis 
+the following organization for the advancement of structured information standards  (oasis) technical 
+committees (tcs) are relevant to big data [b-oasis]: 
+− oasis advanced message queuing protocol (amqp) tc: defines a ubiquitous, secure, reliable and 
+open internet protocol for handling business messaging; 
+− oasis key -value database applic ation interface (kvdb) tc: defines an open application 
+programming interface for managing and accessing data from database systems based on a key -
+value model; 
+− oasis message queuing telemetry transport (mqtt) tc: provides a lightweight publish/subscribe 
+reliable messaging transport protocol suitable for communication in machine to machine (m2m) 
+and iot contexts where a small code footprint is required and/or network bandwidth is at a 
+premium; 
+− oasis xml interchange language (xmile) for system dynamics tc:  defines an open xml protocol 
+for sharing interoperable system dynamics models and simulations. 
+table 9-4 lists the oasis deliverables and work items related to big data. 

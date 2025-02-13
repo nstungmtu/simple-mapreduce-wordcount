@@ -1,0 +1,36 @@
+xaas 3 
+ 
+     687 
+8.3.3.8 nf inventory 
+the nf inventory functional component holds information of all network function instances. this information 
+is updated during the lifecycle of the network function instances, reflecting changes resulting from execution 
+of management operations on these network function instances. 
+8.3.4 oss-ccs functional components 
+note – the following description is based on an adaptation of the oss functional components as described in 
+clause 9.2.5.3 of [itu-t y.3502]. 
+the oss-ccs functional components encompass the set of operational-related management capabilities that 
+are required in order to manage and control the virtual resources  for ccs necessary for the support of 
+network functions instances. these virtual resources are provided in naas csp 's infrastructure points of 
+presence (pops) (e.g. , data centres) in which network functions instances are deployed. typical virtual 
+resources for compute include virtual machines  (vms) or containers. see clause 7.8.3 for a description of 
+oss-ccs functionalities. 
+figure 8-6 shows the oss-ccs functional components. 
+ 
+figure 8-6 – oss-ccs functional components 
+8.3.4.1 ccs automation 
+the ccs automation functional component provides capabilities for deliver ing and orchestrati ng virtual 
+resources for cloud compute and storage. this includes orchestrati on of allocation, release, upgrade of 
+relevant infrastructure resources including optimizing of such resources usage, as well as managing the 
+association of the virtual resources to the physical resources. provisioning of these virtual resources can be 
+automated in order to support scalable resource operations, including configuration. 
+8.3.4.2 ccs monitoring and reporting 
+the ccs monitoring and reporting functional component provides capabilities for: 
+– reporting on the behaviour of the naas csp's system, which can take t he form of alerts for 
+behaviour which has a time -sensitive aspect (e.g., the occurrence of a fault, the completion of a 
+task), or it can take the form of aggregated forms of historical data (e.g., service usage data); 
+– storing and retrieving monitoring and event data as logging records. 
+there is a need to guarantee the availability, confidentiality and integrity of the logging records held by the 
+ccs monitoring and reporting functional component. for multi-tenant cloud services, there is also a need to 
+design access to the records so that particular tenants can only gain access to information about their own 
+tenancy and about no other tenancy. 
+

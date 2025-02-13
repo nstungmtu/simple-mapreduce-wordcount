@@ -1,0 +1,31 @@
+3 xaas  
+ 
+624  
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+csc-b needs to accelerate network traffic saturated with business applications.  
+post-conditions 
+(optional) 
+csc-b used virtual wan acceleration solution provided by naas csp to satisfy the dynamic 
+business needs. 
+derived 
+requirements 
+– on-demand self-service 
+– multi-tenancy 
+– resource pooling 
+– rapid elasticity and scalability 
+– measured service 
+– performance assurance and monitoring 
+– co-existence and compatibility with csc's legacy network equipment  
+– interoperability support for management and orchestration 
+– security and resilience 
+– performance (refer to clause 7.1) 
+– operation and management (refer to clause 7.2) 
+note – the first nine requirements belong to general requirements of naas which are 
+provided in [itu-t y.3501]. 
+ 
+ 
+  
+

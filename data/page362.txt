@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+354  
+big data is used in many fields, where data processing is characterized by scale (volume), diversity (variety), 
+speed (velocity) and possibly others like credibility (veracity) or business value, if traditional methods and 
+tools are not efficient. these characteristics, usually called v's, can be explained as following [itu-t y .3600]: 
+− volume: refers to the amount of data collect ed, stored, analyzed and visualized, which big data 
+technologies need to resolve; 
+− variety: refers to different data types and data formats that are processed by big data technologies; 
+− velocity: refers to both how fast the data is collected and how fast the data is processed by big data 
+technologies to deliver expected results. 
+note – additionally, veracity refers to the uncertainty of data, and value refers to the business results from gaining new 
+information using big data technologies. other v's can be considered as well. 
+taking into account the described above v's characteristics, big data technologies and services can resolve 
+many new challenges, and can also create more new opportunities than ever before [itu-t y .3600]: 
+− heterogeneity and incompleteness : data processed using big data can miss some attributes or 
+introduce noise into data transmission. even after data cleaning and error correction, some 
+incompleteness and some errors in data are likely to remain. these challenges can be managed 
+during data analysis [b-cra]. 
+− scale: processing of large and rapidly increasing volumes of data is a challenging task. using data 
+processing technologies, the data scale challenge is mitigated by evolution of processing and storage 
+resources. however, nowadays data volumes are scaling faster than res ources are evolving. 
+technologies such as parallel databases, in -memory databases, non -sql databases and analytical 
+algorithms resolve this challenge. 
+− timeliness: the acquisition rate and timeliness, to effectively find elements in a limited-time period 
+that meet a specified criterion in a large dataset, are new challenges faced by data processing. other 
+new challenges are related to the types of criteria specified, and need to devise new index structures 
+and responses to the queries having tight response-time limits. 
+− privacy: data about human individuals, such as: demographic information, internet activities, 
+commutation patterns, social interactions, energy or water consumption, are being collected and 
+analyzed for different purposes. big data technolo gies and services are challenged to protect 
+personal identities and sensitive attributes of data throughout the entire data processing process, 
+while respecting applicable data retention policies. 
+positive resolution of the above challenges opens new oppor tunities to discover new data relationships, 
+hidden patterns or unknown dependencies [itu-t y .3600]. 
+6.2 benefits of big data 
+big data technologies can provide many benefits such as data accessibility, productivity of business processes, 
+and cost reduction to private via public sector. 
+big data technology increases data accessibility by: 
+− unlocking significant value by making information transparent; 
+− creating and storing transactional data in digital form; 
+− reducing time for finding/accessing the correct data. 
+big data technology improves productivity by: 
+− real-time monitoring and forecasting of events that impact either business performance or 
+operations; 
+− timely insights from the vast amount of data; 
+− identifying significant information that can improve decision quality or minimize risks; 
+− creating new service models using big data analytics. 

@@ -1,0 +1,48 @@
+security 7 
+ 
+  977 
+9.1 trust model 
+a common trust model is necessary for any system where mult iple providers cooperate to provide a 
+trustworthy service. 
+because of the highly distributed and multi -stakeholder nature of cloud computing, the cloud computing 
+environment will need to incorporate an overall trust model. this trust model will enable the creation of 
+islands and/or federations of trusted entities, such that disparate elements of the system will be able to 
+authenticate the identity and authorized rights of other entities and components. each island or federation 
+of trust will be based on one  or more trusted authorities (e.g., a public key infrastructure (pki) certificate 
+authority). 
+multiple trust models exist today for both cloud and non -cloud purposes. the specific trust model to be 
+adopted is out of the scope of this recommendation. 
+9.2 identity and access management (iam), authentication, authorization and transaction audit 
+multiple administrators and users are involved in cloud computing services, and these cloud computing 
+services are accessed and used internally (csps) and externally (c scs). identity management is needed, not 
+only to protect identities, but also to facilitate the access management, authentication, authorization and 
+transaction audit processes in such a dynamic and open cloud computing infrastructure. 
+one or more common trust models (clause 9.1) are needed by iam for the authentication of identities, and 
+by developers, hypervisors and other system components for the authentication of system components such 
+as downloaded software modules, applications or datasets. 
+iam contributes to the confidentiality, integrity and availability of services and resources, and thus becomes 
+essential in cloud computing. 
+furthermore, iam may enable the implementation of single sign-on and identity federation for clouds using 
+different authentication mechanisms or distributed in different security domains. 
+transaction audit protects against repudiation, enables forensic analysis after a security incident, and acts as 
+a deterrent to attacks (both intrusion and insider). transaction audit implies more than simple logging, but 
+also includes active monitoring to flag up suspicious activities. 
+9.3 physical security 
+physical security needs to be achieved. a ccess to premises containing csp equipment is restricted to 
+authorized persons and only to those areas directly necessary for their job functions; this is part of the iam 
+process. however, the extent of physical security will depend on the value of the data and the extent to 
+which multiple customers are permitted access. 
+9.4 interface security 
+this capability secures interfaces open to cscs and/or other contracted csps through which various kinds of 
+cloud computing services are delivered, and secures communications based on these interfaces. mechanisms 
+available to ensure interface security include but are not limited to: unilateral/mutual authentication, 
+integrity checksum, end-to-end encryption, digital signature, etc. 
+9.5 computing virtualization security 
+computing virtualization security refers to the security of the whole computing virtualization environment. 
+it protects the hypervisor from attacks, protects the host platform from threats originating in the computing 
+virtualization environment, and keeps vms secure throughout the life -cycle. specifically, this capability 
+enables vm isolation , and protects the vm images and suspended vm instances in st orage and during 
+migration. 
+for csp, the hypervisor often provides protection for hosted vms, for example, by providing anti-virus and 
+anti-spam processing inside hypervisors, so that vms do not need to implement these functions separately. 
+the hypervisor will normally be configured with the minimum set of services. unnecessary interfaces and 

@@ -1,0 +1,50 @@
+intercloud and interoperability 5 
+ 
+  799 
+the governance of trusted inter-cloud is a continuous process to monitor particular indicators from systems 
+(e.g., performance, conformance), evaluate proposals and plans, and direct strategy and policies between 
+the governance body and governance executive. the governance body takes into account external trusted 
+inter-cloud conditions related to business pressures, regulatory o bligations, source of authority, stake -
+holders' expectations and business needs.  
+the trusted inter-cloud governance is based on the following principles: 
+– responsibility, which indicates clearly defined roles for demand and support of the environment; 
+– strategy, which is strongly related to phase of plans, builds and runs trusted inter -cloud enabled 
+business;  
+– acquisition of inter-cloud data, which depends on the business case; 
+– performance, which has to be realized according to slas for cloud services; 
+– compliance, which covers the necessary respect of laws and regulations; 
+– human behaviour, which addresses the dynamics of interaction in the governance process. 
+the governance of trusted inter-cloud can be considered with respect to internal or external aspects. internal 
+cloud governance allows a csp to control its own processes in a way  that it can give assurance and 
+transparency to other csps participating in a trusted inter -cloud environment according to specified 
+expectations in terms of cloud computing cross-cutting aspects [itu-t y.3502].  
+external cloud governance spans processes of monitoring and controlling the inter -cloud environment to 
+reach objectives of trust. this can refer to a service level agreement which provides detailed information 
+about functional and non-functional aspects of cloud services.  
+for both internal governance and external governance of trusted inter-cloud, these refer to matters that are 
+decided by the governing board of a csp, such as how policy decisions are made, and how these are converted 
+into policies that can be implemented in the csp’s management system. 
+6.2 management of trusted inter-cloud 
+management in trusted inter-cloud computing environments is based on access control mechanisms and a 
+trust management system. they are complementary to each other. appropriate access control mechanisms 
+guarantee a level of confidentiality and trust between a csc and csps or between csps. 
+access control mechanisms determine authorization of shifting physical control over applications, services, 
+resources and data. an authorization, authentication and accounting (aaa) module to control the access to 
+cloud computing resources relies on a customisable access control policy model and its implementation 
+requirements. the specification of the access control mechanism is usually predefined in an access control 
+policy. this specification is used to specify permissions and access control to cloud computing resources and 
+cloud services.  
+the traditional access c ontrol mechanisms (e.g., identity -based, lattice -based, role -based, organisation -
+based, attribute-based) cannot be successfully used in trusted inter -cloud computing due to high dynamics 
+in cloud computing environments. therefore, new mechanisms based on mixing traditional functionality can 
+be used to control cross-tenant at the policy administration level. 
+the objectives of access control mechanisms in trusted inter-cloud environment are as follows: 
+– expressivity as the ability to provide appropriate mech anisms of access control policies. this 
+depends on the implementation; 
+– granularity as the ability to decompose an access control mechanism into smaller size components. 
+this is in line with granularity of the cloud computing resources and cloud services as well as the sla 
+established between the csc and csp or between csps; 
+– context-awareness as the ability of an authorization mechanism to take context information into 
+consideration when making access decisions. context awareness is significant in trusted inter-cloud 
+environments due to their distributed nature: access to inter-cloud from different locations, during 
+different time periods, etc. 

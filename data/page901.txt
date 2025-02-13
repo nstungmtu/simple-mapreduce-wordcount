@@ -1,0 +1,57 @@
+intercloud and interoperability 5 
+ 
+  893 
+ii.1.8 test case: vm template 
+table ii.8 shows the test case for vm template. 
+table ii.8 – test case: vm template 
+vm template test description 
+test purpose to verify that the csc creates vms by vm template, including open virtualization format 
+(ovf). 
+reference [itu-t y.3513] clause 7.1.11 
+test sequence step type description result 
+1 stimulus the csc creates a vm template by exporting a vm as vm 
+template in ovf format.  
+ 
+2 check the exported vm template conforms to the format of ovf.  
+3 stimulus the csc imports the vm template to create a new vm.  
+4 check the configuration and data of the new vm created in step 3 
+are consistent with the vm template.  
+ 
+5 stimulus the csc updates the vm template by modifying the vm 
+template's name. 
+ 
+6 check the name of vm template changes to a specified name.  
+7 stimulus the csc deletes the vm template.  
+8 check the vm created which is based on the vm template still 
+exists. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.9 test case: vm scaling 
+table ii.9 shows the test case for vm scaling. 
+table ii.9 – test case: vm scaling 
+vm scaling test description 
+test purpose to verify that the csc changes the scale of vms dynamically based on the scaling policies 
+and monitored events of the vm; this includes configuration change (e.g., cpu, memory, 
+network bandwidth increased or decreased) and components change (new vm added or 
+removed).  
+reference [itu-t y.3513] clause 7.1.4 
+test sequence step type description result 
+1 stimulus the csc configures vm a; checks the vm status, such as cpu, 
+memory resources allocation and its components.  
+ 
+2 stimulus the csc configures the configuration change based scaling 
+policy that when memory consumed is more than 90%,  
+it allocates twice the memory for vm a automatically. 
+ 
+3 stimulus the csc runs an application on vm a to perform more than 
+90% consumption of memory on vm a to trigger auto-
+scaling. 
+ 
+4 check vm a is allocated with twice as much memory as before.  
+5 stimulus the csc configures the components change based scaling 
+policy that when the cpu has consumed more than 90%, add 
+a new vm with the same resource configuration as vm a 
+automatically. 
+ 

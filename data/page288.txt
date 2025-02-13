@@ -1,0 +1,18 @@
+1 framework and requirements for cloud computing  
+ 
+280  
+ii.3 use case 3 – intermediary 
+ii.4 use case 4 – platforming 
+ii.5 use case 5 – offloading 
+ii.6 use case 6 – virtual data centre expansion 
+ii.7 use case 7 – distributed media 
+ii.8 use case 8 – cloud storage expansion 
+ii.9 use case 9 – service delivery platform components 
+appendix iii – abstract service offering models for inter-cloud computing 
+iii.1 service item expansion 
+iii.2 service operation enhancement 
+iii.3 consideration on network connectivity 
+appendix iv – inter-cloud security aspects 
+bibliography 
+ 
+ 

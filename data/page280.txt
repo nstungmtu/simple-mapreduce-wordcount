@@ -1,0 +1,46 @@
+1 framework and requirements for cloud computing  
+ 
+272  
+for securing the virtualized environment. security and compliance monitoring needs end-to-end vi activity 
+monitoring for: 
+• vm sprawl : metrics to monitor vm activit ies as they get cloned, copied and, due to network 
+migration, transfers to different storage media. 
+• configuration metrics: virtual server configuration monitoring to ensure that they are compliant 
+with standards and hardening guidelines, vm configuration monitoring for software licensing policy 
+enforcement and vi events that help enforce and detect violations of policy. this includes individual 
+security and organization security policy monitoring. 
+• access control: access control monitoring and reports for role-based access control enforcement.  
+• compliance monitoring: metrics to validate audit and certification. 
+ii.5 monitoring and metering for charging and billing 
+in a virtualized environment the infrastructure is centralized and it is important to measure resource usage 
+by different cscs. this information can be used to distribute, amortize and in some cases, recover  the cost 
+correctly across the organization through a proper chargeback mechanism. chargeback could be based on 
+dynamic parameters such as resource usage and/or fixed parameters. to compute the correct chargeback 
+information in a dynamic virtualized enviro nment, it is important to monitor virtual and physical resource 
+usage and allocations, as well as to be able to normalize the measurement across the cloud infrastructure. 
+the monitoring and metering data for service charging should be collected and kept ac cording to sla 
+objectives. 
+chargeback monitoring needs end-to-end vi activity monitoring and service usage metering for: 
+• standard metrics: all chargeable resource metrics like cpu usage, memory usage, storage usage 
+and network usage metrics. 
+• key vi eve nts: vi events for virtual resource life -cycle events like start date and end date of vm 
+creation and allocation. 
+• configuration monitoring: vm configuration in terms of assigned resources and reservations and 
+also applications installed to account for software licensing costs.  
+• vm usage metrics: vm uptime, number of vms can vary depending on how the charging model is 
+employed in the organization. 
+ii.6 monitoring in support of cloud services 
+the need for application and service monitoring is important in the cloud computing environment, especially 
+for sla/qos evaluation because the application or service may have problems even if the vm or the physical 
+server on which it  is running looks normal. application and service needs to monitor the basic health of  
+application servers with the help of application-specific response time and throughput metrics. the analytics 
+on this data could be used to correlate the application-observed and service-observed metrics to all layers of 
+the infrastructure to perform a ro ot-cause analysis in the event something going wrong. application and 
+service performance monitoring using the capture of network traffic is used more and more commonly in 
+this area. 
+there are a few other aspects to virtual infrastructure monitoring that a dd to the complexity of building a 
+comprehensive monitoring solution. all kinds of virtualization software allow the api to be able to collect 
+metrics. however, each kind of virtualization software has its own object models. there are wide differences 
+in features and even the behaviour of the common features. therefore, the analytics that are to be built on 
+the collected metrics must be developed for each kind of virtualization software. 
+  

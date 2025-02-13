@@ -1,0 +1,95 @@
+intercloud and interoperability 5 
+ 
+  907 
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+7 7.1.1 physical 
+machine 
+– it is recommended that the iaas csp 
+provides specific hardware specifications of 
+a physical machine to the csc according to 
+the sla. 
+– 7.12 interoperability testing of 
+physical machine life cycle 
+management between the csc and 
+csp 
+8 
+ 
+– it is recommended that the iaas csp 
+provides the csc with operation handling 
+mechanisms related to a physical machine, 
+such as start, shutdown, hibernate and 
+wakeup. 
+– 7.12 interoperability testing of 
+physical machine life cycle 
+management between the csc and 
+csp 
+9 
+ 
+– it is recommended that the iaas csp 
+provides physical machine related 
+information in response to queries from the 
+csc. 
+– 7.14 interoperability testing of 
+physical machine configuration 
+inquiring between the csc and csp  
+10 7.1.2 virtual 
+machine 
+– it is recommended that the iaas csp 
+provides a virtual machine based on the vm 
+template. 
+– 7.8 interoperability testing of vm 
+template between the csc and csp 
+11 
+ 
+– the iaas csp can optionally provide a virtual 
+machine based on the configurations 
+specified by the csc. 
+– 7.1 interoperability testing of vm 
+configuration between the csc and 
+csp 
+12 
+ 
+– it is required that the iaas csp provides the 
+csc with operations handling mechanisms 
+related to the vm, including, but not limited 
+to, create, delete, start, shutdown, suspend, 
+restore, hibernate and wakeup. 
+– 7.11 interoperability testing of vm 
+life cycle management between the 
+csc and csp 
+13 
+ 
+– it is recommended that the iaas csp 
+provides vm-related information in response 
+to queries from the csc. 
+– 7.13 interoperability testing of vm 
+configuration inquiring between the 
+csc and csp 
+14 7.1.3 vm 
+migration 
+– it is recommended that the iaas csp 
+provides a virtual machine with migration 
+functions. based on migration policies, the 
+virtual machine can be migrated from one 
+host to another. 
+– 7.2 interoperability testing of vm 
+migration between the csc and csp 
+15 7.1.4 vm 
+scaling 
+– it is recommended that the iaas csp 
+provides a virtual machine with scaling 
+functions based on the scaling policies and 
+monitored events of the virtual machine. 
+– 7.9 interoperability testing of vm 
+scaling between the csc and csp 
+16 7.1.5 vm 
+snapshot 
+– it is recommended that the iaas csp 
+provides a virtual machine with snapshot 
+functions. schedule of snapshots taken from 
+the virtual machine can be performed 
+automatically or manually. 
+– 7.3 interoperability testing of vm 
+snapshot between the csc and csp 

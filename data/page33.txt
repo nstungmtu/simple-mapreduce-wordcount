@@ -1,0 +1,43 @@
+ framework and requirements for cloud computing 1 
+ 
+   25 
+hd high definition 
+iaas infrastructure as a service 
+naas network as a service 
+paas platform as a service 
+pii personally identifiable information 
+qoe quality of experience 
+qos quality of service 
+saas software as a service 
+sdk software development kit 
+sla service level agreement 
+vlan virtual local area network 
+vm virtual machine 
+5 conventions  
+in this recommendation: 
+the keywords " is required " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed.  
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the vendor's implementation must 
+provide the option and the feature can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the feature and still claim conformance with the 
+specification. 
+in the body of thi s document and its appendixes, the words shall, shall not, should and may sometimes 
+appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, is 
+recommended and can optionally. the appearance of such phrases or keywords in an appendix or in material 
+explicitly marked as informative are to be interpreted as having no normative intent. 
+for readability, the short titles are attached to the requirements for referring to use cases in appendix i. 
+6 general requirements for cloud computing 
+the general requirements for cloud computing derived from the use cases in clause i.1 are as follows: 
+– service life -cycle management : it is required that the cloud service provider ( csp) supports 
+automated service provisioning, modification and termination during the service life-cycle; 
+– regulatory: it is required that all applicable laws and regulations be respected, including those 
+related to the protection of personally identifiable information (pii); 
+– security: it is required that the cloud computing systems  provided by the csp  be appropriately 
+secured to protect the interests of all involved parties (e.g., persons and organizations); 
+– accounting and charging : it is recommended that cloud service prov ided by the csp supports 
+various accounting and charging models and policies; 
+– efficient service deployment : it is recommended that cloud service provided by the csp enables 
+efficient use of resources for service deployment; 

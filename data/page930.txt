@@ -1,0 +1,48 @@
+5 intercloud and interoperability  
+ 
+922  
+the ippm working group works on testing methodology related aspects of cci. 
+the ippm working group develops and maintains standard metrics that can be applied to the quality, 
+performance, and reliability of internet data delivery services and applications running over transport layer 
+protocols (e.g., tcp, udp) over ip. 
+some cci related individual internet drafts have also  been submitted to ietf. 
+the draft cloud reference framework presents a cloud reference framework that intends to provide a basis 
+for designing interoperable cloud services and their integration into existing open internet and enterprise it 
+infrastructures [draft-khasnabish-cloud-reference-framework]. 
+table 5-5 – ietf documents and work items related to cci 
+reference name/title status 
+ietf rfc 2330 framework for ip performance metrics published 
+ietf rfc 4110 a framework for layer 3 provider-provisioned virtual 
+private networks 
+published 
+ietf rfc 6749 the oauth 2.0 authorization framework published 
+i-d. draft-ietf-scim-core-schema-03 system for cross-domain identity management: core 
+schema 
+draft 
+i-d. draft-khasnabish-cloud-reference-
+framework 
+cloud reference framework draft 
+5.1.6 iso/iec jtc1 
+iso/iec jtc 1 is the joint technical committee 1 of the international organization for standardization (iso) 
+and the international electrotechnical commission (iec). its purpose as a technical committee is to develop, 
+maintain, promote, and facilitate standards in the fields of it and informati on and commun ication 
+technology (ict). 
+the scope of jtc1/sc38 (subcommittee 38 of jtc1, distributed application platforms and services (daps)) is 
+standardization for interoperable daps including web services, service oriented architecture (soa) and cloud 
+computing. 
+the wg3 (working group on cloud computing) of jtc1/sc38 works on definitions related aspects of cci. 
+jtc1/sc38 developed overview and vocabulary [ iso/iec wd 17788 ] and reference architecture of cloud 
+computing [iso/iec dis 17789]. 
+iso/iec jtc 1/sc 38 (specifically wg 3: cloud computing) and itu-t/sg 13 form the collaborative teams on 
+cloud computing overview and vocabulary (ct -ccvocab) and cloud compu ting reference architecture 
+(ct-ccra). the purpose of the collaboration is to develop a common text, in the for m of a new standard, 
+between the two groups based on two documents: draft new recommendation y.ccdef cloud computing 
+definition and vocabulary (from itu-t q.26/13), and iso/iec wd 17788 – cloud computing vocabulary and 
+iso/iec wd 17789 – cloud computing reference architecture (from iso/iec jtc 1/sc 38/wg 3). 
+cloud computing interoperability (cci) is defined in ct-ccvocab as follows: 
+interoperability in the context of cloud computing includes the ability of a cloud service customer (csc) to 
+interact with a c loud service and exchange information according to a prescribed method and obtain 
+predictable results. 
+interoperability also includes the ability for one cloud service to work with other cloud services, either 
+through a cloud service provider -to-provider r elationship, or where a csc uses multiple different cloud 
+services in some form of composition to achieve their business goals. 

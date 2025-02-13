@@ -1,0 +1,60 @@
+framework and requirements for cloud computing 1 
+ 
+   199 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+7 memory reliability – [b-ocp 2s] provides memory reliability as 'setting for ecc error threshold: 
+available settings are 1, 4, 10 and 1000. the default setting is 1 for evt, dvt 
+and pvt and 1000 for mp. setting for ecc error event log threshold: 
+available settings are disabled, 10, 50, 100. the default setting is 10' in 
+clause 6.3.2. 
+– [b-ocp 2s] provides memory reliability as 'both correctable ecc and 
+uncorrectable ecc errors should be logged into sel. each log entry should 
+indicate location of dimm by cpu socket#, channel # and slot #. memory 
+error reporting need to be tested by both xdp injection and reworked ecc 
+dimm' in clause 9.11.1. 
+– [b-ocp ambh] provides memory reliability as 'setting for ecc error 
+threshold, available settings are 1, 4, 10 and 1000' in clause 5.5. 
+– [b-ocp ambh] provides memory reliability as 'cpu/memory errors: both 
+correctable ecc and uncorrectable ecc errors should be logged into event 
+log. error categories include dram, hypertransport link and l3 cache' in 
+clause 5.10.1. 
+ [b-ocp hsch] provides memory reliability as 'memory correctable ecc: the 
+threshold value is 1000. when the threshold is reached, the bios logs the 
+event and includes the physical dimm location.' in clause 8.5.10. 
+– [b-ocp imbh] provides memory reliability as 'ddr3 direct attached memory 
+support on cpu0 and cpu1 with: 4 channel ddr3 registered memory 
+interface on processors 0 and 1; 2 ddr3 slots per channel per processor 
+(total of 16 dimms on the motherboard); rdimm/lv-rdimm (1.5v/1.35v), 
+lrdimm and ecc udimm/lv-udimm(1.5v/1.35v); single, dual and quad 
+rank dimms ; ddr3 speeds of 800/1066/1333/1600 mhz; up to maximum 
+512 gb memory with 32gb rdimm dimms' in clause 4.3. 
+– [b-ocp imbh] provides memory reliability as 'cpu/memory errors: both 
+correctable ecc and un-correctable ecc errors should be logged into the 
+event log. error categories include dram, link and l3 cache' in clause 5.9.1. 
+– [b-ocp imbh] provides memory reliability as 'memory correctable ecc: the 
+threshold value is 1000. when the threshold is reached, the bios should log 
+the event including dimm location information and output dimm location 
+code through the debug card' in clause 5.9.2. 
+8 supporting various 
+types of memory 
+– [b-ocp 2s] provides supporting of various types of memory as 'besides 
+traditional ddr4 dimm, the motherboard shall support non-volatile dimm 
+(nvdimm) on all dimm slots' in clause 5.3.3. 
+– [b-ocp ambh] provides supporting of various types of memory as  'ddr3 
+direct attached memory support on cpu0 and cpu1 with: o 4 channels ddr3 
+registered memory interface on each cpu; 2 ddr3 slots per channel per 
+processor (total of 16 dimms on the motherboard); rdimm/lv-rdimm 
+(1.35v/1.25v), lrdimm and udimm/lv-udimm (1.35v/1.25v); sr, dr and 
+qr dimms; ddr3 speeds of 800/1066/1333/1600; up to maximum 512gb 
+memory with 32gb rdimms' in clause 4.3. 
+– [b-ocp hsas] provides supporting of various types of memory as  'dimm 
+type: rdimm ddr4, lrdimm 3ds ddr4, lrdimm ddr4' in clause 8. 
+– [b-ocp imbh] provides supporting various types of memory a s 'ddr3 direct 
+attached memory support on cpu0 and cpu1 with: 4 channel ddr3 
+registered memory interface on processors 0 and 1; 2 ddr3 slots per 
+channel per processor (total of 16 dimms on the motherboard); rdimm/lv -
+rdimm (1.5v/1.35v), lrdimm and ecc udimm/lv-udimm(1.5v/1.35v); 
+single, dual and quad rank dimms ; ddr3 speeds of 800/1066/1333/1600 

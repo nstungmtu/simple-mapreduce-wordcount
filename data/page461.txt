@@ -1,0 +1,45 @@
+cloud computing management 2 
+ 
+  453 
+3.2.3 management service composing function 
+management service composing function provides the ability of composing several small management 
+functions into a new  complex management service, so that they can easily provide a new type of 
+management functionality without having to change the implementation of the component management 
+functions. 
+3.2.4 management service deployment function 
+management service deploymen t function provides the ability of deploying required services for a 
+management task. each management task may need the support of multiple management services, and for 
+those services which are not ready for use will appropriately be deployed into some virtualized resources on 
+the cloud infrastructure. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+it internet technology 
+fs function set 
+ne network element 
+nef network element function 
+p&c perception and control 
+vm virtual machine 
+5 conventions 
+none. 
+6 introduction 
+the current network m anagement and technologies have the we ak point that when new management 
+requirements are proposed, it is difficult to provide a new management service based on the existing services 
+using the traditional management technology. it is also hard to compose a small system with simplified 
+management functions on demand. 
+cloud computing has become one of the mainstream technologies used in telecommunication networks as 
+well as internet services. cloud computing technology has the following benefits: high usage rate of physical 
+resources, reliable service provision, high extensibility, cost efficient, and service on demand etc. when 
+introducing cloud computing technology into network  management domain, it is easy to solve the above 
+problems, and it will be very flexible to provide new management services.  
+when introducing cloud into network management, it means that different management function blocks can 
+be placed into virtual resources, and the virtualized resources can be grouped together to form a composed 
+management service that are more powerful to provide complex management functions. it is also capable of 
+dealing with large amount of management data, as distributed computing can be carried out on cheap 
+servers. 
+the term management services used in this recommendation is not the cloud service provided by a network 
+operator or a cloud operator. management services are provided by a management system, no matter it is 
+based on clo ud or not. a cloud service is provide d by a cloud  service provider to end users for  resource 
+virtualization, which provides end users with the cloud computing and/or cloud storing capabilities. 
+a cloud-aware management system described in [itu-t y.3521/m.3070] is a management system which can 
+be used to manage both traditional telecom munication networks and clo ud computing infrastructures. 
+a cloud-based management system  in this recommendation is a management system which is built using 

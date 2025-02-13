@@ -1,0 +1,37 @@
+ assisting developing countries 8 
+ 
+   1093 
+lan local area network 
+m&e mechanical and electrical 
+naas network as a service 
+opex operational expenditure 
+paas platform as a service 
+pci dss payment card industry data security standard 
+pue power usage effectiveness 
+qos quality of service 
+san storage area network 
+saas software as a service 
+smb small and medium businesses 
+sdo  standard development organization 
+sla service level agreement 
+ui uptime institute 
+ups  uninterruptible power supply  
+vas  value added services  
+5 conventions 
+none. 
+6 overview  
+according to [itu-t y.3500], cloud computing has been defined as "a paradigm for enabling network access 
+to a scalable and elastic po ol of shareable physical or virtual resources with self -service provisioning and 
+administration on-demand."  
+6.1 key characteristics 
+cloud computing is a dynamic concept that keeps evolving. according to [itu -t y.3500], the key 
+characteristics of cloud computing include: 
+i) on demand access which allows cloud service customers (cscs) to make use of the resources as and 
+when required;  
+ii) cost effectiveness as it readily reduces the capital expenditure (capex) of organizations allowing 
+them to divert resources to operational expenditure (opex);  
+iii) high scalability as it offers little time to implementation enabling the cscs to promptly customize 
+and adjust the cloud computing capabilities according to their needs; 
+iv) energy saving as the same resources are being utilized by multiple tenants; and 
+v) increased level of convenience as only broadband internet access is required which can be accessed 
+over a varied range of terminals such as tablets, laptops, workstations and mobile phones. 

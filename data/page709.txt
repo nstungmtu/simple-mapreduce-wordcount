@@ -1,0 +1,16 @@
+xaas 3 
+ 
+     701 
+– the vpn associated to the services  provided for naas csc matches naas csc's profile in terms of 
+latency, speed, and bandwidth. 
+the runtime vm migration configuration can be generated based on the vpc naas service model, together 
+with the corresponding naas service operational policy model, which includes the aspects below: 
+– the action is triggered by the event that an naas csc's location is changed (location near to another 
+naas csp's data centre) and the network load between these two data centres is low; 
+– the vm is migrated to the new data centre; 
+– the vpn connecting an naas csc's services is updated. 
+the above used network resources are managed by a resource abstraction and control functional component 
+in the form of naas resource model, containing the network topology (physical and vi rtual interconnection 
+of network elements, etc.), inventory (database of network elements, ports, device type, capabilities, etc.), 
+protocol specific information, etc. 
+  

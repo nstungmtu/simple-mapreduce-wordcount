@@ -1,0 +1,16 @@
+xaas 3 
+ 
+742  
+8.3.2 software security 
+when csn is a cloud content or software developer, the saas application environment is required to provide 
+mechanisms that assist csn to ensure that their codes or other components supplied to csp comply with any 
+programming constraints required by the csp, besides, the codes or components should not contain malware 
+or violate the integrity of csp's cloud services. 
+8.3.3 software maintainability 
+when csn is a cloud software developer,  the saas application environment is required to support 
+mechanisms that assist csn to provide source codes or other functionality for csp's system. the source codes 
+or functionality are required to contain versioning and other appropria te methods, in order to ensure that 
+they can be maintained during the lifetime of the servic e. these methods include but are not  limited to 
+providing updates to fix known vulnerabilities, remov ing dependency on other components with known 
+vulnerabilities, and increasing the overall system security. 
+  

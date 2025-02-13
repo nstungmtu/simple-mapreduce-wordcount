@@ -1,0 +1,50 @@
+5 intercloud and interoperability  
+ 
+896  
+table ii.12 – test case: physical machine life cycle management 
+physical machine life cycle management test description 
+7 stimulus the csc wakes up the physical machine which is in hibernate 
+state. 
+ 
+8 check the state of the physical machine is power on.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.13 test case: vm configuration inquiring 
+table ii.13 shows the test case for vm configuration inquiring. 
+table ii.13 – test case: vm configuration inquiring 
+vm configuration inquiring test description 
+test purpose to verify that the csc inquires vm configuration with cpu number, memory allocated, 
+nic number, ip address allocated. 
+reference [itu-t y.3513] clause 7.1.2 
+test sequence step type description result 
+1 stimulus the csc queries the cpu number of the vm.  
+2 check the csc receives the information of a particular vm's cpu 
+number that is consistent with the number of the cpu 
+allocated for the vm. 
+ 
+3 stimulus the csc queries memory size of the vm from the csp.  
+4 check the csc receives the information of a particular vm's 
+memory size that is consistent with the size of memory 
+allocated for the vm. 
+ 
+5 stimulus the csc queries the nic number of the vm from the csp.  
+6 check the csc receives the information of a particular vm's nic 
+number that is consistent with the number of the nic 
+allocated for the vm. 
+ 
+7 stimulus the csc queries the ip address of the vm from the csp.  
+8 check the csc receives the information of a particular vm's ip 
+address that is consistent with the ip address allocated for 
+the vm. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.14 test case: physical machine configuration inquiring 
+table ii.14 shows the test case for physical machine status inquiring. 
+table ii.14 – test case: physical machine status inquiring 
+physical machine configuration inquiring test description 
+test purpose to verify that the csc inquires physical machine configuration with the number of cpu 
+cores, memory size, disk size and nic number. 
+reference [itu-t y.3513] clause 7.1.1 

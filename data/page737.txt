@@ -1,0 +1,33 @@
+xaas 3 
+ 
+  729 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security requirements for software as a 
+service application environments 
+recommendation itu-t x.1602 
+(03/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series x: data networks, open system communications and security 
+  

@@ -1,0 +1,43 @@
+3 xaas  
+ 
+550  
+1 scope 
+this recommendation provides use cases, general requirements and functional requirements for desktop as 
+a service (daas).  
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editi ons indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore  encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this rec ommendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2014), security framework for cloud computing. 
+[itu-t y.3501] recommendation itu-t y.3501 (2013), cloud computing framework and high-level 
+requirements. 
+[itu-t y.3510] recommendation itu-t y.3510 (2013), cloud computing infrastructure requirements. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 cloud service customer [itu-t y.3501]: a  person or organization  that consumes delivered cloud 
+services within a contract with a cloud service provider.  
+3.1.2 cloud service provider [itu-t y.3501]: an organization that provides and maintains delivered cloud 
+services. 
+3.1.3 hypervisor [itu-t y.3510]: a  type of system software  that allows multiple operating systems to 
+share a single hardware host. 
+3.1.4 virtual machine [b-dmtf ovf]: the complete environment that supports the execution of guest 
+software. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 daas client : a physical device and associated sof tware running on the device that collectively 
+enables a cloud service user to access desktop as a service (daas). 
+3.2.2 desktop as a service (daas): a cloud service category in which the capabilities provided to the cloud 
+service customer are the ability t o build, configure, manage, store, execute and deliver users' desktop 
+functions remotely. 
+3.2.3 virtual desktop: an environment for accessing end user's desktop functions remotely. 
+note – examples of end user's desktop functions can include desktop interfa ce functions for applications, data access 
+functions for multimedia data, and control functions for input/output (i/o) devices.  
+3.2.4 virtual desktop infrastructure (vdi): a desktop as a service (daas) solution enabling the hosting of 
+a desktop operating system within a virtual machine. 
+note – in this recommendation, vdi means that the virtual machine hosting the desktop operation system is running 
+in a cloud computing environment. 

@@ -1,0 +1,63 @@
+ framework and requirements for cloud computing 1 
+ 
+   405 
+table 14-2 provides an analysis of itu-t sg2 deliverables.  
+table 14-2 – analysis of itu-t sg2 deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security       
+management  itu-t m.3372 itu-t m.3071    
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+15 iso/iec jtc 1 sc 38 
+table 15-1 provides a list of iso/iec jtc 1 sc 38 deliverables associated with cloud computing. 
+table 15-1 – iso/iec jtc 1 sc 38 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t y.3500|iso/iec 17788, information technology – 
+cloud computing – overview and vocabulary 
+recommendation | is  09/2012 08/2014 
+itu-t y.3502|iso/iec 17789, information technology – 
+cloud computing – reference architecture 
+recommendation | is 09/2012 08/2014 
+iso/iec 19086-1, cloud computing – service level 
+agreement (sla) framework – part 1 : overview and 
+concepts 
+is 02/2013 09/2016 
+iso/iec 19086-2, information technology – cloud 
+computing – service level agreement (sla) framework – 
+part 2 : metric model 
+dis 10/2014 10/2017 
+iso/iec 19086-3, information technology – cloud 
+computing – service level agreement (sla) framework – 
+part 3 : core conformance requirements 
+is 10/2014 07/2017 
+iso/iec 19086-4, information technology – cloud 
+computing – service level agreement (sla) framework – 
+part 4 : security and privacy 
+is 10/2014 01/2018 
+iso/iec 19941, information technology – cloud 
+computing – interoperability and portability 
+is 10/2014 10/2017 
+iso/iec 19944, information technology – cloud 
+computing - cloud services and devices: data flow,data 
+categories and data use 
+is 10/2014 10/2017 
+iso/iec 22123, information technology – cloud 
+computing – concepts and terminology 
+wd 01/2017 01/2020 

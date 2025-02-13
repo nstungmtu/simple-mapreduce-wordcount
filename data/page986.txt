@@ -1,0 +1,49 @@
+7 security  
+ 
+978 
+application programing interfaces (apis) will normally be closed, and irrelevant service components will 
+normally be disabled. 
+vms covered by this capability include those created by csc in iaas, as well as any vms created by saas and 
+paas. virtual machines will usually be well isolated when sharing memory, a central processing unit (cpu) 
+and storage capacities. virtual machines will usually have intrinsic security capabilities and policy awareness 
+(e.g., in the guest operating system). 
+9.6 network security 
+in a cloud computing environment, network security enables both physical and virtual network isolation, and 
+secures communications among all  participants. it enables network security domain partition, network 
+border access controls (e.g., firewall), intrusion detection and prevention, network traffic segregation based 
+on security policies, and it protect s the network from attacks in both the physical and virtual networ k 
+environments. 
+9.7 data isolation, protection and confidentiality protection 
+this capability addresses general data protection issues which often have legal implications. 
+• data isolation 
+in a cloud computing context, a tenant is prevented from accessing data belonging to another tenant, even 
+when the data is encrypted , except when explicitly authorized . data isolation may be realized logically or 
+physically, depending on the required isolation granularity and the specific deployment of cloud computing 
+software and hardware. 
+note 1 – in cloud computing, isolation occurs at the tenant level. a given csc may have multiple tenants in the cloud, 
+for example, to separate different subsidiaries, divisions or business units.  
+• data protection 
+data protect ion ensures that csc data and derived data held in a cloud computing environment is 
+appropriately protected so that it can only be accessed or changed as authorized by the csc (or according to 
+applicable law). this protection may include some combination of access control lists, integrity verification, 
+error correction/data recovery, encryption and other appropriate mechanisms. 
+when a csp provides storage encryption for cscs, this function can be client -side encryption (e.g., within a 
+csp application) or server-side encryption. 
+• confidentiality protection 
+private information can include pii and confidential corporate data. the collection, use, transfer, handling, 
+storage and destruction  of private information can be  subject to confidentiality regulations or laws. this 
+restriction applies to both csps and their cscs, e.g., a csc must be able to permanently delete a data table 
+containing private information, even though the csp is not aware of the table contents. csps may also need 
+to support the handling, e.g., searching of a cscs' data in their transformed or encrypted form. 
+confidentiality protection extends to private information that may be observed or derived from csc 
+activities, such as business trends, relationships or comm unications with other parties, activity levels and 
+patterns, etc. 
+confidentiality protection is also responsible for ensuring that all private information (including observed or 
+derived data) is used only for those purposes which have been agreed between a csc and csp. 
+a risk assessment  of private information  (noted as "confidentiality risk assessment")  can assist  a csp in 
+identifying the specific risks of confidentiality breaches involved in an envisaged operation . the csp should 
+identify and implement capabilities to address the confidentiality risks identified by the risk assessment and 
+treatment of private information. 
+note 2 – in some jurisdictions, individual natural persons (i.e., human users) are treated separately from their 
+employers for confidenti ality purposes. in such circumstances, confidentiality of the cloud service user (csu) will be 
+appropriately protected in addition to that of the cloud service customer (csc) or cloud service tenant.  

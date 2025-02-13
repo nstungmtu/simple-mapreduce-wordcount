@@ -1,0 +1,48 @@
+7 security  
+ 
+1028 
+8.2 data encryption and key management 
+encryption and key management are the core mechanisms to protect data in cl oud computing systems. 
+encryption provides a resource protection capability, while key management provides cryptographic keys 
+control which are used to protect resources. 
+the specific implementation of encryption should be clearly defined in the security c lause of sla. 
+furthermore, the encryption should follow the relevant industrial and governmental standards. csps or cscs 
+should seriously consider the following elements:  
+1) encryption of data transmission in network. it is especially important to secure credentials such as 
+financial information, passwords, etc. 
+2) encryption of static data on the disk or in the database. it could be used to prevent malicious csps 
+or malicious neighbour tenants. 
+3) encryption of data in backup media. it could be used to pr event data leakage in case the backup 
+media were lost or stolen. 
+if csp is the main enforcer of data encryption, key management is an essential issue in daily operations. csp 
+should define and execute an integrated key management in the life cycle including the generation, use, 
+store, backup, recovery, update and destroy. csps should also consider the following issues: 
+1) protection of key storage : key storage must be protected as any other sensitive data or even its 
+security level must be higher than others. only a specific entity can access the key storage. related 
+policies are also needed like separation of roles to enforce a stronger access control. 
+2) backup and recovery: as an unexpected loss of a specific key may destroy a service, it is neces sary 
+to implement a key backup and recovery solution. 
+3) introduction of the third party for key management: by a series of task separation, it could help csps 
+avoid conflict with legal requirements when data in cloud computing systems is claimed to be 
+provided. 
+8.3 system security monitoring 
+in daily operations, csps should  undertake centralized real -time security monitoring on the cloud platform 
+and infrastructure, which includes the running status of various physical and virtual resources. by considering 
+the key terms of sla (such as network performance, utilization of host resource and storage, etc.), and 
+analysing all kinds of logs, csps can perform fault management, performance management and automatic 
+inspection management to achieve the goal for rea l-time or quasi real-time monitoring of the health status 
+of cloud resources. 
+in general, the monitoring logs are managed and strictly protected by csps. nevertheless, once needed by 
+csc, csp could provide csc with related monitoring logs as they claimed, for instance, csc might need related 
+monitoring logs to do trouble shooting in emergency response. 
+csps can also proactively detect potential operational risks and resolve them timely. furthermore, csps 
+should provide the capability of correlation analysis between cscs and their services provided by csps, which 
+can be implemented to diagnose the quality and security status of cloud services. 
+there are two kinds of security monitoring modes: automatic monitoring and manual inspection, which rely 
+on the technical means and management of individual csps. the object of security monitoring involves: 
+1) health status monitoring of the cloud computing infrastructure: csps should provide the capability 
+to collect and monitor the security event logs, vulnerability information, alteration of security device 
+configuration, performance and operational status on all objects of the cloud computing 
+infrastructure, which include virtual machine (vm) resources, cloud computing management 
+platform, security devices, database, etc. this monitoring can help csps to keep a perceptive 
+awareness of the overall health status and operating status of the cloud infrastructure. 

@@ -1,0 +1,38 @@
+ framework and requirements for cloud computing 1 
+ 
+   159 
+table i.5 – a use case for registration of cloud services at csp side 
+title a use case for registration and deregistration of cloud services at csp side. 
+description a csp accesses a login page in the csb workspace using previously registered ids and 
+passwords. 
+the csp registers access information of the cloud services that will be listed in the product 
+catalogue. the access information of the cloud services would be connection id, connection 
+password, endpoint url and location. 
+then, the csp defines the unit of cloud service by enrolling the information of its cloud services. 
+the unit of cloud service en compasses its name, specification of virtual machine, images 
+including a particular os, agent software and related applications. the csp can defines various 
+types of unit of cloud services in the workspace. for example, the specification of virtual 
+machine can varies depending on the number of virtual central processing unit (cpu), size of 
+random access memory and size of storage. the images also can be diverse in accordance with 
+os types, os version and presence of specific applications. on each constructe d unit of cloud 
+services, the csp registers the billing information and sla. after registering cloud services, the 
+csp asks a csn: cloud service broker to add the cloud services into product catalogues in the 
+workspace in the csc side. the csn: cloud servi ce broker validates each sla and security 
+aspects of the cloud services and, if there is no problem, performs the confirmation of the 
+registration. 
+roles/sub-roles csp, csn: cloud service broker 
+figure 
+ 
+pre-conditions 
+(optional) 
+the csp is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace.  
+post-conditions 
+(optional) 
+the csc can select cloud services on product catalogue.  
+derived 
+requirements 
+– registration of cloud service (see clause 7.2) 
+– user interface for csps (see clause 7.1) 
+ 
+

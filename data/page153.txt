@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   145 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+csb cloud service brokerage 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+id identification 
+os operating system 
+sla service level agreement 
+slo service level objectives 
+url uniform resource locator 
+5 conventions 
+in this recommendation: 
+the keywords "is required" indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+6 overview of cloud service brokerage  
+6.1 introduction to cloud service broker 
+the cloud service broker is a sub -role of cloud service partner (csn) that negotiates relationships between 
+cloud service customers (cscs) and cloud service providers (csps). the cloud service broker is not itself a 
+cloud service provider and should not be confused with the role of inter -cloud provider [itu-t y.3502]. the 
+role of cloud service broker could be combined with or operate independently of the role of inter -cloud 
+provider. only three activities of cloud service broker have been identified in [itu-t y.3502] such as (i) acquire 
+and assess customers, (ii) assess marketplace and (iii) set up legal agreement. a detailed description for these 
+activities follows: 
+– acquire and assess customers: the cloud service broker provides cscs with available cloud services 
+accompanied by associated information such as service level agreements (slas) and contract terms. 
+the cloud service broker also assesses csc's needs and requirements; 
+– assess marketplace : the cloud service broker constructs product catalogues by surveying the 
+product offerings with technical and business information from csps. any changes of the contents 
+of corresponding product catalogues are notified to the cloud service broker. if there is a request 
+on cloud service from a csc, the cloud service broker performs a matching process between product 
+offerings and csc's requirements including technical, business and regulatory aspects; 
+– set up legal agreement: the cloud service broker negotiates service agreements between the csc 
+and the csp in terms of legal agreements as well as terms and prices to complete a contract.  
+after the contract between a csc and a csp by the "set up legal agreement" activity, the csc uses the selected 
+cloud services. in order for the csc to use the cloud services, additional considerations are required as 
+follows:  
+– a csc uses cloud services from csps through access information delivered by the cloud service 
+broker; 
+– the cloud service broker also manages and monitors the cloud services.  

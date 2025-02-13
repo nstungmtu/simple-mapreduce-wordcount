@@ -1,0 +1,38 @@
+video processing and storage 4 
+ 
+  751 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 cloud storage: a data storage model for enabling service users to have ubiquitous, convenient and 
+on-demand network access to a shared pool of configurable storage resources, which can be rapidly 
+provisioned and released with minimal management effort or service-provider interaction. in cloud storage 
+systems, the physical and virtual resources can be dynamically assigned and reassigned according to user 
+demand. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+as application system 
+cu customer unit 
+dvr digital video recorder 
+ipu intelligent premises unit 
+mcu mobile customer unit 
+msu media storage unit 
+nvr network video recorder 
+pu premises unit 
+vs visual surveillance 
+vscs visual surveillance cloud storage 
+5 conventions 
+in this recommendation: 
+– the keywords "is required to" indicate a requirement which must be strictly followed and from 
+which no deviation is permitted if conformance to this recommendation is to be claimed. 
+– the keywords "is recommended" indicate a requirement which is recommended but which is not 
+absolutely required. thus this requirement need not be present to claim conformance. 
+6 overview 
+currently, large -scale visual surveillance system deployment has cont ributed to the explosive growth of 
+surveillance video data. moreover, the massive amount of surveillance video data contains a lot of valuable 
+information which can be mined to provide more intelligent services. attention is needed to the efficient 
+storage of video data and fast access to information of interest to users. 
+when the surveillance industry changes to all ip network usage, the network video recorder (nvr), as a main 
+component for surveillance video storage, will gradually replace  the existing digital video recorder (dvr).  
+however, an nvr which is installed on single physical server may reach the maximum storage or throughput 
+limitation due to predefined resource limitations. in addition, the current nvr-based storage model does not 
+efficiently support the analysis and mining of the massive amount of video data. 

@@ -1,0 +1,39 @@
+ framework and requirements for cloud computing 1 
+ 
+   157 
+table i.3 – a general use case of cloud service integration 
+derived 
+requirements 
+– user interface for cscs (see clause 7.1)  
+– delivering cloud service provision request (see clause 7.4) 
+– cloud service monitoring (see clause 7.5) 
+– registration of cloud service (see clause 7.2) 
+ 
+table i.4 – a general use case of cloud service customization 
+title a general use case for cloud service customization in cloud service brokerage. 
+description this use case describes a general use case for cloud service customization. cloud service 
+customization in cloud service brokerage is a service model to search, compose and provide a 
+customized cloud service to a csc according to the csc' service requireme nts. if a csn: cloud 
+service broker cannot discover a service that fulfils csc's service requirements in the product 
+catalogue, the csn: cloud service broker integrates and configures existing services to 
+composite a new customized service. such as, layeri ng new data and process functions, 
+visibility and analytics, or incorporating a new look and feel to the service. csc's service 
+requirements can consist of multiple parameters such as service names, the amount of 
+required resources, required service levels, required software, required configurations and so 
+on. the csn: cloud service broker collects multiple cloud services provided by different csps, 
+performs customization on these cloud services according to cscs' requirements.  
+(1) when a csc could not find a satisfied service from the product catalogue, the csc requests 
+a cloud service with service requirements to a csn: cloud service broker.  
+(2) the csn: cloud service broker searches a cloud service, which fulfils the csc's 
+requirements, from product catalogue.  
+(3) if the csn: cloud service broker cannot find an appropriate service from the service list 
+registered in the product catalogue, the csn: cloud service broker initiates customization 
+process in order to generate a customized service according to the csc's requirements. 
+the csn: cloud service broker integrates and/or configures (such as, layering new data 
+and process functions) existing services.  
+(4) then, the csn: cloud service broker registers the customized service in the product 
+catalogue. 
+(5) finally, through workspace, the csn: cloud service broker notifies description of the 
+customized service to the csc so that the csc determines whether to us e the customized 
+service or not. 
+roles/sub-roles csp, csn: cloud service broker, csc 

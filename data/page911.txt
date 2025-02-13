@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  903 
+ii.3.5 test case: ip address allocation 
+table ii.26 shows the test case for ip address allocation. 
+table ii.26 – test case: ip address allocation 
+ip address allocation test description 
+test purpose to verify that the csc allocates an ip address to the vm statically or dynamically. 
+reference [itu-t y.3513] clause 7.3.3 
+test sequence step type description result 
+1 stimulus the csc allocates specified ip addresses for the vm statically.   
+2 check the vm gets the ip as requested by the csc.  
+3 stimulus the csc allocates ip addresses for the vm through dynamic 
+allocation (dhcp) with a specified ip addresses pool. 
+ 
+4 check vms get the ip within the range of the ip pool specified by 
+the csc. 
+ 
+test verdict it is deemed as successfully terminated if at least one check is successful, otherwise it 
+is deemed as failed. 
+ 
+ii.3.6 test case: ip address reservation 
+table ii.27 shows the test case for ip address reservation. 
+table ii.27 – test case: ip address reservation 
+ip address reservation test description 
+test purpose to verify that the csc reserves an ip address or a range of ip addresses for specific vm (s). 
+reference [itu-t y.3513] clause 7.3.3 
+test sequence step type description result 
+1 stimulus the csc reserved a particular ip address for vm a.  
+2 check the reserved ip address will not be assigned to vms other 
+than vm a. 
+ 
+3 stimulus the csc reserved a range of ip addresses for vm b.  
+4 check the reserved ip addresses will not be assigned to vms other 
+than vm b.  
+ 
+test verdict it is deemed as successfully terminated if at least one check is successful, otherwise it 
+is deemed as failed. 
+ 
+ 
+ 
+  

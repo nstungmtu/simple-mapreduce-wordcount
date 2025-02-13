@@ -1,0 +1,31 @@
+xaas 3 
+ 
+  735 
+the typical  client-server model applications can be easily transform ed into custom saas applications by 
+moving servers to the cloud with relatively little modification. the applications suitable for this scenario are 
+usually developed with special requirements from the enterprise or organization. top consideration will be 
+given to security in the system itself, thus the usual way is to group a set of physical machines into a private 
+zone and to deploy a data management system (which provides ab stracted methods of persistence and 
+operations for different kinds of data) and associated software on it. the system is solely for internal usage 
+with strict access control. the template of application instance is the same for all customers, and it provides 
+limited configuration ability. however, the instance for each customer is totally independent of any other 
+instance. 
+7.2 level 2: configurable saas application 
+for some commonly used applications that are not customized, such as self-service website building system, 
+saas application providers  offer common templates for these applications and several sets of run -time 
+environment for the instances of these applications. based on the same template , customers are able to 
+create multiple separate d instances o f the application  by configuring the application's appearance and 
+behaviour, which are  deployed and executed on individual virtual or physical machine s to meet their 
+customized requirements. application instances are isolated from each other.  the architecture is shown in 
+figure 3. 
+ 
+figure 3 – architecture of configurable saas application 
+the configurable saas application has the following characteristics: 
+1) application in the initial deployment is a copy of a standard product, and tenants configure the 
+application to suit their own requirements. however, the configuration options of the product are 
+limited. 
+2) for saas application providers, any modifications to the product code s can be easily applied to all 
+tenants immediately. however, only a little update or optimization to the product codes are suitable 
+for each instance because the forward compatibility problem incurred by the update or optimization 
+may occur. 
+

@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+294  
+3) the csc accesses the primary csp's ca talogue of service offerings and selects one or some of the 
+services in the catalogue; 
+4) the primary csp arranges the service selected by the csc. the service may be provided by the 
+primary csp, by (some of) the secondary csp(s) or by a combination of these csps. the primary csp 
+intermediates, aggregates and/or arbitrages the services (see clause 7.3). the csc starts using the 
+service.  
+in practice, the actual process will be more complex. there are different ways for the csc to use the services. 
+if the requested service is hosted in the primary csp, the csc may access to this service directly (in the case 
+of 4a)). if the requested service is offered by a secondary csp, the csc may access to the service in the 
+secondary csp via the primary csp (in the cases  of 4b) and 4c)). in the latter case, the network conditions, 
+service characteristics and service agreement among the csc, the primary csp and the involved secondary 
+csp should be considered in order that the csc accesses to the service in an appropriate manner.  
+9 functional requirements for inter-cloud 
+this clause describes the csps' capabilities necessary to support different inter -cloud computing patterns 
+described in clause 8.  
+the capabilities and the relevant requirements identified in this clause ar e complementary to the general 
+requirements applicable to a csp involved in inter-cloud as specified in [itu-t y.3501]. 
+9.1 sla and policy negotiation 
+the sla and policy negotiation capability deals with the matching made by a primary csp between  sla 
+requirements of a csc and the slas of secondary csps involved in the considered inter -cloud pattern. the 
+subject includes the qos related aspects. this capability also deals with the negotiation of service 
+provisioning policies associated with the different csps involved in the inter-cloud pattern.  
+the sla requirements (including qos) of a csc for a given cloud service are expected to be met by appropriate 
+interworking with selected csps, even in the event of service performance degradation or a disaster.  
+the sla and policy negotiation capability is required to:  
+– be aware of the sla information related to the qos and performance aspects of the csps involved 
+in the inter-cloud using standard formats.  
+the sla and policy negotiation capability is recommended to: 
+– allow comparing, negotiating and settling down service provisioning policies between multiple csps 
+(for example, based on the settlement, these csps may be considered as a trusted group for inter -
+cloud support). 
+note – in this clause, policy refers to a way for a csp to provide services in terms of presumed reliability, including its 
+backup scheme and target service levels. the policy affects slas. policies may be different among csps. policies may be 
+negotiated beforehand and settled. this process is referred to as the policy negotiation. 
+9.2 resource monitoring  
+the resource monitoring capability deals with the monitoring by the primary csp of the resources of the 
+secondary csps and the status attributes of these resources (e.g., usage amount, performance and quality 
+aspects). the primary csp collects and monitors the information from the secondary csps in a secure way. 
+by monitoring the secondary csps' resources status (e.g., availability and dead/alive status of machines) and 
+detecting service level performance degradation (in terms of delay and response time), the primary csp can 
+initiate actions to maintain service availability with the help of other secondary csps. 
+the resource monitoring capability is recommended to: 
+– allow describing and expressi ng the resource information (e.g.,  resource type, configuration and 
+status) in a standard manner in order to be able to monitor these resources across multiple csps; 

@@ -1,0 +1,48 @@
+ framework and requirements for cloud computing 1 
+ 
+   27 
+the following daas general requirements are described in [itu-t y.3503] as follows: 
+– support for high -definition (hd) and three -dimensional (3d) applications : daas can optionally 
+support execution of hd applications on virtual desktops for cscs; 
+– extensible storage: it is recommended that a csp support the storage extension requested by a csc; 
+– response time: it is recommended that daas provide cscs with acceptable qoe; 
+– high availability: it is recommended that high availability in terms of delivery and operation of daas 
+be assured by a csp; 
+– resiliency to disaster: in the case of a disaster, daas is recommended to provide and maintain an 
+acceptable level of service; 
+– service continuity: it is recommended that in the case of temporarily unavailable resource access, 
+a csp provides the capability to preserve the state of the user session; 
+– system scalability: it is recommended that daas supports elastic scalability of: 
+• storage for daas user account information, virtual desktop environment settings and active and 
+inactive virtual desktop environments; 
+• processing and network capacity for the number of concurrent daas user connections and total 
+daas users; 
+• underlying daas resources. 
+– daas developer environments : it is recommended to provide a developer environment for the 
+service and contents regarding daas; 
+– diversity of daas clients: it is recommended that the csp support a wide selection of daas clients. 
+note – functional requirements for daas are provided in clause 8 of [itu -t y.3503]. 
+10 general requirements for paas 
+the general re quirements for platform as a service ( paas) derived from the use cases in clause i. 5 are as 
+follows: 
+– application hosting: it is required that the paas csp provides an application hosting environment, 
+where the application can be rapidly deployed, reliabl y executed, flexibly expanded and isolated 
+from other applications; 
+– services delivery platform: it is recommended that the paas csp provides the capabilities of service 
+presence, orchestration, billing, mash-up and tools for associated development and testing by cscs 
+through a unified application programming interface (api); 
+– integrated development environment : the paas csp can optionally provide comprehensive 
+capabilities to cscs for software development such as coding, debugging, compiling and 
+distribution; 
+– development tools: paas csp can optionally provide development tools as a service to cscs, who 
+can use it on-demand. 
+11 general requirements for caas 
+the general requirements for communication as a service (caas) derived from the use cases in clause i.6 are 
+as follows: 
+– communication capabilities openness: it is recommended that the csp provides apis for accessing 
+communication capabilities of csns to enhance their own services by using communication 
+enablers; 
+– communication software development support: it is recommended that the csp provides support 
+for communication software development, which is a group of comm unication building blocks, to 
+csns in order to develop communication applications; 
+ note – examples of communication building blocks are protocol stacks, codecs, authentication, etc. 

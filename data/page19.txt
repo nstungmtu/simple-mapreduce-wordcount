@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   11 
+knowledge over how the resources are being provided or where the resources are located. this 
+offloads some of the customer's original workload, such as maintenance requirements, to the 
+provider. even with this level of abstraction, it should be pointed out that users might still be able 
+to specify location at a higher level of abstraction (e.g., country, state, or data centre).  
+6.3 cloud computing roles and activities 
+within the context of cloud computing, it is often necessary to differentiate requirements and issues for 
+certain parties. these parties are entities that play roles (and sub-roles). roles, in turn, are sets of activities 
+and activities themselves are implemented by components. all cloud computing related activities can be 
+categorized into three main groups: activities that use services, activities that provide services and activities 
+that support services. it is important to note that a party may play more than one role at any given point in 
+time and may only engage in a specific subset of activities of that role. 
+the major roles of cloud computing are: 
+– cloud service customer: a party which is in a business relationship for the purpose of using cloud 
+services. the business relationship is with a cloud service provider or a cloud service partner. key 
+activities for a cloud service customer  include, but are not limited to, using cloud services , 
+performing business administration, and administering use of cloud services; 
+– cloud service partner: a party which is engaged in support of, or auxiliary to, activities of either the 
+cloud service provider or the cloud service customer, or both. a cloud service partner's activities 
+vary depending on the type of partner and their relationship with the cloud service provider and 
+the cloud service customer . examples of cloud service partners  include cloud auditor and cloud 
+service broker; 
+– cloud service provider: a party which makes cloud services available. the cloud service provider 
+focuses on activities necessary to provide a cloud service  and activities necessary to ensure its 
+delivery to the cloud service customer  as well as cloud service maintenance. the cloud service 
+provider includes an extensive set of activities (e.g., provid e service, deploy and monitor service, 
+manage business plan, provide audit data, etc.) as well as numerous sub -roles (e.g., business 
+manager, service manager, network provider, security and risk manager, etc.). 
+6.4 cloud capabilities types and cloud service categories  
+a cloud capabilities type is a classification of the functionality provided by a cloud service to the cloud service 
+customer, based on the resources used. there are three different cloud capabilities types : application 
+capabilities type , infrastructure capabilities type , and platform capabilities type , which are different 
+because they follow the principle of separation of concerns, i.e. they have minimal functionality overlap 
+between each other. 
+the cloud capabilities types are: 
+– application capabilities type: a cloud capabilities type in which the cloud service customer can use 
+the cloud service provider's applications; 
+– infrastructure capabilities type: a cloud capabilities type in which the cloud service customer can 
+provision and use processing, storage or networking resources; 
+– platform capabilities type : a cloud capabilities type  in which the cloud service customer  can 
+deploy, manage and run customer -created or customer -acquired applications using one or more 
+programming languages and one or more execution environments supported by the cloud service 
+provider.  
+there are only three cloud capabilities types  defined in this recommendation | international standard. 
+these cloud capabilities types should not be confused with other categorizations of cloud services.  
+a cloud service category  is a group of cloud services that possess some common set of qualities . a cloud 
+service category can include capabilities from one or more cloud capabilities types.  

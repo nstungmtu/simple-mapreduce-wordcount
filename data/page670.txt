@@ -1,0 +1,14 @@
+3 xaas  
+ 
+662  
+summary 
+recommendation itu-t y.3515 provides network as a service (naas) functional architecture by specifying 
+functionalities and functional components as well as reference points for the operation support system (oss). 
+this recommendation also describes the mapping between functionalities and functional requirements of 
+naas, relationship between the naas functional a rchitecture and software -defined networking (sdn), and 
+illustrated usage of sdn and network functions virtualization (nfv) in support of the naas functional 
+architecture. 
+keywords 
+naas, naas functionality, naas functional architecture, naas functional component, naas product, network 
+as a service. 
+  

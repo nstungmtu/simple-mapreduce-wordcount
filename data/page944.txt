@@ -1,0 +1,39 @@
+5 intercloud and interoperability  
+ 
+936  
+[i-d. draft-ietf-scim-core-schema-03] – system for cross-domain identity management: core schema 
+[i-d. draft-khasnabish-cloud-reference-framework] – cloud reference framework 
+i.8 iso/iec jtc 1 references and associated summaries 
+[iso/iec wd 17788] – cloud computing vocabulary 
+[iso/iec dis 17789] – topology and orchestration specification for cloud applications (tosca) version 1.0 
+i.9 nist references and associated summaries 
+[nist sajacc internal group report] – sajacc working group recommendations to nist 
+this document describes the work done by the sajacc working group so far, which has resulted in a set of 
+preliminary use cases developed for the first pass thro ugh the sajacc process and a set of initial 
+demonstration validation evaluations. through a series of open workshops, and through public comment and 
+feedback, nist will continue to refine these use cases and add new use cases as appropriate.  
+[nist sajacc white paper] – virtual machine portability white paper 
+this white paper describes the current technologies, formats and tools that support virtual machine (vm) 
+portability. it identifies challenges and opportunities for further improvements to interoperability, and 
+presents a high-level summary of key vm portability problems faced by cloud consumers today. 
+[nist sp 800-145] – the nist definition of cloud computing 
+the nist definition characterizes important aspects of cloud computing and is intended to serve as a means 
+for broad comparisons of cloud services and deployment strategies, and to provide a baseline for discussion 
+from what is cloud computing to how to be st use cloud computing. the service and deployment models 
+defined form a simple taxonomy that is not intended to prescribe or constrain any particular method of 
+deployment, service delivery or business operation. 
+[nist sp 500-292] – nist cloud computing reference architecture 
+this document presents the nist cloud computing reference architecture (ra) and taxonomy (tax) that will 
+accurately communicate the components and offerings of cloud computing. the guiding principles used to 
+create the ra were 1) devel op a vendor-neutral architecture that is consistent with the nist definition and 
+2) develop a solution that does not stifle innovation by defining a prescribed technical solution. 
+[nist sp 500-293vol1] – us government cloud computing technology roadmap volume i release 1.0: 
+high-priority requirements to further usg agency cloud computing adoption 
+volume i to the us government cloud computing technology roadmap, an interagency  document 
+developed to foster adoption of cloud computing by federal agencies and s upports the private sector, and 
+reduces uncertainty by improving the information available to decision. 
+[nist sp 500-293vol2] – us government cloud computing technology roadmap volume ii release 1.0: 
+useful information for cloud adopters 
+volume i to the us  government cloud computing technology roadmap, an interagency  document 
+developed to foster adoption of cloud computing by federal agencies and supports the private sector, and 
+reduces uncertainty by improving the information available to decision. 

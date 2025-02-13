@@ -1,0 +1,50 @@
+1 framework and requirements for cloud computing  
+ 
+222  
+table ii.8 – configurations of clustering processing units – use case 
+post-conditions 
+(optional) 
+physical machines can run a cloud service efficiently and elastically according to the desired 
+performance. 
+derived 
+requirements 
+– configuration of multiple processing units (see clause 7.1.5) 
+– multiple cpus (see clause 7.1.1.1) 
+– adding processing units (see clause 7.4) 
+– adding sub-components of processing units (see clause 7.4) 
+– network topology (see clause 7.1.5) 
+– interconnect network supports (see clause 7.1.5) 
+– device driver and api supports (see clause 7.2) 
+ 
+table ii.9 – replacing components of a physical machine – use case 
+title a use case of replacing components of physical machine 
+description this use case covers the situation where  components of physical machine be replaced. after 
+deployment and operation, a component of physical machine may need to be replaced with 
+another new one due to component failure. in addition, a component could be replaced with 
+component of other model to upgrade the performance.  
+typically, physical machine should support replacement of the main components, including 
+cpu, memory, storage, power supply and cooling component.  
+roles/sub-roles csp: cloud service operations manager 
+figure 
+   
+to support replacement, the components are not coupled to the physical machine so that 
+the components can be installed or uninstalled dynamically. typically, the components are 
+designed to follow certain specifications to ensure compatible interface and shape . 
+pre-conditions 
+(optional) 
+csp wishes to replace some components of physical machines to fix components failure or 
+upgrade components. 
+post-conditions 
+(optional) 
+physical machine can runs normally with the new components. 
+derived 
+requirements 
+– cpu replacement (see clause 7.1.1.1) 
+– memory replacement (see clause 7.1.1.2) 
+– storage replacement (see clause 7.1.1.3) 
+– processing unit replacement (see clause 7.4) 
+– equipment for mounting and removal (see clause 7.1.4) 
+– power supply replacement (see clause 7.1.2) 
+– cooling component replacement (see clause 7.1.3) 
+ 
+

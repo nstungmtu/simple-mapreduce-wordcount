@@ -1,0 +1,42 @@
+ framework and requirements for cloud computing 1 
+ 
+   161 
+table i.7 – a use case for cloud service cancellation 
+title a use case for deregistration of  cloud services 
+description this use case assumes that cloud service deregistration is performed when the contract 
+between a csp and a csn: cloud service broker is cancelled during normal contract agreement. 
+the contract cancellation is out of scope and the abnormal situations such as bankruptcy and 
+service disruption of the csp are not considered in this contribution. 
+service deregistration can be done by the request from a csp or a csn: cloud service broker. a 
+csp initiates deregistration of the cloud service for some internal situations (e.g., modification 
+or unavailability of the cloud service) during the cloud service.  a csn: cloud service broker can 
+also request to deregister the cloud service, e.g., violation of contract requirement by csps.  
+when the service deregistration is agreed with each other between a csp and a csn: cloud 
+service broker and it is confirmed, the csn: cloud service broker stops the cscs search and 
+selects the service targeted to be deregistered and stops posting the servi ce list at the 
+workspace from the product catalogue. 
+the csn: cloud service broker also investigates the cscs that have contacted to use the service 
+and, if they exist, notifies deregistration of the service to the registered cscs. when cscs are 
+using the service currently, the csn: cloud service broker  requests the csp to maintain the 
+service until the cscs finish using the service. after that, the csn: cloud service broker cancels 
+the contract corresponding to the cloud service between the csn: cloud service broker and the 
+csc and, if needed, renews the contract between them. 
+to complete the service deregistration, the csn: cloud service broker can start the internal 
+process of deregistration. the csn: cloud service broker  deregisters the service on a prod uct 
+catalogue and invalidates all related information such as monitoring, metering, csc's account, 
+sla, etc. csp's apis  that allow the csc to interact with the csp are also disabled so as not to 
+access the service any more. the csn: cloud service broker fi nally notifies the csp 
+deregistration that the cloud service is completed. 
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+ 
+pre-conditions 
+(optional) 
+a csp registered a cloud service to the list of a product catalogue in a csn: cloud service 
+broker.  
+a csc signed a contract with a csn: cloud service broker for cloud service. 
+post-conditions 
+(optional) 
+a csc cannot search the cloud services on product catalogue and cannot use the cloud 
+service. 
+

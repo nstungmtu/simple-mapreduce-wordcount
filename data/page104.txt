@@ -1,0 +1,38 @@
+1 framework and requirements for cloud computing  
+ 
+96  
+two sub-roles of cloud service partner are involved in this case, cloud service developer and cloud auditor. 
+the cloud service developer develops the implementation of the cloud services using the development tools 
+functional component and tests the service using the test management functional component. the cloud 
+service is then packaged with deployment information and given to the csp:cloud service manager to 
+perform the deploy and provision services activity resulting in a service capabilities functional component 
+being offered in the provide services activity. the cloud auditor, in the meantime, performs the perform 
+audit and repo rt audit results activities on the cloud service developer, cloud service provider  or cloud 
+service customer according to the policies and governance regimens of each. 
+after the csp:cloud service manager performs the deploy and provision services activity, the provide services 
+activity uses the service capabilities functional component, which is the implementation of the service and 
+which in turn uses the resource layer functional components  for the compute, storage and network 
+resources required to run the  service. the provide services activity also involves integrating the service 
+capabilities functional component with the security systems functional component to provide security and 
+protection of personally identifiable information  capabilities such as da ta encryption. the operational 
+support systems functional component supports management, monitoring, automation and configuration 
+for the services and resources. in addition, the csp:cloud service manager performs the perform service level 
+management activity. the perform service level management activity manages the availability and 
+performance of the cloud service so that it meets the objectives defined in the sla which applies to the cloud 
+service. the service level management functional component , the m onitoring and reporting functional 
+component, and the incident and problem management functional component are used to accomplish this. 
+sometimes, csp:cloud service managers provide the service in collaboration with another csp:cloud service 
+manager, invoking cloud services in that peer cloud service provider. the csp:cloud service manager then 
+performs the manage peer cloud services activity to set up the contracts and slas for using the peer cloud 
+service. the peer cloud service provider also offers administrative and use cloud computing activities: the 
+provide services and the perform service level management cloud computing activities, just like any other 
+cloud service provider. 
+these are a common set of cloud computing activities  for a csp:cloud service manager, but there are 
+additional cloud computing activities that could be performed and are documented in this specification. 
+once a cloud service is available for use, two cloud service customer sub-roles perform various activities. 
+first, the csc:cloud service administrator performs the administer tenancies activity using the administrator 
+function functional component, to set up the tenancy and to grant access rights to csc:cloud service users. 
+once this is done, csc:cloud service users perform the use cloud service activity by leveraging the user 
+function functional component  to interact with the cloud service . meanwhile, the csc:cloud service 
+administrator typically monitors the service to ensure that it is running correctly and meeting the terms of 
+the sla, again using the administrator function functional component.  

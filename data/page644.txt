@@ -1,0 +1,51 @@
+3 xaas  
+ 
+636  
+appendix iii 
+ 
+considerations on csp's network related activities 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides considerations on csp's network related activities. 
+each individual service of the naas category can be specified by a set of terms including: 
+• service interface – it is offered to the csc and defines the functionality which is implemented by the 
+csp. ser vice interface can include functionality relate d to demarcation points for the 
+interconnection of the csp and the csc, topology and route related functionality to share 
+topologies, discovery related functionality to perform other services needed by inter-cloud related 
+activities, and other functionalities related to monitoring, protection, verification, etc. route related 
+functionality requires information on ingress and egress end points and optionally intermediate 
+points of a network segment. attributes o f a network segment can include edge point attr ibutes, 
+qos parameters, performance attributes, time attributes, user attributes, service requester 
+identifier, etc.  
+• service demarcation point – this is a boundary point between naas csp and naas csc. it is used as 
+a reference point to identify the responsibilities and obligations of all involved entities. for ip/mpls 
+networks, the demarcation point user -to-network interface (uni) is a pair of customer edge and 
+provider edge. for other transport networks, un i and network -to-network interface (nni) are 
+defined as demarcation points. for example, uni defined by metro ethernet forum (mef)  is 
+physically implemented over a bi -directional ethernet link that provides the various data, control 
+and management plane capabilities required by the metro ethernet network (men) service provider 
+to clearly demarcate the two different network domains involved in the operational, administrative, 
+maintenance and provisioning aspects of the service. often software abstraction lay er (sal) or 
+network operating system (nos) is u sed for the demarcation point for network platforms, and 
+tcp/udp sockets for network applications. 
+• service capabilities – this is what naas delivers to the csc via service interfaces as network 
+connectivity and networking related service capabilities. wh ile transport network connectivity 
+capabilities include ip/mpls network, transmission networks, ip mu ltimedia subsystem (ims), 
+software defined networking (sdn) and cdn, virtual network connectivity capabilities include 
+pseudo-wire, virtual private lan ser vice (vpls), l3 vpn and vlan. networking related service 
+capabilities can include wan optimization, l oad balancing, domain name system  (dns), firewall, 
+ips/ids, telecommunication services and network applications such as peer-to-peer (p2p) based file 
+transfer, etc. 
+although infrastructure capability type naas can provide such network as a whole, a csc rel ies on csp for 
+the integration and customizing of software, reconfiguring and expanding functionalities of network 
+elements, as well as management and admi nistration of the network. when csc leverages naas platforms 
+to build its own network, the responsibility of csp is up to the service demarcation point of the platform. csc 
+is responsible for managing, administering and operating the network as well as net work functions and 
+services implemented up on the demarcation point. 
+the composite services provisioned in cloud environments need sla support in the following areas [b-ec sla]: 
+• sla specifications capturing the dependencies and interactions between the s ervices. the 
+dependencies should be parametric and express the overall service context (e.g., data movements, 
+relationships between providers, orchestration rules). 
+• convergence in sla management to handle dependencies (e.g., joint management) while retaining 
+the autonomy in resource management for each provider. 
+enhanced sla specification and management  approaches should take into consideration that composition 
+may be performed as either centralized (e.g., an entity managing the composition and the corres ponding 

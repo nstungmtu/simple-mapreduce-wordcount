@@ -1,0 +1,48 @@
+cloud computing management 2 
+ 
+  527 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of inter-cloud data management 
+6.1 inter-cloud data categorization 
+6.2 data policy language 
+6.3 inter-cloud data policy-based management 
+6.4 relationship with cloud computing reference architecture 
+7 functional requirements for inter-cloud data policy 
+7.1 data policy language 
+7.2 inter-cloud data policy administration point 
+7.3 inter-cloud data policy information point 
+7.4 inter-cloud data policy decision point 
+7.5 inter-cloud data policy enforcement point 
+7.6 inter-cloud data policy monitoring 
+7.7 inter-cloud dynamic data policy management 
+7.8 inter-cloud autonomic data policy management 
+7.9 inter-cloud cognitive data policy management 
+8 functional requirements for inter-cloud data isolation and protection 
+8.1 datasets placement policies among different csps 
+8.2 data movement regulation across geographical borders 
+9 functional requirements for inter-cloud data management 
+9.1 inter-cloud data use policies 
+9.2 secure data management of the saas replication model in inter-cloud 
+9.3 secure data management of the saas partition model in inter-cloud 
+9.4 secure data management of the saas data partition model in inter-cloud 
+10 security considerations 
+appendix i – use case of inter-cloud data management 
+i.1 use case template 
+i.2 use case of data use policies in inter-cloud 
+i.3 use case of secure data management of the saas replication model in inter-cloud 
+i.4 use case of secure data management of the saas partition model in inter-cloud 
+i.5 use case of secure data management of the saas data partition model in inter-cloud 
+i.6 use case of data policy language 
+i.7 use case of csc data policy implementation in inter-cloud 
+i.8 use case of data placement policies for data-intensive applications in the inter-cloud 
+environment 
+i.9 use case of data regulation across different countries in the inter-cloud environment 
+bibliography 
+ 

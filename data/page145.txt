@@ -1,0 +1,28 @@
+framework and requirements for cloud computing 1 
+ 
+   137 
+i.12 registration of data storage for federation service 
+title registration of data storage for federation service  
+description a dsf service customer requests data storage service from a dsf service provider. for the data 
+storage registration, dsf service customer logs in through the already registered authentication 
+information and registers the cloud storage and on-premises storage to use. the registration 
+process is provided by dsf service provider through the graphical user interface (gui).  
+dsf service customer registers the service name, storage specification, dat a storage service 
+protocol and cloud storage name and cloud storage type through the gui for setting virtual data 
+storage and creates the virtual data storage. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp/dmp) 
+figure 
+(optional) 
+ 
+the example operation of csp for data storage service 
+pre-conditions 
+(optional) 
+– csc:csu for virtual data storage is a registered user to csp:dmp. 
+– csp:dmp has each of the cloud storage service interfaces 
+derived 
+requirements 
+– clause 8.1 requirement (6) 
+– clause 8.3 requirement (4) 
+  
+

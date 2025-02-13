@@ -1,0 +1,21 @@
+1 framework and requirements for cloud computing  
+ 
+314  
+appendix iv 
+ 
+inter-cloud security aspects 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides important aspects to be considered regarding inter-cloud security matters.  
+one important aspect is the multiple and sometimes complicated csp and csc inter-cloud relationships such 
+as those described in clause 7 of this recommendation. for these multiple inter -cloud relationships, 
+appropriate secured mechanisms should be supported during the peer csps interactions such as the services 
+request phase (e.g.,  access control), service usage phase as well as the security of network  connectivity 
+between the csps.  
+other aspects to be considered include: 
+– establishment of a trust relationshi p between csps is important given that the multiple csps 
+involved in inter -cloud may be administrated by different parties. in case of an inter -cloud 
+federation, the involved csps may establish trust relationships among them prior to any interactions 
+between them or during inter-cloud interactions (e.g., service requests between csps);  
+– csc profiles may be shared among the csps involved in the federation. in this case the csc profile 
+should be handled in a secure manner and in respect of privacy rules and regulations.  
+  

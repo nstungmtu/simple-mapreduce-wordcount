@@ -1,0 +1,98 @@
+1 framework and requirements for cloud computing  
+ 
+190  
+table i.1 – ocp related specifications  
+family specification summary published  
+openrack v1 open rack- amd 
+motherboard hardware 
+v2.0 [b-ocp ambh] 
+this document defines the technical specifications 
+for the amd motherboard used in open compute 
+project servers. 
+2012 
+facebook server fan 
+speed control interface 
+draft v0.1 [b-ocp fsci] 
+this document describes facebook's fsc algorithm 
+and its update methodology. using the openipmi 
+fan speed control (fsc) is an intelligent method for 
+controlling server fans to provide adequate cooling 
+while managing thermal constraints and power 
+efficiency. this document will help to manage fsc 
+settings and fsc updates by using intelligent 
+platform management interface (ipmi) commands 
+to vary the fan control profile on either local or 
+remote systems. 
+2017 
+olympus project olympus amd 
+epyc processor 
+motherboard specification 
+[b-ocp oapm] 
+this specification describes the project olympus 
+amd server motherboard. this is an 
+implementation specific specification under the 
+project olympus universal motherboard 
+specification. 
+2017 
+project olympus cavium 
+thunderx2 armx64 
+motherboard specification 
+[b-ocp octam] 
+this specification focuses on the project olympus 
+cavium thunderx2 armx64 motherboard. this is 
+an implementation specific specification under the 
+project olympus universal motherboard 
+specification. 
+2017 
+project olympus 1u server 
+mechanical specification 
+[b-ocp o1usm] 
+this specification focuses on the project olympus 
+full-width server mechanical assembly. it covers 
+the mechanical features and supported 
+components of the server, as well as the interfaces 
+with the mechanical and power support structure. 
+2017 
+project olympus 2u server 
+mechanical specification 
+[b-ocp o2usm] 
+this specification focuses on the project olympus 
+2u server mechanical assembly. it covers the 
+mechanical features and supported components of 
+the server, as well as the interfaces with the 
+mechanical and power support structure. 
+2017 
+project olympus intel 
+xeon scalable processor 
+bios specification [b-ocp 
+obios] 
+the system bios is an essential platform ingredient 
+which is responsible for platform initialization that 
+must be completed before booting of an operating 
+system. thus, the bios execution phase of the 
+boot process is often referred to as pre-boot 
+phase. 
+2017 
+project olympus intel 
+xeon scalable processor 
+motherboard specification 
+[b-ocp omb] 
+this specification describes the project olympus 
+intel server motherboard. this is an 
+implementation specific specification under the 
+project olympus universal motherboard 
+specification. 
+2017 
+ocs open cloudserver ocs 
+programmable server 
+adapter mezzanine 
+programmables v1.0 
+[b-ocp ocspsam] 
+this document defines physical and interface 
+requirements for the programmable nic 
+mezzanine card that can be installed on an open 
+cloud server (ocs) server blade. this server 
+adapter is programmable and provides cpu offload 
+for host-based sdn, virtual switch data path and 
+tunneling protocols. 
+2016 

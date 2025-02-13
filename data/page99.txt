@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   91 
+the service automation functional component  works with the provisioning functional component  and 
+service integration functional component to achieve its goals. 
+9.2.5.3.6 service level management 
+the service level management functional component provides capabilities for managing the service levels of 
+a particular cloud service, aiming to ensure that the cloud service meets the requirements of the sla which 
+applies to the service. 
+the service level management functional component manages the capacity and performance relating to a 
+cloud service. this can involve the application of service policies (e.g., a placement rule which aims to avoid 
+single points of failure). 
+the service level management functional component obtains monitoring information from the monitoring 
+and reporting functional component in order to measure and record key performance in dicators (kpis) for 
+the cloud service. capacity is allocated or de-allocated based on the basis of these kpis. 
+the service level management functional component also keeps track of the overall state of allocated and 
+available resources. the comparison of allocated capacity against cloud service performance kpis can assist 
+in the identification of current or potential bottlenecks, in support of capacity planning. 
+9.2.5.3.7 incident and problem management 
+the incident and problem management functional compone nt provides capabilities for the capture of 
+incident or problem reports and managing those reports through to resolution. 
+incidents and problems can be detected and reported by the cloud service provider's systems, or they can 
+be detected and reported by cloud service customers. 
+9.2.5.3.8 platform and virtualization management 
+the platform and virtualization management functional component provides the capabilities for managing 
+the underlying resources of the cloud service provider (compute, storage, networking) and for virtualizing 
+the use of those resources (e.g., by means of hypervisors). 
+the resources are typically organized into resource pools with key characteristics: 
+• standardized hardware componentry and configuration; 
+• readily expandable through the additional of new hardware capacity; 
+• automated shifting of resources as workload needs change; 
+• protection and isolation of neighbouring workloads and data; 
+• reduce and/or eliminate downtime through movement of workloads and data between resources; 
+• manage resource consumption based on goals (e.g., performance, availability, licences, energy use). 
+9.2.5.3.9 peer service management 
+the peer service management functional component provides capabilities for connecting the provider's 
+operational support systems and business support systems to the administration capabilities and business 
+capabilities of peer cloud service providers, in respect of peer cloud services that are used by the provider. 
+the peer service management functional component is responsible for establishing the communication 
+path(s) required, and for passing appropriate identity and credentials with requests made to the peer cloud 
+service providers. 
+9.2.5.4 business support systems components 
+the business support systems functional components encompass the set of business -related management 
+capabilities dealing with customers and supporting processes.  

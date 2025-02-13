@@ -1,0 +1,40 @@
+ framework and requirements for cloud computing 1 
+ 
+   285 
+7.2 inter-cloud federation 
+inter-cloud federation involves using the cloud services within a group of peer csps who mutually combine 
+their service capabilities in or der to provide the set of cloud services required by cloud service customers 
+(cscs). 
+the multiple csps, which form the inter-cloud federation, establish and share the common agreement which 
+may range from service-related policies, service level agreements (slas) and procedures which are relevant 
+to the service offering and resource handling. 
+based on the agreement, a csp in the inter-cloud federation can offer its cloud services with the help of other 
+csps. 
+a common api for cloud interworking is defined in the inter-cloud federation. as shown in figure  7-3, each 
+csp interworks with the other csps in the inter-cloud federation through this common api. 
+it should be noted that the inter -cloud federation pattern does not necessarily require the fully meshed 
+configuration of csps interacting with each other as shown in figure 7-3. 
+y .3511(14)_f7-3
+csp a
+inter-cloud federation
+service xcsc 1
+service y
+csc 2
+csc 3 service z
+common
+api
+csp c
+csp b
+csp e csp d
+ 
+figure 7-3 – inter-cloud federation 
+7.3 inter-cloud intermediary 
+in the inter -cloud intermediary pattern, the csp interworks with one or more peer csps and provides 
+intermediation, aggregation and arbitrage of services provided by these csps. 
+service intermediation consists in conditioning or enhancing the cloud service of a peer csp. service 
+aggregation relates to the composition of a set of services provided by the peer csps. service arbitrage is 
+about selecting one service offering from a group of services offered by the peer csps. 
+interworking between a csp providing service intermediation, aggregation and arbitrage and the peer csps 
+can rely on either the inter-cloud peering pattern or the inter-cloud federation pattern. figure 7-4 illustrates 
+the inter -cloud intermediary pattern where csp a provides intermediation, aggregation and arbitrage of 
+cloud services provided by csps b, c, d and e. 

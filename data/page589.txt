@@ -1,0 +1,47 @@
+xaas 3 
+ 
+  581 
+table 6-1 – relationship between daas logical components and daas functions 
+daas logical components 
+[itu-t y.3503] 
+daas functions 
+this recommendation  
+virtualization infrastructure virtualization infrastructure support  
+(see clause 7.1) 
+connection manager virtual desktop connection and delivery  
+(see clause 7.2) virtual desktop delivery 
+resource pool virtual desktop resource management  
+(see clause 7.3) 
+daas client daas client support  
+(see clause 7.4) 
+7 daas functions 
+7.1 virtualization infrastructure support 
+virtualization infrastructure support functions provide the abilities to: 
+– offer abstracting hardware resources (see clause 7.1.1); 
+– allocate resources to a virtual desktop resource assignment function (see clause 7.1.2); 
+– improve the performance in terms of a daas platform (see clause 7.1.3); 
+– supply the interfaces to access the virtualization infrastructure (see clause 7.1.4). 
+7.1.1 platform virtualization 
+providing a separate virtual desktop environment for each daas user is a main role of the platform 
+virtualization function. this function: 
+– performs abstracting hardware resources in order to assign them to a virtual desktop efficiently; 
+ note – abstracting hardware resources  has different approaches, e.g., operating-system-level virtualization 
+and hypervisor which are configured to accommodate one or more virtual machines above hardware;  
+• operating-system-level virtualization is a virtualization method where the input/output (i/o) 
+management part of a base  operating system (os) allows for multiple isolated user space 
+instances, instead of just one. such instances may look like a virtual desktop environment from 
+the point of view of its daas users. (e.g., container based approach); 
+• a hypervisor is a type o f system software that allows multiple oss to share a single hardware 
+host [itu -t y.3510]. it is classified into two types depending on the installation on a host 
+machine. in the one type, hypervisors are installed and run directly on the host machine's 
+hardware like an os. the other type is described such a way that hypervisors are installed on 
+an existing operating system os of the host machine and run just as other applications do. 
+– coordinates invocations on central processing unit (cpu), memory, disk,  network and other 
+resources through the platform os. since the platform os takes care of all the hardware, this 
+function supports the hardware compatibility; 
+– consolidates multiple platforms into the pool of physically separated hardware resources; 
+– isolates virtual desktops not to affect the operation of a platform itself or any other virtual desktops; 
+– constructs the multiple systems for daas such as server, storage and network to serve different daas 
+users. 
+7.1.2 resource assignment 
+the resource assignment function: 

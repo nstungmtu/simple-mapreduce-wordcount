@@ -1,0 +1,27 @@
+intercloud and interoperability 5 
+ 
+  839 
+ii.40 reference point: i-psm-aa 
+the peer service management functional component interacts with the administration access functi onal 
+component of a peer csp through i-psm-aa to access the administration capabilities of a peer csp. 
+ii.41 reference point: i-psi-aim 
+the peer service integration functional component interacts with authentication and identity management 
+functional compo nent through i -psi-aim to provide authentication and identities for inter -cloud service 
+integration. 
+ii.42 reference point: i-psi-aspm 
+the peer service integration functional component interacts with authorization and security policy 
+management functional component through i-psi-aspm to apply authorization for peer csps to access inter-
+cloud services. 
+ii.43 reference point: i-psi-em 
+the peer service integration functional component interacts with encryption management functional 
+component through i-psi-em to get api encryption function for peer csps. 
+ii.44 reference point: i-psi-sa 
+the peer service integration functional component interacts with peer csp's service access functional 
+component through i-psi-sa to access the services of a peer csp. 
+ 
+bibliography 
+ 
+[b-itu-t y.3500]  recommendation itu-t y.3500 (2014) | iso/iec  17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-itu-t y.3501]  recommendation itu-t y.3501 (2016), cloud computing framework and high-level 
+requirements. 

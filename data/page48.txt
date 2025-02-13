@@ -1,0 +1,35 @@
+1 framework and requirements for cloud computing  
+ 
+40  
+use case 
+name inter-cloud computing use case for intermediation 
+abstract a csp intermediates services from other csps to provide a service to the csc. 
+actors csp, csc 
+figure  
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions – a csp selects a service from other csps' services and intermediates them to a csc. 
+– a csp creates a new service by integrating several services in other csps and intermediates 
+them to a csc. 
+requirements – on-demand assignment of cloud resource 
+– inter-cloud computing service intermediation 
+i.9 end-to-end cloud resource management use case 
+use case 
+name end-to-end cloud resource management use case 
+abstract a csc uses a service offered by multiple csps and/or csns, one of which supports customer 
+services. in order to deliver customer services properly, the csn manages end-to-end health 
+and qos of the service offered by a csp which can integrate several base services offered by 
+multiple csps. 
+actors csc, csp, csn 
+figure 
+ 
+ 
+as shown in the above figure, this problem requires visibility into csp2's management systems 
+delivering the voice application service, as well as similar csp's management systems. when 
+the voice application customer calls into csp2 support, then the csp2 support person should 
+have visibility into the health and welfare of the csp1's voice application service, its underlying 
+cloud infrastructure, as well as the local service provider's network management systems 
+relevant to the voice application service. 
+

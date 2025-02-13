@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+182  
+management component
+enclosure
+interconnect network
+power supply
+power supply
+cooling
+cooling
+motherboard
+processing unit 1
+cpu memory storage i/o
+motherboard
+processing unit 2
+cpu
+cpu
+memory
+memory
+storage
+storage
+i/o
+i/o …
+ 
+ 
+figure 6-5 – example of a multi-processing unit type 
+6.4 virtualization in physical machines 
+this clause identifies different types of virtualization of the components in processing units such as cpus, 
+memory and i/os. the mode of virtualization in each component can be software based mode or hardware-
+assisted mode. the requirements in this recommendation only consider the hardware -assisted mode for 
+virtualization. 
+6.4.1 cpu virtualization  
+cpu virtualization technology makes a single cpu act as if it was multiple individual cpus. there are different 
+ways to implement cpu virtualization. cpu virtua lization can be implemented in software-based mode and 
+in hardware-assisted mode:  
+– in software based mode, the privileged instructions are simulated by software.  
+– in hardware-assisted mode, the privileged instructions can be directly run by the physica l cpu to 
+achieve higher performance. hardware-assisted mode requires the cpu to support a virtualization 
+instruction set. 
+note – the difference between the two modes is in the execution of privileged instructions in vm's operating system 
+(os).  
+6.4.2 memory virtualization  
+memory virtualization abstracts physical memory to a divided virtual memory for use by a virtual machine. 
+there are two  modes of memory virtualization: software-based and hardware -assisted memory 
+virtualization: 
+– software-based mode builds a software based memory mapping table.  
+– in hardware -assisted mode, a memory mapping table is implemented in hardware with better 
+performance. 
+note – the difference between the two modes is the mapping between virtual memory and  physical memory. 

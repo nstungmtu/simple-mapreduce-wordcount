@@ -1,0 +1,61 @@
+3 xaas  
+ 
+628  
+pre-conditions 
+(optional) 
+– there is no connectivity between xaas csc a and xaas csp y. 
+– there is no connectivity between xaas csp x and xaas csp y.  
+– either xaas csc a or xaas csp y requests the connectivity between them with their end -
+point identifiers and associated characteristics (referring to qos and security aspects) 
+for the connectivity. 
+– either xaas csp x or xaas csp y requests the connectivity between them with their end -
+point identifiers and associated characteristics (referring to qos and security aspects) 
+for the connectivity. 
+post-conditions 
+(optional) 
+– xaas csc a and xaas csp y can communicate with each other. 
+– xaas csp x and xaas csp y can communicate with each other.  
+requirements – on-demand network configuration  
+– heterogeneous networks compatibility 
+– qos-guaranteed connectivity  
+– secured connectivity 
+– common control mechanism for naas connectivity (refer to clause 9.1) 
+note – the first 4 requirements belong to general requirements of naas which are 
+provided in [itu-t y.3501].  
+ii.4.2 detailed use cases 
+ii.4.2.1 naas connectivity use case for dynamic transport network 
+ 
+title naas connectivity use case for dynamic transport network 
+description csc demands a geographically distributed connectivity service and dynamic traffic capacity 
+which can accommodate cloud bursting (e.g., vm migration or the transfer of large da ta 
+files across data centres which sit in different places) which brings a surge of traffic passing 
+through the backbone of the csp. 
+ip and transport networks of the csp are separately managed and therefore cannot 
+provide the common control mechanism for dynamic bandwidth adjustment. in order to 
+guarantee the service continuity and consistent sla to the csc, such csp would have to 
+offer over-provisioning of links, most of which being not used effectively and thus causing 
+resource waste.  
+the csp is recommended to cope with the surge of transit traffic which traverses its 
+backbone without making use of traditional over-provisioning approaches of the 
+networking resources. 
+roles csc, csp 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– unified sla for multiple optimized networks (refer to clause 9.2) 
+– leveraging transport networks dynamically (refer to clause 9.3) 
+– unified network control mechanism (refer to clause 9.4) 
+ii.4.2.2 naas connectivity use case for flexible and extended vpn 
+ 
+title naas connectivity use case for flexible and extended vpn 
+description the different vpn sites are connected via bgp/mpls ipvpn. the processing resources and 
+the corresponding subnet are migrated from the csc's data centre to the csp's data centre, 
+which is not yet involved in the vpn as a vpn site. in order to add this new site in the 

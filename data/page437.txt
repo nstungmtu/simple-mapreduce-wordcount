@@ -1,0 +1,47 @@
+cloud computing management 2 
+ 
+  429 
+ii) one or more csps providing the cloud service; 
+iii) non-cloud-based telecommunications facilities. 
+see [itu-t y.3520] for further information. 
+platforms on which the virtual resources are hosted are typically managed within a cloud computing 
+management system, and might not be exposed directly to the telecommunications management system. 
+therefore, the introduction of cloud computing brings new aspects to management for telecommunication 
+operators: 
+− cloud computing roles and sub-roles, see clause 7.2.2 of [itu-t y.3502]; 
+− cloud computing multi -layer functions, see clause 7.3.3 of [itu-t y.3502], including development 
+environment, test environment, and the cloud computing bss/oss functions; 
+− cloud services, see clause 9.2.3 of [itu-t y.3502]; 
+− cloud computing resources, see clause 9.2.4 of [itu-t y.3502]. 
+7 objectives 
+from the perspective of the telecommunication industry, the following management objectives regarding 
+cloud computing should be considered: 
+− fulfil the holistic management of cloud computing resources and services together with the existing 
+telecommunications management framework. for the purpose of providing cloud services 
+effectively, both the telecommunication bss/oss and the cloud bss/oss should collaborate 
+properly to support the holistic management of cloud computing resources and services, together 
+with telecommunication networks; 
+− fulfil the network management needs of cloud computing. as defined in [itu -t y.3510] and [itu-t 
+y.3512], network resources (e.g. , bandwidth, switching and routing, network addresses) will need 
+to be scalable, and adapt dynamically to the traffic generate d. telecommunication operators will 
+need to provision self -managed and on-demand network capability to meet various requirements 
+from the cloud service, and to apply dynamic control and adapt its configuration (including network 
+bandwidth, protocols, codecs, security mechanisms, etc.) over the telecommunication network on 
+the direct request of cloud services or cscs; 
+− realize e2e service quality management. e2e servic e quality management is vital for 
+telecommunication services which are deployed using cloud computing resources and services. 
+telecommunication services demand high availability, high security, and excell ent service 
+experience ( e.g., short response times, high service success rate). telecommunication operators 
+need to be able to control and manage the cloud computing resources and services for the purpose 
+of ensuring e2e telecommunication service quality and csc experience. 
+8 conceptual view and management layering 
+this clause defines the conceptual view of cloud computing management based on the cloud computing 
+reference architecture [itu -t y.3502], cloud computing management layers and the service managem ent 
+interface (smi) approach. 
+8.1 cloud computing management layering 
+figure 8-1 presents a comprehensive view of cloud computing management. it shows the management layers 
+of a cloud computing system: 
+− customer management; 
+− product management; 
+− service management; 
+− resource management. 

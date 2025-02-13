@@ -1,0 +1,14 @@
+1 framework and requirements for cloud computing  
+ 
+228  
+summary 
+recommendation itu-t y.3508 provides an overview and high-level requirements for distributed cloud. this 
+recommendation introduces the concept of the distributed cloud and identifies the characteristics of 
+distributed cloud. based on concept and characteristics, configuration models are illustrated. deployment 
+considerations of distributed cloud are provided in  perspective of infrastructure, network, service, 
+management and security. from use cases, high-level requirements of the distributed cloud are derived. 
+keywords 
+cloud computing, distributed cloud, high-level requirement. 
+ 
+ 
+  

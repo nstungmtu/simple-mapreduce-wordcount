@@ -1,0 +1,50 @@
+ framework and requirements for cloud computing 1 
+ 
+   77 
+the audit itself depends upon data and evidence being available, relating to the usage, environment, 
+availability and performance of services and associated resources. such data and evidence includes records 
+and logs of activities and conditions of the operational environments of all parties of the governing 
+agreements. these records and logs need to be collected and maintained in a secure manner. 
+8.5.3 availability 
+availability is the property of being accessible and usable upon demand by an authorized entity. the 
+"authorized entity" is typically a cloud service customer. 
+8.5.4 governance 
+governance is the system by which the provision and use of cloud services are directed and controlled. 
+the term internal cloud governance is used for the application of design-time and run-time policies to ensure 
+that cloud computing based solutions are designed and implemented, and cloud computing based services 
+are delivered according to specified expectations. these expectations can cover any or all of the cross-cutting 
+aspects. 
+the individual governance practices used by cloud service customers and cloud service providers exist on a 
+continuum from simple to sophisticated and are encapsulated within their role. it is the responsibility of each 
+role to implement governance according to their needs. cloud governance is cited as a cross -cutting aspect 
+because of the requirement for transparency and the need to rationalize governance practices with slas and 
+other contractual elements of the cloud service customer to cloud service provider relationship. 
+the term external cloud governance is used for some form of agreement between the cloud service customer 
+and the cloud service provi der concerning the use of cloud services by the cloud service customer . the 
+agreement can make reference to a service level agreement  which provides detailed information about 
+functional and non-functional aspects of the services. 
+8.5.5 interoperability 
+interoperability in the context of cloud computing includes the ability of a cloud service customer to interact 
+with a cloud service and exchange information according to a prescribed method and obtain predictable 
+results. typically, interoperability implies that the cloud service  operates according to an agreed 
+specification, one that is possibly standardized. the cloud service custom er should be able to use widely 
+available ict facilities in-house when interacting with cloud services, avoiding the need to use proprietary or 
+highly specialized software. 
+interoperability also includes the ability for one cloud service  to work with other  cloud services , either 
+through a csp:inter-cloud provider relationship, or where a cloud service customer uses multiple different 
+cloud services in some form of composition to achieve their business goals. 
+interoperability stretches beyond the cloud services themselves and also includes the interaction of the 
+cloud service customer with the cloud service management facilities of the cloud service provider. ideally, 
+the cloud service customer  should have a consistent and interoperable interface to the cloud service 
+management functionality and be able to interact with two or more cloud service providers without needing 
+to deal with each provider in a specialized way. 
+standards are implemented in order to support interoperability between components or to supp ort the 
+portability of data or of program components. the implementations should support the evolution of the 
+standards used, both from an earlier version of a standard to a later version, or from one standard to a 
+different one, while minimizing disruptive changes. 
+8.5.6 maintenance and versioning 
+a significant item relating to governance is the maintenance of services and underlying resources. 
+maintenance can take place for a variety of reasons, including the need to fix faults and also the need to 
+upgrade or extend facilities for business reasons. maintenance actions can have the effect of changing the 
+behaviour of cloud services  – in particular changes can affect how a service operates when used by a 
+customer. 

@@ -1,0 +1,52 @@
+1 framework and requirements for cloud computing  
+ 
+408  
+• iso/iec 22123: this document provides a consolidated set of terms and definitions extracted from 
+the iso/iec cloud computing standards, including, but not limited to, iso/iec 17788, iso/iec 17789, 
+iso/iec 19086, iso/iec 19941 and iso/iec 19944. in addition, relevant and stable terminology from 
+non-cloud computing iso sources (e.g., information technology – security techniques) and external 
+organization are also included. this document also contains terms and definitions that are not 
+necessarily contained in other works. this document also address es discrepancies and 
+inconsistencies that have been identified in the consolidated terms and definitions to further 
+enhance the usability of the iso cloud computing terminology. this document includes additional 
+descriptions and clarifications of cloud com puting vocabulary terms, concepts and their inter -
+relationships. 
+ uri: https://www.iso.org/standard/72627.html 
+• iso/iec 22624: this document: 
+– describes a framework for the structured expression of data -related policies and practices in the 
+cloud computing environment, based on the data taxonomy in iso/iec 19944; 
+– covers expression of data-related policies and practices including, but not limited to, the following: 
+• data geolocation: location of data in various jurisdictions, as it applies to data at rest; 
+• cross-border control of data: control of data that resides in different jurisd ictions or under 
+different sovereign control depending on their data categorization (iso/iec 19944), and/or 
+classification hierarchy and data use statement structure (iso/iec 19944); 
+• cross-border flow of data: flow of data across borders and in general a cross various 
+jurisdictions; 
+• data portability: portability requirements of data in the cloud computing environment; 
+• data classification: policies and practices which vary depending on the classification of the data; 
+• data processing: processing of the data either by the csp or by a 3rd party; 
+• data management: management of the data either by the csp or by a 3rd party; 
+• data governance: governance of the data; 
+– describes how the framework can be used in code(s) of conduct for practices regarding data at rest 
+and in transit, including cross-border transfer of data, as well as remote access to data; 
+– provides guiding principles on application of the taxonomy for the handling of data based on data 
+subcategory and classification, including the processes  that are needed for data in different levels 
+of categorization and classification; 
+– provides use cases for data sovereignty challenges, i.e. control, access and location of data according 
+to data categories just in-time elevations in data access for people in various roles (e.g., data centre 
+operators and administrators, and other roles in cloud computing). 
+ this document is applicable primarily to cloud service providers, cloud service customers and cloud 
+service users, but also to any person or organiza tion involved in legal, policy, technical or other 
+implications of taxonomybased data management in cloud services. 
+ uri: https://www.iso.org/standard/73614.html  
+• iso/iec tr 22678: this document provides guidance on the use of international standards as a tool 
+in the development of those policies that govern or regulate cloud service providers (csps) and cloud 
+services, and those policies and practices that govern the use of cloud services in enterprise 
+organisations. this includes material that explains cloud computing concepts and the role of cloud 
+computing international standards in formulating polic ies and practices. the document makes 
+reference to various international standards. where possible, these standards are iso/iec 
+documents. where a suitable iso/iec standard is not available, references are made to documents 
+published by other wto-registered standards bodies. as explained in the wto "technical barriers 
+to trade" (tbt) agreement, standards play a vital role in supporting technical regulations and 
+conformity assessment, however this document does not cover matters of trade. 
+ uri: https://www.iso.org/standard/73642.html  

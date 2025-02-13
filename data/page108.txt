@@ -1,0 +1,25 @@
+1 framework and requirements for cloud computing  
+ 
+100  
+ 
+figure a.1 – csc:cloud service user relationship for the "use cloud service" activity  
+a.1.2 business relationship 
+the csc:cloud  service business manager performs the cloud computing activities  select and purchase 
+service, perform business administration and request audit report through the business function functional 
+component of the user layer. the business function functional component invokes the business capabilities 
+of the cloud service provider through an end point and interface enabled by the business access functional 
+component. 
+the business access functional component  performs any authentication of the cloud csp:cloud service 
+business manager and establishes authorization to use particular functions of the business capabilities. the 
+business capabilities functional component interacts with business support systems functional components 
+to carry out requests made by the csc:cloud service business manager  – including the product catalogue, 
+account management and subscription management functional components.  
+the information that relates to the business capabilities is typically: 
+• product catalogue entries for available cloud services, with related technical information, pricing, 
+terms and conditions; 
+• subscription information concerning which service(s) the customer is subscribing to, with associated 
+quantitative information, if relevant (e.g., numbers of users, volumes of data, amount of processing, 
+etc.); 
+• billing information, which can include information about usage charges, payments and account 
+status. 
+

@@ -1,0 +1,34 @@
+xaas 3 
+ 
+  737 
+7.4 level 4: scalable saas application 
+most public web service providers serve an arbitrarily large number of customers as multiple tenants . 
+consequently, each layer of the underlying platform architecture, from hardware to application, is required 
+to be easily scalable for applications and services as shown in figure 5. hence, more tenants and more per-
+tenant users can be added without requiring additional re-architecting of the applications. 
+ 
+figure 5 – architecture of scalable saas application 
+for the application layer, when there is a new tenant, one or more application instances will be generated 
+according to the tenant -specific requirements, or a suitable existing instance will be chosen in accordance 
+with the requirement based on load balance mechan ism. all the instances of the applications in such an 
+environment are required to be created dynamically. 
+the underlying resources of scala ble saas applications also support elastic  scaling. any hardware, 
+middleware, software, and data are needed to be managed in the resource pool. the applications get all 
+resources they need from the resource pool dynamically. new resources can be added with out any 
+recombination or re-architecting when needed. 
+there are multiple design considerations about the dynamic scal ing technologies, including scaling choices, 
+resource allocation, the service level agreement (sla), etc. a new tenant can be executed as a single instance 
+or can coexist with other tenants on a shared instance. different instances, which run different typ es of 
+tenants, can be allocated to varied resources. the saas environment provider should consider different slas 
+for different tenants when using load balance and shared resources. 
+8 security requirements for saas application environment 
+figure 6 shows the relationship among  the cloud service customer ( csc), csp and csn with respect to the 
+saas application environment, in which csp and csn p lay different roles in performing different functions. 
+csn can serve csp as a  content provider, software pro vider, system integrator or auditor , while both csn 
+and csp can develop applications for csc. csp and csn have interfaces with the saas application 
+environment, while csc only interacts with applications built upon it. as a result, this recommendation 
+focuses mainly on the security requirements of the saas application environment for csp and csn in a 
+different maturity model. the security requirements for the saas application environment originate from csp 
+and csn as they need a saas application environment  to have the capability to meet their demands on 
+security. 
+

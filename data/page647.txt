@@ -1,0 +1,33 @@
+xaas 3 
+ 
+  639 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cloud computing – functional 
+requirements of infrastructure as a service 
+recommendation itu-t y.3513 
+(08/2014) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

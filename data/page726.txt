@@ -1,0 +1,26 @@
+3 xaas  
+ 
+718  
+ 
+figure 7-5 – authorization and security policy management functional component extended for bdaas 
+7.3.2.1 security and privacy management functional component 
+the security and privacy management functional component is responsible for managing data provenance, 
+personal information in data and user access authority. this functional component aims to avoid data being 
+collected, stored by or disclosed to those who are not appropriate. 
+this functional component provides: 
+– the capability to manage identification and authorization so that only authenticated and authorized 
+users shall access the data; 
+– methods to protect the privacy of confidential data and sensitive d ata. for example, this function 
+supports data desensitization to protect the sensitive data. 
+ note 1 – confidential data refers to provide for protection of data from unauthorized disclosure. 
+ (see [b-itu-t x.509]). 
+ note 2 – sensitive data refers to perso nally identifiable information or other sensitive information 
+ which is collected, stored, used, and finally destroyed or deleted.  
+7.3.3 operational support systems functional components 
+the operational support system  functional components are extended for  bdaas (see figure 7 -6) with the 
+following functional components: 
+– data life-cycle monitoring functional component (see clause 7.3.3.1); 
+– data policy management functional component (see clause 7.3.3.2); 
+– data catalogue functional component (see clause 7.3.3.3); 
+– resource orchestration functional component for big data (7.3.3.4). 
+

@@ -1,0 +1,13 @@
+1 framework and requirements for cloud computing  
+ 
+350  
+summary 
+supplement 40 to itu-t y-series recommendations provides the standardization roadmap for big data in the 
+telecommunication sector. it describes the landscape and conceptual ecosystem of big data from an itu -t 
+perspective, related technical areas, activities in standards development organizations (sdos) and gap 
+analysis. 
+keywords 
+big data, big data ecosystem, data analytics, roadmap. 
+ 
+ 
+  

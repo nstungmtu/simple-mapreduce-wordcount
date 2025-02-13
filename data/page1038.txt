@@ -1,0 +1,52 @@
+7 security  
+ 
+1030 
+8.5 security configuration management 
+security configuration includes security rules configured in the cloud platform, network, virtual machines and 
+various application components. it is different from a high -level security policy, which sets out the 
+organization's approach to achieve its information security objectives. 
+csps should execute the integrated security configuration management to provide efficient implementation 
+and fast deployment of the security configuration. 
+in security configuration management, it is suggested that csps  set security policy configuration templates 
+and security configuration policy baselines . furthermore, csps should take measures to ensure the 
+consistency and efficiency of security configuration when cloud environment changes and to isolate the 
+security configuration between cscs in a multi-tenancy environment. 
+security configuration templates include main templates of security configuration that the current cloud 
+computing environment needs, such as account management, authentication, access control policies, audit 
+policies, dynamic response policies, application and software update policies, backup and recovery policies, etc. 
+security configuration baselines provide a criterion for the security configuration requirements of the entire 
+cloud computing environment,  which can help csps evaluate whether the current security configuration 
+meets the fundamental security level or not, and further provide detailed guidance to reinforcement.  the 
+categories of security configuration baselines should include but are not limited to the following: os security 
+configuration baselines, database security configuration baselines, firewall security configuration baselines, 
+switch security configuration baselines, router security configuration baselines, etc. 
+security configuration management involves the following measures: 
+1) security configuration template management 
+ csps should set the main security templates for the demands of cloud environment to make security 
+configuration deployment faster and more convenient. security config uration template 
+management should support customized templates, update and optimize templates continuously 
+according to the changes of cloud platform, network status, service requirements, and so on. 
+ furthermore, csps should provide cscs with the capability to customize new security configuration 
+templates according to their own requirements . additionally, cscs should be responsible for the 
+effectiveness of the security configuration which they customized. 
+2) security configuration process management 
+ csps should testify the effectiveness of the security configuration. security configuration can be 
+configured according to cscs' and cloud services' requirements. the main process of security 
+configuration management involve s configuration request, configuration approval, testing and 
+technical validation, implementing, configuration archiving and output report. 
+3) security configuration baseline management 
+ csps should develop security configuration baseline by comprehensively considering the security 
+requirements of cloud computing platform, cloud service, cscs, the security clause of sla, etc. 
+ the main process of security configuration baseline management involve s security configuration 
+checking request and record, approval, checking implementing, checking report output, 
+reinforcement implementing, and reinforcement report output. security conf iguration checking 
+should be executed periodically during daily operations, and can be implemented through 
+configuration collecting and baseline security analysis. 
+4) security configuration conflict management 
+ in a resource sharing cloud environment, due to faults caused by either the security administrator 
+or by other reason s, the security configuration might be compromised which may result in 
+vulnerabilities in the cloud computing environment. csps should implement efficient measures to 
+detect security c onfiguration conflicts, and establish  a security configuration conflict handling 
+process and retrieval mechanisms. 
+ the handling process of security configuration conflict should involve conflict alarm, conflict analysis 
+(which includes reasons and influences analysis), conflict handling and output report. 

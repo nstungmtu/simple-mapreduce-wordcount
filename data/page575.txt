@@ -1,0 +1,40 @@
+xaas 3 
+ 
+  567 
+table iii.6 – home application using daas 
+legend use case 
+derived 
+requirements  
+ 
+– unified management interface 
+– diversity of daas client 
+– optimized adaptation for content type 
+– dynamic configuration adaptation 
+– support of daas client peripherals 
+table iii.7 – charging scheme for daas 
+legend use case 
+use case title charging scheme for daas 
+use case 
+description 
+this use case depicts the case where charging functionality is required in daas. the purpose of 
+this use case is to show various environments of cscs that use common resources provided by 
+the same csp. 
+there are two actors in this diagram: csc and csp; they provide software and hardware.  
+• the csp needs to manage daas user profiles including the types of users. (#1 in figure). 
+• as, depending on the type of users, the rate for using resource can be offered differently, 
+the csp manages the policy for resource usage. (# 2 in figure). 
+• the csc uses resources (#3 in figure) and the csp manages software and hardware usage 
+statics (#4 in figure). 
+• the csp manages accounting (#5 in figure) by monitoring software and hardware usage 
+statistics (use case 3). the csc can use storage, cpu and memory as in iaas, and whenever 
+an application (software) runs on csp. daas also provides storage, cpu and memory. the 
+csp needs to store accounting information of software and hardware usage whenever the 
+usage occurs. 
+• considering user profile, software and hardware usage statistics, and the policy of resource 
+usage to reflect different types of usage, the csp produces bills and requests payment to 
+cscs (#6 in figure). 
+high-level figure 
+describing the use 
+case 
+ 
+

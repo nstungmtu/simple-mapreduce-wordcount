@@ -1,0 +1,8 @@
+framework and requirements for cloud computing 1 
+47 
+information technology – cloud computing 
+– reference architecture
+rec. itu-t y.3502 (2014) | iso/iec 17789:2014  
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things 
+and smart cities 

@@ -1,0 +1,13 @@
+security 7 
+ 
+  1045 
+introduction 
+the guidel ines contained within this recommendation | international standard are in addition to and 
+complement the guidelines given in iso/iec 27002. 
+specifically, this recommendation | international standard provides guidelines supporting the 
+implementation of info rmation security controls for cloud service customers and cloud service providers. 
+some guidelines are for cloud service customers who implement the controls, and others are for cloud service 
+providers to support the implementation of those controls. the selection of appropriate information security 
+controls and the application of the implementation guidance provided, will depend on a risk assessment and 
+any legal, contractual, regulatory or other cloud-sector specific information security requirements. 
+ 

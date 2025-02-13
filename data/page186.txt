@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+178  
+sas serial attached scsi 
+sata serial at attachment 
+scsi small computer system interface 
+sel system event log 
+soc system-on-a-chip 
+sram static random access memory 
+tcp transmission control protocol 
+uart universal asynchronous receiver/transmitter 
+usb universal serial bus 
+vga video graphics array 
+vm virtual machine 
+5 conventions 
+in this recommendation: 
+the keywords "is required to" indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+the keywords "is not recommended" indicate a requirement which is not recommende d but which is not 
+specifically prohibited. thus, conformance with this specification can still be claimed even if this requirement 
+is present. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the vendor's implementation must 
+provide the option and the feature can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the fea ture and still claim conformance with the 
+specification. 
+6 overview of the physical machine 
+6.1 introduction to the computing machine 
+cloud infrastructure includes processing, storage, networking and other hardware resources, as well as 
+software assets, for more information see clause 6 in [itu-t y.3510]. processing resources are used to provide 
+essential capabilities for cloud services and to support other system capabilities such as resource abstraction 
+and control, management, security and monitoring.  
+a computing machine provides allocation and scheduling of processing resources. types of computing 
+machine are physical or virtual [itu-t y.3510]. the capability of a computing machine is typically expressed 
+in terms of configuration, availability, scalability, manageability and energy consumption [itu-t y.3510]. 
+the requirements of the virtual machine, as one of categories of the computing machine, have been specified 
+in [itu-t y.3510]. those requirements include virtualization technologies that can be app lied to resource 
+types such as the central processing unit (cpu), memory, input/output (i/o) and network interfaces. several 
+requirements regarding virtual machine management have also been identified, e.g., duplication of a virtual 
+machine (vm) dynamic/static migration of avm and management automation.  
+  

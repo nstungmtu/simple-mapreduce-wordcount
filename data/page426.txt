@@ -1,0 +1,19 @@
+1 framework and requirements for cloud computing  
+ 
+418  
+bibliography 
+ 
+[b-atis] overview of atis.  
+http://www.atis.org/01_about/ 
+[b-broadband] mission, vision of broadband forum.  
+http://www.broadband-forum.org/about-the-broadband-forum/about-the-
+forum/mission-and-vision  
+[b-dmgf-wg] dmtf working groups and committees.  
+https://www.dmtf.org/about/working-groups  
+[b-dmtf] dmtf introduction.  
+https://www.dmtf.org/about  
+[b-jtc 1 sc 38] iso/iec cloud computing and distributed platforms' scope and study groups. 
+https://www.iso.org/isoiec_jtc1sc38.html  
+[b-tmf] tm forum's vision.  
+https://www.tmforum.org/  
+ 

@@ -1,0 +1,29 @@
+3 xaas  
+ 
+594  
+ 
+figure 9-1 – functions and reference points in cs-fs 
+9.1.1 service connection function 
+the sc-f connects a virtual desktop in the cs -fs while the user access management function (uam -f) and 
+client connection management function (ccm-f) are the counterparts to the same operations in the vdcd -
+fs. the sc -f sends csu's access information to the uam -f through i_sc_uam to perform user 
+authentication. the sc -f exchanges the virtual desktop access informa tion with the ccm -f through 
+i_sc_ccm to connect a virtual desktop. in addition, the sc-f delivers the daas client’s connection state and 
+additional resource request/cancellation to the delivery pro tocol processing function (dpp -f) though 
+i_sc_dpp. detailed functional description for the sc-f is specified in clause 7.4.1. 
+9.1.2 connection negotiation function 
+the cn-f provides the cs-fs with the user interaction by using negotiation results. the cn-f gathers network 
+performance information and the daas clien t state, and delivers them to the vdcd -fs through i_cn_dpp. 
+consequently, the cn -f also receives the negotiation result from the dpp -f in the vdcd -fs thorough 
+i_cn_dpp. detailed functional description for the cn-f is specified in clause 7.4.2. 
+9.1.3 client peripheral connection function 
+the cpc-f handles daas client's peripherals on a daas client. when the cpc-f recognizes the peripherals, all 
+sorts of peripheral events (e.g., a connection and control events) are sent to the vdcd-fs though i_cpc_dpp. 
+a detailed functional description for the cpc-f is specified in clause 7.4.3. 
+9.1.4 service continuity for user environment function 
+the scue-f maintains the same user environment even  on abnormal network state. when the network is 
+disconnected, the scue-f requests the reconnection to the ccm -f through i_scue_ccm. and, the scue -f 
+synchronizes the daas user's states between the cs-fs and the provisioning and allocation of virtual desktop 
+function (pa -f) through i_scue_pa. a detailed functional description for the scue-f is specified in 
+clause 7.4.4. 
+

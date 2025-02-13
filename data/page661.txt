@@ -1,0 +1,45 @@
+xaas 3 
+ 
+    653 
+use case 
+– vm reservation (refer to clause 7.1.9) 
+– vm image (refer to clause 7.1.10) 
+– vm template (refer to clause 7.1.11) 
+i.3.1  vm snapshot use case 
+use case 
+name  iaas use case on vm snapshot 
+abstract  csc uses the snapshot functions during the lifecycle of a vm. 
+roles  csc, csp 
+figure  
+y .3513(14)_fi.3.1
+vm vm'
+cloud infrastructure
+computing resource pool
+csp
+csc
+portal
+snapshots
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism. 
+– csc has created a vm which is in normal running state, stopped state or suspending 
+state. 
+post-conditions 
+(optional)   
+description – csc has found that the vm is working properly; and an operation  that may cause 
+faults, for example, conducting a software upgrade, is to be performed. 
+– csc snapshots the vm, a name for the snapshot is required while the description is 
+optional. it also contains the runtime information, including the vm cpu and memory 
+states, if the vm is not powered-off. 
+– csc performs the software upgrade operation, vm is in vm' (as the figure shows) state 
+and there is something wrong, for example, the user data of the software has been lost 
+and vm cannot work properly. 
+– csc recovers the vm using the snapshot it created above and all the software running 
+on the vm is recovered to state "vm" too. 
+requirements  –  vm snapshot (refer to clause 7.1.5) 
+i.3.2  vm clone use case 
+use case 
+name  iaas use case on vm clone 
+abstract  csc uses the clone functions to create a new vm. 
+roles  csc, csp 

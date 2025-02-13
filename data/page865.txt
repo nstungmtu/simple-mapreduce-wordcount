@@ -1,0 +1,26 @@
+intercloud and interoperability 5 
+ 
+  857 
+appendix ii 
+ 
+functionalities for managing isolation and security mechanism 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix provides functionalities for managing isolation and security mechanisms. 
+ii.1 functionalities for managing isolation and security mechanism 
+the functionalities for managing isolation and security mechanisms are supported by the 'authentication and 
+identity management'', ''authorization and sec urity policy  management'', ''encryption management'' and 
+''platform and virtualization man agement'' functional components within the multi -layer functions of the 
+cloud computing reference architecture [itu-t y.3502]. the positioning of these functionalities for managing 
+isolation and security mechanism s across the csps , which provide inter -cloud services , is presented in 
+figure ii.1. 
+ 
+figure ii.1 – the positioning of functionalities for managing isolation and security 
+mechanisms in inter-cloud 
+the data annotation functionalities are built upon elements as follows: 
+– data annotation definer: manages the terminology (language) to annotate (or tag) workloads and 
+data; 
+– data annotation manager : responsible for annotating the workloads and data according to the 
+isolation and security requirements; 
+– data annota tion handler : responsible for parsing and executing the isolation and security 
+requirements based on the annotations of workloads and data. 
+

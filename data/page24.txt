@@ -1,0 +1,39 @@
+1 framework and requirements for cloud computing  
+ 
+16  
+table a.2 – emerging cloud service categories 
+emerging  
+cloud service 
+categories 
+description 
+database as a 
+service 
+the capability provided to the cloud service customer is database functionalities on demand 
+where the installation and maintenance of the databases are performed by the cloud service 
+provider. 
+desktop as a 
+service 
+the capabilities provided to the cloud service customer are the ability to build, configure, 
+manage, store, execute, and deliver users' desktop functions remotely.  
+email as a  
+service 
+the capabilities provided to the cloud service customer are a complete email service 
+including related support services such as storage, receipt, transmission, backup, and 
+recovery of email. 
+identity as a 
+service 
+the capabilities provided to the cloud service customer are identity and access management 
+(iam) that can be extended and centralized into existing operating environments. this 
+includes provisioning, directory management, and the operation of a single sign -on service. 
+management as a 
+service 
+the capabilities provided to the cloud service customer including application management, 
+asset and change management, capacity management, problem management (service desk), 
+project portfolio management, service catalog, and service level management.  
+security as a 
+service 
+the capabilities provided to the cloud service customer are the integration of a suite of 
+security services with the existing operating environment by the cloud service provider. this 
+may include authentication, anti-virus, anti-malware/spyware, intrusion detection, and 
+security event management, among others. 
+  

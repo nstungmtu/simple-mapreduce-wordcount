@@ -1,0 +1,14 @@
+xaas 3 
+ 
+     705 
+ 
+figure iv.1 – example of nfv and sdn usage to support naas 
+bibliography 
+ 
+[b-etsi nfv-arch] etsi gs nfv 002 v1.2.1 (2014), network functions virtualisation (nfv); 
+architectural framework. 
+[b-etsi nfv-mano] etsi gs nfv-man 001 v1.1.1 (2014), network functions virtualisation (nfv); 
+management and orchestration. 
+[b-etsi nfv-term] etsi gs nfv 003 v1.2.1 (2014), network functions virtualisation (nfv); 
+terminology for main concepts in nfv. 
+

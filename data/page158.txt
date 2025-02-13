@@ -1,0 +1,52 @@
+1 framework and requirements for cloud computing  
+ 
+150  
+– automation of service deregistration: it is recommended that a csn: cloud service broker provide 
+automatic cloud service deregistration to perform deregistration procedures conveniently and safely. 
+– notification of service deregistration : it is requi red that a csn: cloud service broker provide the 
+notification of the service deregistration to cscs not to use the deregistered service. 
+– request for maintaining cloud service: it is recommended that a csn: cloud service broker request 
+the related csp to maintain the deregistered service until the cscs finish using the cloud service. 
+– providing cloud service requirement template: it is recommended that a csn: cloud service broker 
+provide a template for service requirements to cscs for receiving csc's requirements. 
+ note 3 – the requirement template reflects information about csc's requirements.  
+ note 4 – the csc's requirement includes sla information of the cloud service such as quality, price of cloud 
+service, remedies for failures to meet the terms of the sla and so on. the csc's requirement also includes 
+information about specifications of the cloud service such as virtual mach ine, operating system (os) type, 
+applications, etc. 
+– cloud service requirement validation: it is recommended that a csn: cloud service broker provide 
+validation of the contents in the cloud service requirement template.  
+– cloud service search: it is required that a csn: cloud service broker provide searching a cloud service 
+in the product catalogue to meet the requirements of cscs. 
+ note 5 – the requirements of a csc are used as search criteria that include specifications and service level of 
+a cloud service that a csc wants to use. 
+– providing the best matched cloud service : it is recommended that a csn: cloud service broker 
+provide cscs with the best matched cloud services and information about the csps who provide the 
+cloud services reflecting the csc's requirements. 
+– cloud service alteration: it is recommended that a csn: cloud service broker request csps to alter 
+registered services for cloud service customization. 
+– cloud service substitution for integrated cloud service: it is recommended that a csn: cloud service 
+broker provide alternative cloud services in a product catalogue for an integrated cloud service. 
+ note 6 – based on the alternative cloud services in a product catalogue, a csn: cloud service broker provides 
+the substitution of cloud service as a member of an integrated cloud service. 
+– equivalent cloud service selection: it is recommended that a csn: cloud service broker provide an 
+equivalent cloud service in the product catalogue with the registered service to migrate to keep 
+service equivalence after migration. 
+7.3 functional requirements for contract management 
+– cloud service charging : it is recommended that a csn: cloud service broker provide billing 
+information to cscs by reorganizing billing information gathered from related csps. 
+ note 1 – the billing information is used to generate invoices for the usage of a cloud service. the billing 
+information includes business information related to payment, such as methods for payment and biller and 
+costs for the usage of the cloud service based on price and metering. 
+– configuration of cloud service for contract : it is recommended that a csn: cloud service broker 
+configure a cloud service through selecting elements of the cloud service by a csc. 
+ note 2 – examples of elements for cloud service specification are virtual machines, os type, applications, etc. 
+– service level objectives (slo) selection: it is recommended that a csn: cloud service broker provide 
+selection of service level objectives to a csc according to business requirements of the csc. 
+– sla document management : it is recommended that a csn: cloud service broker provide 
+generation of a  sla document according to the agreement to share the sla document with the 
+related csc.  
+– sla description model : it is recommended that a csn: cloud service broker provide a sla 
+description model to describe terms and conditions. 
+ note 3 – examples of terms and conditions are guaranteed  service levels and remedies for failures to meet 
+the terms of the sla. 

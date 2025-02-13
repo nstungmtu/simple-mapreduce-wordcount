@@ -1,0 +1,52 @@
+framework and requirements for cloud computing 1 
+ 
+   197 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+4 low power 
+consumption of cpu 
+– [b-ocp 2s] provides low power consumption of cpu as 'tuning cpu/chipset 
+settings to reach minimized power consumption and best performance in a 
+data centre environment' in clause 6.3.1. 
+– [b- ocp 2s] provides low power consumption of cpu as 'the vendor should 
+implement bmc firmware to support platform power monitoring. to enable 
+power limiting for processor, memory and platform, intel server platform 
+services-nm is required' in clause 9.8. 
+– [b- ocp 2s] provides low power consumption of cpu as 'cpu vr 
+optimizations shall be implemented to remove cost and increase the 
+efficiency of the power conversion system' in clause 15.3.2. 
+– [b-ocp g1] provides low power consumption of cpu as 'the motherboard 
+shall be designed to handle a processor with a maximum tdp of 190w cpu' 
+in clause 7.3.1 
+– [b- ocp dsbs] provides low power consumption of cpu as 'support up to 
+two processors with a thermal design point (tdp) of up to 135 w' in 
+clause 4. 
+– [b-ocp ambh] provides low power consumption of cpu as 'the cpu vrm is 
+optimized to reduce cost and increase the efficiency of the power 
+conversion system' in clause 9.1.5. 
+– [b- ocp dsbs] provides low power consumption of cpu as 'support up to two 
+processors using lga2011-3 (socket type r3) and vrd 12.5 and a thermal 
+design point (tdp) of up to 145w' in clause 4. 
+– [b-ocp imbh] provides low power consumption of cpu as 'the 
+motherboard uses next generation intel xeon processor e5-2600 product 
+family cpus with a tdp (thermal design power) up to 115w' in clause 4.3. 
+– [b-ocp imbh] provides low power consumption of cpu as 'two to monitor 
+temperatures for cpu0 and cpu1, retrieved through the cpu's temperature 
+sensor interface (peci)' in clause 6.1. 
+– [b-ocp mb] provides low power consumption of cpu as 'the motherboard 
+uses intel xeon e5-2600 v3 (lga2011-3) product family processors with tdp 
+up to 145w. the features listed below must be supported by the 
+motherboard: support two intel xeon e5-2600 v3 (lga2011-3) product 
+family processors up to 145w tdp and vendors should engage with intel to 
+ensure the design ready for future processors; two full-width intel qpi links 
+up to 9.6 gt/s/direction; up to 18 cores per cpu (up to 36 threads with 
+hyper-threading technology). up to 45mb last level cache; single processor 
+mode is supported' in clause 5.3.1. 
+– [b-ocp mb] provides low power consumption of cpu as 'the bios should 
+be tuned to minimize system power consumption and maximize 
+performance. this includes: disable any unused devices, such as unused pci, 
+pcie ports, usb ports, sata/sas ports, clock generator and buffer ports. 
+tuning cpu/chipset settings to reach minimized power consumption and 
+best performance in a data centre environment' in clause 6.3.1. 

@@ -1,0 +1,45 @@
+ framework and requirements for cloud computing 1 
+ 
+   163 
+table i.8 – a use case for sla establishment in cloud service brokerage 
+figure 
+ 
+ 
+pre-conditions 
+(optional) 
+the csp is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csc is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace. 
+the csp registered cloud service information including service level in csb workspace.  
+post-conditions 
+(optional) 
+the csn: cloud service broker makes a request for provisioning of a service, which complies 
+with the contracted sla, to a csp. 
+the csn: cloud service broker monitors status of the brokered service to comply with sla.  
+derived 
+requirements 
+– service level objectives selection (see clause 7.3) 
+– sla document management (see clause 7.3)  
+– sla description model (see clause 7.3) 
+ 
+table i.9 – a use case for cloud service management in csb 
+title a use case for cloud service management in csb. 
+description this use case describes providing a cloud service to a csc and a service management during 
+the service period. 
+(1) on behalf of the csc, the csn: cloud service broker requests to create a service to the 
+csp that can accommodate the service requirements. 
+(2) the requested csp creates a service according to the service requirements.  
+(3) the csp informs on a creation of the service and provides information for accessing 
+the service such as service access point, id and password to the csn: cloud service 
+broker. 
+(4) the csn: cloud service broker forwards the access information to the authorized csc.  
+(5) using the access information, the csc accesses and utilizes the created service. 
+(6) during the service period, the csn: cloud service broker manages sla.  
+  a. the csn: cloud service broker periodically monitors the service about service level 
+(e.g., availability should be higher than 99.98%) described in the sla established 
+between the csn: cloud service broker and the csc. 
+  b. when the csn: cloud service broker detects service level is lower than the agreed 
+service level (e.g., measured availability becomes lower than 99.98%), the csn: 
+cloud service broker notifies the failure to meet the sla to the csc. also, according 
+

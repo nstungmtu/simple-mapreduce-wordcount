@@ -1,0 +1,20 @@
+cloud computing management 2 
+ 
+  521 
+1) the csp designs and creates the naas service operational policy data model on npap. 
+2) the npap requests the npip to store the newly created naas service operational policy data model. 
+3) the npip sends an acknowledgement to the npap. 
+4) the npip stores the newly created naas service operational policy data model in the repository. 
+5) the npdp requests the naas service operational policy data model from the npip for decision. 
+6) the npip sends an acknowledgement to the npdp. 
+7) the npdp decides how to deal with the naas service operational policy data model. 
+8) the npdp distribut es the naas service operational pol icy data mod el to the npep which 
+subscribed it. 
+9) the npep sends an acknowledgement to the npdp. 
+10) the npep enforces the naas service operational policy data model once it is triggered. 
+10 security considerations 
+security aspects for consideration within the cloud computing environment, including inter-cloud computing, 
+are addressed by security challenges for csps as described in [itu-t x.1601]. [itu-t x.1601] analyses security 
+threats and challenges, and describes secu rity capabilities that could mitigate these threats and meet the 
+security challenges. this recommendation does not introduce any new security issues. 
+  

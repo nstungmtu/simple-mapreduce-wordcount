@@ -1,0 +1,107 @@
+3 xaas  
+ 
+602  
+appendix ii 
+ 
+relationship between daas functions and functional components in cloud 
+computing reference architecture 
+(this appendix does not form an integral part of this recommendation.) 
+table ii.1 provides the relationship between daas functions in clause 7 and functional components of cloud 
+computing reference architecture defined in [itu -t y.3502] by enumerating all the related functional 
+components corresponding to d aas functions. the term "related functional components" in this appendix 
+means that the description of the functional component in [itu -t y.3502] is similar to that of the daas 
+function but does not mean that the functional component in [itu -t y.3502] can replace or cover for the 
+daas function. 
+table ii.1 – relationship between clause 7 daas functions and 
+itu-t y.3502 reference architecture 
+daas 
+functions 
+keywords or simple 
+descriptions 
+related functional 
+components (fcs) 
+in [itu-t y.3502] 
+notes 
+platform 
+virtualization 
+virtualization resource layer- 
+resource abstraction 
+and control 
+resource abstraction and control fc includes 
+software elements such as hypervisors, virtual 
+machines, virtual data storage, and time-
+sharing. 
+platform and virtualization management fc 
+provides the capabilities for virtualizing the use 
+of those resources (e.g., by means of 
+hypervisors). 
+resource 
+assignment 
+resource assignment resource layer- 
+resource abstraction 
+and control 
+resource abstraction and control fc provides 
+access to the physical computing resources 
+through software abstraction. 
+performance 
+enhancement 
+for 
+virtualization 
+platform 
+performance 
+enhancement 
+resource layer- 
+physical resources 
+physical resources include hardware resources, 
+such as computers (cpu and memory), networks 
+(routers, firewalls, switches, network links and 
+network connectors, storage components (hard 
+disks) and other physical computing 
+infrastructure elements. 
+delivery 
+protocol 
+processing  
+delivery of virtual 
+desktop 
+access layer- 
+service access 
+delivery of virtual desktop means access of 
+service. service object is a virtual desktop in 
+daas. 
+client 
+connection 
+management  
+coordinating delivery 
+protocol 
+connection 
+monitoring, 
+reconnections 
+access layer- 
+connection 
+management 
+connection management fc provides 
+enforcement of qos policies regarding the 
+traffic from and/or to the user layer. this is 
+related with connection monitoring, 
+reconnection on the daas side. 
+user access 
+management 
+validating a daas user 
+support secure access 
+access layer- 
+access control 
+validating a daas user and secure access are 
+tightly associated with the access control fc and 
+the authentication and identity management fc. 
+provisioning 
+and allocation 
+of virtual 
+desktop  
+preparing sw, hw 
+resource  
+configure the pre-
+configured virtual 
+desktop environment 
+none there is no fc specialized in virtual desktop 
+matters as the provisioning function in 
+[itu-t y.3502] is for service. 

@@ -1,0 +1,62 @@
+1 framework and requirements for cloud computing  
+ 
+396  
+recommendation refers to the common security requirements of recommendation itu-t x.1602 to 
+avoid duplicated work. these measures in the requirements take into account the national legal and 
+regulatory obligations in individual member states in which the platforms operate. the work applies 
+the methodology standardized in clause 10 of recommendation itu-t x.1601. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13589 
+• itu-t x.gsdbaas: the recommendation analyzes security challenges faced by big data as a service, 
+and provides the componentized security framework of big data platform  services, specifies that 
+security protection measures should be satisfied for the activities/components related to bdaas and 
+roles participated in the big data activities, etc. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13591 
+• itu-t x.sgcc: this recommendation analyses security threats and challenges on containers in the 
+cloud computing environment, and provides the security guidelines and reference security 
+framework for containers in cloud. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14788 
+table 10-2 provides an analysis of itu-t sg17 deliverables. 
+table 10-2 – analysis of itu-t sg17 deliverables 
+ general, 
+definition 
+requirements 
+use cases 
+architec-
+ture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+      
+security itu-t x.1601 itu-t x.1602, 
+itu-t x.1603, 
+itu-t x.sriaas, 
+itu-t x.srnaas, 
+itu-t x.srcaas,  
+   itu-t x.1642, 
+itu-t x.1631, 
+itu-t x.1641, 
+itu-t 
+x.gsbdbaas, 
+itu-t x.sgcc 
+management       
+inter-cloud, csb       
+sla, metering       
+testing       
+others       
+11 itu-t sg5 
+table 11-1 provides a list of itu-t sg5 deliverables associated with cloud computing. 
+table 11-1– itu-t sg5 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t l.1200, direct current power feeding interface up 
+to 400v at the input to telecommunication and ict 
+equipment 
+recommendation 10/2010 05/2012 
+itu-t l.1300, best practices for green data centres recommendation  06/2014 

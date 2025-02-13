@@ -1,0 +1,27 @@
+8 assisting developing countries  
+ 
+1114  
+3.3 do you think slas should be standardised? 
+ 
+figure i.10 – standardization of slas 
+3.4 can you identify some of the issues that are associated with cloud adoption that can be 
+addressed with standards? 
+received responses are the following: 
+• speed 
+• availability 
+• data size limit  
+• performance 
+• portability 
+• security/privacy of data 
+• data ownership (in case of data storage) 
+• dispute process 
+• provision of general guidelines so that there is control and uniformity. 
+• interoperability 
+4 opportunities and challenges for cloud computing deployment 
+4.1 what do you think are bottlenecks and weakness that need to be addressed for an effective use 
+of cloud services? 
+ 
+figure i.11 – cloud computing bottlenecks 
+in addition to the provided options, bandwidth availability and affordability were mentioned as bottlenecks 
+and weaknesses that need to be addressed for an effective use of cloud services. 
+

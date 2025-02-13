@@ -1,0 +1,35 @@
+ framework and requirements for cloud computing 1 
+ 
+   299 
+ 
+ 
+table i.2 – inter-cloud use case: performance guarantee against an abrupt increase in load 
+use case 
+use case title inter-cloud use case: performance guarantee against an abrupt increase in load 
+relevant roles csp and csc 
+use case description – a csp guarantees its service performance, even when an unexpected surge 
+in access to the service arises, by using cloud resources provided by other 
+csps on a temporary basis.  
+– when overload is detected at a csp, available resources in other csps are 
+autonomously discovered and reserved through the inter-cloud federation. 
+– network connections among interworking csps are instantaneously 
+established or reconfigured. then service-related data including user 
+identifier (id), user data and application data are transferred from the 
+original csp to the csp that is leasing the resources. 
+– access from cscs is appropriately changed to the interworking csps so as to 
+distribute the load and thus mitigate the overload of the original csp.  
+information flow  – relevant csps are supposed to join a common trusted alliance (i.e., 
+federation) in advance and set up the service level agreements (slas).  
+– a csp inquires about the resource availability of other csps in the federation 
+and requests reservation of the available resources that meet the quality 
+requirements of the csc. the requested csps reply whether or not they are 
+able to lease the requested resources. 
+– the cloud resource management (e.g., crud: create, read, update and 
+delete) are operated across multiple csps. the management is to enable 
+cloud resources to be leased from different csps in the federation.  
+– the relevant csps exchange monitoring and auditing information of the 
+leased resources. 
+high-level figure describing the 
+use case  
+ 
+

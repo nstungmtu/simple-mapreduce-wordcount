@@ -1,0 +1,35 @@
+1 framework and requirements for cloud computing  
+ 
+52  
+ 
+figure 5-1 – legend to the diagrams used throughout  
+this recommendation | international standard 
+2) this ccra uses the term "ict" and "ict systems", where the abbreviation ict stands for "information 
+and communication technology", as defined in clause 3.1332 of iso/iec/ieee 24765. this term is 
+used to make it clear that the ccra covers not only the compute and storage technol ogies 
+associated with computer systems, but also the communication networks that link systems 
+together. 
+3) references to terms defined in clause 3 and in rec. itu-t y.3500 | iso/iec 17788 are shown in bold. 
+6 cloud computing reference architecture goals and objectives 
+cloud computing  is a paradigm for enabling network access to a scalable and elastic pool of shareable 
+physical or virtual resources with self -service provisioning and administration on demand. see rec. 
+itu-t y.3500 | iso/iec 17788.  
+the ccra presented in this recommendation | international standard provides an architectural framework 
+that is effective for describing the cloud computing roles, sub-roles, cloud computing activities, cross-cutting 
+aspects, as well as the functional architecture and functional components of cloud computing. 
+the ccra serves the following goals: 
+• to describe the community of stakeholders for cloud computing;  
+• to describe the fundamental characteristics of cloud computing systems;  
+• to specify basic cloud computing  activities and functional components, and describe their 
+relationships to each other and to the environment;  
+• to identify principles guiding the design and evolution of the ccra. 
+the ccra supports the following important standardization objectives: 
+• to enable the production of a coherent set of international standards for cloud computing; 
+• to provide a technology-neutral reference point for defining standards for cloud computing;  
+• to encourage openness and transparency in the identification of cloud computing benefits and risks.  
+the ccra focuses on the requirements of "what" cloud services provide and not on "how to" design cloud-
+based solutions and implementations. the ccra does not represent the system arch itecture of a specific 
+cloud computing system, although it could put constraints on a specific system. the ccra is not tied to any 
+specific vendor products, services or reference implementation; nor does it define prescriptive solutions that 
+inhibit innovation. 
+

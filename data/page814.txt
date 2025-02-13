@@ -1,0 +1,40 @@
+5 intercloud and interoperability  
+ 
+806  
+appendix i 
+ 
+use case of trusted inter-cloud computing 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 use case template 
+the use cases developed in appendix i should adopt the following unified format for better readability and 
+convenient material organization. 
+title note: the title of the use case 
+description note: scenario description of the use case 
+roles note: roles involved in the use case 
+figure (optional) note: figure to explain the use case, but not mandatory 
+pre-conditions (optional) note: the necessary pre-conditions that should be 
+achieved before starting the use case  
+post-conditions (optional) note: the post-condition that will be carried out after 
+the termination of current use case 
+derived requirements note: requirements derived from the use cases, whose 
+detailed description is presented in the dedicated 
+chapter 
+i.2 trusted inter-cloud related use cases 
+i.2.1 use case of access security in trusted inter-cloud  
+this use case illustrates the security aspects of trusted inter-cloud between the primary csp and secondary 
+csps. the intermediary pattern of inter-cloud used to illustrate the use case is an example only. 
+table i.2.1 – access security in trusted inter-cloud 
+title access security in trusted inter-cloud  
+description – the csc requests secure and malware free software as a service (saas). 
+– the primary csp in an inter-cloud intermediary pattern (acts as 
+csp(intermediary)) is the contact point for csc. 
+– the csp(intermediary) integrates and validates services from multiple saas 
+csps (secondary csps). 
+– for the csp(intermediary), in order to guarantee secure and malware free 
+saas software for csc, it is necessary to validate saas from secondary 
+csp1(saas), csp2(saas) and csp3(saas). in case of negative saas validation  the 
+csp offer of this saas is not presented to csc. 
+– in case of connectivity problem between csp(intermediary) and csp1(saas), 
+the service is automate established between csp(intermediary) and 
+csp3(saas). 
+roles csc, csp, csp(saas) 

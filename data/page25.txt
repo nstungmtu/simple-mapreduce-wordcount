@@ -1,0 +1,19 @@
+ framework and requirements for cloud computing 1 
+ 
+   17 
+bibliography 
+ 
+– iso/iec 20000-1:2011, information technology – service management – part 1: specification. 
+– iso/iec 27000:2014, information technology – security te chniques – information security 
+management systems – overview and vocabulary. 
+– iso 27729:2012, information and documentation – international standard name identifier (isni). 
+– recommendation itu -t y.101 (2000), global information infrastructure terminology: terms and 
+definitions. 
+– national institute of standards and technology special publication 800 -145, the nist definition of 
+cloud computing. 
+– national institute of standards and technology special publication 800 -146, cloud computing 
+synopsis and recommendations. 
+– national institute of standards and technology special publication 500-292, nist cloud computing 
+reference architecture. 
+ 
+ 

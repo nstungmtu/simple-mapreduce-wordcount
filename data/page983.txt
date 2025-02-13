@@ -1,0 +1,50 @@
+security 7 
+ 
+  975 
+8.2.2 shared environment 
+cloud computing provides potential cost savings through massive resource sharing that occurs on a very large 
+scale. this situation exposes many potentially vulnerable interfaces. for example, different cscs consume 
+services from the same cloud simultaneously. as a result, the csc could potentially have unauthorized access 
+to other tenants' virtual machines, network traffic, actual/residual data, etc. any such unauthori zed or 
+malicious access to another csc's assets might compromise integrity, availability and confidentiality. 
+for example, multiple virtual machines co -hosted on one physical server share both the central processing 
+unit (cpu) and memory resources which are virtualized by the hypervisor. this example of challenges covers 
+the failure of hypervisor isolation mechanisms, thus allowing unauthorized access to the memory or storage 
+of other virtual machines. 
+8.2.3 inconsistency and conflict of protection mechanisms 
+due to the decentralized architecture of a cloud computing infrastructure, its protection mechanisms might 
+be inconsistent among distributed security modules. for example, an access denied by one security module 
+may be granted by another. this inconsistency might cause problems for an authorized user, and  might be 
+exploited by an attacker, thereby compromising confidentiality, integrity and availability. 
+8.2.4 jurisdictional conflict 
+data in the cloud can be moved around between data centres, or even across  international borders. 
+depending on the host country, data will be governed by different applicable jurisdictions. for example, some 
+jurisdictions, such as the european union, require extensive protection of personally identifiable information 
+(pii), whic h cannot usually be processed in places that do not provide a sufficient level of guaranteed 
+protection. as a second example, some jurisdictions may treat communications as a service (caas) as an 
+unregulated information service while others treat it as a r egulated telephony service. this  jurisdictional 
+conflict can lead to legal complications that impact security, such as rules governing the lawful intercept of 
+communications by law enforcement authorities, which may affect decisions on cryptography. 
+8.2.5 evolutionary risks 
+one advantage of cloud computing is to postpone some choices from the system  design phase to the 
+execution phase. this means that some dependent software components of a system may be selected and 
+implemented only when the function requ iring them has been executed. however, conventional risk 
+assessment methodology can no longer match such a  dynamically evolving system . a system which has 
+passed a security assessment during the design phase might have new vulnerabilities introduced during its 
+lifetime due to changes in software components. 
+8.2.6 bad migration and integration 
+migrating to the cloud often implies moving large amounts of data and maj or configuration changes 
+(e.g., network addressing). migration of a part of an ict system to an external csp might require substantial 
+changes in the system design (e.g., network and security policies). a bad integration caused by incompatible 
+interfaces or inconsistent policy enforcement might result in both functional and non-functional impacts. for 
+example, virtual machines that run behind a firewall in a private data centre are accidently exposed to the 
+open internet in the csp's cloud. 
+8.2.7 business discontinuity 
+cloud computing allocates resources and delivers them as a service. the whole cloud computing ecosystem 
+is composed of many interdependent parts. the  discontinuity of any part ( such as a blackout , denial -of-
+service or delay ) might affect cloud computing service availability connected with clause 8.1.5 " service 
+unavailability", and then cause business discontinuity. 
+8.2.8 cloud service partner lock-in 
+the platform of the csp is built using software and hardware components from various suppliers. some 
+components may include proprietary features or extensions that are useful to the csp. however, relying on 
+these proprietary features limits the csp's ability to migrate to another component supplier. 

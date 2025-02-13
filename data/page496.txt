@@ -1,0 +1,12 @@
+2 cloud computing management  
+ 
+488  
+when either of the two csps becomes aware of a voip problem, tools are needed so that they can quickly 
+resolve the problem in an effective manner. this includes being able to see via a service dashboard or crm 
+portal what has  occurred relative t o the voip service and to investigate in order to obtain greater details 
+concerning any significant item. additionally, the customer service agent should also be able to initiate an 
+order for new or changed service configurations. howev er, if the agent lac ks access to useful end to end 
+cloud resource management tools and can only create a trouble ticket and then pass the problem off to 
+another agent for action, the cloud service customer will be unsatisfied and this could potentially res ult in 
+excessive operational expenses. 
+  

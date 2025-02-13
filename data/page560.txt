@@ -1,0 +1,29 @@
+3 xaas  
+ 
+552  
+5 convention 
+the keywords " is required to " indicate a requirement which must be strictly followed an d from which no 
+deviation is permitted if conformance to this recommendation is to be claimed.  
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+the keywords "can optionally" indicate an optional requirement which is permissible, without implying any 
+sense of being recommended. this term is not intended to imply that the ven dor's implementation must 
+provide the option and the featur e can be optionally enabled by the network operator/service provider. 
+rather, it means the vendor may optionally provide the feature and still claim conformance with the 
+specification. 
+in the body of this recommendation and its annexes, the words shall, shall not, should, and may sometimes 
+appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, is 
+recommended, and can optionally. the appearance of such phrases or keywords in an appendix or in material 
+explicitly marked as informative are to be interpreted as having no normative intent. 
+6 introduction to desktop as a service (daas) 
+daas is defined as a cloud service category in which the capabilities prov ided to the cloud service customer 
+(csc) are the ability to build, configure, manage, store, execute and deliver users' desktop functions remotely. 
+with daas, the user experience is achieved through a user interface, which is presented on a daas client over 
+the network. figure 6-1 shows the conceptual view of daas. 
+ 
+figure 6-1 – conceptual view of daas 
+instead of maintaining and running a desktop operating system and applications on csc devices, servers of a 
+cloud service provider (csp) located in the cloud are used to execute the instances of users' virtual desktops. 
+this allows a party (e.g., an organization) to run end user's operating systems and  applications, and keep 
+their data in the cloud computing environment.  
+

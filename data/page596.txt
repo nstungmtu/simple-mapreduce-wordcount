@@ -1,0 +1,44 @@
+3 xaas  
+ 
+588  
+– gathers information on the platform power consumption or utilization accordi ng to the weighted 
+resource usage from the power management function (see clause 7.3.6); 
+ note 7 – the weighted resource usage mean which resources are heavily used as usual ; the platform power 
+consumption is estimated by the sum of these usages. 
+– performs the scheduling from the policies about a daas user's usage pattern and power 
+consumption in virtualization infrastructure; 
+– sends a policy to the allocation function (see clause 7.2.4) to select the virtualization infrastructure 
+to operate a virtual desktop; 
+– establishes a backup policy which covers types and frequency of backing up the virtual desktop  
+enviorment to prepare for a system disaster; 
+– provides user interfaces for established policies which are established and applied dynamically or 
+manually by the administrator. 
+7.3.5 high availability for daas 
+for high availability, daas adopts platform c lustering which includes connection manger and virtualization 
+infrastructure to maintain the seamless daas user's connection in a failure occurrence sit uation. the high 
+availability for daas function: 
+– detects a system failure by confirming states among daas platforms; 
+– ensures daas users have a stable running environment in terms of delivery and operation of virtual 
+desktops; 
+– sets up the redundancy for the client connection management function (see clause 7.2.2) to perform 
+failover with minimum downtime and connection continuity; 
+ note 1 – the redundancy for the client connection management function ( see clause 7.2.2) includes the 
+duplication by active-active form or active-standby form. in order not to lose the daas user's connection, csu's 
+account and access information (such as db, license or active directory) are duplicated or mirrored. 
+– configures the failover to redundancy for virtualization infrastructure; 
+ note 2 – the redundancy for virtualizatio n infrastructure (such as the redundant server on active state for 
+virtual desktop environments) is configured to perform failover for minimizing downtime. it helps to allocate 
+a virtual desktop by load balancing or migrating a virtual desktop to the activated server to a daas client when 
+the failure occurs on the server to which the virtual desktop is allocated, by providing a service without the 
+loss of the user environment. 
+– saves the user's environment during a certain time and backs up and restores it on a local disk or on 
+shared storage, thus preventing the loss of the user environment. 
+7.3.6 power management of virtual desktop resource 
+the power management of virtual desktop resources function manages the power consumpt ion of a daas 
+platform with virtual desktop resources. this function: 
+– monitors the power consumption and the related performance factors of a virtual desktop and each 
+resource in a daas platform; 
+– calculates the variation of power consumption and performance of a  virtual desktop or a  daas 
+platform by collecting monitoring information; 
+– supports other functions for the provisioning and allocation of virtu al desktop function 
+(see clause 7.2.4) or the operational policy management for daas function (see clause 7.3.4). 

@@ -1,0 +1,36 @@
+ framework and requirements for cloud computing 1 
+ 
+   243 
+appendix ii 
+ 
+use cases for configuration of distributed cloud 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix identifies use cases for configuration of distributed cloud. 
+ii.1 autonomous cloud service provisioning on distributed cloud 
+table ii.1 – autonomous cloud service provisioning on distributed cloud 
+use case 
+name autonomous cloud service provisioning on distributed cloud. 
+abstract this use case describes the autonomous feature for provisioning a cloud service on 
+distributed cloud. 
+the distributed cloud supports dynamic service provisioning by utilizing core cloud (cc), 
+regional cloud (rc) and edge cloud (ec). ec mainly supports low latency to provide a cloud 
+service. for ec, it is sometimes hard to provide the cloud service due to various reasons (e.g., 
+limited capacity of ec, initially requested service, energy saving). in the case where ec is not 
+ready to provide the corresponding cloud service, ec is required to make a decision to 
+provide the service to the csc as rapidly as possi ble. for fast decisions required by time 
+sensitive services in ec, a request to a centralized point (e.g., core cloud and regional cloud) 
+is not appropriate due to network traversal time; the request should be handled in the ec 
+itself. to support autonomou s cloud service provisioning on ec, associated context 
+information is required. associated context information is necessary to be updated on ec 
+periodically and aperiodically. to avoid synchronization burden, associated context 
+information is summarized an d updated (e.g., calculating average, grouping value, choosing 
+representative value). to avoid frequent transfer data to the core/regional cloud by edge 
+cloud, the edge cloud filters and deliver to prevent noise from multiple end devices and 
+deliver batched data to core or regional cloud. 
+in conclusion, autonomous provisioning is a main feature that differentiates conventional 
+cloud and distributed cloud. through the feature, cc, rc and ec on distributed cloud are 
+loosely coupled. the feature also supports fast cloud service provisioning on the distributed 
+cloud. autonomous provisioning is done by associated context information updated 
+periodically and aperiodically. 
+note – examples of decision: 1) deploying the cloud service and provide the cloud service 
+on the ec, 2) delivering the request to neighbour ec, 3) delivering the request to the cc, etc.  

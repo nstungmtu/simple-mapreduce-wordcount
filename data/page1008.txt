@@ -1,0 +1,33 @@
+7 security  
+ 
+1000 
+table 10 -2 provides a summary mapping of monitoring data storage  security threats to security 
+requirements. 
+table 10-2 – monitoring data storage: security threats mapping to security requirements  
+security threats security requirements 
+data loss and leakage a), b), c) 
+service unavailability a), c) 
+10.3 security requirements for monitoring data use 
+the data security requirements for the monitoring data use include the following: 
+a) it is required that the csp clearly identify how the monitoring data is going to be used to the csc; 
+b) it is recommended that the csp provide a formal monitoring data use declaration to the csc, such 
+as that illustrated in figure 10-1. 
+ 
+figure 10-1 – recommended monitoring data use declaration 
+c) it is required that the csp provide notification and obtain csc permission prior to the use of 
+monitoring data for other than intended purpose; 
+d) it is required that the csp support logging and auditing of monitoring data usage. 
+table 10-3 provides a summary mapping of monitoring data use security threats to security requirements. 
+table 10-3 – monitoring data use: security threats mapping to security requirements  
+security threats security requirements 
+data misuse a), b), c), d) 
+insider threats a), b), c), d) 
+system vulnerabilities d) 
+eavesdropping d) 
+10.4 security requirements for monitoring data migration 
+the data security requirements for the monitoring data migration include the following: 
+a) it is recommended that the csp provide notification to the csc of monitoring data migration; 
+b) it is required that the csp ensure secure transmission during monitoring data migration; 
+c) it is required that the csp support logging and auditing of monitoring data migration operations. 
+  
+

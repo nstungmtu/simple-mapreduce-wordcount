@@ -1,0 +1,34 @@
+cloud computing management 2 
+ 
+  543 
+table i.9 – data regulation across different countries in the inter-cloud environment 
+title data regulation across different countries in the inter-cloud environment 
+description with the development of industrial globalization, data movement across 
+geographical borders in the inter-cloud environment is increasingly frequent. 
+however, data movement regulation varies significantly in different counties in 
+several aspects, e.g., data ownership, privacy protection, law application and 
+jurisdiction, as well as international trade rules. therefore, the csp needs to 
+identify the various data movement regulations once data needs to flow across 
+geographical borders and provide the solution, if necessary and possible.  
+for example, when the csc requests saas service requiring datasets located 
+separately in country a and country b, csp-a acts in an inter-cloud federation 
+pattern among csps and becomes the contact point for the csc. csp -a needs to 
+monitor the validity of the data movement regulation of country b and 
+negotiate between country a and country b, if necessary and possible. 
+roles csc, csp (saas), csp (naas, saas) 
+figure (optional) 
+ 
+pre-conditions (optional) the csps form an inter-cloud federation pattern. 
+the data needs to flow across borders of countries that have different data 
+movement regulations. 
+post-conditions (optional) 
+ 
+derived requirements data movement regulation across geographical borders (see clause 8.2) 
+bibliography 
+ 
+[b-itu-t y.3500]  recommendation itu-t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[b-iso/iec 19944] international standard iso/iec 19944:2017, information technology – cloud 
+computing – cloud services and devices: data flow, data categories and data use. 
+ 
+

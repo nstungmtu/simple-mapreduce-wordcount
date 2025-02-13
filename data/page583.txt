@@ -1,0 +1,33 @@
+xaas 3 
+ 
+  575 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+functional architecture for desktop  
+as a service 
+recommendation itu-t y.3504 
+(06/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series y: global information infrastructure, internet protocol 
+aspects and next-generation networks, internet of things  
+and smart cities 
+  

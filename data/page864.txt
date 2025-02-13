@@ -1,0 +1,15 @@
+5 intercloud and interoperability  
+ 
+856  
+table i.5 – control privilege of inter-cloud 
+figure (optional) 
+ 
+pre-conditions 
+(optional) 
+– the csps(saas) and csp(iaas) form peering pattern of inter-cloud. 
+post-conditions 
+(optional) 
+ 
+derived requirements – control privilege for vm and data (refer to clause 7.6). 
+  
+

@@ -1,0 +1,23 @@
+2 cloud computing management  
+ 
+534  
+9.2 secure data management of the saas replication model in inter-cloud 
+it is required that the csp provide functionalities of data integrity management to check whether the data is 
+identical to that of other csps. 
+it is recommended that the csp provide to cscs secure application program interfaces (apis) to access saas 
+securely. 
+9.3 secure data management of the saas partition model in inter-cloud 
+it is required that the csp provide functionalities for data identity management for software logic to find 
+appropriate data and avoid data duplication among saass. 
+it is recommended that the csp provide cloud storage support data encryption functionalities to protect data. 
+9.4 secure data management of the saas data partition model in inter-cloud 
+it is required that the csp provide merging functionalitie s to incorporate new data into an already existing 
+dataset. 
+it is recommended that the csp provide functionalities for integrated key management among csps so that 
+encryption/decryption saas data can merge. 
+10 security considerations 
+security aspects for c onsideration within the cloud -computing environment, including inter -cloud 
+computing, are addressed by security challenges for csps as descr ibed in [itu -t x.1601], which analyses 
+security threats and challenges, and describes security capabilities that could mitigate these threats and meet 
+the security challenges. 
+  

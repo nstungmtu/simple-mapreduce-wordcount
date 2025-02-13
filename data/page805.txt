@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  797 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+aaa  authentication, authorization and accounting 
+bss  business support system 
+csc  cloud service customer 
+csn  cloud service partner 
+csp  cloud service provider 
+ddos  distributed denial of service 
+kpi  key performance indicator 
+msa  master service agreement 
+naas  network as a service 
+nat  network address translation 
+nfv  network functions virtualization 
+oss  operations support system 
+paas  platform as a service 
+pii  personally identifiable information 
+qos  quality of service 
+saas  software as a service 
+sdn  software-defined networking 
+sla  service level agreement 
+smi  service management interface 
+vfw  virtual firewall 
+vhgw  virtual home gateway 
+vlb  virtual load balancer  
+vnat  virtual network address translation 
+5 conventions 
+in this recommendation: 
+the keywords " is required to " indicate a requirement which must be strictly fo llowed and from which no 
+deviation is permitted if conformance to this recommendation is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+6 overview of trusted inter-cloud  
+the inter -cloud computing concept is based on the relationship (pattern) among multiple cloud service 
+providers (csps). this pattern (peering, federation or intermediary) allows the csp to interwork with one or 
+more peer csps to assure intermediation and security of services provided by these csps. 
+the trusted inter -cloud relationship among multiple csps relies on confidence between cloud service 
+customer (csc) and csp, or between csps. one of them has to delegate physical control over application, 
+service, resource and data to the others. the appropriate security mechanisms (e.g., security access control, 
+security of network connectivity between the csps) are needed during peer csps interactions to achieve 
+trusted inter-cloud computing. 

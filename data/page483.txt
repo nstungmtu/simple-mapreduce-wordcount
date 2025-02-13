@@ -1,0 +1,30 @@
+cloud computing management 2 
+ 
+  475 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 end to end cloud resource management overview 
+6.1 introduction 
+6.2 service delivery management structure 
+6.3 difference between cloud computing and the traditional form of computing 
+6.4 resource management for a single cloud service provider 
+6.5 resource management for multiple cloud service providers 
+7 requirements for the resource management involving multi-cloud service providers 
+7.1 high-level architecture for end to end multi-cloud resource management 
+7.2 functional requirements for end to end cloud resource management 
+8 cloud resource management for emergency telecommunications 
+9 security considerations 
+appendix i – comprehensive view of management layers 
+appendix ii – multi-cloud end to end service management 
+appendix iii – summary of ses and smi concepts 
+iii.1 software enabled service (ses)  
+iii.2 service management interface (smi)  
+iii.3 smi interface 
+bibliography 
+ 

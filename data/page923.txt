@@ -1,0 +1,29 @@
+intercloud and interoperability 5 
+ 
+  915 
+table of contents 
+1 scope 
+2 references 
+3 abbreviations and acronyms 
+4 introduction 
+5 existing cloud computing interoperability activities 
+5.1 standards development organizations for cloud computing interoperability 
+5.2 testing groups, open sources and tools for cloud computing testing 
+5.3 cloud security standardization activities 
+6 potential interoperability testing areas of cloud computing 
+appendix i – summaries of referenced documents 
+i.1 3cpp references and associated summaries 
+i.2 csmic references and associated summaries 
+i.3 dmtf references and associated summaries 
+i.4 etsi references and associated summaries 
+i.5 gictf references and associated summaries 
+i.6 ieee references and associated summaries 
+i.7 ietf references and associated summaries 
+i.8 iso/iec jtc 1 references and associated summaries 
+i.9 nist references and associated summaries 
+i.10 oasis references and associated summaries 
+i.11 odca references and associated summaries 
+i.12 ogf references and associated summaries 
+i.13 snia references and associated summaries 
+i.14 tmf references and associated summaries 
+i.15 itu-t draft recommendation 

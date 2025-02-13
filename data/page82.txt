@@ -1,0 +1,33 @@
+1 framework and requirements for cloud computing  
+ 
+74  
+ 
+figure 8-5 – cloud computing activities related to cloud service partner sub-roles 
+8.4.2.1 design, create and maintain service components 
+the design, create and maintain service components activity involves: 
+• designing and creating software components that are part of the implementation of a service; 
+• creating the functionality which is offered to users of the service, which also involves connecting the 
+service components to the provider's operational support systems, so that the service 
+implementation can be monitored and controlled; 
+• processing problem reports relating to the operation of a service implementation; 
+• providing fixes to service implementations; 
+• providing enhancements to service implementations. 
+8.4.2.2 compose services 
+the compose services activity focuses on composing services using existing services. this activity involves: 
+• creating service functionality by means of composing together one or more existing services 
+provided elsewhere; 
+• describing the technical aspects of the service (functional interfaces, slas,…); 
+• designing an interface to the cloud service customer  representing the composed services from 
+across multiple cloud service provider offerings; 
+• performing composition which can involve intermediation, aggregation or arbitrage of the existing 
+services. 
+8.4.2.3 test services 
+the test services activity focuses on  testing the components and services created by the cloud service 
+developer. this activity involves: 
+• performing tests of the components that make up a service implementation to assure that they 
+perform the functionality of the service completely and correctly; 
+• ensuring interoperability with the cloud services provided by a peer cloud service provider; 
+• testing which should include checking that the connections to the cloud service provider's  
+operational support systems operate correctly – as a result, it is typically necessary to perform some 
+of the testing in a test area of the cloud service provider's data centre. 
+

@@ -1,0 +1,47 @@
+7 security  
+ 
+982 
+table 1 – example of security framework analysis step 1 for file storage as a service 
+area of analysis specific threat or challenge is this applicable to this 
+service? 
+clause 8.1.8 loss of software integrity  
+clause 8.2 security challenges for cloud 
+service providers (csps) 
+clause 8.2.1 ambiguity in responsibility y 
+clause 8.2.2 shared environment y 
+clause 8.2.3 inconsistency and conflict of 
+protection mechanisms 
+y 
+clause 8.2.4 jurisdictional conflict y 
+clause 8.2.5 evolutionary risks  
+clause 8.2.6 bad migration and integration y 
+clause 8.2.7 business discontinuity y 
+clause 8.2.8 cloud service partner lock-in  
+clause 8.2.9 supply chain vulnerability y 
+clause 8.2.10 software dependencies  
+clause 8.3 security challenges for cloud 
+service partners (csns) 
+clause 8.3.1 ambiguity in responsibility  
+clause 8.3.2 misappropriation of 
+intellectual property 
+ 
+clause 8.3.3 loss of software integrity  
+once the security threats and challenges have been identified, the security capabilities that could mitigate 
+these threats and address these challenges can be identified. in table i.1 there is an example of a mapping 
+of cloud computing security threats and challenges to security capabilities.  the letter 'y' in a cell formed by 
+the intersection of the table's columns and rows designate that a  particular security threat and challenge is 
+addressed by a corresponding security capability. this table shows all the threats and challenges and the 
+corresponding security capability. 
+once the capabilities required have been identified , the security controls, policies and procedures can be 
+determined as to what is needed. examples of controls that could be used are "operations security" (clause 
+12 in [b-iso/iec 27002]) and "information security incident management " (clause 16 in [b -iso/iec 27002]) 
+which can be derived from the identified capabilities in clauses 9.9 and 9.10, respectively. 
+a cloud service may have a supply chain comprised of multiple csps. the companies participating in such a 
+supply chain can refer to itu and industry standards on the topic of supply chain security (e.g.,  [b-iso/iec 
+28000]). each csp will need to clearly delineate their responsibility in the cloud computing service chain, and 
+develop their security controls, policies and procedures based on the derived security capabilities by this 
+three-step approach. to provide consistent security to cscs, the upstream csp may need to negotiate with 
+their downstream csps on these security capabilities based on their security responsibilities. when needed, 
+cscs should follow this three-step procedure as well. 
+in addition, the above three-step procedure should be carried out periodically or when needed (e.g., when a 
+serious security breach occurs, or when a csp changes its upstream csp). 

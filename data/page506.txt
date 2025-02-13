@@ -1,0 +1,49 @@
+2 cloud computing management  
+ 
+498  
+in the body of this recommendation and its appendixes, the words shall, shall not, should, and may 
+sometimes appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, 
+is recommend ed, and can optionally. the appearance of such phrases or keywords  in an appendix or in 
+material explicitly marked as informative are to be interpreted as having no normative intent. 
+6 overview of e2e cloud service lifecycle management 
+nowadays, cloud comp uting technologies are widely used in both information technology (it) and 
+communications technology (ct) industries. telecommunication operators use cloud-based technologies to 
+deliver cloud services to their users as well as to leverage their telecommunication services and network. this 
+allows for automation and acceleration provisioning of cloud services across cloud and non -cloud facilities. 
+therefore, effective cloud service lifecycle management becomes one of the most important challenges from 
+telecommunication operators' perspectives. 
+cloud service lifecycle management integrates and optimizes processes such as service provisioning, service 
+assurance, service fulfilment, service charging and service change management for particular workloads 
+respecting relevant governance and polices. 
+in both telecommunication and cloud computing environments, cloud service lifecycle management has to 
+be considered in an e2e manner which means service lifecycle management chains across cloud and non -
+cloud facilities. i n practice, cloud service lifecycle management could be achieved by using a s ervice 
+management interface (smi) based common model for e2e cloud computing management supported by 
+operational support systems (oss), see [itu-t y.3521]. 
+the oss encompass the s et of operational related management capabilities, including service catalogue, 
+provisioning, monitoring and reporting, service policy management, service automation, etc., in order to 
+manage and control cloud services offered to cloud service customers (cscs), see [itu-t y.3502]. oss realize 
+the required e2e cloud service lifecycle management functionalities by using service management interfaces 
+(smis). these operational related management capabilities can help to achieve  the service lifecycle 
+management objective with the pre-defined distributed metadata in each stage. 
+the consistent approach to service lifecycle management includes representative definitions for the 
+particular stages which cloud service s pass through. this is based on a lifecycle managem ent metadata 
+model, which can hold all the data about a service throughout its lifecycle. 
+cloud service lifecycle management consists of three parts: 
+1) service dependencies management: represents resources that are prerequisites for the service to 
+function; 
+2) service lifecycle management stages : represents stages through which cloud service passes over 
+lifecycle management; 
+3) additional information about the service management interface : placeholder for additional 
+information but otherwise undefined. 
+the development of an e2e cloud service lifecycle management process is based on the following elements 
+interacting with each other: 
+1) service catalogue, see [itu-t y.3502], [itu-t y.3521]; 
+2) service inventory, see [itu-t y.3521]; 
+3) smi, see [itu-t y.3521]. 
+6.1 cloud service lifecycle metadata 
+the cloud service capabilities are exposed and consumed through the functional interfaces (fis) of the service 
+while the management or operations of the service are available through the smi. 
+the cloud service capabil ities may participate/contribute in many different product offerings that are 
+delivered to cscs. they may also have different configuration constraints and policies due to constraints from 
+distinct implementation technologies and cscs ' devices that the ser vice is delivered through.  

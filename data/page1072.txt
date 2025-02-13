@@ -1,0 +1,44 @@
+7 security  
+ 
+1064 
+12.4 logging and monitoring 
+the objective specified in clause 12.4 of iso/iec 27002 applies. 
+12.4.1 event logging 
+control 12.4.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should define its requirements 
+for event logging and verify that the cloud service meets 
+those requirements.  
+the cloud service provider should provide logging 
+capabilities to the cloud service customer. 
+other information for cloud services 
+the responsibilities of the cloud service customer and the cloud service provider for event logging vary 
+depending on the type of cloud service being used. for example, with iaas, a cloud service provider's logging 
+responsibility can be limited to that of cloud computing infrastructure components, and the  cloud service 
+customer can be responsible for logging the events of its own virtual machines and applications. 
+12.4.2 protection of log information 
+control 12.4.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.4.3 administrator and operator logs 
+control 12.4.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+if a privileged operation is delegated to the cloud 
+service customer, the operation and performance of 
+those operations should be logged. the cloud service 
+customer should determine whether logging capabilities 
+provided by the cloud service provider are appropriate 
+or whether the cloud service customer should 
+implement additional logging capabilities. 
+(no additional implementation guidance) 
+other information for cloud services 
+the allocation of  responsibilities between the cloud service customer and the cloud service provider (see 
+clause 6.1.1) should cover privileged operations related to the cloud service. monitoring and logging the use 
+of privileged operations are necessary to support preventive and corrective actions against incorrect use of 
+these operations. 
+12.4.4 clock synchronization 
+control 12.4.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 

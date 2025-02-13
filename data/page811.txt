@@ -1,0 +1,43 @@
+intercloud and interoperability 5 
+ 
+  803 
+6.5 relationship between trusted inter-cloud and the cloud computing reference architecture 
+the cloud computing reference architecture [itu -t y.3502] provides an architectural framework which 
+defines cloud computing roles, sub -roles, cloud computing activities and cross -cutting aspects. it also 
+describes the functional layers and functional  components of a cloud computing system.  according to this 
+framework, the  trusted inter -cloud relationships can be expressed by cross -cutting aspects like security, 
+governance and resiliency that span over cloud computing multi-layer functionality. the conceptual view of 
+cloud computing management is based on cloud computing ma nagement layers and the service 
+management interface (smi) approach [itu-t y.3520] and [itu-t y.3522]. 
+trust management in inter-cloud environments can be realized based on the common model for end-to-end 
+cloud computing management [itu-t y.3521]. in particular, the operations support system (oss) functional 
+components encompass the set of management capabilities that are required in order to manage and control 
+trust in an inter -cloud environment. the role of business support system  (bss) functional compone nts 
+remains to encompass the set of business -related management capabilities dealing with customers and 
+supporting processes in a trusted manner (see clause 9.2.5.4 of [itu-t y.3502]). therefore, in a trusted inter-
+cloud environment, the cloud computing ma nagement functionalities [itu-t y.3521] can be used to reach 
+objectives of trust satisfying governance, security and resiliency aspects of inter-cloud. 
+7 general requirements for trusted inter-cloud  
+this clause identifies general requirements applicable to trusted inter-cloud. 
+7.1 data separation 
+it is required that the csp provides data separation between workloads to ensure security and confidentiality. 
+7.2 data annotation  
+it is recommended that the csp supports annotation (tagging) of trusted inter -cloud data (workloads) to 
+enable compliance with regulatory obligations. 
+7.3 confidentiality of data 
+it is required that the csp respects the confidentiality of the csc's or csp's data used in trusted inter -cloud 
+system. 
+7.4 operational statistics 
+it is recommended that the csp supports operational statistics for trusted inter -cloud services according to 
+appropriate methods of measurement. 
+7.5 interoperability and dependability  
+it is recommended that the csp supports interoperability and dependability of trusted inter-cloud services. 
+7.6 master service agreement  
+it is recommended that the csp respects master service agreements to reach objectives of trust satisfying 
+governance, security and resiliency aspects of inter-cloud. 
+8 requirements for governance of trusted inter-cloud 
+this clause provides requirements for governance of trusted inter-cloud derived from the use cases described 
+in appendix i. 
+8.1 geographical policies 
+it is required that the csp respects all applicable geographical policies in order to realise requests from the 
+csc or other csp. 

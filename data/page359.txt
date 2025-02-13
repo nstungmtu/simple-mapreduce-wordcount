@@ -1,0 +1,43 @@
+ framework and requirements for cloud computing 1 
+ 
+   351 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this supplement 
+4 abbreviations and acronyms 
+5 conventions 
+6 landscape of big data from an itu-t perspective 
+6.1 characteristics and general concepts of big data 
+6.2 benefits of big data 
+7 related technical areas of big data 
+7.1 cloud computing 
+7.2 internet of things 
+7.3 security and privacy 
+7.4 software-defined networking 
+7.5 deep packet inspection 
+7.6 big data-driven networking 
+7.7 open data 
+7.8 standardization areas of big data 
+8 conceptual model of big data ecosystem 
+9 big data sdo activities 
+9.1 itu-t 
+9.2 iso/iec jtc 1 
+9.3 w3c 
+9.4 oasis 
+9.5 data mining group 
+9.6 tm forum 
+10 gap analysis in big data standardization 
+appendix i – summaries of referenced standardization work items 
+i.1 itu-t references and associated summaries 
+i.2 iso/iec jtc 1 references and associated summaries 
+i.3 w3c references and associated summaries 
+i.4 oasis references and associated summaries 
+i.5 data mining group references and associated summaries 
+i.6 tm forum references and associated summaries 
+bibliography 
+ 
+ 

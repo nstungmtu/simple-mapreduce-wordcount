@@ -1,0 +1,33 @@
+ framework and requirements for cloud computing 1 
+ 
+   357 
+7.7 open data 
+open data is accessible public data that people, companies, and organizations can use to launch new 
+ventures, analyze patterns and trends, make data-driven decisions, and solve complex problems. open data 
+includes two basic features: the data must be publicly available for anyone to use, and it must be licensed in 
+a way that allows for its reuse [b-theguardian]. open data is more focused on a horizontal scaling of big data 
+sources. 
+the main technical issues for open data are as follows: 
+− data publication: metadata supporting machine readability, data format, and licenses; 
+− data finding: data identification, data semantics, and data access; 
+− data provenance: data quality, data lineage tracking, and data versioning. 
+7.8 standardization areas of big data 
+this clause describes the potential areas of standardization for big data that may be of interest to itu -t [b-
+itu-t tsag]: 
+− common requirements and use cases; 
+− definition, architecture, data model and application program interfaces (apis); 
+− network-driven data analytics; 
+− personalized network experience; 
+− security and data protection, anonymization and de-identification of personal data; 
+− framework for data quality and veracity; 
+− standards and guidelines to address issues surrounding legal implications of big data in the 
+telecommunications sector (e.g., data ownership); 
+− framework and related standards for telecom big data exchange. 
+8 conceptual model of big data ecosystem 
+[itu-t y.3600] describes the roles and sub-roles of the big data ecosystem as shown in figure 8-1. 
+ 
+figure 8-1 – big data ecosystem (from [itu-t y.3600]) 
+data provider (dp) roles consists of two sub-roles: 
+− data supplier; 
+− data broker. 
+

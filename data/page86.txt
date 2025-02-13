@@ -1,0 +1,49 @@
+1 framework and requirements for cloud computing  
+ 
+78  
+it is important to distinguish between maint enance performed by the cloud service provider  and 
+maintenance performed by the cloud service customer. in the case of an saas service, it is likely that virtually 
+all maintenance actions will be performed by the provider. in the case of iaas and paas services, the 
+application components belong to the cloud service customer and the cloud service customer is responsible 
+for the maintenance of those components. the provider is responsible for the environment in which the 
+application components run, which varies depending on the details of the service, but which might include 
+such elements as the hardware resources, operating system or middleware. 
+on the one hand, it can be in the customer's interests that a service or service platform be upgraded or fixed. 
+on the other hand, any changes to the behaviour of a service can have a negative impact on the customer, 
+possibly requiring changes to application components and to customer ict systems or calling for retraining 
+of customer service users. as a result, it is i mportant that maintenance of services is subject to governance 
+practices that are transparent to the customer. 
+maintenance practices should be documented in the sla for the cloud services  and should include the 
+capability for the customer to report problems and request fixes and also a mechanism for the cloud service 
+provider to notify the customer of pending maintenance changes and their schedule. 
+versioning is the appropriate labelling of a service (or of components of a service, such as the operating 
+system level used in an iaas service), so that it is clear to the customer that a particular version is in use. it is 
+important that the service be given a new version label when maintenance of a cloud service occurs. 
+where significant changes are made to a service between two versions, the older version of the service 
+should be available in parallel with the new versions for an agreed period of time. 
+8.5.7 performance 
+performance includes a set of non-functional facets relating to the operation of a cloud service such as: 
+• availability of the service; 
+• response time to complete service requests; 
+• transaction rate at which service requests are executed; 
+• latency for service requests; 
+• data throughput rate (input and output); 
+• number of concurrent service requests (scalability); 
+• capacity of data storage; 
+• (for iaas and paas) the number of concurrent execution threads available to an application; 
+• (for iaas and paas) the amount of memory (ram) available to the running program; 
+• data centre network ip address pool and/or vlan range capacity. 
+where the service involves running an application (iaas, paas), the same facets of performance apply to the 
+behaviour of the application running in the cloud service provider's environment. 
+depending on the charging model, the ability of the cloud service to scale its use of resources in accordance 
+with the terms of the sla can also be an important facet of performance. performance should have metrics 
+defined in the sla for each performance condition identified and these metrics should be monitored during 
+operation of the cloud service to ensure that the service meets the performance terms of the sla. 
+8.5.8 portability 
+portability is significant in cloud computing  since prospective cloud service customers  are interested in 
+avoiding lock-in when they choose to use cloud services. cloud service customers need to know that they 
+can move cloud service customer data or their applications between multiple cloud service providers at low 
+cost and with minimal disruption. the amount of cost and disruption that is acceptable can vary based upon 
+the type of cloud service that is being used. 
+for example if a cloud service customer  organization is considering moving from one iaas cloud service 
+provider to another, the cloud service customer should be able to take its data and the virtual machine (vm) 

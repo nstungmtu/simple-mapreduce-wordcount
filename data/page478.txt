@@ -1,0 +1,17 @@
+2 cloud computing management  
+ 
+470  
+bibliography 
+ 
+[b-itu-t m.60] recommendation itu-t m.60 (1993), maintenance terminology and definitions. 
+[b-itu-t m.3050.1] recommendation itu-t m.3050.1 (2007), enhanced telecom operations map 
+(etom) – the business process framework. 
+[b-itu-t m.3320] recommendation itu-t m.3320 (1997), management requirements framework for 
+the tmn x-interface. 
+[b-itu-t y.3500] recommendation itu-t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[b-itu-t y.3511] recommendation itu-t y.3511 (2014), framework of inter-cloud computing. 
+[b-itu-t y.3520] recommendation itu-t y.3520 (2015), cloud computing framework for end to end 
+resource management. 
+ 
+  

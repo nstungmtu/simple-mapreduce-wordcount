@@ -1,0 +1,33 @@
+5 intercloud and interoperability  
+ 
+874  
+appendix i 
+ 
+cloud interoperability testing scenarios 
+(this appendix does not form an integral part of this recommendation.) 
+itu-t, etsi and nist have been considering wide technical areas related to cloud computing and also 
+developing several use case documents which are generally recognised by cloud computing industry. since 
+the use case documents are like a framework document for cloud usage and involve wide technical areas, 
+the documents shown below are useful reference documents in order to develop  cloud interoperability 
+testing specifications.  
+1) itu-t y.3500 series   
+[itu-t y.3501] – cloud computing framework and high-level requirements  
+appendix i – use cases of cloud computing 
+ [itu-t y.3511] – framework of inter-cloud computing for network and infrastructure    
+appendix i – use cases from the inter-cloud perspective 
+appendix ii – use cases from telecom and non-telecom providers' views 
+appendix iii – abstract service offering models for inter-cloud computing 
+2) etsi cloud standards coordination final report (november 2013) 
+section 3 – use cases analysis (especially cloud bursting) 
+3) nist cloud computing program technical efforts  
+nist cloud computing test scenario use cases – version 1 
+4) odca usage model for iaas, paas, saas 
+ odca has published many usage models:  
+ odca saas_interop_um_rev1.0 software as service (saas) interoperability 
+ odca paas_interop_um_rev1.0 platform as a service (paas) interoperability 
+ odca vm_interoperability_in_a hybrid_cloud_enviroment_rev1.2 virtual machine (vm) 
+interoperability in a hybrid cloud environment 
+ odca vm_interop_poc_white_paper implementing the open data center alliance virtual 
+machine interoperability usage model 
+note – the detail contents are described in [b-itu-t q-sup.65]. 
+  

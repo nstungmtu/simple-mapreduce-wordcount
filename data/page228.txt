@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+220  
+table ii.7 – physical machine for network edge – use case 
+title physical machine for network edge 
+description this use case covers the situation where physical machines will be in network edge locations 
+such as at 5g cell towers, telephone exchanges and cable tv head-end multiplexers. this is 
+one use of the term "micro data centre". the primary reason for this is to minimise network 
+latency between end users and the cloud services running at the network edge, or to 
+concentrate network traffic at the edge to manage load on core network servers (e.g., for 
+massive iot telemetry applications). 
+roles/sub-roles csp: cloud service operations manager. 
+figure in this type of deployment, physical machines are 
+constructed for deployment at the edge of the 
+network, usually co-located with access network 
+transmission and/or multiplexing equipment. 
+examples of such locations include: 
+• local telephone exchanges 
+• street multiplexers (e.g., fttc) 
+• cellular towers 
+• cable tv head-ends 
+• airliner wifi/cellular network equipment. 
+pre-conditions 
+(optional) 
+csp: the csp wishes to deploy physical machines to support cloud services running at the 
+edge of their (or a partner's) physical network. 
+post-conditions 
+(optional) 
+the physical machine(s) run co -located with other network equipment at the edge of the 
+network. the csp can deploy cloud services or service components to these network edge 
+micro data centres. 
+csus can access the cloud service within minimal network latency. 
+the csp can process large amounts of data from csus, without imposing heavy loads on the 
+backhaul network or the core network cloud services. 
+derived 
+requirements 
+– supporting power redundancy (see clause 7.1.2) 
+– adding power supply (see clause 7.4) 
+– adding cooling component (see clause 7.4) 
+– authorized access (see clause 7.5) 
+– hot-plug support (see clause 7.6)  
+– visual indications (see clause 7.1.4) 
+– monitoring environment condition (see clause 7.1.6) 
+ 
+

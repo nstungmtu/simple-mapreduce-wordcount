@@ -1,0 +1,47 @@
+2 cloud computing management  
+ 
+436  
+10.1.1.1 customer order management 
+customer order management is responsible for the e2e lifecycle management of a customer request for 
+products. this includes customer order establishment (step guiding, data collection and validation), customer 
+order publication as well as customer order orchestration and overall customer order lifecycle management. 
+customer order management functionalities include the following: 
+1) customer order establishment. this functionality is responsible for the acquisition of a customer 
+order for products; 
+2) customer order distribution. this functionality decomposes the customer order into product order 
+requests (e.g., bundle decomposition); 
+3) customer order publication. this functionality issues valid and complete customer orders, and stores 
+the order into an appropriate inventory; 
+4) customer order tracking and management. this provides the functionality necessary to track and 
+manage the distributed requests decomposed by customer order distribution; 
+5) customer order orchestration. this functionality provides workflow and orchestration capability 
+across customer order management; 
+6) customer order lifecycle management. this provides the fu nctionality necessary to track and 
+manage a customer order from establishment to cancellation. 
+10.1.2 customer assurance functionalities 
+this covers a set of functionalities for the assurance management of cloud customers. these functionalities 
+include customer problem management, customer sla management and customer quality management. 
+10.1.2.1 customer problem management 
+this set of functionalities is responsible for managing problems reported by customers, resolving these 
+problems to the customer 's satisfaction, and providing meaningful status on the issue s, as needed, to the 
+customer. these functionalities include customer problem reception and validation, customer problem 
+lifecycle management, customer problem diagnostics, customer problem resolution and customer problem 
+reporting. 
+10.1.2.2 customer sla management 
+customer sla management includes the required functionalities to assure that cloud slas made between 
+cscs and csps are met. this includes processing measurements made elsewhere and checking the  
+measurements and taking appropriate actions when the specified ag reements are not met. these 
+functionalities include customer sla issue reception, customer sla analysis, and customer sla reporting. 
+10.1.2.3 customer quality management 
+customer quality man agement enables csps to leverage customer insight gained from csc transactions, 
+interactions and activities with the csp to treat the csc in a personalized manner and provide a unique 
+customer experience. these functionalities include customer profiling ( e.g., customer profile inquiries, 
+customer behaviour tracking, prediction), customer experience monitoring, customer satisfaction validation 
+and customer operational decision making. 
+10.1.3 customer repositories functionalities 
+this set includes functionalities for customer information management. 
+10.1.3.1 customer information management 
+customer information management ensures the management of a consistent, accurate and complete csp 
+view of customers. this includes functionalities for customer subscription management, customer profile 
+management (e.g. , managing customer p references and customer details) and customer interaction 
+collection and storage. 

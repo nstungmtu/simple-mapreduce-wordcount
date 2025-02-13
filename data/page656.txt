@@ -1,0 +1,44 @@
+3 xaas  
+ 
+648  
+7.3 network service functional requirements 
+– it is recommended that iaas csp provides network functions, such as ip address, vlan, virtual 
+switch, load balance, firewall, with specific slas or charging model. network functions are applied 
+to access and interconnect of processing and storage resources. 
+– it is recommended that iaas csp provides network information in response to queries from the csc.  
+ note – the information include s, but not limited to , network device(s) specification, network traffic 
+performance (in terms of throughput, jitter, loss, delay) and network topology.  
+7.3.1 network policy migration 
+– it is recommended that iaas csp  provides network policy migration along with virtual machine  
+migration. in that case, the network policy of the migrated virtual machine is the same as before the 
+migration. 
+7.3.2 network qos 
+– it is recommended that iaas csp provides operation handling mecha nisms related to the network 
+quality of service (qos), such as bandwidth limit, bandwidth reservation, traffic shaping, traffic 
+classification, congestion avoidance, at port level, device level and network level. 
+7.3.3 ip address 
+– it is recommended that iaas csp provides ip address reservation.  
+ note – csp reserves a pool of public ip addresses or a segment of private ip addresses for the csc. 
+– it is required that iaas csp allows the csc to apply, bind , unbind, query, release an ip address to 
+processing resources or storage resources. 
+– it is recommended that iaas csp allows the csc to allocate ip addresses to provisioned processing 
+resources or storage resources with dynamic or static method.  
+– iaas csp can optionally provide network address translation (nat). 
+7.3.4 network isolation  
+– it is required that iaas csp provides the csc with isolated tenants' networks. 
+– it is recommended that iaas csp provides the csc with operations handling mechanisms related to 
+isolated tenants' networks, such as create, query and release. 
+7.3.5 virtual networking 
+– it is recommended that iaas csp manages virtual networking to provide network connectivity 
+amongst various processing and storage resources. 
+7.3.6 load balance 
+– it is recommended that iaas csp optimize s infrastructure resources utilization by providing lo ad 
+balance related functions, such as throughput, response time, to avoid overload of any one of the 
+infrastructure resources.  
+– iaas csp can optionally provide multipath routing to achieve an optimized traffic management (e.g., 
+to improve network utilization, to guarantee qos at network congestion or fault). 
+7.3.7 firewall 
+– it is recommended that iaas csp delivers physical or virtual firewall to the csc. 
+7.3.8 gateway 
+– it is recommended that iaas csp provides necessary network interworking functions so that the csc 
+uses provisioned infrastructure resources as if they are at the csc's premises. 

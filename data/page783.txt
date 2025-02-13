@@ -1,0 +1,47 @@
+video processing and storage 4 
+ 
+  775 
+3.1.6 functional entity [itu-t y.2012]: an entity that comprises an indivisible set of spec ific functions. 
+functional entities are logical concepts, while groupings of functional entities are used to describe practical, 
+physical implementations. 
+3.1.7 interface [itu-t y.101]: a shared boundary between two functional units. 
+note – an interface is defined by various characteristics pertaining to the functions, physical interconnections, signal 
+exchanges and other characteristics as appropriate. 
+3.1.8 premises unit [itu-t h.626]: a device located at the remote part of a visual surveillance system and 
+used to capture multimedia information (such as audio, video, image, alarm signal , etc.) from a surveilled 
+object. 
+3.1.9 reference point  [itu-t y.2012]: a conceptual point at the conjunction of two non -overlapping 
+functional entities that can be used t o identify the type of information passing between these functional 
+entities. 
+note – a reference point may correspond to one or more physical interfaces between pieces of equipment.  
+3.1.10 service [itu-t y.101]: a structure set of capabilities intended to support applications. 
+3.1.11 visual surveillance  [itu-t h.626] : a telecommunication service focusing on video (but including 
+audio) application technology, which is used to remotely capture multimedia (such as a udio, video, image, 
+alarm signal, etc.) and present them to the end user in a user -friendly manner, based on a managed  
+broadband network with ensured quality, security and reliability. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 cloud storage access unit (csau): a device located at a cloud storage system in visual surveillance. 
+the csau is the key unit for implementing communication between the csdu and  the mdu, pu and the 
+other media data related  units defined in  visual surveillance. the functions of the  csau include service 
+control function, media control function and configuration management function. 
+3.2.2 cloud storage data unit (csdu): a series of devices located at a  cloud storage  system in visual 
+surveillance. the csdu is the data node in a cloud storage system that is used to store the massive multimodal 
+data produced by the visual surveillance system. a typical visual surveillance cloud storage system consists 
+of a  number of csdus, which is organized in a distributed way . the csdu can be dynamically extended 
+according to the user' s demand. the csdu can receive the media data from the csau and write the data 
+onto its local storage device. in addition, the csdu can read and transmit the stored data to the csau 
+according to the data reading requests. 
+3.2.3 cloud storage management unit (csmu): a device  located at the central part of a cloud storage 
+system in visual surveillance. the csmu is used to provide  the management services of the cloud storage 
+system and respond to the service requests of the visual surveillance system. the main functions of the csmu 
+include supporting storage resource management, data management,  user management, service 
+management, log management and security control. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cmu centre management unit 
+csau cloud storage access unit 
+csdu cloud storage data unit 
+csmu cloud storage management unit 
+cu customer unit 
+ipu intelligent premises unit 

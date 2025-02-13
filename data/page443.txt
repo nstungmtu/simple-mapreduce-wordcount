@@ -1,0 +1,15 @@
+cloud computing management 2 
+ 
+  435 
+ 
+figure 10-1 – the high-level organization of cloud computing management functionalities 
+10.1 functionalities for cloud customer management 
+this clause identifies cloud customer management functionalities including customer fulfilment, customer 
+assurance and customer repositories functionalities. the de tailed functionalities for cloud customer 
+management are presented in figure 10-2. 
+ 
+figure 10-2 – functionalities related to cloud customer management 
+10.1.1 customer fulfilment functionalities 
+this covers a set of functionalities for the fulfilment mana gement of cloud service customers. these 
+functionalities include customer order management. 
+

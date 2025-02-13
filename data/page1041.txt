@@ -1,0 +1,33 @@
+security 7 
+ 
+  1033 
+csps should also be transparent with cscs when the patch is released on the cloud platform, and they should 
+communicate clearly with cscs before patching. csps should try not to influence in any way csc's services, 
+and this is through adopting appropriate measures together with cscs. 
+4) patch check 
+after the patches are released, csps should r egularly check the patches with patch management tools to 
+make sure that the patches of the whole cloud platform are the latest. the document of patching records 
+should be updated regularly and should be archived for later security audits. 
+the waiting time between patch collect and update and cscs approval requirement of patch update should 
+be explicit in the sla, based on the priority type of the patch (e.g., critical, high, medium, and low). 
+the following is an example of a process of updating security patches, including updating the virtual machine 
+and its  image files. . in this process, if there are any latest patches being released, csps will test the security 
+and adaptability of these patches. in addition, cscs have the responsibilities to find and collect the latest 
+patches. after a successful test of these latest patches, csps will inform cscs to update these patches. at the 
+same time, csps will update the patches of the current image files. csps could then create a new virtual 
+machine with these new image files. csps will also implement a specific scan to make sure that cscs have 
+updated these patches successfully. 
+ 
+figure 1 – example process of upgrading security patch 
+8.8 securing configuration management 
+csps should execute the security controls of the configuration management of the cloud platform, network 
+configuration, and parameters of various application components, which could help reduce the operational 
+risks induced by mis-configuration or misuse, and promote the security and stability of the cloud computing 
+environment. 
+configuration management usually includes configuration alteration management and release management. 
+csps should take measures ensure that the configuration alteration and release have been monitored and 
+recorded. for convenience of configuration management, an integrated configuration management 
+database is usually constructed, which involves the current and historic records of all configuration files, 
+security policy, the application profiles of each element and the component of cloud computing. csps should 
+protect this database from non-authorized access, information leakage, etc. 
+

@@ -1,0 +1,22 @@
+8 assisting developing countries  
+ 
+1112  
+in addition to the three proposed options (increase in efficiency, cost effectiveness and no need of it 
+infrastructure deployment), responders mention the following motivations to migrate to the cloud: 
+• scalability in an instance;  
+• flexibility to switch vendors and platforms with minimal notice without cost overruns;  
+• resilience and an overwhelming degree of reliability;  
+• resource conservation owing to workforce redundancy;  
+• absence of wasted capacity, routine server maintenance or daily backup issues;  
+• data security and protection from denial of service attacks and spam;  
+• statutory compliance when housing and processing medical or government data;  
+• guaranteed uptime and sla;  
+• access to the latest licensed software and infrastructure without having to pay for it entirely.  
+2 cloud computing usage 
+2.1 what were the criteria for selecting your current cloud provider? 
+ 
+figure i.5 – criteria for selecting csp 
+2.2 which cloud computing service do you use? 
+ 
+figure i.6 – popular cloud computing service 
+

@@ -1,0 +1,33 @@
+intercloud and interoperability 5 
+ 
+  861 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the framework and overview of cloud 
+computing interoperability testing 
+recommendation itu-t q.4040 
+(02/2016) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+series q: switching and signalling, and associated  
+measurements and tests 
+  

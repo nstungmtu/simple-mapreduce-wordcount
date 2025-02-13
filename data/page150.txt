@@ -1,0 +1,14 @@
+1 framework and requirements for cloud computing  
+ 
+142  
+summary 
+cloud service brokerage is a service that arbitrates, delivers and manages cloud services provided by cloud  
+service providers for cloud service customers. recommendation itu -t y.3506 provides functional 
+requirements for cloud service brokerage. to provide functional requirements for cloud service brokerage, 
+this recommendation specifies the overview including service model and configuration of the cloud service 
+brokerage. various use cases are also identified to derive the functional requirements. 
+keywords 
+cloud computing, cloud service brokerage, cloud service broker, functional requirement. 
+ 
+ 
+  

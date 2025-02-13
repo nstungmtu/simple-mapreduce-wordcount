@@ -1,0 +1,36 @@
+8 assisting developing countries  
+ 
+1096  
+the questionnaires covered the following main axes: 
+a) availability of reliable internet services over which the cloud services may be accessed; 
+b) deployment and usage of cloud based services; 
+c) degree of implementation of standards and service level agreements; 
+d) degree of infrastructure deployment; 
+e) levels of data privacy and cloud security; 
+f) cloud computing training requirements; 
+g) factors that affect the deployment and usage of cloud computing services; and 
+h) factors that may motivate the uptake of cloud computing services in developing countries. 
+7.1 questionnaire respondents 
+of the respondents under cscs: 
+• seventy five per cent (75%) were government institutions;  
+• thirteen per cent (13%) were corporate intuitions; and  
+• thirteen per cent (13%) were multinational companies. 
+on the other hand respondents under csps:  
+• thirty three per cent (33%) of csp respondents also provided mobile services and fixed services; and  
+• twenty eight per cent (28%) also provided internet services. 
+7.2 deployment of cloud computing in developing countries 
+the main motivation for most cscs to migrate to the cloud is the increase in operat ional efficiency. 
+furthermore, cloud computing services free them from the need to acquire expensive hardware and to 
+deploy information technology (it) infrastructure ultimately ensuring cost optimization.  
+the deployment requirements for customers to access cloud services from the csps are relatively simple as 
+customers are only required to pay for licence fees, where applicable, as well as to have a reliable internet 
+connection. it is also imperative that customers have a resilient power supply for the cl oud computing 
+services to be provided with minimum disruption. 
+ 
+figure 7-1 – motivation to migrate to the cloud 
+in addition to the aforementioned motivations, respondents indicated the following motivations for 
+migrating to the cloud: 
+• scalability in an instance; 
+• flexibility to switch vendors and platforms with minimal notice without cost overruns; 
+• resilience and an overwhelming degree of reliability; 
+

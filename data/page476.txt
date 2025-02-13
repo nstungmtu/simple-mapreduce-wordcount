@@ -1,0 +1,47 @@
+2 cloud computing management  
+ 
+468  
+– service test management: provides the capabilities for ensuring that the various services are working 
+properly. in the fulfilment proce ss, the service test is responsible for ensuring that the assigned 
+service works as designed. in the assurance process, the service test is responsible for service 
+trouble/problem distinguishing; 
+– service order management: provides the capabilities for ma naging the e2e lifecycle of a service 
+request. this includes validating service availability as well as the service order request. it also 
+includes serv ice order issuance, service and/or product order decomposition, and service order 
+tracking along with orchestrating the activation and the test processes; 
+– service problem management: provides the capabilities for receiving service affecting customer 
+problems as well as network troubles/faults, relating the various problems, and resolving them in 
+an efficient manner; 
+– service quality management: provides the capabilities for monitoring and managing the levels of 
+service. service quality measurements are c ollected and compared against established quality 
+indicators, and the conclusions made available to interested parties; 
+– service performance management: provides the capabilities for monitoring, analysing and reporting 
+on the e2e service performance. this should include a real-time e2e view to ensure that each service 
+is functioning correctly as well as a historical view; 
+– service rating/discounting management: provides the capabilities for ensuring that the customer 
+receives an invoice that is reflective  of all the billable events delivered by the service provider 
+dictated by their business relationship. 
+9 functional requirements for service management in cloud-aware telecommunication 
+management system 
+this clause provides functional requirements for service management in a cloud-aware telecommunication 
+management system. 
+9.1 service catalogue management 
+in a cloud-aware telecommunication management system, the service catalogue management requirements 
+include: 
+– it is required that service catalogue management provides functions to  manage cloud service 
+information. it is required that service catalogue management provides functions to  manage 
+information of tc-hybrid services. 
+9.2 service inventory management 
+in a cloud-aware telecommunication management system, the service inventory management requirements 
+include: 
+– it is required that service inventory management provides functions to  manage the attributes of 
+cloud service; 
+– it is required that service inventory management provides functions to  trace the relationship 
+between the cloud service or tc-hybrid service and resource. 
+9.3 service order management 
+in a cloud -aware telecommunication management system, the s ervice order management requirements 
+include: 
+– it is required that the service order management provides functions to  validate cloud service 
+availability as well as the cloud service order request; 
+– it is required that the service order management provides functions to  manage service and or 
+product order decomposition which contain cloud service; 

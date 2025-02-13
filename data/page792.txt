@@ -1,0 +1,21 @@
+4 video processing and storage  
+ 
+784  
+(14) after receiving the data source address, the csau requests the mdu to start the image uploading 
+from the pu. 
+(15) the mdu sends a request to the pu for obtaining the captured images. 
+(16) the pu creates an image transmission channel with the mdu and sends the captured images to the 
+mdu. 
+(17) the mdu transfers the images to the csau. 
+(18) the csau transfers the images to the csdu to store the received images in the cloud data nodes. 
+(19) when the storage plan is completed, the cu sends a stop request to the csau. 
+(20) the csau transfers this stop request to the mdu. 
+(21) the mdu returns a response to the csau. 
+(22) the csau requests the scu to disconnect. 
+(23) the scu returns a response to end the image uploading from the pu. 
+7.4.4 video metadata or image metadata storage 
+the intelligent visual surveillance system can provide various intelligent services by using video or image 
+analysis technologies. one solution is to implement some intelligent visual analysis algorithms in the pu that 
+is defined as the intelligent premises unit (ipu). when a user wants to store video metadata or image 
+metadata extracted from the original video or image data in the cloud storage system,  the cu initiates a 
+request to the scu to start this procedure. 

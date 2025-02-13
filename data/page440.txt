@@ -1,0 +1,16 @@
+2 cloud computing management  
+ 
+432  
+ 
+figure 8-2 – relationship of bss/oss components and the management layering 
+the cloud computing management layers support the management requirements of cloud computing to 
+provision, operate and administer cloud computing resources and services, and consists of : customer 
+management, product management, service management and resource management. 
+the oss functional components encompass the set of operational related management capabilities that are 
+required in order to manage and control the cloud services offered to customers (see clause 9.2.5.3 of [itu-t 
+y.3502]). the bss functional components encompass the set of business -related management capabilities 
+dealing with customers and supporting processes (see clause 9.2.5.4 of [itu-t y.3502]). 
+figure 8-3 shows how the oss and bss components of the cloud computing reference architecture are further 
+split according to the different management layers based on  the conceptual view of cloud computing 
+management provided in clause 8. 
+

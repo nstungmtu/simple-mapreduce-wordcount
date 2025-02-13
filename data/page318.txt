@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+310  
+in the service expansion shown in figure iii.1-c, two new resources that are different from the primary csp's 
+resource are added by secondary csps a and b. these might be software packages or platform -type 
+applications. with the support of the secondary csps, the primary csp can offer a wide-variety service, which 
+now consists of various service components. 
+from the viewpoint of inter-cloud patterns, which are described in clauses 7 and 8, inter-cloud federation is 
+suitable for volume -based service expansion. the description of the inter -cloud federation in clause 8.2 
+focuses o n resource reservation, use and release. inter -cloud intermediary is suitable for variety -based 
+service expansion. the description of the inter-cloud intermediary in clause 8.3 underlines the significance of 
+the catalogue of service offerings.  
+iii.2 service operation enhancement 
+inter-cloud interaction enables not only service expansion as described in clause iii.1, which matters more at 
+the beginning of a service offering, but can also enhance the ways that services are offered. this relates more 
+to the entire process of offering a service.  
+figure iii.2 shows two such enhancements.  
+primary csp
+csc
+secondary csp
+secondary csp secondary csp
+y .3511(14)_fiii.2
+primary csp
+primary csp primary csp
+csc
+csc csc
+c) reliable service offering with secondary csp –
+despite problems with primary csp, two units
+are offered without interrupting the user.
+a) basic model –
+two units are offered to a user.
+d) elastic service –
+one to three units are offered
+according to user's demand.
+b) v olume expansion –
+three units are offered beyond primary capacity
+ 
+figure iii.2 – operational enhancement in inter-cloud computing 
+in figure iii.2, volume expansions are assumed. for the sake of comparison, f igures iii.2-a and iii.2-b depict 
+item expansion as already discussed in clause iii.1, whereas cases c) and d) depict operation enhancement.  
+the basic scenario is shown in figure iii.2-a again, which offers two resource units (e.g., two vms) to a user. 
+a simple service item expansion is shown in figure iii.2-b.  
+with the help of secondary csps, the primary csp can keep offering the service even if something unexpected 
+happens to the primary csp, which is shown in figure iii.2-c. due to the availability of cloud technology across 
+multiple csps, the secondary csp can compensate for the unavailable resources by offering alternative 
+resources on behalf of the primary csp. the primary csp can offer the same service continuously with 
+minimal or no interruption to the user. 

@@ -1,0 +1,53 @@
+3 xaas  
+ 
+694  
+– oss4: this ref erence point covers interactions between the oss -ns and oss -nf. this  includes 
+interactions related to network functions lifecycle management, network functio ns fault and 
+performance management, network functions usage management and network functions inventory 
+management. 
+– oss5: this reference point covers interactions between the oss -ns and oss -ccs. t his includes 
+interactions related to virtual resources life cycle management, virt ual resources fault and 
+performance management, virtual resources usage man agement and virtual resources inventory 
+management. 
+– oss6: this reference point covers interactions between the oss -nf and oss -ccs. this  includes 
+interactions related to virtual resources life cycle manageme nt, v irtual resources fault and  
+performance management, virtual resources usage management and virtual resources invento ry 
+management. 
+the external reference points illustrated in figure a.1 are listed as follows: 
+– oss-bss1: this reference point covers in teractions between bss functional components for  naas 
+products (bss-naas products) and oss components for naas services (oss-naas). this includes for 
+example naas service order interactions between the bss account management functional 
+component and the oss-naas following a naas csc order for a naas product. 
+– oss-rl1: this reference point covers interactions between the oss -nc and a network controller 
+(e.g., a sdn controller). this includes interactions related to virtualized network connectivity life 
+cycle management, fault and performance management, usage management and inventory 
+management. in this cas e the oss -nc can be viewed as a set of sdn applications as per [itu-t 
+y.3300], [itu-t y.3302] and the interactions being carried over the sdn application control interface 
+(aci) reference point. 
+– oss-rl2: this reference point covers interactions between the oss -naas and a vnf. this includes 
+interactions related to the network functions ' configuration management and network functions ' 
+fault and performance management from a naas service perspective. 
+– oss-rl3: this reference point covers interactions between the oss -nf and a vnf. this includes 
+interactions related to the network functions ' configuration management and network functions ' 
+fault and performance management. 
+– oss-rl4: this  reference point cov ers interactions between the oss -ccs with the naas cloud 
+infrastructure domain. this includes interactions related to the specific assignment of virtual 
+resources in response to resourc e allocation requests and the exchange of virtual resources state 
+information. 
+– oss-lg1: this reference point covers interactions between the oss -naas with a legacy oss system 
+that manages legacy networks including pnfs. 
+– oss-dev1: this reference point c overs interactions between the oss -naas with development 
+functions for naas products and services. this include interactions related the distribution of 
+developed naas services in order to make them available in the service catalogue functional 
+component within the oss-naas. 
+– bss-dev1: this reference point covers interaction s between the bss -naas products with 
+development functions for naas products and services. this include s interactions related to the 
+distribution of developed naas products in order to make them available in the product catalogue 
+functional component within the bss-naas products. 
+note 1 – in some cases, interaction of the oss -naas with a pnf may be realized through the oss -nc using either oss1 
+reference point or os s2 plus oss3 reference points. in such case the oss -nc will typically interact with a network 
+controller (e.g., a sdn controller or the nms/ems that controls and manages the pnf). 
+note 2 – the oss-analytics box shown in figure a.1 is for further study. main objective of the oss-analytics is to support 
+network analytics functionalities as described in clause 7.3. interactions of the oss-analytics with other oss components 
+needs further study. 
+  

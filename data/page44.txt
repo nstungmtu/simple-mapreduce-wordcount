@@ -1,0 +1,44 @@
+1 framework and requirements for cloud computing  
+ 
+36  
+use case 
+pre-conditions 
+(optional) 
+– a csp offers the configuration menu of the virtual desktop to cscs.  
+– a csc specifies parameter-settings shown in the configuration menu. 
+post-conditions 
+(optional) 
+– a csc uses daas service. 
+requirements – qoe 
+– fast boot-up time 
+– configurability of the virtual environment 
+– single sign-on access control 
+– support for high-definition (hd) and three dimensional (3d) applications 
+– extensible storage 
+– response time 
+– high availability 
+– resiliency to disaster 
+– service continuity 
+– system scalability 
+– daas developer environments 
+– diversity of daas client 
+i.5 paas general use case 
+use case 
+name paas general use case 
+abstract a paas csp provides application hosting, capabilities offering, integrated development 
+environment and development tools to csc.  
+roles csc, csp 
+figure 
+ 
+pre-conditions 
+(optional) 
+– csc requests paas service from csp1 to develop an application. 
+– csp1 provides a cloud-based integrated development environment to csc as well as 
+some development tools. 
+– csc requests paas service from csp2 to use a service delivery platform provided by csp.  
+– csp2 provides service presence, orchestration, billing, mash-up and associated 
+development and testing tools. 
+– csc requests paas service from csp3 to an application hosting environment provided by 
+csp. 
+– csp3 provides application hosting service to csc to deploy and execute the application. 
+

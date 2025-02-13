@@ -1,0 +1,44 @@
+intercloud and interoperability 5 
+ 
+  935 
+[etsi tr 103 126] – cloud: cloud private-sector user recommendations 
+this document provides an overview of private sector user recommendations for cloud services especially 
+from the viewpoint of large enterprises in the european context. 
+[etsi tr 102 997] – cloud: initial analysis of standardization requirements for cloud services 
+this document describes standardization requirements for cloud services. it is based on the outcome of the 
+etsi tc grid workshop, "grids, clouds and service infrastructures", 2 nd and 3rd of december 2009. this 
+event brought together key stakeholders of the grid, cloud and telecommunication domains to review state 
+of the art and current trends. needs for standardization, with a particular focus on the emerging area of cloud 
+computing and services, were discussed. this document introduces and expands on the conclusions reached. 
+i.5 gictf references and associated summaries 
+intercloud interface specification draft (cloud resource data model) 
+the purpose of this document is to identify the functional requirements of inter-cloud systems and describe 
+an inter-cloud interface in specific terms. 
+intercloud interface specification draft (intercloud protocol) 
+the purpose of this document is to identify the functional requirements of inter-cloud systems and describes 
+an inter-cloud interface in specific terms. 
+technical requirements for supporting the intercloud networking 
+this paper attempts to clarify the "technical requirements for the inter-cloud network which interconnects 
+among cloud systems" and the "expected functions in cloud systems from network perspective". 
+use cases and functional requirements for inter-cloud computing 
+this document describes the required functionalities for inter-cloud systems and the requirements for inter-
+cloud interfaces. 
+i.6 ieee references and associated summaries 
+[ieee p2301] – guide for cloud portability and interoperability profiles (cpip) 
+the purpose of ccip is to advise cloud computing ecosystem participants (cloud vendors, service providers, 
+and users) of standards -based choices in areas such as application in terfaces, portability interfaces, 
+management interfaces, interoperability interfaces, file formats, and operation conversions. ccip group 
+these choices into multiple logical profiles, which are organized to address different cloud personalities. 
+[ieee p2302] – standard for intercloud interoperability and federation (siif) 
+siif is to define topology, functions, and governance for cloud -to-cloud interoperability and federation. 
+topological elements include clouds, roots, exchanges (which mediate governance be tween clouds), and 
+gateways (which mediate data exchange between clouds). functional elements include name spaces, 
+presence, messaging, resource ontologies (including standardized units of measurement), and trust 
+infrastructure. governance elements include  registration, geo-independence, trust anchor and potentially 
+compliance and audit. the standard does not address intra -cloud (within cloud) operation, as this is cloud 
+implementation-specific, nor does it address proprietary hybrid-cloud implementations. 
+i.7 ietf references and associated summaries 
+[ietf rfc 2330] – framework for ip performance metrics 
+[ietf rfc 4110] – a framework for layer 3 provider-provisioned virtual private networks 
+[ietf rfc 6749] – the oauth 2.0 authorization framework 
+[i-d. draft-ietf-scim-core-schema-03] – system for cross-domain identity management: core schema 

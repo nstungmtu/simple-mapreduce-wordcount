@@ -1,0 +1,25 @@
+1 framework and requirements for cloud computing  
+ 
+130  
+figure (optional) 
+  
+figure 1 – writing data by abstracting data 
+ 
+figure 2 – read data by virtualized data 
+pre-conditions 
+(optional) 
+– csc:csu has one or more data storage. 
+– csc:csu sets policies for dsf local storage. 
+– the data a is shared in figure 2. 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.4 requirement (7)  
+– clause 8.4 requirement (7)  
+– clause 8.4 requirement (8) 
+– clause 8.1 requirement (2) 
+– clause 8.2 requirement (10)  
+– clause 8.2 requirement (9)  
+

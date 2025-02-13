@@ -1,0 +1,24 @@
+intercloud and interoperability 5 
+ 
+  823 
+ 
+figure 6-4 – primary csp using administration capabilities provided by secondary csps 
+the inter-cloud functional components in the functional architecture represent sets of functions that are 
+required to perform inter-cloud computing activities for various roles and sub-roles. there are two types of 
+relationship between peer csps: 
+• the use of cloud services of secondary csps by a primary csp; 
+• the use of business and administration capabilities of secondary csps by a primary csp. 
+the secondary csp provides inter-cloud services to the primary csp. from the secondary csp point of view, 
+the primary csp plays the role of csc. as a result, there is no difference in terms of service access and service 
+capabilities for inter-cloud, compared to the case of cloud services provided by a csp to a csc.  
+the primary csp utilizes a peer service integration functional component to connect to a secondary csp. the 
+primary csp manages inter-cloud services by using a peer service management functional component along 
+with the integration, bsss, operations support system (oss) and security systems functional components of 
+a secondary csp. 
+no functional extensions are needed for the user layer, access layer, service layer, resource layer and 
+development function. as highlighted by the dark grey colour in figure 6-5, this recommendation identifies 
+inter-cloud specific extensions to functional components [itu-t y.3502] that are part of integration, security 
+systems, oss and bsss. functional components in other parts of the architecture, i.e. user layer, access layer 
+service layer, resource layer and multi-layer development functions, are reused without modification in the 
+inter-cloud functional architecture. 
+

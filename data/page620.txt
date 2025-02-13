@@ -1,0 +1,44 @@
+3 xaas  
+ 
+612  
+3.1.5 cloud service category [itu-t y.3500]: group of cloud ser vices that possess some common set of 
+qualities. 
+note – a cloud service category can include capabilities from one or more cloud capabilities types.  
+3.1.6 cloud service customer [itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+3.1.7 cloud service provider [itu-t y.3500]: party which makes cloud services available. 
+3.1.8 cloud service user [itu-t y.3500]: natural person, or entity on their behalf, associated with a cloud 
+service customer that uses cloud services. 
+3.1.9 communications as a service (caas) [itu-t y.3500]: cloud service category in which the capability 
+provided to the cloud service customer is real time interaction and collaboration. 
+note – caas can provide both application capabilities type and p latform capabilities type. 
+3.1.10 infrastructure capabilities type [itu-t y.3500]: cloud capabilities type in which the cloud service 
+customer can provision and use processing, storage and networking resources. 
+3.1.11 logically isolated network partition [itu-t y.3011]: a network that is composed of multiple virtual 
+resources which is isolated from other linps. 
+note – term "logically isolated", which is the counter concept of "physically isolated", means mutual exclusiveness of 
+the subjects (e.g., network partition, in this case), while the original subjects may be physically united/shared within the 
+common physical constraints. 
+3.1.12 network as a service (naas) [itu-t y.3500]: cloud service category in which the capability provided 
+to the cloud service customer is transport connectivity and related network capabilities. 
+note – naas can provide any of the three cloud capabilities types. 
+3.1.13 platform capabilities type  [itu-t y. 3500]: cloud capabilities type  in which the cloud service 
+customer can deploy, m anage and run customer -created or customer -acquired applications using one or 
+more programming languages and one or more execution environments supported by the cloud service 
+provider. 
+3.1.14 tenant [itu-t y.3500]: group of cloud service users sharing access to a set of physical and virtual 
+resources. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 service chain: an ordered set of functions that is used to enforce differentiated traffic handling 
+policies for a traffic flow. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+bgp border gateway protocol 
+bod bandwidth on demand 
+bss business support system 
+caas communications as a service 
+cdn content delivery network 
+cpe customer premises equipment 
+csc cloud service customer 
+csp cloud service provider 

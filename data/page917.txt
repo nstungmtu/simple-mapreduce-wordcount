@@ -1,0 +1,111 @@
+intercloud and interoperability 5 
+ 
+  909 
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+26 7.2 storage 
+service 
+functional 
+requirements 
+– it is recommended that the iaas csp 
+provides storage functions, such as block 
+level storage, file level storage and object-
+based storage, with specific slas and 
+charging model to the csc. the storage 
+functions can be provided to the csc directly 
+or used by the virtual machine as attached 
+storage. 
+– 8.6 interoperability testing of 
+storage life cycle management 
+between the csc and csp  
+27 
+ 
+– it is recommended that the iaas csp 
+provides the csc with operations handling 
+mechanisms related to storage, such as 
+create, attach, detach, query and delete a 
+volume of storage at either block level or 
+file-system level, write, read and delete data 
+for a given storage. 
+– 8.6 interoperability testing of 
+storage life cycle management 
+between the csc and csp  
+28 
+ 
+– it is recommended that the iaas csp 
+provides storage utilisation information in 
+response to queries from the csc. 
+– 8.7 interoperability testing of 
+storage utilization status inquiring 
+between the csc and csp 
+29 7.2.1 storage 
+migration 
+– it is recommended that the iaas csp 
+provides storage migration functions. based 
+on migration policies, data can be migrated 
+between different logical unit numbers 
+(luns), different storage devices, local 
+storage to shared storage and vice versa. 
+– 8.1 interoperability testing of 
+storage migration between the csc 
+and csp 
+30 7.2.2 storage 
+snapshot 
+– it is recommended that the iaas csp 
+provides storage with snapshot functions. 
+snapshot can be realized at either block or 
+file-system levels. the data can be restored 
+using the snapshot. 
+– 8.2 interoperability testing of 
+storage snapshot between the csc 
+and csp 
+31 7.2.3 storage 
+backup 
+– it is recommended that the iaas csp 
+provides storage with backup functions. 
+backup can be realized at block level, file 
+level or object-based storage. 
+– 8.3 interoperability testing of 
+storage backup between the csc 
+and csp 
+32 7.2.4 i/o 
+performance 
+– it is recommended that the iaas csp 
+provides input/output (i/o) limitation for 
+each vm. 
+– 8.5 interoperability testing of i/o 
+performance between the csc and 
+csp 
+33 7.2.5 storage 
+resource 
+reservation 
+– it is recommended that the iaas csp 
+provides storage resource (e.g., storage 
+space and lun) reservation functions. 
+– 8.4 interoperability testing of 
+storage resource reservation 
+between the csc and csp 
+34 7.3 network 
+service 
+functional 
+requirements 
+– it is recommended that the iaas csp 
+provides network functions, such as ip 
+address, vlan, virtual switch, load balance, 
+firewall, with specific slas or charging 
+model. network functions are applied to 
+access and interconnect processing and 
+storage resources. 
+– 9.7 interoperability testing of load 
+balance between the csc and csp 
+– 9.8 interoperability testing of 
+firewall between the csc and csp 
+35 
+ 
+– it is recommended that the iaas csp 
+provides network information in response to 
+queries from the csc. 
+– 9.10 interoperability testing of 
+network information inquiring 
+between the csc and csp 

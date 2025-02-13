@@ -1,0 +1,48 @@
+xaas 3 
+ 
+     675 
+from the perspective of the management layers described in [itu-t y.3521], the oss functionalities described 
+in this clause cover the service management layer and resource management layer aspects (see figure 8-3 of 
+[itu-t y.3521]). the service management layer takes care of the management of naas services offered to 
+naas cscs, i.e., oss-naas services functionalities described in clause 7.8.1. regarding resource management 
+layer aspects, they cover the management of the different naas resources (see clause 6.3) that are involved 
+in the support of naas services, i.e. , network services, network f unctions, cloud compute and storage 
+resources, network connectivity resources and physical resources. these management functionalities are 
+described in more detail in clause 7.8.2. 
+7.8.1 service management layer functionalities 
+the oss -naas services (oss -naas) functionalities are responsible for the management of naas services 
+(covering their deployment and operation), i.e. , including service fulfilment, service assurance and servi ce 
+repositories [itu-t y.3521]. 
+in accordance with clause 10.3 of [itu-t y.3521], these functionalities include: 
+– catalogue management of naas services (e.g. , connectivity as a service, network function as a 
+service, network service as a service), with their relevant descriptions in terms of required network 
+functions and their interconnectivity; 
+– naas service order management functionalities including naas service order orchestration and 
+distribution decomposing the naas service order into resource order requests towards the relevant 
+oss functionalities described in clause 7.8.2; 
+– naas service assurance functionalities such as performance management, problem management 
+and quality management of naas services instances; 
+– inventory management of naas services instances; 
+– usage management of naas services instances. 
+7.8.2 resource management layer functionalities 
+this clause describes the resource management layer functionali ties (see clause 10.4 of [itu -t y.3521]) for 
+the support of naa s services. these functionalities cover the management functionalities related to naas 
+resources, i.e. , network services, network functions, cloud compute and storage resources, network 
+connectivity resources and physical resources. 
+7.8.2.1 oss-network services 
+the oss -network services (oss -ns) functionalities are responsibl e for the management (incl uding the 
+deployment and operation) of network services. 
+in accordance with clause 10.4 of [itu-t y.3521], these functionalities include: 
+– catalogue management of network services with their relevant descriptions in terms of required 
+network functions and their interconnectivity; 
+– network services ' order management functionalities including the automated creation, 
+modification and termination of network services instances (following naas service order requests 
+received from oss-naas); 
+– network services ' assurance functions such as performance monitoring, fault management of 
+network services ' instances; these functions include monitoring of network services ' instances, 
+calculating and performing restoration activities when monitoring detects one or more fa ulty 
+network service instances as well as reporting status of network services' instances to clients of oss-
+ns, e.g., oss-naas functionalities; 
+– inventory management of network services ' instances (including availability and performance of 
+network services' instances and the resources used to support the network services' instances); 
+– usage collection and distribution of network services' instances. 

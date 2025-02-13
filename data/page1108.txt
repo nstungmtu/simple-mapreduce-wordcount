@@ -1,0 +1,39 @@
+8 assisting developing countries  
+ 
+1100  
+ 
+figure 7-6 – cost for adoption of cloud computing 
+8 cloud computing requirements in developing countries 
+8.1 standardization requirements 
+several efforts are being made by various standards developing organizations (sdos) to develop cloud 
+computing standards that will foster the adoption of cloud computing services. standards will set a 
+benchmark that will be used to assess and select the mo st apt cloud computing solution for a given 
+requirement.  
+there is need for fervent standardization of cloud computing in developing countries to enable the ease and 
+flexible adoption of cloud computing and to optimize the use of this technology in these countries. standards 
+will also help to circumvent the possible vendor or operator lock -in of cscs. the different aspects of the 
+standards that need to be considered are as highlighted. 
+8.1.1 cybersecurity 
+itu has developed several recommendations on securit y in the cloud. the recommendations developed 
+hitherto include:  
+• security framework for cloud computing [itu -t x.1601] which analyses security threats and 
+challenges in the cloud computing environment and describes security capabilities that could 
+mitigate these threats and address security challenges. 
+• recommendation [itu -t x.1602] on security requirements for software as a service application 
+environments which analyses the maturity levels of saas application and proposes security 
+requirements to provi de a consistent and secure service execution environment for saas 
+applications. 
+• information technology – security techniques ([itu -t x.1631]) – code of practice for information 
+security controls based on [iso/iec 27002] for cloud services. this recommend ation provides 
+guidelines for information security controls applicable to the provision and use of cloud services for 
+both csps and cscs. 
+• generic security guidelines for the cloud service customer (csc) data in cloud computing are provide 
+in [itu-t x.1641]. this recommendation also analyses the csc data security lifecycle and proposes 
+security requirements at each stage of the data lifecycle. furthermore, it provides guidelines on 
+when each control should be used for best security practice. 
+• recommendation [itu-t x.1642] on guidelines of operational security for cloud computing provides 
+generic operational security guidelines for cloud computing from the perspective of cloud service 
+providers (csps). a set of security measures and detailed sec urity activities for the daily operation 
+and maintenance are provided to help csps mitigate security risks and address security challenges 
+for the operation of cloud computing. 
+

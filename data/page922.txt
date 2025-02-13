@@ -1,0 +1,11 @@
+5 intercloud and interoperability  
+ 
+914  
+summary 
+supplement 65 to itu-t q-series recommendations provides the summary information for cloud computing 
+interoperability activities of existing standards development organizations (sdos) and the groups, forums 
+and open sources developing the specifications that have the potential to utilize  cloud computing 
+interoperability testing tools. this supplement should also be helpful for the development of cloud testing 
+specifications. 
+ 
+  

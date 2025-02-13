@@ -1,0 +1,46 @@
+1 framework and requirements for cloud computing  
+ 
+24  
+3.1.15 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+note – inter-cloud computing is also referred as inter-cloud. 
+3.1.16 network as a service (naas) [itu-t y.3500]: cloud service category in which the capability provided 
+to the cloud service customer is transport connectivity and related network capabilities. 
+3.1.17 party [itu-t y.3500]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.18 platform as a service (paas)  [itu-t y.3500]: cloud service cate gory in which the cloud capabilities 
+type provided to the cloud service customer is a platform capabilities type. 
+3.1.19 resource management  [itu-t y. 3520]: the most efficient and effective way to access, control, 
+manage, deploy, schedule and bind resources when they are provided by service providers and requested by 
+customers. 
+3.1.20 role [itu-t y.3502]: a set of activities that serves a common purpose. 
+3.1.21 service level agreement (sla) [itu-t y.3500]: documented agreement between the service provider 
+and customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement.  
+3.1.22 virtual desktop [itu-t y.3503]: an environment for accessing end user's desktop functions remotely. 
+note – examples of end user's desktop functions can include desktop interface functions for applications, data access 
+functions for multimedia data, and control functions for input/output (i/o) devices.  
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 trusted cloud service: a cloud service that satisfies a set of requirements such as transparency for 
+governance, management and security so that a cloud service customer (csc) can be confident in using the 
+cloud service. 
+note 1 – the set of requirements will vary depending on the involved cloud service customer, the nature of the cloud 
+service and the governing jurisdiction.  
+note 2 – the set of requirements could also be related to additional cross -cutting a spects [itu -t y.3502] such as 
+performance, resiliency, reversibility, slas, etc. 
+note 3 – transparency means that the cloud service provider (csp) should commit to the csc that they have 
+appropriate and clear control and reporting mechanisms for governance , management and security, such as sla 
+commitments, online announcements, data handling policies, etc. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bdaas big data as a service 
+caas communication as a service 
+cpu central processing unit 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+daas desktop as a service 

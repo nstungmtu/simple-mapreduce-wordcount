@@ -1,0 +1,41 @@
+2 cloud computing management  
+ 
+452  
+1 scope 
+this recommendation provides the concept of cloud -based network management functional architecture 
+and its fundamental components. 
+this recommendation describes the composition of a cloud -based network management functional 
+architecture, explain s the functions of each components in the architecture, and also introduce s the 
+relationship among the components. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are theref ore encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t m.3010] recommendation itu -t m.3010 (02/2000), principles for a telecommunications 
+management network. 
+[itu-t y.3521/m.3070] recommendation itu-t y.3521/m.3070 (03/2016), overview of end to end cloud 
+computing management. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 network element  [itu-t m.3010] : an architectural concept that represents teleco mmunication 
+equipment (or groups/parts of telecommunication equipment) and supports equipments or any item or 
+groups of items considered belonging to the telecommunications environment that perform s network 
+element functions (nefs). 
+3.1.2 management servic e [itu-t m.3010] : a management service is an offering fulfilling specific 
+telecommunications management needs. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following new terms. 
+3.2.1 cloud-based network management 
+cloud-based network management is to perform network management functions using cloud computing 
+technology, and it can also be used to manage both traditional telecommunication networks and/or cloud 
+computing infrastructures. 
+3.2.2 management service analysis function 
+management service analysis function provides the ability of analyzing each management service in network 
+management. each management service is registered in this analyzer functio n, and all the related 
+information about this service is analyzed and stored for future use. 
+  

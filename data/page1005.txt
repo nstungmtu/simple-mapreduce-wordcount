@@ -1,0 +1,44 @@
+security 7 
+ 
+  997 
+8.5 monitoring data analysis 
+monitoring data can be analyzed by the csp and csc to understand the status of the cloud platform resources 
+in order to better manage and secure them. 
+8.6 monitoring data presentation 
+it is recommended that monitoring data be presentable in meaningful ways in order to be useful fo r better 
+management of slas and cloud security. since the volume of cloud monitoring data can be very large, is 
+recommended that these data be summarized in a manageable and understandable way. 
+8.7 monitoring data destruction 
+to maintain monitoring data security, the csp is required to destroy monitoring data as cscs demand. 
+csps can optionally destroy monitoring data after an appropriate period of time after monitoring data 
+creation. 
+8.8 monitoring data backup 
+it is required to create monitoring data backups and to restore data from backups. 
+9 security threats and challenges for monitoring data of cloud computing 
+the security threats and challenges for cloud computing, clauses 7 and 8 respectively in [b -itu-t x.1601], 
+have provided the security threats and challenges for the csc and csp in cloud computing; cloud monitoring 
+data also faces similar security threats and challenges that are defined in [b -itu-t x.1601. some of these 
+security threats and challenges for cloud monitoring data include but are not limited to those shown below: 
+a) data loss and leakage; 
+b) insecure service access; 
+c) unauthorized administration access; 
+d) insider threats; 
+e) loss of trust; 
+f) loss of governance; 
+g) loss of confidentiality; 
+h) service unavailability; 
+i) misappropriation of intellectual property; 
+j) shared environment; 
+k) jurisdictional conflict; 
+l) bad migration and integration. 
+for each monitoring data lifecycle stage, cloud monitoring data face some particular security threats and 
+challenges. 
+9.1 security threats and challenges in monitoring data collection stage 
+a) data collection without authorization: a csp or attackers may collect the csc's monitoring data 
+without permission or authorization. 
+b) acquisition interface vulnerability: attackers may use a monitoring data acquisition interface 
+vulnerability. 
+c) spoofing: attackers could masquerade as the management system, or data storage server, of cloud 
+monitoring service, and cause the loss of monitoring data. 
+d) tampering and intercepting: attackers co uld use man -in-the-middle or other network attacks to 
+tamper with, or intercept monitoring data. 

@@ -1,0 +1,34 @@
+cloud computing management 2 
+ 
+  443 
+10.4.2.3 resource test management 
+this set of functionalities is focused on ensuring that the various resources are working properly. 
+this includes the following functionalities: 
+1) resource test strategy and policy management. this functionality manages the rules that define the 
+strategies for conducting various resource tests; 
+2) resource test lifecycle management. this functionality manages the e2e lifecycle of a test of a 
+resource; 
+3) resource test command and control. this functionality provides access, commands, and controls the 
+resource testing environment; 
+4) resource test services. this functionality provides the means to access the testing capabilities. 
+10.4.3 resource charging and accounting functionalities 
+this set of functionalities covers resource usage management of the services. this includes resource usage 
+collection and distribution. 
+10.4.3.1 resource usage collection and distribution 
+this set of functionalities is used to channel usage events from the resources to various processes such as 
+billing, legal compliance, a nd service assurance. usage event records are collected, processed, edited, 
+correlated, enriched, formatted and distributed to upstream functionalities. 
+10.4.4 resource repositories functionalities 
+this covers a set of functionalities for the resource repositories of the services. these functionalities include 
+resource catalogue management and resource inventory management. 
+10.4.4.1 resource catalogue management 
+this set of functionalities determines repositories of resource listing within the csp and include the ability to 
+design, create, augment and map new entities and supporting data. 
+10.4.4.2 resource inventory management 
+this set of functionalities manages information of all csp resources available for the implementation of 
+services and products. 
+11 security considerations 
+security aspects for consideration within the cloud computing environment, including inter-cloud computing, 
+are addressed by security challenges for the csps as described in [itu -t x.1601]. [itu -t x.1601] analyses 
+security threats and challenges, and describes security capabilities that could mitigate these threats and meet 
+the security challenges. 

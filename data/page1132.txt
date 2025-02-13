@@ -1,0 +1,13 @@
+8 assisting developing countries  
+ 
+1124  
+3.5 should standardization set up business continuity processes for the cloud? 
+ 
+figure ii.19 – business continuity standards 
+3.6 should service level agreements be standardized? 
+ 
+figure ii.20 – sla standardization 
+3.7 if yes, what should be standardized in service level agreements? 
+ 
+figure ii.21 – components of sla standardization 
+

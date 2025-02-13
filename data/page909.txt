@@ -1,0 +1,63 @@
+intercloud and interoperability 5 
+ 
+  901 
+table ii.22 – test case: network policy migration 
+network policy migration test description 
+test purpose to verify that the csc migrates the vm while the network policy (generally includes 
+access control list, bandwidth limitation and priority policy) is consistent before and after 
+vm migration. 
+reference [itu-t y.3513] clause 7.3.1 
+test sequence step type description result 
+1 stimulus the csc configures the network policy for vm a, including 
+configuring the access control list, bandwidth limitation and 
+priority policy for vm a.  
+ 
+2 stimulus the csc migrates vm a to another host.  
+3 check the access control list configuration of vm a is consistent 
+with the original configuration before migration. 
+ 
+4 check the bandwidth limitation configuration of vm a is consistent 
+with the original configuration before migration. 
+ 
+5 check the priority policy configuration of vm a is consistent with 
+original the configuration before migration. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.3.2 test case: network qos 
+table ii.23 shows the test case for network qos. 
+table ii.23 – test case: network qos 
+network qos test description 
+test purpose to verify that the csc configures network qos for the vm, including bandwidth 
+limitation, bandwidth reservation, traffic shaping, traffic classification and congestion 
+avoidance. 
+reference [itu-t y.3513] clause 7.3.2 
+test sequence step type description result 
+1 stimulus the csc configures the bandwidth limitation for the 
+interworking between two vms.  
+ 
+2 check network throughput between the two vms does not exceed 
+the bandwidth specified in step 1. 
+ 
+3 stimulus the csc configures bandwidth reservation for the 
+interworking between two vms. 
+ 
+4 check network throughput between the two vms is not less than 
+the reserved bandwidth specified in step 3.  
+ 
+5 stimulus the csc configures traffic shaping for the specified interface 
+of vm a. 
+ 
+6 check the traffic of a specified interface of vm a is sent at a more 
+stable rate with lower jitter than before. 
+ 
+7 stimulus the csc configures traffic classification for the specified 
+interface of vm a. 
+ 
+8 check the traffic of a specified interface of vm a is automatically 
+categorized into a number of traffic classes. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 

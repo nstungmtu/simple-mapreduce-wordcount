@@ -1,0 +1,58 @@
+1 framework and requirements for cloud computing  
+ 
+202  
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+1x pcie x4 ports to m.2 connector, colayout with sata port to m.2 
+connector; spi interface, mux with bmc to enable bmc the capability to 
+perform bios upgrade and recovery; spi interface for tpm header' in 
+clause 5.4. 
+– [b-ocp ambh] provides storage replacement as 'pci-e x16 slot/riser card; 
+pci-e mezzanine card; pci-e external connector; sata' in clauses 
+10.1,10.2,10.3 and 10.7. 
+– [b-ocp bs] provides storage replacement as 'pcie expansion slot; sata hot-
+plug drives' in clause 2, table 2-1. 
+– [b-ocp dsbs] provides storage replacement as 'storage: two single port 
+ahci sata connectors capable of supporting up to 6 gb/sec; two scu 4 -
+port mini-sas connectors capable of supporting up to 3 gb/sec sata/sas; 
+two 4-port mini hd connectors capable of supporting up to 6 gb/sec sata' 
+and 'support for pci express* 225w/300w high power card 
+electromechanical specification 1.0' in clause 4, tables 1 and 2. 
+– [b-ocp hsas] provides storage replacement as '▪ intel c612 controller;▪ (2) 
+discrete sata 7pin for sata4 and sata5;▪ (2) minisas sff-8087 for 
+sata0~sata3, ssata0~ssata3;▪ 6.0gb/s speed;▪ sata sgpio supported;▪ 
+raid 0/1/10/5 (intel rst);▪ (4) internal minisashd sff-8643 connectors 
+(optional)' in clause 8. 
+– [b-ocp hsch] provides storage replacement as 'the bios is tuned to 
+minimize card power consumption. it has the following features: • unused 
+devices are disabled including pcie* lanes, usb ports, sata/sas ports, etc;• 
+bios setup menu;• soc settings are provided to allow tuning to achieve the 
+optimal combination of performance and power consumption' i n clause 
+8.5.2. 
+– [b-ocp mb] provides storage replacement as 'the motherboard uses intel 
+c610 series chipset, which supports following features: 3x usb 3.0/2.0 
+ports: one for front connector; one for optional vertical onboard connector; 
+one for bmc in-band firmware update; 1x msata connector from sata port 
+4 co-layout with m.2 connector; 1x individual sata 6gps ports from sata 
+port 5; 1x minisas port from sata port 0/1/2/3, 1x minisas port from 
+ssata0/1/2/3; 1x pcie x4 ports to m.2 connector; spi interface, connect to 
+bmc to enable bmc the capability to perform bios upgrade and recovery; 
+smbus interface (master and slave); intel server platform services (sps) 3.0 
+firmware with intel node manager' in clause 5.4. 
+11 storage redundancy 
+hardware 
+– [b-ocp hsas] provides storage redundancy hardware as 'storage: raid 
+0/1/10/5 (intel rst)' in clause 8. 
+– [b-ocp sj] provides storage redundancy hardware as 'sata raid key: 1x4' 
+in clause 6.12. 
+12 storage hibernation – [b-ocp 2s] provides storage hibernation as 'disable any unused devices, 
+such as unused pci, pcie ports, usb ports, sata/sas ports, clock generator 
+and buffer ports' in clause 6.3.1. 
+– [b-ocp hsch] provides storage hibernation as 'the bios is tuned to 
+minimize card power consumption. it has the following features: • unused 
+devices are disabled including pcie* lanes, usb ports, sata/sas ports, etc.; 
+• bios setup menu; • soc settings are provided to allow tuning to achieve 
+the optimal combination of performance and power consumption' in 
+clause 8.5.2. 

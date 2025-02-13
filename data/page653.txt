@@ -1,0 +1,46 @@
+xaas 3 
+ 
+    645 
+y .3513(14)_f6-1
+user layer
+access layer
+service
+layer
+resource 
+layer
+iaas
+(computing/storage/network)
+physical/virtual resources
+(processing, storage
+and networking)
+ 
+figure 6-1 – high level concept of iaas 
+an iaas instance can be configured by the csc using a template to define the set of parameters stating, how 
+infrastructure resources are organized. such iaas instance consists of configured processing, storage or 
+networking resources, as well as infor mation located in the resources, which may include  cloud service 
+provider data, cloud service customer data or both. 
+iaas cloud service provider (csp) also provides business and administration capabilities to csc, which are 
+common capabilities for cloud se rvices. the functional requirements of business and administration 
+capabilities are for further study.  
+note – regarding the network connectivity, one important difference between iaas and network as a service (naas) is 
+that iaas is a cloud service category that is offered in only one flavour of cloud capability type, and that is infrastructure 
+capabilities type [itu-t y.3500]. however, naas is a cloud service category that can be offered in all three cloud 
+capabilities types. 
+7 functional requirements 
+– it is recommended that iaas csp provides to the csc iaas functions, such as a composition of 
+processing, storage, and networking resources with service logic, specific service level agreements 
+(slas) and charging model. 
+– it is required that iaas csp provides the csc with operations handling mechanisms related to 
+provisioned infrastructure resources, such as assign, modify, query and release. 
+– it is recommended that iaas csp provide s status information about the infrastructure in response 
+to queries from the csc.  
+ note – the status information includes, but not limited to, available, reserved and in-use. 
+– it is recommended that iaas csp provide s template to the csc, related to instantiation of 
+infrastructure, which allows to provision processing , storage and networking resources that could 
+be implemented based on the configuration. 
+– it is recommended that iaas csp provides the csc with operations handling mechanisms related to 
+infrastructure templates to allow modification of infrastructure, such as upload, update, disable, 
+enable, query or release. 
+7.1 computing service functional requirements 
+– it is required that iaas csp provides computing functions with specific slas and charging model to 
+the csc. 

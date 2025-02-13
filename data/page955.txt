@@ -1,0 +1,40 @@
+monitoring 6 
+ 
+   947 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cpu central processing unit 
+gpu graphics processing unit 
+iaas infrastructure as a service 
+i/o input/output 
+ip internet protocol 
+kpi key performance indicator 
+mdt mean down time 
+mtbf mean time between failures 
+mttr mean time to repair 
+nf network function 
+nfs network function status 
+oss operational support system 
+paas platform as a service 
+qos quality of service 
+ram random access memory 
+sc service chain 
+sdn software-defined networking 
+sla service level agreement 
+tcp transmission control protocol 
+tbf time between failures 
+ttr time to repair 
+ups uninterruptible power system 
+url uniform resource locator 
+vip virtual internet protocol 
+vm virtual machine 
+5 conventions 
+none. 
+6 functional reference architecture of cloud computing 
+the layering framework used in the cloud computing reference architecture has four layers, plus a set of 
+functions that spans across the layers. the four layers are: 
+– user layer; 
+– access layer; 
+– services layer; 
+– resources layer. 
+the functions that span layers are called multilayer functions. 

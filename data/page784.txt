@@ -1,0 +1,29 @@
+4 video processing and storage  
+ 
+776  
+mdu media distribution unit 
+msu media storage unit 
+nvr network video recorder 
+pu premises unit 
+scu service control unit 
+vs visual surveillance 
+5 conventions 
+none. 
+6 overview of cloud storage in visual surveillance 
+the large -scale deployment of  visual surveillance systems has contributed to the explosive growth of 
+surveillance video data. it induces stringen t needs for the  efficient storage of massive video data and fast 
+access of information of interest to users. cloud storage is a data storage model for enabling service users to 
+have ubiquitous, convenient and on -demand network access to a shared pool of co nfigurable storage 
+resources, which can be rapidly provisioned and released with minimal management effort or service -
+provider interaction. in the cloud storage system, the physical and virtual resources can be dynamically 
+assigned and reassigned according to the users' demands. 
+7 functional architecture for cloud storage in visual surveillance 
+7.1 architectural framework 
+figure 7-1 shows the architectural framework for cloud storage in visual surveillance. the cloud storage based 
+visual surveillance platform consists of two parts, which are respectively the traditional visual surveillance 
+(vs) system and the cloud storage system. the cloud storage system can also be integrated with intelligent 
+visual surveillance, mobile visual surveillance and other visual surveillance subsystems and the architecture 
+is similar to that defined in this clause and is not described in this recommendation. 
+ 
+figure 7-1 – architectural framework for cloud storage in visual surveillance 
+

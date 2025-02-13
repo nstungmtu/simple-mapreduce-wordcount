@@ -1,0 +1,65 @@
+5 intercloud and interoperability  
+ 
+906  
+appendix iii 
+ 
+alignment analysis with [itu-t y.3513] 
+(this appendix does not form an integral part of this recommendation.) 
+[itu-t y.3513] introduces the concept of infrastructure as a service (iaas) and describes its functional 
+requirements. as one of the cloud computing service categories, iaas pro vides infrastructure capabilities as 
+services by cloud service providers. it is necessary to ensure that the test cases cover requirements in [itu-t 
+y.3513]. alignment analysis with requirements in [itu-t y.3513] is provided as table iii.1. 
+table iii.1 – alignment analysis with functional requirements in [itu-t y.3513] 
+ 
+functional requirements in [itu-t y.3513] test objects in this recommendation 
+1 7 functional 
+requirement 
+– it is recommended that the iaas csp 
+provides to the csc iaas functions, such as a 
+composition of processing, storage, and 
+networking resources with service logic, 
+specific service level agreements (slas) and 
+charging model. 
+too general, not involved. 
+2 
+ 
+– it is required that the iaas csp provides the 
+csc with operations handling mechanisms 
+related to provisioned infrastructure 
+resources, such as assign, modify, query and 
+release. 
+too general, not involved. 
+3 
+ 
+– it is recommended that the  iaas csp 
+provides status information about the 
+infrastructure in response to queries from 
+the csc. 
+too general, not involved. 
+4 
+ 
+– it is recommended that the iaas csp 
+provides a template to the csc, related to 
+instantiation of infrastructure, which allows 
+for provision processing, storage and 
+networking resources that could be 
+implemented based on the configuration. 
+too general, not involved. 
+5 
+ 
+– it is recommended that the iaas csp 
+provides the csc with operations handling 
+mechanisms related to infrastructure 
+templates to allow modification of 
+infrastructure, such as upload, update, 
+disable, enable, query or release. 
+too general, not involved. 
+6 7.1 
+computing 
+service 
+functional 
+requirements 
+– it is required that the iaas csp provides 
+computing functions with specific slas and 
+charging model to the csc. 
+too general, not involved. 

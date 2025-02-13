@@ -1,0 +1,73 @@
+1 framework and requirements for cloud computing  
+ 
+360  
+jtc 1/sc 38 focuses on the area of "cloud computing and distributed platforms". jtc1/sc 38 i s developing 
+iso/iec 19944 which describes data and their flow across devices and cloud services. table 9-2 lists the jtc 1 
+deliverables and work items related to big data. 
+table 9-2 – jtc 1 deliverables and work items related to big data 
+sub 
+group 
+reference 
+(note) 
+name/title status 
+wg 9 [iso/iec 
+20546] information technology – big data – overview and vocabulary aug. 2017 
+wg 9 [iso/iec 
+20547-1] 
+information technology – big data – reference architecture – part 1: 
+framework and application process apr. 2017 
+wg 9 [iso/iec 
+20547-2] 
+information technology – big data – reference architecture – part 2: 
+use cases and derived requirements dec. 2016 
+wg 9 [iso/iec 
+20547-3] 
+information technology – big data – reference architecture – part 3: 
+reference architecture dec. 2017 
+wg 9 [iso/iec 
+20547-5] 
+information technology – big data – reference architecture – part 5: 
+standards roadmap apr 2017 
+sc 27 [iso/iec 
+20547-4] 
+information technology – big data – reference architecture – part 4: 
+security and privacy fabric may 2018 
+sc 27 [iso/iec 
+27000] 
+information technology – security techniques – information security 
+manage systems – overview and vocabulary 
+published 
+2014 
+sc 27 [iso/iec 
+27001] 
+information technology – security techniques – information security 
+manage systems – requirements 
+published 
+2013 
+sc 27 [iso/iec 
+27002] 
+information technology – security techniques – code of practice for 
+information security controls 
+published 
+2013 
+sc 27 [iso/iec 
+29100] information technology – security techniques – privacy framework published 
+2011 
+sc 38 [iso/iec 
+19944] 
+information technology – cloud computing – data and their flow 
+across devices and cloud services oct. 2017 
+note – clause i.2 contains a description of each cited reference. 
+9.3 w3c 
+the world wide web consortium (w3c) big data community explores emerging big data pipelines and 
+discusses the potential for developing standard architectures, apis, and languages that will improve 
+interoperability, enable security, and lower the overall cost of big data solutions. in addition, this group will 
+also develop tools and methods that will enable: 
+− trust in big data solutions; 
+− standard techniques for operating on big data; and 
+− increased education and awareness of accuracy and uncertainties as sociated with – applying 
+emerging techniques to big data [b-w3c-bdcg]. 
+the w3c open government community group's mission is to discuss and prepare data and api specifications 
+relating to open government information. this group defines various serialization s of the specifications, 
+including but not limited to resource description framework  (rdf) and java script object notation  (json) 
+[b-w3c-ogcg]. 

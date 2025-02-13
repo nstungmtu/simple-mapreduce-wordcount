@@ -1,0 +1,42 @@
+3 xaas  
+ 
+570  
+appendix v 
+ 
+service provisioning based on csc types in daas 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix describes the service provisioning based on the various types of cloud service customers. also, 
+several considerations of the overall service provisioning for daas according to the user accounting 
+provisioning are described. 
+v.1 types of cloud service customer  
+in daas, various types of csc can exist and there are many types of service provisioning according to the type 
+of csc. therefore, the classification of csc is categorized as below: 
+• classification based on service level – the csc can be classified with the various type s of service 
+level agreement (sla).  
+• classification based on virtual desktop environment – the csc can be classified depending on the 
+types of virtual desktop environment. for example, some cscs can be serviced with a virtual desktop 
+with os desktop in itself, and others can be serviced with a web application of virtual desktop. also, 
+this is related with the type of virtual desktop. 
+• classification based on the allocation of the virtual desktop environment – a csc can be served with 
+the permanently allocated virtual desktop environment , while  others can be served with a 
+temporary virtual desktop in a virtual desktop pool. 
+• classification based on the demand of resource s – a csc can be served wit h the virtual desktop 
+environment of the predefined configuration or the pre-set virtual image, while others can be served 
+with the virtual desktop environment using csc manual configuration and resource management.  
+v.2 user account provisioning based on csc types in daas 
+in clause v.1, the various types of csc are classified.  user account provisioning could be implemented in 
+accordance with these types of csc, and user account should also be provisioned in accordance with service 
+provisioning in daas. in general, csc can request the account in order to use a virtual desktop environment. 
+csc can be registered by an administrator on the csp side or the csc can register the account automatically. 
+the types of user account provisioning for daas are listed below. 
+• discretionary account provisioning – this account allows administrators to decide for themselves. 
+this approach can be applied to the small office or home application. 
+• self-service account provisioning – this account allows the csc to participate in some aspects of the 
+provisioning process in order to reduce the administrator's overhead and to quickly supply the 
+virtual desktop environment to the csc according to the manually requested resources (such as the 
+number of cpu, amount of memory, amount of hard disk resources etc.). 
+• workflow-based account provisioning – this account obtains the approvals from the designated 
+approvers before csc access. also, this approach can  supply the virtual desktop environments to 
+the cscs according to the service level with a prior approval. 
+• automatic account provisioning – this requires every account to be added, using one same method, 
+with a centralized management application or data by using the predefined procedures.  

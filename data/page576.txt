@@ -1,0 +1,19 @@
+3 xaas  
+ 
+568  
+table iii.6 – home application using daas 
+legend use case 
+derived 
+requirements  
+– accounting and charging 
+– user account provisioning  
+– user profile management  
+– server-side platform hardware resource maintenance  
+– service-related resource maintenance  
+– status monitoring  
+– system load monitoring  
+– support for hd and 3d applications 
+– extensible storage 
+– resource request 
+– user log management 
+ 

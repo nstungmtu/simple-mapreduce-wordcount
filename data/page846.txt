@@ -1,0 +1,41 @@
+5 intercloud and interoperability  
+ 
+838  
+ii.29 reference point: i-psm-slm 
+the service level management functional component interacts with peer service management functional 
+component through i-psm-slm to access the oss of a peer csp to manage the service levels of a particular 
+inter-cloud service to meet the requirements of the inter-cloud sla. 
+ii.30 reference point: i-mr-slm 
+the service level management functional component interacts with monitoring and reporting functional 
+component through i-mr-slm to get inter-cloud monitoring information. 
+ii.31 reference point: i-slm-psi 
+the service level management functional component interacts with peer service integration functional 
+component though i-slm-psi to negotiate inter-cloud service sla with peer csps. 
+ii.32 reference point: i-mr-ipm 
+the monitoring and reporting functional compone nt interacts with incident and problem management 
+functional component through i -mr-ipm to exchange inter -cloud monitoring information for inter -cloud 
+incident and problem management. 
+ii.33 reference point: i-psm-mr 
+the monitoring and reporting functional component interacts with peer service management functional 
+component through i-psm-mr to access the oss of a peer csp for monitoring and reporting. 
+ii.34 reference point: i-mr-psi 
+the monitoring and reporting functional component interacts with  peer service integration functional 
+component through i -mr-psi to get inter -cloud services negotiation, discovery, selection, reservation and 
+release information for monitoring. 
+ii.35 reference point: i-psm-ipm 
+the incident and problem management function al component interacts with peer service management 
+functional component through i -psm-ipm to access the oss of a peer csp for inter -cloud incidents and 
+problems management. 
+ii.36 reference point: i-ipm-psi 
+the incident and problem management functional co mponent interacts with peer service integration 
+functional component through i-ipm-psi to get inter-cloud integration information for incident and problem 
+management. 
+ii.37 reference point: i-psm-aim 
+the peer service management functional component interacts with authentication and identity management 
+functional component through i-psm-aim for peer csp and inter-cloud service authenticate and identities. 
+ii.38 reference point: i-psm-em 
+the peer service  management functional component interacts with encryption management functional 
+component through i-psm-em to get data encryption and api encryption for peer csps. 
+ii.39 reference point: i-psm-ba 
+the peer service management functional component interacts with the business access functional 
+component of a peer csp through i-psm-ba to access the business capabilities of a peer csp. 

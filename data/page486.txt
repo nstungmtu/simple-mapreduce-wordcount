@@ -1,0 +1,44 @@
+2 cloud computing management  
+ 
+478  
+oam  operations, administration and maintenance 
+oss  operations support system 
+paas  platform as a service 
+php  hypertext pre-processor 
+qos  quality of service 
+ses  software enabled services 
+sla  service level agreement 
+smi  service management interface 
+snmp  simple network management protocol 
+vm  virtual machine 
+voip  voice over ip 
+wan  wide area network 
+wifi  wireless fidelity  
+5 conventions 
+in this recommendation: 
+the keywords " is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus this requirement need not be present to claim conformance. 
+in the body of thi s recommendation and its appendices, the words shall, shall not, should, and may 
+sometimes appear, in which case they are to be interpreted, respectively, as is required to, is prohibited from, 
+is recommended, and can optionally. the appearance of such phr ases or keywords in an appendix or in 
+material explicitly marked as informative are to be interpreted as having no normative intent. 
+6 end to end cloud resource management overview 
+the following clauses provide an overview of the general concepts of end to  end cloud computing resource 
+management in a telecommunication rich environment. 
+6.1 introduction 
+one significant value of cloud service providers will most likely be the rapid design, development, deployment 
+and management of cloud services. with the ado ption of cloud computing service delivery capabilities, 
+multiple service providers  will provide more cl oud services as composite or mash -up services. service 
+providers will increasingly have as their objective the rapid delivery of more customized, composi te cloud-
+based services tailored to various customer scenarios [b-fgcc part 4]. 
+in this recommendation, the term multi-cloud refers to usage scenarios involving the use of various cloud 
+services implemented by more than one cloud service provider (csp), th ough this multiplicity of csps may 
+not be visible to the cloud service customer (csc). this is not to b e confused with the multi-platform cloud 
+computing environment, which is a characteristic of cloud service providers that have chosen to offer a 
+variety of programming and runtime execution facilities to assist in the development and execution of cloud 
+applications. nor should it be confused with the term "inter -cloud" which refers to the relationship and 
+interconnection between csps and not to the overall end to end system. 
+cloud applications (also known as cloud workloads) are applications (i.e., software  programs designed for a 
+specific purpose) that require execution in the cloud service provider's data centres in order for cloud services 

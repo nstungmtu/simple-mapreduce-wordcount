@@ -1,0 +1,29 @@
+security 7 
+ 
+  1019 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview 
+7 requirements of the security clause of the service level agreement 
+7.1 security responsibility between csps and cscs 
+7.2 requirements of the security clause of sla 
+8 guidelines of daily operational security 
+8.1 identity management and access control 
+8.2 data encryption and key management 
+8.3 system security monitoring 
+8.4 disaster recovery 
+8.5 security configuration management 
+8.6 security event processing 
+8.7 patch upgrade 
+8.8 securing configuration management 
+8.9 emergency response plans 
+8.10 backup 
+8.11 internal security audit 
+bibliography 
+ 

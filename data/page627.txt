@@ -1,0 +1,42 @@
+xaas 3 
+ 
+  619 
+9.7 symmetric or asymmetric capacity 
+– it is recommended that naas csp provides symmetric or asymmetric network link capacity based on 
+the csc's demand. 
+9.8 optimized and fine-grained traffic engineering 
+– it is recommended that naas csp provides the csc with fine -grained view on usage of network 
+resources. 
+– it is recommended that naas csp collects near real time utilization metrics and topology data from 
+its own network equipment. 
+– it is recommended that naas csp controls the network resource allocation by reconfiguring network 
+profiles as well as properties (e.g., topology, bandwidth) in response to dynamically changing traffic 
+demands. 
+– naas csp can optionally provi de ce ntralized traffic management to achieve optimized traffic 
+engineering. 
+9.9 coexistence with legacy network services and functions 
+– it is recommended that naas csp avoids or mitigates possible performance and flexibility impacts 
+when introducing new network connectivity services. 
+– it is recommended that naas csp supports coexistence of new network connectivity services with 
+legacy systems. 
+9.10 centralized control view and abstraction view of resources 
+– naas csp can optionally support logically centralized management and control view of the network 
+resources. 
+– naas csp can optionally provide to the csc an abstraction view of the underlying network resources. 
+9.11 csc limited control of services 
+– it is recommended that naas csp provides to the c sc ap propriate services control in order to 
+respond to the time -sensitive performance requirements, including bandwidth quantities, 
+maximum latencies and other qos parameters. 
+9.12 logically isolated network partition 
+– naas csp can optionally implement logically isolated network partition (linp). 
+ note – linp is described in [itu-t y.3011]. see clause 3.1.14. 
+9.13 overlay network mechanism 
+– naas connectivity can optionally support virtual overlay networks on top of the physical underlay 
+network.  
+9.14 overlapped private ip addresses 
+– it is recommended that naas csp allows different cscs to use their own private ip addresses even 
+when the subnet addresses are overlapped. 
+9.15 interworking among different vpn solutions 
+– it is recommended that naas csp supports interworking among different vpn technologies. 
+9.16 vpn connection in mobile environment 
+– it is recommended that naas csp supports vpn connectivity in mobile environment. 

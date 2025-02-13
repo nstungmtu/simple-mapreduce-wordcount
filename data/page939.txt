@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  931 
+openstack works on cloud computing interface related aspects of cci.  it is expected that openstack will 
+provide a set of test for cloud computing functions. 
+cloud interoperability is one of the most important targets in openstack project. in order to provide cloud 
+interoperability, except for native apis support, openstack project also support standardized api 
+implementations in openstack project for interoperability insurance. by now, cdmi [ iso 17826:2012] and 
+occi [ogf gfd.183] implementation is available for openstack. cdm i is used by openstack to support 
+container creation, object upload and object retrieve and so on. occi is used by openstack to support 
+authentication, instance creation, volume attachment and so on.  since openstack have implemented 
+standard interoperable cloud api such as cdmi and occi, it  can provide a suitable cloud interoperability 
+testing environment for specific protocol and helping the study on cloud interoperability testing  
+methodology. details cdmi implementation for openstack refer t o https://github.com/osaddon/cdmi. 
+details occi implementation for openstack refer to https://github.com/tmetsch/occi-os . 
+5.2.3 tools 
+vmmark 
+vmmark is a free tool that hardware vendors, virtualization software vendors and other organizations use to 
+measure the performance and scalability of applications running in virtualized environments.  vmmark is a 
+free virtual machine benchmark software suite provided by vmware, which is a commercial company that 
+provides cloud and virtualization software and service. 
+vmware release vmmark v1 in july 2007. vmmark v1 comprises a series of "sub-tests" that are derived from 
+commonly used load-generation tools. the vmmark benchmark refers to this unit of work as a tile. the total 
+number of tiles that a system can accommodate provides a coarse -grain measure of that system's 
+consolidation capacity. 
+vmware released the new version vmmark, vmmark v2 in october 2010. vmmark 2 generates a realistic 
+measure of virtualization platform performance by incorporating a variety of platform-level workloads such 
+as dynamic virtual machine relocation (vmotion) and dynamic datastore relocation (storage vmotion), in 
+addition to traditional application-level workloads. the benchmark system in v mmark 2 comprises a series 
+of "sub -tests" that are derived from commonly used load -generation tools and commonly initiated 
+virtualization administration tasks. the vmmark 2 benchmark features a tile -based scheme for measuring 
+application performance and pr ovides a consistent methodology that captures both the overall scalability 
+and individual application performance. the total number of tiles that a multi -host platform can 
+accommodate and the performance of each individual workload within the tile determin e the overall 
+benchmark score. 
+more than ten computer systems have submitted vmmark v2 benchmark results to vmware by now. 
+5.3 cloud security standardization activities 
+cloud security is an important subject with interoperability testing for the whole areas of cci. this clause 
+information is for future study in order to take into account the security interoperability aspects. 
+several sdos have begun to study cloud security and several governments are also leading the discussion, 
+releasing documents from a wide security point of view taking into account many stakeholders. for example, 
+european network information security agency ( enisa) issued cloud computing security assessment and 
+nist started fedramp. cloud security includes also political aspects because it faces security threats affecting 
+personal and organizational properties. as a result, this supplement lists major sdos, and ref erences 
+appropriate security-related specifications case by case. 

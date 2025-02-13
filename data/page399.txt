@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   391 
+• itu-t y.3517: this recommendation specifies a global overview of inter -cloud trust management 
+including an inter -cloud trust management model and functionalities for managing isolation and 
+security mechanisms needed to guarantee both trust management and/or isolation in an inter-cloud 
+environment. the scope of this recommendation includes: 
+– overview of inter-cloud trust management;  
+– inter-cloud trust management model; 
+– functionalities for managing isolation and security mechanism; 
+– inter-cloud trust management requirements and use cases. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13644 
+• itu-t y.cccsdaom -reqts: this proposed draft recommendation aims to provide the functional 
+requirements of cloud service development and operation management. it covers the following 
+aspects: 
+– overview of cloud service development and operation management;  
+– functional requirements of cloud service development and operation management;  
+– typical use cases of cloud service development and operation management. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14746 
+• itu-t y.ccm -reqts: this recommendation specifies cloud computing maturity requirements and 
+framework and relevant use cases. the scope of this recommendation includes: 
+– overview of cloud computing maturity; 
+– cloud computing maturity requirements; 
+– cloud computing maturity framework; 
+– relationship with cloud computing reference architecture; 
+– typical use cases of cloud computing maturity. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14486 
+• itu-t y.cslm-metadata: this recommendation specifies the metadata framework for cloud service 
+life-cycle management in the closed-loop automation environment. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14077 
+• itu-t y.e2efapm : this recommendation specifies an end -to-end fault and performance 
+management framework and relevant use cases of virtual network services in inter -cloud 
+computing. the scope of this recommendation includes: 
+– overview of end-to-end fault and performance management of virtual network services; 
+– functional requirements of end-to-end fault and performance management of virtual network 
+services; 
+– use cases relevant to end -to-end fault and performance management of virtual network 
+services. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=14745 
+8.4 analysis of itu-t sg13 deliverables 
+table 8-4 gives an analysis of itu-t sg13 deliverables. 

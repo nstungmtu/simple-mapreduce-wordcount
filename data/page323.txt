@@ -1,0 +1,15 @@
+ framework and requirements for cloud computing 1 
+ 
+   315 
+bibliography 
+ 
+[b-itu-t y.3510]   recommendation itu-t y.3510 (2013), cloud computing infrastructure 
+requirements. 
+[b-iso/iec 20000-1:2011] iso/iec 20000-1:2011, information technology – service management – 
+part 1: service management system requirements. 
+[b-fg cloud tr-part 1] fg cloud tr-part 1 (2012), technical report: part 1: introduction to the 
+cloud ecosystem: definitions, taxonomies, use cases and high-level 
+requirements, http://www.itu.int/pub/t-fg-cloud-2012-p1. 
+ 
+ 
+ 

@@ -1,0 +1,34 @@
+6 monitoring  
+ 
+948  
+the layering framework is shown schematically in figure 6-1. 
+ 
+figure 6-1 – cloud computing layering framework 
+the function of each layer in the framework is described in clause 9.2.1 of [itu-t y.3502]. 
+figure 6-2 presents a high -level overview of the cloud computing reference architecture functional 
+components organized by means of the layering framework. 
+the relevant monitoring functional components are as follows. 
+– resource abstraction and c ontrol functional component:  the resource abstraction and control 
+functional component which resides in t he resources layer enables control functionality, enabling 
+monitoring and management capabilities implemented in the  operational support systems 
+functional component. 
+monitoring and reporting functional component: the monitoring and reporting functional component that is 
+one of the multilayer operational support systems provides capabilities for the following. 
+– monitoring the activities of other functional components throughout the cloud provider's system. 
+this includes the functional components that are involved in t he direct use of cloud services by 
+customer cloud service users such as service access and service implementation (e.g., the invocation 
+of cloud service operation by a particular user). this also includes functional components involved 
+in the support of cloud services, such as functional components in the operational support system 
+(oss) itself, like the service automation functional component (e.g., the provisioning of a service 
+instance for a particular customer). 
+– providing reports on the behaviour of the cloud service provider's system, which may take the form 
+of alerts for behaviour that has a time -sensitive aspect (e.g., the occurrence of a fault, the 
+completion of some task) or may take the form of aggregated forms of historical data (e.g., service 
+usage data). 
+– storage and retrieval of monitoring and event data as logging records. 
+service level management functional component: t he service level management functional component, 
+which also resides in the operational support systems, obtains monitoring information from the monitoring 
+and reporting functional component in order to measure and record key performance indicators (kpis) for 
+the cloud service. capacity is allocated or de-allocated based on the basis of these kpis. 
+the details of the functional components are described in clause 9.2 of [itu-t y.3502]. 
+

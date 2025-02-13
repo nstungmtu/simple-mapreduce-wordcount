@@ -1,0 +1,19 @@
+1 framework and requirements for cloud computing  
+ 
+308  
+ii.8 use case 8 – cloud storage expansion 
+a scientific organization (csc) collects very large volumes of data in a short period of time that will take years 
+to study. they have sufficient cpu power to analyse this over time but the volume exceeds the storage 
+capacity of their own cloud. csc contracts with csp -d to provide additional storage capacity. csc requests 
+csp-a to provide very high bandwi dth connectivity between csc and csp -d. csc writes the incoming data 
+directly to csp-d's cloud data storage, and then reduces the network bandwidth to normal levels. csc is now 
+able to run queries on their data directly at csp-d or to download interesting parts of the data to their private 
+cloud for intensive processing. 
+ii.9 use case 9 – service delivery platform components 
+a business conference organization (csc) wishes to rapidly develop and deploy an interactive media 
+conferencing application to multiple venues for an upcoming event. csp-a offers a service delivery platform 
+(sdp) that includes pre-built components for such services. the csc developers write their application using 
+several off-the-shelf paas, naas and caas components provided by the sdp p latform and are thus able to 
+quickly and reliably create a complex multimedia application and deploy this to csp-a's sdp. 
+ 
+  

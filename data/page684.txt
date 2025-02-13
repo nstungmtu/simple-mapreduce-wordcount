@@ -1,0 +1,48 @@
+3 xaas  
+ 
+676  
+the oss-ns will handle the management of network service chains including the automated deployment, 
+policy management and profile management of network service chains. by routing traffic flows according to 
+a 'service graph ', service chains address the requirement for optimization of the network through the 
+provisioning of network services that are tailored to the customer context. 
+7.8.2.2 oss-network functions 
+the oss -network functions (oss -nf) fun ctionalities are responsible for the management of network 
+functions such as instantiation, update, query, scaling, and termination of network functions. the services 
+provided by the oss-nf can be consumed by other functionalities such as the oss-ns (see clause 7.8.2.1). 
+in accordance with clause 10.4 of [itu-t y.3521], the oss-nf include functionalities such as: 
+– catalogue management of network functions with their relevant descriptions and software; 
+– network functions ' order management functionalities i ncluding the automated creation, 
+modification and termination of network functions ' instances (including instances of network 
+functions' components and their inter-connectivity); 
+– network functions' assurance functions such as performance management and, fault management 
+of network functions instances; these functions include monitoring of network functions' instances, 
+calculating and performing restoration activities when monitoring detects one or more faulty 
+network functions' instances as well as reporting status of network functions' instances to clients of 
+oss-nf, e.g., oss-ns functionalities; 
+– inventory management of network functions instances; 
+– usage collection and distribution of network functions instances. 
+7.8.2.3 oss-cloud compute and storage 
+the oss-cloud compute and storage (oss-ccs) functionalities are responsible for the management of virtual 
+compute and storage resources. the functionalities provided b y the oss -ccs can be used by other oss 
+functionalities such as the oss-ns (see clause 7.8.2.1) or the oss-nf (see clause 7.8.2.2). 
+in accordance with clause 10.4 of [itu-t y.3521], the oss-ccs includes functionalities such as: 
+– catalogue management of cloud compute and storage resources; 
+– resource order management functionalities such as the allocation, modification and termination of 
+virtual compute and storage resources; 
+– resource assurance functions such as performance management and fault management of 
+allocated virtual compute and storage resources; 
+– inventory management of allocated virtual compute and storage resources; 
+– usage collection and distribution of virtual compute and storage resources. 
+7.8.2.4 oss-network connectivity 
+the oss -network connectivity (oss -nc) functionalities are responsible for the management  of network 
+connectivity resources. the oss-nc functionalities can be used by other oss functionalities such as the oss-
+ns (see clause 7.8.2.1) the oss-nf (see clause 7.8.2.2) or the oss-ccs (see clause 7.8.2.3). 
+in accordance with clause 10.4 of [itu-t y.3521], the oss-nc includes functionalities such as: 
+– resource order management functionalities such as allocation, modification and termination of 
+virtualized network connectivity resources such as virtualized networks, links, sub-networks; 
+– resource assurance functionalities such as performance management and fault management of 
+allocated virtualized network connectivity resources; 
+– inventory management of allocated virtualized network connectivity resources; 
+– usage management of virtualized network connectivity resources. 
+the oss-nc functionalities can be consumed by other naas functionalities such as oss-ns (see clause 7.8.2.1) 
+or oss-naas functionalities (see clause 7.8.1). control  plane functions are topology and device detection, 

@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   367 
+ this proposed recommendation, also, identifies security controls for cloud 
+service customer data that can be used in different stages of the full data 
+lifecycle. 
+ url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10273 
+[itu-t y.iot-bigdata-reqts] specific requirements and capabilities of the iot for big data 
+ building on the identified specific requireme nts of the iot for big data, the 
+capabilities of the iot for big data are specified. 
+ the scope of this proposed recommendation includes: 
+– overview of big data in the iot; 
+– requirements of the iot for big data; 
+– capabilities of the iot for big data. 
+ url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10258 
+itu-t y.sdn-arch  functional architecture of software-defined networking 
+ this proposed recommendation describes t he functional architecture sdn 
+by providing components of the architecture and appropriate interfaces 
+ url: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=10233 
+[itu-t y.bdp-reqts]  big data – requirements for data provenance 
+ this proposed recommendation specifies the overview and requirements of 
+big data provenance. 
+ the scope of this proposed recommendation includes: 
+– overview of big data provenance concept including characteristics, 
+application area, and functional framework; 
+– requirements of big data provenance; 
+– use cases of big data provenance. 
+i.2 iso/iec jtc 1 references and associated summaries 
+[iso/iec wd 20546]  information technology – big data – definition and vocabulary 
+ this international standard (under development) provides an overview of big 
+data, along with a set of terms and definitions. it provides a terminological 
+foundation for big data-related standards. 
+ url: http://www.iso.org/iso/home/store/catalogue_tc/ 
+catalogue_detail.htm?csnumber=68305 
+[iso/iec 20547-1]  information technology – big data reference architecture – part 1: 
+framework and application process 
+ this technical report (under development) describes the framework of the 
+big data reference architecture and the process for how a user of the 
+standard can apply it to their particular problem domain. 
+[iso/iec 20547-2]  information technology – big data reference architecture – part 2: use cases 
+and derived requirements 
+ this technical report (under development) would decompose a set of 
+contributed use cases into general big data reference architecture 
+requirements. 
+[iso/iec 20547-3]  information technology – big data reference architecture – part 3: reference 
+architecture 
+ this international standard (under development) specifies the big data 
+reference architecture. the reference architecture includes the big data 
+roles, activities, and functional components and their relationships. 

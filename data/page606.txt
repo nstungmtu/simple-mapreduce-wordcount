@@ -1,0 +1,26 @@
+3 xaas  
+ 
+598  
+ 
+figure 9-4 – functions and reference points in vi-fs 
+9.4.1 infrastructure access management function 
+the iam-f approves virtual desktop resource allocation through i_pa_iam and the virtual desktop access 
+through i_dpp_iam. the iam-f authorizes resource access from the administrator in order for the rad-f to 
+allocate, release, change and distribute resources through the i_iam_rad. the iam-f also sends the request 
+for resource assignment, change and cancellation from the rad-f to the ra-f through i_ iam _ra.  finally, 
+the iam -f delivers monitoring information and controls through the i_iam_mc. a detailed func tional 
+description for the iam-f is specified in clause 7.1.4. 
+9.4.2 performance enhancement for virtualization platform function 
+the pe-f enhances the performance of  virtualization plat form and virtual desktop. the pe -f configures 
+virtualization platform or infrastructure with the pv-f through the i_pe_pv. a detailed functional description 
+for the pe-f is specified in clause 7.1.3. 
+9.4.3 resource assignment function 
+the ra-f receives the resource assignment which is sent through the  iam-f during the creation of a virtual 
+desktop. the ra-f assigns the resources to the virtual desktop on the pv-f through i_ra_pv according to the 
+request from the iam-f. according to the resource change from the iam-f, the ra-f re-assigns the resources 
+to the pv-f through the i_ra_pv. a detailed functional description for the ra-f is specified in clause 7.1.2. 
+9.4.4 platform virtualization function 
+the pv-f configures the daas platform according to the pe-f. the pv-f transmits the monitoring information 
+and receives controls through i_iam_pv.  a detailed functio nal description for the pv -f is specified in 
+clause 7.1.1. 
+

@@ -1,0 +1,40 @@
+xaas 3 
+ 
+  551 
+3.2.5 virtual desktop template : a representation of a set of system configu ration and application 
+parameters with an option of including customer personalization, and other desired attributes. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+3d  three dimensional 
+3g  third generation 
+cpu  central processing unit 
+csc  cloud service customer 
+csp  cloud service provider 
+crm  customer relationship management 
+daas  desktop as a service 
+dcn  data communication network 
+dhcp  dynamic host configuration protocol 
+dns  domain name system 
+dtls  datagram transport layer security 
+erp  enterprise resource planning 
+fec  forward error correction 
+gps  global positioning system 
+hd  high definition 
+html  hypertext markup language 
+http  hypertext transfer protocol  
+iaas  infrastructure as a service 
+i/o  input/output 
+it  information technology 
+lan  local area network 
+os  operating system 
+plmn  public land mobile network 
+pstn  public switched telephone network 
+qoe  quality of experience 
+ram  random access memory 
+sla  service level agreement 
+ssl  secure socket layer  
+tcp  transmission control protocol 
+udp  user datagram protocol 
+vdi  virtual desktop infrastructure 
+vm  virtual machine 
+vpn  virtual private network 

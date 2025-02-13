@@ -1,0 +1,49 @@
+7 security  
+ 
+1010 
+6 overview 
+6.1 specification of the data in this recommendation 
+csc data includes private data of customers stored on a cloud platform and related data through cloud 
+services for csc, such as account information, login record and operation log. 
+the difference between the terms csc ( see clause 3.1.4) and csu (see clause 3.1.8) is further distinguished 
+as follows. 
+the csc is the person or organ ization that enters into the legal relationship with the csp. so the csc could 
+be an enterprise, a subsidiary, a government department or an individual consumer. 
+the csu is the person, device or application that uses the cloud service that has been contrac ted for. the 
+csu could be a government employee, an application running on a smartphone, an individual consumer or a 
+member of a household, such as a child. the csc usually nominates some csus to act as administrators and 
+manage the relationship between the csc and the csp. a csu always acts on behalf of a csc. most employee 
+csus need to have little or no visibility of what or how the csp operates, or the services that the csc has 
+contracted for, unless the csc decides they need to know (e.g. administrators and internal auditors). 
+a csc can include multiple cloud tenants. a tenant can include multiple csus. 
+6.2 data security threats for cloud service customers 
+as the cloud service environment is typically multi -tenant, loss or leakage of data is a serious threat to the 
+csc. the lack of appropriate management of cryptographic information, such as encryption keys, 
+authentication codes and access privilege, could lead to significant damage, such as data loss and unexpected 
+data leakage. for example, insufficient authentication, authorization and audit controls; inconsistent use of 
+encryption or authentication keys; operational failures; disposal problems; jurisdiction and political issues; 
+data centre reliability and disaster recovery, can be recognized  as major sources of this threat and may be 
+associated with the challenges. 
+as for the security of storage data, since all csc data is actually stored in the equipment of csps, and the 
+storage resources is shared by different cscs, it may face several risks, including: 
+1) csp insiders with privileges can gain unauthorized access resulting in leakage of csc data; 
+2) malicious users or hackers can also gain unauthorized access resulting in leakage of csc data; 
+3) cross-border data flow can lead to data leakage, especially for sensitive data; 
+4) software and hardware failures, power outages and natural disasters can result in data loss. 
+data security also lies in the process of transmission. data can be stolen or tampered with during 
+transmission, thus lead to confidentiality leakage, if the data is not encrypted properly. if cscs have not 
+adopted adequate encryption, csps should verify the integrity of the data and take corresponding encryption 
+measures. 
+another threat is the leakage of residual data. when a cs c unsubscribes its service, its data is cleared and 
+the storage space released or reallocated to other cscs. it is the responsibility of the csp to ensure that the 
+residual data of one csc or tenant cannot be recovered by another. 
+6.3 existing requirements related to about data security 
+the security framework for cloud computing  specified in [itu-t x.1601] provides the requirements related 
+to data security, including data isolation, protection and confidentiality protection. 
+1) data isolation 
+ in a cloud computing context, a tenant is prevented from accessing data belonging to another 
+tenant, even when the data is encrypted, except when explicitly authorized. data isolation may be 
+realized logically or physically, depending on the required isolation granularity and the specific 
+deployment of cloud computing software and hardware. 
+ note – in cloud computing, isolation occurs at the tenant level. a given csc may have multiple tenants in the 
+cloud, for example, to separate different subsidiaries, divisions or business units. 

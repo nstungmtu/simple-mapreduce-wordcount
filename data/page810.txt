@@ -1,0 +1,47 @@
+5 intercloud and interoperability  
+ 
+802  
+trusted inter -cloud resiliency is a set of technical p rocedures (rely on shifting control and security 
+mechanisms) to: 
+– monitor csc or csp's environment and collect relevant data; 
+– analyse monitored data;  
+– predict faults and;  
+– mitigate or restore the cloud service parameters after service failure (related to certain equipment 
+or software functionality, laws and regulations, local policies, service contracts, etc.) and availability 
+(related to technical systems functionality). 
+complementary to trusted inter-cloud resiliency is the reliability of trusted inter-cloud. this means the ability 
+of the trusted inter -cloud environment to perform and maintain under stated conditions as required for a 
+specified period of time.  
+6.4 security and confidentiality of trusted inter-cloud 
+the security and confidentiality of trusted inter -cloud is the main challenge of integrating multiple csp 
+platforms. this is necessary to provide self -service, self-managed and end -to-end security services for the 
+csc, and for the csp to guarantee a level of confidentiality, integrity, as  well as availability of services and 
+resources hosted on csp's cloud computing environments. to establish and specify trust between different 
+cloud computing environments as well as trust between csc and csps, a dedicated security and 
+confidentiality terminology, together with a master service agreement (msa) is needed.  
+the security and confidentiality of trusted inter-cloud is based on distributed cloud management. it enables 
+the primary csp  to provide end -to-end dynamic deployment, configuration and uni fied control of security 
+and confidentiality of cloud services across multiple csps. in implementation, distributed cloud management 
+supported trust can be realised by combining specialised protocol design with smart interaction with the 
+underlying cloud network fabric (e.g., using software-defined networking (sdn) traffic engineering and cloud-
+tailored smart queue management).  
+to increase security and confidentiality of trusted inter -cloud computing, it is necessary to define a 
+terminology (language) to a nnotate (or tag) workloads and data with security requirements (such as 
+permissible storage locations). these annotations will be processed by the system during scheduling and 
+migration to ensure that workload constraints are maintained. additionally, annotation of workloads allows 
+the use of appropriate network data plane mechanisms (e.g., sdn) for strong security protection and traffic 
+isolation in order to ensure that the above constraints are reached when workloads are practically placed, 
+executed (data accessed and stored) and migrated. such annotation of workloads and data sets might be 
+based on standards for data categorisation. 
+the security and confidentiality of trusted inter -cloud is realized based on a two dimensional  (vertical and 
+horizontal) model as follows. the vertical axis is based on the layers of the cloud computing reference 
+architecture [itu-t y.3502]: 
+– in the higher layers focussed on user -centric security and confidentiality through a unified 
+distribution layer for cloud resources (independently from their type and from underlying csp), such 
+as user identity management, authentication and authorization; 
+– in the lower layers focused on provider -independent control, security and confidentiality over the 
+whole distributed inter-cloud infrastructure, such as disk and network encryption. 
+the horizontal axis is based on the interconnection of csps based on the inter -cloud framework 
+[itu-t y.3511]. 
+consequently, security and confidentiality of trusted inter -cloud are based on satisfying both horizontal 
+(cross-provider) and vertical (cross-layer) dimensions.  

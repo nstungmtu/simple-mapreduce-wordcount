@@ -1,0 +1,42 @@
+security 7 
+ 
+  999 
+9.7 security threats and challenges in monitoring data destruction stage 
+a) spoofing: attackers could masquerade as the management system of the cloud monitoring service 
+and cause the loss of other monitoring data. 
+b) operating system vulnerability: monitoring data could be lost during data usage due to a system 
+vulnerability. 
+9.8 security threats and challenges in monitoring data backup stage 
+a) operating system vulnerability: monitoring data could be lost during the data backup and result in 
+the inability to restore data due to a system vulnerability. 
+10 security requirements for monitoring data of cloud computing 
+this clause identifies the data security requirements for the monitoring service of cloud computing. 
+10.1 security requirements for monitoring data collection 
+the data security requirements for the monitoring data collection include the following: 
+a) optional monitoring data is required to be created only by csc request; 
+b) it is recommended to provide notification to the csc when necessary monitoring data is created; 
+c) it is recommended to notify the csc of the scope of monitoring data; 
+d) it is required to maintain integrity and accuracy of monitoring data; 
+e) it is recommended to use standard data acquisition techniques; 
+f) it is recommended to provide access control methods to the interfaces of monitoring data 
+acquisition such as white list, black list, etc.; 
+g) it is recommended to provide cryptographic methods to ensure the security of the monitoring data 
+acquisition interface; 
+h) it is recommended to use standard network protocols between the cloud resources and monitoring 
+data storage servers. 
+table 10 -1 provides a summary mapping of monitoring data collection security threats to security 
+requirements. 
+table 10-1 – monitoring data collection: security threats mapping to security requirements  
+security threats security requirements 
+data collection without authorization a), b), c) 
+acquisition interface vulnerabilities d), e), f), g) 
+spoofing d), e), f), g), h) 
+tampering and interception h) 
+insecure service access b), d), e), f), g), h) 
+unauthorized administrative access d), e), f), g), h) 
+10.2 security requirements for monitoring data storage 
+the data security requirements for the monitoring data storage include the following: 
+a) it is recommended that the csp provide the appropriate access control methods to the monitoring 
+data storage servers; 
+b) it is recommended that the csp identify the maximum period of time for monitoring data retention; 
+c) it is recommended that the csp provide appropriate encryption methods for monitoring data. 

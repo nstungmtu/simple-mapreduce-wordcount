@@ -1,0 +1,31 @@
+1 framework and requirements for cloud computing  
+ 
+242  
+i.2 general use case 
+table i.2 – general use case of distributed cloud 
+use case 
+name general use case of distributed cloud. 
+description the use case describes the scenarios for the csc to use a published cloud service. 
+the cloud service has already been published by a csp and can be browsed through the 
+product catalogue provided by the csp. 
+the csc subscribes the cloud  service with various requirements, for example,  different 
+requirements for service capacity and network latency. 
+the distributed cloud realizes service provisioning to provide cloud service on appropriate 
+core, regional, or edge cloud, according to the csc's subscription.  
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+– the used service should be kept available during the whole invocation.  
+– the sla should be met for csc. 
+requirements – high scalability (see clause 7.1) 
+– high reliability (see clause 7.1) 
+– low power consumption (see clause 7.1) 
+– low latency (see clause 7.2) 
+– on-demand network traffic control (see clause 7.2) 
+ 
+  
+

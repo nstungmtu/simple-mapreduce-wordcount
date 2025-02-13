@@ -1,0 +1,52 @@
+cloud computing management 2 
+ 
+  455 
+7.2 detailed structure of cloud-based network management functional architecture 
+7.2.1 high level layering of cloud-based network management functional architecture 
+managed network 
+layer
+nef nef nef
+perception and 
+control layer
+nef
+management 
+service layer
+cloud-based network management
+management 
+service 
+function
+management 
+service 
+function
+management 
+service 
+function
+management 
+service 
+function
+p&c 
+application 
+function
+p&c 
+application 
+function
+p&c 
+application 
+function
+p&c 
+management 
+function
+ 
+figure 2 – high level layering of cloud-based network management functional architecture 
+figure 2 shows the high level layering of cloud -based network management functional architecture, which 
+include the following three layers: 
+– managed network layer: it indicates the layer containing all the network element functions (nefs) 
+that are to be managed. the nes providing the nefs can be the traditional telecommunication 
+network elements, or elements in a cloud infrastructure. 
+– perception and control lay er (p&c layer): it indicates the perception function blocks and the ne 
+controlling function blocks. perception function blocks have the capability to collect the 
+configuration information, running status, or the performance data from the nefs, and the ne 
+controlling function blocks can be able to make necessary reconfiguration or modifications to ne 
+parameters, through interactions with the specified nefs. 
+– management service layer: this layer mainly contains the network management function blocks , 
+which provides management services to network operators.  

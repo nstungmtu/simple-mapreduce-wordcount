@@ -1,0 +1,37 @@
+3 xaas  
+ 
+650  
+appendix i 
+ 
+use case of infrastructure as a service 
+(this appendix does not form an integral part of this recommendation.) 
+this appendix includes iaas related use cases including an infrastructure level us e case, and computing , 
+storage and network service use cases.  
+i.1  use case template 
+the use cases developed in this appendix should adopt the following unified format for better readability and 
+convenient material organization. 
+use case 
+name  title of the use case  
+abstract  description for overview and feature of the use case 
+roles  roles relating to or appearing in the use case 
+figure  figure to present the use case (uml-like diagram is suggested for clarifying relations 
+between roles but it is not mandatory) 
+pre-conditions 
+(optional)  
+the pre-conditions represent the necessary conditions or use cases that should be achieved 
+before starting to describe the use case. as dependency may exist among different use 
+cases, such a description can help others to understand relation among the use cases.  
+post-conditions 
+(optional)  
+similar to that for pre-conditions, the post-conditions describe conditions or use cases that 
+will be carried out after the termination of currently describing use case. such an inter -use 
+case dependency clarification improves the collaboration of use cases.  
+description description introduces the detail information of the use case, such as the processes or 
+major steps. it is helpful for the reader to better understand it.  
+requirements  requirements (titles) derived from the use case. for example; 
+– large-scale migration: a csp in the inter-cloud federation is required to be able to 
+guarantee continuity of all the services in this csp by large-scale service migration with 
+minimum impact during a desired period. it is recommended to consider priority of 
+services when migrating.  
+ 
+  

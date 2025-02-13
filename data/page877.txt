@@ -1,0 +1,49 @@
+intercloud and interoperability 5 
+ 
+  869 
+based on the reference architecture described in [itu -t y.3502], the interworking involved in csc -csp 
+relationship and corresponding test objective can be identified as follows: 
+• interworking between csc and csp's service integration component. 
+test objective is to verify that csp can provide connections to csp's services for csc. 
+• interworking between csc and csp's authentication and identities management component 
+test objective is to verify that csp can provide capabilities relating to user identities and the 
+credentials required to authenticate users are provided when csc access cloud services and related 
+administration and business capabilities. 
+• interworking between csc and csp's authorization and security policy management component 
+test objective is to verify that csp can provide capabilities for the control and application of 
+authorization for csc to access specific capabilities or data. 
+• interworking between csc and csp's product catalogue component 
+test objective is to verify that the csp can provide capabilities for browsing available service list, and 
+capabilities for management of the content of catalogue. 
+• interworking between csc and csp's account management csc  
+test objective is to verify that the csp can provide capabilities for managing cloud service 
+relationships, including management of contracts, subscription to cloud service, entitlemen ts, 
+service pricing and policies that apply to the treatment of csc data. 
+• interworking between csc and csp's subscription management component 
+test objective is to verify that the csp can handle subscriptions from csc to particular cloud services, 
+aiming to record new or changed subscription information from the customer and ensure the 
+delivery of the subscribed service(s) to the customer. 
+• interworking between csc and csp's monitoring and report component 
+test objective is to verify that csp can provide capabilities monitoring the cloud computing activities 
+of other functional components throughout the csp 's system and providing reports on the 
+behaviour of the cloud service provider's system. 
+• interworking between csc and csp's service access 
+test objective is to verify that csp can provide service access capabilities that provide access offered 
+by csp, perform authentication of the csc and establish authorization to use particular capabilities 
+of the cloud service. if authorized, the service access capa bilities invoke the cloud service 
+implementation which performs the request. 
+• interworking between csc and csp's service capabilities 
+test objective is to verify that csp can provide service capabilities which consist of the necessary 
+software required to implement the service offered to csc. 
+• interworking between csc and csp's resource abstraction and control 
+test objective is to verify that csp can provide access to the physical computing resources through 
+software abstraction and to offer qualities such as rapid elasticity, resource pooling and on-demand 
+self-service.  
+• interworking between csc and csp's physical resources 
+test objective is to verify that the operational support systems can manage all the elements of the 
+physical resources (e.g., computing resources, storage resources, and network resources). 
+for interoperability testing between csc and csp, the interoperability testing target should cover the 
+interworking between csc and csp described above. a set of functional test cases need to be developed 
+based on the corresponding test objectives, and per form functional test to determine if csc interoperate 
+with csp. figure 3 shows the relationships among functional components and functions for the "use cloud 
+service" activity between csc and csp according to clause a.1.1 of [itu-t y.3502]. 

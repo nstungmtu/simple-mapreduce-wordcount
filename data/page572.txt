@@ -1,0 +1,45 @@
+3 xaas  
+ 
+564  
+table iii.3 – scenario of daas user 
+legend use case 
+• task workers: if an organization includes structured task workers, such as in call centres 
+and retail branches, daas can provide a more cost-effective and productive user 
+experience because these user roles do not typically need access to multiple applications 
+to complete business processes. additionally, there are situations when the location is 
+simply not capable of supporting a fully functioning client computer; instead, thin -client 
+solutions are more applicable. the same experience can be provided even if  the client 
+computer is a legacy computer. this type of deployment can extend the reach of 
+applications within the enterprise and is a valuable way to deliver the right business tools 
+in a cost-effective way.  
+• contractor/offshore workers: many companies are leveraging workforce experience from 
+around the world. organizations will need to provide access to applications for users 
+located both remotely and internationally. in order to provide access to resources while 
+respecting corporate policies, providing a virtual desktop or virtual desktop pool becomes 
+very attractive for organizations. this allows users to receive a first-class client on the 
+network while allowing the organization to control where the virtual desktop is running, 
+how the virtual desktop is accessed, how data is being run on the client computer and 
+where data is stored.  
+• remote workers in branch offices: in an environment that relies on remote or branch 
+offices, daas can provide enhanced capabilities to these sites and reduce the network  
+bandwidth that the required applications use. for example, a bank might have essential 
+financial software applications that would not be cost-effective to deploy and maintain in 
+every branch. with daas, the software can be available at a central headquart ers and 
+accessed as needed by employees in different locations. a centralized-applications strategy 
+often results in a reduction of application server infrastructure at various branches or 
+locations, requiring much less maintenance and on-site support from the home office 
+information technology (it) staff. 
+high-level figure 
+describing the use 
+case  
+ 
+derived 
+requirements  
+– single sign-on access control 
+– service continuity 
+– diversity of daas client 
+– managing and operating pre-configured environment 
+– maintaining daas user status 
+– csc environment backup 
+– standard transport protocols support  
+

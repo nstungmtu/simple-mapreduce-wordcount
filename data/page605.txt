@@ -1,0 +1,29 @@
+xaas 3 
+ 
+  597 
+9.3.2 user account and profile management 
+the uapm-f creates csu's account with csu's access information through i_uam_uapm. the uapm-f has 
+two more reference points i_ccm_uapm and i_pa_uapm for authentication with csu's account information 
+and for the pre -configured environments and profiles, respectively. when rad -f allocates and distributes 
+resources, the uapm-f provides cs u's account information on i_uapm_rad or i_uapm_opm . detailed 
+functional description for the uapm-f is specified in clause 7.3.2. 
+9.3.3 virtual desktop resource allocation and distribution 
+the rad-f has a reference point of mc-f through i_rad_mc with monitoring information to analyse resource 
+usage. i_iam_rad enables the rad_f to approach iam -f and resource assignment function  (ra-f) for 
+resource assignment. a detailed functional description for the rad-f is specified in clause 7.3.3. 
+9.3.4 operational policy management for daas 
+the opm-f has two reference points i_opm_pm and i_opm_mc to receive the performance or resource 
+usage which is used to establish the policies. these policies are applied to pa -f with i_pa_opm. a detailed 
+functional description for the opm-f is specified in clause 7.3.4. 
+9.3.5 high availability for daas 
+the ha-f has only the reference point with the mc -f through i_mc_ha in order to monitor the resource 
+state for establishing the related policies. a detailed functional description for the ha -f is specified in 
+clause 7.3.5. 
+9.3.6 power management of virtual desktop resource 
+the pm -f collects performance information from the mc -f through i_mc_pm and transfers the power 
+related information to the pa-f through i_pa_pm for efficient provisioning. a detailed functional description 
+for the pm-f is specified in clause 7.3.6. 
+9.4 virtualization infrastructure functions 
+the vi-fs has four functions including performance enhancement for virtualization platform function (pe-f), 
+iam-f, ra-f, and  platform virtualization function ( pv-f) as shown in figure 9-4. the vi -fs provide the 
+interfaces with the other two function groups, vdcd-fs and vdrm-fs. 

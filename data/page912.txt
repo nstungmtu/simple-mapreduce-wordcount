@@ -1,0 +1,50 @@
+5 intercloud and interoperability  
+ 
+904  
+ii.3.7 test case: load balance 
+table ii.28 shows the test case for load balance. 
+table ii.28 – test case: load balance 
+load balance test description 
+test purpose to verify that the csc deploys a load balance mechanism for multiple vms in order to 
+achieve scalability and fault tolerance of an application. 
+reference [itu-t y.3513] clause 7.3.6 
+test sequence step type description result 
+1 stimulus the csc configures a round-robin based load balance for 
+http traffic among vms. 
+ 
+2 check the http request is forwarded to each server in turn based 
+on a round-robin load balancing policy in step 1. 
+ 
+3 stimulus the csc configures a least-connection scheduling based load 
+balance for ftp traffic among vms. 
+ 
+4 check the ftp workload is balanced by assigning a new connection 
+request to the vm with the smallest number of connections 
+based on a least-connection scheduling load balancing policy 
+in step 3.  
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.3.8 test case: firewall 
+table ii.29 shows the test case for firewall. 
+table ii.29 – test case: firewall 
+firewall test description 
+test purpose to verify that the csc monitors and controls incoming and outgoing vm traffic based on 
+predetermined security rules. 
+reference [itu-t y.3513] clause 7.3.7 
+test sequence step type description result 
+ 1 stimulus the csc configures the vm's network policies to reject all 
+incoming traffic.  
+ 
+2 check the vm's incoming traffic is dropped by the firewall.  
+3 stimulus the csc configures the vm's network policy to reject all 
+outgoing traffic. 
+ 
+4 check the vm's outgoing traffic is dropped by the firework.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ 
+ 
+  

@@ -1,0 +1,52 @@
+xaas 3 
+ 
+  587 
+7.3.3 virtual desktop resource allocation and distribution 
+the virtual desktop resource allocation and distribution function is manually accessed by an administrator or 
+dynamically operated by the operational policy management function (see clause 7.3.4). the virtual desktop 
+resource allocation and distribution function: 
+– receives the resource usage from the monitoring and controlling virtual desktop resource function 
+(see clause 7.3.1) and provides an administrator or a resource scheduler with t he analysis of 
+resource usage statically or dynamically; 
+ note – this analysis includes the resource usage state, resource usage pattern, and modification history, etc. 
+a resource scheduler requests the resource distribution to virtualization infrastructur e based on the analysis 
+of resource usage. 
+– determines resources to be allocated to or released from a virtual desktop, respectively, through 
+the interface of the resource assignment function (see clause 7.1.2); 
+– provides the interfaces to allocate and distribute the resources for the pre -configured virtual 
+desktop environment when a virtual desktop is created or changed; 
+– applies the operational policy dynamically or manually from the operational polic y management 
+function (see clause 7.3.4); 
+– allocates and distributes resources dynamically to a virtual desktop according to the operational 
+policy (such as setting the threshold of resource usage) when its resources are insufficient or 
+overloaded; 
+– modifies or reallocates resources to satisfy the performance of a virtual desktop from a daas user's 
+request. 
+7.3.4 operational policy management for daas 
+the operational policy management for daas function: 
+– establishes daas user's group policies according to csc types and user accounts; 
+ note 1 – these polices are reflected in the individual user account related with a virtual desktop user profile 
+and a pre-configured environment. 
+– establishes a group policy to apply to the virtualization infrastructure or virtual desktops which use 
+the same operational policy; 
+ note 2 – if a daas user utilizes similar applications, tasks and usage patterns, they are grouped and assigned 
+to the same virtualization infrastructure with sharing resources. 
+ note 3 – a daas user's usage pattern is the information about a daas user's average usage of resources (e.g., 
+cpu, memory, network and disk) from the monitoring information for a c ertain period. the virtualization 
+infrastructure with daas user 's similar tasks and usage patter ns can improve performance by the caching 
+process to provide a virtual desktop when the virtual desktop performs the similar tasks running on it. 
+– establishes a policy of the limit ation or the arbitration for resource usage to prohibit the 
+performance degradation from the assignment of excessive resources; 
+ note 4 – in order to satisfy different daas user's requirements, different operational policies are reflected in 
+each resource (such as an application policy, a network plolicy, other resource policies). 
+– requests the reallocation of insufficient resources, when some resources are needed more for some 
+csc types; 
+ note 5 – during this process, this function detects which resources are dominantly used from a daas user's 
+usage pattern according to a daas user's tasks. 
+– provides a policy to assign the daas platforms on which a virtual desktop is running; 
+ note 6 – this function considers the physical distance on the network from a daas user to a daas platform 
+and sets the policy on the shortest path. otherwise, this function considers power consumption or utilization 
+of the platform according to the weighted resource usage or the number of virtual desktops operated in one 
+platform and sets the policy on the lowest utilization rate or the fewest number of vir tual desktops. also, if  
+daas users perform similar tasks and requests specific virtual desktop by csc type, this function considers the 
+allocation of the pre-classified groups. 

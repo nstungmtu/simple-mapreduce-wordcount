@@ -1,0 +1,72 @@
+ 
+   iii 
+introduction 
+as stated in recommendation itu -t y.3500, the 
+cloud computing is a paradigm for enabling 
+network access to a scalable and elastic pool of 
+shareable physical or virtual resources with on -
+demand self -service provisioning and 
+administration. users have quick access to such 
+resources as for example hardwa re and software 
+platforms or applications in the context of the 
+different cloud deployment models as public, 
+private and hybrid. furthermore, investments in 
+own hardware and software are reduced, in 
+particular, when considering their rapid changes 
+because of high pace of innovations. aside from 
+cost savings and promoting innovation, the 
+integration of cloud computing changes 
+architecture and management of 
+telecommunication networks. cloud computing is 
+considered to be one of the key capabilities of 
+currently deploying imt2020/ 5g networks. 
+itu-t has been developing recommendations on 
+cloud computing since 2011. 
+given that cloud computing is based on the 
+concurrence of a variety of resources of 
+telecommunication networks and it 
+infrastructure, itu -t standards  enabling 
+consistent end -to-end, multi -cloud management 
+and monitoring of services exposed by and across 
+different service providers’ domains and 
+technologies have been and are still published. 
+itu-t study group 13 (sg13) has published to this 
+day 24 itu -t standards related to cloud 
+computing. in addition, other 14 cloud computing 
+standards have been published by other itu -t 
+study groups. such standards, which have to 
+some extend been jointly developed with other 
+sdo’s such as iso/iec jtc 1/sc 38/wg 3, focu s in 
+detail on, inter alia, requirements and functional 
+architectures of the cloud computing ecosystem, 
+covering inter - and intra -cloud computing and 
+technologies supporting xaas (x as a service). this 
+work includes infrastructure and networking 
+aspects of  cloud computing models, as well as 
+deployment considerations and requirements for 
+interoperability and data portability. 
+furthermore, studies orient toward cloud service 
+and infrastructure management as well as the 
+management of composite cloud  services a nd 
+components that use a variety of telecom and it 
+infrastructure resources.  
+ 
+ 
+ 
+this flipbook offers a detailed overview on today’s 
+itu-t deliveries related to cloud computing. it 
+aims to give an introduction and guidance for the 
+understanding of cloud co mputing concepts, eco 
+system and principles. 
+ 
+1 november 2019  
+ 
+ 
+ 
+dr leo lehmann, chairman for itu -t study 
+group 13 "future networks, with focus on 
+imt-2020, cloud computing and trusted network 
+infrastructures" 
+ 
+ 
+

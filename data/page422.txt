@@ -1,0 +1,61 @@
+1 framework and requirements for cloud computing  
+ 
+414  
+• atis-0200009: the cloud service life cycle checklist establishes a baseline of expectations between 
+providers who are interoperating clou d services. the document will also be referenced in cloud 
+service standards to provide a reference model for requirements development. each enterprise has 
+an existing governance model. the life-cycle checklist provides a way to extend the process model 
+between participating companies. 
+ uri: http://www.atis.org/docstore/product.aspx?id=27854  
+• atis-0200006: this document addresses hosted virtual desktop services for medium and large 
+enterprises. it specifies a federation framework to allow service providers to support high -
+performance virtual desktops beyond their normal coverage areas. the document also identifies an 
+initial set of infrastructure-service interfaces and related requirements. this is a logical basis for the 
+work on cloud infrastructure federation. 
+ uri: http://www.atis.org/docstore/product.aspx?id=26147  
+• atis-0200010: atis standard atis-0200003 provided initial use cases and requirements for content 
+distribution network (cdn) interconnection between two cdn providers via cache -based unicast 
+delivery method. atis standard atis -0200004 developed use cases and requirements for content 
+distribution via multicast -based delivery. this standard, atis -0200005, extends the use cases and 
+requirements for an environment involving multiple cdn providers joining together to form a cdn 
+federation. the interconnection life -cycle use cases and requirements developed in the prev ious 
+two atis standards are re -examined for the impact arising from a federation of multiple cdn 
+providers. additional emphasis is placed on the interconnection domain functionality such that 
+guidance on the eventual development of network -network interconnect (nni) architectures and 
+supporting protocol requirements can be derived. 
+ uri: http://www.atis.org/docstore/product.aspx?id=27860  
+• atis-0200011: this document extends previous atis w ork on multicast -based content delivery 
+methods to mobile end user devices. three use cases describe potential situations where such 
+devices can receive multicast -based broadcasts of specific live events/video content via the 3gpp 
+evolved multimedia broadc ast multicast system (embms). delivery processes, assumptions, 
+content delivery network interconnection implications and supporting requirements are also 
+provided. 
+ uri: https://www.atis.org/docstore/product.aspx?id=28155  
+table 18-2 provides an analysis of itu-t sg11 deliverables. 
+table 18-2 – analysis of atis deliverables 
+ general, 
+definition 
+requirements 
+use cases architecture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+fundamental       
+cloud service 
+category 
+atis-
+0200005 
+atis-0200006     
+security       
+management  atis-0200008     
+inter-cloud, csb      atis-
+0200009 
+sla, metering       
+testing       
+others  atis-0200010, 
+atis-0200011 
+    

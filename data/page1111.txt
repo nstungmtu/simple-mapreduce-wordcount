@@ -1,0 +1,31 @@
+ assisting developing countries 8 
+ 
+   1103 
+• service operation centre: the management of processes and functions of data centres should be 
+controlled by a dedicated service operation centre, which will mainly take in charge the 
+management of access, events, requests, incidents, service desk 24x7, technical components, 
+applications and it operations. 
+as adoption increases, cloud services will continue to drive the evolution of several aspects of data centres 
+in developing countries, from architecture to software and control processes. 
+8.3.1 data centres – case studies 
+case study 1: national data centres in zambia 
+zambia has established a government owned cloud service provider, the zambia national data centre 
+limited (zndc). this is a company limited by guarantee through the ict regulator, zambia information and 
+communications technology authority (zicta). the establishment of the zndc with three geo-located data 
+centres will provide a platform for both government and private sector to consume secure, highly reliable 
+and available cloud services from the tier iii uptime certified data centre. 
+the data centres are not just traditional data centres offering reliable power and cooling services only. they 
+are modular data centres built on cloud architecture with virtualization as the bedrock. the three data 
+centres provide on demand cloud services such as e-mail as a service, infrastructure as a service (iaas), back-
+up as a service (baas), disaster recovery as a service (draas) and platform as a service (paas).  
+the high level topology of the data centres is shown in figure 8-1: 
+ 
+figure 8-1 – high-level topology of data centres 
+the national data centre has three sites that are located in geographically spread areas with a combined floor 
+space of 1,600 square metres. the sites were chosen based on the country spread so that one site in the 
+northern part of the country can serve the northern region of the country while the other two will serve the 
+central and southern part of the country. 
+the data centres are designed for an average power usage effectiveness (pue) of 1.3. the facility has a 
+combined rack count of 206 with 24 /7 network operation centre technicians and mechanical and electrical 
+(m&e) staff. 
+

@@ -1,0 +1,62 @@
+2 cloud computing management  
+ 
+456  
+7.2.2 detailed composition of cloud-based network management functional architecture 
+cloud physical element functions
+cloud hypervisor function
+vm 
+monitoring 
+funtion
+management controller fs
+management 
+service analysis 
+function
+management 
+service deployment 
+function
+management 
+service composing 
+function
+management 
+service function
+cloud 
+infrastrcture 
+function set
+network 
+management 
+application
+function set
+management service fs
+management 
+service function
+management 
+service function
+management 
+service function
+ 
+figure 3 – detailed composition in the management service layer 
+figure 3 shows the detailed composition of cloud-based network management functional architecture, which 
+is a refinery of the components in the management service layer as shown in figure 2. 
+the cloud-based network management functional architecture is composed of the following two main parts: 
+cloud infrastructure function set, and the network management application function set. 
+the cloud infrastructure function set include cloud physical element functions and a cloud hypervisor 
+function above them. cloud physical element functions provide the basic functions of computing and storage. 
+cloud hypervisor function provides the functionality to manage cloud physical elements, and provide 
+virtualization functions above them. 
+the network management application function set may be further d ivided into two parts: management 
+controller function set and management service function set. management controller function set includes 
+the basic supporting functions of the management platform, and also provide common functions to support 
+management ap plications. management service function set provides management functions, which are 
+divided into several aspects for network management, and usually they are application specific. 
+7.3 the functions of each part in the architecture 
+in figure 3, the functions of each component are further explained in this clause. 
+1) cloud physical element function: this is the lowest level of cloud infrastructure, and it is usually 
+composed of the functions provided by physical servers, computers, disks, network connectors and 
+all other elements that form a physical cloud computing environment. they provide the basic 
+computing and storage resources from the physical layer. 
+2) cloud hypervisor function: it is a management layer over cloud physical element functions. cloud 
+hypervisor function provides the management ability of virtualized resources, for example, 
+creating/deleting a new virtual machine (vm), start/suspend a vm, and query/change a 
+configuration of a vm, etc. cloud hypervisor function provides users virtualized re sources using a 
+unified interface. from the users’ perspective, cloud hypervisor function can provide computing and 
+storage capabilities dynamically, based on users’ requirements. 

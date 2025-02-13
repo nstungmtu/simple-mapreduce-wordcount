@@ -1,0 +1,13 @@
+ framework and requirements for cloud computing 1 
+ 
+   245 
+table ii.2 – customer-oriented cloud service provisioning on distributed cloud 
+use case 
+– delivering request of a cloud service to neighbour edge cloud as shown in figure <an 
+example of delivering a cloud service to neighbour edge cloud>. 
+finally, customer-oriented service provisioning (i.e., service routing) method is highly 
+required on distributed cloud in order to improve cloud service qos (e.g.,  response time, 
+network bandwidth, mobility). 
+note – provisioning of a cloud service in close proximity to cloud service c ustomer depends 
+on condition of csc (e.g., location, qos level) and condition of surrounding csc 
+(e.g., availability of edge cloud, capacity of edge cloud, network congestion).  

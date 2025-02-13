@@ -1,0 +1,32 @@
+5 intercloud and interoperability  
+ 
+824  
+ 
+figure 6-5 – functional components extended with inter-cloud computing functions 
+7 functions of inter-cloud computing 
+as shown in figure 6-5, the inter-cloud functions only cover extensions to bsss, oss, integration and security 
+systems. the inter-cloud functions are as follows: 
+– bss functions, including service subscription management and billing. 
+– oss functions, including service catalogue, service provisioning, monitoring and reporting, service 
+policy management, service level management, incident and problem management and peer 
+service management. 
+– integration functions, including peer csp management, inter-cloud service negotiation, inter-cloud 
+service discovery, inter-cloud service selection, inter -cloud service reservation, inter -cloud service 
+release and inter-cloud capabilities adaptation. 
+– security systems functions, including  authentication and identity management, authorization and 
+security policy management and encryption management. 
+7.1 business support systems 
+7.1.1 service subscription management 
+the service subscription management function handles the subscription of the csp to services provided by 
+peer csps as well as subscription of peer csps to its own services. 
+this function includes the following. 
+– service subscription management. this allow s for managing, e.g., creating, modifying, updating, 
+deleting and querying inter-cloud service subscription between peer csps. 
+7.1.2 billing 
+the billing function generates service charging and invoice for inter-cloud services. 
+this function includes the following. 
+– service charging. this allows for rating the usage of an inter -cloud service based on metering data 
+of the particular inter-cloud service. 
+– service invoice generation. this allows generating inter -cloud service invoice and delivering the 
+invoices to peer csps. 
+

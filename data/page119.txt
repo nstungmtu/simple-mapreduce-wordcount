@@ -1,0 +1,43 @@
+ framework and requirements for cloud computing 1 
+ 
+   111 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 overview of data storage federation 
+6.1 introduction to data storage federation 
+6.2 benefits of data storage federation 
+6.3 configuration of logical components for data storage federation 
+6.4 ecosystem of data storage federation 
+7 cloud computing based data storage federation system context 
+7.1 csp:storage federation provider (csp:sfp)  
+7.2 csp:data manipulation provider (csp:dmp)  
+8 functional requirements for data storage federation 
+8.1 storage connection requirements 
+8.2 data manipulation requirements 
+8.3 storage federation requirements 
+8.4 metadata and policy management requirements 
+9 security considerations 
+appendix i – use case of data storage federation 
+i.1 storing a user file dispersedly 
+i.2 data sharing between customers 
+i.3 multiple storage types and access mechanisms for data access 
+i.4 policy-driven provision and management of dsf local storage 
+i.5 policy-driven provisioning and management of data 
+i.6 data virtualization csp:sfp 
+i.7 efficient data storage management 
+i.8 the data read/write cache and parallel distributed file for performance enhancement 
+i.9 data storage federation and management 
+i.10 a use case of storage optimization 
+i.11 the use case for data storage federation management 
+i.12 registration of data storage for federation service 
+appendix ii – comparison analysis between cloud computing and data storage federation 
+bibliography 
+ 
+ 

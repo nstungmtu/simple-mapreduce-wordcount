@@ -1,0 +1,36 @@
+cloud computing management 2 
+ 
+  505 
+appendix i 
+ 
+e2e cloud service lifecycle management use cases 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 service management interface 
+ 
+title service management interface 
+description csp1 and csp 2 established an inter-cloud relationship. each of them has their own e2e cloud 
+service lifecycle management system inside. 
+csp1 defines a software enabled service and provides the corresponding service management 
+interface (smi).  
+csn makes use of the smi capabilities provided by csp1 and develops a new implementation 
+of cloud service a1.  
+csn registers the developed cloud service a1.  
+the status, availability, performance and/or delay time of a service a1 can be collected through 
+smi. 
+the csp1 provides his cloud service a1 to csp2.  
+csc requests a composite service c1 to csp2. this composite service includes the a1 service  
+offered by csp1 which provides a service and management to csc.  
+the e2e cloud service lifecycle management system of csp1 provisions and operates service a1 
+through its smi. 
+the e2e cloud service lifecycle management system of csp1 collects (according to local laws 
+and regulations) service health condition, performance, security, geo -location and events 
+results of the service a1through its smi. 
+the e2e cloud service lifecycle management system of csp1 reports (according to local laws 
+and regulations) service health condition, performance, security, geo -location of the service a1 
+events results internally to csp1. 
+the e2e cloud service lifecycle management system of csp1 can report the service health 
+condition of service a1 externally to csp2 through smi between csps .  
+roles csp, csc, csn 
+figure (optional) 
+ 
+

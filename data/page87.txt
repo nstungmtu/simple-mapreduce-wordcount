@@ -1,0 +1,49 @@
+ framework and requirements for cloud computing 1 
+ 
+   79 
+image and get it up and running on an equivalent iaas service in a relatively straightforward manner. in an 
+saas environment, when a cloud service customer organization wants to move an saas application to a 
+different cloud service provider (i.e., switch saas service providers), the cloud service customer needs to be 
+able to take their data with them, but the rest of the switching cost will include exporting, mapping and 
+importing the data into the new cloud service provider's saas application, and that cost is a function of how 
+well the data models and formats of the two saas cloud service providers line up. ideally, saas cloud service 
+providers should adopt standard data interchange format(s) relevant to their application domain. changing 
+between saas applications can also involve the cloud service customer adapting to a new service interface 
+(which relates to the interoperability of the service). 
+however, since different cloud capabilities types can have different requirements related to portability, it is 
+more useful to focus on specific types of portability such as cloud data portability and cloud application 
+portability. 
+cloud service customer data is a class of data objects under the control of the cloud service customer. cloud 
+data portability allows the cloud service customers the ability to copy cloud service customer data into or 
+out of a cloud service through network access or by physical transfer of storage devices. 
+cloud application portability allows the migration of items such as a fully-stopped virtual machine instance 
+or a machine image (iaas service) from one cloud service provider to another cloud service provider, or the 
+migration of application components ( paas service) from one cloud service provider  to another. in both 
+cases, there is a related aspect of the support of portability of metadata relating to the application 
+components, providing information about the relationships of program components and about the required 
+infrastructure for the program components (e.g., load balancing configuration, firewall settings). 
+8.5.9 protection of personally identifiable information (pii) 
+cloud service providers  should protect the assured, proper and consistent collection, processing, 
+communication, use and disposition of personally identifiable information (pii) in relation to cloud services. 
+according to established guidelines, one of an organization's key business imperatives is to ensure the 
+protection of personally identifiable information (pii). though cloud computing provides a flexible solution 
+for shared resources, software and information, it also poses additional confidentiality challenges to cloud 
+service customers using cloud services, and also for cloud service providers. 
+in many jurisdictions, there are strict rules and regulations applied to the handling of pii – any use of cloud 
+services to store and process pii often has to conform to those rules and regulations. 
+statutory, regulatory and legal requirements vary by market sector and jurisdiction, and they can change the 
+responsibilities of both cloud service customers  and cloud service providers . compliance with such 
+requirements is often related to governance and risk management activities. 
+8.5.10 resiliency 
+resiliency is the ability of a system to provide and maintain an acceptable level of service in the face of faults 
+(unintentional, intentional or naturally caused) affecting normal operation. 
+resiliency describes the set of monitoring, preventive and responsive processes that enable a cloud service 
+to provide continuous operations, or predictable and verifiable outages, through failure and recovery actions. 
+these can include hardware, communication and/or software failures, and can occur as isolated incidents or 
+in combination, including serial failure. these processes can include both automated and manual actions, 
+usually spanning multiple systems, and thus their description and realization are  part of the overall cloud 
+infrastructure, not an independent function. 
+inherent in resiliency is the realization of risk management  – since resiliency is determined by the least 
+resilient component in the system, and cost/performance or other factors can limit the extent to which 
+resiliency is possible or practical. the association of risk to value is realized in the implementation choices to 
+provide resiliency. 

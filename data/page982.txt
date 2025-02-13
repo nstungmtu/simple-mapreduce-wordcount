@@ -1,0 +1,48 @@
+7 security  
+ 
+974 
+when adopting cloud computing services, some cscs may have concerns over a lack of control over their 
+information and assets hosted in csps, over data storage, reliability of data backup (data retentio n issues), 
+countermeasures for business continuity plans (bcps) and disaster recovery, etc. 
+for example: 
+• a csc wishes to delete a file for legal reasons, but the csp retains a copy that the csc does not know 
+about. 
+• a csp gives the csc's administrator privileges that go beyond the csc's policy. 
+• some cscs may have concerns regarding the exposure of data by a csp to foreign governments  
+which could impact the csc's compliance with confidentiality laws, such as the european union data 
+protection directives. 
+8.1.4 loss of confidentiality 
+when a csp processes confidential information , there is a possibility of there being a violation of 
+confidentiality, which could also include a violation of applicable data protection regulations, certificatio ns 
+or laws. this includes the leakage of confidential information, or the processing of personally identifiable 
+information (pii) for a purpose that is not authorized by the csc and/or the data subject. 
+8.1.5 service unavailability 
+availability is not spec ific to the cloud computing environment. however, because of the service -oriented 
+design principle, service delivery may be impacted when upstream cloud computing services are not 
+completely available. moreover, the dynamic dependency of cloud computing offers more possibilities to an 
+attacker. for example, a denial-of-service attack on one upstream service may affect multiple downstream 
+services in the same cloud computing system. 
+8.1.6 cloud service provider lock-in 
+high dependency on a single csp could make it more difficult to replace a csp by another. this could be the 
+case where a csp relies on non -standard functions or formats and does not provide interoperability. this 
+could become a security threat if the locked-in csp fails to address known security vulnerabilities, thus leaving 
+the csc vulnerable but unable to migrate to another csp. 
+8.1.7 misappropriation of intellectual property 
+when the csc's software is run or other assets are stored by the csp, the challenge exists that this material 
+could be leaked to third parties or misappropriated for unauthorized use. this could include a violation of 
+copyright or the exposure of trade secrets. 
+8.1.8 loss of software integrity 
+once the csc's software is running in the csp, there is the possibility of the software being modified or 
+infected while it is out of the direct control of the csc, thus causing their software to misbehave in some way. 
+although this possibility exists outside the csc's control, it could seriously affect their reputation and thus 
+their business. 
+8.2 security challenges for cloud service providers (csps) 
+this clause describes security challenges associated with environmental difficulties or indirect threats that 
+may give rise to more direct threats to the interests of the csp. 
+8.2.1 ambiguity in responsibility 
+different roles (csp, csc, and csn) may be defined in a cloud computing system. ambiguity of the definition 
+of responsibilities related to issues such as data ownership, access control or infrastructure maintenance may 
+impact business or legal disputes (especially when dealing with third parties, or when the csp is also a csc 
+or a csn). this ambiguity risk increases when the csp is operating and/or offering services across mult iple 
+jurisdictions where contracts and agreements may exist in different languages or legal frameworks. see also 
+clause 8.2.4, "jurisdictional conflict" below. 

@@ -1,0 +1,24 @@
+5 intercloud and interoperability  
+ 
+870  
+ 
+figure 3 – relationships among functional components and functions for the "use cloud service" activity 
+between csc and csp 
+7 cloud computing interoperability testing between csp and csp 
+ideally, multiple interoperable csps could interact in different patterns of inter-cloud: peering, federation, 
+and intermediary patterns, as defined in [itu-t y.3511]. in inter-cloud peering pattern, two csps interwork 
+directly with each other, and one csp can use the services provided by the peer csp. in inter-cloud 
+federation pattern, a group of peer csps mutually combine their service capabilities in order to provide 
+the set of cloud services required by cscs. in inter-cloud intermediary pattern, csp interworks with one 
+or more peer csps and provides intermediation, aggregation and arbitrage of services provided by these 
+csps. 
+the functions which should be tested for inter cloud computing interoperability need to be prescribed 
+according to the functional requirements described in [itu -t y.3511]. the following bullet items indicate  
+aspects to be considered in the cloud computing interoperability testing of the csp-csp interworking. 
+• sla and policy negotiation should be confirmed as follows: 
+– the sla and policy information that is aware of the sla information related to the qos and  
+performance aspects of the csps involved is exchanged among multiple csps using standard 
+formats; 
+– the sla and policy information comparing, negotiating and settling down service provisioning 
+policies is exchanged among multiple csps using standard formats. 
+

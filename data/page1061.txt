@@ -1,0 +1,35 @@
+security 7 
+ 
+  1053 
+6.1.4 contact with special interest groups 
+control 6.1.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+6.1.5 information security in project management 
+control 6.1.5 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+6.2 mobile devices and teleworking 
+the objective specified in clause 6.2 of iso/iec 27002 applies. 
+6.2.1 mobile device policy 
+control 6.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+6.2.2 teleworking 
+control 6.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+7 human resource security 
+7.1 prior to employment 
+the objective specified in clause 7.1 of iso/iec 27002 applies. 
+7.1.1 screening 
+control 7.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+7.1.2 terms and conditions of employment 
+control 7.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+7.2 during employment 
+the objective specified in clause 7.2 of iso/iec 27002 applies. 
+7.2.1 management responsibilities 
+control 7.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+7.2.2 information security awareness, education and training 
+control 7.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+  

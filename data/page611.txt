@@ -1,0 +1,119 @@
+xaas 3 
+ 
+  603 
+table ii.1 – relationship between clause 7 daas functions and 
+itu-t y.3502 reference architecture 
+daas 
+functions 
+keywords or simple 
+descriptions 
+related functional 
+components (fcs) 
+in [itu-t y.3502] 
+notes 
+(os, disk, profile 
+image) 
+deploying daas 
+platforms 
+selecting daas 
+platform to assign 
+virtual desktop 
+infrastructure 
+access 
+management 
+access i/f to infra 
+(admin, daas user) 
+managing access 
+authority 
+security systems- 
+authorization and 
+security policy 
+management 
+this fc provides capabilities for the control and 
+application of authorization for users to access 
+specific capabilities or data. this fc is somewhat 
+related with the infrastructure access 
+management in that they cover authorization, 
+but daas focuses on authority for resource 
+access. 
+monitoring 
+and 
+controlling 
+virtual 
+desktop 
+resource 
+monitoring infra and 
+virtual desktop  
+operational support 
+systems- 
+monitoring and 
+reporting 
+in the monitoring and reporting fc, the part of 
+monitoring resources is similar to that on the 
+daas side. 
+user account 
+and profile 
+management 
+service catalogues 
+csu account info (csc 
+type name, id) 
+profile (hw 
+configuration, sw) 
+business support 
+systems- 
+account 
+management  
+account management fc includes contracts, 
+subscriptions, entitlements, and service pricing. 
+this fc is partially related with uapm-f in that it 
+covers service catalogues, csc type, and 
+contracted hw/sw, but this does explain all of 
+this function. 
+virtual 
+desktop 
+resource 
+allocation and 
+distribution  
+analysis of resource 
+usage to admin 
+resource allocation, 
+releasing  
+reallocating resources 
+by a daas user request 
+operational support 
+systems- 
+platform and 
+virtualization 
+management 
+the resources are typically organized into 
+resource pools with key characteristics:  
+• standardized hardware componentry and 
+configuration 
+• readily expandable through the addition of 
+new hardware capacity 
+• automated shifting of resources as workload 
+needs change 
+• reduce and/or eliminate downtime through 
+movement of workloads and data between 
+resources 
+• manage resource consumption based on 
+goals 
+operational 
+policy 
+management 
+for daas 
+group policy based on 
+csc types and user 
+account 
+resource reallocation 
+policy 
+daas platform 
+allocation policy 
+operational support 
+systems- 
+service policy 
+management 
+policies can include business, technical, security, 
+privacy and certification policies that apply to 
+cloud services and their usage by cloud service 
+customers. 

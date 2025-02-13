@@ -1,0 +1,40 @@
+1 framework and requirements for cloud computing  
+ 
+344  
+table ii.1 – continuous product improvement 
+figure 
+ 
+ 
+pre-conditions 
+(optional) 
+the game company has to plan the analytical solution to support application development. 
+the solution utilization can vary depending on the new products being launched, so the 
+investment in a solution may prove to be ineffective. 
+post-conditions 
+(optional) 
+the game company can define analytical campaigns for each product and optimize the 
+analysis effectiveness. only currently required capabilities are used from the bdaas solution 
+in a pay-as-you-go model. 
+derived requirements – data collection (clause 8.1, requirements 1, 3, 5) 
+– data pre-processing (clause 8.2, requirements 3, 4) 
+– data storage (clause 8.3, requirements 1, 2, 3, 4, 6, 7)  
+– data analysis (clause 8.4, requirements 5, 10, 11) 
+– data visualization (clause 8.5, requirements 1, 3, 4, 5) 
+– data security and protection (clause 8.7, requirement 4) 
+ 
+table ii.2 – virtualized distributed cluster service 
+title virtualized distributed cluster service 
+description a virtual distributed cluster service is a typical web service which makes it easy to have a 
+cluster of machines quickly and cost-effectively processing vast amounts of data 
+provided by a csp. 
+the virtual distributed cluster service uses distributed clustering software as a 
+framework, to distribute the customers' data and processing across a resizable cluster of 
+virtual machine instances in cloud resource pools. three steps that are often included by 
+the csc using a virtual cluster service are: 
+1) upload data. the csc:bdsu uploads the data that needs to be analysed to the cloud 
+storage space that belongs to the csc:bdsu. in addition the csc:bdsu could use the 
+data provided by the csn:dp. 
+2) create virtual distributed cluster. the csc:bdsu creates and configures the 
+distributed cluster by specifying data inputs, outputs, cluster size, security settings 
+and other necessary parameters. 
+

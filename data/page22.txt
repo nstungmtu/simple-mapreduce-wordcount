@@ -1,0 +1,21 @@
+1 framework and requirements for cloud computing  
+ 
+14  
+– reversibility: a process for the cloud service customer to retrieve their cloud service customer data 
+and application artefacts  and for the cloud service provider  to delete all cloud service customer 
+data as well as contractually specified cloud service derived data after an agreed period; 
+– security: ranges from physical secur ity to application security, and includes requirements such as 
+authentication, authorization, availability, confidentiality, identity management, integrity, 
+non-repudiation, audit, security monitoring, incident response, and security policy management; 
+– service levels and service level agreement : the cloud computing service level agreement (cloud 
+sla) is a service level agreement between a cloud service provider and a cloud service customer 
+based on a taxonomy of cloud computing specific terms to set the q uality of the cloud services 
+delivered. it characterizes quality of the cloud services delivered in terms of: 1) a set of measurable 
+properties specific to cloud computing  (business and technical) and 2) a given set of cloud 
+computing roles (cloud service customer and cloud service provider and related sub-roles). 
+many of these cross cutting aspects, when combined with the key characteristics of cloud computing , 
+represent good reasons for using cloud computing. however, cross cutting aspects like se curity, protection 
+of pii, and governance have been identified as major concerns and in some cases an impediment to the 
+adoption of cloud computing. 
+ 
+  

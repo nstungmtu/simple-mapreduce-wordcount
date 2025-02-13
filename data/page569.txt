@@ -1,0 +1,32 @@
+xaas 3 
+ 
+  561 
+appendix ii 
+ 
+daas client classification 
+(this appendix does not form an integral part of this recommendation.) 
+daas u sers access their virtual desktops using networked daas clients, such as desktop computers, thin 
+clients and mobile devices. basically, most of these devices rely on computing power in daas platf orms for 
+all or a majority of their applications . several ways to access virtual desktops from daas clients can be 
+provided. some daas clients support specific software dedicated to daas while some do not require specific 
+software on the daas client and instead use a general web browser to interact with the daas platform. still, 
+some daas clients can directly connect without any software or browsers. table ii.1 shows the characteristics 
+of various types of daas clients, including these access methods 
+table ii.1 – characteristics of daas client 
+categories personal computer thin client mobile device 
+access method dedicated software 
+web browser 
+dedicated software 
+web browser 
+dedicated software 
+web browser 
+network mainly wired mainly wired wireless 
+cpu performance-centric power-centric power-centric 
+ram yes yes yes 
+storage yes 
+(hard disk drive) 
+yes/no 
+(flash memory) 
+yes 
+(flash memory) 
+ 

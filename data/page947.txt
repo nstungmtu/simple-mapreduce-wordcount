@@ -1,0 +1,18 @@
+intercloud and interoperability 5 
+ 
+  939 
+[itu-t y.e2ecslm-req] – itu-t draft recommendation y.35xx, end-to-end cloud service lifecycle 
+management 
+this draft recommendation describes the functional requ irement of the lifecycle for service management 
+aspects of cloud services. the cloud service lifecycle management involves charging events management, 
+policy management, management of role related information, service/application provisioning, resource 
+management, context management and content management 
+[itu-t y.e2ecmrgb] – itu-t draft recommendation y.35xx, common model for end-to-end  cloud 
+computing resource management 
+this draft recommendation: 
+– provides a model, based on ses simple management interfaces (smis), for all layers of cloud 
+computing reference architecture.  
+– demonstrates how such approach would result in development and deployment of fundamentally 
+manageable cloud computing applications and solutions, in an end -to-end, mu lti-cloud 
+environment, independent of choice of technology, run-time, programming language or tools made 
+to develop the solutions. 

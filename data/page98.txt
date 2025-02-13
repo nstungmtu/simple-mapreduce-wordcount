@@ -1,0 +1,48 @@
+1 framework and requirements for cloud computing  
+ 
+90  
+• service level management; 
+• incident and problem management; 
+• platform and virtualization management; 
+• peer service management. 
+9.2.5.3.1 service catalogue 
+the service catalogue functional component provides a listing of all the cloud services of a particular cloud 
+service provider. a service catalogue can contain/reference all relevant technical information required to 
+deploy, provision and run a cloud service. 
+9.2.5.3.2 provisioning 
+the provisioning functional component provides the capabilities for provisioning services, both in terms of 
+the provisioning of service implementations and of access end points and the workflow required to ensure 
+that elements are provisioned in the correct sequence. 
+9.2.5.3.3 monitoring and reporting 
+the monitoring and reporting functional component provides capabilities for: 
+• monitoring the cloud computing activities of other functional components throughout the cloud 
+service provider's system. this includes the functional components that are involved in the direct 
+use of cloud services  by the csc:cloud service users such as the service access and service 
+implementation (e.g., the invocation of a cloud service operation by a particular user). this also 
+includes functional components  involved in the support of cloud services , such as functional 
+components in the oss itself like the service automation  functional component (e.g., the 
+provisioning of a service instance for a particular customer); 
+• providing reports on the behaviour of the cloud service provider's system, which can take the form 
+of alerts for behaviour which has a time -sensitive aspect (e.g., the occurrence of a fault, the 
+completion of a task), or it can take the form of aggregated forms of historica l data (e.g., service 
+usage data); 
+• storage and retrieval of monitoring and event data as logging records. 
+there is a need to guarantee the availability, confidentiality and integrity of the logging records held by the 
+monitoring and reporting functional component. for multi -tenant cloud services, there is also a need to 
+design access to the records so that particular tenants can only gain access to information about their own 
+tenancy and about no other tenancy. 
+9.2.5.3.4 service policy management 
+the service policy management functional component provides capabilities to define, store and retrieve 
+policies that apply to cloud services . policies can include business, technical, security, privacy and 
+certification policies that apply to cloud services and their usage by cloud service customers. 
+some policies can be general and apply to a cloud service irrespective of the customer concerned. other 
+policies can be specific to a particular customer. 
+9.2.5.3.5 service automation 
+the service automation functional component  provides capabilities for service delivery including the 
+management and execution of service templates and the orchestration of services. the service automation 
+functional component  holds the service templates which define the cloud compu ting activities  and 
+workflows required to provision and deliver a specific entry in the service catalogue. 
+cloud service provisioning can be automated in order to support scalable resource operations, including 
+configuration and charging.  
+cloud service administration activities of the cloud service customer can be capable of being automated and 
+need not require any intervention by the cloud service provider. 

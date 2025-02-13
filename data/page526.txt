@@ -1,0 +1,38 @@
+2 cloud computing management  
+ 
+518  
+8 metadata framework for naas service lifecycle management 
+this clause aims to specify the metadata framework in naas service lifecycle management by reflecting the 
+interoperability and integration of the naas service metadata, especially in the environments of devops and 
+ci/cd. 
+as described in [itu -t y.3522], met adata is used in the entire cloud service lifecycle management, from 
+design, deployment, operation, to retirement stages. for naas service, closed-loop automation management 
+is achieved by using data models of naas service, naas service operational policy,  and naas resource, as a 
+linkage, in the four iterative stages of naas service lifecycle management. these four iterative stages can be 
+categorized into design time, including design stage, and runtime execution time, including deployment 
+stage, operation stage and retirement stage. 
+figure 8-1 depicts the metadata framework for naas service lifecycle management. the metadata of naas 
+service is created in design time, and then distributed to runtime execution time to be used in implementing 
+a metadata -driven service deployment, operation and retirement. the feedback from runtime execution 
+time to design time is to help identify the changes needed for the metadata. 
+ 
+figure 8-1 – metadata framework for naas service lifecycle management 
+8.1 metadata of naas service in design time 
+models of naas service, naas service operational policy, and naas re source are created and developed in 
+design time for making service s and resources available, using modelling tools provided by naas csp. the 
+modelling process will not trigger any naas service instantiation in the runtime execution environment until 
+the oss-naas receives a request to do so. 
+the basic extendable model templates are defined and stored in service catalogue of oss-naas (naas service 
+data model and na as service operational policy data model) and network controller (naas resource data 
+model) during design time and can be configured and extended with additional parameters, parameter value 
+ranges and validation rules according to naas csc's request. 
+8.2 metadata of naas service in runtime execution time 
+the modelled naas service is instantiated in runtime execution time and the specific naas service model and 
+its naas service operational policy data model drive the corresponding codes. the active naas serv ice is 
+continuously monitored by event listening . the event, requiring healing and/or scaling ba sed on real -time 
+naas csc request s, is responded  to based on the associated condition pre -defined in naas service  
+operational policy data model. 
+based on the mo nitoring data collected during runtime execution time, the patterns governing usage, 
+thresholds, events, policy effectiveness, etc., are discerned and the necessary feedback to effect modelling 
+changes in design time is enabled. 
+

@@ -1,0 +1,44 @@
+framework and requirements for cloud computing 1 
+ 
+   117 
+storage connection component provides: 
+– an interface for a single virtual volume for a customer;  
+– a customer access mechanism to connect a single virtual volume; 
+note 1 – the customer access mechanism includes the different types of protocols according to the storage 
+type such as internet smal l computer system interface (iscsi) for block device storage, server message block 
+(smb), network file system (nfs), ssh file transfer protocol (sftp), file transfer protocol (ftp) for file -based 
+storage and the restful api for object-based storage, etc. 
+– corresponding protocols or i/o interfaces of a single virtual volume;  
+– performance acceleration of protocols.  
+data manipulation component provides:  
+– virtual storage pool;  
+– configuration for virtual storage pool without considering the actual storage location of the data;  
+– the write buffer or read cache function for customer data; 
+– enhancement of the read and write response time using high-speed storages for buffer and cache;  
+note 2 – the high -speed storage includes main memory, non -volatile memo ry express (nvme), ssd and 
+peripheral component interconnect express (pcie) flash cards.  
+– data management for snapshots, fast replication and distributed transaction logs. 
+data distribution and storing component provides: 
+– the optimization of writing data to dsf local storage to minimize writing and accessing time; 
+– data fragmentation to distribute and store in dsf local storage; 
+note 3 – data fragmentation is a method to distribute and store customer data in other storages.  
+– the encryption/decryption and compression/decompression of data fragments; 
+note 4 – the encryption and compression are taken into account by customer's demands. 
+dsf local storage management component provides: 
+– connections to dsf local storage; 
+– storage tiering of data according to the storage performance, time of data usage and data access 
+frequency; 
+note 5 – storage tiering is the action to distribute and collocate data across multiple storage tiers in a 
+hierarchical manner. 
+note 6 – this component automatically moves data betwe en the various storage tiers according to the 
+characteristics of the data.  
+note 7 – when data is initially created, it is stored in high-speed storage. when data access frequency is low, 
+it is moved to a lower-speed storage. 
+provisioning and policy management component provides: 
+– the configurations and controls of logical components; 
+– the policy management of data storage and data manipulation; 
+note 8 – policy for data storage includes back-up, snapshot, scaling, recovery, data caching, thin-provisioning, 
+tiering, storage type (file, block, object), etc. 
+note 9 – policy of data manipulation includes sharing support, read/write, replication, data migration, 
+fragmentation, encryption, compression, de-duplication, etc. 
+– the provision of single virtual volume in a virtual storage pool.  

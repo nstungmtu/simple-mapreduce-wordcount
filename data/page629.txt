@@ -1,0 +1,18 @@
+xaas 3 
+ 
+  621 
+appendix i 
+ 
+development methodology of naas functional requirements and architecture 
+(this appendix does not form an integral part of this recommendation.) 
+considering the standardization me thodology and conventional study sequence, the abstractions of 
+functional entities and their mutual interactions are base d on the functional requirements and the 
+corresponding use cases analysis, which form a standardization body together. therefore, it is  required to 
+progress naas functional requirements and architecture according to the following steps and priorities. 
+step 1: use cases and functional requirements of naas which are included in appendix ii and clauses  7-9, 
+respectively, of this recommendati on. note that all the functional requirements are derived from the 
+corresponding use cases. 
+step 2: functional architecture of naas should be based on this recommendation. 
+additionally, the general requirements of naas are described in [itu-t y.3501]. 
+ 
+  

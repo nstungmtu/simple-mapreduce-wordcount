@@ -1,0 +1,38 @@
+3 xaas  
+ 
+668  
+qos quality of service 
+sdn software-defined networking 
+sla service level agreement 
+vcdn virtual content delivery network 
+vepc virtual evolved packet core 
+vims virtual ip multimedia subsystem 
+vm virtual machine 
+vnf virtualized network function 
+vpc virtual private cloud 
+vpn virtual private network 
+vpnaas vpn as a service 
+vrouter virtual router 
+vswitch virtual switch 
+vxlan virtual extensible local area network 
+wan wide area network 
+5 conventions 
+none. 
+6 overview of naas functional architecture 
+6.1 key naas characteristics 
+the naas functional architecture aims for a scalable and programmable on -demand network allowing the 
+cloud service customer (csc) to provision network services (nss) and resources, as needed, automatically or 
+with minimal interaction with the naas cloud service provider (csp). key naas characteristics to be achieved 
+include: 
+– self-service: the ability to manage network services automatical ly or with minimal human 
+interaction. examples include self-provisioning, self-care and self-design; 
+– on-demand: the ability to deploy and adjust (increase or decrease) network services rapidly and as 
+needed. examples include fast time -to-market, try befo re you buy, accelerate innovation, eas y 
+migration, update and upgrade; 
+– scalability: the ability to scale network services and resources (scale out, in, up or down) in response 
+to a large usage demand. example includes scale-up resources based on traffic growth; 
+– programmability: the ability to access services features through application programming interfaces 
+(apis). examples include programmable quality of service (qos) and network policy rules; 
+– measured service : metered delivery of services such tha t usage can be monitored, controlled, 
+reported, and charged. example includes case of naas cscs charged only for the services or 
+resources that they use. 

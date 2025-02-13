@@ -1,0 +1,82 @@
+framework and requirements for cloud computing 1 
+ 
+   189 
+appendix i 
+ 
+comparison between functional requirements and other specifications 
+(this appendix does not form an integral part of this recommendation.) 
+i.1 specifications and other sdos 
+i.1.1 open compute project 
+the open compute project (ocp) is a rapidly growing community of engineers around the world whose 
+mission is to design and enable the delivery of the most efficient server, storage and data centre hardware 
+designs available for scalable computing. 
+the ocp server project provides standardized server system specifications for scale computing. 
+standardization is key to ensure that the ocp specification pool does not get fragmented by point solutions 
+that plague the industry today. the server project collaborates with the other ocp disciplines to ensure broad 
+adoption and achieve optimizations throughout all aspects from validation, to manufacturing, deployments, 
+data centre operations and de-commissioning. 
+table i.1 lists ocp related specifications. 
+table i.1 – ocp related specifications  
+family specification summary published  
+openrack v2 twin lakes 1s server 
+design specification v1.00 
+[b-ocp 1s] 
+this specification describes the design of the twin 
+lakes 1s server based on the intel xeon 
+processor d-2191 system-on-a-chip (soc). 
+2018 
+facebook 2s server tioga 
+pass specification v1.0 
+[b-ocp 2s] 
+this specification describes facebook dual sockets 
+server intel motherboard v4.0 
+(project name: tioga pass) design and design 
+requirement to integrate tioga pass into 
+open rack v2. 
+2018 
+big basin-jbog 
+specification v1.0 
+[b-ocp jbog] 
+this document describes technical specifications 
+for facebook's big basin-jbog for use in open 
+rack v2. 
+2018 
+inspur server project san 
+jose v1.01 [b-ocp sj] 
+this document defines the technical specification 
+for san jose motherboard and chassis used in 
+open compute project open rack v2. 
+2017 
+facebook multi-node 
+server platform: yosemite 
+v2 design specification 
+v1.0 [b-ocp yose] 
+this specification describes the design of the 
+yosemite v2 platform that hosts four one socket 
+(1s) servers, or two sets of 1s server/device card 
+pairs. 
+2017 
+facebook server intel 
+motherboard v4.0 project 
+tioga pass v0.30 
+[b-ocp tp] 
+this specification describes facebook dual sockets 
+server intel motherboard v4.0 (project name: tioga 
+pass) design and design requirement to integrate 
+intel motherboard v4.0 into open rack v2. 
+2017 
+facebook server intel 
+motherboard v3.1 
+[b-ocp mb] 
+this specification describes intel motherboard v3.0 
+design and design requirement to integrate intel 
+motherboard v3.0 into open rack v11 and open 
+rack v2. 
+2016 
+open rack- intel 
+motherboard hardware 
+v2.0 [b-ocp imbh] 
+this document defines the technical specifications 
+for the intel motherboard used in open compute 
+project servers. 
+2016 

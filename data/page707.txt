@@ -1,0 +1,25 @@
+xaas 3 
+ 
+     699 
+concerning naas platform related requirements described in clause 8 of [itu-t y.3512], ''programmable naas 
+platform'', ''isolation of service chain for tenants '' and ''flexible scaling of n aas platform'' requires that the 
+oss functionalities be flexible and efficient enough to allow for the instantiation of network services, network 
+functions and corresponding cloud computing resources in an automated manner. 
+regarding naas connectivity related requirements identified in clause 9 of [itu -t y.3512], ''unified network 
+control mechanism, ''elastic network reconfiguration '', ''leveraging transport networks dynamically '' and 
+''seamless and end -to-end solution of bandwidth '', this requires that the  naas architecture provides oss 
+functionalities that support the real-time control, management and orchestration of end-to-end connectivity 
+across the naas cloud computing infrastructure as well as access and core network domains. 
+i.6 mapping and derivation of functionalities for naas products and naas services development 
+''integration of software applications'' requirements as described in clause 8.5 of [itu-t y.3512] implies that 
+integration of these applications on the naas platform allows the building and design of combined solutions 
+which will be tested prior to their deployment by the naas csp. functionalities for the development of naas 
+services are therefore required to be supported in the naas architecture. 
+i.7 mapping and derivation of functionalities related to naas business 
+[itu-t y.3512] does not explicitly address requirements related to naas  business capabilities since the 
+requirements in [itu-t y.3512] are related to the three types of naas services, i.e. , naas application, naas 
+platform and naas connectivity. however , these business capabilities have to be addressed in the naas 
+architecture to supp ort the management of naas service offerings by the naas csp including naas csc 
+requests for selection and purchase of naas products and services available in the naas csp product 
+catalogue. 
+  

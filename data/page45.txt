@@ -1,0 +1,43 @@
+ framework and requirements for cloud computing 1 
+ 
+   37 
+use case 
+post-conditions 
+(optional) 
+– csc develops an application using an integrated development environment to be more 
+productive by reducing the configuration necessary to piece together multiple 
+development utilities and setup time. 
+– csc uses development tools without deploy and maintain.  
+– csc uses capabilities sets, such as location and sms to develop an application.  
+– csc deploys and runs an application on the application hosting environment without 
+concerning the underlying resources. 
+requirements – application hosting 
+– services delivery platform 
+– integrated development environment 
+– development tools 
+i.6 caas general use case 
+use case 
+name caas general use case 
+abstract a caas csp provides api and/or software development support such as a software 
+development kit (sdk) to enable building of a communication platform and services by a 
+csn, or in addition to build communication services offered to csc directly by caas csp. 
+this involves both platform capabilities type and application capabilities type. 
+roles csc, csp,csn 
+figure 
+ 
+pre-conditions 
+(optional) 
+with platform capabilities type: 
+– csn wants to develop some product or service, using communication features such as 
+video call capability. for example, a non-cloud video game developer could include 
+caas-based voice and video calling between players of their game. 
+– csp provides carrier-grade video call capabilities to a csn through caas api. 
+– csn wants to enhance a device (such as an ip-connected camera) with a remote control 
+feature, while the original device only has connectivity capabilities but no 
+communication capabilities. 
+– csp provides the sdk to a csn, in this case, the csn can add communication capabilities 
+to the device.  
+with application capabilities type: 
+– csc wants to use communication applications on different kinds of devices, such as 
+wire-line telephone, mobile phone, ims device, tablet and pc. 
+

@@ -1,0 +1,50 @@
+7 security  
+ 
+972 
+7.1 security threats for cloud service customers (cscs) 
+the following threats are those that directly affect cscs. they may affect the  cscs' personal or business 
+interests, confidentiality, lawfulness or safety. not all cscs will be at risk by all threats. the risk will be unequal 
+depending on the nature of the csc and of the cloud computing service being used.  for example, a cloud 
+service specific to the transcoding of commercial video files has no requirements to protect personally 
+identifiable information (pii), but will have strong requirements around the protection of digital assets. 
+7.1.1 data loss and leakage 
+as the cloud service environment is typically a multi-tenant one, loss or leakage of data is a serious threat to 
+the csc. a lack of appropriate management of cryptographic information, such as encryption keys, 
+authentication codes and access privilege, could lead to significant damages, such as data loss and 
+unexpected leakage to the outside. for example, insufficient authentication, authorization, and audit 
+controls; inconsistent use of encryption and/or authentication keys; operational failures; disposal problems; 
+jurisdiction and political issues; data centre reliability; and disaster recovery, can be recognized as major 
+sources of this threat and may be associated with the challenges described in clauses 8.1.2 "loss of trust", 
+clause 8.1.3 "loss of governance" and clause 8.1.4 "loss of confidentiality". 
+7.1.2 insecure service access 
+identity credentials, including those of csc administrators, are especially vulnerable to unauthorized users in 
+the highly distributed environment of cloud computing , since unlike traditional telec ommunications it is 
+often difficult to rely on location (e.g., landline) or the presence of a specific hardware element (e.g., a mobile 
+subscriber identity module (sim)) to reinforce authentication of identity. as most of the service offerings are 
+remote, unprotected connections expose potential vulnerability. even when the connections are protected  
+or local , other attack methods (such as phishing, fraud, social engineering and exploitation of software 
+vulnerabilities) may also succeed. if an attacker gains access to users' or administrators' credentials, they can 
+eavesdrop on activities and transactions, manipulate data, return falsified information, and redirect a csc's 
+clients to illegitimate sites. passwords are often reused across multiple websites and services, which amplify 
+the impact of such attacks since a single break can expose multiple services. cloud computing solutions also 
+add a new threat to the landscape. the csc's account or service instances may become a new base for an 
+attacker. from this point onwards, the attacker  may leverage the power of the csc's  reputation and 
+resources to launch subsequent attacks. 
+7.1.3 insider threats 
+where human beings are involved, there is always a risk of individuals acting in a manner that is not 
+consistent with the security of the service. csc employees sharing "administrator" passwords, or otherwise 
+leaving credentials unsecure (e.g., written on notes stuck to a screen), careless or inadequately trained users 
+(or family members in a consumer setting), or malicious actions by disgruntled employees will always pose a 
+significant threat. 
+7.2 security threats for cloud service providers (csps) 
+this clause identifies threats that directly affect csps. such threats might affect the ability of a csp to offer 
+services, to do business, to retain customers, and to avoid legal or regulatory difficulties. threats to a given 
+csp will also depend on their specific service offerings and environments. 
+7.2.1 unauthorized administration access 
+the cloud computing service will include interfaces and software components that allow the csc's own staff 
+to administer those aspects of the cloud computing service that are under the csc's control, such as the 
+addition or removal of csc employee accounts , connections to the csc's own servers, changes to service 
+capacity, updating the domain name system (dns) entries and websites, etc. such administrative interfaces 
+can become a target of choice for attackers who impersonate the csc's administrators to att ack a csp. 
+because such cloud computing services have to be accessible to the csc's own staff, the protection of these 
+services becomes a major concern for cloud computing security. 

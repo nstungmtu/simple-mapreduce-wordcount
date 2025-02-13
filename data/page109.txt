@@ -1,0 +1,23 @@
+ framework and requirements for cloud computing 1 
+ 
+   101 
+figure a.2 illustrates the functional component relationships involved in the select and purchase service 
+activity of the csc:cloud service business manager. 
+ 
+figure a.2 – csc:cloud service business manager relationship for " select and purchase service " activity 
+a.1.3 administration relationship 
+the csc:cloud serv ice administrator performs the following cloud computing activities through the 
+administrator function functional component: 
+• monitor service; 
+• provide billing and usage reports; 
+• administer tenancies; 
+• administer service security; 
+• handle problem reports. the administrator function functional component invokes the 
+administration capabilities functional component of the cloud service provider  through an end 
+point and interface enabled by the administration access functional component. 
+the administration access functional component  performs any authentication of the csc:cloud service 
+administrator and establishes authorization to use particular functions of the administration capabilities 
+functional component . the administration capabil ities functional component  interacts with operational 
+support systems functional components to carry out requests made by the csc:cloud service administrator, 
+for example, the monitoring and reporting functional component. 
+

@@ -1,0 +1,36 @@
+1 framework and requirements for cloud computing  
+ 
+136  
+derived 
+requirements 
+– clause 8.1 requirement (1) 
+– clause 8.3 requirement (1) 
+– clause 8.3 requirement (2) 
+– clause 8.3 requirement (3) 
+i.11 the use case for data storage federation management 
+title the use case for data storage federation management 
+description the management is generally separate from the data path and the management control path 
+and management is driven through the provisioning and policy management. the management 
+provides the ability to display, create, modify and delete the contents of on -premises and public 
+cloud services integrated into a single storage.  
+in backend storage management, the storage configuration is different from the on -premises 
+and the public cloud storage service. the interfaces for backend storage are made in the form of 
+the separate software daemon. when there are multiple cloud storage devices, dsf local 
+storage management can be configured and a proxy interface can be configured to interface 
+with them and an interface for registering and using on-premises storage is provided. 
+role/sub-role dsf service customer (csc:csu) 
+dsf service provider (csp:sfp/dmp) 
+dsf local storage provider (csp:csm) 
+figure 
+(optional) 
+  
+pre-conditions 
+(optional) 
+– each logical component consists of one server or several servers. 
+– each logical component is organized into a network through servers, virtual machines or 
+containers 
+derived 
+requirements 
+– clause 8.3 requirement (11) 
+– clause 8.1 requirement (5) 
+

@@ -1,0 +1,52 @@
+security 7 
+ 
+  1037 
+8.11 internal security audit 
+due to the wide range of security audit, this recommendation only focuses on the internal security audit 
+from the perspective of the operational security . a reliable and objective security audit can help to ensure 
+that operational risk management activitie s have been thoroughly tested and reviewed, to enhance the 
+transparency of cloud computing services, and even to meet the regulatory requirements. 
+8.11.1 requisites of security audit 
+to ensure the objectivity and reliability of the security audit, csps and  cscs should negotiate to reach an 
+agreement on the use of a common it control and certification assurance framework, and the means how to 
+collect, store, and share the audit trail (such as system logs, activity reports, system configurations). 
+according to the security clause of the sla between csps and cscs, the security audit should be planned and 
+targeted to satisfy some requisites: 
+1) team and function: firstly, the audit team members should include senior management, and staff 
+from different business departments (administrative, and technical) to ensure fairness and 
+scheduling of resource during the audit process. secondly, the audit objective should include 
+verifying the security management architecture of csps and/or cscs, and validating the 
+effectiveness and correctness of risk control measures. thirdly, the audit process should be 
+controlled by the audit team and should comply with the standardized workflow. finally, the security 
+audit should be carried out repeatedly in a proper period. 
+2) requisites for the audit process: firstly, and based on the above, audit activities should be fully 
+recorded and well planned to avoid interrupting csps' or cscs' business process. secondly, the scope 
+of the audit objectives and required resources should be clearl y defined and guaranteed for their 
+availability. lastly, all the audit procedures and requirements should be documented as well as the 
+audit team members' responsibilities. 
+3) protection of audit tools: the use of audit tools should be restricted and stand ardized to avoid the 
+misuse of cloud computing resources. 
+8.11.2 specific audit requirements 
+compared with the security audit procedures in the traditional information systems, the audit team members 
+are especially required to be familiar with the challenges brought by virtualization and other cloud computing 
+technologies. at the same time, the audit category need to expand from traditional security logs to the 
+operation and maintenance of data, business data, and even the storage location of the user data. the audit 
+items include but are not limited to: 
+1) virtualization security audit: the main audit requirements include the means of encryption and 
+integrity check for virtual image files, isolation and reinforcement of different virtual machines, 
+access control and migration of virtual machines, monitoring of virtual machines processes, and 
+vulnerability inspection in virtual machines, inner traffic monitoring and measures over the 
+virtualized network. 
+2) cloud platform architecture and components security audit: it is crucial to audit the rationality and 
+effectiveness of the countermeasures including the policy of security domain division, the security 
+redundancy of network architecture and core components, the vulnerability scanning and security 
+reinforcement, the packaging and distribution of patches, and the configurations of the intrusion 
+prevention system  (ips)/intrusion detection system  (ids), firewalls and virtualization security 
+devices. 
+3) operation, maintenance and business behaviour audit: audit r equirements mainly focus on 
+operation and maintenance records, business access logs, access to data, and business behaviour 
+inspection. 
+4) identity and access management (iam) and access control audit: the audit requirements are critical 
+to ensure the correct operation in the cloud computing environment, which include the design and 
+deployment of multifactor authentication, access control, single sign -on (sso), segregation of 
+duties, and management of privileged users. 

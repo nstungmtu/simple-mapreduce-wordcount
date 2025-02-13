@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+12  
+representative cloud service categories are: 
+– communications as a service (caas): a cloud service category in which the capability provided to 
+the cloud service customer is real time interaction and collaboration; 
+– compute as a service (compaas): a cloud service category in which the capabilities provided to the 
+cloud service customer are the provision and use of processing resources needed to deploy and run 
+software; 
+– data storage as a service (dsaas): a cloud service category in which the capability provided to the 
+cloud service customer is the provision and use of data storage and related capabilities; 
+– infrastructure as a service (iaas) : a cloud service category  in which the cloud capabilities type  
+provided to the cloud service customer is an infrastructure capabilities type; 
+– network as a service (naas): a cloud service category in which the capability provided to the cloud 
+service customer is transport connectivity and related network capabilities; 
+– platform as a service (paas): a cloud service category in which the cloud capabilities type provided 
+to the cloud service customer is a platform capabilities type; 
+– software as a service (saas): a cloud service category in which the cloud capabilities type provided 
+to the cloud service customer is an application capabilities type. 
+it is expected that there will be additional cloud service categories (see annex a). this recommendation | 
+international standard does not imply that any cloud service category is more important than any other. 
+6.5 cloud deployment models 
+cloud deployment models  represent how cloud computing  can be organized based on the control and 
+sharing of physical or virtual resources.  
+the cloud deployment models include: 
+– public cloud: cloud deployment model where cloud services are potentially available to any cloud 
+service customer and resources are controlled by the cloud service provider. a public cloud may be 
+owned, managed, and operated by a business, academic, or government organization, or some 
+combination of them. it exists on the premises of the cloud service provider. actual availability for 
+specific cloud service customers  may be subject to juris dictional regulations. public clouds have 
+very broad boundaries, where cloud service customer  access to public cloud services has few, if 
+any, restrictions; 
+– private cloud: cloud deployment model where cloud services are used exclusively by a single cloud 
+service customer and resources are controlled by that cloud service customer. a private cloud may 
+be owned, managed, and operated by the organization itself or a third party and may exist on 
+premises or off premises. the cloud service customer may also authorize access to other parties for 
+its benefit. private clouds seek to set a narrowly controlled boundary around the private cloud 
+based on limiting the customers to a single organization; 
+– community cloud : cloud deployment model  where cloud services  exclusively support and are 
+shared by a specific collection of cloud service customers  who have shared requirements and a 
+relationship with one another, and where resources are controlled by at least one member of this 
+collection. a community cloud  may be owned, managed, and operated by one or more of the 
+organizations in the community, a third party, or some combination of them, and it may exist on or 
+off premises. community clouds limit participation to a group of cloud service customers who have 
+a shared set of concerns, in contrast to the openness of public clouds, while community clouds have 
+broader participation than private clouds. these shared concerns include, but are not limited to, 
+mission, information security requirements, policy, and compliance considerations; 

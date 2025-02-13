@@ -1,0 +1,11 @@
+intercloud and interoperability 5 
+ 
+  859 
+bibliography 
+[b-itu-t y.3500]  recommendation itu-t y.3500 (2014), information technology – cloud 
+computing – overview and vocabulary. 
+[b-iso/iec 19086-1] iso/iec 19086-1:2016, information technology – cloud computing – service 
+level agreement (sla) framework – part 1: overview and concepts. 
+[b-iso/iec 19086-2] iso/iec 19086-2:2018, information technology – cloud computing – service 
+level agreement (sla) framework – part 2: metric model.  
+ 

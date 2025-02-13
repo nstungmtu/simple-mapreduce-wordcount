@@ -1,0 +1,30 @@
+4 video processing and storage  
+ 
+778  
+ 
+figure 7-2 – function components of csau 
+service control function 
+– initiate, maintain and release the connection with the scu; 
+– process the service requests from the csmu, forward them to the scu and respond to the csmu. 
+media control function 
+– receive media data from the md u, the pu, the msu and/or other data source entities of the vs 
+system; 
+– transmit or forward media data into the csdu cluster; 
+– receive media data distributed in the csdu cluster; 
+– transmit or forward media data to the mdu, the cu and/or other related entities of the vs system. 
+configuration management function 
+– manage the overall configuration in the csau, including the service control, data transmission and 
+other media storage control.  
+7.3 reference points 
+7.3.1 reference point pcs: pu-csau 
+the reference point pcs is located between the pu and the csau. it is used to deliver the media data directly 
+from the pu to the csau according to the media storage requests. 
+7.3.2 reference point mdc: mdu-csau 
+the reference point mdc is located between th e mdu and the csau. it is used for the media data 
+transmission between the mdu and the csau according to the media reading and writing requests. 
+7.3.3 reference point ss: csau-scu 
+the reference point ss is located between the csau and the scu. it is used to control the csau registration, 
+access authentication, authorization and accounting by the scu and is used for the control signal 
+transmission between the csau and the scu. 
+  
+

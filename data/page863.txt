@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  855 
+table i.4 – sso authentication within inter-cloud environment 
+figure 
+(optional) 
+ 
+pre-
+conditions 
+(optional) 
+– the csps(saas) form a federation pattern of inter-cloud. 
+– the csps(saas) use a third-party sso system for implementing sso authentication functionality 
+within their federation. 
+post-
+conditions 
+(optional) 
+– the csc is able to access various services offered by different csps once it is successfully 
+authenticated by any member of the csps(saas) federation. 
+derived 
+requirements 
+– sso authentication (refer to clause 7.4). 
+– periodical verification (refer to clause 7.5). 
+i.5 use case of control privilege of inter-cloud 
+this use case illustrates security and control concerns in inter-cloud. the peering pattern of inter-cloud used 
+to illustrate the use case is an example only. 
+ 
+table i.5 – control privilege of inter-cloud 
+title control privilege of inter-cloud 
+description – the csc requests saas service from csps(saas); 
+– both csp1(saas) and csp2(saas) use infrastructure including computing and storage 
+resources from csp (infrastructure as a service (iaas)) to provide their cloud services. 
+therefore, they all have service instances and data in csp(iaas); 
+– for the sake of csps(saas) data security and privacy, csp(iaas) control over the 
+infrastructure should be limited to avoid inspection or analysis of csps(saas) data and 
+vm instances without explicit csps(saas) consent; 
+– csps(saas) should be able to exercise fine-grained control over protection of their 
+cloud resources according to a given security sla. this means that csps(saas) should 
+be able to actively monitor their allocated resources; 
+– csps(saas) should not be authorized to monitor or modify vm state, service data and 
+csc data from other cscs. 
+roles cscs, csps(saas), csp(iaas). 
+

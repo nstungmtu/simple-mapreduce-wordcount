@@ -1,0 +1,60 @@
+framework and requirements for cloud computing 1 
+ 
+   205 
+table i.5 – relationship with related specifications from other sdos  
+no. requirements in this 
+recommendation 
+relationship with related specifications from other sdos 
+23 interface for 
+controlling fan speed 
+– [b-ocp 2s] requires vendors to enable fan speed control (fsc) on bmc. the 
+fsc algorithm processes sensor data and drives two pwm outputs to 
+optimized speed, in clause 9.12. 
+– [b-ocp ambh] requires odm to provide system access interface to retrieve 
+hardware sensor readings and control fan speed, in clause 6. 
+– [b-ocp dsbs] describes how decathlete server board shall support acpi to 
+control power and fan speed in clause 8.2. 
+– [b-ocp sfci] describes how server management controller like bmc use 
+standard ipmi commands to manage sfc in whole document. 
+– [b-ocp ocsps] describes that the psu shall adjust internal fan speed based 
+upon internal temperature sensor(s) in clause 4.3. 
+– [b-ocp tp] requires vendors to enable fsc on the bmc in clause  8.12. 
+24 monitoring status of 
+physical machine 
+– [b-ocp 1s] provides monitoring status set as 'there is also a blinking amber 
+heartbeat led on the twin lakes 1s server to indicate that the bridge ic is in 
+operating mode' in clause 9.8. 
+– [b-ocp 2s] provides system state monitor set as 'there are 4 states of 
+power/system identification led depending on system power state and 
+chassis identify status' in clause 9.6. 
+– [b-ocp yose] provides monitor status set as 'on the adapter card of a 
+yosemite v2 sled, there is a power button, a reset button, an ocp debug 
+card and a usb port attached to the current selected 1s server. there are 
+four blue leds placed on the baseboard in the same order as 1s server slots 
+to indicate server status' in clause 9.4. 
+– [b-ocp o1usm] provides visual indication set as 'a 3d mechanical drawing 
+of the front panel is shown in figure 2. the front panel supports the 
+following mechanical features. status leds o uid, attention, power status' 
+in clause 4.1. 
+25 visual indications – [b-ocp jbog] provides system event log (sel) set as 'the bmc needs to 
+support sel capabilities. the following items are to be logged in the sel' in 
+clause 7.1.  
+– [b-ocp sj] provides silk screen colour set as 'the colour of silk screen is 
+white and the labels for the components are listed as below' in clause 13.4. 
+– [b-ocp yose] provides visual feedback set as 'the led associated with the 
+active 1s server blinks as visual feedback to the user. when a bmc is 
+selected, all four leds blink as visual feedback to the user' in clause 9.4.1.  
+– [b-ocp oapm] provides visual indication set as 'the motherboard supports 
+a blue uid (unit id) led used to help visually locate a specific server within a 
+data centre' in clause 6.11.1. 
+26 equipment for 
+mounting and removal 
+– [b-ocp 1s] provides easy to remove set as 'the air baffle must be easy to 
+service with the goal of requiring no tooling to remove' in clause 6.6.  
+– [b-ocp 2s] provides removal set as 'it is installed on a sheet metal panel 
+with tool-less install and removal' in clause 12.2.5. 
+– [b-ocp imbh] provides mounting and removal set as 'in order to remove 
+and install one board without affecting the other board, the following 
+internal connectors are placed as close as possible to front of the board in 
+order to have easy frontal access' in clause 4.2 and "the pcie* x4 connector 
+can be hot inserted and removed" in clause 10.2. 

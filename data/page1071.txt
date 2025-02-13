@@ -1,0 +1,55 @@
+security 7 
+ 
+  1063 
+in order for the cloud service customer to perform capacity management for cloud services, the cloud service 
+customer should have access to relevant statistics on resource usage, such as: 
+– statistics for particular time periods; 
+– maximum levels of resource usage. 
+12.1.4 separation of development, testing and operational environments 
+control 12.1.4 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.2 protection from malware 
+the objective specified in clause 12.2 of iso/iec 27002 applies. 
+12.2.1 controls against malware 
+control 12.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+12.3 backup 
+the objective specified in clause 12.3 of iso/iec 27002 applies. 
+12.3.1 information backup 
+control 12.3.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+where the cloud service provider provides backup 
+capability as part of the cloud service, the cloud service 
+customer should request the specifications of the 
+backup capability from the cloud service provider. the 
+cloud service customer should also verify that they meet 
+their backup requirements. 
+the cloud service customer is responsible for 
+implementing backup capabilities when the cloud 
+service provider does not provide them. 
+the cloud service provider should provide the 
+specifications of its backup capabilities to the cloud 
+service customer. the specifications should include the 
+following information, as appropriate: 
+– scope and schedule of backups; 
+– backup methods and data formats, including 
+encryption, if relevant; 
+– retention periods for backup data; 
+– procedures for verifying integrity of backup data; 
+– procedures and timescales involved in restoring data 
+from backup; 
+– procedures to test the backup capabilities; 
+– storage location of backups. 
+the cloud service provider should provide secure and 
+segregated access to backups, such as virtual snapshots, 
+if such service is offered to cloud service customers. 
+other information for cloud services 
+the allocation of responsibilities for making backups in the cloud computing environment is often unclear. in 
+the case of  iaas, responsibility for making backups generally resides with the cloud service customer. 
+however, a cloud service customer might not be aware of its responsibility to make backups of all cloud 
+service customer data produced in the cloud computing system, such as executable files produced by the use 
+of development capabilities of a paas service. 
+note – varying levels of backup and restore might be offered as a service at additional cost and, in this case, cloud 
+service customers can choose what and when to backup. 

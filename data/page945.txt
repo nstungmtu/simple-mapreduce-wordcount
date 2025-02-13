@@ -1,0 +1,42 @@
+intercloud and interoperability 5 
+ 
+  937 
+i.10 oasis references and associated summaries 
+[oasis tosca-v1.0] – topology and orchestration specification for cloud applications version 1.0 
+i.11 odca references and associated summaries 
+[odca saas_interop_um_rev1.0] – software as a service (saas) interoperability 
+this usage model outlines five usage scenarios based on two perspectives of interoperability, along with 
+success and failure scenarios for each. in addition, service provider requirements and an industry call to 
+action are presented. 
+[odca paas_interop_um_rev1.0] – platform as a service (paas) interoperability 
+this paper outlines five usage scenarios, along with success and failure scenarios for each. finally, csp 
+requirements and an industry call to action are presented. 
+[odca vm_interoperability_in_a hybrid_cloud_enviroment_rev1.2] – virtual machine (vm) 
+interoperability in a hybrid cloud environment 
+this document addresses a number of important additional dimensions including extending the portability 
+concept, extending the life cycle model with states and conditions, and increased alignment with external 
+activities such as that of the ovf specification 
+[odca vm_interop_poc_white_paper] – implementing the open data center alliance virtual machine 
+interoperability usage model 
+a team led by t-systems telekom innovation laboratories, the fzi research team from the university of 
+karlsruhe and supported by intel corporation carried out a poc project to implement the usages described 
+in the document, described in this report. 
+i.12 ogf references and associated summaries 
+[ogf gfd.183] open cloud computing interface – core 
+the occi core specification defines the occi core model. the occi core model can be interacted with 
+renderings (including associated behaviours) and expanded through extensions. 
+[ogf gfd.184] – open cloud computing interface – infrastructure 
+occi infrastructure contains the definition of the occi infrastructure extension for the iaas domain. the 
+specification defines additional resource types, their attributes and the actions that can be taken on each 
+resource type. 
+[ogf gfd.185] – open cloud computing interface – restful http rendering 
+the occi http rendering defines how to interact with the occi core model using the restful occi api. the 
+specification defines how the occi core model can be communicated and thus serialized using the http 
+protocol. 
+[ogf gfd.192] – web services agreement specification (ws-agreement) 
+the web services agreement specification (ws -agreement), a web services protocol for establishing 
+agreement between two parties, such as between a service provider and consumer. 
+[ogf gfd.193] – ws-agreement negotiation 
+the ws -agreement negotiation specification, a web services protocol for multi -round negotiation of an 
+agreement between two parties, such as betw een a service provider and consumer. works on top of ws -
+agreement. 

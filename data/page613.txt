@@ -1,0 +1,11 @@
+xaas 3 
+ 
+  605 
+bibliography 
+ 
+[b-itu-t y.2201] recommendation itu-t y.2201 (2011), requirements and capabilities for itu-t ngn. 
+[b-itu-t y.2701] recommendation itu-t y.2701 (2007), security requirements for ngn release 1. 
+[b-itu-t y.3500]  recommendation itu-t y.3500 (2014), information technology – cloud computing – 
+overview and vocabulary. 
+[b-dmtf ovf]  dmtf standard dsp0243 version 1.0.0 (2009), open virtualization format specification. 
+ 

@@ -1,0 +1,35 @@
+xaas 3 
+ 
+  733 
+iaas infrastructure as a service 
+iam identity and access management 
+idm identity management 
+olap online analytical processing 
+os operating system 
+paas platform as a service 
+pki public key infrastructure 
+rest representational state transfer 
+saas software as a service 
+sap service access point 
+sla service level agreement 
+5 conventions 
+none. 
+6 overview 
+a software as a s ervice (saas) application environment is a service -oriented multi -tenant development, 
+deployment and execution environment in which software and its associated data are hosted centrally and 
+are typically accessed on-demand by users using a client, e.g., a web browser, over the internet. 
+while this recommendation is primarily concerned with saas, some of the concepts in this recommendation 
+may also be applicable to other cloud service categories that also include the application capabilities type, 
+for example communications as a service (caas). 
+figure 1 depicts a conceptual model of a saas application environment. the underlying capabi lities from 
+infrastructure as a service (iaas), platform as a service (paas) and desktop as a service  (daas) will be 
+encapsulated into services and provide consistent secure access using exported service access point (sap). in 
+this recommendation, iaas could provide computing services, storage services and network services; paas 
+could provide platform service, and daas could provide desktop service for a saas application environment. 
+all these services constitute the basic building blocks of an application development. 
+the environment also provides some necessary service management functions including service registration, 
+service configuration, service orchestration, service dependency checking, service access control, service 
+isolation, service monitoring and other service control functions. 
+ 
+figure 1 – conceptual model for the saas application environment 
+

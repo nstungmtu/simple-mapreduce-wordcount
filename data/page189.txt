@@ -1,0 +1,37 @@
+framework and requirements for cloud computing 1 
+ 
+   181 
+– management component: a management component monitors and controls all components in a 
+physical machine, by analyzing the gathered status inf ormation from the components. 
+a management component is a mandatory component for the physical machine. 
+note – standard interfaces (e.g., i2c, pmbus, ethernet, uart, pwm) are normally used to communicate between the 
+management component and others.  
+beside these components, the following are needed to manage and operate the physical machine: 
+– i/o interface is used for i/o device to  communicate with other physical machines or csc/csp. the 
+i/o interface has two capabilities (i) capability to provide the channel for data input and output of 
+the physical machine, (ii) capability to provide the channel for csp/csc to access the physical 
+machine. the i/o interface follows industrial standards so that the csp could select and replace the 
+components from multiple vendors. the cloud computing management system communicates with 
+the physical machines without any other development by the standard management interface.  
+– physical machine operation reports and maintains its running information, as well as environment 
+condition periodically to the cloud computing management system [itu -t y.3521]. in addition, the 
+administrator can operate the physical machine with operation capabilities.  
+– scalability of components in the physical machines allows the physical machines to extend their 
+resources elastically in the processing units, power supply and cooling system. 
+– security of the physical machine provides access control of the processing units. 
+– reliability of the physical machine is to keep physical machine consistently performing as expected. 
+to provide reliability, when some components fail, the physical machine needs to support, detect  
+and locate the faulty components. 
+6.3 types of physical machine 
+6.3.1 single processing unit type 
+the single processing unit type of physical machine has one processing unit, a single management component 
+as well as one or more power supplies and cooling components. since a single processing unit type has only 
+one processing unit, no interconnect network component is involved in this type.  
+note – an example of single processing unit type is a rack server [b-ocp bs]. 
+ 
+figure 6-3 – example of single processing unit type  
+6.3.2 multi-processing unit type 
+the multi-processing unit type has two or more processing units, as well as one or more power supplies, 
+cooling components and a single management component and a single interconnect network.  
+note – examples of a multi-processing unit type are blade servers [b-ocp osr] and rack scale servers [b-ocp ocsc]. 
+

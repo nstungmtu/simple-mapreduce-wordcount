@@ -1,0 +1,47 @@
+security 7 
+ 
+  979 
+9.8 security coordination 
+since different cloud computing services imply different implementations of security controls , this security 
+capability coordinates heterogeneous security mechanisms to avoid protection conflicts. 
+parties playing different roles in the cloud computing ecosystem, e.g., csp, csc, csn, have different degrees 
+of control over the physical or virtual resources and services, including the control of security. 
+for each party, there will be various security mechanisms including hypervisor isolation, i am, network 
+protection, etc. 
+one of the purposes of cloud computing is to enable a combination of these different parties to 
+collaboratively design, build, deploy and operate various physical and virtualized resources together. 
+therefore, a csp needs to be able to coordinate different security mechanisms across the different parties. 
+security coordination depends on the interoperability and harmonization of diverse security mechanisms. 
+9.9 operational security 
+this capability provides security protection for the daily operation and maintenance of cloud computing 
+services and infrastructure. 
+this operational security capability includes: 
+• defining sets of security policies and security activities  such as configuration management, patch 
+upgrade, security assessment, incident response (see also clause 9.10 "incident management"), and 
+ensuring these security measures are correctly enforced to fulfil the requirements of applicable laws 
+and contracts including any security sla; 
+• monitoring the csp's security measures and their effectiveness, and giving appropriate reports to 
+affected cscs and applicable third -party auditors (acting as a csn), which can enable the csc to 
+measure whether a csp is delivering on sla security commitments. 
+in the event that the csp's security measures or their effectiveness changes, all downstream csps and cscs 
+will be alerted to such changes. 
+these reports and alerts enable authorized cscs to see appropriate incidents, audit information, and 
+configuration data relating to their cloud computing services. 
+9.10 incident management 
+incident management provides incident monitoring, prediction, alerting and response. in order to know 
+whether the cloud computing service is operating as expected through the whole infrastructure, continuous 
+monitoring is necessary (e.g., monitoring the real -time performance of virtualized platform and virtualized 
+machine). this enables systems to capture the service security status, identify abnormal conditions, and 
+provide early warning of security system overloads, breaches, service discontinuity, etc. after the occurrence 
+of security incidents, the problem is identified and the incident is quickly responded to, either automatically 
+or with the intervention of a human administrator. closed incidents are logged and analysed for possible 
+underlying patterns which can then be proactively addressed. 
+9.11 disaster recovery 
+disaster recovery represents the capability to respon d to catastrophic disasters, to recover to a safe state  
+and to resume normal opera tions as quickly as possible . this capability provides  continuity of provided 
+service with minimum interruption. 
+9.12 service security assessment and audit 
+this capability enables the security evaluation of cloud computing services. it enables an authorized party to 
+verify that a cloud service complies with the applicable security requirements. security assessment or 
+security audit could be performed by the csc, csp or a third party (csn), and security certification could be 
+performed by an authorized third party (csn). 

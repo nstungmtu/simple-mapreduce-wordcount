@@ -1,0 +1,46 @@
+ framework and requirements for cloud computing 1 
+ 
+   329 
+– resiliency. cloud computing can support big data to have resiliency capabilities to maintain an 
+acceptable level of service in the face of faults affecting normal operation. 
+– cost effectiveness. big data facilitates fast and scalable data processing such as system log analysis 
+and click streams analysis. for many systems and platforms, there are huge volumes of log data and 
+traditionally database s are used to  perform log analysis. but the cost  to perform data analysis  
+(including costs of storage, system maintenance, etc.) is too high when traditional mechanisms are 
+used. cloud computing can offer flexible and scalable resources in a cost effective manner. 
+– efficient analysis. in order to extract more valuable insights, big data applications and services need 
+a well-defined analytic strategy as well as processing power. the cloud computing based big data 
+service may dynamically use the required resources. 
+– deep information extraction. big data  develops new business insights and mechanisms including 
+prediction and decision assistan ce. this is different from conventional systems because the data 
+processing logic to handle the raw data and what kind of information can be extracted from datasets 
+is already known.  
+8 requirements of cloud computing based big data 
+8.1 data collection requirements 
+the data collection requirements include: 
+1) it is required for the csp:bdip to support collecting data from multiple csn:dps in parallel; 
+2) it is recommended for the csn:dp to expose data to the csp:bdap by publishing metadata; 
+3) it is recommended that the csp:bdip supports collecting data from different csn:dps with different 
+modes; 
+ note – data could be collected in different modes, such as pull mode in which the data col lection process is 
+initiated by csp:bdip, or push mode in which the data collection process is initiated by the csn:dp.  
+4) it is recommended for the csn:dp to provide a brokerage service to the csp:bdip for searching 
+accessible data; 
+ note – brokerage prov ides data a catalogue which has data information such as data specification, data 
+instructions, electronic access methods, license policy, data quality, etc.  
+5) it is recommended that the csp:bdip integrates data delivered by the csc and data publicly 
+available; 
+6) data collection can optionally be performed by the csp:bdip in real-time. 
+8.2 data pre-processing requirements 
+the data pre-processing requirements include: 
+1) it is required for the csp:bdip to support data aggregation; 
+ note – data from different sources can be organized in the same model or data  format, as described in 
+clause 6.1. 
+2) it is recommended that the csp:bdip provides the dedicated resources for pre-processing; 
+ note – pre-processing includes extraction, transformation and de-noising of the collected data. 
+3) it is recommended that the csp:bdip supports unification of data collected in different formats; 
+ note –unification of data is for example to unify data about persons/location s/dates extracted from web  
+pages, pictures, videos, sns data and calling logs to text format. 
+4) it is recommended for the csp:bdip to support extraction of data from unstructured data or semi-
+structured data into structured data. 
+ note – this requirement can be applied also to data storage. 

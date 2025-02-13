@@ -1,0 +1,36 @@
+xaas 3 
+ 
+738  
+ 
+figure 6 – relationship among csc, csp and csn 
+csp and csn have their own security requirements about the environment in different levels of saas. table 
+2 illustrates the security requirements of csp and csn in the saas application environment. the requirements 
+applicable for both csp and csn are the common requirements. 
+table 2 – security requirements of csp and csn in saas application environment 
+ saas application environment 
+common 
+requirements 
+identity and access management, data security, security assessment and audit, interface security, 
+security hardening. 
+csp availability, service interoperability/portability guarantee, software assets protection, legal 
+compliance, security verification for source codes. 
+csn audit security, software security, software maintainability. 
+8.1 common security requirements 
+for both csp and csn, they have several common security requirements in the saas application environment. 
+8.1.1 identity and access management (iam) 
+8.1.1.1 identity management (idm) 
+multiple administrators and users are involved in the saas application environment, which can be accessed 
+to and used internally (csps) and externally (csns). identity management (idm) is needed not only to protect 
+identities, but also to facilitate access management, authentication, authorization and tr ansaction audit 
+processes in such a dynamic and open saas application environment. 
+for all maturity models, idm should enable the implementation of single sign-on and/or identity federation 
+for the saas application environment using varied authentication mechanisms in different security domains. 
+8.1.1.2 trust model 
+the saas application environment is required to incorporate an overall trust model  for both multi -tenant 
+level and scalable level. this trust model will enable the creation of is lands and/or federations of trusted 
+entities. consequently, the saas ap plication environment management system, the underlying resources, 
+hypervisors, virtual machines and applications built upon the saas application environment will be able to 
+authenticate the identities and authorized rights of other entities and components. each island or federation 
+of trust will be based on one or more trusted authorities (e.g. , a public key infrastructure (pki) certificate 
+authority). 
+

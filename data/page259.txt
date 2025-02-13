@@ -1,0 +1,38 @@
+ framework and requirements for cloud computing 1 
+ 
+   251 
+ii.6 high mobility support on distributed cloud 
+table ii.6 – high mobility support on distributed cloud 
+use case 
+name high mobility support on distributed cloud. 
+abstract this use case illustrates an example of high mobility support on distributed cloud.  
+a typical mobility support environment follows a method of modifying the packet routing path 
+while the location of the service is fixed. on the distributed cloud, the location of the service is 
+different from the conventional cloud and is located near the user. accordingly, the distributed 
+cloud needs high mobility. 
+as an example, the below figure shows two ways of mobility while an end device moves with 
+different type of access. one way is that the regional cloud routes the packet to the previous 
+edge cloud as shown in step 3 in the figure below. (it is also possible to route the cloud service 
+to the current edge cloud.) another way is that the core cloud routes the cloud service to the 
+edge cloud near the end device by scaling or migrating the cloud service with hig h-speed and 
+reliable network connectivity as shown in step 5 and 6. the cloud service is from the previous 
+edge cloud or the core cloud. therefore, to efficiently support high mobility on the distributed 
+cloud, both ways are selected based on service level agreement (sla) for the cloud service. sla 
+includes latency, quality of service, etc. 
+figure 
+ 
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+requirements – heterogeneous device access (see clause 7.1) 
+– high speed network connectivity (see clause 7.2) 
+– reliable network connectivity (see clause 7.2) 
+– context awareness (see clause 7.2) 
+– service mobility (see clause 7.3) 
+– service migration (see clause 7.3) 
+– context information management (see clause 7.4) 
+  
+

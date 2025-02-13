@@ -1,0 +1,27 @@
+3 xaas  
+ 
+674  
+networking layers used by the naas csp, covering interworking of the relevant c ontrol functionali ties, 
+forwarding functionalities as well as management functionalities for each of these networking layers. 
+7.7.1 functionalities for mapping between physical resources and virtualized networks 
+as part of naas resource functionalities, th ese functionalities are responsible to support the mapping 
+between underlying physical resources and virtualized networks exposed to the naas csc as part of naas 
+services, via which, the near real -time utilization of underlying physical resources (physical nodes, physical 
+links, etc) can be obtained. 
+7.8 functionalities for an evolved real-time oss 
+the oss functionalities for naas consist of a set of capabilities for accessing the relevant oss functions related 
+to naas. they are related to functional components of the operations support systems defined in the multi-
+layer functions. these functions span the layered framework of the cloud computing reference architecture 
+(ccra). 
+as presented in clause 6. 3, aspects to  be controlled and managed in real -time by t he oss include the 
+following: 
+− naas services; 
+− network services (see definition in clause 3.2.3); 
+− network functions (see definition in clause 3.2.2); 
+− virtual cloud compute and storage (ccs) resources; 
+− virtualized network connectivity; 
+− physical resources (compute, storage, networking). 
+figure 7-1 describes the organization of the oss functionalities to fulfil the management of the above aspects. 
+ 
+figure 7-1 – oss functionalities for naas 
+

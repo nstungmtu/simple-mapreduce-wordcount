@@ -1,0 +1,46 @@
+xaas 3 
+ 
+    643 
+3.1.6 cloud service customer data [itu-t y.3500]: class of data objects under the control, by legal or other 
+reasons, of the cloud service customer that were input to the cloud service, or resulted from exercising the 
+capabilities of the cloud service by or on behalf of the clo ud service customer via the published interface of 
+the cloud service. 
+note 1 – an example of legal controls is copyright. 
+note 2 – it may be that the cloud service contains or operates on data that is not cloud service customer data; this 
+might be data mad e available by the cloud service providers, or obtained from another source, or it might be publicly 
+available data. however, any output data produced by the actions of the cloud service customer using the capabilities 
+of the cloud service on this data is likely to be cloud service customer data, following the general principles of copyright, 
+unless there are specific provisions in the cloud service agreement to the contrary.  
+3.1.7 cloud service provider [itu-t y.3500]: party which makes cloud services available.  
+3.1.8 cloud service provider data  [itu-t y.3500]: class of data objects, specific to the operation of the 
+cloud service, under the control of the cloud service provider. 
+note – cloud service provider data includes but is not limited to resource con figuration and utilization information, 
+cloud service specific virtual machine, storage and network resource allocations, overall data centre configuration and 
+utilization, physical and virtual resource failure rates, operational costs and so on.  
+3.1.9 infrastructure as a service [itu-t y.3500]: clo ud service category in which the cloud capabilities 
+type provided to the cloud service customer is an infrastructure capabilities type.  
+note – the cloud service customer does not manage or control the underlying physical and virtual resources, but does 
+have control over operating systems, storage, and deployed applications that use the physical and virtual resources. 
+the cloud service customer may also have limited ability to control certain networking components (e.g., host firewalls). 
+3.1.10 infrastructure capabilities type  [itu-t y.3500]: cloud capabilities type in which the cloud service 
+customer can provision and use processing, storage or networking resources. 
+3.1.11 open virtualization format  [b-iso/iec ovf ]: an open, secure, portable, efficient and extensible 
+format for the packaging and distribution of software to be run in virtual machines. 
+3.1.12 party [itu-t y.3500]: natural person or legal person, whether or not incorporated, or a group of 
+either. 
+3.1.13 tenant [itu-t y.3500]: group of cloud ser vice users sharing access to a set of physical and virtual 
+resources. 
+3.2 terms defined in this recommendation 
+none. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+cpu  central processing unit 
+csc  cloud service customer 
+csp  cloud service provider 
+lun   logical unit number 
+iaas  infrastructure as a service 
+ip   internet protocol 
+i/o  input/output 
+naas  network as a service 
+nat   network address translation 
+nic   network interface card 

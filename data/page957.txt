@@ -1,0 +1,29 @@
+monitoring 6 
+ 
+   949 
+ 
+figure 6-2 – functional components of the cloud computing reference architecture 
+7 monitoring parameters 
+monitoring cloud resources and services is a key tool that helps cloud computing providers and consumers 
+in designing, building and improving a cloud system, eliminating performance bottlenecks and identifying 
+security flaws. applications (e.g., streaming,  web, indexing, compute and storage services) are distributed 
+across cloud layers including platform as a service (paas) and infrastructure as a service (iaas). in 
+consequence, all parameters performed across all layers of the cloud stack need to be metere d and 
+monitored. these include not only cloud resource and network access, but also deployed services and 
+applications. 
+7.1 resource layer parameters 
+the resources layer is where the physical and virtual resources, as well as generic software, reside. this layer 
+includes equipment typically used in a data centre such as servers, networking switches and routers, storage 
+devices, in addition to the corresponding non -cloud specific software that runs on the servers and other 
+equipment such as host operating sy stems, hypervisors, device drivers and generic systems management 
+software. 
+7.1.1 physical computing resources 
+physical computing resources include  any hardware within a computer system for running an operating 
+system and software.  an iaas administrator ca n add physical computing resources to or remove physical 
+computing resources from a virtual machine (vm). 
+in order to ensure that the deployed software and hardware resources run at the required level to satisfy the 
+service level agreement (sla), a continuous physical resource monitoring process is desirable. 
+processors, memory and disks are basic computing and storage resources. monitoring these resources can 
+detect system failures or corruption before they become completely non -recoverable. so, monitoring  
+functions and status of these resources to ensure system availability benefits users. 
+

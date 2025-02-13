@@ -1,0 +1,33 @@
+ framework and requirements for cloud computing 1 
+ 
+   303 
+table i.4 – inter-cloud use case: guaranteed availability in the event  
+of a disaster or large-scale failure 
+use case 
+high-level figure describing the 
+use case 
+ 
+derived requirements for cloud 
+capability 
+the system is required to support: 
+– policy negotiation including sla management among the multiple csps 
+within a pre-established group; 
+– self-activity monitoring at a csp or mutual activity monitoring among the 
+csps in a pre-established group. if the activity disappears, the detecting csp 
+should initiate the pre-configured actions; 
+– discovery, reservation, use and release of cloud resources in a dynamic 
+manner (i.e., not relying on the pre-configuration) on other csps within the 
+federation; 
+– application invocation over the reserved resources on other csps within the 
+federation; 
+– alteration and reversion (i.e., switchover and switchback), in a dynamic 
+manner (i.e., not relying on the pre-configuration), of csc access to any csp 
+within the federation; 
+– exchange of monitoring and auditing information among the multiple csps 
+within the federation; 
+– exchange of authentication information about csc (user/enterprise) 
+authentication status among the multiple csps within the federation.  
+i.5 service continuity (in the case of service termination of the original csp) 
+table i.5 shows an inter-cloud use case for service continuity in the case of service termination of the original 
+csp. 
+

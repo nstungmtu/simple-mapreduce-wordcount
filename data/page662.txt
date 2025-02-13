@@ -1,0 +1,37 @@
+3 xaas  
+ 
+654  
+use case 
+figure  
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism. 
+– csc has created a vm (e.g., vm1). 
+– csc needs more vms identical or similar to vm1. 
+post-conditions 
+(optional)   
+description – csc selects vm1 which it wants to clone. 
+– csc selects clone operation, and changes some regular parameters, for example, vm 
+name, the number of cpus and memory. in this case, csc clones two vms, i.e., vm11 
+and vm12. 
+– csc starts the cloned vms, and the cloned vms are similar to the original one, with 
+slight difference in the changed parameters. 
+requirements – vm clone (refer to clause 7.1.6) 
+ 
+i.3.3  vm backup use case 
+use case 
+name  iaas use case on vm backup 
+abstract  csp recovers the vm according to the backup policies csc configured. 
+roles  csc, csp 
+figure  
+ 
+pre-conditions 
+(optional)  
+– csc accesses the iaas through portal with appropriate security mechanism. 
+– csc has created a vm which is in a normal running state and deployed csc's 
+application on the vm. 
+– csc needs backup functions to support its application. 
+post-conditions 
+(optional)   
+

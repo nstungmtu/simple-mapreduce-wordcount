@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   407 
+• iso/iec 19086-2: this part of iso/iec 19086 defines a model for specifying metrics for cloud service 
+level agreements (slas) and includes applications of the model with examples. this part of iso/iec 
+19086 establishes a common terminology and approach for specifying metrics. 
+ this standard is for the benefit and use of both cloud service providers and cloud service customers. 
+ this standard is intended to complement iso/iec 19086-1, iso/iec 19086-3 and iso/iec 19086-4. 
+ this part of iso/iec 19086 does not mandate the use of a specific set of metrics for cloud slas. 
+ this part of iso/iec 19086 does not supersede any legal requirement. 
+ uri: https://www.iso.org/standard/67546.html 
+• iso/iec 19086-3: this international standard specifies core conformance requirements for service 
+level agreements (slas) for cloud services for iso/iec 19086. this standard is for the benefit and use 
+for providers and customers.  
+ this standard does not provide a standard structure that would be used for cloud sla contracts. 
+ this document does not supersede any legal requirement. 
+ uri: https://www.iso.org/standard/67547.html  
+• iso/iec 19086 -4: this document specifies security and protection of personally identifiable 
+information components, slos and sqos for cloud service level agreements (cloud slas) including 
+requirements and guidance. this document is for the benefit and use of both csps and cscs. 
+ note – iso/iec 19086-4 is initiated in jtc 1/sc 38 and transferred to jtc 1/sc 27. 
+ uri: https://www.iso.org/standard/68242.html  
+• iso/iec 19941: this document specifies cloud computing interoperability and portability types, the 
+relationship and interactions between these two cross -cutting aspects of cloud computing, and 
+common terminology and concepts used to discuss interoperability and portability and particularly 
+relating to cloud services. this document is related to other s tandards namely iso/iec 17788, 
+iso/iec 17789, iso/iec 19086 -1, iso/iec 19944, and in particular references the cross -cutting 
+aspects and components identified in iso/iec 17788 and iso/iec 17789 respectively. the goal of this 
+document is to ensure that all parties involved in cloud computing, particularly cscs, csps and csns 
+acting as cloud service developers, have a common understanding of interoperability and portability 
+for their specific needs. this common understanding helps to achieve interoperability and portability 
+in cloud computing by establishing common terminology and concepts. 
+ uri: https://www.iso.org/standard/66639.html 
+• iso/iec 19944 : this document extends the existing cloud computing vo cabulary and reference 
+architecture in iso/iec 17788 and iso/iec 17789 to describe an ecosystem involving devices 
+consuming cloud services, describes the various types of data flowing within the devices and cloud 
+computing ecosystem, describes the impact of connected devices on the data that flows within the 
+cloud computing ecosystem, describes flows of data between cloud services, cloud service 
+customers and cloud service users, provides foundational concepts, including a data taxonomy, 
+identifies the cate gories of data that flow across the cloud service customer devices and cloud 
+services. this document is applicable primarily to cloud service providers, cloud service customers 
+and cloud service 56 users, but also to any person or organization involved in legal, policy, technical 
+or other implications of data 57 flows between devices and cloud services. 
+ uri: https://www.iso.org/standard/66674.html 

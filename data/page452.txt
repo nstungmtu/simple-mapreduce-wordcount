@@ -1,0 +1,24 @@
+2 cloud computing management  
+ 
+444  
+annex a 
+ 
+use of smi-based model across various cloud architecture layers 
+(this annex forms an integral part of this recommendation.) 
+this annex describes smi-based models that can be used across various cloud computing architecture layers. 
+the following figure provides an example of mapping the e2e smi concept onto the cloud computing 
+reference architecture [itu-t y.3502]. 
+ 
+figure a.1 – example mapping of smi to cloud computing reference architecture 
+in figure a.1, a number of example smis are identified. 
+firstly, an enterprise csc 's management interface into a cloud service, documented in [itu -t y.3502] as 
+"administer cloud service", is im plemented as an smi. the interface is routed via the access layer for 
+connectivity and access control purposes. 
+secondly, as shown in [itu -t y.3520] to support inter -cloud scenarios [itu -t y.3511], it is possible for one 
+csp to act as the csc of another, and as such it can employ the same type of smi as in the first case. this is 
+illustrated above in the smis between the bss of csp -b (acting as a csu) and the access layer of csp-c. this 
+can then be cascaded through additional csps if desirable. 
+thirdly, an operator's management console may employ multiple smis to different services and providers. in 
+reference architecture terms, such a console is also acting as a csc, although a very specialised one. 
+thus the same smi concept [itu-t y.3520] is being used in every case. 
+

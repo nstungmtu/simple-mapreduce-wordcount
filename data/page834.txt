@@ -1,0 +1,48 @@
+5 intercloud and interoperability  
+ 
+826  
+this function includes the following. 
+– service provisioning automation. this allows automation of workflows to realize inter-cloud service 
+deployment between peer csps, without manual operations. 
+ note 1 – typical use cases of service provision automation include: automatic recovery, scale -in and scale -
+out, switchover and switchback of cloud services with peer csps. 
+– service configuration automation. this allows automation of workflows to realize automated inter-
+cloud service configuration, without manual operations. 
+ note 2 – service provisioning and configuration automation allows for policy-based automated workflows for 
+inter-cloud services. 
+7.2.6 service level management 
+the service level management function manages the service levels of a particular inter-cloud service to meet 
+the requirements of the sla. 
+this function includes the following. 
+– sla negotiation. this allows for negotiating inter -cloud service level information, e.g., capacity, 
+performance, between peer csps. 
+– service level tracking. this allows for measuring and recording of key performance indicators (kpis) 
+of inter-cloud service between peer csps according to the monitoring results. 
+– service performance management. this allows for adjusting of particular inter-cloud service 
+performance based on service performance tracking results to meet the requirements of the sla. 
+– service capacity management. this allows for identifying of current or potential capacity bottlenecks 
+by comparing the allocated inter-cloud service capacity with kpis, and planning inter-cloud service 
+capacity to meet the requirements of the sla. 
+7.2.7 incident and problem management 
+the incident and problem management function detects and reports inter-cloud incidents and problems. 
+this function includes the following. 
+– incident and problem detection. this allows for capturing of inter -cloud incidents or problems 
+between peer csps. 
+– incident and problem reporting. this allows for providing and exchanging of inter-cloud incident or 
+problem reports to peer csps. 
+7.2.8 peer service management 
+the peer service management function allows for connecting of oss and bsss of a peer csp, by adapting an 
+inter-cloud management application programming interface (api). 
+this function includes: 
+– inter-cloud connection management. this allows for managing of connectivity with peer csp s 
+involved in an inter-cloud relationship. 
+– access of the bsss of a peer csp. this allows for accessing  to the inter-cloud bsss of peer csp with 
+appropriate identity and credentials  to provide business capabilities. the identity and credentials 
+are provided by inter-cloud security (see clause 7.4). the functions of inter-cloud bsss can be found 
+in clause 7.1. 
+– access to the oss of a peer csp. this allows for accessing to the inter-cloud oss of a peer csp with 
+appropriate identity and credentials  to provid e administration capabilities. the identity and 
+credentials are provided by inter-cloud security (see clause 7.4). the functions of an inter-cloud oss 
+can be found in clause 7.2. 
+– inter-cloud management api adaptation. this allows for adapting of an inter -cloud bss- and oss-
+related api from a peer csp. 

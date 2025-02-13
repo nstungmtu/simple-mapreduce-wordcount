@@ -1,0 +1,16 @@
+ framework and requirements for cloud computing 1 
+ 
+   165 
+table i.9 – a use case for cloud service management in csb 
+post-conditions 
+(optional)  
+derived 
+requirements 
+– delivering request of cloud service control (see clause 7.5) 
+– validation of result for request of cloud service control (see clause 7.5)  
+– history of cloud service control status validation (see clause 7.5) 
+– cloud service monitoring (see clause 7.5) 
+– detection of failures to meet the terms of the sla (see clause 7.5) 
+– remedies for failures to meet the terms of the sla (see clause 7.3) 
+– delivering cloud resource request (see clause 7.4) 
+ 

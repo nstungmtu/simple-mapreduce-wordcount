@@ -1,0 +1,41 @@
+cloud computing management 2 
+ 
+  427 
+3.1.6 inter-cloud computing [itu-t y.3511]: the paradigm for enabling the interworking between two or 
+more cloud service providers. 
+note – inter-cloud computing is also referred as inter-cloud. 
+3.1.7 management system [b-itu-t m.60]: a system with the capability and authority to exercise control 
+over and/or collect management information from another system. 
+3.1.8 service level agreement  (sla) [b-itu-t y.3500] : documented agreement between the service 
+provider and customer that identifies services and service targets. 
+note 1 – a service level agreement can also be established between the service provider and a supplier, an internal 
+group or a customer acting as a supplier. 
+note 2 – a service level agreement can be included in a contract or another type of documented agreement. 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 service management interface  (smi): interface that provides a set of management capabilities 
+exposed by a cloud service through which the cloud service can be managed. 
+note – for additional details of smi concepts, see [itu-t y.3520] and [b-tmf tr198]. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+bss business support system 
+csc cloud service customer 
+csp cloud service provider 
+csu cloud service user 
+ct  communication technology 
+e2e end-to-end 
+ems element management system 
+etom enhanced telecom operations map 
+iaas infrastructure as a service 
+it information technology 
+kqi key quality indicator 
+naas network as a service 
+nms network management system 
+oss operational support system 
+paas platform as a service 
+saas software as a service 
+sla service level agreement 
+slo service level objective 
+smi service management interface 
+tmn telecommunications management network 
+vm virtual machine 

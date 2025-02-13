@@ -1,0 +1,35 @@
+intercloud and interoperability 5 
+ 
+  807 
+title access security in trusted inter-cloud  
+figure (optional) 
+ 
+pre-conditions (optional) – the csp1(saas) and csp3(saas) deliver malware free software.  
+– the csp2(saas) delivers malware infected software. 
+post-conditions (optional) – the csp(intermediary) guarantees secure saas.  
+– the csp(intermediary) establishes service between csc and csp1(saas).  
+– the csp(intermediary) establishes service between csc and csp3(saas) in 
+case of failed csp1(saas). 
+derived requirements – access security between the csc and csp 
+– integrate and validate services from multiple csps 
+– resiliency service from multiple csps 
+i.2.2 use case of geographical policy in trusted inter-cloud 
+this use case illustrates the governance aspect of trusted inter-cloud between the primary csp and secondary 
+csps. the intermediary pattern of inter-cloud used to illustrate the use case is an example only. 
+table i.2.2 – geographical policy in trusted inter-cloud 
+title geographical policy in trusted inter-cloud  
+description – the csc request saas service performed exactly within area a (geographical 
+policy). 
+– the primary csp in an inter-cloud intermediary pattern (acts as 
+csp(intermediary)) is the contact point for csc. 
+– the csp(intermediary) integrates and validates saas services from multiple 
+csps (secondary csps). 
+– for the csp(intermediary), in order to respect the request of csc, it is 
+necessary to validate governance polices from secondary csp1(saas), 
+csp2(saas) and csp3(saas). in case of negative validation, the secondary csp 
+offer is not presented to csc. 
+– in case of connectivity problem between csp(intermediary) and csp1(saas), 
+the saas service is automatically established between csp(intermediary) and 
+csp3(saas). 
+roles csc,csp, csp(saas) 
+

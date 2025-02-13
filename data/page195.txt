@@ -1,0 +1,47 @@
+framework and requirements for cloud computing 1 
+ 
+   187 
+7.3 operation requirements 
+– processing unit operation : it is recommended that a physical machine provides operations for 
+processing units, such as power operation, monitoring configuration information of each processing 
+units. 
+note 1 – the power operation for a processing unit is to control the power status (e.g., power on, power off and restart) 
+of each of the processing units. the monitoring configuration information of processing units is to collect and report the 
+parameters of the processing units (e.g., cpu type, cpu clock speed, memory frequency and stor age capacity). 
+– remote management : it is recommended that a physical machine supports to be managed 
+remotely through network. 
+note 2 – examples of remote management of physical machine are power operation, firmware update and log querying 
+for the physical machine remotely. 
+– diagnostic of physical machine: it is recommended that a physical machine supports diagnostic to 
+analyze before and after a hardware fault as well as firmware and components of physical machine 
+changes. 
+note 3 – the fault prediction is accomplished by software. 
+7.4 scalability requirements 
+– expansion of interconnect network: it is recommended that a physical machine provides external 
+expansion of the interconnect network among multiple physical machines to meet required 
+computing performance level from a csu. 
+– i/o interface for device extensions : it is recommended that a physical machine provides an i/o 
+interface for device extensions that can be used to extend high performance network cards, graphics 
+card and so forth. 
+– processing unit replacement: it is recommended that a physical machine supports substitution with 
+other processing units to allow processing unit upgrade. 
+– adding processing units: it is recommended that a physical machine supports the addition of more 
+processing units to the physical machine. 
+– adding components of processing units : it is recommended that a physical machine supports the 
+addition of more components to the processing units, including cpu, memory, storage and i/o 
+device. 
+– adding power sup ply: it is recommended that a physical machine supports the addition of more 
+power supply components to the physical machine. 
+– adding cooling component : it is recommended that a physical machine supports the addition of  
+more cooling components to the physical machine. 
+7.5 security requirements 
+– no additional ports: it is recommended that a physical machine does not expose network ports that 
+are not used. 
+– authorized access: it is recommended that a physical machine supports an authorized access.  
+7.6 reliability requirement 
+– support fault location: it is recommended that a physical machine supports fault location, so that 
+the operator can easily replace the failing components. 
+– hot-plug support: a physical machine can optionally support hot-plug without damage. 
+note – hot-plug is plugging in and out some components of the physical machine while it is running. an example of 
+hot-plug support is hot -plug disk. hot -plug disk refer to the disks supporting plug in to or plug out from the physical 
+machine without damage while the physical machine is running.  

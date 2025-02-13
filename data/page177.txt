@@ -1,0 +1,30 @@
+ framework and requirements for cloud computing 1 
+ 
+   169 
+table i.12 – a use case of cloud service substitution 
+member of an integrated cloud service to cope with sla violation or unavailability 
+situations.  
+(2) if the integrated cloud service does not meet the sla continuously, the csn: cloud 
+service broker detects the member cloud service that provides the cause.  
+(3) the csn: cloud service broker provisions another integrated cloud service which can 
+substitute original one, based on the product catalogue description. at this time, when 
+a large number of candidates for alternative integrated cloud services are searched, 
+priority is evaluated for them and the csn: cloud service broker makes a final decision 
+for alternative integrated cloud service based on sla in the aspect of service stability.  
+(4) the csn: cloud service broker substitutes the provisioned service for the previous one 
+to satisfy the sla. 
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+   
+pre-conditions 
+(optional) 
+– the csps register services to the csn: cloud service broker. 
+– the csn: cloud service broker registers an integrated cloud to product catalogue.  
+post-conditions 
+(optional)  
+derived 
+requirements 
+– cloud service substitution for integrated cloud service (see clause 7.2) 
+– detection of failures to meet the terms of the sla (see clause 7.5) 
+  
+

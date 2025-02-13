@@ -1,0 +1,53 @@
+security 7 
+ 
+  1067 
+14 system acquisition, development and maintenance 
+14.1 security requirements of information systems 
+the objective specified in clause 14.1 of iso/iec 27002 applies. 
+14.1.1 information security requirements analysis and specification 
+control 14.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should determine its 
+information security requirements for the cloud service 
+and then evaluate whether services offered by a cloud 
+service provider can meet these requirements. 
+for this evaluation, the cloud service customer should 
+request information on the information security 
+capabilities from the cloud service provider. 
+the cloud service provider should provide information 
+to the cloud service customers about the information 
+security capabilities they use. this information should 
+be informative without disclosing information that could 
+be useful to someone with malicious intent. 
+other information for cloud services 
+care should be taken to limit disclosure of implementation details about security controls as they relate to 
+the cloud service being provided to those cloud service customers or potential cloud service customers who 
+have a non-disclosure agreement in place. 
+14.1.2 securing applications services on public networks 
+control 14.1.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.1.3 protecting application services transactions 
+control 14.1.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+14.2 security in development and support processes 
+the objective specified in clause 14.2 of iso/iec 27002 applies. 
+14.2.1 secure development policy 
+control 14.2.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+the cloud service customer should request information 
+from the cloud service provider about the cloud service 
+provider's use of secure development procedures and 
+practices 
+the cloud service provider should provide information 
+about its use of secure development procedures and 
+practices to the extent compatible with its policy for 
+disclosure.  
+other information for cloud services 
+secure development procedures and practices of the cloud service provider can be critical to saas. 
+14.2.2 system change control procedures 
+control 14.2.2 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 

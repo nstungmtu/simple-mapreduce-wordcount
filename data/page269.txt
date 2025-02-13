@@ -1,0 +1,47 @@
+ framework and requirements for cloud computing 1 
+ 
+   261 
+7.2 virtual machine requirements 
+the virtual machine provides a virtualized and isolated computing environment for ea ch guest operating 
+system (os). 
+the virtual machine requirement includes: 
+• it is required to support migration  of virtual machines between different physical computing 
+machines. 
+7.2.1 cpu virtualization 
+the central proce ssing unit  (cpu) virtualization allows running mult iple virtual cpus (vcpu) on a single 
+physical cpu. 
+the cpu virtualization requirement includes: 
+• the virtual machine's vcpus' computing capability can optionally be specified as a fraction of a 
+physical cpu. 
+7.2.2 memory virtualization 
+the memory virtualization includes memory allocation at the start of a virtual machine, memory utilization 
+monitoring during virtual machine operation and memory release at the shutdown of a virtual machine.  
+the memory virtualization requirement includes: 
+• it is recommended that while a virtual machine is active,  the hypervisor monitors memory usage 
+and reallocates unused memory to other virtual machines dynamically. 
+7.2.3 input/output device virtualization 
+the input/output (i/o) virtualization allows division of the physical i/o device into several logical instances 
+for use by different virtual machines. 
+the i/o device virtualization requirements include: 
+• it is required for the hypervisor to support i/o virtualization capabilities. 
+• it is required that a virtual machine is capable of using virtual i/o devices abstracted from the 
+physical i/o devices. 
+• the number of virtual i/o devices is prohibited from being constrained by the number of physical 
+i/o devices. 
+• the data of one virtual machine transferred through a shared physical i/o device is prohibited from 
+being exposed to other virtual machines. 
+• physical i/o devices can optionally be shared by multiple virtual machines. 
+7.2.4 network interface virtualization 
+network interface virtualization allows c reating and deleting a virtual network interface for a guest virtual 
+machine os regardless of the number of physical network interfaces. 
+the network interface virtualization requirements include: 
+• it is recommended that a physical network interface can be virtualized into multiple virtual network 
+interfaces. 
+• it is recommended that the virtual network interfaces from different virtual machines can be 
+grouped into one virtual local network.  
+7.2.5 duplication of virtual machine 
+the duplication of a virtual machine allows creating new virtual machines and virtual machine backup in the 
+execution environment. 
+the duplication of a virtual machine requirement includes: 
+• a virtual machine can optionally be  duplicated to create a new virtual machine with the same 
+configuration.  

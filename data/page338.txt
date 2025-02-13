@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+330  
+8.3 data storage requirements 
+the data storage requirements include: 
+1) it is required for the csp:bdip to support  different data types with sufficient storage space, elastic 
+storage capacity and efficient control methods; 
+2) it is required for the csp:bdip to support storage for different data formats and data models;  
+note – data formats include text, spreadsheet, video, audio, image, map, etc. data models include relational models, 
+document models, key-value models, graph models, etc. (as described in clause 6.1). 
+3) it is required that the csp:bdip provides a flexible licensing policy for the databases; 
+ note – as database systems may be covered by vendor licenses, the csp:bdip  that offers a database as part 
+of the big data service needs the ability to adapt the licensing conditions to the particular service and the 
+csc:bdsu requirements. 
+4) it is recommended that the csp:bdip provides different types of databases; 
+ note – examples of database types include relational databases (rdb), object relational databases (ordb), 
+object oriented databases (oodb), nosql (not only sql) databases, etc.  
+5) it is recommended for the csn:dp to expose application programming interfaces (apis) for  data 
+delivery; 
+6) it is recommended that the csp:bdip fulfils storage and database performance demands. 
+7) it is recommended that the csp: bdip supports a data retention policy covering a data retention 
+period before its destruction after termination of a contract. this is to protect the big data service 
+customer from losing private data through an accidental lapse of the contract. 
+8.4 data analysis requirements 
+the data analysis requirements include: 
+1) it is required for the csp:bdap to support analysis of various data types and formats; 
+2) it is required for the csp:bdap to support batch processing; 
+3) it is required for the csp:bdap to support association analysis; 
+ note – association analysis is the task of uncovering relationships among data.  
+4) it is required for the csp:bdap to support different data analysis algorithms; 
+ note – data analysis algorithms include classification, clustering, regression, association, ranking, etc.  
+5) it is required that the csp:bdap provides flexible licensing policy for the analytical applications; 
+6) it is recommended for the csp:bdap to support user defined algorithms; 
+7) it is recommended for the csp:bdap  to support data processing in distributed computing 
+environments; 
+8) it is recommended for the csp:bdap to support data indexing; 
+9) it is recommended that the csp:bdap supports data classification in parallel; 
+10) it is recommended that the csp:bdap provides different analytical applications; 
+11) it is recommended that the csp:bdap supports customization of analytical applications; 
+12) it is recommended for the csp:bdap to support real-time analysis of streaming data;  
+13) it is recommended for the csp:bdap to support user behaviour analysis; 
+ note – user behaviour includes user -related information, collected users' behaviour in real -time, 
+environmental information and the analysed information from the cumulative users' information on a 
+csp:bdip's storage. scope of behaviour analysis is based on the user's agreement in advance.  
+14) the csp:bdap can optionally perform analysis of different data types and formats in real-time. 

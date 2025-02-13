@@ -1,0 +1,43 @@
+ framework and requirements for cloud computing 1 
+ 
+   279 
+table of contents 
+  
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 introduction 
+7 patterns of inter-cloud 
+7.1 inter-cloud peering 
+7.2 inter-cloud federation 
+7.3 inter-cloud intermediary 
+8 overview of inter-cloud computing 
+8.1 relationship between intra-cloud and inter-cloud handling of resources 
+8.2 overview of inter-cloud federation 
+8.3 overview of inter-cloud intermediary 
+9 functional requirements for inter-cloud 
+9.1 sla and policy negotiation 
+9.2 resource monitoring 
+9.3 resource performance estimation and selection 
+9.4 resource discovery and reservation 
+9.5 resource set-up and activation 
+9.6 cloud services switchover and switchback 
+9.7 resource release 
+9.8 csc information exchange 
+9.9 primary csp role delegation 
+9.10 inter-cloud service handling 
+10 security considerations 
+appendix i – use cases from the inter-cloud perspective 
+i.1 sla mapping in intermediary pattern 
+i.2 performance guarantee against an abrupt increase in load (offloading)  
+i.3 performance guarantee regarding delay (optimization for user location)  
+i.4 guaranteed availability in the event of a disaster or large-scale failure 
+i.5 service continuity (in the case of service termination of the original csp)  
+i.6 market transactions in inter-cloud intermediary pattern 
+appendix ii – use cases from cloud service providers' views 
+ii.1 use case 1 – cloud service rebranding 
+ii.2 use case 2 – discovery 

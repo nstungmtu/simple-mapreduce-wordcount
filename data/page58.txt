@@ -1,0 +1,43 @@
+1 framework and requirements for cloud computing  
+ 
+50  
+1 scope 
+this recommendation | international standard specifies the cloud computing reference architecture (ccra). 
+the reference architecture includes the cloud computing roles, cloud computing activities, and the cloud 
+computing functional components and their relationships. 
+2 normative references 
+the following recommendations and international standards contain provisions which, through reference in 
+this text, constitute provisions of this recommendation | international standard. at the time of publication, 
+the editions indicated were valid. all recommendations and standards are subject to revision, and parties to 
+agreements based on this recommendation | international standard are encouraged to investigate the 
+possibility of applying the most recent edition of the  recommendations and standards listed below. 
+members of iec and iso maintain registers of currently valid international standards. the 
+telecommunication standardization bureau of the itu maintains a list of currently valid itu -t 
+recommendations. 
+2.1 identical recommendations | international standards  
+– recommendation itu -t y.3500 (2014) | iso/iec 17788:2014, information technology – cloud 
+computing – overview and vocabulary. 
+2.2 additional references 
+– iso/iec 29100:2011, information technology – security techniques – privacy framework. 
+3 definitions 
+for the purposes of this recommendation | international standard, the term s and definitions in rec. 
+itu-t y.3500 | iso/iec 17788 and the following definitions apply. 
+3.1 terms defined elsewhere 
+the following term is defined in iso/iec/ieee 42010: 
+3.1.1 architecture: fundamental concepts or properties of a system in its environment embodied in its 
+elements, relationships and in the principles of its design and evolution. 
+the following term is defined in iso/iec 29100: 
+3.1.2 personally identifiable information (pii) : any information that (a) can be used to identify the pii 
+principal to whom such information relates, or (b) is or might be directly or indirectly linked to a pii principal. 
+note – to determine whether a pii principal is identifiable, account should be taken of all the means which can reasonably be 
+used by the privacy stakeholder holding the data, or by any other party, to identify that natural person. 
+3.2 terms defined in this recommendation | international standard 
+this recommendation | international standard defines the following terms: 
+3.2.1 activity: a specified pursuit or set of tasks. 
+3.2.2 cloud service product : a cloud service, allied to the set of business terms under  which the cloud 
+service is offered. 
+note – business terms can include pricing, rating and service levels. 
+3.2.3 functional component: a functional building block needed to engage in an activity (clause 3.2.1), 
+backed by an implementation. 
+3.2.4 peer cloud service: a cloud service of one cloud service provider which is used as part of a cloud 
+service of one or more other cloud service providers. 

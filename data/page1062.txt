@@ -1,0 +1,56 @@
+7 security  
+ 
+1054 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should add the following 
+items to awareness, education and training programmes 
+for cloud service business managers, cloud service 
+administrators, cloud service integrators and cloud 
+service users, including relevant employees and 
+contractors: 
+– standards and procedures for the use of cloud 
+services; 
+– information security risks relating to cloud services 
+and how those risks are managed; 
+– system and network environment risks with the use 
+of cloud services; 
+– applicable legal and regulatory considerations. 
+information security awareness, education and training 
+programmes about cloud services should be provided to 
+management and the supervising managers, including 
+those of business units. these efforts support effective 
+co-ordination of information security activities. 
+the cloud service provider should provide awareness, 
+education and training for employees, and request 
+contractors to do the same, concerning the appropriate 
+handling of cloud service customer data and cloud 
+service derived data. this data can contain information 
+confidential to a cloud service customer or be subject to 
+specific limitations, including regulatory restrictions, on 
+access and use by the cloud service provider. 
+7.2.3 disciplinary process 
+control 7.2.3 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+7.3 termination and change of employment 
+the objective specified in clause 7.3 of iso/iec 27002 applies. 
+7.3.1 termination or change of employment responsibilities 
+control 7.3.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. 
+8 asset management 
+8.1 responsibility for assets 
+the objective specified in clause 8.1 of iso/iec 27002 applies. 
+8.1.1 inventory of assets 
+control 8.1.1 and the associated implementation guidance and other information specified in iso/iec 27002 
+apply. the following sector-specific guidance also applies. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer's inventory of assets should 
+account for information and associated assets stored in 
+the cloud computing environment. the records of the 
+inventory should indicate where the assets are 
+maintained, e.g., identification of the cloud service. 
+the inventory of assets of the cloud service provider 
+should explicitly identify: 
+– cloud service customer data; 
+– cloud service derived data. 

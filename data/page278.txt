@@ -1,0 +1,37 @@
+1 framework and requirements for cloud computing  
+ 
+270  
+i.1.1 infrastructure sub-layer 
+this sub-layer consists of the following 3 parts: 
+– the s torage infrastructure is composed of common used storage devices such as fibre channel 
+storage devices, nas and internet small computer system interface (iscsi) [b-ietf rfc 3720] storage 
+devices, as well as some related supporting appliances, such as switches for storage . storage 
+infrastructure will typically consist of several distributed working nodes to support high availability 
+and reliability. a working node can include a virtual volume management element, an nas and a 
+distributed file system  (dfs) device. another type of working node can includ e a virtual volume 
+management element, a san and a block control device. 
+– the backup infrastructure is composed of a physical type library, a virtual type library, a database 
+and related software. 
+– the infrastructure monitor cluster is composed of many servers which manage and monitor all kinds 
+of storage and backup devices, repair related links and check the redundancy and carry out 
+centralized management. it can include a global schedule function to provide the resources location 
+in the storage in frastructure depending on the received accessing requests and associated 
+requested resources. the servers typically support distributed hash table (dht) networking to 
+provide a general accessing interface for name space management, load balance, metadata 
+management, routing management and duplication management.  the infrastructure monitor 
+cluster can access virtual volume management elements of the storage infrastructure to realize 
+unified volume management and policy management. 
+i.1.2 presenting sub-layer 
+this sub-layer is the core of the service logic of the cloud storage system. it provides several storage services, 
+such as services based on san or nas, as well as backup disaster recovery services. 
+san and nas-based services provide key storage services f or the management of cloud storage, detection 
+and repair of the faulty links, status monitoring and qos. 
+backup disaster recovery services supply high -level data protection making unnecessary the use of a 
+specialized disaster recovery network. 
+i.1.3 access sub-layer 
+this sub-layer consists of storage-based application interfaces, network access equipment, user identification 
+functions and other relevant access functions. once authenticated and authorized, users make use of the 
+cloud storage services, such as those based on the network file system (nfs) [b-ietf rfc 3530] or iscsi [b-
+ietf rfc 3720]. 
+the access sub -layer connects users to the presenting sub -layer through the use of private or public 
+networks. 

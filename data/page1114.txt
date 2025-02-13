@@ -1,0 +1,48 @@
+8 assisting developing countries  
+ 
+1106  
+case study: network connectivity at tunisie télécom's carthage data centre 
+in order to ensure  performance, security and availability of cloud services , carthage data centre is 
+connected with two different high-speed fibre links to tunisie télécom's ip mpls backbone (10 gbits/link). 
+the two links are  completely different in order to guarantee redundancy and access continuity without 
+any interruption (different access points at the data centre level, different paths to the ip mpls backbone, 
+different pop's locations, etc.).  
+carthage data centre is also interconnected with the two other data centres of tunisie télécom (kairouan 
+data centre for disaster recovery, and kasba data centre). 
+besides, tunisie telecom has deployed all means (vrf, vlan, firewalls, anti -ddos protection, etc.) and 
+procedures to prohibit any fraudulent connection on the private networks of customers. 
+8.6 trust 
+one of the issues affecting the implementation of cloud computing services in developing countries relates 
+to the mistrust of cloud computing services, which in its nature generally puts a curtain wall between the csp 
+and the csc. potential users of cloud computing services will accept the "curtain wall" if there is strong 
+evidence that the csp on the other side of the "curtain" can be trusted. for that to happen there should be 
+conditions which must be agreed upon and met by the csp to assure the csc that they can be trusted. 
+the development of those conditions and the framework of meeting them can be complicated if left up to 
+the csp and csc to handle. however, if the efforts of international standardization organizations such as itu 
+produces recommendations on trust, both the csp and csc are more likely to feel comfortable to work with 
+such recommendations. 
+the current cloud computing trust and security issues are closely rel ated. in fact the uptake of cloud 
+computing services in developing countries can suddenly increase by merely making stakeholders aware that 
+issues of trust are different from those to do with security and show them how they are handled without 
+confusing the two. 
+the itu has already developed recommendations such as [itu-t y.3514], "cloud computing – trusted inter-
+cloud computing framework and requirements". this recommendation specifies a framework of trusted 
+inter-cloud computing and relevant use cases. it provides general requirements for trusted inter -cloud and 
+specific ones related to governance, management, resiliency, security and confidentiality of trusted inter -
+clouds on security in the cloud. it is based on the framework of inter-cloud computing [itu-t y.3511].  
+the scope of this recommendation includes: 
+– overview of trusted inter-cloud computing;  
+– general requirements for trusted inter-cloud; 
+– requirements for governance of trusted inter-cloud; 
+– requirements for management of trusted inter-cloud; 
+– requirements for resiliency of trusted inter-cloud; and 
+– requirements for security and confidentiality of trusted inter-cloud. 
+there are other closely related recommendations that itu-t has developed which are very relevant to issues 
+of trust of the cloud. these include: 
+• [itu-t y -3051] "the basic principles of trusted environment in information and communication 
+technology infrastructure" which is devoted to the issue of creating trusted environment in ict 
+infrastructure providing information and communication services. the recommendation provides 
+the definition, common requirements and the basic principles of creating trusted environment. 
+• [itu-t y.3052] "overview of trust provisioning for information and communication technology 
+infrastructures and services" which provides an overview of trust provisioning in ict infrastructures 
+and services. it introduces the necessity of trust to cope with potential risks due to lack of trust.  

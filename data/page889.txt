@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  881 
+1 scope 
+this recommendation specifies the cloud computing infrastructure capabilities type interoperability testing 
+between the csc and csp, including interoperability testing of computing services, storage services, network 
+services and related management functions , based on the functional r equirements specified in 
+[itu-t y.3513]. 
+the scope of this recommendation consists of: 
+– overview of cloud computing infrastructure capabilities type interoperability testing between the 
+csc and csp; 
+– computing service interoperability testing between the csc and csp; 
+– storage service interoperability testing between the csc and csp; 
+– network service interoperability testing between the csc and csp. 
+note – this recommendation  is the first part of cloud computing infrastructure capabilities type interoperability 
+testing, which focuses on validating the infrastructure capabilities type functions provided by the csp to the csc. the 
+second part focuses on validating the interaction between csps in the inter-cloud environment. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore encouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recommendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t q.4040] recommendation itu-t q.4040 (2016), the framework and overview of cloud 
+computing interoperability testing. 
+[itu-t y.101] recommendation itu-t y.101 (2000), global information infrastructure terminology: 
+terms and definitions. 
+[itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology –cloud computing – overview and vocabulary. 
+[itu-t y.3502] recommendation itu-t y.3502 (2014) | iso/iec 17789:2014, information 
+technology – cloud computing – reference architecture. 
+[itu-t y.3513] recommendation itu-t y.3513 (2014), cloud computing – functional requirements of 
+infrastructure as a service. 
+[iso/iec 19941] iso/iec 19941 (2017), information technology – cloud computing – interoperability 
+and portability. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 activity [itu-t y.3502]: a specified pursuit or set of tasks. 
+3.1.2 cloud interoperability [itu-t q.4040]: the capability to interact between cscs and csps or between 
+different cpss, including the ability of cscs to interact with cloud services and exchange information, the 
+ability for one cloud service to work with other cloud services, and the ability for cscs to interact with the 
+cloud service management facilities of the csps. 

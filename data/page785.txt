@@ -1,0 +1,45 @@
+video processing and storage 4 
+ 
+  777 
+the traditional vs service is a telecommunication service focusing on video (and audio) application 
+technology, which is used to remotely capture multimedia (such as audio, video, image and various alarm 
+signals) and present them to end users in a friendly manner (including accessibility aspects). the traditional 
+vs system mainly includes six functional entities, which are the centre management unit (cmu), the service 
+control unit (scu), the media distribution unit (mdu), the media storage unit (msu), the premises unit (pu) 
+and the customer unit (cu). the function description of each functional entity is defined in [itu-t h.626]. 
+a visual surveillance cloud storage can provide a shared pool of configurable storage resources  and related 
+data st orage functions  to the vs application s. in a cloud storage system, the storage resources can be 
+dynamically assigned and reassigned according to the users' demands. the cloud storage part mainly includes 
+three functional entities, which are the cloud storage management unit (csmu), the cloud storage data unit 
+(csdu) and the cloud storage access unit (csau). 
+– csmu is used to provide the management services for the cloud storage system in the vs system. 
+– csdu is the data node in a cloud storage system. a number of csdus are organized in a distributed 
+way as a storage resource pool by using virtualization technology and the virtualized storage 
+resource can be dynamically provided to the users on demand. the csdus are used to stor e the 
+massive multimodal data produced by the vs system. 
+– csau is the key unit for implementing communication between the csdu and the media data 
+related units defined in the traditional  vs system [itu -t h.626]. the main functions of the csau 
+include: receiving and responding to the control information of the csmu, receiving and responding 
+to the control information of the scu, receiving the media data from mdu or pu, sending the media 
+data to the mdu or other related visual surveillance entities, writing the media data into the csdu 
+cluster and reading the media data from the csdu cluster. 
+7.2 functional entities 
+7.2.1 cloud storage management unit 
+the c loud storage management unit  (csmu) is used to provide  the management services for  the cloud 
+storage system and respond to service requests of the vs system. the main functions of the csmu include 
+storage resource management, data management,  user management, service management, log 
+management and security control. the csmu is used to achieve collaboration among the different storage 
+devices and guarantee better access performance of the multimodal surveillance data. 
+7.2.2 cloud storage data unit 
+the cloud storage data unit  (csdu) is the data node in a cloud storage system  which is used to stor e the 
+massive multimodal data produced by the vs system. a typical visual surveillance cloud storage system has 
+a number of csdus, which are organized in a distributed way as a storage resource pool by using virtualization 
+technology. t he csdu can be dynamically extended according to the user' s demand and the virtualized 
+storage resource can be dynamically provided to the users on demand. the csdu can receive media data 
+from the csau and write the data onto its local storage device. in addition, the csdu can read and transmit 
+the stored data to the csau according to the data reading requests. 
+7.2.3 cloud storage access unit 
+the cloud storage access unit (csau) is the key unit for implementing communication between the csdu and 
+the media data related units defined in the vs system [itu-t h.626]. as shown in figure 7-2, the functions of 
+the csau are divided into three categories, which are the service control function, the media control function 
+and the configuration management function. 

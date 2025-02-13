@@ -1,0 +1,46 @@
+video processing and storage 4 
+ 
+  755 
+– usr-004: a vscs system is required to support user's data uploading from a client device, including 
+video files, pictures and video metadata. 
+– usr-005: a vscs system is required to support the user's view and downloading of stored data via 
+a client device, including video files, pictures and video metadata. 
+– usr-006: a vscs system is recommended to support the video on demand and picture presentation 
+for end users. 
+– usr-007: a vscs system is recommended to support information retrieval for end users. 
+– usr-008: a vscs system is recommended to support flexible storage space application for end users. 
+– usr-009: a vscs system is required to support the view of a user’s storage space status, including 
+the storage space occupancy rate, the remaining storage space. 
+8.1.2 cloud storage service provider requirements 
+– usr-010: a vscs system is required to support the provider's login and logout from the system 
+conveniently. the provider’s name and password are required when logging into the system. 
+– usr-011: a vscs system is required to support the provider's view of the cloud storage system 
+operating status from the beginning to then -present time, including the system storage space 
+occupancy rate, the system’s remaining storage space, the storage space o ccupancy rate of 
+individual users, the remaining storage space of individual users, etc. 
+– usr-012: a vscs system is required to support flexible storage space assignment for individual 
+users. 
+8.2 service requirements 
+8.2.1 video storage service requirements 
+– ser-001: a vscs system is required to support directly writing video streams, from multiple pus, 
+through the network. 
+– ser-002: a vscs system is required to support video file uploading from multiple local video storage 
+devices through the network, including nvrs, mobile video capturing devices, etc. 
+– ser-003: a vscs system is required to support video file deletion. 
+– ser-004: a vscs system is required to support video file browsing and searching; the searching 
+conditions can be the source of video files, the capture time of video files, etc. 
+– ser-005: a vscs system is required to support video file downloading through the network. 
+– ser-006: a vscs system is required to support automatic video file overwriting when a user's 
+storage space is full; the overwriting principle is that the oldest data is replaced first. 
+– ser-007: a vscs system is recommended to support video playback for e nd users according to the 
+source of the video file and the capture time of the video file. video playback operations include 
+fast forward, slow forward, pause, and stop. 
+8.2.2 picture storage service requirements 
+– ser-008: a vscs system is required to support direct writing of pictures, from multiple pus, through 
+the network. 
+– ser-009: a vscs system is required to support picture uploading from multiple local video storage 
+devices through the network, including pcs, mobile picture capturing devices, etc. 
+– ser-010: a vscs system is required to support picture deletion. 
+– ser-011: a vscs system is required to support picture browsing and searching; the searching 
+conditions can be the source of the pictures, the capture time of the pictures, etc. 
+– ser-012: a vscs system is required to support picture downloading through the network. 

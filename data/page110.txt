@@ -1,0 +1,23 @@
+1 framework and requirements for cloud computing  
+ 
+102  
+the information that relates to the administration capabilities includes: 
+• security information such as the set -up of user accounts and authorization data, the encryption of 
+data; 
+• notifications concerning usage of services including statistics of usage, log records (e.g., for security 
+purposes); 
+• exception reports/events (e.g., where some service sla target is breached or a security incident 
+occurs). 
+figure a.3 illustrates the functional component relationships involved in the monitor service activity of the 
+csc:cloud service administrator. 
+ 
+figure a.3 – csc:cloud service administrator relationship for the "monitor service" activity 
+other elements relevant to the cloud service customer –cloud service provider  relationship can include a 
+customer to provider agreement, which can include an sla, intellectual property issues and regulated 
+matters such as the appropriate protection of personal data. 
+a.2 the provider–peer provider (or "inter-cloud") relationship 
+a cloud service provider  can make use of one or more cloud services which are provided by other cloud 
+service providers. this is described as a provider to peer cloud service provider relationship, or alternatively 
+as an "inter-cloud" relationship – the provider making use of the services is termed a primary cloud service 
+provider while a provider whose services are being used is termed a secondary cloud service provider. 
+

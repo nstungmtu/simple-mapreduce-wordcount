@@ -1,0 +1,37 @@
+1 framework and requirements for cloud computing  
+ 
+132  
+pre-conditions 
+(optional) 
+ 
+post-conditions 
+(optional) 
+ 
+derived 
+requirements 
+– clause 8.3 requirement (10) 
+– clause 8.3 requirement (6)  
+– clause 8.2 requirement (4) 
+i.8 the data read/write cache and parallel distributed file for performance enhancement 
+title the data read/write cache and parallel distributed file  
+for performance enhancement 
+description dsf service provider provides a cache function for data stored in a public cloud storage. data 
+stored in public cloud storage is slower than on-premises storage because data is transmitted 
+over the internet. in addition, since the data is automatically distributed to the public cloud 
+storage in the state dsf service customer does not recognize, the data stored in the public 
+cloud storage needs a high-speed access function. dsf service provider caches the data stored 
+in the public cloud storage to the storage device inside the cloud integrated storage operating 
+platform to provide an on-premises storage-level access speed to the public cloud storage. 
+role/sub-role dsf service provider (csp:sfp, csp:dmp) 
+dsf local storage provider (csp:csm) 
+figure (optional) 
+ 
+note – this figure is aligned with logical component. 
+pre-conditions 
+(optional) 
+– csc:csu requests single virtual volume to csp:sfp and has own data storage.  
+– csp:sfp provide storage system, appliance or device to federate the other storages  
+post-conditions 
+(optional) 
+ 
+

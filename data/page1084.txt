@@ -1,0 +1,60 @@
+7 security  
+ 
+1076 
+implementation guidance for cloud services 
+cloud service customer cloud service provider 
+the cloud service customer should request a 
+documented description of the termination of service 
+process that covers return and removal of cloud service 
+customer's assets followed by the deletion of all copies 
+of those assets from the cloud service provider's 
+systems. 
+the description should list all the assets and document 
+the schedule for the termination of service, which 
+should occur in a timely manner. 
+the cloud service provider should provide information 
+about the arrangements for the return and removal of 
+any cloud service customer's assets upon termination of 
+the agreement for the use of a cloud service. 
+the asset return and removal arrangements should be 
+documented in the agreement and should be performed 
+in a timely manner. the arrangements should specify 
+the assets to be returned and removed. 
+cld.9.5 access control of cloud service customer data in shared virtual environment 
+objective: to mitigate information security risks when using the shared virtual environment of cloud computing. 
+cld.9.5.1 segregation in virtual computing environments 
+control 
+a cloud service customer's virtual environment running on a cloud service should be protected from other 
+cloud service customers and unauthorized persons. 
+implementation guidance for cloud services 
+cloud service customer cloud service provider  
+(no additional implementation guidance) 
+ 
+the cloud service provider should enforce appropriate 
+logical segregation of cloud service customer data, 
+virtualized applications, operating systems, storage, and 
+network for: 
+– the separation of resources used by cloud service 
+customers in multi-tenant environments; 
+– the separation of the cloud service provider's 
+internal administration from resources used by cloud 
+service customers. 
+where the cloud service involves multi-tenancy, the 
+cloud service provider should implement information 
+security controls to ensure appropriate isolation of 
+resources used by different tenants. 
+the cloud service provider should consider the risks 
+associated with running cloud service customer-
+supplied software within the cloud services offered by 
+the cloud service provider. 
+other information for cloud services 
+implementation of the logical segregation depends upon the technologies applied to the virtualization: 
+– network and storage configurations can be virtualized  when a software virtualization function 
+provides a virtual environment  (e.g., a virtual operating system). in addition, segregation of cloud 
+service customers in software virtualized environments can be designed and implemented using 
+segregation functions of the software. 
+– when a cloud service customer's information is stored in a physically shared storage area with the 
+"meta-data table " of the cloud service, segregation of information from other cloud service 
+customers can be implemented with access control on the "meta-data table". 
+secure multi-tenancy and related guidance given in "iso/iec 27040, information technology – security 
+techniques – storage security" can apply to the cloud computing environment. 

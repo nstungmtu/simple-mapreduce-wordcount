@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+386  
+• itu-t y.3600: this recommendation provides an approach to use cloud computing to meet the 
+challenges which exist in the use of big data. it addresses the following subjects: 
+– overview of big data; 
+• introduction to big data; 
+• big data ecosystem and roles; 
+– relationship between cloud computing and big data; 
+– cloud-computing-based big data system context and benefits; 
+– cloud-computing-based big data requirements; 
+– cloud-computing-based big data capabilities. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12584  
+• itu-t y.3504: this recommendation provides the functional architecture for desktop as a service 
+(daas) to specify the detailed function al components and their relationships based on the general 
+and functional requirements of [itu-t y.3503]. it addresses the following subjects: 
+– daas functionalities related with daas components; 
+– daas functional architecture; 
+– mapping daas functional architecture to the cloud computing reference architecture. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12889  
+• itu-t y.cccm -reqts: this recommendation provides an overview of the container concept 
+describing its main characteristics and their support of micro-services. the document also identifies 
+typical use cases related to the usage of c ontainers and micro -services in cloud computing 
+identifying use cases related to the support of the containers as a service cloud service category by 
+the csp. based on the identified use cases, requirements and capabilities are derived regarding the 
+support of the containers as a service category. this recommendation will consider the work as an 
+open source activity initiated by linux foundation projects (open container initiative, and cloud 
+native computing foundation), and etsi nfv. the scope of this recommendation consists of: 
+– overview of the containers concept; 
+– requirements of containers and micro-services; 
+– use cases of containers and micro-services. 
+ uri: https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13641 
+• itu-t y. 3505: this recommendation provides an overview and functional requirements of data 
+storage federation. data storage federation provides a single virtual volume from multiple data 
+sources in heterogeneous storage. in this recommendation, configuration for logical components, 
+and ecosystem of data storage federation as well as cloud-computing-based data storage federation 
+are introduced for data storage federation. functional requirements are derived from use cases. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13616 
+• itu-t y.ccdc-reqts: this recommendation provides an overview of the distributed cloud w ith the 
+main objective of highlighting this important area for future standardization. 
+– more specifically, this recommendation covers the following: 
+– definition of distributed cloud; 
+– concept and scope of distributed cloud; 
+– characteristics of distributed cloud; 
+– high-level requirements of distributed cloud; 
+– distributed cloud use cases is provided in appendix i. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13649 

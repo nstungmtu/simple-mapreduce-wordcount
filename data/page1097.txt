@@ -1,0 +1,35 @@
+ assisting developing countries 8 
+ 
+   1089 
+introduction 
+the global trends in sectors such as health, agriculture, commerce, education, banking and finance have 
+demonstrated that a significant amount of data will be delivered and accessed online. most enterprises ar e 
+looking for ways to improve operational efficiency and cut costs through least -cost operator strategies and 
+outsourcing. cloud computing is among the prominent technologies that are making this process viable. 
+governments are also beginning to leverage s ome of the characteristics of cloud computing such as on 
+demand access and cost effectiveness to deliver improved citizen services and increase government 
+operational efficiencies. 
+in developing countries, cloud computing has the potential to: 
+i) improve energy efficiency in every sector of the economy by consolidating it services especially in 
+government and banking sector; 
+ii) improve service delivery and operational efficiency in various sectors such as health, tourism and 
+transport; 
+iii) create new business models; 
+iv) build new skills in application and content development;  
+v) promote environmental sustainability; 
+vi) make significant savings in set up cost of it solutions; 
+vii) contribute significantly to the gross domestic product (gdp) and 
+viii) create new job opportunities. 
+despite the prospects outlined above, cloud computing adoption in developing countries is still low and 
+several developing countries encounter many challenges to effectively contribute to the cloud economy. 
+various efforts are being made by numerous stakeholders to support accelerated implementation of cloud 
+computing in developing countries and to build trust in the use of this emerging technology. however, there 
+are many barriers affecting cloud computing adoption in these countries which need to be addressed before 
+it can become a reality. these barriers vary significantly depending on the country's level of development 
+and business and communications environments.  
+as a step towards creating an impetus to the deployment and usa ge of cloud computing services in 
+developing countries, an itu -t survey was commissioned to assess the current profile of cloud computing 
+deployment and consumption in developing countries. the survey allowed for the identification of 
+bottlenecks and weaknesses that need to be addressed to effectively exploit the cloud computing platform 
+in developing countries. the findings of this survey are presented and analysed in this supplement. 
+ 

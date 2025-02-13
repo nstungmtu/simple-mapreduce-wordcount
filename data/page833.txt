@@ -1,0 +1,47 @@
+intercloud and interoperability 5 
+ 
+  825 
+7.2 operational support systems 
+7.2.1 service catalogue 
+the service catalogue function includes service catalogue synchronization and life -cycle management with 
+peer csps. 
+this function includes the following. 
+– service catalogue syn chronization. this allows for periodically or on -demand exchange of service 
+catalogue information for inter-cloud services. 
+– service catalogue lifecycle management. this allows managing, e.g., creating, modifying, deleting 
+and querying content of the serv ice catalogue of the peer csp for inter -cloud services. service 
+catalogue life-cycle management includes publishing catalogue content information allowing peer 
+csps to consult and select inter-cloud services.  
+7.2.2 service provisioning 
+the provisioning function allows for the provisioning of inter-cloud services provided by peer csps. 
+this function includes the following. 
+– service deployment. this allows creating inter-cloud service instances based on the inter -cloud 
+service template defined in the service catalogue, and deliver y of  inter-cloud service instances 
+deployment requests to related peer csps. 
+– service configuration and lifecycle management. this allows accessing and configuring deployed 
+inter-cloud service instances as well as managing the life cycle of deployed inter -cloud service 
+instances.  
+note – service lifecycle management includes inter -cloud service creation, scaling, update and termination. for more 
+details about end-to-end cloud service lifecycle management, refer to [itu-t y.3522]. 
+7.2.3 monitoring and reporting 
+the monitoring and reporting functions monitor inter-cloud services and provide monitoring reports to peer 
+csps. 
+this function includes the following. 
+– service monitoring. this allows for providing inter-cloud service metrics to peer csps periodically or 
+on a request basis. 
+ note – inter-cloud service metrics are tracked for the purpose of meeting the inter -cloud service availability 
+contributing to slas. 
+– monitoring information exchanging and reporting. this allows for exchanging, recording and 
+reporting of inter-cloud services monitoring information for peer csps. 
+7.2.4 service policy management 
+the service policy management function includes lifecycle management and provisioning policy negotiation. 
+this function includes the following. 
+– service policy lifecycle management. this allows for defining, modifying, storing and retrieving of 
+inter-cloud service policies. 
+ note – inter-cloud service policy refers to an inter-cloud sla, disaster recovery mechanism, auto-scale, inter-
+cloud service switchover and switchback. 
+– service provisioning policy negotiation. this allows for inter -cloud service provisioning policy 
+comparison, transformation and confirmation between peer csps. 
+7.2.5 service automation 
+the service automation function delivers inter-cloud services automatically, including the management and 
+execution of service templates and the orchestration of services. 

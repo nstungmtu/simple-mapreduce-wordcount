@@ -1,0 +1,28 @@
+3 xaas  
+ 
+590  
+7.4.3 client peripheral connection 
+the client peripheral connection function: 
+– recognizes peripherals on a daas client when they are connected to the daas client; 
+– sends a connection request event to a daas platform according to the type of daas client; 
+ note 1 – when this function requests the connection of the peripheral, the daas platform executes a device 
+driver on a virtual desktop to operate the client peripheral remotely on a daas client. 
+– transmits the control events (such as attachment and detachment)  and data for the client 
+peripherals to a daas platform through a delivery protocol; 
+– disconnects the peripheral on a daas client safely. 
+ note 2 – when a daas user  want to disconnect  a peripheral on the assigned virtual desktop, this function 
+disconnects the peripheral on the virtual desktop through the removal control event of the peripheral on the 
+daas platform. 
+7.4.4 service continuity for user environment 
+the service continuity for user environment function provides a daas client with a reconnection to provide 
+for the continuity of service against the network failure or any faults of a daas platform. this function: 
+– requests a reconnection to the client connection management function (see clause 7.2.2) in case of 
+a connection failure in order to maintain continuous virtual desktop service; 
+– reconnects a virtual desktop running on a daas client with an available daas platform; 
+– saves the daas user states of the virtual desktop on the daas client; 
+ note – the daas user state includes data, working environments for a daas user, etc. 
+– synchronizes the saved user states of the virtual desktop on the daas client with user states of the 
+virtual desktop on the daas platform when the daas client is reconnected to the daas platform. 
+7.5 relationships among daas functions 
+figure 7.1 depicts  the summary of the relationships among the daas functions described in clause  7.1 
+through 7.4. each link between two functions has related information. 

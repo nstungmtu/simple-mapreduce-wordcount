@@ -1,0 +1,30 @@
+cloud computing management 2 
+ 
+  513 
+table of contents 
+1 scope 
+2 references 
+3 definitions 
+3.1 terms defined elsewhere 
+3.2 terms defined in this recommendation 
+4 abbreviations and acronyms 
+5 conventions 
+6 general description 
+7 metadata in naas service 
+7.1 naas service data model 
+7.2 naas service operational policy data model 
+7.3 naas resource data model 
+7.4 relationship among metadata in naas service 
+8 metadata framework for naas service lifecycle management 
+8.1 metadata of naas service in design time 
+8.2 metadata of naas service in runtime execution time 
+9 naas service operational policy framework 
+9.1 elements of naas service operational policy 
+9.2 functions of naas service operational policy 
+9.3 procedure of naas service operational policy from creation to enforcement 
+10 security considerations 
+appendix i – metadata applicability in naas service lifecycle management 
+i.1 virtual private cloud 
+i.2 instant vpn 
+bibliography 
+ 

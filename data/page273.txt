@@ -1,0 +1,41 @@
+ framework and requirements for cloud computing 1 
+ 
+   265 
+the intra-datacentre network requirements include: 
+• the intra-datacentre network is recommended to provide appropriate means to cope with flexible 
+network address space demands. 
+• the intra-datacentre network is recommended to provide elastic addressing for multi-tenant users. 
+• the intra-datacentre network is recommended to support different security policies for particular 
+virtual machines. 
+• the intra -datacentre network is recommended to support different qos policies for particular 
+virtual machines. 
+• the intra -datacentre netw ork is recommended to support the dynamic migration of virtual 
+machines. 
+• the intra -datacentre network is recommended to support the traffic monitoring among virtual 
+machines and network ports if needed. 
+• the intra-datacentre network is recommended to be able to provide multi-paths for particular multi-
+tenant users. 
+• the intra-datacentre network is recommended to support the establishment of a logical network 
+among virtual machines. 
+• the intra-datacentre network is recommended to support public ip addre ss and private ip address 
+mapping. 
+• the intra-datacentre network is recommended to support dynamic dns and static dns for multi -
+tenant users. 
+• the intra -datacentre network is recommended to support network services (e.g., firewall, load 
+balancer, virtual private network (vpn) services) for multi-tenant users. 
+8.4 inter-datacentre network 
+the inter-datacentre network is used to interconnect differ ent cloud infrastructures. these infrastructures 
+may be owned by the same or different csps. 
+the inter-datacenter network requirements include: 
+• the inter-datacentre network is recommended to support the scalability to match the demand level 
+of public and private clouds. 
+• the inter-datacentre network is recommended to be resilient; 
+• the inter -datacentre network is recommended to deal with virtual machine network addresses 
+overlapping; 
+• the inter-datacentre network is recommended to support different logical networks. 
+9 requirements for storage resources 
+this clause provides requirements for storage resources. 
+note – an example of a reference model for storage resources is provided in appendix i.  
+9.1 storage space 
+the storage space requirement includes: 
+• it is required to support dynamic storage space expansion. 

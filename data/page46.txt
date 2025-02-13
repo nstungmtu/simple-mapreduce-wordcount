@@ -1,0 +1,41 @@
+1 framework and requirements for cloud computing  
+ 
+38  
+use case 
+post-conditions 
+(optional) 
+with platform capabilities type: 
+– csn develops a product or service with carrier-grade video call capabilities provided by 
+the caas csp. 
+– csc can call the device and control it remotely by using sdk provided by the csp.  
+with application capabilities type: 
+– csc can access all kinds of communications applications with consistent unified user-
+interface and user-experience over multiple devices, such as wire-line telephone, 
+mobile phone, ims device, tablet and pc. 
+requirements – communication capabilities openness 
+– communication software development support 
+– unified communication  
+i.7 bdaas general use case 
+use case 
+name bdaas general use case 
+abstract a bdaas csp provides big data services through cloud computing. the bdaas csp uses the 
+cloud computing capabilities to implement various big data capabilities such as collecting 
+data, managing data storage, managing data privacy, managing data pre-processing, 
+providing data integration, managing data provenance, analyzing data and visualizing data.  
+roles csc, csp, csn 
+figure 
+ 
+ 
+pre-conditions 
+(optional) 
+– the csn provides appropriate access methods of data to the bdaas csp.  
+post-conditions 
+(optional) 
+ 
+requirements – resource clustering 
+– data collection 
+– data storing 
+– data analysing 
+– data visualizing 
+– data managing 
+

@@ -1,0 +1,38 @@
+cloud computing management 2 
+ 
+  467 
+in a cloud-aware telecommunication management system, the general requirements include: 
+– it is required that service management provide s service catalogue and s ervice inventory 
+management functionality for telecommunication service, cloud service and tc-hybrid service; 
+– it is required that service management supports the on-demand and automated service provisioning 
+modification and termination for telecommunication service, cloud service and tc-hybrid service; 
+– it is recommended that service management support s the e2e quality assurance of 
+telecommunication service, cloud service and tc-hybrid service, and provide high levels of reliability 
+and availability according to the service level agreement (sla); 
+– it is recomm ended that  service management support s charging for telecommunication service, 
+cloud service and tc -hybrid service, according to use time, bandwidth, resource usage and any 
+combination of these; 
+– it is recommended that  service management supp orts monitoring, auditing and reporting for 
+telecommunication service, cloud service and tc -hybrid service, for the purpose of service quality 
+evaluation and assurance. 
+all of the requirements listed above are suitable for services provided by single csp as well as int er-cloud 
+service provider. 
+8 functional framework for service management in cloud-aware telecommunication management 
+system 
+the high -level organization of service management functionalities in a cloud -aware telecommunication 
+management system is composed of service catalogue management, service inventory management, service 
+test management, service order management, service pro blem management, service quality management, 
+service performance management and service rating/discounting management. 
+figure 8-1 depicts the functional framework for service management in a cloud-aware telecommunication 
+management system: 
+ 
+figure 8-1 – functional framework for service management in cloud-aware 
+telecommunication management system 
+the functions are as follows: 
+– service catalogue management: provides capabilities for creating and designing new services, 
+mapping service definitions, managing complex rules, supporting componentization of services and 
+managing their relationships and dependencies; 
+– service inventory management: provides capabilities for storing and managing service instances and 
+their attributes. it also s tores and manages service relationships, which is the mapping of services 
+to other services and/or service components; 
+

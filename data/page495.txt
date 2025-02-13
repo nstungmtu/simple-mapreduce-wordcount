@@ -1,0 +1,54 @@
+cloud computing management 2 
+ 
+  487 
+appendix ii 
+ 
+multi-cloud end to end service management 
+(this appendix does not form an integral part of this recommendation.) 
+the following use case describes the challenges associated with multi-cloud end to end service management. 
+figure ii.1 illustrates an example where a cloud voip service is provided by csp1 to csp2 that is bundling it 
+with other services and reselli ng a package to a cloud service  customer (csc). even if csp1 runs network 
+services such as a content delivery network (cdn), csp2 provides network connectivity services to the end 
+user through its own core networks (e.g., ip/mpls) and access networks (e.g., the backhaul, wifi, 3g/4g/lte 
+and enterprise lan/wan infrastructures).  
+when a csc, such as an it department, has a problem with the cloud voip quality of service, it contacts csp2 
+using a customer relations management (crm) system. the csp2 support agen t should have the capability 
+to see the health and welfare of the voip service from a holistic (end  to end) perspective. this requires 
+visibility into the voip and network resource management systems of both csp1 and csp2. 
+as shown in figure ii.1, there are the two types of connection paths: 
+1. service delivery path  – used by the functional interfaces of the services to deliver the combined 
+service value to the customer. in this use case, cloud voip and ip/mpls are combined to create a 
+premium ict bundle. 
+2. service management path(s)  – all of the logical management paths that perform operations and 
+maintenance functions such as provisioning, service assurance and charging/billing of the relevant 
+services to this bundle. 
+y.3520(13)_fii.1
+csp1
+hosted v oip service
+administration
+provisioning
+charging/usage billing
+customer trouble
+reports/slas
+order entry and
+management
+composite serviceip mpls
+user
+crm portal
+csp2
+premium
+uc service
+administration administration
+provisioning
+service assuranceservice assurance
+charging/usage
+ 
+figure ii.1 – managing multi-cloud services end to end 
+the delivery path for the service, via their functional interfaces, is not addressed by this use case.  
+what is addressed is efficient implementation of all of the resource management functions depicted b y the 
+lines between the customer relationship management (crm) portal and the administrative, provisioning, 
+service assurance and charging functions for each component (voip, etc.) that makes up a complete service. 
+this challenge, associated with effective cloud resource management, is a major technical issue and can be 
+a limiting factor for the adoption of cloud computing based solutions. in order for the composite cloud 
+computing services to work effectively, all the prerequisite services of both csp1 and  csp2 must function 
+properly.  

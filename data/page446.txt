@@ -1,0 +1,48 @@
+2 cloud computing management  
+ 
+438  
+10.2.2.1 product problem management 
+this set of functionalities is responsible for handling product-affecting csc problems as well as csp services 
+problems. these functionalities analyse and resolve product problems in an efficient manner, tracking these 
+problems and reporting them. 
+10.2.2.2  product performance management 
+product performance management includes the activities and tools that gather and analyse data regarding 
+the efficiency of the product strategy, propositions and products based upon their performance  in the 
+marketplace. 
+this set of functionalities is responsible for monitoring, analysing and reporting on product performance. this 
+includes the following functionalities: 
+1) performance monitoring. this functionality collects and monitors product performance data based 
+upon parameters; 
+2) performance analysis. this functionality is responsible for the analysis and evaluation of products ' 
+performance (analysing data received from product performance monitoring). examples of 
+performance analysis include tra cking the perform ance of a product based on its performance in 
+the marketplace with regard to campaigns or product capacity analysis; 
+3) performance reporting. this functionality creates product performance reports (such as product 
+revenue reporting or cost reporting) on a periodic basis or on-demand. 
+10.2.2.3 product quality management 
+this set of functionalities is responsible for monitoring and managing the quality of products. they allow 
+collect and compare quality related measurements against established products. 
+this includes the following functionalities: 
+1) product quality modelling. this functionality establishes what will be monitored and how it will be 
+monitored in terms of product quality; 
+2) product quality monitoring. this functionality collects and monitors product quality as determined 
+by the established product quality model; 
+3) product quality analysing. this functionality analyses and evaluates the quality of products being 
+offered by the csp; 
+4) product quality reporting. this functionality generates various reports on product quality and makes 
+them available on a periodic basis or on-demand. 
+10.2.2.4 product test management 
+this set of functionalities allows a csp to test the quality of products. these functionalities collect and 
+compare quality and perfo rmance related indicators. the results can be optionally available to interested 
+parties. 
+10.2.3 product repositories functionalities 
+this set includes functionalities for product catalogue management and product inventory management. the 
+role of particular functionalities is described hereafter. 
+10.2.3.1  product catalogue management 
+this set of  functionalities allows the csp to list and manage available products and their associated 
+characteristics such as: product offering characteristics, product offering effective duration, product offering 
+description. 
+10.2.3.2 product inventory management 
+this set of functionalities allows the csp to maintain information about already deployed and provided cloud 
+products. it may also store and manage service relationships: the mapping to other services and/or service 
+components. 

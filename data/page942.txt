@@ -1,0 +1,42 @@
+5 intercloud and interoperability  
+ 
+934  
+appendix i 
+ 
+summaries of referenced documents 
+i.1 3cpp references and associated summaries 
+[3cpp tcsa operation method] – operation method of trusted cloud service assessment 
+[3cpp tcsc assessment method] – assessment method for trusted cloud service certification 
+[ydb144-2014]  – cloud service agreement reference framework 
+i.2 csmic references and associated summaries 
+[smi framework version 2.0 draft] – service measurement index framework version 2.0 draft 
+i.3 dmtf references and associated summaries 
+[dsp-is0101] – interoperable clouds 
+this white paper describes a snapshot of the work being done in the dmtf open cloud standards incubator, 
+including use cases and reference architecture as they relate to the interfaces between a csp and a cloud 
+service consumer. the goal of the incubator is to define a set of architectural semantics that unify the 
+interoperable management of enterprise and cloud computing. this paper summarizes the core use cases, 
+reference architecture and service lifecycle. these building blocks will be used to specify the cloud provider 
+interfaces, data artefacts and profiles to achieve interoperable management. 
+[dsp0264] – cimi-cim specification 
+this document defines a cim representation for the cimi logical model. 
+[dsp0263] –cimi model and restful http-based protocol 
+this specification describes the model and protocol for management interactions between a cloud iaas 
+provider and the consumers of an iaas service. the basic resources of iaas (machines, storage and networks) 
+are modelled with the goal of providing consumer management access to an implementation of iaas and 
+facilitating portability between cloud implementations that support the specification. this document 
+specifies a rest-style protocol using http. however, th e underlying model is not specific to http, and it is 
+possible to map it to other protocols as well. 
+[dsp0243] – open virtualization format specification 
+this document describes an open, secure, portable, efficient and extensible format for the packaging a nd 
+distribution of software to be run in virtual machines. 
+i.4 etsi references and associated summaries 
+[etsi ts 103 142] – cloud: test descriptions for cloud interoperability 
+this document specifies interoperability test descriptions for occi and cdmi standards. the test descriptions 
+cover the occi and cdmi protocol specifications where relevant and more specifically: 1) occi 
+interoperability testing, to prove that end -to-end functionality is as required by the standard. 2) cdmi 
+interoperability testing, to prove that end-to-end functionality is as required by the standard. 3) occi + cdmi 
+interworking testing, to prove that end-to-end functionality is as required by the standards. 
+[etsi tr 103 125] – cloud: slas for cloud services 
+this document aims to review previous work on slas including etsi guides from tc user and contributions 
+from eurocio, etc. and to derive potential requirements for cloud specific sla standards. 

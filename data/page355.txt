@@ -1,0 +1,15 @@
+ framework and requirements for cloud computing 1 
+ 
+   347 
+bibliography 
+ 
+[b-itu-t m.3030] recommendation itu-t m.3030 (2002), telecommunications markup language (tml) 
+framework. 
+[b-itu-t y.2201] recommendation itu-t y.2201 (2011), requirements and capabilities for itu-t ngn. 
+[b-itu-t y.2701] recommendation itu-t y.2701 (2007), security requirements for ngn release 1. 
+[b-cra-bdwp] challenges and opportunities with big data, computing research association,  
+november 2012. 
+<http://cra.org/ccc/wp-content/uploads/sites/2/2015/05/bigdatawhitepaper.pdf>  
+ 
+ 
+ 

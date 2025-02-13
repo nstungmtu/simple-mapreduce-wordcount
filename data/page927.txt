@@ -1,0 +1,45 @@
+intercloud and interoperability 5 
+ 
+  919 
+virtualization format (ovf). open data center a lliance (odca) proof of concept ( poc) shows how oasis 
+topology and orchestration specification for cloud applications (tosca) standard can be used to fulfil industry 
+requirements for application portability in the enterprise cloud. tm forum, oasis, w3c cover platform as a 
+service (paas)/software as a service (saas) level cloud interoperability and testing to some extent. 
+this clause lists and briefly describes  representative cloud computing sdos' activities/specifications which 
+are used in cloud interoperability testing. 
+5.1.1 dmtf 
+the mission of distributed management task force (dmtf) is to create standards that enable interoperability 
+among multi-vendor systems, tools and solutions within the enterprise. 
+dmtf works on cloud computing management interface related aspects of common core identifiers (ccis). 
+dmtf's cloud management initiative (cmi) is focused on developing interoperable cloud inf rastructure, 
+management standards and promoting adoption of those standards in the industry. 
+cloud management working group (cmwg) and open virtualization format working group (ovfwg) of dmtf 
+are developing cloud computing interoperability related standards. the cimi developed by cmwg is a self-
+service interface for infrastructure clouds, allowing cloud users to dynamically provision, configure and 
+administer their cloud usage using a high level interface that abstracts away much of complexity of system 
+management. ovf developed by ovfwg is a packaging standard designed to address the portability and 
+deployment of virtual appliances. ovf enables simplified and error -free deployment of virtual appliances 
+across multiple virtualization platforms. 
+table 5-1 – dmtf documents and work items related to cci 
+reference name/title status 
+dsp-is0101 interoperable clouds published 
+dsp0264 cimi-cim specification published 
+dsp0263 cimi model and restful http-based protocol published 
+dsp0243 open virtualization format specification published 
+5.1.2 etsi  
+the european telecommunications standards institute (etsi) is an independent, non-profit, standardization 
+organization in the telecommunications industry (equipment makers and network operators) in europe, with 
+worldwide projection. 
+the goal of  etsi technical committee cloud ( etsi tc cloud, tc grid renamed tc cloud in 2010) is to 
+address issues associated with the convergence between information technology (it) and 
+telecommunications, paying particular attention to the lack of interoperable cloud solutions. 
+etsi works on definitions, service level agreements (slas) and testing methodologies related to aspects of 
+cci. 
+etsi tc cloud ha s developed technical reports on standardization requirements for cloud services. 
+portability and interoperability of clouds is one of the main requirements [etsi tr 102 997]. 
+etsi tc cloud have also developed cci testing related standards including interop erability testing 
+specification for occi and cdmi [etsi ts 103 142] and cloud specific sla standards [etsi tr 103 125]. 
+test descriptions for cloud interoperability [etsi ts 103 142] specifies interoperability test descriptions for 
+occi and cdmi standards. 
+slas for cloud services [etsi tr 103 125 ] aims to review previous work on slas and to derive potential 
+requirements for cloud specific sla standards. 

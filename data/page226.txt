@@ -1,0 +1,56 @@
+1 framework and requirements for cloud computing  
+ 
+218  
+table ii.4 – using an interconnect network for high-performance service – use case 
+derived 
+requirements 
+– sharing process unit component (see clause 7.1.5) 
+– interconnect network supports (see clause 7.1.5) 
+– device driver and api supports (see clause 7.2) 
+– expansion of interconnect network (see clause 7.4) 
+– network topology (see clause 7.1.5) 
+ 
+table ii.5 – physical machine for hyper-scale deployment – use case 
+title physical machine for hyper-scale deployment 
+description this use case covers the situation where very large numbers of physical machines will be 
+employed in multiple data centres around a region or around the world. in this case, a single 
+physical machine will typically be implemented as a server blade that fits into a specially built 
+rack. the rack will typically also include storage, management and networking equipment, 
+which might or might not be implemented using similar blades. 
+roles/sub-roles csp: cloud service operations manager. 
+figure in this type of deployment, physical 
+machines are constructed for 
+deployment in high-density racks 
+specifically designed for the purpose. 
+each rack provides all the 
+infrastructure required to support 
+the machines, including power, 
+network connectivity and 
+ventilation/cooling. individual 
+physical machines are automatically 
+initialised and provisioned with 
+necessary software when plugged 
+into an active rack. once running, 
+each machine is made available for 
+the deployment of vms or other 
+functions requested by cscs or csp 
+administrators. fault tolerance is 
+often provided by software across 
+multiple machines, so an individual 
+machine can fail without adverse 
+effect on the overall system. 
+pre-conditions 
+(optional) 
+csp: the csp wishes to deploy many physical machines in two or more locations, using 
+minimal staffing. 
+post-conditions 
+(optional) 
+a physical machine is plugged into a rack, configures itself to the local network and is 
+automatically provisioned with all necessa ry software including the host operating system, 
+network stacks and hypervisor. the data centre management system is then able to deploy 
+workloads to the machine. in the event of failure, the machine can be removed from the rack 
+and a replacement plugged in with minimal impact on deployed cloud services. 
+a data centre can be left unmanned for several days or weeks at a time. when visited, the 
+failed machines can be quickly removed and replaced by new or refurbished machines, which 
+configure and provision themselves automatically. 
+

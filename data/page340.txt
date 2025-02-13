@@ -1,0 +1,46 @@
+1 framework and requirements for cloud computing  
+ 
+332  
+9 cloud computing based big data capabilities 
+9.1 data collection capabilities 
+data collection capabilities include: 
+– data source intelligent recognition, which offers the capabilities to locate the data sources and 
+detect the types of data being collected; 
+– data adaptation, which offers the capabilities to transform and organize the data being collected 
+with targeted data structures and attributes (numbering, location, ownerships, etc.); 
+– data integration, which offers the capabilities to integrate data  from different data sources 
+(different data types) using metadata or ontology; 
+– data brokerage, which offers the capabilities to provide a brokerage service for searching data. 
+9.2 data pre-processing capabilities 
+data pre-processing capabilities include: 
+– data extraction, which offers the capabilities to extract information from the semi -structured data 
+or unstructured data; 
+– data transmission, which offers the capabilities to transport datasets (static data and real-time data) 
+from data sources or between one location to another keeping the integrity and consistency; 
+– data de-noising, which offers the capabilities to eliminate noise information from a mixture of signal 
+data and noise data; 
+– data aggregation, which offers the capabilities to aggregate data which come from different sources 
+in the same data model or data format. 
+9.3 data storage capabilities 
+data storage capabilities include: 
+– data storing, which offers the capabilities to store different types and formats of data with elastic 
+storage capacity; 
+– data registration, which offers the capabilities to create, update and delete the metadata with 
+corresponding changes in data storage; 
+ note – in the case of unstructured data registration, the data registration component can request the 
+transforming of raw data to semi -structured data such as javascript object notation (json) or  binary 
+javascript object notation (bson) to define semantic relationships among different datasets for knowledge 
+sharing. 
+– data access, which offers the capabilities to access data through multiple interfaces, such as web 
+service interfaces, file system interfaces, database interfaces and so on; 
+– data indexing, which offers the capabilities to create and update indexes for datasets; 
+– data duplication and backup, whic h offers the capabilities to duplicate and make backups for 
+datasets. 
+9.4 data analytics capabilities 
+data analytics capabilities include: 
+– data preparation, which offers the capabilities to transform data into a form that can be analysed. 
+these capabilities include exploring, changing and shaping of the raw data; 
+– data analysis, which offers the capabilities of investigation, inspection and modelling of data in order 
+to discover useful information; 
+– workflow automation, which offers the automation processes, in whole or part, during which data 
+or functions are passed from one step to another for actions, according to a set of procedural rules; 

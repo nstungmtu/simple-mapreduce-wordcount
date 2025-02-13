@@ -1,0 +1,15 @@
+xaas 3 
+ 
+     693 
+ 
+figure a.1 – oss-related reference points 
+the internal reference points illustrated in figure a.1 are listed as follows: 
+– oss1: this reference point covers interactions between the oss-naas and oss-nc, e.g., for wide area 
+network (wan) connectivity management. 
+– oss2: this reference point covers interactions between the oss-naas and the oss-ns. this includes 
+interactions related to network service lifecycle management, network service fau lt and 
+performance ma nagement, network service usage  management and network service inventory 
+management. 
+– oss3: this reference point covers interactions between the oss -ns and oss -nc, e.g. , for wan 
+connectivity management, as required by a given network service orchestrated by the oss-ns. 
+

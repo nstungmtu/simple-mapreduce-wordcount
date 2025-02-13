@@ -1,0 +1,63 @@
+2 cloud computing management  
+ 
+458  
+figure 4 shows the reference point between the components in the cloud -based network management 
+functional architecture. all the reference points in figure 4 are reference points as defined in [itu-t m.3010]. 
+in order to distinguish these references points in this recommendation, which can show the relationship 
+among functional components, they are numbered as r1, r2, r3 r4, and r5 resp ectively, as explained in  
+table 1. 
+table 1 – reference points in cloud-based network management functional architecture 
+name position definition 
+r1 between cloud hypervisor 
+function and cloud physical 
+element function. 
+through reference point r1, a hypervisor function can connect to cloud 
+physical element functions to perform the virtualized resource 
+management functions. (for example, vm management, including but 
+are not limited to creation, deletion, query, and modification of 
+virtualized resource.) in this recommendation, the virtualized resource 
+will be assigned for building management system itself. 
+r2 between management 
+controller function set and 
+cloud hypervisor function. 
+through reference point r2, management controller function set can 
+interact with cloud hypervisor function. management controller 
+function set sometimes may ask the cloud infrastructure function set to 
+assign new virtual resources in order to meet new management 
+requirements. through this reference point, there is no need for 
+management controller fs to know any details about the physical layer 
+resources, and it only sends the command including the requirement 
+for the virtualized resources, then cloud hypervisor function will handle 
+the rest. 
+r3 between management 
+service function set and 
+management controller 
+function set. 
+reference point r3 is provided from the management controller 
+function set to the management service function set. through this 
+reference point, applications can use the common functions provided 
+by the management controller fs. for example, one service application 
+can search for another service application which may be able to meet 
+its requirements. management controller fs can also use this reference 
+point to perform the management service analysis and composition, 
+etc. 
+r4 between management 
+service applications. 
+reference point r4 is between management service functions at the 
+application level. usually, there are cases when one management 
+service function need the support of another management service 
+function, then it just invokes the function provided by that 
+management service function. reference point r4 is used in this 
+situation. 
+r5 between management 
+service function set and the 
+nefs of the network to be 
+managed. 
+network to be managed is the target for network management. 
+through reference point r5, management service functions can interact 
+with the nefs in the network to be managed, and perform the actual 
+network management functions.  
+ 
+ 
+ 
+  

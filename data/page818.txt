@@ -1,0 +1,44 @@
+5 intercloud and interoperability  
+ 
+810  
+title distributed image platform in trusted inter-cloud  
+– in case of connectivity problem between csp(intermediary) and csp1, the 
+saas service is automatically established between csp(intermediary) and 
+csp3. 
+in particular, an example of such service could be sharing information of patients' 
+healthcare between hospitals. the hospitals can exchange all medical data of 
+patients, while other agencies such as insurance or government have access 
+limited to statistical information only without personally identifiable information 
+(pii). 
+roles csc, csp(paas), csp(saas) 
+figure (optional) 
+ 
+pre-conditions (optional) – the primary csp(paas) and secondary csps are in trusted inter-cloud 
+relationship. 
+– the csp1(saas) and csp3(saas) effects security, safety and confidentiality 
+polices. 
+– the csp2(saas) performs service out of business regulatory policy.  
+post-conditions (optional) – the csp(intermediary) guarantees security and confidentiality policy of saas. 
+– the csp(intermediary) establishes service between csc and csp1(saas).  
+– the csp(intermediary) establishes service between csc and csp3 (saas) in 
+case csp1(saas) fails. 
+derived requirements – security and confidentiality policies 
+– unified (commonly adopted) security policies and metadata 
+– interoperability and dependability 
+– support appropriate level of robustness 
+– security policy negotiation terminology 
+– management of distributed data 
+– resiliency service from multiple csps 
+i.2.5 use case of distributed information exchange system in trusted inter-cloud 
+this use case illustrates the security and confidentiality aspect of trusted inter-cloud between a primary csp 
+and secondary csps. the intermediary pattern of inter -cloud used to illustrate the  use case is an example 
+only. 
+table i.2.5 – distributed information exchange system in trusted inter-cloud 
+title distributed information exchange system in trusted inter-cloud  
+description – the csc from regulation business domain (e.g., healthcare, finance, defence), 
+requests the csp for a service to build an information exchange system. csc 
+requires that information will be distributed respecting business regulatory 
+policies and data regulation policy.  
+– the csc requests that distributed information exchange system fits regulatory 
+policy to reach safety, security and confidentiality constraints.  
+

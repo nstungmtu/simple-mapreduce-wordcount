@@ -1,0 +1,46 @@
+xaas 3 
+ 
+  589 
+7.4 client support 
+client support function: 
+– establishes a connection for a virtual desktop on the client side (see clause 7.4.1 service connection 
+function); 
+– supports the optimized user interaction on a daas client (see clause 7.4.2 connection negotiation 
+function); 
+– handles peripherals on a daas client (see clause 7.4.3 client peripheral connection function); 
+– guarantees that the virtual desktop service remains turned  on (see clause 7.4.4 service continuity 
+for user environment). 
+7.4.1 service connection 
+the service connection function supports a daas client to establish a connection for virtual desktop service. 
+this function: 
+– transmits csu's access information to the user access management function (see clause 7.2.3) to 
+verify a daas user; 
+– exchanges virtual desktop access information with the client connection management function (see 
+clause 7.2.2) after user authentication; 
+– supports various types of daas clients such as personal computer, laptop computer, tablet 
+computer, and thin client to access a virtual desktop; 
+– periodically sends the connection state of the daas client to the client connection management 
+function (see clause 7.2.2) to monitor the client state for the preservation of the client connection. 
+in case of a temporarily unavailable  connection, the daas client notifies the connection state to a 
+daas user; 
+– transmits the daas user's requests (i.e., additional resource, resources cancelling,  and additional 
+virtual desktop service) to the client connection management function (see clause 7.2.2); 
+– maintains a standard security connection to protect the content exchanged between a daas client 
+and a daas platform. 
+7.4.2 connection negotiation 
+the connection negotiation function considers two main factors for daas : network performance 
+(e.g., network bandwidth or traffic information) between a daas client and a daas platform; and the client 
+state of a daas client. based on these two main factors, it supports the optimized user interaction on the 
+daas client. 
+the connection negotiation function: 
+– gathers network performance information and the client state, and transmits them to a daas 
+platform through a network; 
+ note 1 – the client state consists  of static and dynamic information of a daas client such as specification  of 
+display, usage and specification of hardware resources ( i.e., cpu, gpu, and memory) , and user interaction 
+methods supported on a daas client. 
+ note 2 – the static information is collected at the initial connection  between a daas client and a daas 
+platform after user verification. the dynamic information is collected periodically when the client is connected 
+to the daas platform to use a virtual desktop service. 
+– allows a daas client to display with best-efforts resolution for client without delay; 
+– receives the negotiation results from a daas platform after the completion of a negotiation; 
+– reflects the negotiation results in a daas client. 

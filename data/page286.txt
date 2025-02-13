@@ -1,0 +1,16 @@
+1 framework and requirements for cloud computing  
+ 
+278  
+summary 
+recommendation itu-t y.3511 describes the framework for interactions of multiple cloud service providers 
+(csps), which is referred to as inter -cloud computing. based on several use case, and after considering the 
+different types of service offerings, this recommendation describes the possible relationships (peering, 
+federation or intermediary) among multiple csps. by introducing the concept of primary csp and secondary 
+csp, the recommendation further describes csp interactions for the cases of federation and intermediary 
+patterns. finally, relevant functional requirements are derived. 
+keywords 
+cloud computing, infrastructure, inter-cloud computing, network, primary csp, requirement, secondary csp, 
+use case. 
+ 
+ 
+  

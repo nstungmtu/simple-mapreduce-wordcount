@@ -1,0 +1,37 @@
+5 intercloud and interoperability  
+ 
+848  
+management, authentication and authorization. in lower layers it focusses on resource control and 
+security over the distributed inter -cloud infrastructure, such as virtualization and encryption 
+management. 
+– the horizontal axis (cross-provider) is based on the interconnection of csps and relies on the inter-
+cloud framework [itu-t y.3511]. the inter-cloud trust management in this dimension is realized over 
+functional components for ma naging security mechanisms. the trust management functionalities 
+located in the multi -layer function ("authorization and security policy management" ) establish a 
+chain of trust between csps with peering, federation and intermediary patterns. 
+6.3 reputation-based trust management in inter-cloud environment 
+in an inter-cloud environment, information such as a csp's competence, honesty, availability, qua lity of 
+service and reputation will influence the selection of the csp to transact with.  therefore, there is a need to 
+assess and maintain the reputation of csps. 
+reputation is a measurement which could be derived from direct or indirect knowledge of earlier interactions 
+of peers and is used to assess the level of trust to a peer. as an entity can trust another entity in the inter -
+cloud based on their reputation, we can use reputation to build trust. 
+one approach to implementing reputation-based trust management is shown in figure 6-1. it is a distributed 
+framework that enables interested parties to determine the reputation of inter -cloud entities. in this 
+approach, each csp has its own trust evaluation system which maintains and computes its trust values locally. 
+trust value is a reputation scoring for csps and could be referenced in selecting a csp to transact with. it 
+could be calculated in realtime based on direct observation and experience  (i.e., first -hand reputation 
+information) and indirect information by sharing observations and experience measures with other entities 
+(i.e., second-hand reputation information). 
+ 
+figure 6-1 – one approach to implement reputation-based trust management 
+the trust evaluation system is responsible for collecting and maintaining reputation information such as a 
+csp's competence, honesty, availability, quality of service about every other csp that it has peering 
+agreements with, and this information could be represented by parameters such as ''mean time between 
+failures'', ''mean time to restore service'', ''ready for service date'' and so on. first-hand reputation 
+information should be updated when a csp completes a transaction with other csps. at the same time, the 
+trust evaluation system should publish its updated first -hand reputation information to a subset of their 
+peers that they have a peering agreement with. since the integrity of the second -hand reputation  
+information has signally influence on the quality of a trust evaluation system, a mechanism should be 
+implemented to protect against unfair ratings from others. 
+

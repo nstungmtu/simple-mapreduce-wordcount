@@ -1,0 +1,17 @@
+8 assisting developing countries  
+ 
+1086  
+summary 
+supplement 46 to the itu-t y-series recommendations applies to the itu-t y.3500 series recommendations. 
+cloud computing has the potential to alleviate some of the socio -economic challenges being faced in 
+developing countries such as lack of resilient elect rical power, lack of information and communication 
+technology (ict) infrastructure and can also improve service delivery to mention but a few.  
+emanating from a survey conducted on the status of cloud computing in developing countries, this 
+supplement highlights the requirements and challenges of cloud computing provision and consumption in 
+developing countries with regards but not limited to standards implementation, data connectivity and 
+infrastructure deployment. 
+keywords 
+broadband, challenges, cloud com puting, cloud service customer, cloud service provider, information and 
+communications technology, internet, quality of service, service level agreement, standards. 
+ 
+  

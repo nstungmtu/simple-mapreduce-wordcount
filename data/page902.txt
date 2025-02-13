@@ -1,0 +1,56 @@
+5 intercloud and interoperability  
+ 
+894  
+table ii.9 – test case: vm scaling 
+vm scaling test description 
+6 stimulus the csc runs an application on vm a to perform more than 
+90% consumption of cpu on vm a to trigger auto-scaling. 
+ 
+7 check a new vm with the same resource configuration as vm a is 
+added. 
+ 
+8 stimulus the csc configures the configuration change based scaling 
+policy that when memory consumed is less than 10%, reduce 
+memory allocation by half for vm a automatically. 
+ 
+9 check the csc performs low(less than 10%) consumption of 
+memory on vm a to trigger auto-scaling.  
+ 
+10 stimulus memory allocation for vm a is reduced by half.  
+11 check the csc configures the components change based scaling 
+policy that when the cpu consumed less than 10%, remove a 
+vm automatically. 
+ 
+12 stimulus the csc performs low(less than 10%) consumption of cpu on 
+vm a to trigger auto-scaling. 
+ 
+13 check vm a is terminated.  
+14 stimulus the csc configures events monitoring based components 
+change for vm a that when vm a is suspended, add a new 
+vm with the same resource configuration as vm a 
+automatically. 
+ 
+15 stimulus the csc suspends vm a.  
+16 check a new vm with the same resource configuration as vm a is 
+added. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.10 test case: vm backup 
+table ii.10 shows the test case for vm backup. 
+table ii.10 – test case: vm backup 
+vm backup test description 
+test purpose to verify that the csc obtains the configuration and data of a particular vm by making a 
+backup and restoring the vm. 
+reference [itu-t y.3513] clause 7.1.7 
+test sequence step type description result 
+1 stimulus the csc makes a backup of vm a, called backup a.   
+2 stimulus the csc changes the configuration and data of vm a.   
+3 stimulus the csc restores vm a with backup a.  
+4 check configuration and data of vm a is consistent with the state 
+when backup a was taken. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 

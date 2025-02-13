@@ -1,0 +1,49 @@
+7 security  
+ 
+1036 
+− the storage location including local and/or remote; 
+− the retention periods for backup data; 
+− the procedures to test the backup data. 
+before choosing csp, csc should  confirm whether that csp could meet the security clause of the sla 
+including the capability of backup. if csp does not provide a backup  capability, csc should fully consider a 
+backup strategy and implementation . otherwise, if csp provides a backup  capability, then csc should 
+cooperate with csp to carry out backup operations. 
+csp should share the essential details of the backup mechanism with cscs. when dealing with backup, csps 
+should address the specifications to meet each of the following csc's requirements: 
+1) backup strategy: since each csc has individual needs in backup, the related factors should be 
+primarily considered, which include: 
+− reasonable recovery point objective (rpo) and recovery time objectives (rto). rpo indicates 
+the time span between two consecutive backup activities, while rto reflects how long it takes 
+to roll-back to a backup. 
+− reasonable retention policy: the policy should specify the copy number of a backup. 
+− reasonable combination of file-level backup and virtual machine level backup: the combination 
+should satisfy an optimal investment cost, which is based upon rpo and rto. 
+− reasonable combination of on-site backup and off-site backup: the on-site backup is stored in 
+the local site, which could meet the need of fast disaster recovery. the off-site backup is stored 
+in a remote site, which is needed to cope with a major disaster. the combination depends on 
+the requirement of the security clause of the sla, and the investment cost. 
+− regular test procedures of recovery: the recovery test is the ultimate method to verify the 
+validity of a backup. 
+2) task arrangement: once the backup strategy is determined, csps should make an appropriate task 
+arrangement of backup operations. to reduce the impact on the performance of the cloud 
+computing infrastructure, the backup task arrangement should depend on csc's backup 
+requirements, the network traffic pattern and the backup capability of csp. 
+3) procedures to check the validation of backup: a complete and correct data copy means a successful 
+backup operation. generally, the procedures should contain the following two main steps: 
+− using a one-way hash function to verify that the b ackup is consistent with the original data. if 
+the backup is the same as the original, then go to the next step. moreover, a digital signature 
+method could be used to verify the backup operator, which can introduce some benefit to the 
+management of backup operation. 
+− taking a recovery test for the backup. as the continuous change in the cloud computing 
+environment, regular recovery test is critical. 
+4) prudence about the snapshots of the virtual machine: in a cloud computing scenario, the snapshot 
+method p rovides a quick and easy means of rollback, which could act as a backup method to a 
+certain extent. however, the snapshot method should not be used frequently due to the following 
+reasons: 
+− snapshots allow the same data to multiply and to be written in di fferent snapshot files, which 
+could easily bring about serious performance degradation and rapid storage occupancy in the 
+cloud computing systems. 
+− in order to reduce storage occupancy, a chain of an original virtual machine snapshots is often 
+configured to merely contain the difference from the first snapshot. once the first snapshot is 
+destroyed, the successive snapshots would end up being invalid. the security risk is magnified 
+as the rate of successive snapshots increases. 

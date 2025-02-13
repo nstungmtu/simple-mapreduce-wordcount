@@ -1,0 +1,48 @@
+ framework and requirements for cloud computing 1 
+ 
+   237 
+6.4.3 service considerations of distributed cloud 
+services in a distributed cloud have various types based on the resource capacity of core, regional and edge 
+clouds and on the csc's demands. thus, service considerations are as follows: 
+– the scale of a cloud service for deploying cloud services in different -scale edge, regional and core 
+clouds; and 
+– automatic cloud service delivery for supporting the mobility of csc’s rapidly. 
+6.4.4 management considerations of distributed cloud 
+management in a distributed cloud has a global view and a local view of operations, and administration for 
+distributed cloud resources and services. thus, management considerations are as follows: 
+– global management of both distributed cloud resources and cloud services for interworking among 
+core, regional and edge clouds; and 
+– provisioning, operation and administration of distributed cloud resources and cloud services. 
+6.4.5 security considerations of distributed cloud 
+security in a distributed cloud has adaptive security control for core, regional and edge clouds. thus, security 
+considerations are as follows: 
+– identification and authentication of cscs using multiple distributed cloud infrastructures at a ny 
+distributed cloud; 
+– different scales of security functions, such as availability and data integrity, based on the resource 
+capacity of core, regional and edge clouds; and 
+– different security suites for confidentiality, policy and key management approp riate to 
+heterogeneous distributed cloud resources. 
+7 high-level requirements for distributed cloud 
+7.1 infrastructure requirements for distributed cloud 
+– high scalability: it is required that a distributed cloud provide distributed cloud resources with scale-
+out to edge, regional and core clouds to satisfy a large number of demands for cloud services; 
+– high reliability : it is required that a distributed cloud provide redu ndant deployment of cloud 
+services among edge, regional and core clouds against catastrophic events; 
+– low power consumption: it is required that a distributed cloud provide energy-efficient distributed 
+cloud resources for low power consumption at an edge cloud in order to save power of the edge 
+cloud; 
+– adaptive resource composition : it is recommended that a distributed cloud provide adaptive 
+resource composition of the distributed cloud among edge, regional and core clouds; 
+ note 1 – adaptive resource composition refers to preparation of distributed cloud resources appropriately to 
+support changes of a csc's condition, such as environmental changes by the csc's mobility.  
+– automatic infrastructure provision: it is recommended that a distributed cloud provi de automatic 
+setup of infrastructure, including hardware initiation, network configuration and software 
+installation; 
+– heterogeneous devices access: it is recommended that a distributed cloud provide heterogeneous 
+access mechanisms for end devices to enrich cloud services. 
+ note 2 – examples of heterogeneous access mechanisms are wi-fi, bluetooth, wireless sensor network (wsn) 
+and radio access network (ran). 
+7.2 network requirements for distributed cloud 
+– low latency: it is required that a distributed cloud provide network resources to support low latency 
+for cloud services in edge clouds; 
+ note 1 – examples of network resources are access point, switch, router and gateway.  

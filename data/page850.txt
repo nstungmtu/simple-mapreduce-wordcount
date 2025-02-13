@@ -1,0 +1,13 @@
+5 intercloud and interoperability  
+ 
+842  
+summary 
+recommendation itu-t y.3517 provides an overview of inter-cloud trust management by specifying isolation 
+and security management mechanisms, inter -cloud trust management model, reputation -based trust 
+management in an inter -cloud environment, cloud service evaluation framework and the relationship with 
+cloud computing reference architecture. it also provides req uirements for inter -cloud trust management 
+derived from the corresponding use cases. 
+keywords 
+inter-cloud, inter -cloud trust management model, isolation and security mechanism, management, 
+reputation-based trust management, trust, trust management. 
+  

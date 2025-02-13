@@ -1,0 +1,47 @@
+1 framework and requirements for cloud computing  
+ 
+70  
+• tracking the sales and service usage against the plan to ensure that financial targets are achieved 
+for the cloud service provider; 
+• preparing a business plan and adjusting the business plan to provide cloud services. 
+8.3.2.12 manage customer relationships 
+the manage customer relationships activity involves the management of the business relationship of the 
+cloud service provider with the cloud service customer including: 
+• creating and maintaining content of a product catalogue; 
+• acquiring customers; 
+• providing the point of contact for the customer for all business matters; 
+• discussing and resolving concerns or problems raised by the customer; 
+• processing change requests (e.g., entitlement changes). 
+8.3.2.13 manage financial processing 
+the manage financial processing activity involves: 
+• handling billing updates or challenges; 
+• generating billing information and/or an invoice for charges relating to the use of cloud services and 
+transmitting the billing information or invoice to the cloud service customer; 
+• handling the receipt of payments from the cloud service customer and their accounting. 
+8.3.2.14 handle customer requests  
+the handle customer requests activity involves: 
+• handling support requests, reports and incidents from cloud service customers, however received. 
+customers can be provided with a variety of means to communicate, from forums through email, 
+customer support desk systems or web portals to real -time communication with provider support 
+personnel; 
+note – some requests or reports can only require the provision of information or the clarification of details. other requests and 
+reports can require problem analysis, or they can involve the creation of a change request. 
+8.3.2.15 manage peer cloud services 
+the manage peer cloud services activity focuses on managing the usage of cloud services of a peer cloud 
+service provider. this activity involves: 
+• selecting and using one or more services of a peer cloud service provider; 
+• monitoring and managing the peer cloud service provider's cloud services to ensure that they meet 
+agreed sla targets including the reporting and resolution of problems with those services; 
+• managing the business aspects of the cloud services of a peer cloud service provider, including the 
+business plan and financial processing; 
+• keeping track of how much use is being made of each cloud service of a peer cloud service provider, 
+and by which users, and including assurance that the use is appropriate and within the business 
+plan; 
+• monitoring the i ntegration of the cloud services  of a peer cloud service provider  with service 
+implementations to ensure that business goals are being met; 
+• coordinating identity and security credentials between the cloud service customer and all the peer 
+cloud service providers. 
+8.3.2.16 perform peering, federation, intermediation, aggregation and arbitrage 
+the perform peering, federation, intermediation, aggregation and arbitrage activity involves the use of peer 
+cloud service provider's cloud services in particular ways: 
+• peering is the use of cloud services of a peer cloud service provider; 

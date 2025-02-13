@@ -1,0 +1,61 @@
+intercloud and interoperability 5 
+ 
+  897 
+table ii.14 – test case: physical machine status inquiring 
+physical machine configuration inquiring test description 
+test sequence step type description result 
+1 stimulus the csc queries the cpu’s cores number of the physical 
+machine from the csp. 
+ 
+2 check the csc receives the information of a particular physical 
+machine's cpu cores number that is consistent with the cpu 
+cores number of the physical machine. 
+ 
+3 stimulus the csc queries memory size of the physical machine from 
+the csp. 
+ 
+4 check the csc receives the information of a particular physical 
+machine's memory size that is consistent with the memory 
+size of the physical machine. 
+ 
+5 stimulus the csc queries the disk size of the physical machine from 
+the csp. 
+ 
+6 check the csc receives the information of a particular physical 
+machine's disk size that is consistent with the disk size of the 
+physical machine. 
+ 
+7 stimulus the csc queries the nic number of the physical machine 
+from the csp. 
+ 
+8 check the csc receives the information of a particular physical 
+machine's nic number that is consistent with the nic 
+number of the physical machine. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.2 test cases for storage service interoperability testing between the csc and csp 
+ii.2.1 test case: storage migration 
+table ii.15 shows the test case for storage migration. 
+table ii.15 – test case: storage migration 
+storage migration test description 
+test purpose to verify that the csc migrates data of the vm to different storage media without any 
+loss. 
+reference [itu-t y.3513] clause 7.2.1 
+test sequence step type description result 
+1 stimulus the csc migrates the vm's data from local storage to shared 
+storage.  
+ 
+2 check the vm uses the shared storage after migration is done 
+without affecting the service running on the vm. 
+ 
+3 stimulus the csc migrates the vm's data from shared storage to local 
+storage. 
+ 
+4 check the vm uses the local storage after migration is done 
+without affect the service running on the vm. 
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 

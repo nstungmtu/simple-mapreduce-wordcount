@@ -1,0 +1,36 @@
+1 framework and requirements for cloud computing  
+ 
+160  
+table i.6 – a use case of cloud service selection and configuration from csc 
+title a use case of cloud service selection and configuration from csc. 
+description a csc accesses a workspace provided by a csn: cloud service broker with previously registered 
+ids and passwords.  
+cloud services shown in a product catalogue are usually managed in the form of images that 
+packages a virtual machine, os and applications. 
+to search cloud services that the csc wants to use, the csc inputs information of the cloud 
+services into the workspace. the information of the cloud services would be csp's location, 
+prices, hardware specification of virtual machine, os types, applications,  sla, etc.   
+the csn: cloud service broker can automatically find the services best matched with search 
+terms from the csc. the csb workspace also provides the interfaces where the csc can search 
+the cloud services in a product catalogue manually.  
+in some cases, a csc can configure a cloud service by selecting separate elements of the cloud 
+service not by choosing a full packaged cloud service. 
+after searching or configuring a cloud service, a csc receives corresponding slas and billing 
+information adjusted by the csn: cloud service broker. on csc's acceptance, the contract phase 
+begins, otherwise the csc can search and configure cloud services again.  
+roles/sub-roles csp, csn: cloud service broker, csc 
+figure 
+  
+pre-conditions 
+(optional) 
+the csc is a member of the csn: cloud service broker and has an account for accessing csb 
+workspace.  
+post-conditions 
+(optional) 
+the contract between the csc and csn: cloud service broker is established.  
+derived 
+requirements 
+– providing the best matched cloud service (see clause 7.2)  
+– configuration of cloud service for contract (see clause 7.3)  
+ 
+

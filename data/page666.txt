@@ -1,0 +1,12 @@
+3 xaas  
+ 
+658  
+appendix ii  
+ 
+methodology of mapping use cases and requirements 
+(this appendix does not form an integral part of this recommendation.) 
+in order to improve the effectiveness of this recommendation and the harmonization with the related itu-t 
+recommendations, the same use case driven approach is applied in this recommendation as described in 
+[itu-t y.3501]. a set of use cases had been selec ted and elaborated, based on these use cases, different 
+categories of requirements may be introduced. 
+ 

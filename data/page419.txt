@@ -1,0 +1,56 @@
+ framework and requirements for cloud computing 1 
+ 
+   411 
+title of deliverable current status starting 
+date target date 
+dsp0264, cloud infrastructure management 
+interface – common information model (cimi-cim) 
+version 1.0.0 
+dmtf standard 
+[chinese]  
+01/2013 
+dsp0266, redfish scalable platform management 
+api specification version 1.1.0 
+dmtf standard 
+[chinese] 
+ 
+01/2017 
+dsp0270, redfish host interface specification 
+version 1.0.0 
+dmtf standard  01/2017 
+dsp8009, cimi xml schema dmtf standard  02/2014 
+dsp8010, redfish schema dmtf standard  01/2017 
+dsp8023, open virtualization format xsd dmtf standard  01/2013 
+• dsp0217: the "system management architecture for server hardware (smash) implementation 
+requirements" specifies the cim profile implementation requirements needed for conformance 
+with smash 2.0. 
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0217_2.1.0.pdf 
+• dsp0243: the "open virtualization format (ovf) specification" describes an open, secure, portable 
+and extensible format for the packaging and distribution of software for execution in virtual 
+machines across multiple virtualization platforms. this specification is recognized by incits (469 -
+2010) and iso/iec (17203:2011).  
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0243_1.1.0.pdf 
+ version 2.1.1 of this document extends the format definition to support network ports, scaling at 
+deployment time , basic placement policies, encryption of ovf packages , runtime d isk sharing, 
+advanced boot order , advanced data transfer to guest os , improved internationalization – i18n, 
+improved hash and cim schema. 
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0243_2.1.1.pdf 
+• dsp0262: the "cloud auditing data federation (cadf) data format and interface definitions 
+specification" document specifies a data model and associated schema definitions to format event 
+records, logs and reports that can be federated and are suitable for audit purposes. 
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0262_1.0.0.pdf 
+• dsp0263: the "cloud infrastructure management interface (cimi) model and rest interface over 
+http" specifies the model and protocol for management interactions between the provider of a 
+cloud infrastructure as a service (iaas) and a consumer of that service. the model includes machines, 
+storage and networks within the iaas provider which the iaas consumer can perform life cycle 
+management. 
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0263_1.0.1.pdf 
+• dsp0264: the "cloud infrastructure management interface - common information model" specifies 
+a cim represe ntation for the logical model contained in the "cloud infrastructure management 
+interface" document (dsp0263). 
+ uri: http://dmtf.org/sites/default/files/standards/documents/dsp0264_1.0.0.pdf 
+• dsp0266: the "redfish scalable platform management api specification" document specifies 
+restful interface semantics to access the data defined in model format to perform out -of-band 
+systems management. it is suitable for a wide range of servers, from standalone servers to rack 
+mount and bladed environments but scales equally well for large-scale cloud environments. 
+ uri: http://www.dmtf.org/sites/default/files/standards/documents/dsp0266_1.1.0.pdf 

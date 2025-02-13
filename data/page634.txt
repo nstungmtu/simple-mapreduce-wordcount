@@ -1,0 +1,48 @@
+3 xaas  
+ 
+626  
+e.g., chain composed of intrusion protection system (ips), load balancer and dpi, needs 
+dedicated configuration and is not flexible in case of e.g., growth of traffic, 
+adding/removing services to/from the chain. 
+for the better service flexibility, it is recommended for naas csp to provide programmable 
+naas platform, on which naas applications such as vrouter, vcdn, vepc, etc. can be 
+deployed, in order to steer the csc's traffic via customized naas applications sequence.  
+roles csc (tenant a, tenant b), csp 
+figure  
+(optional) 
+ 
+pre-conditions 
+(optional) 
+– csp can deliver dedicated physical network appliances solutions for services, such as 
+dpi, intrusion detection, intrusion prevention, load balance, firewall, etc.  
+post-conditions 
+(optional) 
+– csp can provide composed either virtual or physical network services or both, or 
+services chains dynamically and flexibly according to the csc's specific service logic in a 
+shorter deployment, configuration, and update intervals, compared with dedicated 
+physical network appliances solution. 
+derived 
+requirements 
+– programmable naas platform (refer to clause 8.1) 
+– dynamic and flexible network services composition and steering (refer to clause 8.2) 
+– isolation of service chains for tenants (refer to clause 8.3) 
+ii.3.2.2  naas platform use case for platform provision 
+ 
+title naas platform use case for platform provision 
+description csc-a is a network operator. csc-a wants to build advanced traffic analysis system and 
+multi-dimensional reporting using dynamically scaling dpi functionalities, opportunistic 
+services at low risk, and in short time of implementation, multi-tenant cdn, etc., in mobile 
+networks. however, classical proprietary hardware-based network appliances inhibit the 
+rapid roll out of new converged network functionalities and revenue earning services. they 
+neither scale on-demand nor are flexible enough. 
+csc-a has the possibility to cope with its business innovation needs by developing 
+necessary features and services using naas platform. innovating using naas platform 
+allows it to utilize csp network services and combine them with the functionalities 
+developed by csc-a. all functionalities can be integrated by csc-a on the basis of naas 
+platform to build enhanced network services e.g., virtualized evolved packet core (epc), 
+software-based dpi platform, integrated development environments (ides). the capacity of 
+naas platform needs to scale elastically according to the utilization of enhanced network 
+services to secure the required performance. solutions to support integration of the csp 
+network services with the csc-a's developed software are also needed. 
+roles csp, csc 
+

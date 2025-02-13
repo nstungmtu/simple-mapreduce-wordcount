@@ -1,0 +1,43 @@
+3 xaas  
+ 
+554  
+6.2 general configuration for daas  
+figure 6-3 shows the general configuration environment for daas logical components. the environment is 
+based on a traditional client -server model and mainly consists of a daas client, a connection manager, a 
+resource pool, a virtualization infrastructure and a virtual desktop delivery. detailed interaction among these 
+daas logical components are described in clause 6.3.  
+note 1 – relationship between daas logical components and the cloud computing reference architecture in [b-itu-t 
+fgcc2] is described in appendix i. further study of the daas architecture is needed to map the daas logical components 
+to the cloud computing reference architecture. 
+ 
+figure 6-3 – general configuration for daas  
+the main logical daas components, shown in figure 6-3, are as follows:  
+• daas client 
+ daas users can be provided with their virtual desktop remotely through their daas clients. to access 
+a daas platform, d aas users can employ one of the methods among dedicated software, general -
+purpose web browser and firmware depending on the type of daas client. more detailed 
+information regarding daas clients is provided in appendix ii.  
+ note 2 – depending on the type of daas client, when the daas client is booted up, it starts a log in procedure 
+to a corresponding virtual desktop with access information such as its identification, password and ip address. 
+in case of termination of the corresponding virtual desktop, the daas client recognizes it and begins a log out 
+procedure which includes turning off the virtual machine (vm) or the daas client. 
+• connection manager 
+ this logical component is responsible for connecting a daas user to an available and suitable virtual 
+desktop. the connection manager's tasks include: 
+– user authentication and licence verification to validate the user and the user's application;  
+– assignment of a virtual desktop; 
+– coordination of a delivery protocol to be used between a daas client and a daas platform; and  
+– allocation of necessary storage.  
+ in addition, the connection manager is responsible for load balancing and managing the number of 
+users per daas platform, reconnecting a user to the virtual desktop. 
+ the connection manager uses the resource pool and the virtualization infrastructure to allocate the 
+required resources such as computing, network and storage in virtualization infrastructure. 
+• resource pool 
+ resource pool is an abstraction of software resources such as os, applications and user profiles. the 
+software resources can be loaded from the resource pool to given resources in the virtualization 
+infrastructure. a resource pool can offer provisioning information regarding the software resources 
+on request by a connection manager.  
+ note 3 – a user profile can contain individual information about hardware configuration (i.e., central 
+processing unit (cpu), random access memory (ram), i/o), used os, selected applications and user computing 
+environment information (e.g., display resolution and internet access means).  
+

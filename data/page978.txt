@@ -1,0 +1,40 @@
+7 security  
+ 
+970 
+3.2 terms defined in this recommendation 
+this recommendation defines the following term: 
+3.2.1 security challenge: a security "difficulty" other than a direct security threat arising from the nature 
+and operating environment of cloud services, including "indirect" threats. see clauses 7 and 8. 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+api application programming interface 
+bcp business continuity plan 
+caas communications as a service 
+cpu central processing unit 
+csc cloud service customer 
+csn cloud service partner 
+csp cloud service provider 
+csu cloud service user 
+dns domain name system 
+iaas infrastructure as a service 
+iam identity and access management 
+ict information and communication technology 
+ip internet protocol 
+it information technology 
+naas network as a service 
+os operating system 
+paas platform as a service 
+pii personally identifiable information 
+pki public key infrastructure 
+saas software as a service 
+sim subscriber identity module 
+sla service level agreement 
+vm virtual machine 
+5 conventions 
+none. 
+6 overview 
+cloud computing is a paradigm for enabling convenient, on -demand network access to a shared pool of 
+configurable resources (e.g., networks, servers, storage, applications and services) that can be rapidly 
+provisioned and released with minimal management effort or service provider interaction. cloud computing 
+customers can use these resources to develop, host and run services and applications on demand in a flexible 
+manner in any device, anytime and anywhere in the cloud computing environment. cloud computing services 

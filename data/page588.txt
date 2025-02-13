@@ -1,0 +1,32 @@
+3 xaas  
+ 
+580  
+vdrm-fs virtual desktop resource management functions 
+vi-fs virtualization infrastructure functions 
+vm virtual machine 
+5 conventions 
+throughout this recommendation, the term "daas user" is to be understood as equivalent to "cloud service 
+user (csu)". 
+6 relationship between daas logical components and daas functions 
+there are five daas logical components in recommendation [itu-t y.3503]: 
+1) daas client; 
+2) connection manager; 
+3) resource pool; 
+4) virtualization infrastructure; 
+5) virtual desktop delivery. 
+note – the relationship between the daas logical components and the cloud computing reference architecture in 
+[itu-t y.3502] is described in appendix i. 
+in daas, a connection manager is configured to establish connections to a daas client  and manage these 
+connections. virtual desktops in the virtualization infrastructure are provided to daas user s through virtual 
+desktop delivery. the r esource pool is provisioned or configured to as sign optimum resources to virtu al 
+desktops for the daas clients. these daas logical components are realized by the following daas functions: 
+– virtualization infrastructure support functions: these functions support daas in terms of 
+virtualization infrastructure with resource pool; 
+– virtual desktop connection and delivery functions: these functions configure, provision, and deliver 
+virtual desktops in connection manager and virtual desktop delivery; 
+– virtual desktop resource management functions: these fu nctions manage resources in r esource 
+pool for virtual desktops; 
+– daas client support functions: these functions support daas from a daas client's perspective. 
+table 6-1 shows the relationship between daas logical components in [itu -t y.3503] and daas functions in 
+this recommendation. 
+  

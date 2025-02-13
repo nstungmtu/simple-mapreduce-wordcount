@@ -1,0 +1,40 @@
+7 security  
+ 
+986 
+bibliography 
+ 
+[b-itu-t e.409] recommendation itu-t e.409 (2004), incident organization and security incident 
+handling: guidelines for telecommunication organizations. 
+[b-itu-t x.810] recommendation itu-t x.810 (1995) | iso/iec 10181-1:1996, information 
+technology – open systems interconnection – security frameworks for open 
+systems: overview. 
+[b-itu-t y.3500] recommendation itu-t y.3500 (2014) | iso/iec 17788:2014, information 
+technology – cloud computing – overview and vocabulary. 
+[b-itu-t y.3502] recommendation itu-t y.3502 (2014) | iso/iec 17789:2014, information 
+technology – cloud computing – reference architecture. 
+[b-iso/iec 19440] iso/iec 19440:2007, enterprise integration – constructs for enterprise modelling. 
+[b-iso/iec 20000-1] iso/iec 20000-1:2011, information technology – service management – part 1: 
+service management system requirements. 
+[b-iso/iec 27000] iso/iec 27000:2012, information technology – security techniques – information 
+security management systems – overview and vocabulary. 
+[b-iso/iec 27002] iso/iec 27002:2005, information technology – security techniques – code of 
+practice for information security management. 
+[b-iso/iec 27005] iso/iec 27005:2011, information technology – security techniques – information 
+security risk management. 
+[b-iso/iec 27729]  iso/iec 27729:2012, information and documentation – international standard 
+name identifier (isni). 
+[b-iso/iec 28000] iso/iec 28000:2007, specification for security management systems for the supply 
+chain.  
+[b-iso/iec 29100] iso/iec 29100:2011, information technology – security techniques – privacy 
+framework. 
+[b-nist-sp-800-30] nist special publication 800-30 (2012), guide for conducting risk assessments. 
+[b-nist-sp-800-53] nist special publication 800-53 rev.3 (2009), recommended security controls for 
+federal information systems and organizations. 
+[b-nist-sp-800-125] nist special publication 800-125 (2011), guide to security for full virtualization 
+technologies.  
+[b-nist-sp-800-145] nist special publication 800-145 (2011), the nist definition of cloud computing. 
+[b-csa matrix] csa (2013), cloud controls matrix, cloud security alliance. 
+[b-key definition] key definitions of the data protection act, information commissioners office 
+<http://www.ico.gov.uk/for_organisations/data_protection/the_guide/key_de
+finitions.aspx> 
+  

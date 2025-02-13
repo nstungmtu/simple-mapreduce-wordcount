@@ -1,0 +1,59 @@
+1 framework and requirements for cloud computing  
+ 
+194  
+table i.2 – dmtf related specifications  
+specification summary published  
+redfish scalable platforms 
+management api specification 
+[b-dmtf rfapi] 
+this specification is to define the protocols, data model 
+and behaviors, as well as other architectural components 
+needed for an interoperable, cross-vendor, remote and 
+out-of-band capable interface that meets the 
+expectations of cloud and web-based it professionals for 
+scalable platform management. while large scale systems 
+are the primary focus, the specifications are also capable 
+of being used for more traditional system platform 
+management implementations. 
+2018-08-23 
+redfish host interface specification 
+[b-dmtf rfhi] 
+this specification defines functional requirements for 
+redfish host interfaces. in the context of this document, 
+the term "host interface" refers to interfaces that can be 
+used by software running on a computer system to access 
+the redfish service that is used to manage that computer 
+system. 
+2017-12-11 
+redfish interoperability profiles 
+[b-dmtf rfp] 
+the redfish interoperability profile is a json document 
+that contains schema-level, property-level and registry-
+level requirements. at the property level, these 
+requirements can include a variety of conditions under 
+which the requirement applies. 
+2018-05-15 
+i.1.3 snia 
+the storage networking industry association (snia) is a non -profit organization made up of member 
+companies spanning information technology. a globally recognized and trusted authority, snia's mission is 
+to lead the storage industry in developing and promoting vendor -neutral architectures, standards and 
+educational services that facilitate the efficient management, movement and security of information. 
+table i.3 – snia related specifications 
+specification summary published  
+snia swordfish specification v1.0.6 
+[b-snia sf] 
+the swordfish scalable storage management api 
+("swordfish") defines a restful interface and a 
+standardized data model to provide a scalable, customer-
+centric interface for managing storage and related data 
+services. it extends the redfish scalable platforms 
+management api specification (dsp0266) from the 
+dmtf. 
+2018-05-25 
+i.1.4 etsi 
+the european telecommunications standards institute (etsi) is the recognized regional standards body – 
+european standards organization (eso) – dealing with telecommunications, broadcasting and other 
+electronic communications networks and services. 
+the etsi nfv eve working group seeks to develop the necessary requirements to enable a common set of 
+hardware elements and physical environments (e.g., data centres) that can be used to support network 
+function virtualization (nfv) services [b-etsi eve007].  

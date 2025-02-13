@@ -1,0 +1,51 @@
+3 xaas  
+ 
+586  
+• basic information of a virtual desktop: virtual desktop id, os type, hypervisor type, current 
+status; 
+• h/w resource for virtual desktop: assigned memory space, the assigned number of cpus, 
+assigned storage space, virtual desktop's ip address, virtual desktop's mac address, accessible 
+port number, performance enhancement factor. 
+– monitors the run -time information of virtualization infrastructure and virtual desktop. this 
+monitoring information is dynamically monitored at run-time and usually checked periodically; 
+ note 4 – the run-time information includes cpu utilization, memory utilization, storage utilization, network 
+utilization, etc. 
+– performs the controls by a daas user and an administrator. 
+ note 5 – following are the controls at both sides: 
+• daas user's controls: virtual desktop state controls such as on, create, reset, pause, resume, 
+and off: 
+– on/off: turn on or turn off a virtual desktop; 
+– create: make a new virtual desktop; 
+– reset: reboot the os of a virtual desktop; 
+– pause/resume: pause the os maintaini ng a connection and resume the os from a pause 
+status; 
+– delete: elimination of a virtual desktop. 
+• administrator's controls: virtual desktop state controls, resource modification (cpu change, 
+memory change, storage change, adding/deleting usb, network selection etc.), virtual desktop 
+migration. 
+7.3.2 user account and profile management 
+csu's accounts are separated into two types as follows: 
+1) administrative account for an administrator who has the authority to control and manage a system; 
+2) general user account combined with csc types such as service level, the type of virtual desktop, the 
+authority of resource utilization, and the virtual desktop persistence user or not. see [itu-t y.3503]. 
+the user account and profile management function: 
+– classifies each csc type and clarifies the service catalogue since different daas users have their own 
+accounts and profiles; 
+– manages csu's accounts and profiles to guarantee correct access to their resources; 
+– maintains csu's account information and provides it to the user access management function (see 
+clause 7.2.3); 
+– maintains types of profiles such as virtual desktop user profile and virtual desktop hardware profile 
+in order to build and maintain daas user's individual virtual desktop environments; 
+ note 1 – virtual desktop user profile consists of desktop preferences and the csu's application settings, etc. 
+ note 2 – virtual desktop hardware profile includes the specific hardware configuration information  to be 
+allocated to a daas user and the information for booting-up procedure, etc. 
+ note 3 – since virtual desktop hardware profile depends on physical hardware in virtualization infrastructure, 
+the physical hardware information from hypervisor or platform is collected and stored.  
+– generates profiles from csu's account information or the pre -configured virt ual desktop 
+environment (such as virtual desktop user profile or template). these generated profiles are bound 
+to csu's accounts and are reflected in a corresponding virtual desktop; 
+– saves profiles whenever they are changed; 
+ note 4 – for a particular csc type (such as non -persistence), this function does no t save the profile. in this 
+case, this function provides new profiles whenever a daas user connects a virtual desktop . 
+– prepares and provides new virtual desktop user profiles and hardwar e profiles by  comparing 
+physical hardware information with the pre-configured environment. 

@@ -1,0 +1,31 @@
+1 framework and requirements for cloud computing  
+ 
+60  
+ 
+figure 8-2 – roles and sub-roles 
+8.2 cloud service customer 
+8.2.1 role 
+a cloud service customer (csc) has a business relationship with a cloud service provider for the purpose of 
+using cloud services. a cloud service customer  can also have a business relationship with a cloud service 
+partner for a variety of purposes. 
+a cloud service customer's activities  are included beneath the sub-roles described in clauses 8.2.1.1 to 
+8.2.1.4. 
+8.2.1.1 csc:cloud service user 
+the csc:cloud service user is a sub -role of cloud service customer corresponding to a natural person or an 
+entity acting on their behalf, associated with a cloud service customer that uses cloud services. 
+the csc:cloud service user's cloud computing activities include: 
+• use cloud service (clause 8.2.2.1). 
+8.2.1.2 csc:cloud service administrator 
+the csc:cloud service administrator is a sub-role of cloud service customer, whose main goal is to ensure 
+the smooth operation of the customer's use of cloud services, and that those cloud services are running well 
+with the customer's existing ict systems and applications. the csc:cloud service administrator oversees all 
+the opera tional processes relating to the use of cloud services  and acts as the focal point for technical 
+communications between the cloud service customer and the cloud service provider. 
+the csc:cloud service administrator's cloud computing activities include: 
+• perform service trial (clause 8.2.2.2); 
+• monitor service (clause 8.2.2.3); 
+• administer service security (clause 8.2.2.4); 
+• provide billing and usage reports (clause 8.2.2.5); 
+• handle problem reports (clause 8.2.2.6); 
+• administer tenancies (clause 8.2.2.7). 
+

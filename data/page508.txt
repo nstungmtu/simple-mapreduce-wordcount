@@ -1,0 +1,26 @@
+2 cloud computing management  
+ 
+500  
+c) management of pol icy: cscs require the ability to set policies for which cloud services are 
+configured and managed i.e. , controls over who has access to cloud assets, periodic and on -
+demand logging and reporting. 
+d) managing self-service portal: a self-service portal can be managed by a csp to provide a product 
+catalogue and to take cscs' requests and offer a degree of control. 
+e) configuring: cloud services can be configured for provisioning and use. 
+f) provisioning service : cloud service should  be provisioned automatically accordin g to cscs ' 
+requests. 
+g) composition/orchestration of services: multiple cloud services may need to be composed into 
+a single cloud service. 
+h) service decommissioning : for the best utilization of resources, when a clou d service (or 
+resource) is suspend ed, it should be managed by freeing the associated resources. 
+decommissioning can be achieved on-demand, when a request from a csc occurs or according 
+to a schedule. 
+i) charging: according to the policy, time of use and se rvice type, charging information can b e 
+provided. 
+3) e2e cloud service lifecycle management system implemented by csp1 can interact with e2e cloud 
+service lifecycle management system implemented by csp2 through the smis between csps as 
+shown in figure 6-1. 
+ 
+figure 6-1 – e2e cloud service lifecycle management framework 
+  
+

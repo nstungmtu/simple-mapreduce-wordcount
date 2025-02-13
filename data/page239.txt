@@ -1,0 +1,44 @@
+ framework and requirements for cloud computing 1 
+ 
+   231 
+3.2 terms defined in this recommendation 
+this recommendation defines the following terms: 
+3.2.1 cloud service image: an executable code with state information of virtual machine or container. 
+note 1 – state infor mation includes execution states, disk states and memory states of system, such as program 
+counter, registry, disk volume number, disk volume size, memory stack and information of allocated memory.  
+note 2 – cloud service image includes operating system, libraries, data files, applications, etc. 
+3.2.2 core cloud: a cloud computing, which manages resource pools including resources in the edge of 
+the network and enables cloud service. 
+note – enabled cloud service on the core cloud is provided by a cloud service provider (csp). 
+3.2.3 distributed cloud: distribution of cloud capabilities types to the edge of the network for enabling 
+cloud services with low latency and real time processing on limited bandwidth by interworking among pools 
+of physical or virtual resources. 
+3.2.3 edge c loud: a cloud computing deployed to the edge of the network accessed by cloud service 
+customers (cscs) with small capacity resources enabling cloud service. 
+note 1 – enabled cloud service on the edge cloud is lightweight cloud service provided by a cloud service provider (csp) 
+depending on cloud service category. 
+note 2 – lightweight cloud service refers to a portion of cloud service to reconfigure the functionality of cloud service 
+to fit on edge cloud such as base station and gateway with small capacity resource. 
+3.2.5 regional cloud: a cloud computing hosted from core cloud to particular geographical regions. 
+note – enabled cloud service on the regional cloud is entire or partial cloud service of core cloud provided by a cloud 
+service provider (csp). 
+4 abbreviations and acronyms 
+this recommendation uses the following abbreviations and acronyms: 
+ar augmented reality 
+cc core cloud 
+csc cloud service customer 
+csp cloud service provider 
+ec edge cloud 
+iot internet of things 
+mec multi-access edge computing 
+ml machine learning 
+qos quality of service 
+rc regional cloud 
+sla service level agreement 
+vr virtual reality 
+5 conventions 
+in this recommendation: 
+the keywords " is required to " indicate a requirement which must be strictly followed and from which no 
+deviation is permitted if conformance to this document is to be claimed. 
+the keywords "is recommended" indicate a requirement which is recommended but which is not absolutely 
+required. thus, this requirement need not be present to claim conformance. 

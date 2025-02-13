@@ -1,0 +1,49 @@
+xaas 3 
+ 
+     671 
+other aspects to be managed by the naas csp include physical (hardware) resources (compute, storage and 
+networking resources), resource abstraction and virtual resources. the main functions of resource 
+abstraction are: 
+– abstraction of physical resources allowing decoupling of nfs from underlying physical resources; 
+– allocation of virtual resources from physical resources; 
+– provision of virtual resources (virtual comput e, virtual storage) for execution of nfs as well as 
+virtualized network connectivity resources for interconnecting nfs of a g iven ns or for 
+interconnecting multiple nss. 
+7 functionalities for naas 
+this clause aims to provide the functionalities which are derived from the functional requirements specified 
+in [itu-t y.3512]. the mapping between naas service functional requirements  and the functionalities 
+described in this clause is presented in appendix i. 
+7.1 naas business related functionalities 
+business related functionalities in the naas architecture are m ainly related to the interaction between the 
+naas csc and naas csp regard ing naas products offered by the naas csp. this includes naas csp 
+functionalities related to the selection and purchasing of specific naas products from a product catalogue by 
+the naas csc and all other business related aspects, such as billing. an instance of a naas product represents 
+the subscription to a naas product by a given naas csc. 
+naas business related functionalities cover cloud customer management and cloud product manageme nt 
+functionalities supported by the naas csp as per [itu-t y.3521] where the cloud customer is a naas csc and 
+the cloud product is a naas product. these functionalities include naas csp's functionalities concerned with 
+the lifecycle of naas products offere d to and purchased by naas cscs, i.e. , functionalities related to naas 
+products' order management, performance management, usage statistics, as well as the management of 
+naas product instances delivered to naas cscs. more details about lifecycle management of cloud products 
+and services can be found in [itu-t y.3522]. 
+7.2 functionalities for naas service instantiation 
+7.2.1 description of naas service instantiation 
+these functionalities are responsible for the instantiation of a naas service following the r eceipt of a valid 
+naas product (and associated naas services) order reque st from a naas csc (e.g., a request for a vcdn 
+service or vpnaas service). naas service instantiation functionalities maps the validated naas csc request to 
+specific naas service depl oyment policies. for the requested naas service instance, the naas servic e 
+functionalities requests to the naas service orchestration functionalities (see clause 7.3) to realise the 
+corresponding automatic configuration of required naas resources (includin g network services, network 
+functions and resources) in the different inf rastructure domains of the naas csp (e.g. , in access transport 
+domain, core transport domain and virtualization infrastructure domain) in a programmable manner. 
+naas service instantiation results in the instantiation of naas functional components (i.e. , naas service 
+capabilities and naas administration capabilities components) in the service layer [itu-t y.3502] of the naas 
+csp. for example, in the case of a vpnaas service being instantiated, dedicated vpnaas capabilities functional 
+components will be insta ntiated in the service layer. these vpnaas service and administration capabilities 
+provided by the service layer will allow the naas csc to request for management and configuration changes 
+of a vpn instance to the naas csp and also enable the naas csc to r equest dynam ic vpn network 
+reconfiguration. 
+7.2.2 modelling for naas service instantiation 
+as part of naas service instantiation functionality, a global, coherent and abstrac t view and representation 
+of naas resources (including network resources, network services, network functions and network 
+operational policies) used during the lifetime of the naas service instance will be provided and presented to 

@@ -1,0 +1,52 @@
+1 framework and requirements for cloud computing  
+ 
+362  
+table 9-4 – oasis deliverables and work items related to big data 
+sub  
+group 
+reference 
+(note) 
+name/title status 
+amqp tc [oasis amqp 
+1.0] advanced message queuing protocol version 1.0 published 
+2012 
+mqtt tc [oasis mqtt 
+3.1.1] message queuing telemetry transport version 3.1.1 published 
+2014 
+note – clause i.4 contains a description of each cited reference. 
+9.5 data mining group 
+the data mining group (dmg) is a vendor led consortium that develops data mining related standards. the 
+dmg develops the predictive model markup language (pmml), which is an xml-based file format to provide 
+a way for applications to describe and exchange models produced by data mining and machine learning 
+algorithms. table 9-5 lists the dmg deliverables and work items related to big data. 
+table 9-5 – dmg deliverables and work items related to big data 
+sub  
+group 
+reference 
+(note) 
+name/title status 
+– [dmg pmml 
+4.2.1] predictive model markup language 4.2.1 published 2014 
+note – clause i.5 contains a description of each cited reference. 
+9.6 tm forum 
+the tm forum (formerly telemanagement forum) is a global member association for digital business. the 
+tm forum published "guide book for big data analytics" describing best practices on big data. table 9-6 lists 
+the tm forum deliverables and work items related to big data. 
+table 9-6 – tm forum deliverables and work items related to big data 
+sub  
+group 
+reference 
+(note) 
+name/title status 
+– [tmf bdag] the big data analytics guidebook  published 
+2015 
+note – clause i.6 contains a description of each cited reference. 
+10 gap analysis in big data standardization 
+this clause provides a matrix for gap analysis and the related standardization activities with big data in order 
+to identify standardization gaps. 
+the matrix is composed of two axes. the horizontal axis describes document categories which cover the 
+subject of applications as follows: 
+− general, definition: the standard which provides general descriptions or terms and definitions of 
+the technology; 
+− common requirements, use cases : the standard which provides use cases and derived 
+general/functional requirements; 

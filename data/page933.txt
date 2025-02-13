@@ -1,0 +1,55 @@
+intercloud and interoperability 5 
+ 
+  925 
+ 
+figure 5-3 – structural elements of a service template and their relations (ref. topology and 
+orchestration specification for cloud applications version 1.0 oasis standard) 
+table 5-9 – oasis documents and work items related to cci 
+reference name/title status 
+oasis tosca-v1.0 topology and orchestration specification for cloud applications (tosca) 
+version 1.0 
+published 
+5.1.10 odca 
+the odca is an independent organization created in oct ober 2010 with the assistance of intel corporation 
+to coordinate the development of standards for cloud computing. the organization has created a usage 
+model roadmap featuring 19 prioritized usage models. the usage models provide detailed requirements for 
+data centre and cloud solutions, and will include detailed technical documentation discussing the 
+requirements for technology deployments. 
+four cci related usage models have been published by odca, while odca also initiated a new poc project 
+to determine where the virtual machine (vm) industry currently is in meeting interoperability requirements 
+outlined in the odca vm interoperability usage model in 2013. 
+table 5-10 – odca documents and work items related to cci 
+reference name/title status 
+odca saas_interop_um_rev1.0 software as a service (saas) interoperability published 
+odca paas_interop_um_rev1.0 platform as a service (paas) interoperability published 
+odca vm_interoperability_in_a 
+hybrid_cloud_enviroment_rev1.2 
+virtual machine (vm) interoperability in a hybrid 
+cloud environment 
+published 
+odca vm_interop_poc_white_paper implementing the open data center alliance 
+virtual machine interoperability usage model 
+published 
+a team led by t -systems telekom innovation laboratories, the fzi research te am from the university of 
+karlsruhe and supported by intel corporation carried out a poc project to implement the usages described 
+in the document: implementing the odca virtual machine interoperability usage model. 
+the implementing the odca virtual machine interoperability usage model poc was developed within the 
+odca manageability and services workgroup and includes specifications for interoperability developed by 
+dmtf, an odca partner organization. 
+q suppl.65(14)_f5-3
+service template
+topology template
+relationship
+template
+node
+template
+type for
+type for
+node types
+node type
+capability definitions
+requirement definitions
+interfacesinterfaces
+relationship types
+relationship typepropertiesproperties
+plans

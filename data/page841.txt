@@ -1,0 +1,113 @@
+intercloud and interoperability 5 
+ 
+  833 
+table i.1 – mapping of inter-cloud computing functional requirements  
+and inter-cloud functions 
+functional requirements specified in [itu-t y.3511] inter-cloud functions in this 
+recommendation 
+9.4 resource 
+discovery 
+and 
+reservation 
+allow the reservation of discovered  resources in the 
+peer csps. 
+– 7.3.5 inter-cloud service reservation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.4 resource 
+discovery 
+and 
+reservation 
+allow provisional reservation of discovered resources, 
+i.e., to keep the resources to be used (as candidates), for 
+later acknowledgement (for some of them) or release 
+(for others). 
+– 7.3.5 inter-cloud service reservation 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.4 resource 
+discovery 
+and 
+reservation 
+allow finding of available resources in the peer csps 
+based on different priorities. 
+– 7.3.3 inter-cloud service discovery 
+– 7.3.4 inter-cloud service selection 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.4 resource 
+discovery 
+and 
+reservation 
+allow reservation of available resources in the peer csps 
+on the basis of different priorities 
+– 7.3.5 inter-cloud service reservation 
+– 7.3.4 inter-cloud service selection 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.5 resource 
+set-up and 
+activation 
+the resource set-up and activation capability deals with 
+the set up and activation of reserved resources in the 
+peer csps. this includes connecting to the peer csps via 
+networks, remotely activating (i.e., invoking) software 
+and transferring or copying data to enable the use of 
+resources in the peer csps. 
+– 7.2.2 service provisioning 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+– 7.4.1 authentication and identity 
+management 
+– 7.4.2 authorization and security policy 
+management 
+– 7.4.3 encryption management 
+9.5 resource 
+set-up and 
+activation 
+allow the establishment of reserved resources in a peer 
+csp. 
+– 7.2.2 service provisioning 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.5 resource 
+set-up and 
+activation 
+allow accessing to the configuration and policy settings 
+of reserved resources in the peer csps. 
+– 7.2.2 service provisioning 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.6 cloud 
+services 
+switchover 
+and 
+switchback 
+allow switching over of csc end-user access to a peer 
+csp (acting as primary csp) without manual operation 
+from the csc, in order to allow the csc end user to use 
+services in a similar manner to the way they did before 
+the access was switched over. 
+allow switching back of csc end-user access to the 
+primary csp when this csp has recovered from the 
+reasons that led to the switchover (e.g., a disaster or 
+load distribution between peer csps is no longer 
+needed).  
+– 7.3.1 peer csp management 
+– 7.2.7 incident and problem 
+management 
+– 7.2.5 service automation 
+– 7.3.7 inter-cloud capabilities adaptation 
+– 7.4.1 authentication and identity 
+management 
+– 7.4.2 authorization and security policy 
+management 
+– 7.4.3 encryption management 
+9.7 resource 
+release 
+allow updating of the peer csp resource configuration 
+information. 
+– 7.2.3 monitoring and reporting 
+– 7.2.8 peer service management 
+– 7.3.7 inter-cloud capabilities adaptation 
+9.7 resource 
+release 
+allow releasing by the csp of resources reserved, 
+activated or set up in the peer csps. 
+– 7.3.6 inter-cloud service release 
+– 7.3.7 inter-cloud capabilities adaptation 

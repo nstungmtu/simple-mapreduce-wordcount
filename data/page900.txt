@@ -1,0 +1,61 @@
+5 intercloud and interoperability  
+ 
+892  
+table ii.6 – test case: vm reservation 
+vm reservation test description 
+test purpose to verify that the csc reserves available computing resources (cpu, memory) for a 
+particular vm before it is initiated. 
+reference [itu-t y.3513] clause 7.1.9 
+test sequence step type description result 
+1 stimulus the csc configures vm reservation, which includes the 
+configuration of guaranteed minimum allocation of cpu and 
+memory for a specified vm, called vm a. 
+ 
+2 stimulus the csc runs an application to perform heavy consumption 
+of cpu and memory on other vms hosted in the same host 
+except for vm a. consumption of cpu and memory is close 
+to the amount of the host computing resource. 
+ 
+3 stimulus the csc performs heavy consumption of cpu and memory 
+on vm a. 
+ 
+4 check cpu and memory resources reserved for vm a are not 
+occupied by other vms.  
+ 
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 
+ii.1.7 test case: vm image 
+table ii.7 shows the test case for vm image. 
+table ii.7 – test case: vm image 
+vm image test description 
+test purpose to verify that the csc creates a new vm by vm image, which consists of infrastructure 
+configuration and csp data, csc data or both. 
+reference [itu-t y.3513] clause 7.1.10 
+test sequence step type description result 
+1 stimulus the csc creates an image, called image a. image a is 
+converted from existing vm1. 
+ 
+2 stimulus the csc creates a vm based on image a.  
+3 check new vm (vm2) can be created based on image a. the 
+configuration, csp data and csc data of new vms are 
+consistent with vm1.  
+ 
+4 stimulus the csc exports image a as exported image in different 
+supporting format, such as qcow2, vmdk, etc.  
+ 
+5 stimulus the csc imports the exported image as image b.  
+6 stimulus the csc creates a vm based on image b.  
+7 check a new vm can be created based on image b. the 
+configuration, csp data and csc data of new vms created 
+based on the vm image are consistent with the vm image.  
+ 
+8 stimulus the csc updates image b by modifying the name of the 
+image. 
+ 
+9 check the name of the image changes to a specified name.  
+10 stimulus the csc deletes image b.  
+11 check the vms created which are based on image b still exist.  
+test verdict it is deemed as successfully terminated if all the checks are successful, otherwise it is 
+deemed as failed. 
+ 

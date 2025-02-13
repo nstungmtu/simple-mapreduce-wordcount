@@ -1,0 +1,58 @@
+ framework and requirements for cloud computing 1 
+ 
+   403 
+table 12-2 – analysis of itu-t sg11 deliverables 
+ general, 
+definition 
+requirements 
+use cases 
+architec-
+ture 
+api, 
+interface, 
+profile 
+data model, 
+format, 
+schema 
+others 
+testing itu-t q.4040     itu-t q.4041.1, 
+itu-t q.4042.1,  
+itu-t q.3914 
+others       
+13 itu-t sg16 
+table 13-1 provides a list of itu-t sg16 deliverables associated with cloud computing. 
+table 13-1– itu-t sg16 deliverables 
+title of deliverable current status starting 
+date target date 
+itu-t h.248.cloud, gateway control protocol: 
+cloudification of packet gateways 
+draft recommendation 07/2014 12/2018 
+itu-t f.743.2, requirements for cloud storage in visual 
+surveillance 
+recommendation 03/2015 07/2016 
+itu-t h.626.2, architecture for cloud storage in video 
+surveillance 
+recommendation 12/2015 12/2017 
+• itu-t h.248.cloud: this recommendation does not define any new signalling extensions for the 
+itu-t h.248 gateway control protocol. the purpose of this recommendation is to provide some kind 
+of guidance to the specification of itu -t h.248 profiles for itu -t h.248 gateways i n cloud-based 
+network solutions. 
+ uri: http://www.itu.int/itu-t/workprog/wp_item.aspx?isn=13278 
+• itu-t f.743.2 : the purpose of this recommendation is to define the cloud storage service 
+requirements in visual surveillance. cloud storage enables the service users to have ubiquitous, 
+convenient and on -demand network access to a shared pool of configurable storage resources, 
+which can be rapidly provisioned and released with minimal management effort or service-provider 
+interaction. cloud storage can realize flexible and reliable data storage for large -scale visual 
+surveillance, and its components are modularized and allocated dynamically based on real usage. 
+this recommendation provides the application scenarios and the requirements for cloud storage in 
+visual surveillance. 
+ uri: http://www.itu.int/itu-t/recommendations/rec.aspx?rec=12895 
+• itu-t h.626.2: this recommendation defines a cloud storage architecture in visual surveillance. 
+cloud storage enables the service users to have ubiquitous, convenient and on -demand network 
+access to a shared pool of configurable storage resources, which can be rapidl y provisioned and 
+released with minimal management effort or service-provider interaction. cloud storage can realize 
+flexible and reliable data storage for large -scale visual surveillance, and its components are 
+modularized and allocated dynamically based on real usage. this recommendation provides the 
+architecture, entities, reference points and service control flow for cloud storage in visual 
+surveillance. 
+ uri: https://www.itu.int/itu-t/recommendations/rec.aspx?rec=13436 

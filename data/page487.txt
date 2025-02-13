@@ -1,0 +1,49 @@
+cloud computing management 2 
+ 
+  479 
+to be instantiated and become available for use by the cloud service users. in other words, a cloud application 
+needs to be executed to make one or more cloud services available. 
+cloud service providers need to increasingly offer multi -cloud platform solutions to suppor t the above 
+scenarios. such solutions will need to be flexible and effective in managing resources acro ss multiple cloud 
+service providers [itu-t y.3501]. 
+these solutions can be realized using cloud services, delivered through cloud computing capabilities with 
+reusable services. cloud service providers need to develop a deep insight into, and understanding of, the run-
+time aspects of service delivery as well as the management o f these services and the resources required to 
+deliver them. 
+therefore, there is a need for a common concept for end to end resource management across multiple cloud 
+service providers. 
+complex, media -rich, composite services use a variety of both telecommu nication and information 
+technology (it) infrastructures and are composed of individual service components that may be acquired 
+from, or exposed to, third parties. 
+6.2 service delivery management structure 
+the framework described in this recommendation can  be used to enable the delivery of cloud services, 
+independent of the underlying software or network technologies. this framework, which is a service delivery 
+management structure, needs to address the full cloud services lifecycle, covering such important use cases 
+as service composition, aggregation and service catalogues. 
+management of cloud servi ces needs to provide a framework for the essential building blocks required to 
+manage the delivery of cloud services and foster the basis for detailed service delivery management. 
+one objective is to provide a means to allow consistent end to end managemen t, including accounting, of 
+services exposed by and across, domains and platforms of different cloud service providers. a standard 
+framework and best practices are needed to support business practices associated with multiple provider 
+cooperation throughout the lifecycle of the service and to foster wide adoption of the standard artefacts in 
+any architecture, technology environment and service domain. 
+achieving consistent maintenance of cloud services sourced from different domains is a challenging task. to 
+address this challenge, an approach that enables and supports consistent management access to the cloud 
+services is desired. such an approach is desired to com plement the service capabilities exposed by the 
+software component's interfaces with additional lifecycle management operations. this approach should 
+also enable reusability of services in different environments, especially in cloud computing. 
+frameworks, architecture, design patterns and best practices are required to realize the above objectives for 
+the cloud service providers. the interfaces of individual service components are not the primary focus as the 
+actual interfaces may vary across different impl ementations, vendor technologies and operator 
+requirements. standard design principles and frameworks are required to allow for the rapid development, 
+deployment and management of composite multi -cloud services provided by the telecommunication 
+industry. 
+this provides a framework to guide architects and developers of cloud services regarding the end to end 
+management of cloud computing resources. 
+6.3 difference between cloud computing and the traditional form of computing 
+there are two principal differences  between cloud computing and the traditional form of computing that 
+make the problem of managing resources associated with cloud services more difficult. one difference is the 
+virtualization of the computing and network resources in the cloud computing ref erence architecture 
+[itu-t y.3502]. the other difference is that multiple cloud service provider domains are increasingly involved 
+in the delivery of cloud services and this environment greatly complicates end to end resource management. 
+  

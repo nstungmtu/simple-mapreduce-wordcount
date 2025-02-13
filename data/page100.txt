@@ -1,0 +1,45 @@
+1 framework and requirements for cloud computing  
+ 
+92  
+the business support systems functional components include:  
+• product catalogue; 
+• account management; 
+• subscription management; 
+• billing; 
+• accounts. 
+9.2.5.4.1 product catalogue 
+the product catalogue functional component provides capabilities for cloud service customers to browse a 
+list of available service offerings  which they can purchase, plus a set of capabilities for the management of 
+the content of the catalogue which are available to staff of the cloud service provider. 
+product catalogue entries consist of technical information about each of the service offerin gs (capabilities 
+provided by the service, interface definitions for the service including available service operations, security 
+information), plus related business information such as pricing or rating. 
+9.2.5.4.2 account management 
+the account management functional component provides capabilities for managing cloud service customer 
+relationships, including: 
+• management of contracts; 
+• subscriptions to cloud services; 
+• entitlements; 
+• service pricing, which can involve customer-specific terms such as discounts; 
+• the policies that apply to the treatment of cloud service customer data. 
+the account management functional component and its related database(s) are subject to stringent requirements for 
+availability and security due to the importance and the sensitivity of the data related to customer accounts. 
+9.2.5.4.3 subscription management 
+the subscription management functional component handles subscriptions from cloud service customers to particular 
+cloud services, aiming to record new or changed subscr iption information from the customer and ensure the delivery 
+of the subscribed service(s) to the customer. 
+9.2.5.4.4 billing 
+the billing functional component has capabilities for: 
+• the metering and rating of the use of cloud services  by cloud service customers  – where metering is the 
+measurement of the consumption of cloud services  by each cloud service customer  and rating is the 
+application of pricing schedules to the metering data.  the form of the metering data depends on the nature 
+of the cloud service and the pricing schedules can involve customer-specific terms (e.g., discounts) and require 
+algorithmic application against the metering data; 
+• the generation of invoices based on t he charges for the use of cloud services created by the metering and 
+rating function, and the transmission of the invoices to the cloud service customers. invoice data is also lodged 
+with the accounts functional component and the account management functional component. 
+9.2.5.4.5 accounts 
+the accounts functional component holds the capabilities relating to general ledger and general accounting functions, 
+including accounts receivable and accounts payable. note that the accounts functional component is used for 
+accounting for the cloud service provider  organization itself and does not deal with the maintenance of individual 
+customer accounts (those are handled by the account management functional component). 

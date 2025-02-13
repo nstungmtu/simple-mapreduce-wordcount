@@ -1,0 +1,126 @@
+xaas 3 
+ 
+  723 
+table i.1 – mapping between requirements, activities and functional components 
+requirements in [itu-t y.3600] activities in 
+[itu-t y.3600] 
+functional 
+components in this 
+recommendation 
+related layers 
+with 
+[itu-t y.3502] 
+<clause 8.5 requirement (2)> 
+it is recommended that the csp:bdap 
+supports different tools or plug-ins with 
+multiple styles of data visualization. 
+visualize data 
+(7.1.2.1) 
+data visualization 
+functional component 
+(7.1.2) 
+service layer 
+<clause 8.5 requirement (3)> 
+it is recommended that the csp:bdap 
+supports customization of the reporting tools. 
+visualize data 
+(7.1.2.1) 
+data visualization 
+functional component 
+(7.1.2) 
+service layer 
+<clause 8.5 requirement (4)> 
+it is recommended that the csp:bdap 
+supports integration of reporting tools with 
+the csc reporting systems. 
+visualize data 
+(7.1.2.1) 
+data visualization 
+functional component 
+(7.1.2) 
+service layer 
+<clause 8.5 requirement (5)> 
+it is recommended that the csp:bdap 
+supports integration of reporting tools with 
+the csc operational systems. 
+visualize data 
+(7.1.2.1) 
+data visualization 
+functional component 
+(7.1.2) 
+service layer 
+<clause 8.2 requirement (1)> 
+it is required for the csp:bdip to support data 
+aggregation. 
+provide data 
+integration 
+(7.1.3.4) 
+data pre-processing 
+functional component 
+(7.1.3) 
+service layer 
+<clause 8.2 requirement (2)> 
+it is recommended that the csp:bdip 
+provides the dedicated resources for pre-
+processing.  
+provide data pre-
+processing 
+(7.1.3.3) 
+data pre-processing 
+functional component 
+(7.1.3) 
+service layer 
+<clause 8.2 requirement (3)> 
+it is recommended that the csp:bdip 
+supports unification of data collected in 
+different formats. 
+provide data pre-
+processing  
+(7.1.3.3) 
+data pre-processing 
+functional component 
+(7.1.3) 
+service layer 
+<clause 8.2 requirement (4)> 
+it is recommended for the csp:bdip to 
+support extraction of data from unstructured 
+data or semi-structured data into structured 
+data.  
+provide data pre-
+processing  
+(7.1.3.3) 
+data pre-processing 
+functional component 
+(7.1.3) 
+service layer 
+<clause 8.1 requirement (2)> 
+it is recommended for the csn: dp to expose 
+data to the csp:bdap by publishing 
+metadata. 
+publish data 
+(7.1.1.2) 
+data catalogue 
+functional component 
+(7.3.3.3) 
+service layer 
+<clause 8.3 requirement (5)> 
+it is recommended for the csn: dp to expose 
+apis for data delivery. 
+perform data 
+storage (7.1.3.2) 
+data storage functional 
+component (7.1.5) service layer 
+<clause 8.4 requirement (1)> 
+it is required for the csp:bdap to support 
+analysis of various data types and formats. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 
+<clause 8.4 requirement (2)> 
+it is required for the csp:bdap to support 
+batch processing. 
+analyze data 
+(7.1.2.2) 
+data analysis functional 
+component (7.1.4) service layer 

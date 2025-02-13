@@ -1,0 +1,31 @@
+cloud computing management 2 
+ 
+  439 
+10.3 functionalities for cloud service management 
+this clause identifies cloud service management functionalities including service fulfilment, service assurance 
+and service repository functionalities. the detailed functionalities for service management are presented in 
+figure 10-4. 
+note – "service order management " corresponds to the process of taking, organizing, tracking and satisfying csc 
+requests for cloud services provided by a csp. 
+ 
+figure 10-4 – functionalities related to cloud service management 
+10.3.1  service fulfilment functionalities 
+this covers a set of functionalities for the fulfilment of cloud services. these functionalities include service 
+order management. 
+10.3.1.1 service order management 
+service order management provides a set of functionalities for the management of cloud services considering 
+csc requirements (e.g., cloud sla). this set includes the following functionalities: 
+1) service order orchestration and distribution. this functionality provides for orchestration across 
+service order management. it decomposes a cloud service order into resource order requests, and 
+then distributes each request to provision the service order. it also provides the functi onality 
+necessary to track and manage these distributed requests, e.g. , tracks the various resource orders 
+until completed, sequences resource order provisioning if required, provides status on the overall 
+service order; 
+2) service assign. this functionality determines the availability of facilities required to support a service; 
+3) service order tracking and lifecycle management. this functionality issues valid and complete service 
+orders, and stores the service order into an appropriate repository; 
+4) service order establishment. this functionality establishes a complete and valid service order. it 
+validates the cloud service order request according to the service catalogue and installed base, and 
+to provisioning rules. it also validates that the cloud service specified on the service order is available 
+and feasible from the csp platform/infrastructure point of view; 
+

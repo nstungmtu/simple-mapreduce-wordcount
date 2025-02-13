@@ -1,0 +1,49 @@
+7 security  
+ 
+1008 
+1 scope 
+this recommendation provides guidelines for cloud service customer (csc) data security in cloud computing, 
+for those cases where the cloud service provider ( csp) is responsible for ensuring that the data is handled 
+with proper security. this is not always the case, since for some cloud services the security of the data is the 
+responsibility of cscs themselves. in other cases, the responsibility may be mixed. 
+for example, in some cases the csp may be responsible for restricting access to the data, while the csc 
+remains responsible for deciding which cloud service users (csus) should have access to it, and the behaviour 
+of any scripts or applications with which the csu processes the data. 
+this recommendation identifies security controls for csc data that can be used in different stages of the full 
+data lifecycle. these security controls can differ when the security level of the csc data changes. therefore, 
+this recommendation provides guidelines on when each control should be used for best security practice. 
+2 references 
+the following itu-t recommendations and other references contain provisions which, through reference in 
+this text, constitute provisions of this recommendation. at the time of publication, the editions indicated 
+were valid. all recommendations and other references are subject to revision; users of this recommendation 
+are therefore e ncouraged to investigate the possibility of applying the most recent edition of the 
+recommendations and other references listed below. a list of the currently valid itu-t recommendations is 
+regularly published. the reference to a document within this recom mendation does not give it, as a stand -
+alone document, the status of a recommendation. 
+[itu-t x.1601] recommendation itu-t x.1601 (2015), security framework for cloud computing. 
+[itu-t x.1631] recommendation itu-t x.1631 (2015) | iso/iec 27017:2015, information 
+technology – security techniques – code of practice for information security 
+controls based on iso/iec 27002 for cloud services. 
+3 definitions 
+3.1 terms defined elsewhere 
+this recommendation uses the following terms defined elsewhere: 
+3.1.1 authentication [b-nist-sp-800-53]: verifying the identity of a user, process, or device, often as a 
+prerequisite to allowing access to resources in an information system. 
+3.1.2 cloud computing [b-itu-t y.3500]: paradigm for enabling network access to a scalable and elastic 
+pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. 
+note – examples of resources include servers, operating systems, networks, software, applications, and storage equipment. 
+3.1.3 cloud service [b-itu-t y.3500]: one or more capabilities offered via cloud computing invoked using 
+a defined interface. 
+3.1.4 cloud service customer [b-itu-t y.3500]: party which is in a business relationship for the purpose of 
+using cloud services. 
+note – a business relationship does not necessarily imply financial agreements.  
+3.1.5 cloud service customer data  [b-itu-t y.3500]: class of data objects under the control, by legal or 
+other reasons, of the cloud service customer that were input to the cloud service, or resulted from exercising 
+the capabilities of the cloud service by or on behalf of the cloud service customer via the published interface 
+of the cloud service. 
+note 1 – an example of legal controls is copyright. 
+note 2 – it may be that the cloud service contains or operates on data that is not cloud service customer data ; this 
+might be data made available by the cloud service providers , or obtained from another source, or it might be publicly 
+available data. however, any output data produced by the actions of the cloud service customer using the capabilities 
+of the cloud service on this data is likely to be cloud service customer data, following the general principles of copyright, 
+unless there are specific provisions in the cloud service agreement to the contrary.  

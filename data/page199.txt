@@ -1,0 +1,91 @@
+framework and requirements for cloud computing 1 
+ 
+   191 
+table i.1 – ocp related specifications  
+family specification summary published  
+open cloudserver ocs 
+chassis manager 
+specification v2.1 
+[b-ocp ocscm] 
+this specification is an addendum to the ocs open 
+cloudserver chassis management v2.0 
+specification. it defines the requirements for the 
+upgrade to the chassis manager v1.0 made 
+necessary by end of production of the cpu. 
+2016 
+open cloudserver ocs 
+blade specification v2.1 
+[b-ocp ocsb] 
+this document is intended for designers and 
+engineers who will be building blades for an ocs 
+system. 
+2016 
+open cloudserver ocs 
+solid state drive v2.1 
+[b-ocp ocsssd] 
+this specification, open cloudserver solid state 
+drive, ocs ssd, describes the low-cost, 
+high-performance flash-based storage devices 
+deployed first in the open cloudserver ocs blade 
+v2 specification. the ocs blade v2 supports four 
+pci-express riser cards and eight open cloudserver 
+solid state drive m.2 modules. the table 1 briefly 
+describes the required features. 
+2015 
+open cloudserver ocs 
+power supply v2.0 
+[b-ocp ocsps] 
+this specification, open cloudserver chassis power 
+supply version 2.0, describes the power supply 
+family requirements for the windows cloud server 
+system. the mechanical interface and electrical 
+interface is identical between power supply 
+options to enable a common slot, universal, 
+modular foundation power supply system to 
+enable the microsoft windows cloud server 
+systems. 
+2015 
+open cloudserver sas 
+mezzanine i/o 
+specification v1.0 
+[b-ocp ocssas] 
+this document outlines specifications for the open 
+cloudserver storage attached scsi (sas) 
+mezzanine card. 
+2015 
+open cloudserver jbod 
+specification v1.0 
+[b-ocp ocsjbod] 
+this document provides the technical 
+specifications for the design of the 6g half-width 
+jbod blade for the open cloudserver system. 
+2015 
+open cloudserver ocs 
+tray mezzanine 
+specification v2.0 
+[b-ocp ocstray] 
+this specification, open cloudserver ocs tray 
+mezzanine version 2.0, describes the physical and 
+interface requirements for the open cloudserver 
+(ocs) tray mezzanine card. the mezzanine card will 
+be installed on the tray backplane and will have a 
+peripheral component interconnect express (pcie) 
+x16 gen3 interface. this interface can either be 
+used as one x16, two x8, or four x4 channels. 
+2015 
+open cloudserver chassis 
+specification v2.0 
+[b-ocp ocsc] 
+describes the hardware used in the version 2.0 
+(v2.0) ocs system, including the chassis, tray and 
+systems management.  
+2015 
+open cloudserver ocs nic 
+mezzanine specification 
+v2.0 [b-ocp ocsnic] 
+this specification, open cloudserver nic 
+mezzanine version 2.0, describes the physical and 
+interface requirements for the open cloudserver 
+(ocs) nic mezzanine card that to be installed on 
+an ocs blade. 
+2014 
