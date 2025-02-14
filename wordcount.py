@@ -1,6 +1,7 @@
 import string
 import collections
 import multiprocessing
+import time
 
 STOP_WORDS = None
 TR = None
@@ -19,12 +20,12 @@ def words_in_file(fileName):
                 word = word.lower()
                 if word.isalpha() and word not in STOP_WORDS:
                     output.append( (word, 1) )
+        time.sleep(0.05)
     return output
 
 if __name__ == '__main__':
     import operator
     import glob
-    import time
     input_files = glob.glob('data/*.txt')
     #Cache all input files to memory
     for file in input_files:
