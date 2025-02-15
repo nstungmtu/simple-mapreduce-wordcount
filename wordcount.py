@@ -24,7 +24,6 @@ def words_in_file(fileName):
     return output
 
 if __name__ == '__main__':
-    import operator
     import glob
     input_files = glob.glob('data/*.txt')
     #Cache all input files to memory
@@ -39,9 +38,12 @@ if __name__ == '__main__':
         print(multiprocessing.current_process().name, 'reading', file)
         for k,v in words_in_file(file):
             word_occurances[k].append(v)
-    word_counts = [(k, sum(v)) for k,v in word_occurances.items()]
-    word_counts.sort(key=operator.itemgetter(1), reverse=True)
-    print('\nTOP 20 WORDS BY FREQUENCY\n')
+    #word_counts = [(k, sum(v)) for k,v in word_occurances.items()]
+    word_counts = []
+    for k,v in word_occurances.items():
+        word_counts.append((k,sum(v)))
+    word_counts.sort(key = lambda item: item[1], reverse=True)
+    print('\n20 từ xuất hiện nhiều nhất\n')
     top20 = word_counts[:20]
     longest = max(len(word) for word, count in top20)
     for word, count in top20:

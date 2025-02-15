@@ -50,7 +50,6 @@ def count_words(item):
     return (word, sum(occurances))
 
 if __name__ == '__main__':
-    import operator
     import glob
     input_files = glob.glob('data/*.txt')
     #Cache all input files to memory
@@ -62,7 +61,7 @@ if __name__ == '__main__':
     
     mapper = SimpleMapReduce(words_in_file, count_words)
     word_counts = mapper(input_files)
-    word_counts.sort(key=operator.itemgetter(1), reverse=True)
+    word_counts.sort(key = lambda item: item[1], reverse=True)
     print('\nTOP 20 WORDS BY FREQUENCY\n')
     top20 = word_counts[:20]
     longest = max(len(word) for word, count in top20)
