@@ -7,17 +7,17 @@ import time
 
 STOP_WORDS = None
 TR = None
-# read the stopwords file
+# Đọc tập tin stopwords
 with open('stopwords.txt', 'rt', encoding='utf8') as f:
     STOP_WORDS = set(f.read().split())
-# create a translation table to remove punctuation
+# tạo bảng dịch thuật để loại bỏ dấu câu (thay dấu câu bằng khoảng trắng)
 TR = str.maketrans(string.punctuation, ' ' * len(string.punctuation))
 
 class SimpleMapReduce(object):
     def __init__(self, map_func, reduce_func, num_workers=None):
         self.map_func = map_func
         self.reduce_func = reduce_func
-        # create a pool of workers
+        # Tạo số lượng worker tương ứng với số lượng CPU
         self.workers = multiprocessing.Pool(num_workers)
     
     def shuffle(self, mapped_values):
